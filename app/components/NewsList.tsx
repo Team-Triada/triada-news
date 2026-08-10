@@ -119,37 +119,39 @@ export default function NewsList({ items }: { items: NewsItem[] }) {
       />
 
       {/* Filters */}
-      <div className="flex flex-wrap items-center gap-2.5">
-        <select
-          value={source}
-          onChange={(e) => setFilter(() => setSource(e.target.value))}
-          className="form-select"
-        >
-          <option value="all">All sources ({items.length})</option>
-          {sources.map(([name, count]) => (
-            <option key={name} value={name}>
-              {name} ({count})
-            </option>
-          ))}
-        </select>
+      <div className="flex flex-col gap-2.5 sm:flex-row sm:flex-wrap sm:items-center">
+        <div className="grid grid-cols-2 gap-2.5 sm:contents">
+          <select
+            value={source}
+            onChange={(e) => setFilter(() => setSource(e.target.value))}
+            className="form-select w-full sm:w-auto"
+          >
+            <option value="all">All sources ({items.length})</option>
+            {sources.map(([name, count]) => (
+              <option key={name} value={name}>
+                {name} ({count})
+              </option>
+            ))}
+          </select>
 
-        <select
-          value={category}
-          onChange={(e) => setFilter(() => setCategory(e.target.value))}
-          className="form-select"
-        >
-          <option value="all">All categories</option>
-          {categories.map(([name, count]) => (
-            <option key={name} value={name}>
-              {name} ({count})
-            </option>
-          ))}
-        </select>
+          <select
+            value={category}
+            onChange={(e) => setFilter(() => setCategory(e.target.value))}
+            className="form-select w-full sm:w-auto"
+          >
+            <option value="all">All categories</option>
+            {categories.map(([name, count]) => (
+              <option key={name} value={name}>
+                {name} ({count})
+              </option>
+            ))}
+          </select>
+        </div>
 
         <select
           value={dateRange}
           onChange={(e) => setFilter(() => setDateRange(e.target.value as DateRange))}
-          className="form-select"
+          className="form-select w-full sm:w-auto"
         >
           {DATE_RANGES.map((r) => (
             <option key={r} value={r}>
@@ -158,10 +160,13 @@ export default function NewsList({ items }: { items: NewsItem[] }) {
           ))}
         </select>
 
-        <div className="flex items-center gap-1.5 rounded-full p-1" style={{ background: "var(--card)", border: "1px solid var(--border)" }}>
+        <div
+          className="flex items-center gap-1 overflow-x-auto rounded-full p-1"
+          style={{ background: "var(--card)", border: "1px solid var(--border)" }}
+        >
           <button
             onClick={() => setFilter(() => setSeverity("all"))}
-            className="rounded-full px-2.5 py-1 text-[11px] font-medium"
+            className="shrink-0 rounded-full px-2.5 py-1.5 text-[11px] font-medium"
             style={{ color: severity === "all" ? "#fff" : "#7a8190", background: severity === "all" ? "var(--muted)" : "transparent", cursor: "pointer" }}
           >
             All
@@ -170,7 +175,7 @@ export default function NewsList({ items }: { items: NewsItem[] }) {
             <button
               key={s}
               onClick={() => setFilter(() => setSeverity(s))}
-              className="flex items-center gap-1 rounded-full px-2.5 py-1 text-[11px] font-medium"
+              className="flex shrink-0 items-center gap-1 rounded-full px-2.5 py-1.5 text-[11px] font-medium"
               style={{ color: severity === s ? "#fff" : "#7a8190", background: severity === s ? "var(--muted)" : "transparent", cursor: "pointer" }}
             >
               <SeverityDot severity={s} size={6} />
@@ -262,7 +267,7 @@ export default function NewsList({ items }: { items: NewsItem[] }) {
           </ul>
 
           {totalPages > 1 && (
-            <div className="flex items-center justify-between pt-2">
+            <div className="flex flex-wrap items-center justify-between gap-3 pt-2">
               <button className="btn-secondary" onClick={() => goTo(safePage - 1)} disabled={safePage === 1}>
                 ← Prev
               </button>

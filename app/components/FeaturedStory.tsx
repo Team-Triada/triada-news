@@ -34,13 +34,19 @@ export default function FeaturedStory({ item }: { item: NewsItem }) {
         ))}
       </div>
 
-      <div className="mt-5 flex flex-wrap items-center justify-between gap-3 text-xs text-muted-foreground">
+      <div className="mt-5 flex flex-col gap-3 text-xs text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
         <span>
           {item.source} · {item.readTimeMin} min read
         </span>
-        <div className="flex items-center gap-3">
+        <div className="flex flex-wrap items-center gap-3">
           <ShareButtons link={item.link} title={item.title} />
-          <a href={item.link} target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ padding: "8px 18px", fontSize: 13 }}>
+          <a
+            href={item.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-primary"
+            style={{ padding: "8px 18px", fontSize: 13 }}
+          >
             Read →
           </a>
         </div>

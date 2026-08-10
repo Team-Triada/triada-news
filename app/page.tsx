@@ -9,7 +9,7 @@ export const revalidate = 3600;
 export default function Home() {
   return (
     <div className="min-h-screen bg-background dot-grid">
-      <main className="mx-auto flex w-full flex-col gap-8 px-8 py-16" style={{ maxWidth: 1240 }}>
+      <main className="mx-auto flex w-full flex-col gap-6 px-4 py-10 sm:gap-8 sm:px-8 sm:py-16" style={{ maxWidth: 1240 }}>
         <header className="flex flex-col gap-3">
           <h1 className="text-4xl font-medium tracking-tight text-foreground">
             News

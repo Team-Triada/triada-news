@@ -179,7 +179,13 @@ h1, h2, h3, h4, h5, h6 {
   font-family: inherit;
   cursor: pointer;
   outline: none;
-  max-width: 220px;
+  min-height: 40px;
+}
+
+@media (min-width: 640px) {
+  .form-select {
+    max-width: 220px;
+  }
 }
 
 .form-select:focus {

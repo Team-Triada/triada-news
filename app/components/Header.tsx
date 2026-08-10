@@ -23,16 +23,17 @@ export default function Header() {
       }}
     >
       <nav
-        className="flex items-center justify-between gap-4"
-        style={{ maxWidth: 1240, margin: "0 auto", padding: "0 32px", height: 72 }}
+        className="flex items-center justify-between gap-3 px-4 sm:px-8"
+        style={{ maxWidth: 1240, margin: "0 auto", height: 64 }}
       >
-        <Link href="/" className="flex items-center gap-3 shrink-0" style={{ textDecoration: "none" }} aria-label="TRIADA home">
+        <Link href="/" className="flex min-w-0 items-center gap-2 sm:gap-3 shrink-0" style={{ textDecoration: "none" }} aria-label="TRIADA home">
           <img
             src="/images/Triada_typo.png"
             alt="TRIADA"
-            style={{ height: 18, width: "auto", objectFit: "contain" }}
+            style={{ height: 16, width: "auto", objectFit: "contain" }}
           />
           <span
+            className="hidden sm:inline"
             style={{
               fontFamily: "'Telegraf', var(--font-inter), sans-serif",
               fontSize: 13,
@@ -49,8 +50,8 @@ export default function Header() {
           href="https://triada.in"
           target="_blank"
           rel="noopener noreferrer"
-          className="btn-primary"
-          style={{ fontSize: 13.5, padding: "8px 18px", minHeight: "unset" }}
+          className="btn-primary shrink-0"
+          style={{ fontSize: 13, padding: "8px 14px", minHeight: "unset" }}
         >
           triada.in →
         </a>

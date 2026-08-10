@@ -6,15 +6,15 @@ export default function BreakingBanner({ item }: { item: NewsItem }) {
       href={item.link}
       target="_blank"
       rel="noopener noreferrer"
-      className="flex flex-wrap items-center justify-between gap-3 rounded-xl px-5 py-3.5 no-underline"
+      className="flex flex-col gap-3 rounded-xl px-4 py-3.5 no-underline sm:flex-row sm:items-center sm:justify-between sm:px-5"
       style={{
         background: "linear-gradient(90deg, rgba(255,60,60,0.16), rgba(255,60,60,0.04))",
         border: "1px solid rgba(255,60,60,0.35)",
       }}
     >
-      <div className="flex items-center gap-3">
+      <div className="flex flex-wrap items-center gap-2 sm:gap-3">
         <span
-          className="rounded-full px-2.5 py-1 text-[11px] font-bold tracking-wide"
+          className="shrink-0 rounded-full px-2.5 py-1 text-[11px] font-bold tracking-wide"
           style={{ background: "#ff3c3c", color: "#0c0c0e" }}
         >
           BREAKING

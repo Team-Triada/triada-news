@@ -32,9 +32,10 @@ export default function ShareButtons({ link, title }: { link: string; title: str
     background: "transparent",
     border: "1px solid var(--border)",
     borderRadius: 8,
-    padding: "5px 10px",
-    fontSize: 11,
+    padding: "8px 12px",
+    fontSize: 12,
     cursor: "pointer",
+    minHeight: 36,
   };
 
   return (
@@ -45,15 +46,6 @@ export default function ShareButtons({ link, title }: { link: string; title: str
       <button onClick={share} style={btnStyle} title="Share">
         Share
       </button>
-      <a
-        href={link}
-        target="_blank"
-        rel="noopener noreferrer"
-        style={{ ...btnStyle, textDecoration: "none", display: "inline-block" }}
-        title="Open original"
-      >
-        Open Original ↗
-      </a>
     </div>
   );
 }

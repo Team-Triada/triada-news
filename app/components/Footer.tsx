@@ -28,7 +28,7 @@ export default function Footer() {
       <footer style={{ background: "#08090b", borderTop: "1px solid rgba(255,255,255,0.05)" }}>
         <div style={{ height: 2, background: "linear-gradient(90deg, transparent 0%, #ff3c3c 30%, #ff6040 60%, transparent 100%)" }} />
 
-        <div style={{ maxWidth: 1280, margin: "0 auto", padding: "48px 28px 20px" }}>
+        <div className="px-5 pt-8 pb-5 sm:px-7 sm:pt-12" style={{ maxWidth: 1280, margin: "0 auto" }}>
           <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "space-between", gap: 32 }}>
             <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
               <a href="https://triada.in" aria-label="TRIADA home" style={{ display: "inline-block", textDecoration: "none" }}>
@@ -75,13 +75,15 @@ export default function Footer() {
         </div>
       </footer>
       <div style={{ background: "#08090b", borderTop: "1px solid rgba(255,255,255,0.04)" }}>
-        <div style={{
-          maxWidth: 1280, margin: "0 auto", padding: "14px 28px",
-          display: "flex", alignItems: "center", justifyContent: "space-between",
-          flexWrap: "wrap", gap: 10,
-          fontSize: 11, color: "#5a6270",
-          letterSpacing: "0.06em",
-        }}>
+        <div
+          className="px-5 py-3.5 sm:px-7"
+          style={{
+            maxWidth: 1280, margin: "0 auto",
+            display: "flex", alignItems: "center", justifyContent: "space-between",
+            flexWrap: "wrap", gap: 10,
+            fontSize: 11, color: "#5a6270",
+            letterSpacing: "0.06em",
+          }}>
           <span>© 2026 TRIADA. All Rights Reserved.</span>
           <span style={{
             background: "linear-gradient(90deg, #ff3c3c, #ff8040)",
