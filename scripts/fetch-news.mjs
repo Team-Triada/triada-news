@@ -39,7 +39,6 @@ const FEEDS = [
   { name: "GitHub Blog Security", url: "https://github.blog/tag/security/feed/" },
   { name: "Check Point Research", url: "https://research.checkpoint.com/feed/" },
   { name: "Kaspersky Securelist", url: "https://securelist.com/feed/" },
-  { name: "IBM Security Intelligence", url: "https://securityintelligence.com/feed/" },
   { name: "Red Hat Security", url: "https://access.redhat.com/blogs/766093/feed" },
   { name: "Canonical Ubuntu Security", url: "https://ubuntu.com/security/notices/rss.xml" },
   { name: "Debian Security", url: "https://www.debian.org/security/dsa-long.rdf" },
