@@ -1,36 +1,95 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<p align="center">
+  <img src="public/images/Triada_typo.png" alt="TRIADA" width="220" />
+</p>
 
-## Getting Started
+<h1 align="center">News</h1>
 
-First, run the development server:
+<p align="center">
+  Cybersecurity headlines, aggregated and enriched, updated every hour.
+</p>
+
+---
+
+## What it does
+
+TRIADA News pulls headlines from over 30 cybersecurity sources (vendor
+advisories, threat research blogs, national CERTs, cloud security bulletins)
+and enriches every article automatically:
+
+- **Severity classification** (critical, high, medium, news) based on
+  content signals and CISA's Known Exploited Vulnerabilities catalog
+- **CVE extraction and tracking**, with dedicated pages per CVE listing
+  every article that mentions it
+- **Category tagging** (ransomware, zero day, vendor advisory, threat
+  intel, and more), auto-detected per article
+- **AI-generated summaries** covering why a story matters, affected
+  products, and recommended action, with a deterministic fallback when
+  no AI provider is configured
+- **KEV and proof-of-concept detection** to surface actively exploited
+  or weaponized vulnerabilities first
+
+The homepage highlights the top breaking story, a daily digest of
+critical activity, and a searchable, filterable feed of everything else.
+
+## Stack
+
+- [Next.js](https://nextjs.org) (App Router, Turbopack) and React 19
+- TypeScript and Tailwind CSS
+- Google Gemini for AI enrichment, with an Anthropic Claude fallback path
+- GitHub Actions for the hourly data refresh
+
+## How data flows
+
+1. `scripts/fetch-news.mjs` runs on a scheduled GitHub Action, once an hour
+2. It pulls every configured RSS/Atom feed, deduplicates against the
+   existing dataset, and hands new articles to the enrichment pipeline
+3. `scripts/lib/enrich.mjs` classifies severity and category, extracts
+   CVEs, cross-references the CISA KEV catalog, and generates a
+   structured AI summary for each new article
+4. The result is written to `data/news.json` and committed back to the
+   repository
+5. The Next.js site reads that file at build time and renders statically
+
+No database, no runtime API calls from the browser. The site is fully
+static once built.
+
+## Getting started
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+To run the data pipeline locally:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+node scripts/fetch-news.mjs
+```
 
-## Learn More
+Set `GEMINI_API_KEY` (or `ANTHROPIC_API_KEY`) in a local `.env` file to
+enable AI-generated summaries. Without a key, the pipeline falls back to
+a rule-based summary so the site still works end to end.
 
-To learn more about Next.js, take a look at the following resources:
+## Project structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+app/                  Routes, layouts, and UI components
+scripts/
+  fetch-news.mjs       Feed fetching and pipeline entry point
+  lib/enrich.mjs        Severity, category, CVE, and AI enrichment
+  lib/env.mjs            Local .env loader for the pipeline
+data/news.json         Generated dataset consumed by the site
+.github/workflows/      Hourly data refresh automation
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deployment
 
-## Deploy on Vercel
+Any static-friendly host works. On Vercel, connect the repository and
+every commit to `main`, including the hourly automated data update,
+triggers a new deployment.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built and maintained by [TRIADA](https://triada.in).
