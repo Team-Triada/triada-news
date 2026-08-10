@@ -16,15 +16,18 @@ export default function DailyDigest({ items }: { items: NewsItem[] }) {
   ];
 
   return (
-    <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
-      {stats.map((s) => (
-        <div key={s.label} className="card-surface flex flex-col items-center gap-1 py-4">
-          <span className="text-2xl font-medium text-cyan" style={{ fontFamily: "'Telegraf', var(--font-inter), sans-serif" }}>
-            {s.value}
-          </span>
-          <span className="text-[11px] uppercase tracking-widest text-muted-foreground">{s.label}</span>
-        </div>
-      ))}
+    <div className="flex flex-col gap-3">
+      <span className="text-xs uppercase tracking-widest text-muted-foreground">Last 24 hours</span>
+      <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
+        {stats.map((s) => (
+          <div key={s.label} className="card-surface flex flex-col items-center gap-1 py-4">
+            <span className="text-2xl font-medium text-cyan" style={{ fontFamily: "'Telegraf', var(--font-inter), sans-serif" }}>
+              {s.value}
+            </span>
+            <span className="text-[11px] uppercase tracking-widest text-muted-foreground">{s.label}</span>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
