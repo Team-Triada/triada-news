@@ -1,9 +1,14 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function ShareButtons({ link, title }: { link: string; title: string }) {
   const [copied, setCopied] = useState(false);
+  const [canNativeShare, setCanNativeShare] = useState(false);
+
+  useEffect(() => {
+    setCanNativeShare(typeof navigator !== "undefined" && !!navigator.share);
+  }, []);
 
   const copyLink = async () => {
     try {
@@ -16,14 +21,10 @@ export default function ShareButtons({ link, title }: { link: string; title: str
   };
 
   const share = async () => {
-    if (navigator.share) {
-      try {
-        await navigator.share({ title, url: link });
-      } catch {
-        // user cancelled share, ignore
-      }
-    } else {
-      await copyLink();
+    try {
+      await navigator.share({ title, url: link });
+    } catch {
+      // user cancelled share, ignore
     }
   };
 
@@ -40,12 +41,15 @@ export default function ShareButtons({ link, title }: { link: string; title: str
 
   return (
     <div className="flex items-center gap-1.5">
-      <button onClick={copyLink} style={btnStyle} title="Copy link">
-        {copied ? "Copied ✓" : "Copy Link"}
-      </button>
-      <button onClick={share} style={btnStyle} title="Share">
-        Share
-      </button>
+      {canNativeShare ? (
+        <button onClick={share} style={btnStyle} title="Share">
+          Share
+        </button>
+      ) : (
+        <button onClick={copyLink} style={btnStyle} title="Copy link">
+          {copied ? "Copied ✓" : "Copy Link"}
+        </button>
+      )}
     </div>
   );
 }

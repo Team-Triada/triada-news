@@ -18,7 +18,13 @@ export default function Home() {
             Cybersecurity headlines, summarized. Updated hourly.
             {updatedAt && (
               <span className="ml-2 text-sm text-muted-foreground/70">
-                Last update: {new Date(updatedAt).toLocaleString()}
+                Last update:{" "}
+                {new Date(updatedAt).toLocaleString("en-US", {
+                  timeZone: "UTC",
+                  dateStyle: "medium",
+                  timeStyle: "short",
+                })}{" "}
+                UTC
               </span>
             )}
           </p>
