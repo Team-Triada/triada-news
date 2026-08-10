@@ -1,26 +1,187 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+  font-family: 'Telegraf';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Telegraf-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Telegraf';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url('/fonts/Telegraf-UltraLight.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Telegraf';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('/fonts/Telegraf-UltraBold.woff') format('woff');
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-inter);
+  --color-border: var(--border);
+  --color-card: var(--card);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+  --triada-cyan: #ff3c3c;
+  --triada-cyan-dim: rgba(255, 60, 60, 0.15);
+  --background: #0c0c0e;
+  --foreground: #e8eaed;
+  --card: #111315;
+  --border: rgba(255, 255, 255, 0.06);
+  --border-strong: rgba(255, 255, 255, 0.12);
+  --muted: #1a1c1f;
+  --muted-foreground: #6b7380;
+  --accent: var(--triada-cyan);
 }
 
 body {
+  font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Telegraf', var(--font-inter), sans-serif;
+}
+
+::selection {
+  background: var(--triada-cyan);
+  color: #000;
+}
+
+:focus-visible {
+  outline: 2px solid rgba(255, 60, 60, 0.7);
+  outline-offset: 2px;
+}
+
+.text-cyan {
+  color: var(--triada-cyan);
+}
+
+.card-surface {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  transition: border-color 0.3s ease;
+}
+
+.card-surface:hover {
+  border-color: var(--border-strong);
+}
+
+.pill-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 14px;
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  font-size: 12px;
+  color: #c8cdd5;
+  background: var(--card);
+}
+
+.dot-grid {
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.12) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(180deg, #e83535 0%, #c42424 100%);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 13px 28px;
+  border-radius: 100px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 2px 0 #8a1010, 0 4px 16px rgba(200,30,30,0.35);
+  letter-spacing: 0.01em;
+  transition: filter 0.15s, box-shadow 0.15s;
+  white-space: nowrap;
+}
+.btn-primary:hover {
+  filter: brightness(1.1);
+  box-shadow: 0 2px 0 #8a1010, 0 6px 22px rgba(200,30,30,0.45);
+}
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--card);
+  color: var(--foreground);
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 100px;
+  border: 1px solid var(--border);
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+  white-space: nowrap;
+}
+.btn-secondary:hover:not(:disabled) {
+  border-color: var(--border-strong);
+  background: var(--muted);
+}
+.btn-secondary:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.form-input {
+  width: 100%;
+  background: var(--card);
+  border: 1px solid var(--border);
+  color: var(--foreground);
+  padding: 12px 16px;
+  border-radius: 10px;
+  font-family: inherit;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.form-input:focus {
+  border-color: var(--triada-cyan);
+  box-shadow: 0 0 0 3px rgba(255, 60, 60, 0.15);
+}
+
+.form-input::placeholder {
+  color: var(--muted-foreground);
+}
+
+.form-select {
+  background: var(--card);
+  color: #c8cdd5;
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  padding: 8px 14px;
+  font-size: 13px;
+  font-family: inherit;
+  cursor: pointer;
+  outline: none;
+  max-width: 220px;
+}
+
+.form-select:focus {
+  border-color: var(--triada-cyan);
 }
