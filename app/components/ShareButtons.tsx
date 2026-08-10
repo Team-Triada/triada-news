@@ -1,14 +1,14 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState, useSyncExternalStore } from "react";
+
+const noopSubscribe = () => () => {};
+const getNativeShareSnapshot = () => typeof navigator !== "undefined" && !!navigator.share;
+const getServerSnapshot = () => false;
 
 export default function ShareButtons({ link, title }: { link: string; title: string }) {
   const [copied, setCopied] = useState(false);
-  const [canNativeShare, setCanNativeShare] = useState(false);
-
-  useEffect(() => {
-    setCanNativeShare(typeof navigator !== "undefined" && !!navigator.share);
-  }, []);
+  const canNativeShare = useSyncExternalStore(noopSubscribe, getNativeShareSnapshot, getServerSnapshot);
 
   const copyLink = async () => {
     try {

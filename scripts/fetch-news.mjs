@@ -145,7 +145,7 @@ async function run() {
   feedTimings
     .sort((a, b) => b.ms - a.ms)
     .slice(0, 8)
-    .forEach((f) => console.log(`  slowest: ${f.name} — ${f.ms}ms`));
+    .forEach((f) => console.log(`  slowest: ${f.name}: ${f.ms}ms`));
 
   results.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
   const trimmed = results.slice(0, MAX_TOTAL);

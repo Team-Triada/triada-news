@@ -21,14 +21,31 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   if (related.length === 0) return { title: cveId };
 
   const kev = related.some((i) => i.kev);
-  const title = `${cveId}${kev ? " — Known Exploited" : ""}`;
+  const title = `${cveId}${kev ? " (Known Exploited)" : ""}`;
   const description = `${related.length} article${related.length === 1 ? "" : "s"} covering ${cveId}: ${related[0].title}`;
+  const url = `/cve/${cveId}`;
 
   return {
     title,
     description,
-    alternates: { canonical: `/cve/${cveId}` },
-    openGraph: { title, description, type: "article" },
+    alternates: { canonical: url },
+    openGraph: {
+      title,
+      description,
+      url,
+      siteName: "TRIADA News",
+      locale: "en_US",
+      type: "article",
+      images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "TRIADA News" }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      site: "@teamtriada",
+      title,
+      description,
+      creator: "@teamtriada",
+      images: ["/og-image.png"],
+    },
   };
 }
 
