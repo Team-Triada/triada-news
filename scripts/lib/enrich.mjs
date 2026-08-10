@@ -31,7 +31,7 @@ const CVE_RE = /CVE-\d{4}-\d{4,7}/gi;
 const POC_RE = /\bmetasploit\b|\bnuclei\b|\bexploit-?db\b|\bproof.of.concept\b|\bpoc released\b|\bpoc available\b/i;
 const ACTIVE_EXPLOIT_RE = /\bactively exploited\b|\bactive exploitation\b|\bexploited in the wild\b/i;
 const CRITICAL_HINT_RE = /\bcritical\b|\brce\b|\bremote code execution\b/i;
-const RANSOMWARE_HINT_RE = /\branswomare\b|\bransomware\b/i;
+const RANSOMWARE_HINT_RE = /\bransomware\b/i;
 
 function textOf(item) {
   return `${item.title} ${item.summary}`;
