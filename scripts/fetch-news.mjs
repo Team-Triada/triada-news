@@ -126,32 +126,59 @@ async function fetchFeed(feed, existingByLink) {
 }
 
 async function run() {
+  const t0 = Date.now();
   const existing = await loadExisting();
   const existingByLink = new Map(existing.items.map((i) => [i.link, i]));
 
-  const perFeed = await Promise.all(FEEDS.map((feed) => fetchFeed(feed, existingByLink)));
+  const feedTimings = [];
+  const perFeed = await Promise.all(
+    FEEDS.map(async (feed) => {
+      const start = Date.now();
+      const result = await fetchFeed(feed, existingByLink);
+      feedTimings.push({ name: feed.name, ms: Date.now() - start });
+      return result;
+    })
+  );
   const results = perFeed.flat();
+  const t1 = Date.now();
+  console.log(`feed fetch: ${t1 - t0}ms total`);
+  feedTimings
+    .sort((a, b) => b.ms - a.ms)
+    .slice(0, 8)
+    .forEach((f) => console.log(`  slowest: ${f.name} — ${f.ms}ms`));
 
   results.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
   const trimmed = results.slice(0, MAX_TOTAL);
 
   const kevSet = await fetchKevSet();
+  const t2 = Date.now();
+  console.log(`KEV fetch: ${t2 - t1}ms`);
+
   const maxAiCallsPerRun = aiClient?.kind === "gemini" ? MAX_GEMINI_CALLS_PER_RUN : Infinity;
   let aiCallsUsed = 0;
+  let cachedCount = 0;
   const enriched = [];
   for (const item of trimmed) {
     const needsAiCall = !item.aiSummary;
+    if (!needsAiCall) cachedCount++;
     const clientForItem = needsAiCall && aiCallsUsed < maxAiCallsPerRun ? aiClient : null;
     if (needsAiCall && clientForItem) aiCallsUsed++;
     enriched.push(await enrichItem(item, kevSet, clientForItem));
   }
+  const t3 = Date.now();
+  console.log(`enrichment: ${t3 - t2}ms (${cachedCount} cached, ${aiCallsUsed} AI calls made)`);
 
   await mkdir(path.dirname(OUT_PATH), { recursive: true });
   await writeFile(
     OUT_PATH,
     JSON.stringify({ updatedAt: new Date().toISOString(), items: enriched }, null, 2)
   );
-  console.log(`wrote ${enriched.length} items to ${OUT_PATH}`);
+  console.log(`wrote ${enriched.length} items to ${OUT_PATH} (total: ${Date.now() - t0}ms)`);
+
+  // Timed-out feed fetches leave dangling sockets that keep the event loop
+  // alive indefinitely (Promise.race doesn't cancel the losing promise).
+  // Force exit once real work is done instead of waiting on stragglers.
+  process.exit(0);
 }
 
 run().catch((err) => {
