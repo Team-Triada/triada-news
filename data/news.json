@@ -1,6 +1,88 @@
 {
-  "updatedAt": "2026-08-10T10:43:46.129Z",
+  "updatedAt": "2026-08-10T11:13:31.747Z",
   "items": [
+    {
+      "title": "Metabase Patches Vulnerability Exploited as Zero-Day",
+      "link": "https://www.securityweek.com/metabase-patches-vulnerability-exploited-as-zero-day/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-08-10T11:03:55.000Z",
+      "summary": "The security defect allows unauthenticated, remote attackers to gain administrative access to Metabase instances.\nThe post Metabase Patches Vulnerability Exploited as Zero-Day appeared first on SecurityWeek.",
+      "categories": [
+        "Zero Day",
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Metabase has released a patch for a security defect that was actively exploited as a zero-day. The vulnerability allows unauthenticated, remote attackers to gain full administrative access to targeted Metabase instances.",
+        "whyItMatters": "This vulnerability is critical because it allows attackers to completely compromise vulnerable Metabase instances remotely without needing any authentication.",
+        "affected": [
+          "Metabase"
+        ],
+        "action": "Update your Metabase instances immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Python Now Has a Post-Quantum Encryption Library",
+      "link": "https://www.schneier.com/blog/archives/2026/08/python-now-has-a-post-quantum-encryption-library.html",
+      "source": "Schneier on Security",
+      "publishedAt": "2026-08-10T11:02:26.000Z",
+      "summary": "This is good:\nPost-quantum cryptography is now one pip-install away for the entire Python ecosystem. With funding from the Sovereign Tech Agency, we implemented support for ML-KEM, the NIST-standard key-establishment pri",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A new post-quantum encryption library has been released for the Python ecosystem with funding from the Sovereign Tech Agency. The library implements support for ML-KEM, the NIST-standard key-establishment primitive.",
+        "whyItMatters": "It provides developers with accessible post-quantum cryptography tools to future-proof Python applications against quantum computing threats.",
+        "affected": [],
+        "action": "Evaluate the new library for integration into Python projects requiring post-quantum security.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "“Ghostjacking” Exploits AI Agents’ Trusted Access to Evade Firewall Controls",
+      "link": "https://www.infosecurity-magazine.com/news/ghostjacking-ai-gents-access/",
+      "source": "Infosecurity Magazine",
+      "publishedAt": "2026-08-10T10:45:00.000Z",
+      "summary": "Tenet reported that half of Fortune 500 companies are vulnerable to the Ghostjacking technique, which involves tricking AI agents with fake reports",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Researchers at Tenet have discovered a new vulnerability technique called Ghostjacking, which tricks AI agents using fake reports. This method exploits the trusted access of AI agents to bypass standard firewall controls.",
+        "whyItMatters": "This technique leaves half of Fortune 500 companies vulnerable to unauthorized access and security bypasses via their deployed AI agents.",
+        "affected": [],
+        "action": "Audit AI agent access permissions and implement stricter validation for data received from external reports.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Claude Code puts auto mode in the driver's seat",
       "link": "https://www.theregister.com/ai-and-ml/2026/08/10/claude-code-puts-auto-mode-in-the-drivers-seat/5285326",
@@ -2365,36 +2447,6 @@
       }
     },
     {
-      "title": "Truck Brake Controller’s Safety Recall Doubled as Hidden Security Fix",
-      "link": "https://www.securityweek.com/truck-brake-controllers-safety-recall-doubled-as-hidden-security-fix/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-08-07T10:00:00.000Z",
-      "summary": "NMFTA research shows a Bendix EC80 brake controller safety recall also patched remote code execution and DoS vulnerabilities.\nThe post Truck Brake Controller’s Safety Recall Doubled as Hidden Security Fix appeared first ",
-      "categories": [
-        "Vulnerability",
-        "Research",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "NMFTA research shows a Bendix EC80 brake controller safety recall also patched remote code execution and DoS vulnerabilities.\nThe post Truck Brake Controller’s Safety Recall Doubled as Hidden Security Fix appeared first",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Google Links Redact Extortion Group to BlackFile Rebrand",
       "link": "https://www.infosecurity-magazine.com/news/redact-extortion-group-blackfile/",
       "source": "Infosecurity Magazine",
@@ -3106,36 +3158,6 @@
       "readTimeMin": 1,
       "aiSummary": {
         "summary": "Oligo Security has linked TeamPCP to ShadowRay 2.0 and to cryptojacking infrastructure dating back to 2020",
-        "whyItMatters": "Background context — no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required — informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Meta Joins OpenAI and Anthropic in Reporting AI Exploit Incident",
-      "link": "https://www.infosecurity-magazine.com/news/meta-ai-exploit-incident/",
-      "source": "Infosecurity Magazine",
-      "publishedAt": "2026-08-06T13:40:00.000Z",
-      "summary": "One of Meta’s AI models exploited a third-party security flaw during an evaluation, the latest in a series of similar incidents involving advanced AI systems",
-      "categories": [
-        "Vulnerability",
-        "Incident Response",
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "One of Meta’s AI models exploited a third-party security flaw during an evaluation, the latest in a series of similar incidents involving advanced AI systems",
         "whyItMatters": "Background context — no immediate action expected.",
         "affected": [
           "Not specified"
@@ -4904,34 +4926,6 @@
       "readTimeMin": 1,
       "aiSummary": {
         "summary": "Kaspersky expert provides statistics and details on several incident response cases at educational institutions in Brazil, as well as tips for schools and universities on how to stay safe.",
-        "whyItMatters": "Background context — no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required — informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "The OpenAI Hack Shows the Genie Is Out of the Bottle",
-      "link": "https://www.schneier.com/blog/archives/2026/08/the-openai-hack-shows-the-genie-is-out-of-the-bottle.html",
-      "source": "Schneier on Security",
-      "publishedAt": "2026-08-03T10:47:47.000Z",
-      "summary": "This essay originally appeared in Foreign Policy.\nEarlier this month, two of OpenAI’s models broke out of their containment sandbox and attacked another AI company. The story is kind of wild. OpenAI was running security ",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "This essay originally appeared in Foreign Policy.\nEarlier this month, two of OpenAI’s models broke out of their containment sandbox and attacked another AI company. The story is kind of wild. OpenAI was running security",
         "whyItMatters": "Background context — no immediate action expected.",
         "affected": [
           "Not specified"
