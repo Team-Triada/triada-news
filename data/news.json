@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T11:03:37.543Z",
+  "updatedAt": "2026-08-11T11:55:35.512Z",
   "items": [
     {
       "title": "Water sector example added to the NCSC’s Secure connectivity principles",
@@ -23,6 +23,150 @@
         "affected": [],
         "action": "Review the new NCSC guidance for secure connectivity principles.",
         "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Mozilla revokes Firefox signing key after unencrypted copy lands in GitHub",
+      "link": "https://www.theregister.com/security/2026/08/11/mozilla-revokes-firefox-signing-key-after-unencrypted-copy-lands-in-github/5285908",
+      "source": "The Register",
+      "publishedAt": "2026-08-11T11:36:00.000Z",
+      "summary": "Audit logs found no unexpected visitors, but release verification still needs an update",
+      "categories": [
+        "Open Source"
+      ],
+      "tags": [
+        "Firefox",
+        "GitHub"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Mozilla revoked a Firefox signing key after an unencrypted copy was accidentally uploaded to GitHub. Although audit logs showed no unauthorized access, the release verification process requires updates.",
+        "whyItMatters": "Exposed signing keys could potentially allow malicious actors to sign fraudulent software updates that appear legitimate to users.",
+        "affected": [
+          "Firefox"
+        ],
+        "action": "Update Firefox and monitoring systems as recommended by Mozilla.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "OpenAI Launches Two-Tier Security Access Program Alongside GPT 5.6 Cyber",
+      "link": "https://www.infosecurity-magazine.com/news/openai-daybreak-blue-red-gpt-cyber/",
+      "source": "Infosecurity Magazine",
+      "publishedAt": "2026-08-11T11:30:00.000Z",
+      "summary": "Daybreak Blue removes some OpenAI-made guardrails while Daybreak Red grants the use of cyber-focused frontier AI models",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "OpenAI has introduced a two-tier security access program named Daybreak Blue and Daybreak Red. The program features the GPT 5.6 Cyber model, with Daybreak Blue removing certain guardrails and Daybreak Red providing access to cyber-focused frontier AI models.",
+        "whyItMatters": "Providing specialized access to frontier AI models with reduced guardrails raises potential risks regarding the misuse of advanced cybersecurity capabilities.",
+        "affected": [],
+        "action": "Monitor the program rollout and assess organizational policies regarding advanced AI security tools.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "AI for Military Support",
+      "link": "https://www.schneier.com/blog/archives/2026/08/ai-for-military-support.html",
+      "source": "Schneier on Security",
+      "publishedAt": "2026-08-11T11:18:07.000Z",
+      "summary": "Interesting empirical research: “Black Box Warfare: Human Judgment and Military Decision-Making in the Age of AI.”\nAbstract: How is AI transforming decision-making in modern conflict? This study provides a unique empiric",
+      "categories": [
+        "AI Security",
+        "Research"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Recent empirical research explores the intersection of artificial intelligence and human judgment in modern military decision-making. The study investigates how black-box AI systems transform strategic choices during conflict.",
+        "whyItMatters": "Understanding the reliability and risks of AI in military applications is critical as autonomous systems increasingly influence high-stakes security decisions.",
+        "affected": [],
+        "action": "Review the research paper to understand the implications of AI in military decision-making.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Extension Banned for Stealing AI Chats Returns to Chrome Store, Resumes Malicious Activities",
+      "link": "https://www.securityweek.com/extension-banned-for-stealing-ai-chats-returns-to-chrome-store-resumes-malicious-activities/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-08-11T11:15:15.000Z",
+      "summary": "The extension amassed over 300,000 installs and a 4.6 rating before Google removed it for stealing data.\nThe post Extension Banned for Stealing AI Chats Returns to Chrome Store, Resumes Malicious Activities appeared firs",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [
+        "Chrome"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A malicious Chrome extension previously banned by Google for stealing AI chat data has reappeared on the Chrome Web Store. Before its initial removal, the extension had amassed over 300,000 installations and a high rating.",
+        "whyItMatters": "It poses a severe privacy risk by continuing to exfiltrate sensitive user interactions with AI platforms.",
+        "affected": [
+          "Google Chrome extension for stealing AI chats"
+        ],
+        "action": "Uninstall the malicious extension immediately and review browser extensions for unauthorized items.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Cisco warns of high-severity ClamAV flaws with public exploits",
+      "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-high-severity-clamav-flaws-with-public-exploits/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-08-11T11:03:01.000Z",
+      "summary": "Cisco warned of two high-severity vulnerabilities affecting the Secure Endpoint Connector that allow threat actors to crash the ClamAV scanning process in denial-of-service (DoS) attacks. [...]",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [
+        "Cisco"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Cisco has issued a warning regarding two high-severity vulnerabilities in the Secure Endpoint Connector affecting the ClamAV scanning process. These flaws can be exploited by threat actors to launch denial-of-service attacks, causing the scanning process to crash.",
+        "whyItMatters": "Public exploits are available for these vulnerabilities, increasing the risk of active exploitation and service disruption for organizations using the affected software.",
+        "affected": [
+          "Cisco Secure Endpoint Connector"
+        ],
+        "action": "Apply the security updates provided by Cisco to mitigate the vulnerabilities.",
+        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -2354,34 +2498,6 @@
       }
     },
     {
-      "title": "Member of The Com sent to prison for blackmail, sextortion",
-      "link": "https://www.bleepingcomputer.com/news/security/member-of-the-com-sent-to-prison-for-blackmail-sextortion/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-08-10T12:56:28.000Z",
-      "summary": "A member of \"The Com,\" a loose-knit online cybercrime collective that targets children and teenagers, has been sentenced to two years in prison for blackmail and sextortion offenses against nearly 120 victims worldwide. ",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A member of \"The Com,\" a loose-knit online cybercrime collective that targets children and teenagers, has been sentenced to two years in prison for blackmail and sextortion offenses against nearly 120 victims worldwide.",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Edge is dropping older extensions, affecting popular privacy tools",
       "link": "https://www.malwarebytes.com/blog/news/2026/08/edge-is-dropping-older-extensions-affecting-popular-privacy-tools",
       "source": "Malwarebytes Labs",
@@ -2463,62 +2579,6 @@
         ],
         "action": "Monitor for indicators of compromise.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "New Jersey, Alabama Join States Targeted in Water Cyberattacks",
-      "link": "https://www.securityweek.com/new-jersey-alabama-join-states-targeted-in-water-cyberattacks/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-08-10T11:44:26.000Z",
-      "summary": "Hackers linked to Iran targeted industrial control systems (ICS) at water facilities in at least a dozen US states.\nThe post New Jersey, Alabama Join States Targeted in Water Cyberattacks appeared first on SecurityWeek.",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Hackers linked to Iran targeted industrial control systems (ICS) at water facilities in at least a dozen US states.\nThe post New Jersey, Alabama Join States Targeted in Water Cyberattacks appeared first on SecurityWeek.",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Framework loses customer data in Metabase zero-day attack",
-      "link": "https://www.theregister.com/personal-tech/2026/08/10/framework-loses-customer-data-in-metabase-zero-day-attack/5285302",
-      "source": "The Register",
-      "publishedAt": "2026-08-10T11:21:00.000Z",
-      "summary": "Repairable hardware is little comfort when personal details escape",
-      "categories": [
-        "Zero Day"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "Repairable hardware is little comfort when personal details escape",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -2661,17 +2721,15 @@
       }
     },
     {
-      "title": "US Sanctions Iranian $6bn Crypto “Exchange” Shelbit",
-      "link": "https://www.infosecurity-magazine.com/news/us-sanctions-iranian-6bn-crypto/",
-      "source": "Infosecurity Magazine",
+      "title": "Are AI tutors safe for your kids?",
+      "link": "https://www.welivesecurity.com/en/kids-online/ai-tutors-safe-kids/",
+      "source": "WeLiveSecurity",
       "publishedAt": "2026-08-10T09:00:00.000Z",
-      "summary": "TRM Labs explains that sanctioned Iranian firm Shelbit was a fake crypto exchange",
+      "summary": "AI tutors can offer useful support, but their quality and safeguards vary widely. Here’s what parents should check before handing one to a child.",
       "categories": [
-        "Government"
+        "AI Security"
       ],
-      "tags": [
-        "Exchange"
-      ],
+      "tags": [],
       "cves": [],
       "kev": false,
       "poc": false,
@@ -2679,10 +2737,10 @@
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "The United States has imposed sanctions on Shelbit, a front organization posing as a cryptocurrency exchange in Iran. Blockchain intelligence firm TRM Labs revealed that the entity was actually used to facilitate illicit financial activities.",
-        "whyItMatters": "This action disrupts Iranian financial networks that utilize cryptocurrency infrastructure to evade international sanctions and launder funds.",
+        "summary": "AI tutors provide educational support for children, but their quality and built-in safety safeguards vary significantly. Parents should carefully evaluate these tools before allowing their children to use them.",
+        "whyItMatters": "Unvetted AI tools pose potential privacy and content-safety risks to children using them for education.",
         "affected": [],
-        "action": "Review cryptocurrency compliance screening tools to ensure Shelbit addresses are blocked.",
+        "action": "Review the safety and privacy safeguards of any AI tutor before letting children use it.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -4967,34 +5025,6 @@
       }
     },
     {
-      "title": "More on the OpenAI Agent’s Attack on Hugging Face",
-      "link": "https://www.schneier.com/blog/archives/2026/08/more-on-the-openai-agents-attack-on-hugging-face.html",
-      "source": "Schneier on Security",
-      "publishedAt": "2026-08-03T17:02:46.000Z",
-      "summary": "Hugging Face has published a detailed timeline of the attack. From the summary:\nThe agent was running an internal OpenAI cyber-capability evaluation based on the ExploitGym benchmark, which tasks an AI agent with finding",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Hugging Face has published a detailed timeline of the attack. From the summary:\nThe agent was running an internal OpenAI cyber-capability evaluation based on the ExploitGym benchmark, which tasks an AI agent with finding",
-        "whyItMatters": "Background context — no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required — informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Watching Agents Work: A Behavioral Audit of Offensive-Security LLM Runs",
       "link": "https://projectdiscovery.io/blog/watching-agents-work-a-behavioral-audit-of-offensive-security-llm-runs",
       "source": "ProjectDiscovery",
@@ -5746,32 +5776,6 @@
         "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
-      }
-    },
-    {
-      "title": "Black Hat special: Rewind and revisit",
-      "link": "https://blog.talosintelligence.com/black-hat-special-rewind-and-revisit/",
-      "source": "Talos Intelligence",
-      "publishedAt": "2026-07-30T10:00:08.000Z",
-      "summary": "Amy looks back at the incredible journeys that brought past guests to the world of threat intelligence.",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "This news item features a podcast retrospective looking back at the career journeys of past guests in the threat intelligence field. The episode was highlighted as a special feature for Black Hat.",
-        "whyItMatters": "It offers professional insights and background perspectives from prominent figures in the threat intelligence community.",
-        "affected": [],
-        "action": "Listen to the podcast episode for professional insights.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
       }
     }
   ]
