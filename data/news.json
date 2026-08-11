@@ -1,6 +1,383 @@
 {
-  "updatedAt": "2026-08-11T07:34:33.359Z",
+  "updatedAt": "2026-08-11T09:13:52.869Z",
   "items": [
+    {
+      "title": "Water sector example added to the NCSC’s Secure connectivity principles",
+      "link": "https://www.ncsc.gov.uk/blogs/water-sector-example-added-to-the-ncscs-secure-connectivity-principles",
+      "source": "NCSC UK",
+      "publishedAt": "2026-08-11T12:00:00.000Z",
+      "summary": "New guidance is the first content authored by the Industrial Control System COI to appear on ncsc.gov.uk.",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The UK's National Cyber Security Centre has published new guidance incorporating a water sector example into their Secure connectivity principles. This release marks the first content authored by the Industrial Control System Community of Interest to be hosted on the agency's website.",
+        "whyItMatters": "It improves industrial control system security by providing critical infrastructure operators with practical connectivity guidance.",
+        "affected": [],
+        "action": "Review the new NCSC guidance for secure connectivity principles.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "OpenAI Pauses Some Development of Astra Model on Security Concerns",
+      "link": "https://www.infosecurity-magazine.com/news/openai-pauses-development-astra/",
+      "source": "Infosecurity Magazine",
+      "publishedAt": "2026-08-11T09:00:00.000Z",
+      "summary": "OpenAI is tightening restrictions on testing of its upcoming Astra model due to security concerns",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "OpenAI has paused certain development and testing phases for its upcoming Astra model due to emerging security concerns. The company is tightening its restrictions to better address these potential vulnerabilities before proceeding.",
+        "whyItMatters": "This highlights the growing security challenges and safety precautions major AI labs face during the development of advanced models.",
+        "affected": [
+          "OpenAI Astra"
+        ],
+        "action": "Monitor OpenAI updates regarding the Astra model development status.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Fake popular sites offer a free app, instead take over PCs",
+      "link": "https://www.malwarebytes.com/blog/threat-intel/2026/08/fake-popular-sites-offer-a-free-app-instead-take-over-pcs",
+      "source": "Malwarebytes Labs",
+      "publishedAt": "2026-08-11T08:55:45.000Z",
+      "summary": "Fake branded download pages are tricking Windows users into installing legitimate remote-access software that's being abused by attackers.",
+      "categories": [
+        "News"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Attackers are using fake branded download pages to trick Windows users into installing remote-access software. Once installed, this legitimate software is abused to take control of the victims' PCs.",
+        "whyItMatters": "This technique bypasses traditional malware detection by using legitimate administrative tools for malicious remote control.",
+        "affected": [
+          "Windows PCs"
+        ],
+        "action": "Verify software download sources before installing any remote-access tools.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-64581 xfrm: fix sk_dst_cache double-free in xfrm_user_policy()",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-64581",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-11T08:05:15.000Z",
+      "summary": "Information published.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-64581"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "A vulnerability identified as CVE-2026-64581 has been disclosed regarding the xfrm subsystem in the Linux kernel. The issue involves a double-free flaw in the sk_dst_cache within xfrm_user_policy().",
+        "whyItMatters": "This memory management flaw could potentially lead to denial of service or arbitrary code execution if exploited by an attacker.",
+        "affected": [
+          "Linux kernel xfrm subsystem"
+        ],
+        "action": "Apply the official patch or update the Linux kernel to the version that fixes CVE-2026-64581.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-64581"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-68183 firmware: stratix10-svc: fix memory leaks and list corruption bugs",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68183",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-11T08:02:49.000Z",
+      "summary": "Information published.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-68183"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "A security update has been published addressing memory leaks and list corruption bugs in the stratix10-svc firmware. This fix targets specific vulnerabilities identified under CVE-2026-68183.",
+        "whyItMatters": "Unresolved memory leaks and list corruption bugs can potentially lead to denial of service or system instability.",
+        "affected": [
+          "stratix10-svc firmware"
+        ],
+        "action": "Apply the latest firmware updates to resolve CVE-2026-68183.",
+        "risk": "Medium",
+        "relatedCves": [
+          "CVE-2026-68183"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-68190 staging: rtl8723bs: fix OOB reads in rtw_get_wps_ie()",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68190",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-11T08:02:49.000Z",
+      "summary": "Information published.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-68190"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "A security vulnerability designated as CVE-2026-68190 has been identified in the rtl8723bs driver staging area. The issue involves out-of-bounds reads within the rtw_get_wps_ie function.",
+        "whyItMatters": "Out-of-bounds read vulnerabilities can potentially lead to information disclosure or system crashes if exploited.",
+        "affected": [
+          "rtl8723bs driver"
+        ],
+        "action": "Apply the available fix to resolve the out-of-bounds read in the staging driver.",
+        "risk": "Medium",
+        "relatedCves": [
+          "CVE-2026-68190"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-68186 binfmt_misc: set have_execfd only once the interpreter is opened",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68186",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-11T08:02:36.000Z",
+      "summary": "Information published.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-68186"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "A vulnerability tracked as CVE-2026-68186 has been disclosed affecting the binfmt_misc component. The issue involves ensuring that have_execfd is set only after the interpreter is opened.",
+        "whyItMatters": "Flaws in core kernel components like binfmt_misc could potentially lead to privilege escalation or unexpected execution behaviors if exploited.",
+        "affected": [
+          "binfmt_misc"
+        ],
+        "action": "Apply the latest security patches from your kernel maintainer.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-68186"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-64653 GitHub CLI: Unescaped variable components in request URLs could allow path traversal",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-64653",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-11T08:02:35.000Z",
+      "summary": "Information published.",
+      "categories": [
+        "Vulnerability",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "GitHub"
+      ],
+      "cves": [
+        "CVE-2026-64653"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "A security vulnerability has been identified in the GitHub CLI involving unescaped variable components in request URLs. This flaw could potentially allow threat actors to perform path traversal attacks.",
+        "whyItMatters": "Path traversal vulnerabilities can allow attackers to access unauthorized directories and sensitive files on affected systems.",
+        "affected": [
+          "GitHub CLI"
+        ],
+        "action": "Update the GitHub CLI to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-64653"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-68114 drm/amdgpu/gfx12.1: replace BUG_ON() with WARN_ON()",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68114",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-11T08:02:35.000Z",
+      "summary": "Information published.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-68114"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "A vulnerability tracked as CVE-2026-68114 has been published regarding the AMD GPU driver for Linux. The update replaces a BUG_ON() function with a WARN_ON() in the drm/amdgpu/gfx12.1 component.",
+        "whyItMatters": "This change prevents potential kernel panics by handling driver errors gracefully instead of crashing the system.",
+        "affected": [
+          "Linux kernel amdgpu driver"
+        ],
+        "action": "Update the affected Linux kernel graphics driver.",
+        "risk": "Medium",
+        "relatedCves": [
+          "CVE-2026-68114"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-68258 drm/amdkfd: Check bounds on CRIU restore queue type and mqd size",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68258",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-11T08:02:22.000Z",
+      "summary": "Information published.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-68258"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "A vulnerability has been identified in the Linux kernel's AMD KFD driver, tracked as CVE-2026-68258. The issue involves missing bounds checking on CRIU restore queue types and MQD sizes.",
+        "whyItMatters": "Unchecked bounds in kernel drivers can lead to potential out-of-bounds memory access and local privilege escalation.",
+        "affected": [
+          "Linux kernel drm/amdkfd"
+        ],
+        "action": "Apply the official kernel patch or update to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-68258"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-68203 media: vivid: fix cleanup bugs in vivid_init()",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68203",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-11T08:02:21.000Z",
+      "summary": "Information published.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-68203"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "A vulnerability identified as CVE-2026-68203 involves cleanup bugs in the vivid_init function of the vivid media driver. Information regarding this issue has been published.",
+        "whyItMatters": "Unresolved cleanup bugs in kernel drivers can potentially lead to resource leaks or unstable system behavior.",
+        "affected": [
+          "vivid media driver"
+        ],
+        "action": "Apply the official patch or update the affected driver.",
+        "risk": "Medium",
+        "relatedCves": [
+          "CVE-2026-68203"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Only Half of UK Manufacturers Have a Cyber Incident Response Plan",
+      "link": "https://www.infosecurity-magazine.com/news/half-uk-manufacturers-cyber/",
+      "source": "Infosecurity Magazine",
+      "publishedAt": "2026-08-11T08:00:00.000Z",
+      "summary": "Make UK reveals major cyber resilience gaps as 30% of UK manufacturers report recent cyber incidents",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A recent report by Make UK reveals that only half of UK manufacturers possess a cyber incident response plan. Additionally, 30 percent of surveyed manufacturers reported experiencing cyber incidents recently.",
+        "whyItMatters": "This significant lack of preparedness leaves a vital sector highly vulnerable to extended downtime and operational disruption from cyber attacks.",
+        "affected": [],
+        "action": "Develop and implement a comprehensive cyber incident response plan immediately.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Hackers Breach Polish Power Plant Controls via Private Cellular Network and Shut Turbine",
       "link": "https://thehackernews.com/2026/08/hackers-breach-polish-power-plant.html",
@@ -273,6 +650,34 @@
         "affected": [],
         "action": "Listen to the podcast for the latest threat updates.",
         "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6429-1 caddy - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00340.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-08-11T00:00:00.000Z",
+      "summary": "Multiple security issues were discovered in Caddy, a web server with\nautomatic HTTPS, which may result in the bypass of path- or host-based\naccess controls, the execution of an unintended file by a FastCGI\nbackend, the i",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple security issues were discovered in the Caddy web server. These vulnerabilities may result in the bypass of path- or host-based access controls and the execution of unintended files by a FastCGI backend.",
+        "whyItMatters": "Unpatched vulnerabilities in a web server can allow attackers to bypass access controls and execute arbitrary files via backend services.",
+        "affected": [
+          "Caddy"
+        ],
+        "action": "Update Caddy to the latest security release.",
+        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -1455,274 +1860,6 @@
       }
     },
     {
-      "title": "CVE-2024-21380 Microsoft Dynamics Business Central/NAV Information Disclosure Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21380",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-10T14:00:00.000Z",
-      "summary": "Updated the build numbers.  This is an informational update only.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2024-21380"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "Updated the build numbers.  This is an informational update only.",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [
-          "CVE-2024-21380"
-        ],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "CVE-2026-50309 Windows NTFS Remote Code Execution Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50309",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-10T14:00:00.000Z",
-      "summary": "Updated an acknowledgement. This is an informational change only.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [
-        "CVE-2026-50309"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "Updated an acknowledgement. This is an informational change only.",
-        "whyItMatters": "Actively exploited or high-impact; treat as urgent.",
-        "affected": [
-          "Windows"
-        ],
-        "action": "Patch immediately.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-50309"
-        ],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "CVE-2026-50357 Windows Resilient File System (ReFS) Elevation of Privilege Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50357",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-10T14:00:00.000Z",
-      "summary": "Acknowledgement Updated",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [
-        "CVE-2026-50357"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "Acknowledgement Updated",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Windows"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [
-          "CVE-2026-50357"
-        ],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "CVE-2026-40417 Microsoft Dynamics 365 Business Central Elevation of Privilege Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40417",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-10T14:00:00.000Z",
-      "summary": "Updated the build numbers.  This is an informational update only.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-40417"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Updated the build numbers.  This is an informational update only.",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [
-          "CVE-2026-40417"
-        ],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "CVE-2025-29821 Microsoft Dynamics Business Central Information Disclosure Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-29821",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-10T14:00:00.000Z",
-      "summary": "Updated the build numbers.  This is an informational update only.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2025-29821"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "Updated the build numbers.  This is an informational update only.",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [
-          "CVE-2025-29821"
-        ],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "CVE-2021-34474 Microsoft Dynamics 365 Business Central Remote Code Execution Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-34474",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-10T14:00:00.000Z",
-      "summary": "Updated the build numbers.  This is an informational update only.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2021-34474"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Updated the build numbers.  This is an informational update only.",
-        "whyItMatters": "Actively exploited or high-impact; treat as urgent.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Patch immediately.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2021-34474"
-        ],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "CVE-2021-40440 Microsoft Dynamics Business Central Cross-site Scripting Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-40440",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-10T14:00:00.000Z",
-      "summary": "Updated the build numbers.  This is an informational update only.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2021-40440"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "Updated the build numbers.  This is an informational update only.",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [
-          "CVE-2021-40440"
-        ],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "CVE-2024-38225 Microsoft Dynamics 365 Business Central Elevation of Privilege Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38225",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-10T14:00:00.000Z",
-      "summary": "Updated the build numbers.  This is an informational update only.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2024-38225"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Updated the build numbers.  This is an informational update only.",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [
-          "CVE-2024-38225"
-        ],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "10th August – Threat Intelligence Report",
       "link": "https://research.checkpoint.com/2026/10th-august-threat-intelligence-report/",
       "source": "Check Point Research",
@@ -2428,6 +2565,32 @@
       }
     },
     {
+      "title": "Are AI tutors safe for your kids?",
+      "link": "https://www.welivesecurity.com/en/kids-online/ai-tutors-safe-kids/",
+      "source": "WeLiveSecurity",
+      "publishedAt": "2026-08-10T09:00:00.000Z",
+      "summary": "AI tutors can offer useful support, but their quality and safeguards vary widely. Here’s what parents should check before handing one to a child.",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "AI tutors can provide useful educational support for children, but the quality of these tools and their safety safeguards vary widely. Parents should carefully evaluate these platforms before allowing their children to use them.",
+        "whyItMatters": "Unvetted AI tools pose potential safety and privacy risks to children using them for education.",
+        "affected": [],
+        "action": "Review the safety safeguards of any AI tutor before letting children use it.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "US Sanctions Iranian $6bn Crypto “Exchange” Shelbit",
       "link": "https://www.infosecurity-magazine.com/news/us-sanctions-iranian-6bn-crypto/",
       "source": "Infosecurity Magazine",
@@ -2706,35 +2869,6 @@
           "Chromium"
         ],
         "action": "Update Chromium to the latest version provided by the security advisory.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6421-1 pdns-recursor - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00332.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-08-08T00:00:00.000Z",
-      "summary": "A vulnerability was discovered in PowerDNS Recursor (\"pdns-recursor\"), a\nresolving name server, which may result in denial of service (increased\nmemory and CPU usage) when processing a specially crafted DNS packet.\n\n\nhtt",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A security vulnerability was discovered in PowerDNS Recursor, a resolving name server. Processing a specially crafted DNS packet can lead to a denial of service through increased memory and CPU usage.",
-        "whyItMatters": "This vulnerability allows remote attackers to degrade server performance and cause denial of service by exploiting DNS packet processing.",
-        "affected": [
-          "pdns-recursor"
-        ],
-        "action": "Update pdns-recursor to the latest security release.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -3243,62 +3377,6 @@
       }
     },
     {
-      "title": "Google Links Redact Extortion Group to BlackFile Rebrand",
-      "link": "https://www.infosecurity-magazine.com/news/redact-extortion-group-blackfile/",
-      "source": "Infosecurity Magazine",
-      "publishedAt": "2026-08-07T09:40:00.000Z",
-      "summary": "BlackFile has rebranded as Redact after an alleged affiliate hijack, with Google linking the group to ongoing vishing and extortion campaigns",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "BlackFile has rebranded as Redact after an alleged affiliate hijack, with Google linking the group to ongoing vishing and extortion campaigns",
-        "whyItMatters": "Background context — no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required — informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Ransomware Surges in July After Q2 Lull",
-      "link": "https://www.infosecurity-magazine.com/news/ransomware-surges-july-q2-lull/",
-      "source": "Infosecurity Magazine",
-      "publishedAt": "2026-08-07T08:20:00.000Z",
-      "summary": "Finance, technology and healthcare sectors were particularly heavily targeted in July, according to Comparitech",
-      "categories": [
-        "Ransomware"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "high",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Finance, technology and healthcare sectors were particularly heavily targeted in July, according to Comparitech",
-        "whyItMatters": "Significant risk to affected systems; prioritize review.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Monitor for indicators of compromise.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Linux Shell Forensic: Let&#x3f;s Dive Into Atuin&#x21;, (Fri, Aug 7th)",
       "link": "https://isc.sans.edu/diary/rss/33226",
       "source": "SANS ISC",
@@ -3736,34 +3814,6 @@
         ],
         "action": "Review advisory for affected versions and patch on your normal cycle.",
         "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Scammers target OnlyFans users with deepfakes",
-      "link": "https://www.malwarebytes.com/blog/news/2026/08/scammers-target-onlyfans-users-with-deepfakes",
-      "source": "Malwarebytes Labs",
-      "publishedAt": "2026-08-06T11:38:27.000Z",
-      "summary": "Criminals are impersonating OnlyFans creators using AI tools in order to scam followers.",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "Criminals are impersonating OnlyFans creators using AI tools in order to scam followers.",
-        "whyItMatters": "Background context — no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required — informational.",
-        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -5736,62 +5786,6 @@
       "readTimeMin": 1,
       "aiSummary": {
         "summary": "Amy looks back at the incredible journeys that brought past guests to the world of threat intelligence.",
-        "whyItMatters": "Background context — no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required — informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "North Korea’s elite hackers turned on their own government – and got caught",
-      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/north-korea-hackers-own-government",
-      "source": "Graham Cluley",
-      "publishedAt": "2026-07-30T09:17:08.000Z",
-      "summary": "For years, North Korea's state-trained hackers have been one of the world's most prolific robbers of banks - stealing huge sums of money from foreign financial instituions, draining cryptocurrency exchanges of billions, ",
-      "categories": [
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "For years, North Korea's state-trained hackers have been one of the world's most prolific robbers of banks - stealing huge sums of money from foreign financial instituions, draining cryptocurrency exchanges of billions,",
-        "whyItMatters": "Background context — no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required — informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Beyond the screenshot: Why you should verify what you see",
-      "link": "https://www.welivesecurity.com/en/cybersecurity/beyond-screenshot-why-verify-you-see/",
-      "source": "WeLiveSecurity",
-      "publishedAt": "2026-07-30T08:50:00.000Z",
-      "summary": "The screenshot may look convincing, but it doesn’t necessarily prove that the payment, booking or conversation is genuine",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The screenshot may look convincing, but it doesn’t necessarily prove that the payment, booking or conversation is genuine",
         "whyItMatters": "Background context — no immediate action expected.",
         "affected": [
           "Not specified"
