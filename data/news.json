@@ -1,6 +1,208 @@
 {
-  "updatedAt": "2026-08-11T19:19:18.449Z",
+  "updatedAt": "2026-08-11T21:03:29.795Z",
   "items": [
+    {
+      "title": "Microsoft Patches 398 Flaws Including a Windows Driver Zero-Day Under Active Attack",
+      "link": "https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-11T20:10:55.000Z",
+      "summary": "Microsoft released its monthly security updates on Tuesday, and one of the flaws it closed is already being used in attacks.\n\nThe bug sits in a core Windows kernel driver that handles network socket operations. An attack",
+      "categories": [
+        "Zero Day",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft released its monthly security updates addressing 398 vulnerabilities, including a zero-day flaw in a core Windows kernel driver. This specific bug, which handles network socket operations, is currently being actively exploited in the wild.",
+        "whyItMatters": "Active exploitation of a kernel-level zero-day vulnerability poses an immediate risk of system compromise to organizations and individuals using vulnerable Windows systems.",
+        "affected": [
+          "Windows kernel driver"
+        ],
+        "action": "Apply the latest Microsoft security updates immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "NSA installs DHS lawyer as new general counsel",
+      "link": "https://therecord.media/kerianne-tobitsch-new-nsa-general-counsel",
+      "source": "The Record",
+      "publishedAt": "2026-08-11T20:00:09.000Z",
+      "summary": "Kerianne Tobitsch, who most recently served as a senior lawyer at the Homeland Security Department, is the NSA's new general counsel, sources told Recorded Future News.",
+      "categories": [
+        "Government"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Kerianne Tobitsch has been appointed as the new general counsel for the National Security Agency. She previously served as a senior lawyer at the Department of Homeland Security.",
+        "whyItMatters": "Leadership changes at the NSA can influence legal interpretations of surveillance and cybersecurity policies.",
+        "affected": [],
+        "action": "Monitor for any policy shifts resulting from the new appointment.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Cisco warns of ASA and FTD VPN flaw exploited to crash devices",
+      "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-asa-and-ftd-vpn-flaw-exploited-to-crash-devices/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-08-11T19:45:31.000Z",
+      "summary": "Cisco is warning that a high-severity denial-of-service vulnerability in Secure Firewall ASA and Threat Defense (FTD) software is being actively exploited in attacks to remotely crash affected devices. [...]",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [
+        "Cisco"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Cisco is warning users about a high-severity denial-of-service vulnerability in Secure Firewall ASA and FTD software. Attackers are actively exploiting this flaw to remotely crash affected devices.",
+        "whyItMatters": "Active exploitation for denial-of-service attacks poses an immediate threat to the availability and stability of critical network infrastructure.",
+        "affected": [
+          "Cisco Secure Firewall ASA",
+          "Cisco Secure Firewall FTD"
+        ],
+        "action": "Apply the security patches provided by Cisco immediately.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Kimwolf v7 Android Botnet Makes HTTP/2 DDoS Traffic Look Like Legitimate Browsing",
+      "link": "https://thehackernews.com/2026/08/kimwolf-v7-android-botnet-makes-http2.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-11T19:36:37.000Z",
+      "summary": "Cybersecurity researchers have discovered a new version of the Kimwolf/AISURU Android and Internet of Things (IoT) botnet that comes with significant improvements to improve its operational resilience and conduct distrib",
+      "categories": [
+        "News"
+      ],
+      "tags": [
+        "Android"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "high",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Researchers discovered an updated version of the Kimwolf Android and IoT botnet that utilizes HTTP/2 DDoS traffic to mimic legitimate browsing behavior. This new iteration features significant improvements aimed at enhancing operational resilience.",
+        "whyItMatters": "It enables threat actors to execute more evasive and harder-to-detect distributed denial-of-service attacks using compromised mobile and IoT devices.",
+        "affected": [
+          "Kimwolf v7 Android Botnet",
+          "IoT devices"
+        ],
+        "action": "Monitor network traffic for anomalous HTTP/2 patterns and secure connected Android and IoT endpoints.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8627-1: Yelp vulnerability",
+      "link": "https://ubuntu.com/security/notices/USN-8627-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-11T19:27:49.000Z",
+      "summary": "It was discovered that Yelp incorrectly handled certain crafted help\ndocuments due to an overly permissive Content Security Policy. An\nattacker could trick a user into opening a specially crafted document,\npossibly resul",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A vulnerability was discovered in Yelp where an overly permissive Content Security Policy causes incorrect handling of certain crafted help documents. An attacker could potentially exploit this flaw by tricking a user into opening a specially crafted document.",
+        "whyItMatters": "This security issue could allow attackers to bypass intended security restrictions through crafted documents.",
+        "affected": [
+          "Yelp"
+        ],
+        "action": "Update Yelp to the latest patched version.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Ransomware group hijacks hospital system’s Facebook page amid ongoing cyberattack fallout",
+      "link": "https://therecord.media/ransomware-group-hijacks-hospital-facebook-amid-cyberattack-response",
+      "source": "The Record",
+      "publishedAt": "2026-08-11T19:15:00.000Z",
+      "summary": "The hackers claimed to have exfiltrated 6 terabytes of data, including highly sensitive health information like records related to sexual assault, mental health, abortions and sexual harassment incidents.",
+      "categories": [
+        "Ransomware"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "high",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A ransomware group has hijacked a hospital system's Facebook page while continuing to extort the organization. The attackers claim to have stolen 6 terabytes of sensitive data, including records related to mental health and sexual assault.",
+        "whyItMatters": "This incident highlights the severe psychological and privacy risks to victims when cybercriminals publicly weaponize highly confidential healthcare data.",
+        "affected": [],
+        "action": "Monitor official communications for verified updates and secure all hospital social media accounts.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Zoom Annotation Flaws Could Let a Meeting Participant Hijack Another Attendee's Client",
+      "link": "https://thehackernews.com/2026/08/zoom-annotation-flaws-could-let-meeting.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-11T19:08:47.000Z",
+      "summary": "Anyone sharing their screen on a Zoom call could have taken over the computers of everyone watching, and anyone watching could have taken over the presenter's.\n\nThe flaw sat in the annotation tool, the feature that lets ",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Zoom has addressed critical annotation flaws that could allow meeting participants to hijack the computers of presenters and vice versa. These vulnerabilities stemmed from the screen-sharing annotation feature used during video calls.",
+        "whyItMatters": "This flaw allows malicious meeting participants to achieve remote code execution on the devices of other attendees or presenters.",
+        "affected": [
+          "Zoom client"
+        ],
+        "action": "Update your Zoom client to the latest patched version immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Cisco Secure Firewall Management Center Software Static Credential Vulnerability",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-static-cred-BET3Cjh?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Management%20Center%20Software%20Static%20Credential%20Vulnerability%26vs_k=1",
@@ -1268,32 +1470,6 @@
       }
     },
     {
-      "title": "DDoS attacks over 1 Tbps surged fivefold in the second quarter",
-      "link": "https://www.bleepingcomputer.com/news/security/ddos-attacks-over-1-tbps-surged-fivefold-in-the-second-quarter/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-08-11T13:00:00.000Z",
-      "summary": "Cloudflare says it mitigated more than 800 network-layer distributed denial-of-service (DDoS) attacks exceeding 1 Tbps in the second quarter of the year. [...]",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Cloudflare reported a fivefold surge in massive distributed denial-of-service (DDoS) attacks exceeding 1 Tbps during the second quarter of the year. The company successfully mitigated more than 800 of these network-layer attacks as threat actors continue to scale up volumetric campaigns.",
-        "whyItMatters": "The dramatic increase in ultra-high-volume DDoS attacks demonstrates a growing threat to internet infrastructure and the escalating capacity of threat actors.",
-        "affected": [],
-        "action": "Ensure robust DDoS mitigation services are actively deployed and configured.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Local governments in four states dealing with cyberattacks that have shut down services",
       "link": "https://therecord.media/cyberattacks-ransomware-local-governments",
       "source": "The Record",
@@ -1550,38 +1726,6 @@
       }
     },
     {
-      "title": "Mozilla Revokes Firefox and Thunderbird Linux Signing Key After Key Lands in Private Repo",
-      "link": "https://thehackernews.com/2026/08/mozilla-revokes-firefox-and-thunderbird.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-11T12:04:51.000Z",
-      "summary": "Mozilla has scrapped the cryptographic key behind Firefox and Thunderbird downloads for Linux after an unencrypted copy of it was committed by mistake to one of the company's own private code repositories.\n\nThat key is h",
-      "categories": [
-        "News"
-      ],
-      "tags": [
-        "Linux",
-        "Firefox"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Mozilla has revoked the cryptographic signing key used for Linux Firefox and Thunderbird downloads after an unencrypted copy was accidentally committed to a private code repository. The exposed key compromises the authenticity of affected software packages.",
-        "whyItMatters": "Exposed signing keys could allow malicious actors to distribute compromised software updates to Linux users.",
-        "affected": [
-          "Firefox Linux",
-          "Thunderbird Linux"
-        ],
-        "action": "Update Firefox and Thunderbird to the latest versions.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Corma Raises $60 Million for Defensive Cybersecurity AI Model",
       "link": "https://www.securityweek.com/corma-raises-60-million-for-defensive-cybersecurity-ai-model/",
       "source": "SecurityWeek",
@@ -1694,6 +1838,70 @@
       }
     },
     {
+      "title": "Pulsetto Vagus Nerve Stimulator",
+      "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-223-02",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-08-11T12:00:00.000Z",
+      "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to use hidden commands to disable electrical safety mechanisms or modify other stimulation output settings.\nThe following versions o",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A vulnerability in the Pulsetto Vagus Nerve Stimulator allows attackers to exploit hidden commands and disable electrical safety mechanisms. Additionally, attackers can modify other stimulation output settings on the device.",
+        "whyItMatters": "This flaw poses a direct safety risk to users by allowing unauthorized manipulation of electrical stimulation outputs and disabling critical safety controls.",
+        "affected": [],
+        "action": "Review vendor advisories and restrict unauthorized access to the device.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/08/11/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-08-11T12:00:00.000Z",
+      "summary": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  \nCVE-2026-20349 Cisco Secure Firewall Adaptive Security Appliance (ASA) and Firewa",
+      "categories": [
+        "Vulnerability",
+        "Government",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Cisco"
+      ],
+      "cves": [
+        "CVE-2026-20349"
+      ],
+      "kev": true,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities Catalog following evidence of active exploitation in the wild. This includes a security flaw affecting Cisco Secure Firewall Adaptive Security Appliance and Firepower Threat Defense software.",
+        "whyItMatters": "Active exploitation of these vulnerabilities poses an immediate risk to organizational security, as attackers are actively leveraging them to compromise systems.",
+        "affected": [
+          "Cisco Secure Firewall Adaptive Security Appliance",
+          "Firepower Threat Defense"
+        ],
+        "action": "Review the CISA KEV catalog and apply the necessary patches immediately.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-20349"
+        ],
+        "source": "ai"
+      }
+    },
+    {
       "title": "Mira Hormone Monitor, Mira Android App",
       "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-223-01",
       "source": "CISA Advisories",
@@ -1720,33 +1928,6 @@
           "Mira Android App"
         ],
         "action": "Update the Mira Android App and monitor for official vendor patches.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Pulsetto Vagus Nerve Stimulator",
-      "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-223-02",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-08-11T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to use hidden commands to disable electrical safety mechanisms or modify other stimulation output settings.\nThe following versions o",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A vulnerability in the Pulsetto Vagus Nerve Stimulator allows attackers to exploit hidden commands and disable electrical safety mechanisms. Additionally, attackers can modify other stimulation output settings on the device.",
-        "whyItMatters": "This flaw poses a direct safety risk to users by allowing unauthorized manipulation of electrical stimulation outputs and disabling critical safety controls.",
-        "affected": [],
-        "action": "Review vendor advisories and restrict unauthorized access to the device.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -1805,32 +1986,6 @@
         ],
         "action": "Update Firefox to the latest version to ensure you have the most secure software builds.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Researchers Built a Fake Crypto Startup and Hired Three Suspected North Korean IT Workers",
-      "link": "https://thehackernews.com/2026/08/researchers-built-fake-crypto-startup.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-11T11:35:03.000Z",
-      "summary": "Security researchers invented a cryptocurrency startup, advertised developer jobs, and hired three people they believe were North Korean operatives. Every virtual machine the company issued was recording.\n\nThe onboarding",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Security researchers created a fake cryptocurrency startup and advertised developer jobs to investigate threat actor tactics. They successfully hired three individuals suspected of being North Korean IT workers using recorded virtual machines.",
-        "whyItMatters": "It highlights the ongoing threat of North Korean state-sponsored operatives infiltrating organizations through remote IT and developer positions.",
-        "affected": [],
-        "action": "Verify the identity of remote IT contractors rigorously.",
-        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
@@ -1916,36 +2071,6 @@
         ],
         "action": "Uninstall the malicious extension immediately and review browser extensions for unauthorized items.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Researchers Turn USB Auto-Install Into a Full SYSTEM Takeover on Windows 11",
-      "link": "https://thehackernews.com/2026/08/researchers-turn-usb-auto-install-into.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-11T10:48:26.000Z",
-      "summary": "Windows Plug and Play can be abused to fetch signed vendor software for an emulated USB device and execute privileged installation components that researchers chained to SYSTEM access on a fully updated Windows 11 machin",
-      "categories": [
-        "News"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Security researchers discovered a vulnerability in Windows Plug and Play that can be abused via an emulated USB device. By fetching signed vendor software and executing privileged installation components, attackers can achieve full SYSTEM access on a fully updated Windows 11 machine.",
-        "whyItMatters": "This flaw allows local attackers with USB access to escalate privileges to the highest level, completely compromising a fully updated Windows 11 system.",
-        "affected": [
-          "Windows 11"
-        ],
-        "action": "Apply the latest security updates from Microsoft once available.",
-        "risk": "Critical",
         "relatedCves": [],
         "source": "ai"
       }
@@ -2218,8 +2343,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -2247,8 +2372,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -2275,8 +2400,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -2303,8 +2428,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -2635,34 +2760,6 @@
       }
     },
     {
-      "title": "FBI, South Korea warn of Gunra ransomware gang targeting critical infrastructure",
-      "link": "https://therecord.media/ransomware-south-korea-fbi-gunra",
-      "source": "The Record",
-      "publishedAt": "2026-08-10T19:30:00.000Z",
-      "summary": "The Gunra ransomware gang is breaching critical infrastructure organizations through vulnerabilities in popular brands of firewalls, the FBI and South Korea’s government warned.",
-      "categories": [
-        "Ransomware",
-        "Vulnerability",
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "high",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The FBI and South Korea's government have issued a warning about the Gunra ransomware gang. The group is actively breaching critical infrastructure organizations by exploiting vulnerabilities in popular firewall brands.",
-        "whyItMatters": "Critical infrastructure organizations are at high risk of disruptive ransomware attacks if their perimeter security devices remain unpatched.",
-        "affected": [],
-        "action": "Patch popular firewall brands immediately.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "U.S., South Korean government agencies caution to be on lookout for Gunra ransomware gang",
       "link": "https://cyberscoop.com/us-south-korea-gunra-ransomware-warning/",
       "source": "CyberScoop",
@@ -2940,34 +3037,6 @@
       }
     },
     {
-      "title": "Poland uncovers second heat plant cyberattack that went hidden for months",
-      "link": "https://therecord.media/poland-uncovers-critical-infrastructure-attack-hidden",
-      "source": "The Record",
-      "publishedAt": "2026-08-10T15:52:00.000Z",
-      "summary": "The incident occurred on the same day as coordinated cyberattacks struck more than 30 other renewable energy installations and a larger heat plant, as Poland publicly disclosed in January.",
-      "categories": [
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The incident occurred on the same day as coordinated cyberattacks struck more than 30 other renewable energy installations and a larger heat plant, as Poland publicly disclosed in January.",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant",
       "link": "https://www.infosecurity-magazine.com/news/rovoblast-atlassian-rovo-url/",
       "source": "Infosecurity Magazine",
@@ -2990,8 +3059,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -3131,8 +3200,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -3299,8 +3368,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -3706,8 +3775,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Critical",
         "action": "Patch immediately.",
+        "risk": "Critical",
         "relatedCves": [
           "CVE-2026-63077"
         ],
@@ -3733,6 +3802,36 @@
       "readTimeMin": 1,
       "aiSummary": {
         "summary": "Overview\nA heap buffer overflow vulnerability exists in the stb TrueType library created by nothings. Exploitation of this vulnerability can occur when handling malformed font data and may lead to both Denial of Service",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Not specified"
+        ],
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "CPDLC over ATN-B1 Vulnerabilities",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-219-01",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-08-07T12:00:00.000Z",
+      "summary": "View CSAF\nSummary\nATN-B1 CPDLC relies on legacy clear text unauthenticated radio frequency links. Research demonstrates that these characteristics allow unauthorized message injection, denial-of-service conditions, and f",
+      "categories": [
+        "Vulnerability",
+        "Research",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "View CSAF\nSummary\nATN-B1 CPDLC relies on legacy clear text unauthenticated radio frequency links. Research demonstrates that these characteristics allow unauthorized message injection, denial-of-service conditions, and f",
         "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
         "affected": [
           "Not specified"
@@ -3774,36 +3873,6 @@
         "relatedCves": [
           "CVE-2026-8037"
         ],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "CPDLC over ATN-B1 Vulnerabilities",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-219-01",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-08-07T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nATN-B1 CPDLC relies on legacy clear text unauthenticated radio frequency links. Research demonstrates that these characteristics allow unauthorized message injection, denial-of-service conditions, and f",
-      "categories": [
-        "Vulnerability",
-        "Research",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "View CSAF\nSummary\nATN-B1 CPDLC relies on legacy clear text unauthenticated radio frequency links. Research demonstrates that these characteristics allow unauthorized message injection, denial-of-service conditions, and f",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
         "source": "heuristic"
       }
     },
@@ -4007,8 +4076,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -4035,8 +4104,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -4191,13 +4260,14 @@
       }
     },
     {
-      "title": "Johnson Controls Inc. TL280",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-218-02",
+      "title": "ABB Ability Zenon",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-218-01",
       "source": "CISA Advisories",
       "publishedAt": "2026-08-06T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to access sensitive information on the device.\nThe following versions of Johnson Controls Inc. TL280 are affected:\nTL280 <5.63 \nCVSS",
+      "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow attackers to bypass security, crash systems, execute unauthorized actions, or compromise data.\nThe following versions of ABB Ability Zenon ar",
       "categories": [
         "Vulnerability",
+        "Incident Response",
         "Vendor Advisory"
       ],
       "tags": [],
@@ -4208,44 +4278,15 @@
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to access sensitive information on the device.\nThe following versions of Johnson Controls Inc. TL280 are affected:\nTL280 <5.63 \nCVSS",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "summary": "Multiple vulnerabilities in ABB Ability Zenon could allow attackers to bypass security measures, crash systems, and execute unauthorized actions. The flaws pose significant risks to system integrity and data confidentiality.",
+        "whyItMatters": "Exploitation of these vulnerabilities can lead to a complete compromise of critical industrial automation systems.",
         "affected": [
-          "Not specified"
+          "ABB Ability Zenon"
         ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
+        "action": "Apply the latest security updates provided by ABB.",
+        "risk": "High",
         "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Medixant RadiAnt DICOM",
-      "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-218-01",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-08-06T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to cause the application to crash if a maliciously crafted DICOM file is opened.\nThe following versions of Medixant RadiAnt DICOM ar",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to cause the application to crash if a maliciously crafted DICOM file is opened.\nThe following versions of Medixant RadiAnt DICOM ar",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
+        "source": "ai"
       }
     },
     {
@@ -4443,8 +4484,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -4562,8 +4603,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -5037,13 +5078,13 @@
       "breaking": true,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "Overview\nOn August 2, 2026, N-able published a security advisory for CVE-2026-18577, an authentication bypass vulnerability affecting N-central that was discovered being exploited in-the-wild after an incomplete fix for ",
+        "summary": "Overview\nOn August 2, 2026, N-able published a security advisory for CVE-2026-18577, an authentication bypass vulnerability affecting N-central that was discovered being exploited in-the-wild after an incomplete fix for",
         "whyItMatters": "Actively exploited or high-impact; treat as urgent.",
         "affected": [
           "Not specified"
         ],
-        "risk": "Critical",
         "action": "Patch immediately.",
+        "risk": "Critical",
         "relatedCves": [
           "CVE-2026-18577"
         ],
@@ -5160,8 +5201,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [
           "CVE-2026-66066"
         ],
@@ -5246,8 +5287,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "High",
         "action": "Review and assess impact on your environment.",
+        "risk": "High",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -5274,8 +5315,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -5358,8 +5399,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -5563,13 +5604,13 @@
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "Black Hat USA returns to Mandalay Bay in Las Vegas this August, bringing together security practitioners, researchers, and leaders from around the world. Rapid7 will be there in the Business Hall, with new capabilities, ",
+        "summary": "Black Hat USA returns to Mandalay Bay in Las Vegas this August, bringing together security practitioners, researchers, and leaders from around the world. Rapid7 will be there in the Business Hall, with new capabilities,",
         "whyItMatters": "Background context; no immediate action expected.",
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -5737,34 +5778,6 @@
       "readTimeMin": 1,
       "aiSummary": {
         "summary": "Amy hikes Virginia’s most difficult trail and muses on the persistent challenges of cybersecurity. The two aren't dissimilar.",
-        "whyItMatters": "Background context — no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required — informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Read This Before You Buy That TV Streaming Stick",
-      "link": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
-      "source": "Krebs on Security",
-      "publishedAt": "2026-07-30T16:49:00.000Z",
-      "summary": "Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-time fee, warning that they secretly rent the user's Internet connectio",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-time fee, warning that they secretly rent the user's Internet connectio",
         "whyItMatters": "Background context — no immediate action expected.",
         "affected": [
           "Not specified"
