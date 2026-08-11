@@ -20,8 +20,8 @@ export default function FeaturedStory({ item }: { item: NewsItem }) {
       </div>
 
       <h2
-        className="text-2xl font-medium leading-tight text-foreground sm:text-3xl"
-        style={{ fontFamily: "'Telegraf', var(--font-inter), sans-serif" }}
+        className="text-2xl font-medium leading-tight text-foreground sm:text-3xl break-words"
+        style={{ fontFamily: "'Telegraf', var(--font-inter), sans-serif", overflowWrap: "anywhere" }}
       >
         {item.title}
       </h2>

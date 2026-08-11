@@ -115,7 +115,7 @@ async function fetchFeed(feed, existingByLink) {
     const summary = summarize(rawSnippet);
 
     feedResults.push({
-      title: entry.title ?? "Untitled",
+      title: (entry.title ?? "Untitled").replace(/https?:\/\/\S+/g, "").replace(/\s{2,}/g, " ").trim() || "Untitled",
       link,
       source: feed.name,
       publishedAt: entry.isoDate ?? entry.pubDate ?? new Date().toISOString(),

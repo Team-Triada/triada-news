@@ -19,7 +19,7 @@ export default function BreakingBanner({ item }: { item: NewsItem }) {
         >
           BREAKING
         </span>
-        <span className="text-sm font-medium text-foreground sm:text-base">{item.title}</span>
+        <span className="text-sm font-medium text-foreground break-words sm:text-base" style={{ overflowWrap: "anywhere" }}>{item.title}</span>
       </div>
       <span className="text-sm font-medium text-cyan whitespace-nowrap">Read →</span>
     </a>

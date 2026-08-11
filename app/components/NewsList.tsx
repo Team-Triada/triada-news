@@ -217,8 +217,8 @@ export default function NewsList({ items }: { items: NewsItem[] }) {
                 {/* Title + summary */}
                 <div className="flex flex-col gap-1.5">
                   <h2
-                    className="text-lg font-medium leading-snug text-foreground"
-                    style={{ fontFamily: "'Telegraf', var(--font-inter), sans-serif" }}
+                    className="text-lg font-medium leading-snug text-foreground break-words"
+                    style={{ fontFamily: "'Telegraf', var(--font-inter), sans-serif", overflowWrap: "anywhere" }}
                   >
                     {item.title}
                   </h2>
