@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-08-12T22:59:26.322Z",
+  "updatedAt": "2026-08-12T23:57:06.503Z",
   "items": [
+    {
+      "title": "\"City-Forum\" data-theft attacks target Salesforce, ServiceNow portals",
+      "link": "https://www.bleepingcomputer.com/news/security/city-forum-data-theft-attacks-target-salesforce-servicenow-portals/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-08-12T23:07:23.000Z",
+      "summary": "An ongoing data theft campaign uses custom tools to steal data exposed to anonymous users through Salesforce Experience Cloud and ServiceNow customer portals. [...]",
+      "categories": [
+        "Threat Intel",
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "An ongoing data theft campaign leverages custom tools to target sensitive data exposed to anonymous users on Salesforce Experience Cloud and ServiceNow customer portals. The attacks focus on exploiting misconfigurations that allow unauthorized access to portal information.",
+        "whyItMatters": "Organizations risk massive data exposure if their public-facing Salesforce and ServiceNow portals are misconfigured to allow anonymous access.",
+        "affected": [
+          "Salesforce Experience Cloud",
+          "ServiceNow customer portals"
+        ],
+        "action": "Audit portal permissions immediately to ensure anonymous users cannot access sensitive data.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Android malware combo takes out loans and relays victims' credit cards",
       "link": "https://www.bleepingcomputer.com/news/security/android-malware-combo-takes-out-loans-and-relays-victims-credit-cards/",
@@ -1776,35 +1806,6 @@
       }
     },
     {
-      "title": "Hackers leverage new Microsoft SharePoint exploit in attacks",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/hackers-leverage-new-microsoft-sharepoint-exploit-in-attacks/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-08-12T12:25:37.000Z",
-      "summary": "Hackers have already begun using a proof-of-concept (PoC) exploit for a critical Microsoft SharePoint vulnerability, published by cybersecurity company Rapid7 on Tuesday. [...]",
-      "categories": [
-        "Vulnerability",
-        "Research"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": true,
-      "severity": "high",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Hackers are actively exploiting a critical Microsoft SharePoint vulnerability using a recently published proof-of-concept. The exploit code was released by cybersecurity firm Rapid7, prompting immediate attacks in the wild.",
-        "whyItMatters": "Active exploitation of a critical SharePoint flaw puts organizations at immediate risk of unauthorized access and system compromise.",
-        "affected": [
-          "Microsoft SharePoint"
-        ],
-        "action": "Apply the latest security patches for Microsoft SharePoint immediately.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "CISA gives federal agencies two weeks to patch Microsoft bug exploited in DPRK campaign",
       "link": "https://therecord.media/cisa-gives-federal-agencies-two-weeks-to-patch-dprk-microsoft-bug",
       "source": "The Record",
@@ -2700,6 +2701,35 @@
         "whyItMatters": "This resilient architecture allows the botnet to evade traditional takedown methods and detection by blending in with legitimate browser traffic and decentralized infrastructure.",
         "affected": [],
         "action": "Monitor network traffic for anomalous behavior masking as Chrome requests and block known malicious Ethereum addresses.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6435-1 spip - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00345.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-08-12T00:00:00.000Z",
+      "summary": "Several vulnerabilities were discovered in SPIP, a website engine for\npublishing, which could result in remote code execution, SQL injection\nand server-side request forgery.\n\n\nhttps://security-tracker.debian.org/tracker/",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple vulnerabilities have been discovered in the SPIP website publishing engine. These security flaws could potentially allow attackers to achieve remote code execution, perform SQL injection, or execute server-side request forgery.",
+        "whyItMatters": "Unpatched vulnerabilities in content management systems like SPIP can be exploited by attackers to compromise underlying servers and steal sensitive data.",
+        "affected": [
+          "SPIP"
+        ],
+        "action": "Update SPIP to the latest patched version provided by your distributor.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -4501,36 +4531,6 @@
       }
     },
     {
-      "title": "DSA-6426-1 icinga2 - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00337.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-08-10T00:00:00.000Z",
-      "summary": "Multiple vulnerabilities were discovered in Icinga 2, a monitoring and\nalerting system, which may result in denial of service, information\ndisclosure, privilege escalation or the compromise of a monitoring node.\n\nThe fix",
-      "categories": [
-        "Vulnerability",
-        "Incident Response",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Multiple vulnerabilities were discovered in Icinga 2, a monitoring and\nalerting system, which may result in denial of service, information\ndisclosure, privilege escalation or the compromise of a monitoring node.\n\nThe fix",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Inside the Modern SOC: The Identity Front Door",
       "link": "https://unit42.paloaltonetworks.com/soc-identity-front-door/",
       "source": "Unit 42",
@@ -4640,34 +4640,6 @@
         "whyItMatters": "Background context — no immediate action expected.",
         "affected": [
           "Azure"
-        ],
-        "action": "No action required — informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Beware cut-price AI services that read your every word",
-      "link": "https://www.fortra.com/blog/beware-cut-price-ai-services-read-your-every-word",
-      "source": "Graham Cluley",
-      "publishedAt": "2026-08-07T15:33:08.000Z",
-      "summary": "f someone offered you 90% off the official price to access Claude, the powerful AI model from Anthropic, would you be tempted? It turns out that around 900 people were, and they may be regretting their decision. \r\n\r\nRead",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "f someone offered you 90% off the official price to access Claude, the powerful AI model from Anthropic, would you be tempted? It turns out that around 900 people were, and they may be regretting their decision. \r\n\r\nRead",
-        "whyItMatters": "Background context — no immediate action expected.",
-        "affected": [
-          "Not specified"
         ],
         "action": "No action required — informational.",
         "risk": "News",
@@ -5209,38 +5181,6 @@
       }
     },
     {
-      "title": "Apple’s bug bounty program is drowning in so much AI slop, it is in danger of missing serious exploits",
-      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/apple-bug-bounty-ai-missing-exploits",
-      "source": "Graham Cluley",
-      "publishedAt": "2026-08-06T10:26:02.000Z",
-      "summary": "Apple has imposed strict new submission limits on its bug bounty portal after finding itself overwhelmed by low-quality, AI generated vulnerability reports - many of which were found to be describing security flaws that ",
-      "categories": [
-        "Vulnerability",
-        "AI Security",
-        "Bug Bounty"
-      ],
-      "tags": [
-        "Apple"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Apple has imposed strict new submission limits on its bug bounty portal after finding itself overwhelmed by low-quality, AI generated vulnerability reports - many of which were found to be describing security flaws that",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Apple"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Token Jacking: Cybercriminals Could Be Stealing Your AI Resources",
       "link": "https://unit42.paloaltonetworks.com/ai-token-jacking/",
       "source": "Unit 42",
@@ -5320,34 +5260,6 @@
           "Not specified"
         ],
         "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Smashing Security podcast #479: How a fake police officer nearly stole Graham’s cryptocurrency",
-      "link": "https://grahamcluley.com/smashing-security-podcast-479-how-a-fake-police-officer-nearly-stole-grahams-cryptocurrency/",
-      "source": "Graham Cluley",
-      "publishedAt": "2026-08-05T23:10:20.000Z",
-      "summary": "Graham gets a phone call from the police. Well, someone who sounds convincingly like the police.  There's just one small problem: what they really want is the 24-word seed key to Graham's cryptocurrency wallet.\r\n\r\nMeanwh",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Graham gets a phone call from the police. Well, someone who sounds convincingly like the police.  There's just one small problem: what they really want is the 24-word seed key to Graham's cryptocurrency wallet.\r\n\r\nMeanwh",
-        "whyItMatters": "Background context — no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required — informational.",
         "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
@@ -5809,34 +5721,6 @@
       }
     },
     {
-      "title": "Fake IRS letters target cryptocurrency holders",
-      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/fake-irs-letters-cryptocurrency",
-      "source": "Graham Cluley",
-      "publishedAt": "2026-08-04T09:02:46.000Z",
-      "summary": "Do you hold cryptocurrency? Have you received a letter telling you that you must register with a so-called \"Digital Asset Compliance Portal\"?\r\n\r\nIf so, it's time to hit the brakes, because it sounds like someone is tryin",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Do you hold cryptocurrency? Have you received a letter telling you that you must register with a so-called \"Digital Asset Compliance Portal\"?\r\n\r\nIf so, it's time to hit the brakes, because it sounds like someone is tryin",
-        "whyItMatters": "Background context — no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required — informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Secure Agent Harness Execution: Preventing Escape",
       "link": "https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/",
       "source": "CrowdStrike",
@@ -5862,6 +5746,119 @@
         "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
+      }
+    },
+    {
+      "title": "Rapid7 Analysis: KindaRails2Shell (CVE-2026-66066)",
+      "link": "https://www.rapid7.com/blog/post/ra-kindarails2shell-technical-analysis-cve-2026-66066",
+      "source": "Rapid7",
+      "publishedAt": "2026-08-03T17:11:25.000Z",
+      "summary": "Overview\nOn July 29, 2026, the Ruby on Rails project published a security advisory for CVE-2026-66066, an arbitrary file read in Active Storage applications that use the Vips image processor with untrusted uploads. The a",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-66066"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Ruby on Rails has published a security advisory for CVE-2026-66066, an arbitrary file read vulnerability affecting Active Storage applications utilizing the Vips image processor. This issue is triggered when processing untrusted file uploads.",
+        "whyItMatters": "It allows attackers to perform arbitrary file reads on vulnerable Active Storage applications using the Vips image processor.",
+        "affected": [
+          "Ruby on Rails Active Storage (using Vips image processor)"
+        ],
+        "action": "Apply the security patch provided by the Ruby on Rails project.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-66066"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Watching Agents Work: A Behavioral Audit of Offensive-Security LLM Runs",
+      "link": "https://projectdiscovery.io/blog/watching-agents-work-a-behavioral-audit-of-offensive-security-llm-runs",
+      "source": "ProjectDiscovery",
+      "publishedAt": "2026-08-03T16:34:21.000Z",
+      "summary": "What closed and open models actually do when you tell them to hack a website\n\n\nSummary\n\nThe cybersecurity capability of a model is currently measured by a solve rate, a percentage, and that number tells you almost nothin",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "This article discusses the behavioral audit of offensive-security large language models during hacking tasks. It highlights the limitations of using a simple solve rate percentage to measure a model's true cybersecurity capabilities.",
+        "whyItMatters": "Understanding the actual behavior of offensive-security LLMs is crucial for assessing their real-world risks and improving safety evaluations.",
+        "affected": [],
+        "action": "Read the full behavioral audit report to understand offensive LLM capabilities.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "[Webinar] Tales from the Frontlines: An exclusive briefing on Q2 incidents",
+      "link": "https://blog.talosintelligence.com/webinar-tales-from-the-frontlines-an-exclusive-briefing-on-q2-incidents/",
+      "source": "Talos Intelligence",
+      "publishedAt": "2026-08-03T16:00:12.000Z",
+      "summary": "Register for an exclusive, unrecorded 30-minute webinar to review the most high-impact incidents Talos IR faced in Q2.",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Cisco Talos Incident Response is hosting an exclusive 30-minute webinar to review high-impact security incidents from the second quarter. Attendees will hear direct insights and tales from the frontlines regarding recent cyber threat activity.",
+        "whyItMatters": "It provides security professionals with valuable threat intelligence and lessons learned from real-world Q2 incidents handled by Talos IR.",
+        "affected": [],
+        "action": "Register for the upcoming webinar to learn about recent Q2 security incidents.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Metasploit Pro 5.1 Released",
+      "link": "https://www.rapid7.com/blog/post/pt-metasploit-pro-5-1-released",
+      "source": "Rapid7",
+      "publishedAt": "2026-08-03T14:48:13.000Z",
+      "summary": "Today marks the release of Metasploit Pro 5.1 - building upon the foundation laid in 5.0, adding new evasion primitives for HTTP Meterpreter payloads, support for tracking service hierarchies, a deeper and more interacti",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": true,
+      "severity": "high",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Rapid7 has released Metasploit Pro 5.1, building upon the previous 5.0 version. The new release introduces enhanced features including HTTP Meterpreter evasion primitives and service hierarchy tracking.",
+        "whyItMatters": "It introduces new capabilities for penetration testers and adversaries regarding payload evasion and network mapping.",
+        "affected": [
+          "Metasploit Pro 5.1"
+        ],
+        "action": "Review the release notes to understand the new features and update your deployment if applicable.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
       }
     }
   ]
