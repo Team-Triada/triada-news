@@ -1,6 +1,338 @@
 {
-  "updatedAt": "2026-08-12T19:18:43.565Z",
+  "updatedAt": "2026-08-12T21:02:15.532Z",
   "items": [
+    {
+      "title": "Hackers exploit critical Adobe Commerce flaw to hijack customer accounts",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-adobe-commerce-flaw-to-hijack-customer-accounts/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-08-12T20:54:59.000Z",
+      "summary": "Attempts to exploit a critical vulnerability (CVE-2026-71362) in Adobe's Commerce and Magento e-commerce platforms have been detected, potentially allowing attackers to hijack customer accounts. [...]",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-71362"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Attacks are actively exploiting a critical vulnerability in Adobe Commerce and Magento platforms. This flaw allows unauthorized actors to hijack customer accounts on affected e-commerce sites.",
+        "whyItMatters": "It exposes countless e-commerce customers to account takeover and potential financial or data theft.",
+        "affected": [
+          "Adobe Commerce",
+          "Magento"
+        ],
+        "action": "Apply the latest security updates provided by Adobe immediately.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-71362"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8636-1: Linux kernel vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8636-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-12T20:06:15.000Z",
+      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - x86 architecture;\n  - InfiniBand dri",
+      "categories": [
+        "Vulnerability",
+        "Incident Response",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Several security issues were discovered in the Linux kernel that could potentially allow an attacker to compromise the system. This update specifically corrects flaws within the x86 architecture and InfiniBand subsystems.",
+        "whyItMatters": "Unpatched kernel vulnerabilities can allow local attackers to compromise the entire operating system.",
+        "affected": [
+          "Linux kernel"
+        ],
+        "action": "Update the Linux kernel to the latest version.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8635-1: Linux kernel (Azure) vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8635-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-12T20:01:49.000Z",
+      "summary": "Siebe Devroe, Héloïse Gollier, and Mathy Vanhoef discovered that the WiFi\nimplementation in the Linux kernel did not properly handle aggregated\nframes in mesh networks, due to an incorrect fix for CVE-2020-24588. A\nphysi",
+      "categories": [
+        "Vulnerability",
+        "Cloud",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux",
+        "Azure"
+      ],
+      "cves": [
+        "CVE-2020-24588"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Researchers discovered that the WiFi implementation in the Azure Linux kernel improperly handles aggregated frames in mesh networks due to an incorrect fix for CVE-2020-24588. This vulnerability could potentially be exploited by attackers within physical range of the network.",
+        "whyItMatters": "It leaves vulnerable systems exposed to network-based attacks via flaws in the kernel's wireless frame aggregation handling.",
+        "affected": [
+          "Linux kernel (Azure)"
+        ],
+        "action": "Update the Linux kernel to the latest patched version provided by your distributor.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2020-24588"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8634-1: Linux kernel vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8634-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-12T19:54:57.000Z",
+      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - x86 architecture;\n  - Cryptographic ",
+      "categories": [
+        "Vulnerability",
+        "Incident Response",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Ubuntu Security Notice USN-8634-1 addresses multiple security vulnerabilities discovered within the Linux kernel. These flaws affect the x86 architecture and cryptographic subsystems, potentially allowing system compromise.",
+        "whyItMatters": "Unpatched kernel vulnerabilities can allow local attackers to compromise the entire operating system.",
+        "affected": [
+          "Linux kernel (x86 architecture and cryptographic subsystems)"
+        ],
+        "action": "Update the Linux kernel to the latest version provided by the security notice.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8633-1: Linux kernel vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8633-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-12T19:54:20.000Z",
+      "summary": "Siebe Devroe, Héloïse Gollier, and Mathy Vanhoef discovered that the WiFi\nimplementation in the Linux kernel did not properly handle aggregated\nframes in mesh networks, due to an incorrect fix for CVE-2020-24588. A\nphysi",
+      "categories": [
+        "Vulnerability",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [
+        "CVE-2020-24588"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Researchers discovered that the Linux kernel's WiFi implementation improperly handles aggregated frames in mesh networks due to an incorrect fix for a previous vulnerability. This flaw could potentially be exploited by attackers within physical proximity.",
+        "whyItMatters": "It leaves Linux-based systems utilizing mesh networks vulnerable to network-based attacks.",
+        "affected": [
+          "Linux kernel"
+        ],
+        "action": "Update the Linux kernel to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2020-24588"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8631-1: Linux kernel vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8631-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-12T19:50:11.000Z",
+      "summary": "Siebe Devroe, Héloïse Gollier, and Mathy Vanhoef discovered that the WiFi\nimplementation in the Linux kernel did not properly handle aggregated\nframes in mesh networks, due to an incorrect fix for CVE-2020-24588. A\nphysi",
+      "categories": [
+        "Vulnerability",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [
+        "CVE-2020-24588"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Researchers discovered that the Linux kernel's WiFi implementation improperly handles aggregated frames in mesh networks due to an incorrect fix for a previous vulnerability. This flaw exposes systems to potential security risks within mesh network environments.",
+        "whyItMatters": "It leaves Linux systems utilizing mesh networks vulnerable to exploitation because a previous patch was incomplete.",
+        "affected": [
+          "Linux kernel"
+        ],
+        "action": "Update the Linux kernel to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2020-24588"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8630-1: Linux kernel vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8630-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-12T19:43:13.000Z",
+      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - x86 architecture;\n  - InfiniBand dri",
+      "categories": [
+        "Vulnerability",
+        "Incident Response",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Several security issues were discovered in the Linux kernel that could allow an attacker to compromise the system. The update specifically corrects flaws in the x86 architecture and InfiniBand driver subsystems.",
+        "whyItMatters": "Unpatched kernel vulnerabilities can allow local or remote attackers to fully compromise the affected operating system.",
+        "affected": [
+          "Linux kernel x86 architecture",
+          "Linux kernel InfiniBand driver"
+        ],
+        "action": "Update the Linux kernel to the latest version provided by your vendor.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Spectre rears its ugly head again as researchers show some RISC-V chips are susceptible",
+      "link": "https://www.theregister.com/security/2026/08/12/spectre-rears-its-ugly-head-again-as-researchers-show-some-risc-v-chips-are-susceptible/5286978",
+      "source": "The Register",
+      "publishedAt": "2026-08-12T19:42:57.000Z",
+      "summary": "Eight years on, we're still paying to hide the future glimpsed during speculative execution",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Researchers have discovered that certain RISC-V processor chips are vulnerable to Spectre-style attacks involving speculative execution. This finding demonstrates that the decades-old hardware security flaw continues to affect emerging processor architectures years after its initial discovery.",
+        "whyItMatters": "It proves that foundational hardware design vulnerabilities like Spectre remain a persistent threat across new and different instruction set architectures.",
+        "affected": [],
+        "action": "Monitor vendor advisories for RISC-V firmware and software mitigation updates.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Retirement: Containerized data connector agent for the Microsoft Sentinel solution for SAP applications",
+      "link": "https://azure.microsoft.com/updates?id=568457",
+      "source": "Azure Updates",
+      "publishedAt": "2026-08-12T19:41:20.000Z",
+      "summary": "On September 14, 2026 we will retire the containerized data connector agent for the Microsoft Sentinel solution for SAP applications. After this date the agent will be permanently disabled and will stop sending SAP logs ",
+      "categories": [
+        "News"
+      ],
+      "tags": [
+        "SAP"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft has announced the retirement of the containerized data connector agent for the Microsoft Sentinel solution for SAP applications on September 14, 2026. After this retirement date, the agent will be permanently disabled and will cease transmitting SAP logs.",
+        "whyItMatters": "Organizations relying on this agent for SAP log integration with Microsoft Sentinel must migrate to an alternative solution before the retirement date to avoid monitoring blind spots.",
+        "affected": [
+          "Containerized data connector agent for Microsoft Sentinel solution for SAP applications"
+        ],
+        "action": "Migrate from the containerized data connector agent to a supported alternative before September 14, 2026.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8629-1: Linux kernel vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8629-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-12T19:36:25.000Z",
+      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - x86 architecture;\n  - InfiniBand dri",
+      "categories": [
+        "Vulnerability",
+        "Incident Response",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple security vulnerabilities have been discovered in the Linux kernel that could allow an attacker to compromise the affected system. The update specifically addresses and corrects flaws located within the x86 architecture and InfiniBand subsystems.",
+        "whyItMatters": "Unpatched kernel vulnerabilities can allow attackers to gain deep system access and potentially compromise the entire operating system.",
+        "affected": [
+          "Linux kernel (x86 architecture and InfiniBand subsystems)"
+        ],
+        "action": "Update the Linux kernel to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Hundreds of fake Chrome VPN extensions route traffic through a proxy",
       "link": "https://www.bleepingcomputer.com/news/security/hundreds-of-fake-chrome-vpn-extensions-route-traffic-through-a-proxy/",
@@ -1639,35 +1971,6 @@
       }
     },
     {
-      "title": "New Microsoft Defender 'ShieldBreak' zero-day grants SYSTEM privileges",
-      "link": "https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldbreak-zero-day-grants-system-privileges/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-08-12T10:15:22.000Z",
-      "summary": "Nightmare Eclipse has released a new Microsoft Defender zero-day exploit named \"ShieldBreak\" after Microsoft released the August 2026 Patch Tuesday security updates. [...]",
-      "categories": [
-        "Zero Day",
-        "Vulnerability"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Threat actor Nightmare Eclipse has released a new Microsoft Defender zero-day exploit called ShieldBreak following the August 2026 Patch Tuesday updates. This exploit successfully grants attackers SYSTEM-level privileges on vulnerable systems.",
-        "whyItMatters": "It matters because a zero-day exploit granting SYSTEM privileges allows attackers complete control over affected machines, bypassing standard security defenses.",
-        "affected": [
-          "Microsoft Defender"
-        ],
-        "action": "Monitor for official patches from Microsoft and restrict administrative access.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Prompt Injections for Defense",
       "link": "https://www.schneier.com/blog/archives/2026/08/prompt-injections-for-defense.html",
       "source": "Schneier on Security",
@@ -2315,6 +2618,66 @@
       }
     },
     {
+      "title": "DSA-6434-1 lemonldap-ng - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00344.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-08-12T00:00:00.000Z",
+      "summary": "It was discovered that the Lemonldap::NG web SSO system insufficiently\nenforced access when using the GitHub/Linkedin authentication backends.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6434-1",
+      "categories": [
+        "Vendor Advisory",
+        "Open Source"
+      ],
+      "tags": [
+        "GitHub"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A security vulnerability was discovered in the Lemonldap::NG web SSO system. The flaw involves insufficient enforcement of access controls when utilizing GitHub or LinkedIn authentication backends.",
+        "whyItMatters": "Attackers could bypass authentication restrictions and gain unauthorized access if organizations rely on the affected GitHub or LinkedIn login backends.",
+        "affected": [
+          "Lemonldap::NG"
+        ],
+        "action": "Update Lemonldap::NG to the latest patched version provided by your vendor.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6432-1 flatpak - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00343.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-08-12T00:00:00.000Z",
+      "summary": "Multiple security vulnerabilities were discovered in Flatpak, an\napplication deployment framework for desktop apps, which could result in\nlocal privilege escalation, sandbox escape or information disclosure.\n\n\nhttps://se",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple security vulnerabilities have been discovered in Flatpak, an application deployment framework for desktop apps. These flaws could potentially lead to local privilege escalation, sandbox escapes, or unauthorized information disclosure.",
+        "whyItMatters": "These vulnerabilities compromise the isolation guarantees of desktop applications, allowing local attackers to potentially escape the sandbox and escalate privileges.",
+        "affected": [
+          "Flatpak"
+        ],
+        "action": "Update Flatpak to the latest security release provided by your vendor.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "Federal judge issues second order blocking Trump mail-in voting directive",
       "link": "https://cyberscoop.com/federal-judge-blocks-trump-mail-in-voting-executive-order/",
       "source": "CyberScoop",
@@ -2938,32 +3301,6 @@
         "affected": [],
         "action": "Monitor NIST updates and participate in the public input process if applicable.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Two wars and a World Cup lead to epic DDoS attacks on publishers",
-      "link": "https://www.theregister.com/security/2026/08/11/two-wars-and-a-world-cup-lead-to-epic-ddos-attacks-on-publishers/5286278",
-      "source": "The Register",
-      "publishedAt": "2026-08-11T15:33:00.000Z",
-      "summary": "Ukraine, Iran, and football inspire geopolitically motivated DDoS attacks, while 1 Tbps traffic jams up 519 percent",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Geopolitically motivated DDoS attacks driven by conflicts in Ukraine and Iran, alongside the World Cup, have surged against media publishers. Traffic volumes exceeding 1 Tbps have increased significantly, impacting targeted online infrastructure.",
-        "whyItMatters": "Unprecedented traffic spikes from state-sponsored or politically motivated threat actors threaten the availability and freedom of the press.",
-        "affected": [],
-        "action": "Implement robust DDoS mitigation and traffic scrubbing services.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -3795,35 +4132,6 @@
       }
     },
     {
-      "title": "USN-8592-1: ImageMagick vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8592-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-10T20:04:52.000Z",
-      "summary": "Hao Ren discovered that ImageMagick incorrectly handled certain images\nwhen using the wavelet-denoise operation. An attacker could possibly use\nthis issue to trigger an out-of-bounds heap write, resulting in\narbitrary co",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "ImageMagick contains vulnerabilities involving the wavelet-denoise operation when handling specific images. An attacker could exploit this flaw to cause an out-of-bounds heap write, potentially leading to arbitrary code execution.",
-        "whyItMatters": "This vulnerability allows attackers to execute arbitrary code on systems processing untrusted images with ImageMagick.",
-        "affected": [
-          "ImageMagick"
-        ],
-        "action": "Update ImageMagick to the latest patched version.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "NATO and an AI startup can now name and track software vulnerabilities",
       "link": "https://cyberscoop.com/nato-aisle-enisa-cve-vulnerability-tracking/",
       "source": "CyberScoop",
@@ -3959,35 +4267,6 @@
         ],
         "action": "No action required; informational.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "USN-8626-1: systemd vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8626-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-10T13:46:07.000Z",
-      "summary": "It was discovered that systemd-homed did not properly verify the signature\nof home records. A local attacker could possibly use this issue to add\narbitrary system groups to a logged-in user and gain elevated privileges.\n",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "It was discovered that systemd-homed did not properly verify the signature\nof home records. A local attacker could possibly use this issue to add\narbitrary system groups to a logged-in user and gain elevated privileges.",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -4245,64 +4524,6 @@
         "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
-      }
-    },
-    {
-      "title": "DSA-6425-1 openjdk-21 - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00336.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-08-10T00:00:00.000Z",
-      "summary": "Several vulnerabilities have been discovered in the OpenJDK Java runtime,\nwhich may result in incorrect validation of certificates or signed Jar\nfiles, denial of service or information disclosure.\n\n\nhttps://security-trac",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several vulnerabilities have been discovered in the OpenJDK Java runtime,\nwhich may result in incorrect validation of certificates or signed Jar\nfiles, denial of service or information disclosure.\n\n\nhttps://security-trac",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "DSA-6424-1 xen - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00335.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-08-09T00:00:00.000Z",
-      "summary": "Multiple vulnerabilities have been discovered in the Xen hypervisor,\nwhich could result in privilege escalation, information disclosure or\ndenial of service.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6424-1",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Multiple vulnerabilities have been discovered in the Xen hypervisor. These security flaws could potentially result in privilege escalation, information disclosure, or denial of service conditions.",
-        "whyItMatters": "Unpatched hypervisor vulnerabilities can allow attackers to compromise the underlying host or escape virtual machines, threatening the security of all hosted guests.",
-        "affected": [
-          "Xen hypervisor"
-        ],
-        "action": "Update the Xen hypervisor package to the latest version provided by Debian.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
       }
     },
     {
@@ -4918,40 +5139,6 @@
         "whyItMatters": "Background context — no immediate action expected.",
         "affected": [
           "Not specified"
-        ],
-        "action": "No action required — informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "[In preview] Public Preview: Migrate from AWS FSx for Windows File Server to Azure Files with Azure Storage Mover",
-      "link": "https://azure.microsoft.com/updates?id=567979",
-      "source": "Azure Updates",
-      "publishedAt": "2026-08-06T16:40:19.000Z",
-      "summary": "Azure Storage Mover now supports agentless, cloud-to-cloud migration from AWS FSx for Windows File Server (SMB) to Azure Files (SMB), in preview. You can move your Windows file shares off FSx and into Azure Files without",
-      "categories": [
-        "Cloud"
-      ],
-      "tags": [
-        "Windows",
-        "AWS",
-        "Azure"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Azure Storage Mover now supports agentless, cloud-to-cloud migration from AWS FSx for Windows File Server (SMB) to Azure Files (SMB), in preview. You can move your Windows file shares off FSx and into Azure Files without",
-        "whyItMatters": "Background context — no immediate action expected.",
-        "affected": [
-          "Windows",
-          "AWS",
-          "Azure"
         ],
         "action": "No action required — informational.",
         "risk": "News",
@@ -5668,151 +5855,6 @@
           "Not specified"
         ],
         "action": "No action required — informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Rapid7 Analysis: KindaRails2Shell (CVE-2026-66066)",
-      "link": "https://www.rapid7.com/blog/post/ra-kindarails2shell-technical-analysis-cve-2026-66066",
-      "source": "Rapid7",
-      "publishedAt": "2026-08-03T17:11:25.000Z",
-      "summary": "Overview\nOn July 29, 2026, the Ruby on Rails project published a security advisory for CVE-2026-66066, an arbitrary file read in Active Storage applications that use the Vips image processor with untrusted uploads. The a",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-66066"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Overview\nOn July 29, 2026, the Ruby on Rails project published a security advisory for CVE-2026-66066, an arbitrary file read in Active Storage applications that use the Vips image processor with untrusted uploads. The a",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [
-          "CVE-2026-66066"
-        ],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Watching Agents Work: A Behavioral Audit of Offensive-Security LLM Runs",
-      "link": "https://projectdiscovery.io/blog/watching-agents-work-a-behavioral-audit-of-offensive-security-llm-runs",
-      "source": "ProjectDiscovery",
-      "publishedAt": "2026-08-03T16:34:21.000Z",
-      "summary": "What closed and open models actually do when you tell them to hack a website\n\n\nSummary\n\nThe cybersecurity capability of a model is currently measured by a solve rate, a percentage, and that number tells you almost nothin",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "What closed and open models actually do when you tell them to hack a website\n\n\nSummary\n\nThe cybersecurity capability of a model is currently measured by a solve rate, a percentage, and that number tells you almost nothin",
-        "whyItMatters": "Background context — no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required — informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "[Webinar] Tales from the Frontlines: An exclusive briefing on Q2 incidents",
-      "link": "https://blog.talosintelligence.com/webinar-tales-from-the-frontlines-an-exclusive-briefing-on-q2-incidents/",
-      "source": "Talos Intelligence",
-      "publishedAt": "2026-08-03T16:00:12.000Z",
-      "summary": "Register for an exclusive, unrecorded 30-minute webinar to review the most high-impact incidents Talos IR faced in Q2.",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Register for an exclusive, unrecorded 30-minute webinar to review the most high-impact incidents Talos IR faced in Q2.",
-        "whyItMatters": "Background context — no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required — informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Metasploit Pro 5.1 Released",
-      "link": "https://www.rapid7.com/blog/post/pt-metasploit-pro-5-1-released",
-      "source": "Rapid7",
-      "publishedAt": "2026-08-03T14:48:13.000Z",
-      "summary": "Today marks the release of Metasploit Pro 5.1 - building upon the foundation laid in 5.0, adding new evasion primitives for HTTP Meterpreter payloads, support for tracking service hierarchies, a deeper and more interacti",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": true,
-      "severity": "high",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Today marks the release of Metasploit Pro 5.1 - building upon the foundation laid in 5.0, adding new evasion primitives for HTTP Meterpreter payloads, support for tracking service hierarchies, a deeper and more interacti",
-        "whyItMatters": "Significant risk to affected systems; prioritize review.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review and assess impact on your environment.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "3rd August – Threat Intelligence Report",
-      "link": "https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/",
-      "source": "Check Point Research",
-      "publishedAt": "2026-08-03T13:15:55.000Z",
-      "summary": "For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting mo",
-      "categories": [
-        "Research"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting mo",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
         "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
