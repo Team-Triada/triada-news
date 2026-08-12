@@ -1,6 +1,64 @@
 {
-  "updatedAt": "2026-08-12T16:08:45.063Z",
+  "updatedAt": "2026-08-12T17:11:29.087Z",
   "items": [
+    {
+      "title": "Researchers observe first ‘near-autonomous’ AI attack on government target in Taiwan",
+      "link": "https://cyberscoop.com/near-autonomous-ai-attack-government-target-taiwan/",
+      "source": "CyberScoop",
+      "publishedAt": "2026-08-12T17:05:01.000Z",
+      "summary": "Israeli cyber firm Dream said the framework adapted mid-operation, corrected its mistakes and expanded as it went along.\nThe post Researchers observe first ‘near-autonomous’ AI attack on government target in Taiwan appea",
+      "categories": [
+        "AI Security",
+        "Government"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Security researchers have observed what is described as the first near-autonomous AI cyberattack targeting a government entity in Taiwan. The attack framework, developed by Israeli firm Dream, successfully adapted mid-operation, corrected its own mistakes, and expanded its scope as it progressed.",
+        "whyItMatters": "This incident marks a concerning evolution in threat actor capabilities, demonstrating the operational use of adaptable, near-autonomous AI in real-world targeted attacks.",
+        "affected": [],
+        "action": "Monitor threat intelligence feeds for emerging AI-driven attack techniques and harden government defenses.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "[In preview] Public Preview: Markdown for Agents in Azure App Service",
+      "link": "https://azure.microsoft.com/updates?id=568979",
+      "source": "Azure Updates",
+      "publishedAt": "2026-08-12T16:38:31.000Z",
+      "summary": "Today, we are announcing the public preview of Markdown for Agents in Azure App Service. This feature gives AI agents and other tools a cleaner way to consume content from an App Service app. When a client requests Markd",
+      "categories": [
+        "Cloud",
+        "AI Security"
+      ],
+      "tags": [
+        "Azure"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft has announced the public preview of Markdown for Agents in Azure App Service. This feature allows AI agents and other tools to consume content from an App Service app in a cleaner format.",
+        "whyItMatters": "It introduces a new content delivery mechanism for AI integrations within Azure App Service.",
+        "affected": [
+          "Azure App Service"
+        ],
+        "action": "Review the preview documentation if using AI agents with Azure App Service.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Plug and Pwn attack uses fake USB devices for Windows SYSTEM access",
       "link": "https://www.bleepingcomputer.com/news/security/plug-and-pwn-attack-uses-fake-usb-devices-for-windows-system-access/",
@@ -265,37 +323,6 @@
       }
     },
     {
-      "title": "737 Chrome VPN Extensions Caught Routing Traffic Through Proxies. Check If You Have One",
-      "link": "https://thehackernews.com/2026/08/737-chrome-vpn-extensions-caught.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-12T14:09:50.000Z",
-      "summary": "A massive set of 737 free VPN and proxy extensions have been found to mainly target Russian-speaking users seeking access to blocked services with an aim to intercept browser traffic and route them through a proxy infras",
-      "categories": [
-        "News"
-      ],
-      "tags": [
-        "Chrome"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Researchers discovered a massive set of 737 free Chrome VPN and proxy extensions primarily targeting Russian-speaking users. These extensions intercept browser traffic and route it through a third-party proxy infrastructure.",
-        "whyItMatters": "This malicious activity compromises user privacy and exposes sensitive browsing traffic to unauthorized interception.",
-        "affected": [
-          "Chrome VPN extensions",
-          "Chrome proxy extensions"
-        ],
-        "action": "Check your installed Chrome extensions and remove any untrusted VPN or proxy tools.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "The Threat Hiding in Your Hiring Process: How Fake Remote Workers Get In",
       "link": "https://www.bleepingcomputer.com/news/security/the-threat-hiding-in-your-hiring-process-how-fake-remote-workers-get-in/",
       "source": "BleepingComputer",
@@ -419,8 +446,8 @@
       }
     },
     {
-      "title": "CVE-2026-70348 Windows Management Services Denial of Service Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70348",
+      "title": "CVE-2026-62913 Microsoft Exchange Server Remote Code Execution Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62913",
       "source": "Microsoft MSRC",
       "publishedAt": "2026-08-12T14:00:00.000Z",
       "summary": "Updated an acknowledgement. This is an informational change only.",
@@ -429,26 +456,26 @@
         "Vendor Advisory"
       ],
       "tags": [
-        "Windows"
+        "Exchange"
       ],
       "cves": [
-        "CVE-2026-70348"
+        "CVE-2026-62913"
       ],
       "kev": false,
       "poc": false,
-      "severity": "medium",
+      "severity": "critical",
       "breaking": false,
       "readTimeMin": 2,
       "aiSummary": {
-        "summary": "Microsoft has updated an acknowledgement for CVE-2026-70348, a denial of service vulnerability affecting Windows Management Services. This update is informational only and does not introduce new technical advisories or patches.",
-        "whyItMatters": "It is important for tracking administrative updates related to potential system availability risks in Windows environments.",
+        "summary": "Microsoft has updated an acknowledgment for CVE-2026-62913, a remote code execution vulnerability affecting Microsoft Exchange Server. This update is informational only and does not contain new technical fixes.",
+        "whyItMatters": "Unpatched remote code execution vulnerabilities in Microsoft Exchange Server pose a severe risk of complete system compromise by malicious actors.",
         "affected": [
-          "Windows Management Services"
+          "Microsoft Exchange Server"
         ],
-        "action": "Review the advisory update for informational purposes.",
-        "risk": "News",
+        "action": "Review the updated advisory from Microsoft and ensure your Exchange Server is running the latest security updates.",
+        "risk": "High",
         "relatedCves": [
-          "CVE-2026-70348"
+          "CVE-2026-62913"
         ],
         "source": "ai"
       }
@@ -487,8 +514,8 @@
       }
     },
     {
-      "title": "CVE-2026-62913 Microsoft Exchange Server Remote Code Execution Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62913",
+      "title": "CVE-2026-70348 Windows Management Services Denial of Service Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70348",
       "source": "Microsoft MSRC",
       "publishedAt": "2026-08-12T14:00:00.000Z",
       "summary": "Updated an acknowledgement. This is an informational change only.",
@@ -497,26 +524,26 @@
         "Vendor Advisory"
       ],
       "tags": [
-        "Exchange"
+        "Windows"
       ],
       "cves": [
-        "CVE-2026-62913"
+        "CVE-2026-70348"
       ],
       "kev": false,
       "poc": false,
-      "severity": "critical",
+      "severity": "medium",
       "breaking": false,
       "readTimeMin": 2,
       "aiSummary": {
-        "summary": "Microsoft has updated an acknowledgment for CVE-2026-62913, a remote code execution vulnerability affecting Microsoft Exchange Server. This update is informational only and does not contain new technical fixes.",
-        "whyItMatters": "Unpatched remote code execution vulnerabilities in Microsoft Exchange Server pose a severe risk of complete system compromise by malicious actors.",
+        "summary": "Microsoft has updated an acknowledgement for CVE-2026-70348, a denial of service vulnerability affecting Windows Management Services. This update is informational only and does not introduce new technical advisories or patches.",
+        "whyItMatters": "It is important for tracking administrative updates related to potential system availability risks in Windows environments.",
         "affected": [
-          "Microsoft Exchange Server"
+          "Windows Management Services"
         ],
-        "action": "Review the updated advisory from Microsoft and ensure your Exchange Server is running the latest security updates.",
-        "risk": "High",
+        "action": "Review the advisory update for informational purposes.",
+        "risk": "News",
         "relatedCves": [
-          "CVE-2026-62913"
+          "CVE-2026-70348"
         ],
         "source": "ai"
       }
@@ -1213,63 +1240,6 @@
       }
     },
     {
-      "title": "OpenAI, Anthropic, Google API Flaw Let Weaker AI Models Decode Stronger Models' Reasoning",
-      "link": "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-12T11:47:38.000Z",
-      "summary": "A newly disclosed flaw in the way OpenAI, Anthropic, and Google carried hidden AI reasoning between API calls let researchers recover internal reasoning and secrets from session logs, including API keys and passwords.\n\nT",
-      "categories": [
-        "Vulnerability",
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Researchers discovered an API flaw affecting OpenAI, Anthropic, and Google that allowed weaker AI models to decode the hidden internal reasoning of stronger models. This vulnerability exposed sensitive information, including session logs, API keys, and passwords, from the reasoning process.",
-        "whyItMatters": "This vulnerability compromises the confidentiality of proprietary AI reasoning and sensitive user credentials handled within API sessions.",
-        "affected": [
-          "OpenAI API",
-          "Anthropic API",
-          "Google API"
-        ],
-        "action": "Review API security configurations and monitor session logs for unauthorized access.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Enterprise Defenses Recovered at the Edge and Collapsed Inside",
-      "link": "https://thehackernews.com/2026/08/enterprise-defenses-recovered-at-edge.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-12T11:41:34.000Z",
-      "summary": "Enterprise defenses are tuned to catch the attacks that make noise. This year's data shows attackers winning by making none.\n\nAccording to Picus Labs' new Blue Report 2026, which measured more than 338 million real attac",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Picus Labs released its Blue Report 2026, revealing that enterprise defenses successfully block noisy attacks at the edge while silent breaches succeed internally. The analysis is based on data gathered from measuring over 338 million real-world attack simulations.",
-        "whyItMatters": "It highlights a critical security gap where organizations focus too heavily on perimeter defense while neglecting internal visibility and monitoring.",
-        "affected": [],
-        "action": "Enhance internal network visibility and monitoring to detect silent threats.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Ceva Logistics Operations Disrupted by Cyberattack",
       "link": "https://www.securityweek.com/ceva-logistics-operations-disrupted-by-cyberattack/",
       "source": "SecurityWeek",
@@ -1343,38 +1313,6 @@
         "affected": [],
         "action": "Monitor developments regarding public surveillance policies and privacy rights.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws",
-      "link": "https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-12T11:13:03.000Z",
-      "summary": "Adobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign Classic that, if successfully exploited, could result in arbitrary code execution and privilege",
-      "categories": [
-        "Vulnerability",
-        "Threat Intel",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Adobe has released critical security updates to address multiple severe vulnerabilities affecting ColdFusion, Commerce, and Campaign Classic. Successful exploitation of these flaws could allow attackers to achieve arbitrary code execution and privilege escalation.",
-        "whyItMatters": "These vulnerabilities carry maximum CVSS scores of 10.0 and actively threaten core enterprise infrastructure if left unpatched.",
-        "affected": [
-          "Adobe ColdFusion",
-          "Adobe Commerce",
-          "Adobe Campaign Classic"
-        ],
-        "action": "Apply the latest Adobe security patches immediately.",
-        "risk": "Critical",
         "relatedCves": [],
         "source": "ai"
       }
@@ -1552,41 +1490,6 @@
       }
     },
     {
-      "title": "Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access",
-      "link": "https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-12T09:01:54.000Z",
-      "summary": "Threat actors have begun to actively exploit a recently patched critical security flaw in Broadcom VMware vCenter, according to new findings from QUIRSO.\n\nThe vulnerability in question is CVE-2026-59310 (CVSS score: 9.8)",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "VMware"
-      ],
-      "cves": [
-        "CVE-2026-59310"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Threat actors are actively exploiting a critical security flaw in Broadcom VMware vCenter to gain persistent remote access. The vulnerability, tracked as CVE-2026-59310, carries a severe CVSS score of 9.8.",
-        "whyItMatters": "This vulnerability allows attackers to achieve persistent remote access to critical infrastructure, posing a severe threat to enterprise environments.",
-        "affected": [
-          "VMware vCenter"
-        ],
-        "action": "Apply the available security patches immediately.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-59310"
-        ],
-        "source": "ai"
-      }
-    },
-    {
       "title": "ConnectSecure helps MSPs automate Microsoft 365 security remediation",
       "link": "https://www.helpnetsecurity.com/2026/08/12/connectsecure-microsoft-365-auto-remediation-training-assessments/",
       "source": "Help Net Security",
@@ -1694,68 +1597,6 @@
         "affected": [],
         "action": "Apply the August Patch Tuesday updates immediately.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations",
-      "link": "https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-12T08:04:52.000Z",
-      "summary": "Two malicious LiteLLM releases sat on PyPI for about 40 minutes in March carrying credential-stealing code capable of harvesting cloud keys, SSH keys, Kubernetes tokens, database passwords, and other secrets from systems",
-      "categories": [
-        "Incident Response",
-        "Open Source"
-      ],
-      "tags": [
-        "Kubernetes"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Two malicious LiteLLM releases containing credential-stealing code were uploaded to PyPI for a brief period in March. The compromised packages could potentially harvest sensitive information such as cloud, SSH, Kubernetes, and database credentials from affected systems.",
-        "whyItMatters": "This supply chain attack potentially exposed sensitive secrets for over 2,100 organizations.",
-        "affected": [
-          "LiteLLM PyPI packages"
-        ],
-        "action": "Check systems for exposure and rotate any potentially compromised credentials.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code",
-      "link": "https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-12T07:31:40.000Z",
-      "summary": "SAP has released patches to address a maximum-severity security flaw impacting Commerce Cloud (Data Hub Adapter) that could result in arbitrary code execution.\n\nThe vulnerability, assigned the CVE identifier CVE-2026-582",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "SAP"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "SAP has released patches for a maximum-severity security flaw in the SAP Commerce Cloud Data Hub Adapter. This vulnerability could allow unauthenticated attackers to execute arbitrary code.",
-        "whyItMatters": "Unauthenticated remote code execution on enterprise e-commerce platforms can lead to complete system compromise and data breaches.",
-        "affected": [
-          "SAP Commerce Cloud Data Hub Adapter"
-        ],
-        "action": "Apply the latest security patches provided by SAP immediately.",
-        "risk": "Critical",
         "relatedCves": [],
         "source": "ai"
       }
@@ -1999,35 +1840,6 @@
         "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
-      }
-    },
-    {
-      "title": "ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access",
-      "link": "https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-12T06:41:38.000Z",
-      "summary": "The security researcher going by the name Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has released a proof-of-concept (PoC) for a new Microsoft zero-day called ShieldBreak.\n\nThe vulnerabi",
-      "categories": [
-        "Zero Day",
-        "Research"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": true,
-      "severity": "high",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A security researcher known as Chaotic Eclipse has released a proof-of-concept for a zero-day exploit named ShieldBreak. The vulnerability allegedly bypasses Microsoft Defender patches and grants SYSTEM-level access.",
-        "whyItMatters": "This vulnerability allows attackers to bypass security controls and achieve the highest level of system privileges.",
-        "affected": [
-          "Microsoft Defender"
-        ],
-        "action": "Monitor for official patches from Microsoft and restrict untrusted execution.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
       }
     },
     {
@@ -3706,33 +3518,6 @@
       }
     },
     {
-      "title": "U.S., South Korean government agencies caution to be on lookout for Gunra ransomware gang",
-      "link": "https://cyberscoop.com/us-south-korea-gunra-ransomware-warning/",
-      "source": "CyberScoop",
-      "publishedAt": "2026-08-10T19:13:09.000Z",
-      "summary": "The ransomware-as-a-service outfit has gone after a range of critical infrastructure sectors across the globe.\nThe post U.S., South Korean government agencies caution to be on lookout for Gunra ransomware gang appeared f",
-      "categories": [
-        "Ransomware",
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "high",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "U.S. and South Korean government agencies have issued a joint warning regarding the Gunra ransomware-as-a-service gang. The threat group has targeted various critical infrastructure sectors globally.",
-        "whyItMatters": "Critical infrastructure sectors face an elevated risk of disruptive attacks from a globally active ransomware syndicate.",
-        "affected": [],
-        "action": "Monitor networks for activity related to the Gunra ransomware gang.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "The Patch Gap: Why Defenders Need to Think in Chains, Not Checklists",
       "link": "https://www.darkreading.com/cybersecurity-operations/patch-gap-defenders-chains-not-checklists",
       "source": "Dark Reading",
@@ -5162,36 +4947,6 @@
       }
     },
     {
-      "title": "[Launched] Generally Available: Explicit proxy in Azure Firewall",
-      "link": "https://azure.microsoft.com/updates?id=568825",
-      "source": "Azure Updates",
-      "publishedAt": "2026-08-05T14:54:08.000Z",
-      "summary": "Azure Firewall explicit proxy is now\r\ngenerally available. Explicit proxy enables customers to configure applications\r\nand browsers to send HTTP and HTTPS traffic directly to Azure Firewall using\r\nproxy settings, providi",
-      "categories": [
-        "Cloud"
-      ],
-      "tags": [
-        "Azure"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Azure Firewall explicit proxy is now\r\ngenerally available. Explicit proxy enables customers to configure applications\r\nand browsers to send HTTP and HTTPS traffic directly to Azure Firewall using\r\nproxy settings, providi",
-        "whyItMatters": "Background context — no immediate action expected.",
-        "affected": [
-          "Azure"
-        ],
-        "action": "No action required — informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Python Software Foundation - Python 3.11.0a3 to 3.15.0b2",
       "link": "https://bishopfox.com/blog/python-software-foundation-python-3-11-0a3-to-3-15-0b2",
       "source": "Bishop Fox",
@@ -5812,6 +5567,234 @@
         "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
+      }
+    },
+    {
+      "title": "An analysis of incidents at Brazilian educational institutions",
+      "link": "https://securelist.com/incidents-at-brazilian-educational-institutions/120803/",
+      "source": "Kaspersky Securelist",
+      "publishedAt": "2026-08-03T13:00:17.000Z",
+      "summary": "Kaspersky expert provides statistics and details on several incident response cases at educational institutions in Brazil, as well as tips for schools and universities on how to stay safe.",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Kaspersky experts have released statistics and incident response details concerning cybersecurity breaches at educational institutions in Brazil. The report also provides actionable security tips tailored for schools and universities to improve their defenses.",
+        "whyItMatters": "It highlights targeted cyber threats against the education sector, which often lacks robust security resources.",
+        "affected": [],
+        "action": "Review institutional cybersecurity measures and implement recommended safety tips.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Pass the Passkey: A Novel Attack Surface in Passwordless Authentication",
+      "link": "https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/",
+      "source": "Unit 42",
+      "publishedAt": "2026-08-03T10:00:35.000Z",
+      "summary": "Explore how passkey implementation gaps undermine security when relying parties fail to validate the User Verified flag, reducing MFA to a single factor.\nThe post Pass the Passkey: A Novel Attack Surface in Passwordless ",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Researchers have discovered a novel attack surface in passwordless authentication where relying parties fail to validate the User Verified flag. This implementation gap undermines passkey security by effectively reducing multi-factor authentication to a single factor.",
+        "whyItMatters": "This flaw defeats the core security guarantees of passkeys by allowing attackers to bypass multi-factor authentication requirements.",
+        "affected": [],
+        "action": "Ensure relying parties correctly validate the User Verified flag in passkey implementations.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "注意喚起: Ruby on RailsのActive Storageにおけるリモートコード実行につながる脆弱性（CVE-2026-66066）に関する注意喚起 (更新)",
+      "link": "https://www.jpcert.or.jp/at/2026/at260021.html",
+      "source": "JPCERT/CC",
+      "publishedAt": "2026-08-03T06:00:00.000Z",
+      "summary": "注意喚起: Ruby on RailsのActive Storageにおけるリモートコード実行につながる脆弱性（CVE-2026-66066）に関する注意喚起  (更新)",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-66066"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "An advisory has been issued regarding a remote code execution vulnerability in Ruby on Rails' Active Storage, tracked as CVE-2026-66066. Administrators are advised to review the updated warning and apply necessary security patches.",
+        "whyItMatters": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable systems, posing a severe risk to applications built on Ruby on Rails.",
+        "affected": [
+          "Ruby on Rails Active Storage"
+        ],
+        "action": "Update Ruby on Rails Active Storage to the latest patched version immediately.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-66066"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CrowdStrike 2026 Threat Hunting Report: Exploitation Window Closes as AI Use Accelerates",
+      "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/",
+      "source": "CrowdStrike",
+      "publishedAt": "2026-08-03T05:00:00.000Z",
+      "summary": "CrowdStrike 2026 Threat Hunting Report: Exploitation Window Closes as AI Use Accelerates",
+      "categories": [
+        "Vulnerability",
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "CrowdStrike has released its 2026 Threat Hunting Report, highlighting a shrinking exploitation window for attackers. The report also notes an acceleration in the adoption of artificial intelligence in threat tactics.",
+        "whyItMatters": "It underscores the rapidly evolving cybersecurity landscape where both defenders and threat actors increasingly rely on AI.",
+        "affected": [],
+        "action": "Review the full report to understand emerging AI-driven threat trends.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "VU#243636: VPS.org one-click deployment templates contain multiple vulnerabilities",
+      "link": "https://kb.cert.org/vuls/id/243636",
+      "source": "CERT/CC",
+      "publishedAt": "2026-07-31T15:15:50.485Z",
+      "summary": "Overview\nVPS.org's one-click deployment templates provision services with default passwords and predefined network bindings instead of generating randomized secrets or applying per-deployment hardening measures.\nDescript",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "VPS.org one-click deployment templates provision services with default passwords and insecure predefined network bindings. These templates fail to generate randomized secrets or apply necessary per-deployment hardening measures.",
+        "whyItMatters": "Deploying services with predictable default credentials and weak configurations exposes systems to immediate unauthorized access and compromise.",
+        "affected": [
+          "VPS.org one-click deployment templates"
+        ],
+        "action": "Audit deployments for default passwords and apply proper hardening measures.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8620-4: Linux kernel (Intel IoTG) vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8620-4",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-07-31T15:00:56.000Z",
+      "summary": "Maxim Suhanov discovered that the NTFS file system implementation in the\nLinux kernel did not properly validate file name length in certain\nsituations, leading to an out-of-bounds read. An attacker could use this to\ncons",
+      "categories": [
+        "Vulnerability",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Maxim Suhanov discovered a vulnerability in the NTFS file system implementation of the Linux kernel for Intel IoTG. The flaw involves improper validation of file name length, which can lead to an out-of-bounds read.",
+        "whyItMatters": "This vulnerability could potentially allow an attacker to cause information disclosure or system instability via crafted NTFS file systems.",
+        "affected": [
+          "Linux kernel (Intel IoTG)"
+        ],
+        "action": "Update the Linux kernel to the latest patched version provided by your distributor.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "This month in security with Tony Anscombe – July 2026 edition",
+      "link": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-july-2026/",
+      "source": "WeLiveSecurity",
+      "publishedAt": "2026-07-31T14:14:15.000Z",
+      "summary": "OpenAI models going rogue, the first documented agentic ransomware operation, and an emergent AI-driven supply chain threat made for a packed July roundup",
+      "categories": [
+        "Ransomware",
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "high",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The July 2026 security roundup highlights emerging threats involving rogue OpenAI models and the first documented agentic ransomware operation. Additionally, experts observed a new AI-driven supply chain attack targeting software ecosystems.",
+        "whyItMatters": "It demonstrates a significant escalation in autonomous AI-driven cyber threats and ransomware operations.",
+        "affected": [],
+        "action": "Monitor AI security updates and review supply chain risk management policies.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "What Security Leaders Think About Frontier AI Models: Firsthand of Mythos",
+      "link": "https://bishopfox.com/blog/what-security-leaders-think-about-frontier-ai-models-firsthand-mythos",
+      "source": "Bishop Fox",
+      "publishedAt": "2026-07-31T13:00:00.000Z",
+      "summary": "Frontier AI models are raising the ceiling for skilled attackers and lowering the bar for everyone else. Leaders from Vista Equity, Cisco, and Bishop Fox share what that shift looks like in practice, how the existing sec",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [
+        "Cisco"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Frontier AI models are changing the cybersecurity landscape by increasing the capabilities of skilled attackers while making sophisticated attacks easier for less skilled individuals. Industry leaders from major organizations recently shared their perspectives on how this shift impacts current security practices.",
+        "whyItMatters": "This trend poses a significant threat as advanced AI lowers the barrier to entry for executing complex cyber attacks.",
+        "affected": [],
+        "action": "Monitor evolving AI-driven threat vectors and strengthen defensive postures accordingly.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
       }
     }
   ]
