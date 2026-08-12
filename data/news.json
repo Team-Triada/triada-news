@@ -1,6 +1,354 @@
 {
-  "updatedAt": "2026-08-12T08:39:29.800Z",
+  "updatedAt": "2026-08-12T10:20:31.908Z",
   "items": [
+    {
+      "title": "Help shape the future of resilient private 5G",
+      "link": "https://www.ncsc.gov.uk/blogs/help-shape-the-future-of-resilient-private-5g",
+      "source": "NCSC UK",
+      "publishedAt": "2026-08-12T12:00:00.000Z",
+      "summary": "The NCSC wants to collaborate with organisations developing technologies and approaches for secure, resilient and deployable private 5G",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The UK's NCSC is seeking collaboration with organizations to develop secure, resilient, and deployable private 5G technologies. This initiative aims to help shape the future of private 5G network security and resilience.",
+        "whyItMatters": "It proactively addresses security and resilience standards for emerging private 5G network technologies.",
+        "affected": [],
+        "action": "Participate in the NCSC private 5G collaboration initiative if developing relevant technologies.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "New Microsoft Defender 'ShieldBreak' zero-day grants SYSTEM privileges",
+      "link": "https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldbreak-zero-day-grants-system-privileges/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-08-12T10:15:22.000Z",
+      "summary": "Nightmare Eclipse has released a new Microsoft Defender zero-day exploit named \"ShieldBreak\" after Microsoft released the August 2026 Patch Tuesday security updates. [...]",
+      "categories": [
+        "Zero Day",
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Threat actor Nightmare Eclipse has released a new Microsoft Defender zero-day exploit called ShieldBreak following the August 2026 Patch Tuesday updates. This exploit successfully grants attackers SYSTEM-level privileges on vulnerable systems.",
+        "whyItMatters": "It matters because a zero-day exploit granting SYSTEM privileges allows attackers complete control over affected machines, bypassing standard security defenses.",
+        "affected": [
+          "Microsoft Defender"
+        ],
+        "action": "Monitor for official patches from Microsoft and restrict administrative access.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Prompt Injections for Defense",
+      "link": "https://www.schneier.com/blog/archives/2026/08/prompt-injections-for-defense.html",
+      "source": "Schneier on Security",
+      "publishedAt": "2026-08-12T09:56:37.000Z",
+      "summary": "This seems to work:\nResearchers from Tracebit on Monday said they found that placing prompt injections alongside passwords, cryptographic keys, and other secrets stored on Amazon Web Services was often all that was neede",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Researchers from Tracebit discovered that placing prompt injections alongside secrets stored on Amazon Web Services can effectively compromise them. This technique demonstrates a novel vulnerability vector where AI systems accessing cloud data can be manipulated via injected instructions.",
+        "whyItMatters": "It highlights a significant security risk for organizations using AI tools that interact with cloud storage, as hidden prompt injections can expose sensitive credentials.",
+        "affected": [
+          "Amazon Web Services"
+        ],
+        "action": "Audit cloud-stored data and AI access permissions to mitigate injection risks.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Over 2,500 Organizations Impacted by LiteLLM Supply Chain Attack",
+      "link": "https://www.securityweek.com/over-2500-organizations-impacted-by-litellm-supply-chain-attack/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-08-12T09:55:45.000Z",
+      "summary": "LiteLLM was compromised through the Trivy hack and abused to distribute information-stealing malware to its users.\nThe post Over 2,500 Organizations Impacted by LiteLLM Supply Chain Attack appeared first on SecurityWeek.",
+      "categories": [
+        "Malware",
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "LiteLLM suffered a supply chain attack stemming from the Trivy hack, which was used to distribute information-stealing malware to users. Over 2,500 organizations have been impacted by this security breach.",
+        "whyItMatters": "This supply chain compromise exposes thousands of organizations to data theft via malicious malware distributed through trusted channels.",
+        "affected": [
+          "LiteLLM"
+        ],
+        "action": "Audit environments for unauthorized access and update LiteLLM to a verified clean version.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Microsoft patches 400+ vulnerabilities, one zero-day under attack (CVE-2026-68820)",
+      "link": "https://www.helpnetsecurity.com/2026/08/12/august-2026-patch-tuesday-cve-2026-68820/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-08-12T09:34:16.000Z",
+      "summary": "Microsoft’s August 2026 Patch Tuesday delivered security fixes for 400+ vulnerabilities, including one that has been exploited in zero-day attacks (CVE-2026-68820) and three that were publicly disclosed prior to the rele",
+      "categories": [
+        "Zero Day",
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-68820"
+      ],
+      "kev": true,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft has released its August 2026 Patch Tuesday updates to address over 400 security vulnerabilities across its ecosystem. This batch includes a critical zero-day vulnerability, designated CVE-2026-68820, which is actively being exploited in the wild.",
+        "whyItMatters": "Active exploitation of zero-day vulnerabilities poses an immediate and severe threat to organizations utilizing unpatched Microsoft products.",
+        "affected": [],
+        "action": "Apply the August 2026 Microsoft security updates immediately.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-68820"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Russian-Linked Hackers Accessed Polish Power Plant OT Network Through Private APN, Says CERT.PL",
+      "link": "https://www.infosecurity-magazine.com/news/attack-polish-power-plant-2025-led/",
+      "source": "Infosecurity Magazine",
+      "publishedAt": "2026-08-12T09:30:00.000Z",
+      "summary": "The Polish CERT has released details of another 2025 attack on a combined heat and power plant in the country",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "CERT.PL reported that Russian-linked hackers successfully accessed the operational technology network of a Polish combined heat and power plant. The threat actors gained entry into the critical infrastructure facility through a private APN connection.",
+        "whyItMatters": "This incident highlights how attackers are increasingly targeting operational technology networks in critical infrastructure through vulnerable remote access pathways like private APNs.",
+        "affected": [],
+        "action": "Audit and secure all private APN and remote access connections to critical operational technology networks.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access",
+      "link": "https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-12T09:01:54.000Z",
+      "summary": "Threat actors have begun to actively exploit a recently patched critical security flaw in Broadcom VMware vCenter, according to new findings from QUIRSO.\n\nThe vulnerability in question is CVE-2026-59310 (CVSS score: 9.8)",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "VMware"
+      ],
+      "cves": [
+        "CVE-2026-59310"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Threat actors are actively exploiting a critical security flaw in Broadcom VMware vCenter to gain persistent remote access. The vulnerability, tracked as CVE-2026-59310, carries a severe CVSS score of 9.8.",
+        "whyItMatters": "This vulnerability allows attackers to achieve persistent remote access to critical infrastructure, posing a severe threat to enterprise environments.",
+        "affected": [
+          "VMware vCenter"
+        ],
+        "action": "Apply the available security patches immediately.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-59310"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "ConnectSecure helps MSPs automate Microsoft 365 security remediation",
+      "link": "https://www.helpnetsecurity.com/2026/08/12/connectsecure-microsoft-365-auto-remediation-training-assessments/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-08-12T09:00:29.000Z",
+      "summary": "ConnectSecure has announced that Microsoft 365 Auto Remediation and AI-powered Training Assessments are now live on the ConnectSecure platform. The capabilities help managed service providers (MSPs) address supported M36",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "ConnectSecure has launched Microsoft 365 Auto Remediation and AI-powered Training Assessments on its platform. These new capabilities are designed to help managed service providers automate security fixes and address M365 vulnerabilities.",
+        "whyItMatters": "It enables MSPs to streamline security posture management and threat remediation for Microsoft 365 environments.",
+        "affected": [
+          "Microsoft 365"
+        ],
+        "action": "Review the new ConnectSecure features to determine if they fit your MSP security workflow.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CBTS brings continuous penetration testing to enterprise security",
+      "link": "https://www.helpnetsecurity.com/2026/08/12/cbts-penetration-testing-as-a-service-ptaas/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-08-12T08:53:16.000Z",
+      "summary": "CBTS has launched Penetration Testing as a Service (PTaaS), combining autonomous penetration testing with security expertise to help organizations continuously identify exploitable risks, validate attack paths, and prior",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "CBTS has launched Penetration Testing as a Service (PTaaS) to help organizations identify risks and validate attack paths. The service combines autonomous penetration testing tools with human security expertise for continuous enterprise protection.",
+        "whyItMatters": "This service helps enterprises continuously uncover and remediate exploitable security vulnerabilities before malicious actors can leverage them.",
+        "affected": [],
+        "action": "Evaluate your organization's penetration testing strategy to see if continuous PTaaS solutions fit your security needs.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Fresh Windows Zero-Day Exploited in North Korean Cyberattacks",
+      "link": "https://www.securityweek.com/fresh-windows-zero-day-exploited-in-north-korean-cyberattacks/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-08-12T08:45:53.000Z",
+      "summary": "The bug allowed attackers to gain full control of the victims’ systems and deploy the ForestTiger backdoor.\nThe post Fresh Windows Zero-Day Exploited in North Korean Cyberattacks appeared first on SecurityWeek.",
+      "categories": [
+        "Zero Day",
+        "Malware",
+        "Vulnerability"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A newly discovered Windows zero-day vulnerability is actively being exploited in cyberattacks orchestrated by North Korean threat actors. Attackers are leveraging the flaw to gain full system control and deploy the ForestTiger backdoor.",
+        "whyItMatters": "This zero-day flaw poses a critical threat because it allows attackers to compromise victim systems completely and deploy malicious backdoors without prior authorization.",
+        "affected": [
+          "Microsoft Windows"
+        ],
+        "action": "Apply the latest security updates from Microsoft as soon as they become available.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Crytica’s RDAi detects OT device tampering from within",
+      "link": "https://www.helpnetsecurity.com/2026/08/12/crytica-security-rapid-detection-alert-and-isolation-rdai/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-08-12T08:40:49.000Z",
+      "summary": "Crytica Security has developed a patented solution that delivers rapid, deterministic threat detection for operational technology (OT), protecting the embedded systems and connected devices that underpin critical infrast",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Crytica Security has introduced a patented solution called RDAi designed for operational technology. The tool provides rapid and deterministic threat detection to protect embedded systems and connected devices in critical infrastructure.",
+        "whyItMatters": "It enhances the security of critical infrastructure by detecting tampering in operational technology devices.",
+        "affected": [],
+        "action": "Explore Crytica's RDAi solution for OT security.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Chrome’s anti-abuse protections block 7 billion unwanted Android notifications daily",
+      "link": "https://www.helpnetsecurity.com/2026/08/12/google-chrome-abusive-web-push-notifications/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-08-12T08:36:28.000Z",
+      "summary": "Google Chrome’s latest measures against abusive web push notifications include automatically revoking notification permissions for inactive and suspicious websites, helping reduce scams, phishing attempts, and other dece",
+      "categories": [
+        "News"
+      ],
+      "tags": [
+        "Android",
+        "Chrome"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Google Chrome has implemented automatic permission revocation for inactive and suspicious websites to combat abusive web push notifications. This protective measure successfully blocks approximately 7 billion unwanted Android notifications daily.",
+        "whyItMatters": "This feature significantly reduces the daily volume of phishing attempts, scams, and deceptive content targeting mobile users.",
+        "affected": [
+          "Google Chrome for Android"
+        ],
+        "action": "Ensure Google Chrome is updated to the latest version to benefit from built-in anti-abuse protections.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Ivanti EPM Update Patches Remotely Exploitable Flaws",
       "link": "https://www.securityweek.com/ivanti-epm-update-patches-remotely-exploitable-flaws/",
@@ -357,84 +705,6 @@
       }
     },
     {
-      "title": "338 million attack simulations reveal the state of enterprise defense",
-      "link": "https://www.helpnetsecurity.com/2026/08/12/picus-security-blue-report-2026/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-08-12T05:00:24.000Z",
-      "summary": "First, a bit of good news: Enterprise defenses are recovering. However, it’s a narrow recovery, with a twist. Today, organizations are better at stopping loud attacks but have barely moved the needle at all against the q",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Recent data from 338 million attack simulations indicates that enterprise defenses are recovering slightly. However, this recovery is narrow, showing improvements against loud attacks while remaining largely ineffective against quieter threats.",
-        "whyItMatters": "It highlights a persistent vulnerability in enterprise security where stealthy threats continue to bypass standard organizational defenses.",
-        "affected": [],
-        "action": "Review stealth threat detection capabilities to address gaps in enterprise defense.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Ready-made $500 kit puts a crypto scam within anyone’s reach",
-      "link": "https://www.helpnetsecurity.com/2026/08/12/crypto-scam-kit-cybercrime-forum/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-08-12T04:30:27.000Z",
-      "summary": "A seller on a cybercrime forum is offering a ready-made scam kit for $500, complete with an admin panel that tracks victims, checks their crypto wallets for value, and inflates fake balances to squeeze out more money, Ma",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A cybercrime forum seller is offering a $500 ready-made crypto scam kit equipped with an administrative panel. The kit allows attackers to track victims, inspect their cryptocurrency wallet balances, and display fraudulent balances to extort additional funds.",
-        "whyItMatters": "This low-cost, pre-packaged toolkit significantly lowers the technical barrier to entry for malicious actors looking to conduct targeted cryptocurrency scams.",
-        "affected": [],
-        "action": "Educate users to verify cryptocurrency platforms and remain vigilant against inflated balance claims.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "AI deployments are stretching enterprise security to its limits",
-      "link": "https://www.helpnetsecurity.com/2026/08/12/netfoundry-securing-ai-deployments-report/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-08-12T04:00:55.000Z",
-      "summary": "CISOs and CTOs expect AI deployments to increase their organizations’ attack surface by an average of 14% over the next year. Nearly all lack visibility into AI deployments, and 90% are concerned about employees using un",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CISOs and CTOs expect enterprise AI deployments to expand their attack surfaces by an average of 14% over the coming year. Additionally, 90% of security leaders express concern over employees using unvetted AI tools due to a severe lack of visibility.",
-        "whyItMatters": "Uncontrolled AI adoption introduces significant enterprise blind spots that severely heighten overall organizational risk.",
-        "affected": [],
-        "action": "Establish strict visibility and governance controls for all enterprise AI deployments.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "注意喚起: 2026年8月マイクロソフトセキュリティ更新プログラムに関する注意喚起 (公開)",
       "link": "https://www.jpcert.or.jp/at/2026/at260022.html",
       "source": "JPCERT/CC",
@@ -629,34 +899,6 @@
       }
     },
     {
-      "title": "Signal adds an extra layer of security to make sure you're actually chatting with the right person",
-      "link": "https://www.theregister.com/security/2026/08/11/signal-adds-an-extra-layer-of-security-to-make-sure-youre-actually-chatting-with-the-right-person/5286461",
-      "source": "The Register",
-      "publishedAt": "2026-08-11T21:45:00.000Z",
-      "summary": "One big caveat, though: You need your contact's phone number",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Signal has introduced a new security feature designed to help users verify the identity of the people they are chatting with. However, utilizing this enhanced verification method requires having the contact's phone number.",
-        "whyItMatters": "It improves communication integrity and trust by helping users confirm they are talking to the correct individual.",
-        "affected": [
-          "Signal"
-        ],
-        "action": "Update your Signal app to the latest version.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Microsoft's Patch Tuesday Deluge Continues With August Updates",
       "link": "https://www.darkreading.com/application-security/microsofts-patch-tuesday-deluge-continues",
       "source": "Dark Reading",
@@ -678,34 +920,6 @@
         "affected": [],
         "action": "Prioritize and apply the August Microsoft security updates based on risk.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "421 bugs in Microsoft's Patch Tuesday release, and the Norks have already attacked one",
-      "link": "https://www.theregister.com/security/2026/08/11/421-bugs-in-microsofts-patch-tuesday-release-and-the-norks-have-already-attacked-one/5286483",
-      "source": "The Register",
-      "publishedAt": "2026-08-11T21:31:00.000Z",
-      "summary": "Sysadmins, welcome to your new norm",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft's latest Patch Tuesday release addresses a massive total of 421 security bugs. Threat actors linked to North Korea have already actively exploited at least one of these vulnerabilities in the wild.",
-        "whyItMatters": "Active exploitation of a newly patched vulnerability poses an immediate and severe risk to organizations that have not yet applied the updates.",
-        "affected": [
-          "Microsoft Products"
-        ],
-        "action": "Apply the latest Microsoft security patches immediately.",
-        "risk": "Critical",
         "relatedCves": [],
         "source": "ai"
       }
@@ -1125,32 +1339,6 @@
       }
     },
     {
-      "title": "Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can Run Commands",
-      "link": "https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-11T18:36:47.000Z",
-      "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has disclosed details of a new social engineering campaign orchestrated by Russian nation-state threat actors targeting IT workers in the country by masquerading ",
-      "categories": [
-        "Threat Intel"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The Computer Emergency Research Team of Ukraine (CERT-UA) reports that the Russian nation-state threat group Sandworm (UAC-0145) is targeting Ukrainian IT workers using fake job interviews. The attackers trick victims into downloading a malicious VPN application capable of executing arbitrary commands.",
-        "whyItMatters": "This campaign leverages targeted social engineering and trojanized tools to gain unauthorized remote access to critical IT infrastructure in Ukraine.",
-        "affected": [],
-        "action": "Do not download untrusted VPN applications or files from unsolicited job interview communications.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Delta probes Wi-Fi deauth attack on flight carrying DEF CON attendees",
       "link": "https://www.bleepingcomputer.com/news/security/delta-probes-wi-fi-deauth-attack-on-flight-carrying-def-con-attendees/",
       "source": "BleepingComputer",
@@ -1290,38 +1478,6 @@
         ],
         "action": "Apply the August 2026 security updates immediately.",
         "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Windows 11 KB5121003 & KB5120240 cumulative updates released",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5121003-and-kb5120240-cumulative-updates-released/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-08-11T17:38:42.000Z",
-      "summary": "Microsoft has released Windows 11 KB5121003 and KB5120240 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, and add new features. [...]",
-      "categories": [
-        "Vulnerability"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has released cumulative updates KB5121003 and KB5120240 for Windows 11 versions 23H2 through 25H2. These updates are designed to address security vulnerabilities, resolve existing bugs, and introduce new features.",
-        "whyItMatters": "Applying these cumulative updates is essential to maintain system stability and protect Windows 11 devices from newly patched security vulnerabilities.",
-        "affected": [
-          "Windows 11 version 23H2",
-          "Windows 11 version 24H2",
-          "Windows 11 version 25H2"
-        ],
-        "action": "Install the latest cumulative updates through Windows Update.",
-        "risk": "Medium",
         "relatedCves": [],
         "source": "ai"
       }
@@ -1476,32 +1632,6 @@
       }
     },
     {
-      "title": "DEF CON dingus suspected of trying to take over Delta in-flight Wi-Fi",
-      "link": "https://www.theregister.com/security/2026/08/11/def-con-dingus-suspected-of-trying-to-take-over-delta-in-flight-wi-fi/5286331",
-      "source": "The Register",
-      "publishedAt": "2026-08-11T16:27:57.000Z",
-      "summary": "This is why we can't have nice things, people",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "An attendee at the DEF CON conference was suspected of attempting to hijack in-flight Wi-Fi systems on a Delta Air Lines flight. The incident highlights ongoing security concerns regarding passenger network vulnerabilities in commercial aviation.",
-        "whyItMatters": "It demonstrates potential physical and remote attack vectors against critical in-flight transportation infrastructure.",
-        "affected": [],
-        "action": "Monitor aviation cybersecurity developments and review in-flight network security controls.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Social media platforms crack down on drone factory recruiting game",
       "link": "https://www.malwarebytes.com/blog/news/2026/08/social-media-platforms-crack-down-on-drone-factory-recruiting-game",
       "source": "Malwarebytes Labs",
@@ -1551,35 +1681,6 @@
         ],
         "action": "Monitor autonomous AI agents closely when granting them access to external services.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Zoom Patches Zero-Click Code Execution Vulnerability",
-      "link": "https://www.securityweek.com/zoom-patches-zero-click-code-execution-vulnerability/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-08-11T15:49:53.000Z",
-      "summary": "Impacting Zoom annotation, the bug could be exploited by a meeting participant to execute code on another participant’s machine.\nThe post Zoom Patches Zero-Click Code Execution Vulnerability appeared first on SecurityWee",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Zoom has patched a zero-click code execution vulnerability affecting its annotation feature. The flaw allowed a meeting participant to remotely execute code on another user's machine without requiring any user interaction.",
-        "whyItMatters": "This vulnerability is critical because it allows attackers to compromise user devices simply through meeting participation without triggering any defensive user prompts.",
-        "affected": [
-          "Zoom annotation"
-        ],
-        "action": "Update Zoom to the latest patched version immediately.",
-        "risk": "Critical",
         "relatedCves": [],
         "source": "ai"
       }
@@ -1640,32 +1741,6 @@
       }
     },
     {
-      "title": "Two wars and a World Cup lead to epic DDoS attacks on publishers",
-      "link": "https://www.theregister.com/security/2026/08/11/two-wars-and-a-world-cup-lead-to-epic-ddos-attacks-on-publishers/5286278",
-      "source": "The Register",
-      "publishedAt": "2026-08-11T15:33:00.000Z",
-      "summary": "Ukraine, Iran, and football inspire geopolitically motivated DDoS attacks, while 1 Tbps traffic jams up 519 percent",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Geopolitical conflicts and the World Cup have inspired a massive surge in DDoS attacks targeting news publishers. Traffic volumes exceeding 1 Tbps have increased significantly by 519 percent.",
-        "whyItMatters": "This unprecedented surge in volumetric attacks threatens the availability and operational continuity of digital news publishers worldwide.",
-        "affected": [],
-        "action": "Implement robust DDoS mitigation and traffic filtering solutions.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "VU#431093: TCG TPM 2.0 reference code found vulnerable to information leakage and timing side-channel attacks",
       "link": "https://kb.cert.org/vuls/id/431093",
       "source": "CERT/CC",
@@ -1697,32 +1772,6 @@
           "CVE-2026-6726",
           "CVE-2026-6727"
         ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "The AI Governance Gap Is a Leadership Problem: Waiting Won’t Close It",
-      "link": "https://www.securityweek.com/the-ai-governance-gap-is-a-leadership-problem-waiting-wont-close-it/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-08-11T15:00:00.000Z",
-      "summary": "Organizations are rushing to implement AI without fully grasping where its legal protections begin and end.\nThe post The AI Governance Gap Is a Leadership Problem: Waiting Won’t Close It appeared first on SecurityWeek.",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Organizations are rushing to implement artificial intelligence without fully understanding its legal protections and risks. Waiting to address this governance gap is no longer a viable strategy for business leaders.",
-        "whyItMatters": "Unregulated AI adoption exposes organizations to unforeseen legal, operational, and security risks.",
-        "affected": [],
-        "action": "Establish comprehensive AI governance policies immediately.",
-        "risk": "News",
-        "relatedCves": [],
         "source": "ai"
       }
     },
@@ -2077,32 +2126,6 @@
       }
     },
     {
-      "title": "Arctera enhances Unified Platform for evidence-driven compliance workflows",
-      "link": "https://www.helpnetsecurity.com/2026/08/11/arctera-unified-platform-new-capabilities/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-08-11T13:09:04.000Z",
-      "summary": "Arctera has announced new capabilities to the Arctera Unified Platform enabling organizations to manage complex governance requirements by connecting signals, controls and response workflows across the compliance lifecyc",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Arctera has introduced new capabilities to its Unified Platform to help organizations manage complex governance and compliance requirements. The update connects signals, controls, and response workflows across the entire compliance lifecycle.",
-        "whyItMatters": "This release is a commercial product update aimed at enterprise compliance management rather than a security vulnerability.",
-        "affected": [],
-        "action": "Review the vendor release notes for more information on the new compliance capabilities.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Local governments in four states dealing with cyberattacks that have shut down services",
       "link": "https://therecord.media/cyberattacks-ransomware-local-governments",
       "source": "The Record",
@@ -2195,36 +2218,6 @@
       }
     },
     {
-      "title": "Citrix expands Platform Flex with observability and secure developer services",
-      "link": "https://www.helpnetsecurity.com/2026/08/11/citrix-platform-flex-new-services/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-08-11T12:39:55.000Z",
-      "summary": "Citrix has announced new services for Citrix Platform Flex, extending its flexible credit model with additional options for delivering, monitoring and securing digital work environments. The new offerings include Citrix ",
-      "categories": [
-        "News"
-      ],
-      "tags": [
-        "Citrix"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Citrix has expanded its Platform Flex by introducing new services that extend its flexible credit model. These additions are designed to improve the delivery, monitoring, and security of digital work environments.",
-        "whyItMatters": "This update introduces new capabilities for enterprise environments utilizing Citrix platforms, potentially altering how administrators manage and secure their infrastructure.",
-        "affected": [
-          "Citrix Platform Flex"
-        ],
-        "action": "Review the new Citrix Platform Flex offerings to determine their relevance to your infrastructure.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Love/hate relationship: The AI affair. Young people love AI, but it’s breaking their trust",
       "link": "https://www.malwarebytes.com/blog/ai/2026/08/love-hate-relationship-the-ai-affair-young-people-love-ai-but-its-breaking-their-trust",
       "source": "Malwarebytes Labs",
@@ -2245,32 +2238,6 @@
         "whyItMatters": "It highlights psychological and trust issues surrounding widespread AI adoption among younger demographics.",
         "affected": [],
         "action": "Monitor user trust trends regarding artificial intelligence technologies.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Deepfake hiccup unmasks suspected digital certificate fraudster",
-      "link": "https://www.theregister.com/security/2026/08/11/deepfake-hiccup-unmasks-suspected-digital-certificate-fraudster/5285934",
-      "source": "The Register",
-      "publishedAt": "2026-08-11T12:27:00.000Z",
-      "summary": "Face-swap software blinked for 'barely a second,' giving Spanish cops the break they needed",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Spanish police successfully unmasked a suspected digital certificate fraudster after their face-swap software blinked for a fraction of a second during a video interaction. This momentary glitch in the deepfake technology provided the crucial break law enforcement needed to identify the suspect.",
-        "whyItMatters": "It demonstrates how technical flaws in real-time deepfake usage can expose cybercriminals attempting to bypass biometric identity verification.",
-        "affected": [],
-        "action": "Monitor developments in deepfake detection for biometric authentication.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -2511,37 +2478,6 @@
       }
     },
     {
-      "title": "Mozilla revokes Firefox signing key after unencrypted copy lands in GitHub",
-      "link": "https://www.theregister.com/security/2026/08/11/mozilla-revokes-firefox-signing-key-after-unencrypted-copy-lands-in-github/5285908",
-      "source": "The Register",
-      "publishedAt": "2026-08-11T11:36:00.000Z",
-      "summary": "Audit logs found no unexpected visitors, but release verification still needs an update",
-      "categories": [
-        "Open Source"
-      ],
-      "tags": [
-        "Firefox",
-        "GitHub"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Mozilla revoked a Firefox signing key after an unencrypted copy was accidentally uploaded to GitHub. Although audit logs showed no unauthorized access, the release verification process requires updates.",
-        "whyItMatters": "Exposing a signing key compromises software integrity, potentially allowing attackers to distribute malicious updates disguised as legitimate Firefox releases.",
-        "affected": [
-          "Firefox"
-        ],
-        "action": "Update release verification systems and monitor for any misuse of the revoked key.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "OpenAI Launches Two-Tier Security Access Program Alongside GPT 5.6 Cyber",
       "link": "https://www.infosecurity-magazine.com/news/openai-daybreak-blue-red-gpt-cyber/",
       "source": "Infosecurity Magazine",
@@ -2679,32 +2615,6 @@
       }
     },
     {
-      "title": "Malicious SIMs can shut down phones, steal files, and drag 5G back to 2G",
-      "link": "https://www.theregister.com/security/2026/08/11/malicious-sims-can-shut-down-phones-steal-files-and-drag-5g-back-to-2g/5285482",
-      "source": "The Register",
-      "publishedAt": "2026-08-11T09:37:00.000Z",
-      "summary": "Researchers find standards-compliant functionality can be abused to hijack modems, downgrade connections, and even execute code",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Researchers discovered that standards-compliant SIM card functionality can be abused by malicious actors to hijack modems and steal files. The attack can also downgrade 5G network connections down to vulnerable 2G protocols.",
-        "whyItMatters": "This vulnerability exploits legitimate SIM features to compromise mobile devices and network security without requiring traditional malware.",
-        "affected": [],
-        "action": "Monitor vendor advisories and apply mobile modem updates as they become available.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Watch out for fake TikTok Shops trying to steal your money",
       "link": "https://www.malwarebytes.com/blog/scams/2026/08/watch-out-for-fake-tiktok-shops-trying-to-steal-your-money",
       "source": "Malwarebytes Labs",
@@ -2783,32 +2693,6 @@
           "Windows PCs"
         ],
         "action": "Verify software download sources before installing any remote-access tools.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Only Half of UK Manufacturers Have a Cyber Incident Response Plan",
-      "link": "https://www.infosecurity-magazine.com/news/half-uk-manufacturers-cyber/",
-      "source": "Infosecurity Magazine",
-      "publishedAt": "2026-08-11T08:00:00.000Z",
-      "summary": "Make UK reveals major cyber resilience gaps as 30% of UK manufacturers report recent cyber incidents",
-      "categories": [
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A recent report by Make UK reveals that only half of UK manufacturers possess a formal cyber incident response plan. Additionally, 30 percent of surveyed manufacturers have reported experiencing recent cyber incidents.",
-        "whyItMatters": "The lack of preparedness among UK manufacturers leaves a critical industrial sector highly vulnerable to disruptive and costly cyber attacks.",
-        "affected": [],
-        "action": "Develop and implement a comprehensive cyber incident response plan.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -3085,32 +2969,6 @@
         "whyItMatters": "This regulatory shift could significantly impact how AI developers design, train, and deploy models regarding political and ideological content.",
         "affected": [],
         "action": "Monitor regulatory developments regarding AI bias.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "DEF CON hackers add new muscle to water utility protection",
-      "link": "https://www.theregister.com/security/2026/08/10/def-con-hackers-add-new-muscle-to-water-utility-protection/5285715",
-      "source": "The Register",
-      "publishedAt": "2026-08-10T21:08:04.000Z",
-      "summary": "Franklin project adds new security providers, employs digital twins and AI",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The DEF CON Franklin project has expanded its water utility protection initiative by integrating new security providers. The updated framework now utilizes advanced technologies such as digital twins and artificial intelligence to enhance infrastructure defense.",
-        "whyItMatters": "Enhancing the cybersecurity of critical water infrastructure using AI and digital twins helps prevent potentially devastating disruptions to public utilities.",
-        "affected": [],
-        "action": "Monitor updates from the DEF CON Franklin project for implementation guidelines.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -5064,34 +4922,6 @@
       }
     },
     {
-      "title": "Iran Cyberattacks Against Minnesota Water Systems",
-      "link": "https://www.schneier.com/blog/archives/2026/08/iran-cyberattacks-against-minnesota-water-systems.html",
-      "source": "Schneier on Security",
-      "publishedAt": "2026-08-04T19:00:53.000Z",
-      "summary": "Attribution is preliminary, and so far it seems no real damage.\nAnd it seems like this is a campaign that has targeted at least seven states. And, because this is where the US is right now, Trump doesn’t believe it’s Ira",
-      "categories": [
-        "Threat Intel"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Attribution is preliminary, and so far it seems no real damage.\nAnd it seems like this is a campaign that has targeted at least seven states. And, because this is where the US is right now, Trump doesn’t believe it’s Ira",
-        "whyItMatters": "Background context — no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required — informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "CVE-2026-18830 - Issue with Amazon Bedrock AgentCore harness – Insufficient Input Validation",
       "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-073-aws/",
       "source": "AWS Security Bulletins",
@@ -5799,6 +5629,204 @@
         "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
+      }
+    },
+    {
+      "title": "Network Anomaly Detection in KATA",
+      "link": "https://securelist.com/tr/network-anomaly-detection-in-kata/120892/",
+      "source": "Kaspersky Securelist",
+      "publishedAt": "2026-07-31T10:00:25.000Z",
+      "summary": "An analysis of how Network Anomaly Detection (NAD) rules work within Kaspersky Anti Targeted Attack, using Kerberoasting and DNS tunneling attacks as examples.",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "This article analyzes how Network Anomaly Detection rules function within the Kaspersky Anti Targeted Attack platform. It specifically examines the detection mechanisms using Kerberoasting and DNS tunneling attacks as practical examples.",
+        "whyItMatters": "Understanding network anomaly detection mechanisms helps security teams improve threat visibility and better defend against sophisticated attacks like Kerberoasting and DNS tunneling.",
+        "affected": [
+          "Kaspersky Anti Targeted Attack"
+        ],
+        "action": "Review the KATA documentation to understand and configure Network Anomaly Detection rules.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8620-3: Linux kernel (Intel IoTG) vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8620-3",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-07-31T09:40:09.000Z",
+      "summary": "Maxim Suhanov discovered that the NTFS file system implementation in the\nLinux kernel did not properly validate file name length in certain\nsituations, leading to an out-of-bounds read. An attacker could use this to\ncons",
+      "categories": [
+        "Vulnerability",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The Linux kernel for Intel IoTG contained a vulnerability in the NTFS file system implementation regarding improper file name length validation. This flaw could be exploited by an attacker to trigger an out-of-bounds read.",
+        "whyItMatters": "Unvalidated file name length handling in the file system can lead to information disclosure or system instability.",
+        "affected": [
+          "Linux kernel (Intel IoTG)"
+        ],
+        "action": "Update the Linux kernel to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "注意喚起: 2026年7月マイクロソフトセキュリティ更新プログラムに関する注意喚起 (更新)",
+      "link": "https://www.jpcert.or.jp/at/2026/at260020.html",
+      "source": "JPCERT/CC",
+      "publishedAt": "2026-07-31T09:00:00.000Z",
+      "summary": "注意喚起: 2026年7月マイクロソフトセキュリティ更新プログラムに関する注意喚起  (更新)",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "An advisory has been issued regarding the Microsoft security updates for July 2026. This is an updated notification concerning the scheduled patch release.",
+        "whyItMatters": "Staying informed about scheduled security updates is essential for planning patch management and protecting systems against potential vulnerabilities.",
+        "affected": [
+          "Microsoft products"
+        ],
+        "action": "Review the official Microsoft security updates when available.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "VU#281278: SGLang contains six different vulnerabilities including RCE, data exfiltration, and credential disclosure",
+      "link": "https://kb.cert.org/vuls/id/281278",
+      "source": "CERT/CC",
+      "publishedAt": "2026-07-30T18:09:29.194Z",
+      "summary": "Overview\nSix vulnerabilities have been discovered within the SGLang project, including remote code execution (RCE), server-side request forgery (SSRF), local file read, credential leakage, and model weight exfiltration o",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Six vulnerabilities have been discovered within the SGLang project, including remote code execution (RCE), server-side request forgery (SSRF), local file read, credential leakage, and model weight exfiltration. These flaws pose significant security risks to deployments utilizing the affected software.",
+        "whyItMatters": "Attackers can exploit these vulnerabilities to execute arbitrary code, exfiltrate sensitive data, and compromise credentials.",
+        "affected": [
+          "SGLang"
+        ],
+        "action": "Update SGLang to the latest patched version.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "You were onto something with “It’s the Climb,” Miley",
+      "link": "https://blog.talosintelligence.com/you-were-onto-something-with-its-the-climb-miley/",
+      "source": "Talos Intelligence",
+      "publishedAt": "2026-07-30T18:00:35.000Z",
+      "summary": "Amy hikes Virginia’s most difficult trail and muses on the persistent challenges of cybersecurity. The two aren't dissimilar.",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "An opinion piece draws parallels between the physical challenges of hiking a difficult Virginia trail and the persistent hurdles faced in the cybersecurity industry. The author reflects on the ongoing effort required to navigate both domains successfully.",
+        "whyItMatters": "It offers a reflective perspective on the continuous and demanding nature of cybersecurity work without detailing a specific technical threat.",
+        "affected": [],
+        "action": "Read the article for personal reflection.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Read This Before You Buy That TV Streaming Stick",
+      "link": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
+      "source": "Krebs on Security",
+      "publishedAt": "2026-07-30T16:49:00.000Z",
+      "summary": "Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-time fee, warning that they secretly rent the user's Internet connectio",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Security experts warn consumers against using generic TV streaming sticks that offer unlimited content for a flat fee. These unauthorized devices secretly hijack the user's internet connection for malicious purposes.",
+        "whyItMatters": "Unvetted streaming sticks can compromise network security and expose users to unknown malicious activities.",
+        "affected": [],
+        "action": "Avoid purchasing generic TV streaming sticks.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "VU#790363: foreUP golf management platform's web API contains multiple vulnerabilities",
+      "link": "https://kb.cert.org/vuls/id/790363",
+      "source": "CERT/CC",
+      "publishedAt": "2026-07-30T15:12:59.599Z",
+      "summary": "Overview\nTwo vulnerabilities in the REST API were found in Golf Compete foreUP. The first exposes the merchant, Finix, API credentials directly in customer record responses, allowing any user to obtain and use the paymen",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Two vulnerabilities in the REST API of the Golf Compete foreUP platform were discovered. The flaws expose sensitive merchant Finix API credentials directly within customer record responses.",
+        "whyItMatters": "Exposed payment processor credentials allow unauthorized users to potentially access and compromise financial transactions and merchant accounts.",
+        "affected": [
+          "Golf Compete foreUP REST API"
+        ],
+        "action": "Update the foreUP platform and revoke exposed Finix API credentials immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
       }
     }
   ]
