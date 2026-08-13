@@ -1,6 +1,33 @@
 {
-  "updatedAt": "2026-08-13T19:18:54.371Z",
+  "updatedAt": "2026-08-13T21:01:58.932Z",
   "items": [
+    {
+      "title": "Akira hackers disable EDR with Safe Mode, steal data but fail to encrypt",
+      "link": "https://www.bleepingcomputer.com/news/security/akira-hackers-disable-edr-with-safe-mode-steal-data-but-fail-to-encrypt/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-08-13T20:47:02.000Z",
+      "summary": "An Akira ransomware affiliate disabled the endpoint detection and response (EDR) solution on a compromised system by restarting the machine into Safe Mode with Networking. [...]",
+      "categories": [
+        "Ransomware",
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "high",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "An Akira ransomware affiliate successfully disabled a compromised system's EDR solution by rebooting into Safe Mode with Networking. Although the attackers managed to steal data, their attempt to deploy the ransomware encryption payload ultimately failed.",
+        "whyItMatters": "This incident highlights how ransomware operators bypass endpoint security controls by leveraging native operating system features like Safe Mode.",
+        "affected": [],
+        "action": "Restrict access to Safe Mode and monitor for unauthorized reboots into diagnostic environments.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Hackers breach govt webmail while running parallel crypto fraud",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-govt-webmail-while-running-parallel-crypto-fraud/",
@@ -705,6 +732,214 @@
       }
     },
     {
+      "title": "CVE-2026-45592 Windows Internet (wininet.dll) Elevation of Privilege Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45592",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-13T14:00:00.000Z",
+      "summary": "Updated an acknowledgement. This is an informational change only.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [
+        "CVE-2026-45592"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Microsoft has released an informational update regarding CVE-2026-45592, a Windows Internet (wininet.dll) elevation of privilege vulnerability. This change is strictly informational and contains no functional modifications to the affected software.",
+        "whyItMatters": "Staying informed about security advisories helps administrators track potential Windows vulnerabilities even when updates are solely informational.",
+        "affected": [
+          "Windows Internet (wininet.dll)"
+        ],
+        "action": "Review the updated advisory for informational purposes.",
+        "risk": "News",
+        "relatedCves": [
+          "CVE-2026-45592"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-45593 Windows SDK Elevation of Privilege Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45593",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-13T14:00:00.000Z",
+      "summary": "Acknowledgement Updated",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [
+        "CVE-2026-45593"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "A Microsoft Windows SDK vulnerability identified as CVE-2026-45593 allows for elevation of privilege. The advisory has recently received an acknowledgment update.",
+        "whyItMatters": "This vulnerability could allow local attackers to escalate their privileges on vulnerable systems.",
+        "affected": [
+          "Windows SDK"
+        ],
+        "action": "Apply the latest security updates from Microsoft.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-45593"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-45597 Windows UI Automation Manager (uiamanager.dll) Elevation of Privilege Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45597",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-13T14:00:00.000Z",
+      "summary": "Acknowledgement Updated",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [
+        "CVE-2026-45597"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "An elevation of privilege vulnerability has been identified in the Windows UI Automation Manager component, specifically within uiamanager.dll, tracked as CVE-2026-45597. Microsoft has updated acknowledgments for this security issue.",
+        "whyItMatters": "This vulnerability could allow local attackers to elevate their privileges and gain unauthorized higher-level access on vulnerable Windows systems.",
+        "affected": [
+          "Windows UI Automation Manager (uiamanager.dll)"
+        ],
+        "action": "Apply the latest security updates from Microsoft as soon as they become available.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-45597"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-45638 Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45638",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-13T14:00:00.000Z",
+      "summary": "Acknowledgement Updated",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [
+        "CVE-2026-45638"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "A vulnerability tracked as CVE-2026-45638 has been identified as an Elevation of Privilege issue affecting the Windows Ancillary Function Driver for WinSock. The advisory was recently updated to include acknowledgements.",
+        "whyItMatters": "This vulnerability could allow an attacker to escalate their privileges on a vulnerable Windows system.",
+        "affected": [
+          "Windows Ancillary Function Driver for WinSock"
+        ],
+        "action": "Apply the latest security updates from Microsoft.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-45638"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-45637 Microsoft DWM Core Library Elevation of Privilege Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45637",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-13T14:00:00.000Z",
+      "summary": "Acknowledgement Updated",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-45637"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Microsoft has acknowledged a security vulnerability in the DWM Core Library tracked as CVE-2026-45637. The flaw involves an elevation of privilege issue affecting the Windows operating system.",
+        "whyItMatters": "An attacker could exploit this vulnerability to gain elevated privileges on a targeted system, potentially leading to unauthorized access and control.",
+        "affected": [
+          "Microsoft DWM Core Library"
+        ],
+        "action": "Apply the latest security updates provided by Microsoft as soon as they become available.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-45637"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-44814 Windows DWM Core Library Information Disclosure Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-44814",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-13T14:00:00.000Z",
+      "summary": "Acknowledgement Updated",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [
+        "CVE-2026-44814"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Microsoft has acknowledged a security issue tracked as CVE-2026-44814 affecting the Windows Desktop Window Manager (DWM) Core Library. The vulnerability involves an information disclosure flaw in the Windows operating system.",
+        "whyItMatters": "Information disclosure vulnerabilities can allow attackers to access sensitive data, potentially aiding in further exploitation of the system.",
+        "affected": [
+          "Microsoft Windows DWM Core Library"
+        ],
+        "action": "Monitor vendor advisories for official patches and updates.",
+        "risk": "Medium",
+        "relatedCves": [
+          "CVE-2026-44814"
+        ],
+        "source": "ai"
+      }
+    },
+    {
       "title": "CVE-2026-61346 Windows Graphics Kernel Elevation of Privilege Vulnerability",
       "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-61346",
       "source": "Microsoft MSRC",
@@ -770,183 +1005,6 @@
         "risk": "High",
         "relatedCves": [
           "CVE-2026-62695"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-61359 Windows Storage Elevation of Privilege Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-61359",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-13T14:00:00.000Z",
-      "summary": "Acknowledgement Updated",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [
-        "CVE-2026-61359"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "Microsoft has released an update regarding CVE-2026-61359, a Windows Storage elevation of privilege vulnerability. Further details on acknowledgements and remediation have been updated by the vendor.",
-        "whyItMatters": "Elevation of privilege flaws can allow authenticated attackers to gain higher-level permissions on vulnerable systems.",
-        "affected": [
-          "Windows Storage"
-        ],
-        "action": "Review vendor advisories and apply the latest Windows security updates.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-61359"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-66804 Microsoft Windows Cross Device Service Elevation of Privilege Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-66804",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-13T14:00:00.000Z",
-      "summary": "Acknowledgement Updated",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [
-        "CVE-2026-66804"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "A security vulnerability identified as CVE-2026-66804 has been reported in the Microsoft Windows Cross Device Service. The vulnerability involves an elevation of privilege flaw.",
-        "whyItMatters": "This vulnerability allows attackers to gain elevated privileges on affected Windows systems.",
-        "affected": [
-          "Microsoft Windows Cross Device Service"
-        ],
-        "action": "Apply the latest security updates provided by Microsoft.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-66804"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-62688 Windows MIDI Service Module Elevation of Privileges Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62688",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-13T14:00:00.000Z",
-      "summary": "Acknowledgement Updated",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [
-        "CVE-2026-62688"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "A vulnerability tracked as CVE-2026-62688 has been identified in the Windows MIDI Service Module. This security flaw involves an elevation of privileges issue within the affected Windows component.",
-        "whyItMatters": "It matters because an attacker could exploit this vulnerability to gain elevated privileges and compromise system security.",
-        "affected": [
-          "Windows MIDI Service Module"
-        ],
-        "action": "Apply the latest security updates provided by Microsoft.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-62688"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-62897 .NET Framework Remote Code Execution Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62897",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-13T14:00:00.000Z",
-      "summary": "Removed Linux and macOS products from the Affected Software table. This is an informational change only.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux",
-        "macOS"
-      ],
-      "cves": [
-        "CVE-2026-62897"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has issued an informational update regarding CVE-2026-62897, a remote code execution vulnerability affecting the .NET Framework. The update specifically removes Linux and macOS products from the affected software table.",
-        "whyItMatters": "Correcting the scope of affected platforms ensures administrators do not waste time investigating non-applicable systems.",
-        "affected": [
-          ".NET Framework"
-        ],
-        "action": "Review the updated advisory to confirm actual platform applicability.",
-        "risk": "Medium",
-        "relatedCves": [
-          "CVE-2026-62897"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-62902 .NET Information Disclosure Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62902",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-13T14:00:00.000Z",
-      "summary": "Removed Linux and macOS products from the Affected Software table. This is an informational change only.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux",
-        "macOS"
-      ],
-      "cves": [
-        "CVE-2026-62902"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has updated the documentation for CVE-2026-62902, a .NET information disclosure vulnerability. The revision removes Linux and macOS products from the affected software table as an informational change only.",
-        "whyItMatters": "It corrects the scope of affected operating systems for this .NET vulnerability, ensuring accurate asset management and patching priorities.",
-        "affected": [
-          ".NET"
-        ],
-        "action": "Review updated vendor documentation to confirm accurate platform applicability.",
-        "risk": "Medium",
-        "relatedCves": [
-          "CVE-2026-62902"
         ],
         "source": "ai"
       }
@@ -1485,34 +1543,6 @@
           "BitLocker"
         ],
         "action": "Enable a BitLocker PIN on your devices to enhance data security.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "WhatsApp rolls out new feature that flags potential scam messages",
-      "link": "https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-new-feature-that-flags-potential-scam-messages/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-08-13T11:50:22.000Z",
-      "summary": "WhatsApp has begun rolling out a new optional \"Scam Alert\" feature, which uses a local machine learning model to warn users when scammers are targeting them. [...]",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "WhatsApp is rolling out an optional Scam Alert feature that utilizes a local machine learning model to detect and warn users about potential scam messages. This client-side processing approach helps protect user privacy while identifying suspicious communications directly on the device.",
-        "whyItMatters": "This feature enhances end-user security by proactively warning individuals about malicious social engineering tactics directly within the messaging app.",
-        "affected": [
-          "WhatsApp"
-        ],
-        "action": "Enable the Scam Alert feature in WhatsApp settings when available.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -2278,6 +2308,66 @@
       }
     },
     {
+      "title": "DSA-6437-1 apr-util - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00348.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "summary": "Several vulnerabilities were discovered in apr-util, the Apache Portable\nRuntime Utility library, which could result in denial of service or\npotentially the execution of arbitrary code.\n\n\nhttps://security-tracker.debian.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory",
+        "Open Source"
+      ],
+      "tags": [
+        "Apache"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Several vulnerabilities have been discovered in the Apache Portable Runtime Utility library (apr-util). These security issues could potentially lead to a denial of service or the execution of arbitrary code.",
+        "whyItMatters": "Unpatched vulnerabilities in core utility libraries like apr-util can expose numerous applications to denial of service or remote code execution attacks.",
+        "affected": [
+          "apr-util"
+        ],
+        "action": "Update the apr-util package to the latest security release.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6436-1 chromium - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00347.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "summary": "Security issues were discovered in Chromium which could result\nin the execution of arbitrary code, denial of service, or information\ndisclosure.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6436-1",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple security vulnerabilities have been discovered in the Chromium browser. These issues could potentially allow attackers to execute arbitrary code, cause a denial of service, or disclose sensitive information.",
+        "whyItMatters": "Unpatched browser vulnerabilities can be exploited by malicious actors to compromise user systems or sensitive data.",
+        "affected": [
+          "Chromium"
+        ],
+        "action": "Update Chromium to the latest version provided by your vendor.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "Smashing Security podcast #480: This is the AI service you should never sign up to",
       "link": "https://grahamcluley.com/smashing-security-podcast-480/",
       "source": "Graham Cluley",
@@ -2956,41 +3046,6 @@
         "action": "Implement robust incident response and backup recovery protocols.",
         "risk": "High",
         "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-62913 Microsoft Exchange Server Remote Code Execution Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62913",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-12T14:00:00.000Z",
-      "summary": "Updated an acknowledgement. This is an informational change only.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Exchange"
-      ],
-      "cves": [
-        "CVE-2026-62913"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "Microsoft has updated an acknowledgment for CVE-2026-62913, a remote code execution vulnerability affecting Microsoft Exchange Server. This update is informational only and does not contain new technical fixes.",
-        "whyItMatters": "Unpatched remote code execution vulnerabilities in Microsoft Exchange Server pose a severe risk of complete system compromise by malicious actors.",
-        "affected": [
-          "Microsoft Exchange Server"
-        ],
-        "action": "Review the updated advisory from Microsoft and ensure your Exchange Server is running the latest security updates.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-62913"
-        ],
         "source": "ai"
       }
     },
@@ -3721,6 +3776,34 @@
           "Lemonldap::NG"
         ],
         "action": "Update Lemonldap::NG to the latest patched version provided by your vendor.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6433-1 xdg-dbus-proxy - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00346.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-08-12T00:00:00.000Z",
+      "summary": "It was discovered that incorrect validation of broadcast policy rules in\nxdg-dbus-proxy (a filtering proxy for D-Bus connections) allowed a\nmalicious Flatpak application to monitor signals on the D-Bus session\nbus.\n\n\nhtt",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A security vulnerability was discovered in xdg-dbus-proxy due to incorrect validation of broadcast policy rules. This flaw allowed a malicious Flatpak application to monitor signals on the D-Bus session bus.",
+        "whyItMatters": "It compromises user privacy and application security by enabling unauthorized monitoring of sensitive D-Bus communication.",
+        "affected": [
+          "xdg-dbus-proxy"
+        ],
+        "action": "Update the xdg-dbus-proxy package to the latest security release.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -4653,34 +4736,6 @@
       }
     },
     {
-      "title": "DSA-6429-1 caddy - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00340.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-08-11T00:00:00.000Z",
-      "summary": "Multiple security issues were discovered in Caddy, a web server with\nautomatic HTTPS, which may result in the bypass of path- or host-based\naccess controls, the execution of an unintended file by a FastCGI\nbackend, the i",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Multiple security issues were discovered in the Caddy web server. These vulnerabilities may result in the bypass of path- or host-based access controls and the execution of unintended files by a FastCGI backend.",
-        "whyItMatters": "Unpatched vulnerabilities in a web server can allow attackers to bypass access controls and execute arbitrary files via backend services.",
-        "affected": [
-          "Caddy"
-        ],
-        "action": "Update Caddy to the latest security release.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "The Permanent Threat: Analyzing Aeternum’s Blockchain-Based C2 Operations and Communications",
       "link": "https://unit42.paloaltonetworks.com/aeternum-blockchain-c2-analysis/",
       "source": "Unit 42",
@@ -4950,66 +5005,6 @@
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6428-1 libyaml-syck-perl - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00339.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-08-10T00:00:00.000Z",
-      "summary": "Several vulnerabilities were discovered in libyaml-syck-perl, a Perl\nmodule providing a fast, lightweight YAML loader and dumper, which could\nresult in denial of service and potentially arbitrary code execution.\n\n\nhttps:",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several vulnerabilities were discovered in libyaml-syck-perl, a Perl\nmodule providing a fast, lightweight YAML loader and dumper, which could\nresult in denial of service and potentially arbitrary code execution.\n\n\nhttps:",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "DSA-6427-1 wordpress - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00338.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-08-10T00:00:00.000Z",
-      "summary": "Several vulnerabilities were discovered in wordpress, a web blogging\ntool, which could result in cross-site scripting, server-side request\nforgery, privilege escalation or remote code execution.\n\n\nhttps://security-tracke",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "WordPress"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several vulnerabilities were discovered in wordpress, a web blogging\ntool, which could result in cross-site scripting, server-side request\nforgery, privilege escalation or remote code execution.\n\n\nhttps://security-tracke",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "WordPress"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
       }
     },
     {
