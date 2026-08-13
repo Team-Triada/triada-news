@@ -1,6 +1,91 @@
 {
-  "updatedAt": "2026-08-13T15:14:58.331Z",
+  "updatedAt": "2026-08-13T16:09:15.862Z",
   "items": [
+    {
+      "title": "New Mirai variant adds stealth capabilities to notorious botnet code",
+      "link": "https://therecord.media/new-mirai-variant-adds-stealth-to-botnet-code",
+      "source": "The Record",
+      "publishedAt": "2026-08-13T15:52:00.000Z",
+      "summary": "Beyond Mirai’s usual functions, the new code features include encrypted communications with command-and-control servers and a “sniffer” that looks for default access credentials.",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A new variant of the notorious Mirai botnet has been discovered featuring advanced stealth capabilities. The updated malware includes encrypted command-and-control communications and a credential-sniffing component.",
+        "whyItMatters": "This evolution makes the botnet harder to detect and increases the risk of successful automated compromise via default credentials.",
+        "affected": [],
+        "action": "Update default credentials on all connected devices and monitor network traffic for encrypted botnet communications.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Exposed AWS Access Key Linked to Data Breach Affecting 1500+ UK Charities",
+      "link": "https://www.infosecurity-magazine.com/news/exposed-aws-key-data-charities/",
+      "source": "Infosecurity Magazine",
+      "publishedAt": "2026-08-13T15:30:00.000Z",
+      "summary": "CRM provider Beacon has revealed that a compromised AWS access key was the likely root cause of the breach of 1500 UK charities’ data",
+      "categories": [
+        "Incident Response",
+        "Cloud"
+      ],
+      "tags": [
+        "AWS"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "CRM provider Beacon disclosed that an exposed AWS access key caused a data breach affecting over 1500 UK charities. The compromised credential allowed unauthorized access to sensitive charitable organization data.",
+        "whyItMatters": "This incident highlights how exposed cloud credentials can lead to widespread data breaches across multiple vulnerable organizations.",
+        "affected": [
+          "Beacon CRM"
+        ],
+        "action": "Audit and secure all cloud access keys and credentials immediately.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Trezor discloses data breach affecting nearly 14,000 customers",
+      "link": "https://www.bleepingcomputer.com/news/security/trezor-discloses-data-breach-affecting-nearly-14-000-customers/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-08-13T15:13:19.000Z",
+      "summary": "Hardware wallet manufacturer Trezor disclosed a data breach affecting nearly 14,000 of its customers after ShipMonk, its shipping and logistics provider, was hacked [...]",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Hardware wallet manufacturer Trezor disclosed a data breach that impacted nearly 14,000 customers. The security incident occurred after ShipMonk, Trezor's third-party shipping and logistics provider, suffered a cyberattack.",
+        "whyItMatters": "Exposed customer data can be leveraged by malicious actors to conduct targeted phishing campaigns against cryptocurrency owners.",
+        "affected": [
+          "Trezor customer shipping data"
+        ],
+        "action": "Monitor for targeted phishing attempts and do not share recovery phrases.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Trump wants to grant private cyber firms a license to hack back",
       "link": "https://www.theregister.com/security/2026/08/13/trump-wants-to-grant-private-cyber-firms-a-license-to-hack-back/5287420",
@@ -400,6 +485,41 @@
       }
     },
     {
+      "title": "CVE-2026-62688 Windows MIDI Service Module Elevation of Privileges Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62688",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-13T14:00:00.000Z",
+      "summary": "Acknowledgement Updated",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [
+        "CVE-2026-62688"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "A vulnerability tracked as CVE-2026-62688 has been identified in the Windows MIDI Service Module. This security flaw involves an elevation of privileges issue within the affected Windows component.",
+        "whyItMatters": "It matters because an attacker could exploit this vulnerability to gain elevated privileges and compromise system security.",
+        "affected": [
+          "Windows MIDI Service Module"
+        ],
+        "action": "Apply the latest security updates provided by Microsoft.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-62688"
+        ],
+        "source": "ai"
+      }
+    },
+    {
       "title": "CVE-2026-44814 Windows DWM Core Library Information Disclosure Vulnerability",
       "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-44814",
       "source": "Microsoft MSRC",
@@ -430,41 +550,6 @@
         "risk": "Medium",
         "relatedCves": [
           "CVE-2026-44814"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-45638 Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45638",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-13T14:00:00.000Z",
-      "summary": "Acknowledgement Updated",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [
-        "CVE-2026-45638"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "A security vulnerability identified as CVE-2026-45638 has been discovered in the Windows Ancillary Function Driver for WinSock. The advisory provides an acknowledgement update regarding this elevation of privilege flaw.",
-        "whyItMatters": "This vulnerability could allow an attacker to elevate their privileges on an affected Windows system.",
-        "affected": [
-          "Windows Ancillary Function Driver for WinSock"
-        ],
-        "action": "Apply the latest security updates from Microsoft.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-45638"
         ],
         "source": "ai"
       }
@@ -2301,36 +2386,6 @@
       }
     },
     {
-      "title": "Plug and Pwn attack uses fake USB devices for Windows SYSTEM access",
-      "link": "https://www.bleepingcomputer.com/news/security/plug-and-pwn-attack-uses-fake-usb-devices-for-windows-system-access/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-08-12T16:05:12.000Z",
-      "summary": "Security researchers have disclosed new \"Plug and Pwn\" attacks that abuse the Windows Plug and Play feature to trigger Windows into installing vulnerable or insecure vendor software and gain SYSTEM privileges. [...]",
-      "categories": [
-        "News"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Security researchers have disclosed new Plug and Pwn attacks that abuse the Windows Plug and Play feature. Attackers use fake USB devices to trick Windows into installing vulnerable vendor software and gaining SYSTEM privileges.",
-        "whyItMatters": "This vulnerability allows local attackers to easily escalate their privileges to the highest level on Windows systems using malicious hardware.",
-        "affected": [
-          "Microsoft Windows"
-        ],
-        "action": "Monitor and restrict unauthorized physical USB device connections on sensitive systems.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Cisco Advance Notification for Publication of August 19, 2026, Security Advisories",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-LDquvx5d?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20August%2019,%202026,%20Security%20Advisories%26vs_k=1",
       "source": "Cisco PSIRT",
@@ -2646,62 +2701,6 @@
         "affected": [],
         "action": "Review AI governance frameworks and accountability policies.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Gunra Ransomware Exploits Fortinet Flaws to Target Critical Infrastructure",
-      "link": "https://www.infosecurity-magazine.com/news/gunra-ransomware-fortinet-flaws/",
-      "source": "Infosecurity Magazine",
-      "publishedAt": "2026-08-12T13:15:00.000Z",
-      "summary": "Gunra actors are using stealth to exfiltrate vast volumes of data from Microsoft services, US and Korean agencies have warned",
-      "categories": [
-        "Ransomware"
-      ],
-      "tags": [
-        "Fortinet"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "high",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Gunra ransomware actors are exploiting Fortinet vulnerabilities to target critical infrastructure. The attackers are stealthily exfiltrating large volumes of data from Microsoft services, prompting warnings from US and Korean agencies.",
-        "whyItMatters": "This campaign threatens critical infrastructure and sensitive data across government agencies through active exploitation of enterprise security flaws.",
-        "affected": [
-          "Fortinet"
-        ],
-        "action": "Patch Fortinet devices immediately and monitor Microsoft service logs for unauthorized data exfiltration.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Three intrusions at UK criminal records office went undetected for two years",
-      "link": "https://therecord.media/uk-criminal-records-office-acro-data-breaches",
-      "source": "The Record",
-      "publishedAt": "2026-08-12T13:00:00.000Z",
-      "summary": "Unread antivirus alerts and an unpatched content management system exposed Britain's ACRO to three separate data breaches, according to a reprimand notice.",
-      "categories": [
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Britain's ACRO criminal records office suffered three undetected data breaches over a two-year period due to unread antivirus alerts. The security failures were attributed to an unpatched content management system and ignored warnings, according to a formal reprimand notice.",
-        "whyItMatters": "This incident demonstrates how basic security hygiene failures, such as unpatched software and ignored alerts, can lead to prolonged, undetected compromises of sensitive government data.",
-        "affected": [],
-        "action": "Ensure all antivirus alerts are monitored and content management systems are promptly patched.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
