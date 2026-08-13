@@ -1,6 +1,33 @@
 {
-  "updatedAt": "2026-08-13T18:06:21.931Z",
+  "updatedAt": "2026-08-13T19:18:54.371Z",
   "items": [
+    {
+      "title": "Hackers breach govt webmail while running parallel crypto fraud",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-govt-webmail-while-running-parallel-crypto-fraud/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-08-13T18:15:19.000Z",
+      "summary": "The Jewelbug hacker group has been carrying out espionage operations targeting governments and militaries while also engaging in cryptocurrency fraud. [...]",
+      "categories": [
+        "Threat Intel",
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The Jewelbug hacker group has been conducting cyber espionage operations targeting government and military webmail systems. Simultaneously, the threat actors have been engaging in parallel cryptocurrency fraud activities.",
+        "whyItMatters": "This dual-purpose campaign compromises sensitive government infrastructure while simultaneously executing financially motivated attacks.",
+        "affected": [],
+        "action": "Audit government webmail security and monitor for unauthorized cryptocurrency transactions.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Curiouser and Curiouser",
       "link": "https://blog.talosintelligence.com/curiouser-and-curiouser/",
@@ -24,6 +51,76 @@
         "action": "Read the newsletter for further insights.",
         "risk": "News",
         "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8637-1: Linux kernel (OEM) vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8637-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-13T17:59:27.000Z",
+      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - x86 architecture;\n  - InfiniBand dri",
+      "categories": [
+        "Vulnerability",
+        "Incident Response",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Canonical has released a security update for the Linux kernel (OEM) to address multiple vulnerabilities. These flaws could potentially allow an attacker to compromise the affected system.",
+        "whyItMatters": "Unpatched kernel vulnerabilities can allow local or remote attackers to fully compromise the affected operating system and its underlying hardware.",
+        "affected": [
+          "Linux kernel (OEM)"
+        ],
+        "action": "Update the Linux kernel to the latest version provided by your distribution.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8631-2: Linux kernel (Oracle) vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8631-2",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-13T17:54:26.000Z",
+      "summary": "Siebe Devroe, Héloïse Gollier, and Mathy Vanhoef discovered that the WiFi\nimplementation in the Linux kernel did not properly handle aggregated\nframes in mesh networks, due to an incorrect fix for CVE-2020-24588. A\nphysi",
+      "categories": [
+        "Vulnerability",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux",
+        "Oracle"
+      ],
+      "cves": [
+        "CVE-2020-24588"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Researchers discovered a vulnerability in the Linux kernel's WiFi implementation regarding aggregated frames in mesh networks. This issue stems from an incorrect fix for a previous vulnerability, CVE-2020-24588.",
+        "whyItMatters": "This flaw could potentially allow attackers to exploit mesh network communications if left unpatched.",
+        "affected": [
+          "Linux kernel"
+        ],
+        "action": "Update the Linux kernel to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2020-24588"
+        ],
         "source": "ai"
       }
     },
@@ -55,6 +152,39 @@
         ],
         "action": "Apply the latest Microsoft security patches immediately.",
         "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8630-2: Linux kernel vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8630-2",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-13T17:38:10.000Z",
+      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - x86 architecture;\n  - InfiniBand dri",
+      "categories": [
+        "Vulnerability",
+        "Incident Response",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Several security issues were discovered in the Linux kernel that could allow an attacker to compromise the system. This update corrects flaws in the x86 architecture and InfiniBand driver subsystems.",
+        "whyItMatters": "Unpatched kernel vulnerabilities can lead to full system compromise by local or remote attackers depending on the specific flaw.",
+        "affected": [
+          "Linux kernel"
+        ],
+        "action": "Update the Linux kernel to the latest version.",
+        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -715,41 +845,6 @@
       }
     },
     {
-      "title": "CVE-2026-65796 Windows iSCSI Target Service Denial of Service Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-65796",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-13T14:00:00.000Z",
-      "summary": "Corrected severity entries in the Affected Products table. This is an informational change only. Customers who have successfully installed the update do not need to take any further action.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [
-        "CVE-2026-65796"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft published an informational correction to the affected products table for CVE-2026-65796, a denial of service vulnerability in the Windows iSCSI Target Service. Customers who have already installed the corresponding update do not need to perform any additional steps.",
-        "whyItMatters": "This update is purely informational and clarifies the scope of a previously addressed Windows vulnerability without introducing new remediation requirements.",
-        "affected": [
-          "Windows iSCSI Target Service"
-        ],
-        "action": "Verify that your systems have successfully installed the previously released update.",
-        "risk": "News",
-        "relatedCves": [
-          "CVE-2026-65796"
-        ],
-        "source": "ai"
-      }
-    },
-    {
       "title": "CVE-2026-62688 Windows MIDI Service Module Elevation of Privileges Vulnerability",
       "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62688",
       "source": "Microsoft MSRC",
@@ -816,6 +911,42 @@
         "risk": "Medium",
         "relatedCves": [
           "CVE-2026-62897"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-62902 .NET Information Disclosure Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62902",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-13T14:00:00.000Z",
+      "summary": "Removed Linux and macOS products from the Affected Software table. This is an informational change only.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux",
+        "macOS"
+      ],
+      "cves": [
+        "CVE-2026-62902"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft has updated the documentation for CVE-2026-62902, a .NET information disclosure vulnerability. The revision removes Linux and macOS products from the affected software table as an informational change only.",
+        "whyItMatters": "It corrects the scope of affected operating systems for this .NET vulnerability, ensuring accurate asset management and patching priorities.",
+        "affected": [
+          ".NET"
+        ],
+        "action": "Review updated vendor documentation to confirm accurate platform applicability.",
+        "risk": "Medium",
+        "relatedCves": [
+          "CVE-2026-62902"
         ],
         "source": "ai"
       }
@@ -2173,36 +2304,6 @@
       }
     },
     {
-      "title": "\"City-Forum\" data-theft attacks target Salesforce, ServiceNow portals",
-      "link": "https://www.bleepingcomputer.com/news/security/city-forum-data-theft-attacks-target-salesforce-servicenow-portals/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-08-12T23:07:23.000Z",
-      "summary": "An ongoing data theft campaign uses custom tools to steal data exposed to anonymous users through Salesforce Experience Cloud and ServiceNow customer portals. [...]",
-      "categories": [
-        "Threat Intel",
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "An ongoing data theft campaign leverages custom tools to target sensitive data exposed to anonymous users on Salesforce Experience Cloud and ServiceNow customer portals. The attacks focus on exploiting misconfigurations that allow unauthorized access to portal information.",
-        "whyItMatters": "Organizations risk massive data exposure if their public-facing Salesforce and ServiceNow portals are misconfigured to allow anonymous access.",
-        "affected": [
-          "Salesforce Experience Cloud",
-          "ServiceNow customer portals"
-        ],
-        "action": "Audit portal permissions immediately to ensure anonymous users cannot access sensitive data.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "'Near-autonomous' AI agents attack Taiwan's nuclear safety agency",
       "link": "https://www.theregister.com/security/2026/08/12/near-autonomous-ai-agents-attack-taiwans-nuclear-safety-agency/5287055",
       "source": "The Register",
@@ -2427,76 +2528,6 @@
       }
     },
     {
-      "title": "USN-8631-1: Linux kernel vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8631-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-12T19:50:11.000Z",
-      "summary": "Siebe Devroe, Héloïse Gollier, and Mathy Vanhoef discovered that the WiFi\nimplementation in the Linux kernel did not properly handle aggregated\nframes in mesh networks, due to an incorrect fix for CVE-2020-24588. A\nphysi",
-      "categories": [
-        "Vulnerability",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [
-        "CVE-2020-24588"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Researchers discovered that the Linux kernel's WiFi implementation improperly handles aggregated frames in mesh networks due to an incorrect fix for a previous vulnerability. This flaw exposes systems to potential security risks within mesh network environments.",
-        "whyItMatters": "It leaves Linux systems utilizing mesh networks vulnerable to exploitation because a previous patch was incomplete.",
-        "affected": [
-          "Linux kernel"
-        ],
-        "action": "Update the Linux kernel to the latest patched version.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2020-24588"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8630-1: Linux kernel vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8630-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-12T19:43:13.000Z",
-      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - x86 architecture;\n  - InfiniBand dri",
-      "categories": [
-        "Vulnerability",
-        "Incident Response",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several security issues were discovered in the Linux kernel that could allow an attacker to compromise the system. The update specifically corrects flaws in the x86 architecture and InfiniBand driver subsystems.",
-        "whyItMatters": "Unpatched kernel vulnerabilities can allow local or remote attackers to fully compromise the affected operating system.",
-        "affected": [
-          "Linux kernel x86 architecture",
-          "Linux kernel InfiniBand driver"
-        ],
-        "action": "Update the Linux kernel to the latest version provided by your vendor.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Spectre rears its ugly head again as researchers show some RISC-V chips are susceptible",
       "link": "https://www.theregister.com/security/2026/08/12/spectre-rears-its-ugly-head-again-as-researchers-show-some-risc-v-chips-are-susceptible/5286978",
       "source": "The Register",
@@ -2548,39 +2579,6 @@
         ],
         "action": "Migrate from the containerized data connector agent to a supported alternative before September 14, 2026.",
         "risk": "Medium",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8629-1: Linux kernel vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8629-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-12T19:36:25.000Z",
-      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - x86 architecture;\n  - InfiniBand dri",
-      "categories": [
-        "Vulnerability",
-        "Incident Response",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Multiple security vulnerabilities have been discovered in the Linux kernel that could allow an attacker to compromise the affected system. The update specifically addresses and corrects flaws located within the x86 architecture and InfiniBand subsystems.",
-        "whyItMatters": "Unpatched kernel vulnerabilities can allow attackers to gain deep system access and potentially compromise the entire operating system.",
-        "affected": [
-          "Linux kernel (x86 architecture and InfiniBand subsystems)"
-        ],
-        "action": "Update the Linux kernel to the latest patched version.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
