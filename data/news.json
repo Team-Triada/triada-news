@@ -1,14 +1,44 @@
 {
-  "updatedAt": "2026-08-14T13:41:20.274Z",
+  "updatedAt": "2026-08-14T15:06:57.733Z",
   "items": [
     {
-      "title": "France investigates tax authority breach after hacker claims 600,000 victims",
-      "link": "https://therecord.media/french-tax-authority-dgfip-confirms-data-breach",
-      "source": "The Record",
-      "publishedAt": "2026-08-14T13:14:15.000Z",
-      "summary": "French authorities confirmed that someone gained unauthorized access to systems at the Directorate General of Public Finances in late June after stealing or misusing someone’s identity.",
+      "title": "Hackers exploit macOS Screen Sharing flaw to deploy Monero miner",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-08-14T14:59:55.000Z",
+      "summary": "The Netherlands' National Cyber Security Centre (NCSC) is warning that hackers are actively exploiting a macOS authentication bypass vulnerability after public exploit code emerged. [...]",
       "categories": [
-        "Incident Response"
+        "Vulnerability"
+      ],
+      "tags": [
+        "macOS"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Hackers are actively exploiting a macOS authentication bypass vulnerability in the Screen Sharing feature following the release of public exploit code. The threat actors are leveraging this flaw to deploy Monero cryptocurrency miners onto compromised systems.",
+        "whyItMatters": "Active exploitation of an authentication bypass allows unauthorized remote access and resource hijacking, posing a significant risk to macOS users.",
+        "affected": [
+          "macOS"
+        ],
+        "action": "Apply the latest security updates and disable unnecessary Screen Sharing services.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Researchers Confirm ExfilSquad’s Access to Sensitive Data Across 13 Organizations",
+      "link": "https://www.infosecurity-magazine.com/news/exfilsquads-13-organizations/",
+      "source": "Infosecurity Magazine",
+      "publishedAt": "2026-08-14T14:49:00.000Z",
+      "summary": "Researchers have verified that ExfilSquad possesses sensitive data stolen from at least 13 victims after the extortion group published leaked datasets via torrents",
+      "categories": [
+        "News"
       ],
       "tags": [],
       "cves": [],
@@ -18,13 +48,148 @@
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "French authorities confirmed an unauthorized access incident at the Directorate General of Public Finances in late June, following the misuse of an identity. A hacker has subsequently claimed that 600,000 individuals were victimized in the breach.",
-        "whyItMatters": "This incident highlights the severe risks of credential theft and identity misuse targeting critical government tax infrastructure.",
-        "affected": [
-          "Directorate General of Public Finances systems"
-        ],
-        "action": "Investigate credentials security and monitor for data exposure.",
+        "summary": "Researchers have confirmed that the extortion group ExfilSquad possesses sensitive data stolen from at least 13 victim organizations. The group made this stolen information public by publishing the leaked datasets via torrents.",
+        "whyItMatters": "This incident exposes sensitive data from multiple organizations to the public, increasing the risk of extortion, data misuse, and further cyber attacks against the affected entities.",
+        "affected": [],
+        "action": "Monitor networks for unauthorized data exfiltration and review threat intelligence regarding ExfilSquad.",
         "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "French tax authority admits data heist after crook touts 2M records",
+      "link": "https://www.theregister.com/security/2026/08/14/french-tax-authority-admits-data-heist-after-crook-touts-2m-records/5287885",
+      "source": "The Register",
+      "publishedAt": "2026-08-14T14:27:00.000Z",
+      "summary": "Government disputes claims of continued access as investigators measure damage",
+      "categories": [
+        "Government"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The French tax authority has acknowledged a data breach following claims by a criminal that two million records were stolen. Government officials have disputed assertions that the attacker still has ongoing access to their systems as investigators assess the full extent of the compromise.",
+        "whyItMatters": "This incident exposes millions of sensitive citizen records to potential misuse, raising significant concerns about government data security.",
+        "affected": [],
+        "action": "Monitor official advisories from the French tax authority and secure personal financial accounts.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "The Modern Attack Chain: Rethinking Google Workspace Security in the Age of AI",
+      "link": "https://www.bleepingcomputer.com/news/security/the-modern-attack-chain-rethinking-google-workspace-security-in-the-age-of-ai/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-08-14T14:00:10.000Z",
+      "summary": "Google Workspace attacks do not always begin with phishing. Stolen OAuth tokens can provide another path into Gmail, Drive, and connected systems. Material Security explains why organizations need defenses that cover the",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Google Workspace attacks increasingly bypass traditional phishing by utilizing stolen OAuth tokens to gain unauthorized access to Gmail, Drive, and connected systems. Material Security highlights the need for modern organizations to reevaluate and strengthen their security defenses against these AI-era threats.",
+        "whyItMatters": "Attackers can bypass traditional perimeter and phishing defenses by misusing stolen OAuth tokens to maintain persistent, stealthy access to enterprise cloud environments.",
+        "affected": [
+          "Google Workspace"
+        ],
+        "action": "Audit and monitor OAuth token grants across your Google Workspace environment.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "What Boards Need to Know About Tech Risk",
+      "link": "https://www.darkreading.com/cyber-risk/what-boards-must-know-tech-risk",
+      "source": "Dark Reading",
+      "publishedAt": "2026-08-14T14:00:00.000Z",
+      "summary": "Why do so many boards underestimate technology risk until it becomes a crisis?",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "This article discusses the common tendency among corporate boards to underestimate technology risks until they escalate into major crises. It highlights the communication gap between technical teams and board members regarding cybersecurity and IT vulnerabilities.",
+        "whyItMatters": "Board-level awareness and governance are critical for ensuring adequate cybersecurity funding and proactive risk management.",
+        "affected": [],
+        "action": "Brief the board on current technology risks.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Max severity SAP Commerce Cloud flaw now targeted in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/max-severity-sap-commerce-cloud-flaw-now-targeted-in-attacks/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-08-14T13:45:18.000Z",
+      "summary": "A maximum-severity SAP Commerce Cloud remote code execution vulnerability patched three days ago is already being targeted in attacks, according to threat intelligence company Defused. [...]",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "SAP"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A maximum-severity remote code execution vulnerability in SAP Commerce Cloud, which was patched just three days ago, is now being actively exploited in the wild. Threat intelligence firm Defused reported that attackers are targeting this critical flaw.",
+        "whyItMatters": "Active exploitation of a maximum-severity RCE flaw means unpatched systems are at immediate risk of complete compromise by malicious actors.",
+        "affected": [
+          "SAP Commerce Cloud"
+        ],
+        "action": "Apply the latest security patches for SAP Commerce Cloud immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Autonomous AI attacks pose 'clear and present danger' to critical infrastructure",
+      "link": "https://www.theregister.com/security/2026/08/14/autonomous-ai-attacks-pose-clear-and-present-danger-to-critical-infrastructure/5287594",
+      "source": "The Register",
+      "publishedAt": "2026-08-14T13:03:00.000Z",
+      "summary": "Weaponized agents could turn digital intrusions into kinetic disasters, experts warn",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Experts warn that weaponized autonomous AI agents pose a clear and present danger to critical infrastructure. These agents could potentially escalate digital intrusions into physical, kinetic disasters.",
+        "whyItMatters": "It highlights the rising threat of automated cyber weapons capable of causing real-world physical damage to critical systems.",
+        "affected": [],
+        "action": "Monitor evolving AI security threats and strengthen critical infrastructure defenses.",
+        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
@@ -415,6 +580,32 @@
       }
     },
     {
+      "title": "Crypto wallet maker Trezor confirms 13,000 customers' details exposed in logistics breach",
+      "link": "https://www.theregister.com/security/2026/08/14/crypto-wallet-maker-trezor-confirms-13000-customers-details-exposed-in-logistics-breach/5287734",
+      "source": "The Register",
+      "publishedAt": "2026-08-14T10:29:00.000Z",
+      "summary": "Even if your hardware is secure, quantum-ready, encrypted, and future-proof, no one is immune to a supplier letting the side down",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Crypto wallet maker Trezor confirmed that a logistics data breach exposed the personal details of approximately 13,000 customers. The incident highlights how third-party supplier vulnerabilities can compromise secure systems.",
+        "whyItMatters": "Exposed customer details from cryptocurrency companies often lead directly to targeted phishing attacks, SIM-swapping, and physical extortion attempts against high-value targets.",
+        "affected": [],
+        "action": "Be vigilant against targeted phishing attempts and do not share your seed phrase.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "1.6 Million Likely Impacted by RingCentral Data Breach",
       "link": "https://www.securityweek.com/1-6-million-likely-impacted-by-ringcentral-data-breach/",
       "source": "SecurityWeek",
@@ -500,6 +691,32 @@
         ],
         "action": "Deploy advanced endpoint detection mechanisms capable of monitoring kernel-level activity.",
         "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Scottish prosecutors cast eye over leaky supplier after staff data exposed",
+      "link": "https://www.theregister.com/security/2026/08/14/scottish-prosecutors-cast-eye-over-leaky-supplier-after-staff-data-exposed/5287479",
+      "source": "The Register",
+      "publishedAt": "2026-08-14T08:46:00.000Z",
+      "summary": "Unnamed third party spotted suspicious activity, with names, roles, and email addresses potentially affected",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Scottish prosecutors are investigating a third-party supplier data breach that exposed staff names, roles, and email addresses. The incident came to light after the unnamed vendor detected suspicious activity on its systems.",
+        "whyItMatters": "This breach compromises sensitive employee information through a third-party vendor, highlighting the risks of supply chain data security.",
+        "affected": [],
+        "action": "Verify vendor security controls and notify affected staff.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "ai"
       }
@@ -868,6 +1085,32 @@
       }
     },
     {
+      "title": "New Zealand says China tried using space investments to spy on local affairs",
+      "link": "https://www.theregister.com/security/2026/08/14/new-zealand-says-china-tried-using-space-investments-to-spy-on-local-affairs/5287657",
+      "source": "The Register",
+      "publishedAt": "2026-08-14T03:23:34.000Z",
+      "summary": "Intelligence Service says finding domestic threats is harder due to proliferation of toxic content online",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "New Zealand's intelligence service reported that China attempted to use space investments as a cover to spy on local affairs. The agency also noted that finding domestic threats has become harder due to the proliferation of toxic content online.",
+        "whyItMatters": "This highlights ongoing foreign espionage risks targeting national infrastructure and political landscapes through non-traditional investment channels.",
+        "affected": [],
+        "action": "Review foreign investment vetting processes and monitor intelligence briefings.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "ISC Stormcast For Friday, August 14th, 2026 (Fri, Aug 14th)",
       "link": "https://isc.sans.edu/diary/rss/33246",
       "source": "SANS ISC",
@@ -918,6 +1161,32 @@
           "Apple iPhone"
         ],
         "action": "Enable Lockdown Mode and follow Apple's security recommendations if you receive a threat notification.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "OpenAI ditches Recall-style screenshot surveillance for friendly keylogging",
+      "link": "https://www.theregister.com/ai-and-ml/2026/08/14/openai-ditches-recall-style-screenshot-surveillance-for-friendly-keylogging/5287618",
+      "source": "The Register",
+      "publishedAt": "2026-08-14T00:27:53.000Z",
+      "summary": "'Computer History' records clicks and typing to build ChatGPT memories",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "OpenAI has introduced a 'Computer History' feature that records user clicks and typing to build ChatGPT memories. This capability functions similarly to surveillance-style keylogging tools.",
+        "whyItMatters": "Continuous recording of user input raises significant privacy concerns regarding the collection and storage of sensitive keystroke data.",
+        "affected": [],
+        "action": "Review privacy settings and disable the Computer History feature if continuous keystroke logging is not desired.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -1228,33 +1497,6 @@
       }
     },
     {
-      "title": "Akira hackers disable EDR with Safe Mode, steal data but fail to encrypt",
-      "link": "https://www.bleepingcomputer.com/news/security/akira-hackers-disable-edr-with-safe-mode-steal-data-but-fail-to-encrypt/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-08-13T20:47:02.000Z",
-      "summary": "An Akira ransomware affiliate disabled the endpoint detection and response (EDR) solution on a compromised system by restarting the machine into Safe Mode with Networking. [...]",
-      "categories": [
-        "Ransomware",
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "high",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "An Akira ransomware affiliate successfully disabled a compromised system's EDR solution by rebooting into Safe Mode with Networking. Although the attackers managed to steal data, their attempt to deploy the ransomware encryption payload ultimately failed.",
-        "whyItMatters": "This incident highlights how ransomware operators bypass endpoint security controls by leveraging native operating system features like Safe Mode.",
-        "affected": [],
-        "action": "Restrict access to Safe Mode and monitor for unauthorized reboots into diagnostic environments.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Global Threat Campaign Hits Critical VMware vCenter Flaw",
       "link": "https://www.darkreading.com/vulnerabilities-threats/global-threat-campaign-critical-vmware-vcenter-flaw",
       "source": "Dark Reading",
@@ -1312,33 +1554,6 @@
         ],
         "action": "Update Axios to the patched version.",
         "risk": "Medium",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Hackers breach govt webmail while running parallel crypto fraud",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-govt-webmail-while-running-parallel-crypto-fraud/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-08-13T18:15:19.000Z",
-      "summary": "The Jewelbug hacker group has been carrying out espionage operations targeting governments and militaries while also engaging in cryptocurrency fraud. [...]",
-      "categories": [
-        "Threat Intel",
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The Jewelbug hacker group has been conducting cyber espionage operations targeting government and military webmail systems. Simultaneously, the threat actors have been engaging in parallel cryptocurrency fraud activities.",
-        "whyItMatters": "This dual-purpose campaign compromises sensitive government infrastructure while simultaneously executing financially motivated attacks.",
-        "affected": [],
-        "action": "Audit government webmail security and monitor for unauthorized cryptocurrency transactions.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -1440,38 +1655,6 @@
       }
     },
     {
-      "title": "Microsoft patches LegacyHive Windows zero-day vulnerability",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-legacyhive-windows-zero-day-vulnerability/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-08-13T17:46:20.000Z",
-      "summary": "Microsoft has released security patches to address a Windows zero-day vulnerability known as \"LegacyHive,\" disclosed after the July 2026 Patch Tuesday. [...]",
-      "categories": [
-        "Zero Day",
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has released security patches to address a Windows zero-day vulnerability known as LegacyHive. The flaw was publicly disclosed following the July 2026 Patch Tuesday updates.",
-        "whyItMatters": "Unpatched zero-day vulnerabilities in Windows are actively targeted by threat actors to compromise enterprise systems and escalate privileges.",
-        "affected": [
-          "Windows"
-        ],
-        "action": "Apply the latest Microsoft security patches immediately.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "AI’s ‘middle class’ has gotten dramatically better at hacking",
       "link": "https://cyberscoop.com/mid-tier-ai-models-hacking-threat/",
       "source": "CyberScoop",
@@ -1493,32 +1676,6 @@
         "affected": [],
         "action": "Monitor developments in mid-tier AI capabilities and update defense strategies accordingly.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Flock tightens privacy controls amid scandals over officer abuse",
-      "link": "https://therecord.media/flock-safety-audit-assistance-police-departments",
-      "source": "The Record",
-      "publishedAt": "2026-08-13T16:47:00.000Z",
-      "summary": "All Flock Safety customers will be required to adopt its \"Audit Assistance\" feature for tracking abnormal uses, and the company says it will hold license plate data for only seven days in most cases.",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Flock Safety is making its Audit Assistance feature mandatory for all customers to better track abnormal uses of its system. Additionally, the company is reducing its default license plate data retention period to just seven days in most cases.",
-        "whyItMatters": "This policy change directly addresses growing privacy concerns and scandals surrounding the potential misuse of automated surveillance technology by law enforcement.",
-        "affected": [],
-        "action": "Review your organization's compliance with the new audit and data retention requirements.",
-        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
@@ -1614,32 +1771,6 @@
       }
     },
     {
-      "title": "New Mirai variant adds stealth capabilities to notorious botnet code",
-      "link": "https://therecord.media/new-mirai-variant-adds-stealth-to-botnet-code",
-      "source": "The Record",
-      "publishedAt": "2026-08-13T15:52:00.000Z",
-      "summary": "Beyond Mirai’s usual functions, the new code features include encrypted communications with command-and-control servers and a “sniffer” that looks for default access credentials.",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A new variant of the notorious Mirai botnet has been discovered featuring advanced stealth capabilities. The updated malware includes encrypted command-and-control communications and a credential-sniffing component.",
-        "whyItMatters": "This evolution makes the botnet harder to detect and increases the risk of successful automated compromise via default credentials.",
-        "affected": [],
-        "action": "Update default credentials on all connected devices and monitor network traffic for encrypted botnet communications.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Exposed AWS Access Key Linked to Data Breach Affecting 1500+ UK Charities",
       "link": "https://www.infosecurity-magazine.com/news/exposed-aws-key-data-charities/",
       "source": "Infosecurity Magazine",
@@ -1671,6 +1802,32 @@
       }
     },
     {
+      "title": "Trump wants to grant private cyber firms a license to hack back",
+      "link": "https://www.theregister.com/security/2026/08/13/trump-wants-to-grant-private-cyber-firms-a-license-to-hack-back/5287420",
+      "source": "The Register",
+      "publishedAt": "2026-08-13T15:04:09.000Z",
+      "summary": "Contractors could surveil and disrupt foreign criminal networks, provided they follow strict rules and put up $1M",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "President Trump is considering a policy that would allow private cybersecurity contractors to surveil and disrupt foreign criminal networks. The proposed initiative would require these firms to adhere to strict rules and post a one million dollar bond.",
+        "whyItMatters": "This policy would significantly expand the role of private corporations in offensive cyber operations, potentially blurring the lines between state-sponsored and commercial cyber warfare.",
+        "affected": [],
+        "action": "Monitor developments regarding the proposed private hacking regulations.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "Google Cloud Targets 2027 for First Major Post-Quantum Security Milestone",
       "link": "https://www.infosecurity-magazine.com/news/google-cloud-post-quantum-roadmap/",
       "source": "Infosecurity Magazine",
@@ -1697,27 +1854,29 @@
       }
     },
     {
-      "title": "Black Hat USA 2026: Will vulnerability discovery eventually decline in the AI era?",
-      "link": "https://www.welivesecurity.com/en/business-security/black-hat-usa-2026-vulnerability-discovery-decline-ai-era/",
-      "source": "WeLiveSecurity",
-      "publishedAt": "2026-08-13T14:30:00.000Z",
-      "summary": "And will today’s surge in AI-driven vulnerability discovery eventually make tomorrow’s software safer?",
+      "title": "The backup Microsoft never promised you",
+      "link": "https://www.theregister.com/security/2026/08/13/sponsored-the-backup-microsoft-never-promised-you/5284957",
+      "source": "The Register",
+      "publishedAt": "2026-08-13T15:00:00.000Z",
+      "summary": "SPONSORED FEATURE: Your M365 and Azure data might not be as safe as you think from ransomware; time for a reality check",
       "categories": [
-        "Vulnerability",
-        "AI Security"
+        "Ransomware",
+        "Cloud"
       ],
-      "tags": [],
+      "tags": [
+        "Azure"
+      ],
       "cves": [],
       "kev": false,
       "poc": false,
-      "severity": "medium",
+      "severity": "high",
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "This article discusses whether the current surge in AI-driven vulnerability discovery will eventually lead to safer software in the future. It raises questions about the long-term impact of artificial intelligence on vulnerability trends leading up to Black Hat USA 2026.",
-        "whyItMatters": "Understanding how AI impacts vulnerability discovery is crucial for predicting future software security landscapes and threat management strategies.",
+        "summary": "A sponsored article highlights potential ransomware risks to Microsoft 365 and Azure data. It warns users that standard cloud configurations may not include comprehensive backup protections.",
+        "whyItMatters": "Organizations often mistakenly assume cloud providers completely handle their disaster recovery and backup needs.",
         "affected": [],
-        "action": "Monitor industry discussions regarding AI and vulnerability trends.",
+        "action": "Review your cloud backup and disaster recovery strategies.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -2024,60 +2183,6 @@
         "relatedCves": [
           "CVE-2026-50461"
         ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Brazil orders Discord to suspend livestreaming after teen suicide",
-      "link": "https://therecord.media/discord-brazil-orders-suspension-livestreaming",
-      "source": "The Record",
-      "publishedAt": "2026-08-13T13:37:32.000Z",
-      "summary": "Discord's Go Live feature contributed to a 13-year-old girl's death by suicide, according to Brazilian regulators, who told the company to  suspend the streaming technology.",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Brazilian regulators ordered Discord to suspend its Go Live livestreaming feature following allegations that the technology contributed to a 13-year-old girl's suicide. The authorities have taken this regulatory step to address child safety concerns linked to the platform's streaming capabilities.",
-        "whyItMatters": "This action highlights the increasing regulatory pressure on social and communication platforms to ensure user safety and prevent harm related to live broadcasting features.",
-        "affected": [
-          "Discord Go Live"
-        ],
-        "action": "Monitor platform updates regarding regional feature availability and compliance.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Trump taps cyber firms to go on offensive against criminals",
-      "link": "https://therecord.media/trump-cyber-crime-offensive",
-      "source": "The Record",
-      "publishedAt": "2026-08-13T13:30:00.000Z",
-      "summary": "The Trump administration will allow private companies to launch attacks on cybercrime organizations, the White House announced.",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The Trump administration announced a new policy allowing private cybersecurity companies to launch offensive cyberattacks against criminal organizations. This shift permits commercial firms to take the fight directly to threat actors rather than relying solely on defensive measures.",
-        "whyItMatters": "This policy drastically blurs the lines between law enforcement, military operations, and private enterprise by outsourcing offensive cyber capabilities to unregulated commercial entities.",
-        "affected": [],
-        "action": "Monitor the implementation and legal frameworks surrounding private offensive cyber operations.",
-        "risk": "News",
-        "relatedCves": [],
         "source": "ai"
       }
     },
@@ -2550,58 +2655,6 @@
         "whyItMatters": "This massive litigation campaign could fundamentally change how social media platforms design algorithms and features targeted at youth safety.",
         "affected": [],
         "action": "Monitor legal developments regarding social media youth safety regulations.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Akira Affiliate Crashes Ransomware After Attempting EDR Evasion",
-      "link": "https://www.infosecurity-magazine.com/news/akira-affiliate-crashes-ransomware/",
-      "source": "Infosecurity Magazine",
-      "publishedAt": "2026-08-13T09:30:00.000Z",
-      "summary": "Huntress documents how a ransomware affiliate sabotaged its own attack with an anti-EDR effort",
-      "categories": [
-        "Ransomware"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "high",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Huntress documented an incident where an Akira ransomware affiliate accidentally crashed their own attack while attempting to evade Endpoint Detection and Response systems. The self-sabotage halted the deployment of the ransomware payload before encryption could occur.",
-        "whyItMatters": "This incident highlights how aggressive anti-EDR techniques used by threat actors can sometimes cause system instability that inadvertently thwarts their own attacks.",
-        "affected": [],
-        "action": "Maintain robust EDR solutions and monitor endpoint stability.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Black Hat USA 2026: What the Hugging Face hack tells us about human responsibility",
-      "link": "https://www.welivesecurity.com/en/business-security/black-hat-usa-2026-hugging-face-hack-human-responsibility/",
-      "source": "WeLiveSecurity",
-      "publishedAt": "2026-08-13T09:00:00.000Z",
-      "summary": "The incident involving OpenAI models shows that autonomous hacks make human oversight more important, not less",
-      "categories": [
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "An incident involving OpenAI models and a Hugging Face hack highlights the risks associated with autonomous cyber threats. The event underscores that increased automation in hacking makes human oversight more critical than ever.",
-        "whyItMatters": "It demonstrates that the rise of autonomous cyber attacks increases the need for vigilant human oversight in security operations.",
-        "affected": [],
-        "action": "Maintain active human oversight of AI and automated systems.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -3375,32 +3428,6 @@
         "whyItMatters": "This disconnect highlights growing anxiety among leadership regarding the security risks and complexities introduced by widespread AI adoption.",
         "affected": [],
         "action": "Evaluate organizational AI integration strategies for potential security gaps.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Walmart Leaders Transform Security Operations Without Going Bananas",
-      "link": "https://www.darkreading.com/cybersecurity-operations/walmart-leaders-transform-security-operations-without-going-bananas",
-      "source": "Dark Reading",
-      "publishedAt": "2026-08-12T12:41:03.000Z",
-      "summary": "The big-box giant has scaled its defenses by encouraging trust and innovation. Good communications, transparency, and team spirit are key factors.",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Walmart has successfully scaled its security operations by fostering an environment of trust, transparency, and innovation. The organization emphasizes good communication and team spirit to enhance its overall cybersecurity defenses.",
-        "whyItMatters": "It demonstrates how cultural factors and strong leadership communication can effectively improve enterprise security operations at scale.",
-        "affected": [],
-        "action": "Review internal security culture and communication strategies.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -5769,41 +5796,6 @@
         "affected": [],
         "action": "Implement zero trust IP enforcement to secure networks against direct-to-IP threats.",
         "risk": "Medium",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "How legitimate cloud platforms enable phishers to bypass MFA",
-      "link": "https://securelist.com/cloud-platforms-in-phishing/120832/",
-      "source": "Kaspersky Securelist",
-      "publishedAt": "2026-08-04T12:00:12.000Z",
-      "summary": "We cover a cloud-based AitM attack scenario leveraging service workers and Ultraviolet, and provide detailed phishing hosting statistics across platforms like Cloudflare Workers, Vercel, Netlify, GitHub Pages, and IPFS.",
-      "categories": [
-        "Open Source"
-      ],
-      "tags": [
-        "GitHub"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Threat actors are increasingly using legitimate cloud platforms and tools like Ultraviolet to conduct advanced Adversary-in-the-Middle phishing attacks capable of bypassing multi-factor authentication. The campaign leverages services such as Cloudflare Workers, Vercel, Netlify, GitHub Pages, and IPFS to host malicious infrastructure.",
-        "whyItMatters": "This technique allows attackers to evade traditional security controls and deceive users by exploiting trusted domains for malicious credential harvesting.",
-        "affected": [
-          "Cloudflare Workers",
-          "Vercel",
-          "Netlify",
-          "GitHub Pages",
-          "IPFS",
-          "Ultraviolet"
-        ],
-        "action": "Monitor cloud platform hosting logs for suspicious phishing activity and implement phishing-resistant MFA.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
