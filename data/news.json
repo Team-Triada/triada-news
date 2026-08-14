@@ -1,6 +1,60 @@
 {
-  "updatedAt": "2026-08-14T17:11:03.439Z",
+  "updatedAt": "2026-08-14T18:05:25.545Z",
   "items": [
+    {
+      "title": "Hackers arrested over €30M bank fraud exploiting service provider flaw",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-arrested-over-30m-bank-fraud-exploiting-service-provider-flaw/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-08-14T18:04:26.000Z",
+      "summary": "Four cybercriminals were arrested in Brazil, and three others were charged in Europe over allegations that they exploited a vulnerability at a service provider, allowing them to withdraw funds from Commerzbank customers'",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Four cybercriminals in Brazil were arrested and three others charged in Europe for exploiting a service provider vulnerability. This exploit allowed the hackers to illicitly withdraw funds from Commerzbank customer accounts.",
+        "whyItMatters": "It demonstrates how supply chain vulnerabilities in third-party service providers can be leveraged to execute massive financial fraud against major banking institutions.",
+        "affected": [],
+        "action": "Audit third-party service provider integrations and access controls for potential security gaps.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "1.6M RingCentral accounts' data dumped after ShinyHunters extortion attack",
+      "link": "https://www.theregister.com/cyber-crime/2026/08/14/16m-ringcentral-accounts-data-dumped-after-shinyhunters-extortion-attack/5288003",
+      "source": "The Register",
+      "publishedAt": "2026-08-14T17:34:57.000Z",
+      "summary": "Another one bites the dust",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Data from 1.6 million RingCentral accounts was dumped following a ShinyHunters extortion attack. The incident highlights ongoing data security threats from prominent cybercriminal groups.",
+        "whyItMatters": "Exposed account data can be leveraged by malicious actors for credential stuffing, phishing, and further targeted cyberattacks against individuals and organizations.",
+        "affected": [
+          "RingCentral"
+        ],
+        "action": "Verify account security and monitor for unauthorized access.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Upcoming Speaking Engagements",
       "link": "https://www.schneier.com/blog/archives/2026/08/upcoming-speaking-engagements-59.html",
@@ -191,6 +245,107 @@
       }
     },
     {
+      "title": "CVE-2026-40400 Windows PowerShell Remote Code Execution Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40400",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-14T14:00:00.000Z",
+      "summary": "Acknowledgement Updated",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [
+        "CVE-2026-40400"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Microsoft has released an update acknowledging a remote code execution vulnerability in Windows PowerShell tracked as CVE-2026-40400. Further details regarding the specific nature of the flaw and affected components have not yet been fully detailed.",
+        "whyItMatters": "Unpatched remote code execution flaws in foundational tools like PowerShell can allow attackers to gain unauthorized control over affected systems.",
+        "affected": [
+          "Windows PowerShell"
+        ],
+        "action": "Monitor vendor advisories and apply security updates as soon as they become available.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-40400"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-49162 Microsoft Brokering File System Elevation of Privilege Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-49162",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-14T14:00:00.000Z",
+      "summary": "Acknowledgement Updated",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-49162"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Microsoft has acknowledged a newly assigned vulnerability tracked as CVE-2026-49162. The issue involves an elevation of privilege flaw within the Brokering File System.",
+        "whyItMatters": "This vulnerability could allow local attackers to escalate their privileges on affected Microsoft systems.",
+        "affected": [],
+        "action": "Monitor Microsoft security advisories for patches and official guidance.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-49162"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-50313 Windows NTFS Remote Code Execution Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50313",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-14T14:00:00.000Z",
+      "summary": "Acknowledgement Updated",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [
+        "CVE-2026-50313"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "A vulnerability identified as CVE-2026-50313 affects Windows NTFS and could allow remote code execution. Microsoft has provided acknowledgement and updated details regarding the security flaw.",
+        "whyItMatters": "Remote code execution flaws in core file systems like NTFS present a severe risk of system compromise if exploited.",
+        "affected": [
+          "Microsoft Windows NTFS"
+        ],
+        "action": "Apply available security updates from Microsoft as soon as possible.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-50313"
+        ],
+        "source": "ai"
+      }
+    },
+    {
       "title": "CVE-2026-62777 Windows License Manager Elevation of Privilege Vulnerability",
       "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62777",
       "source": "Microsoft MSRC",
@@ -357,109 +512,6 @@
         "risk": "High",
         "relatedCves": [
           "CVE-2026-61347"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-59126 Windows Event Logging Service Elevation of Privilege Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-59126",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-14T14:00:00.000Z",
-      "summary": "Acknowledgement Updated",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [
-        "CVE-2026-59126"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "A newly acknowledged vulnerability, designated CVE-2026-59126, affects the Windows Event Logging Service. This security flaw involves an elevation of privilege issue within the affected Windows component.",
-        "whyItMatters": "This vulnerability matters because it could allow a malicious actor to escalate their privileges and gain higher-level access on a targeted Windows system.",
-        "affected": [
-          "Windows Event Logging Service"
-        ],
-        "action": "Apply the latest security updates provided by Microsoft.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-59126"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-62746 Win32k Information Disclosure Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62746",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-14T14:00:00.000Z",
-      "summary": "Acknowledgement Updated",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-62746"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "A security vulnerability identified as CVE-2026-62746 affects Win32k and involves an information disclosure flaw. The advisory has recently received an acknowledgement update.",
-        "whyItMatters": "Information disclosure vulnerabilities can allow attackers to access sensitive system data, potentially aiding further exploitation.",
-        "affected": [
-          "Win32k"
-        ],
-        "action": "Monitor vendor advisories for patches.",
-        "risk": "Medium",
-        "relatedCves": [
-          "CVE-2026-62746"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-40400 Windows PowerShell Remote Code Execution Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40400",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-14T14:00:00.000Z",
-      "summary": "Acknowledgement Updated",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [
-        "CVE-2026-40400"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "Microsoft has released an update acknowledging a remote code execution vulnerability in Windows PowerShell tracked as CVE-2026-40400. Further details regarding the specific nature of the flaw and affected components have not yet been fully detailed.",
-        "whyItMatters": "Unpatched remote code execution flaws in foundational tools like PowerShell can allow attackers to gain unauthorized control over affected systems.",
-        "affected": [
-          "Windows PowerShell"
-        ],
-        "action": "Monitor vendor advisories and apply security updates as soon as they become available.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-40400"
         ],
         "source": "ai"
       }
@@ -1762,32 +1814,6 @@
       }
     },
     {
-      "title": "Ukraine shuts down 94 fraudulent call centers, seize millions in cash",
-      "link": "https://www.bleepingcomputer.com/news/security/ukraine-shuts-down-94-fraudulent-call-centers-seize-millions-in-cash/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-08-13T21:12:47.000Z",
-      "summary": "Authorities in Ukraine shut down 94 fraudulent call centers across the country that lured people into investment scams or tried to obtain access to bank accounts. [...]",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Law enforcement authorities in Ukraine successfully shut down 94 fraudulent call centers operating across the country. These criminal operations targeted individuals through sophisticated investment scams and attempts to gain unauthorized access to bank accounts.",
-        "whyItMatters": "This massive crackdown disrupts a significant international financial crime network that was actively stealing millions from victims through cyber-enabled fraud.",
-        "affected": [],
-        "action": "Remain vigilant against unsolicited investment offers and requests for banking credentials.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "USN-8548-2: Linux kernel vulnerabilities",
       "link": "https://ubuntu.com/security/notices/USN-8548-2",
       "source": "Canonical Ubuntu Security",
@@ -2255,35 +2281,6 @@
         "whyItMatters": "This milestone addresses the future threat of quantum computers decrypting sensitive data that is intercepted and stored today.",
         "affected": [],
         "action": "Monitor Google Cloud post-quantum updates and plan for future cryptographic migration.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "The backup Microsoft never promised you",
-      "link": "https://www.theregister.com/security/2026/08/13/sponsored-the-backup-microsoft-never-promised-you/5284957",
-      "source": "The Register",
-      "publishedAt": "2026-08-13T15:00:00.000Z",
-      "summary": "SPONSORED FEATURE: Your M365 and Azure data might not be as safe as you think from ransomware; time for a reality check",
-      "categories": [
-        "Ransomware",
-        "Cloud"
-      ],
-      "tags": [
-        "Azure"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "high",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A sponsored article highlights potential ransomware risks to Microsoft 365 and Azure data. It warns users that standard cloud configurations may not include comprehensive backup protections.",
-        "whyItMatters": "Organizations often mistakenly assume cloud providers completely handle their disaster recovery and backup needs.",
-        "affected": [],
-        "action": "Review your cloud backup and disaster recovery strategies.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
