@@ -1,6 +1,90 @@
 {
-  "updatedAt": "2026-08-14T11:09:33.573Z",
+  "updatedAt": "2026-08-14T11:55:54.273Z",
   "items": [
+    {
+      "title": "Trivy, Not LiteLLM Behind the 2,500 Org Compromise",
+      "link": "https://www.securityweek.com/trivy-not-litellm-behind-the-2500-org-compromise/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-08-14T11:35:23.000Z",
+      "summary": "Over 95% of the affected companies were exposed before the malicious LiteLLM packages were published.\nThe post Trivy, Not LiteLLM Behind the 2,500 Org Compromise appeared first on SecurityWeek.",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Recent investigations reveal that Trivy, rather than LiteLLM, is responsible for the security incidents affecting over 2,500 organizations. Over 95% of the impacted companies were exposed prior to the publication of the malicious LiteLLM packages.",
+        "whyItMatters": "Correctly identifying the root cause of large-scale organizational compromises is crucial for effective incident response and remediation.",
+        "affected": [
+          "Trivy"
+        ],
+        "action": "Verify your organization's exposure to Trivy and review recent security advisories.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Who’s Tracking You? Use This New Service to Find Out",
+      "link": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
+      "source": "Krebs on Security",
+      "publishedAt": "2026-08-14T11:24:35.000Z",
+      "summary": "It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every day. That information is already semi-public, but it is not easily pa",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A new service has been introduced to help users identify which entities are tracking them across websites and mobile apps. This tool aims to simplify the process of uncovering ad-tracking and data-harvesting practices that are usually difficult to parse.",
+        "whyItMatters": "It empowers users with better visibility into their digital privacy by demystifying complex data collection practices.",
+        "affected": [],
+        "action": "Explore privacy-tracking services to monitor data collection.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "New Android malware relays bank cards to fraudsters while victims still hold them",
+      "link": "https://www.helpnetsecurity.com/2026/08/14/windrelay-android-nfc-relay-malware/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-08-14T11:08:19.000Z",
+      "summary": "Group-IB researchers discovered WindRelay, a new Android malware built to capture live payment card data over NFC (Near Field Communication) and relay it to attackers in real time. WindRelay is paired with the SpyNote re",
+      "categories": [
+        "Malware"
+      ],
+      "tags": [
+        "Android"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Researchers discovered WindRelay, a new Android malware that captures live payment card data via NFC and relays it to attackers in real time. This malware is typically paired with SpyNote to facilitate its fraudulent operations.",
+        "whyItMatters": "It allows remote fraudsters to make unauthorized contactless transactions using a victim's physical card while the victim still holds it.",
+        "affected": [
+          "Android OS"
+        ],
+        "action": "Avoid downloading unknown Android applications and monitor accounts for unauthorized NFC transactions.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "If the Markets Reject OpenAI and Anthropic, the US Should Nationalize Them",
       "link": "https://www.schneier.com/blog/archives/2026/08/if-the-markets-reject-openai-and-anthropic-the-us-should-nationalize-them.html",
@@ -749,6 +833,64 @@
           "ChatGPT"
         ],
         "action": "Review privacy settings and disable the Computer History feature if keylogging is a concern.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6440-1 unzip - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00351.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-08-14T00:00:00.000Z",
+      "summary": "Akhil Koul discovered a vulnerability in the Info-ZIP unzip program,\nwhich could result in the execution of arbitrary code if a specially\ncrafted file is processed.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6440-",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A security vulnerability has been discovered in the Info-ZIP unzip program. Processing a specially crafted file could allow an attacker to execute arbitrary code.",
+        "whyItMatters": "This flaw could allow attackers to execute arbitrary code on systems processing untrusted archives, potentially leading to a full system compromise.",
+        "affected": [
+          "Info-ZIP unzip"
+        ],
+        "action": "Apply the latest security update from your vendor.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6439-1 zip - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00350.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-08-14T00:00:00.000Z",
+      "summary": "Harry Sintonen discovered that the Info-ZIP zip program is prone to a\ncommand injection vulnerability if a specially crafted filename is\nprocessed.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6439-1",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A command injection vulnerability was discovered in the Info-ZIP zip program. The flaw can be triggered when the program processes a specially crafted filename.",
+        "whyItMatters": "An attacker could exploit this vulnerability to execute arbitrary commands on the system by tricking a user into processing a malicious filename.",
+        "affected": [
+          "Info-ZIP zip"
+        ],
+        "action": "Update the zip package to the latest security release.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -1582,61 +1724,29 @@
       }
     },
     {
-      "title": "White House authorizes private US companies to hack foreign criminal networks",
-      "link": "https://www.helpnetsecurity.com/2026/08/13/usa-private-companies-offensive-cyber-operations/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-08-13T14:31:35.000Z",
-      "summary": "President Trump signed a National Security Presidential Memorandum on August 12 allowing vetted private companies to run offensive cyber operations against foreign threat actors, under the control and oversight of the US",
+      "title": "Black Hat USA 2026: Will vulnerability discovery eventually decline in the AI era?",
+      "link": "https://www.welivesecurity.com/en/business-security/black-hat-usa-2026-vulnerability-discovery-decline-ai-era/",
+      "source": "WeLiveSecurity",
+      "publishedAt": "2026-08-13T14:30:00.000Z",
+      "summary": "And will today’s surge in AI-driven vulnerability discovery eventually make tomorrow’s software safer?",
       "categories": [
-        "News"
+        "Vulnerability",
+        "AI Security"
       ],
       "tags": [],
       "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "President Trump signed a National Security Presidential Memorandum authorizing vetted private companies to conduct offensive cyber operations against foreign threat actors. These private hacking activities will operate under the direct control and oversight of the United States government.",
-        "whyItMatters": "This policy significantly expands the government's offensive cyber capabilities by outsourcing state-backed hacking operations to the private sector.",
-        "affected": [],
-        "action": "Monitor developments regarding private sector offensive cyber operations.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Adobe Commerce Bug Targeted Immediately After Disclosure",
-      "link": "https://www.securityweek.com/adobe-commerce-bug-targeted-immediately-after-disclosure/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-08-13T14:17:44.000Z",
-      "summary": "The first exploitation attempts targeting CVE-2026-71362 were observed shortly after Adobe released patches.\nThe post Adobe Commerce Bug Targeted Immediately After Disclosure appeared first on SecurityWeek.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-71362"
-      ],
       "kev": false,
       "poc": false,
       "severity": "medium",
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "Exploitation attempts targeting CVE-2026-71362 in Adobe Commerce were observed immediately following the release of official patches. Threat actors are rapidly weaponizing the disclosed vulnerability against unpatched systems.",
-        "whyItMatters": "Active exploitation shortly after patch release leaves administrators with virtually no window to secure their environments before attacks begin.",
-        "affected": [
-          "Adobe Commerce"
-        ],
-        "action": "Apply the latest Adobe Commerce patches immediately.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-71362"
-        ],
+        "summary": "This article discusses whether the current surge in AI-driven vulnerability discovery will eventually lead to safer software in the future. It raises questions about the long-term impact of artificial intelligence on vulnerability trends leading up to Black Hat USA 2026.",
+        "whyItMatters": "Understanding how AI impacts vulnerability discovery is crucial for predicting future software security landscapes and threat management strategies.",
+        "affected": [],
+        "action": "Monitor industry discussions regarding AI and vulnerability trends.",
+        "risk": "News",
+        "relatedCves": [],
         "source": "ai"
       }
     },
@@ -2548,6 +2658,32 @@
         "whyItMatters": "This incident highlights how aggressive anti-EDR techniques used by threat actors can sometimes cause system instability that inadvertently thwarts their own attacks.",
         "affected": [],
         "action": "Maintain robust EDR solutions and monitor endpoint stability.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Black Hat USA 2026: What the Hugging Face hack tells us about human responsibility",
+      "link": "https://www.welivesecurity.com/en/business-security/black-hat-usa-2026-hugging-face-hack-human-responsibility/",
+      "source": "WeLiveSecurity",
+      "publishedAt": "2026-08-13T09:00:00.000Z",
+      "summary": "The incident involving OpenAI models shows that autonomous hacks make human oversight more important, not less",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "An incident involving OpenAI models and a Hugging Face hack highlights the risks associated with autonomous cyber threats. The event underscores that increased automation in hacking makes human oversight more critical than ever.",
+        "whyItMatters": "It demonstrates that the rise of autonomous cyber attacks increases the need for vigilant human oversight in security operations.",
+        "affected": [],
+        "action": "Maintain active human oversight of AI and automated systems.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -4027,35 +4163,6 @@
       }
     },
     {
-      "title": "DSA-6432-1 flatpak - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00343.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-08-12T00:00:00.000Z",
-      "summary": "Multiple security vulnerabilities were discovered in Flatpak, an\napplication deployment framework for desktop apps, which could result in\nlocal privilege escalation, sandbox escape or information disclosure.\n\n\nhttps://se",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Multiple security vulnerabilities have been discovered in Flatpak, an application deployment framework for desktop apps. These flaws could potentially lead to local privilege escalation, sandbox escapes, or unauthorized information disclosure.",
-        "whyItMatters": "These vulnerabilities compromise the isolation guarantees of desktop applications, allowing local attackers to potentially escape the sandbox and escalate privileges.",
-        "affected": [
-          "Flatpak"
-        ],
-        "action": "Update Flatpak to the latest security release provided by your vendor.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Federal judge issues second order blocking Trump mail-in voting directive",
       "link": "https://cyberscoop.com/federal-judge-blocks-trump-mail-in-voting-executive-order/",
       "source": "CyberScoop",
@@ -4843,35 +4950,6 @@
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6431-1 openjdk-25 - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00342.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-08-11T00:00:00.000Z",
-      "summary": "Several vulnerabilities have been discovered in the OpenJDK Java runtime,\nwhich may result in incorrect validation of certificates or signed Jar\nfiles, denial of service or information disclosure.\n\n\nhttps://security-trac",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several vulnerabilities have been discovered in the OpenJDK Java runtime,\nwhich may result in incorrect validation of certificates or signed Jar\nfiles, denial of service or information disclosure.\n\n\nhttps://security-trac",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
       }
     },
     {
@@ -5696,98 +5774,6 @@
         ],
         "action": "No action required; informational.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Python Software Foundation - Python 3.11.0a3 to 3.15.0b2",
-      "link": "https://bishopfox.com/blog/python-software-foundation-python-3-11-0a3-to-3-15-0b2",
-      "source": "Bishop Fox",
-      "publishedAt": "2026-08-05T13:00:00.000Z",
-      "summary": "Bishop Fox discovered a privilege escalation vulnerability in Python for Windows affecting versions 3.11.0a3 through 3.15.0b2. A low-privilege user can plant malicious files and wait for a privileged account to run the i",
-      "categories": [
-        "Vulnerability"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Bishop Fox discovered a privilege escalation vulnerability in Python for Windows affecting versions 3.11.0a3 through 3.15.0b2. A low-privilege user can plant malicious files and wait for a privileged account to run the i",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Windows"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Cisco Advance Notification for Publication of August 5, 2026, Security Advisories",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-L4XfJg8S?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20August%205,%202026,%20Security%20Advisories%26vs_k=1",
-      "source": "Cisco PSIRT",
-      "publishedAt": "2026-08-05T10:31:06.000Z",
-      "summary": "On August 5, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the following advisories:\n\r\n\r\n\r\n\r\nCisco Security Advisory\r\nCVE ID\r\nSecurity Impact Rating\r\nCVSS Base Score\r\n\r\n\r\n\r\n\r\nCisco Catalyst SD",
-      "categories": [
-        "Incident Response",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Cisco"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "On August 5, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the following advisories:\n\r\n\r\n\r\n\r\nCisco Security Advisory\r\nCVE ID\r\nSecurity Impact Rating\r\nCVSS Base Score\r\n\r\n\r\n\r\n\r\nCisco Catalyst SD",
-        "whyItMatters": "Background context — no immediate action expected.",
-        "affected": [
-          "Cisco"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Cisco IOS XE Software Web-Based Management Interface Denial of Service Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-xe-webui-dos-PtAODAWW?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20IOS%20XE%20Software%20Web-Based%20Management%20Interface%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
-      "source": "Cisco PSIRT",
-      "publishedAt": "2026-08-05T10:30:00.000Z",
-      "summary": "A vulnerability in the web-based management interface of Cisco IOS XE Software could allow an authenticated, remote attacker with low privileges to cause a denial of service (DoS) condition on an affected device.\n\r\nThis ",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Cisco"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A vulnerability in the web-based management interface of Cisco IOS XE Software could allow an authenticated, remote attacker with low privileges to cause a denial of service (DoS) condition on an affected device.\n\r\nThis",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Cisco"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
