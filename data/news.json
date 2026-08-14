@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T18:05:25.545Z",
+  "updatedAt": "2026-08-14T19:12:30.580Z",
   "items": [
     {
       "title": "Hackers arrested over €30M bank fraud exploiting service provider flaw",
@@ -28,6 +28,36 @@
       }
     },
     {
+      "title": "Announcing: Azure Databricks Runtime 10.4 LTS will reach end of life on November 1, 2026",
+      "link": "https://azure.microsoft.com/updates?id=569353",
+      "source": "Azure Updates",
+      "publishedAt": "2026-08-14T17:43:51.000Z",
+      "summary": "Azure Databricks Runtime\r\n10.4 LTS, a Databricks-managed runtime available on Azure Databricks, reached\r\nend of support on March 18, 2025 and will reach end of life on November 1, 2026. After this date,\r\nDatabricks Runti",
+      "categories": [
+        "Cloud"
+      ],
+      "tags": [
+        "Azure"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Azure Databricks Runtime 10.4 LTS reached end of support on March 18, 2025, and is scheduled to reach end of life on November 1, 2026. After the final deadline, this runtime version will no longer be supported or available on Azure Databricks.",
+        "whyItMatters": "Running software past its end of life exposes systems to unpatched security vulnerabilities and lack of technical support.",
+        "affected": [
+          "Azure Databricks Runtime 10.4 LTS"
+        ],
+        "action": "Upgrade to a supported Azure Databricks Runtime version before November 1, 2026.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "1.6M RingCentral accounts' data dumped after ShinyHunters extortion attack",
       "link": "https://www.theregister.com/cyber-crime/2026/08/14/16m-ringcentral-accounts-data-dumped-after-shinyhunters-extortion-attack/5288003",
       "source": "The Register",
@@ -51,6 +81,34 @@
         ],
         "action": "Verify account security and monitor for unauthorized access.",
         "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Amid AI-Driven Bug Tsunami, NIST Looks to…AI",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/ai-driven-bug-tsunami-nist-looks-to-ai",
+      "source": "Dark Reading",
+      "publishedAt": "2026-08-14T17:32:46.000Z",
+      "summary": "Driven by AI-augmented research and scanning, vulnerability volumes continue to surge, driving the National Institute of Standards and Technology to ask whether AI could be the answer.",
+      "categories": [
+        "Vulnerability",
+        "AI Security",
+        "Research"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The National Institute of Standards and Technology is exploring the use of artificial intelligence to manage the surging volume of vulnerabilities caused by AI-augmented research and scanning. This initiative responds to the overwhelming influx of security flaws that traditional methods struggle to process efficiently.",
+        "whyItMatters": "As AI-driven tools accelerate vulnerability discovery, adopting AI for defense is crucial to prevent security backlogs and protect critical infrastructure.",
+        "affected": [],
+        "action": "Monitor NIST updates regarding AI-driven vulnerability management strategies.",
+        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
@@ -245,8 +303,41 @@
       }
     },
     {
-      "title": "CVE-2026-40400 Windows PowerShell Remote Code Execution Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40400",
+      "title": "CVE-2026-72970 Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-72970",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-14T14:00:00.000Z",
+      "summary": "Heap-based buffer overflow in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-72970"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A heap-based buffer overflow vulnerability has been identified in Microsoft Edge, which is based on the Chromium engine. This security flaw allows an unauthorized remote attacker to execute arbitrary code over the network.",
+        "whyItMatters": "It matters because it allows remote attackers to execute arbitrary code on user systems, potentially leading to a complete compromise of the affected machine.",
+        "affected": [
+          "Microsoft Edge (Chromium-based)"
+        ],
+        "action": "Update Microsoft Edge to the latest patched version immediately.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-72970"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-61347 Windows Event Logging Service Information Disclosure Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-61347",
       "source": "Microsoft MSRC",
       "publishedAt": "2026-08-14T14:00:00.000Z",
       "summary": "Acknowledgement Updated",
@@ -258,30 +349,30 @@
         "Windows"
       ],
       "cves": [
-        "CVE-2026-40400"
+        "CVE-2026-61347"
       ],
       "kev": false,
       "poc": false,
-      "severity": "critical",
+      "severity": "medium",
       "breaking": false,
       "readTimeMin": 2,
       "aiSummary": {
-        "summary": "Microsoft has released an update acknowledging a remote code execution vulnerability in Windows PowerShell tracked as CVE-2026-40400. Further details regarding the specific nature of the flaw and affected components have not yet been fully detailed.",
-        "whyItMatters": "Unpatched remote code execution flaws in foundational tools like PowerShell can allow attackers to gain unauthorized control over affected systems.",
+        "summary": "A newly acknowledged information disclosure vulnerability has been identified in the Windows Event Logging Service, designated as CVE-2026-61347. Specific details regarding the exploit mechanism and remediation steps are currently limited.",
+        "whyItMatters": "Information disclosure flaws can allow unauthorized actors to access sensitive system data, potentially aiding in further attacks against the network.",
         "affected": [
-          "Windows PowerShell"
+          "Microsoft Windows Event Logging Service"
         ],
-        "action": "Monitor vendor advisories and apply security updates as soon as they become available.",
+        "action": "Monitor vendor advisories for official patches and updates.",
         "risk": "High",
         "relatedCves": [
-          "CVE-2026-40400"
+          "CVE-2026-61347"
         ],
         "source": "ai"
       }
     },
     {
-      "title": "CVE-2026-49162 Microsoft Brokering File System Elevation of Privilege Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-49162",
+      "title": "CVE-2026-62746 Win32k Information Disclosure Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62746",
       "source": "Microsoft MSRC",
       "publishedAt": "2026-08-14T14:00:00.000Z",
       "summary": "Acknowledgement Updated",
@@ -291,7 +382,7 @@
       ],
       "tags": [],
       "cves": [
-        "CVE-2026-49162"
+        "CVE-2026-62746"
       ],
       "kev": false,
       "poc": false,
@@ -299,20 +390,22 @@
       "breaking": false,
       "readTimeMin": 2,
       "aiSummary": {
-        "summary": "Microsoft has acknowledged a newly assigned vulnerability tracked as CVE-2026-49162. The issue involves an elevation of privilege flaw within the Brokering File System.",
-        "whyItMatters": "This vulnerability could allow local attackers to escalate their privileges on affected Microsoft systems.",
-        "affected": [],
-        "action": "Monitor Microsoft security advisories for patches and official guidance.",
-        "risk": "High",
+        "summary": "A cybersecurity vulnerability identified as CVE-2026-62746 affects Win32k and involves an information disclosure flaw. The advisory has recently received an updated acknowledgement from its source.",
+        "whyItMatters": "Information disclosure vulnerabilities can allow attackers to access sensitive data, potentially aiding further exploitation of the affected system.",
+        "affected": [
+          "Win32k"
+        ],
+        "action": "Monitor vendor advisories for official patches and updates.",
+        "risk": "Medium",
         "relatedCves": [
-          "CVE-2026-49162"
+          "CVE-2026-62746"
         ],
         "source": "ai"
       }
     },
     {
-      "title": "CVE-2026-50313 Windows NTFS Remote Code Execution Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50313",
+      "title": "CVE-2026-62755 Windows DHCP Client Elevation of Privilege Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62755",
       "source": "Microsoft MSRC",
       "publishedAt": "2026-08-14T14:00:00.000Z",
       "summary": "Acknowledgement Updated",
@@ -324,23 +417,23 @@
         "Windows"
       ],
       "cves": [
-        "CVE-2026-50313"
+        "CVE-2026-62755"
       ],
       "kev": false,
       "poc": false,
-      "severity": "critical",
+      "severity": "medium",
       "breaking": false,
       "readTimeMin": 2,
       "aiSummary": {
-        "summary": "A vulnerability identified as CVE-2026-50313 affects Windows NTFS and could allow remote code execution. Microsoft has provided acknowledgement and updated details regarding the security flaw.",
-        "whyItMatters": "Remote code execution flaws in core file systems like NTFS present a severe risk of system compromise if exploited.",
+        "summary": "A security advisory has been published regarding CVE-2026-62755, a Windows DHCP Client elevation of privilege vulnerability. Further details and acknowledgment updates have been provided by the vendor.",
+        "whyItMatters": "Elevation of privilege vulnerabilities can allow malicious actors to gain higher-level permissions on affected systems.",
         "affected": [
-          "Microsoft Windows NTFS"
+          "Windows DHCP Client"
         ],
-        "action": "Apply available security updates from Microsoft as soon as possible.",
-        "risk": "Critical",
+        "action": "Apply the latest security updates provided by Microsoft.",
+        "risk": "High",
         "relatedCves": [
-          "CVE-2026-50313"
+          "CVE-2026-62755"
         ],
         "source": "ai"
       }
@@ -376,6 +469,37 @@
         "risk": "High",
         "relatedCves": [
           "CVE-2026-62777"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-65671 Remote Access API Elevation of Privilege Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-65671",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-14T14:00:00.000Z",
+      "summary": "Acknowledgement Updated",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-65671"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "A vulnerability designated as CVE-2026-65671 involves a remote access API elevation of privilege issue. The affected vendor or product details have not been fully disclosed in the provided text.",
+        "whyItMatters": "Elevation of privilege vulnerabilities can allow unauthorized attackers to gain higher-level permissions on targeted systems.",
+        "affected": [],
+        "action": "Monitor vendor advisories for updates and patches regarding CVE-2026-65671.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-65671"
         ],
         "source": "ai"
       }
@@ -446,72 +570,6 @@
         "risk": "High",
         "relatedCves": [
           "CVE-2026-66804"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-65671 Remote Access API Elevation of Privilege Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-65671",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-14T14:00:00.000Z",
-      "summary": "Acknowledgement Updated",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-65671"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "A vulnerability designated as CVE-2026-65671 involves a remote access API elevation of privilege issue. The affected vendor or product details have not been fully disclosed in the provided text.",
-        "whyItMatters": "Elevation of privilege vulnerabilities can allow unauthorized attackers to gain higher-level permissions on targeted systems.",
-        "affected": [],
-        "action": "Monitor vendor advisories for updates and patches regarding CVE-2026-65671.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-65671"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-61347 Windows Event Logging Service Information Disclosure Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-61347",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-14T14:00:00.000Z",
-      "summary": "Acknowledgement Updated",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [
-        "CVE-2026-61347"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "A newly acknowledged information disclosure vulnerability has been identified in the Windows Event Logging Service, designated as CVE-2026-61347. Specific details regarding the exploit mechanism and remediation steps are currently limited.",
-        "whyItMatters": "Information disclosure flaws can allow unauthorized actors to access sensitive system data, potentially aiding in further attacks against the network.",
-        "affected": [
-          "Microsoft Windows Event Logging Service"
-        ],
-        "action": "Monitor vendor advisories for official patches and updates.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-61347"
         ],
         "source": "ai"
       }
@@ -3419,32 +3477,6 @@
       }
     },
     {
-      "title": "Walmart Takes a 'Trusted Agent' Approach to Purple Teaming",
-      "link": "https://www.darkreading.com/cybersecurity-operations/walmart-trusted-agent-approach-purple-teaming",
-      "source": "Dark Reading",
-      "publishedAt": "2026-08-12T16:28:04.000Z",
-      "summary": "Walmart colocates red and blue teams to build trust and improve security through collaborative purple teaming exercises",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Walmart is using a collaborative purple teaming approach by colocating its red and blue security teams. This strategy aims to build internal trust and improve overall security posture through joint exercises.",
-        "whyItMatters": "It demonstrates how aligning offensive and defensive security operations can enhance an enterprise's threat detection and mitigation capabilities.",
-        "affected": [],
-        "action": "Evaluate the benefits of integrating red and blue team operations.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Cisco Advance Notification for Publication of August 19, 2026, Security Advisories",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-LDquvx5d?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20August%2019,%202026,%20Security%20Advisories%26vs_k=1",
       "source": "Cisco PSIRT",
@@ -4520,36 +4552,6 @@
         "affected": [],
         "action": "Remain vigilant against unsolicited job offers and thoroughly verify recruitment communications.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "[Launched] Generally Available: 2.2X IDPS performance optimization in Azure Firewall",
-      "link": "https://azure.microsoft.com/updates?id=569256",
-      "source": "Azure Updates",
-      "publishedAt": "2026-08-11T17:26:51.000Z",
-      "summary": "Azure Firewall Premium now delivers up to 22 Gbps\r\nthroughput with TLS inspection and IDPS in Deny mode, a 120% increase from 10\r\nGbps, and up to 600 Mbps per TCP connection with IDPS enabled in either Alert\r\nor Deny mod",
-      "categories": [
-        "Cloud"
-      ],
-      "tags": [
-        "Azure"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has generally released a performance optimization for Azure Firewall Premium, boosting its IDPS throughput with TLS inspection up to 22 Gbps. This update represents a 120 percent increase from the previous 10 Gbps limit and supports up to 600 Mbps per TCP connection with IDPS enabled.",
-        "whyItMatters": "This enhancement significantly improves the network throughput and security inspection capabilities for organizations relying on Azure Firewall Premium.",
-        "affected": [
-          "Azure Firewall Premium"
-        ],
-        "action": "Review Azure Firewall configurations to leverage the new performance limits.",
-        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
