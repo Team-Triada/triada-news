@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T16:05:24.640Z",
+  "updatedAt": "2026-08-14T17:11:03.439Z",
   "items": [
     {
       "title": "Upcoming Speaking Engagements",
@@ -23,6 +23,33 @@
         "affected": [],
         "action": "Ignore this non-security update.",
         "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Scottish Govt Suffers Potentially Widening Data Breach at Prosecutor's Office",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/scottish-govt-data-breach-prosecutors-office",
+      "source": "Dark Reading",
+      "publishedAt": "2026-08-14T15:58:50.000Z",
+      "summary": "One Caledonian government agency reported a breach, thanks to a third party that may have serviced other agencies as well.",
+      "categories": [
+        "Incident Response",
+        "Government"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The Scottish government has reported a data breach at the Crown Office and Procurator Fiscal Service caused by a third-party vendor. Authorities are investigating whether the incident may have impacted other government agencies serviced by the same vendor.",
+        "whyItMatters": "Third-party vendor compromises pose a systemic supply chain risk that can expose sensitive government data across multiple interconnected agencies.",
+        "affected": [],
+        "action": "Investigate third-party vendor access and audit data exposure across all connected agencies.",
+        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -160,6 +187,280 @@
         "action": "Brief the board on current technology risks.",
         "risk": "News",
         "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-62777 Windows License Manager Elevation of Privilege Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62777",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-14T14:00:00.000Z",
+      "summary": "Acknowledgement Updated",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [
+        "CVE-2026-62777"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "A security vulnerability identified as CVE-2026-62777 has been discovered affecting the Windows License Manager. This flaw allows an attacker to achieve an elevation of privilege on the targeted system.",
+        "whyItMatters": "An elevation of privilege vulnerability allows malicious actors to gain higher-level permissions, potentially leading to a complete compromise of the affected system.",
+        "affected": [
+          "Windows License Manager"
+        ],
+        "action": "Apply the latest security updates provided by Microsoft to address CVE-2026-62777.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-62777"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-68821 Windows Package Manager Elevation of Privilege Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68821",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-14T14:00:00.000Z",
+      "summary": "Acknowledgement Updated",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [
+        "CVE-2026-68821"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "A security vulnerability has been identified as CVE-2026-68821, affecting the Windows Package Manager. The issue involves an elevation of privilege flaw, though specific exploitation details remain scarce.",
+        "whyItMatters": "An elevation of privilege vulnerability allows attackers with limited access to execute code with higher privileges, potentially compromising the entire system.",
+        "affected": [
+          "Windows Package Manager"
+        ],
+        "action": "Apply the latest security updates from Microsoft.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-68821"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-66804 Microsoft Windows Cross Device Service Elevation of Privilege Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-66804",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-14T14:00:00.000Z",
+      "summary": "Acknowledgement Updated",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [
+        "CVE-2026-66804"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "A vulnerability identified as CVE-2026-66804 affects the Microsoft Windows Cross Device Service, leading to an elevation of privilege risk. The article provides minimal details beyond acknowledging an update.",
+        "whyItMatters": "Elevation of privilege vulnerabilities can allow unauthorized local users to gain elevated system privileges and compromise the entire operating system.",
+        "affected": [
+          "Microsoft Windows Cross Device Service"
+        ],
+        "action": "Apply the latest security updates from Microsoft.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-66804"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-65671 Remote Access API Elevation of Privilege Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-65671",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-14T14:00:00.000Z",
+      "summary": "Acknowledgement Updated",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-65671"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "A vulnerability designated as CVE-2026-65671 involves a remote access API elevation of privilege issue. The affected vendor or product details have not been fully disclosed in the provided text.",
+        "whyItMatters": "Elevation of privilege vulnerabilities can allow unauthorized attackers to gain higher-level permissions on targeted systems.",
+        "affected": [],
+        "action": "Monitor vendor advisories for updates and patches regarding CVE-2026-65671.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-65671"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-61347 Windows Event Logging Service Information Disclosure Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-61347",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-14T14:00:00.000Z",
+      "summary": "Acknowledgement Updated",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [
+        "CVE-2026-61347"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "A newly acknowledged information disclosure vulnerability has been identified in the Windows Event Logging Service, designated as CVE-2026-61347. Specific details regarding the exploit mechanism and remediation steps are currently limited.",
+        "whyItMatters": "Information disclosure flaws can allow unauthorized actors to access sensitive system data, potentially aiding in further attacks against the network.",
+        "affected": [
+          "Microsoft Windows Event Logging Service"
+        ],
+        "action": "Monitor vendor advisories for official patches and updates.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-61347"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-59126 Windows Event Logging Service Elevation of Privilege Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-59126",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-14T14:00:00.000Z",
+      "summary": "Acknowledgement Updated",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [
+        "CVE-2026-59126"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "A newly acknowledged vulnerability, designated CVE-2026-59126, affects the Windows Event Logging Service. This security flaw involves an elevation of privilege issue within the affected Windows component.",
+        "whyItMatters": "This vulnerability matters because it could allow a malicious actor to escalate their privileges and gain higher-level access on a targeted Windows system.",
+        "affected": [
+          "Windows Event Logging Service"
+        ],
+        "action": "Apply the latest security updates provided by Microsoft.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-59126"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-62746 Win32k Information Disclosure Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62746",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-14T14:00:00.000Z",
+      "summary": "Acknowledgement Updated",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-62746"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "A security vulnerability identified as CVE-2026-62746 affects Win32k and involves an information disclosure flaw. The advisory has recently received an acknowledgement update.",
+        "whyItMatters": "Information disclosure vulnerabilities can allow attackers to access sensitive system data, potentially aiding further exploitation.",
+        "affected": [
+          "Win32k"
+        ],
+        "action": "Monitor vendor advisories for patches.",
+        "risk": "Medium",
+        "relatedCves": [
+          "CVE-2026-62746"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-40400 Windows PowerShell Remote Code Execution Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40400",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-14T14:00:00.000Z",
+      "summary": "Acknowledgement Updated",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [
+        "CVE-2026-40400"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Microsoft has released an update acknowledging a remote code execution vulnerability in Windows PowerShell tracked as CVE-2026-40400. Further details regarding the specific nature of the flaw and affected components have not yet been fully detailed.",
+        "whyItMatters": "Unpatched remote code execution flaws in foundational tools like PowerShell can allow attackers to gain unauthorized control over affected systems.",
+        "affected": [
+          "Windows PowerShell"
+        ],
+        "action": "Monitor vendor advisories and apply security updates as soon as they become available.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-40400"
+        ],
         "source": "ai"
       }
     },
@@ -466,6 +767,36 @@
       }
     },
     {
+      "title": "New Android malware relays bank cards to fraudsters while victims still hold them",
+      "link": "https://www.helpnetsecurity.com/2026/08/14/windrelay-android-nfc-relay-malware/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-08-14T11:08:19.000Z",
+      "summary": "Group-IB researchers discovered WindRelay, a new Android malware built to capture live payment card data over NFC (Near Field Communication) and relay it to attackers in real time. WindRelay is paired with the SpyNote re",
+      "categories": [
+        "Malware"
+      ],
+      "tags": [
+        "Android"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Group-IB researchers have discovered a new Android malware called WindRelay that captures live payment card data using NFC technology. The malware, which is paired with SpyNote, relays this sensitive information to attackers in real time while the victim still holds their card.",
+        "whyItMatters": "This threat enables unauthorized contactless transactions by stealing and relaying NFC payment data directly from victims' physical cards.",
+        "affected": [
+          "Android"
+        ],
+        "action": "Avoid downloading unverified Android applications and monitor accounts for unauthorized NFC transactions.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "If the Markets Reject OpenAI and Anthropic, the US Should Nationalize Them",
       "link": "https://www.schneier.com/blog/archives/2026/08/if-the-markets-reject-openai-and-anthropic-the-us-should-nationalize-them.html",
       "source": "Schneier on Security",
@@ -512,6 +843,34 @@
         "whyItMatters": "This initiative prepares cloud infrastructure for future quantum computing threats that could compromise current encryption standards.",
         "affected": [],
         "action": "Monitor Google Cloud post-quantum updates.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "OpenAI’s GPT-5.6 Sol runs up to 14× faster with Ultrafast mode",
+      "link": "https://www.helpnetsecurity.com/2026/08/14/openais-gpt-5-6-sol-runs-up-to-14x-faster-with-ultrafast-mode/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-08-14T10:55:58.000Z",
+      "summary": "OpenAI’s GPT-5.6 Sol on Ultrafast mode is available in limited preview to a select group of customers, launching first through the OpenAI API. The company says the service runs up to 14 times faster than Standard process",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "OpenAI has announced a limited preview of GPT-5.6 Sol featuring an Ultrafast mode available first through the API. The company claims this new mode operates up to 14 times faster than standard processing.",
+        "whyItMatters": "This release introduces significantly faster AI processing speeds that could impact performance and latency for enterprise applications.",
+        "affected": [
+          "GPT-5.6 Sol"
+        ],
+        "action": "Monitor API updates for wider availability.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -744,6 +1103,36 @@
       }
     },
     {
+      "title": "AWS Certificate Manager sets 2027 end date for email-validated certificate renewals",
+      "link": "https://www.helpnetsecurity.com/2026/08/14/aws-certificate-manager-email-validation/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-08-14T08:25:31.000Z",
+      "summary": "AWS Certificate Manager (ACM) will phase out email validation for public certificates throughout 2027, ahead of the Certification Authority/Browser (CA/B) Forum’s March 15, 2028 deadline for ending email-based domain val",
+      "categories": [
+        "Cloud"
+      ],
+      "tags": [
+        "AWS"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "AWS Certificate Manager is phasing out email validation for public certificates throughout 2027. This change precedes the Certification Authority/Browser Forum's March 2028 deadline for ending email-based domain validation.",
+        "whyItMatters": "Organizations relying on email validation for SSL/TLS certificates must transition to automated DNS validation before 2027 to prevent renewal disruptions.",
+        "affected": [
+          "AWS Certificate Manager"
+        ],
+        "action": "Transition certificate validation methods to DNS before 2027.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "14,000 Trezor Customers Impacted by Data Breach at ShipMonk",
       "link": "https://www.securityweek.com/14000-trezor-customers-impacted-by-data-breach-at-shipmonk/",
       "source": "SecurityWeek",
@@ -767,6 +1156,32 @@
         ],
         "action": "Be vigilant against phishing emails and suspicious communications referencing your Trezor purchases.",
         "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Ukrainian police raid 94 fraudulent call centers, seize $2 million",
+      "link": "https://www.helpnetsecurity.com/2026/08/14/ukraine-fraudulent-call-centers-shut-down/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-08-14T07:56:15.000Z",
+      "summary": "Ukrainian police have disrupted 94 fraudulent call centers during a nationwide operation that involved more than 400 searches and the seizure of thousands of computers, phones, and SIM cards. Ukrainian police raid at a f",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Ukrainian police disrupted 94 fraudulent call centers in a nationwide operation involving over 400 searches. Authorities seized thousands of computers, phones, and SIM cards along with $2 million in assets.",
+        "whyItMatters": "This operation dismantles a large-scale cybercriminal infrastructure responsible for financial scams.",
+        "affected": [],
+        "action": "Remain vigilant against unsolicited phone calls and financial fraud schemes.",
+        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
@@ -888,6 +1303,84 @@
       }
     },
     {
+      "title": "The hardest part of agentic AI may be rebuilding the business",
+      "link": "https://www.helpnetsecurity.com/2026/08/14/deloitte-agentic-ai-readiness-gap-report/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-08-14T05:30:21.000Z",
+      "summary": "Organizations expect AI agents to change how work gets done, driving productivity and growth while allowing employees to focus on higher-value tasks. Few, however, have the processes and workflows needed to realize those",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Organizations expect AI agents to transform work processes and drive productivity by allowing employees to focus on higher-value tasks. However, few businesses currently have the necessary workflows and processes in place to realize these benefits.",
+        "whyItMatters": "Without proper process restructuring, organizations will struggle to successfully integrate and capture the value of agentic AI.",
+        "affected": [],
+        "action": "Reevaluate business workflows and processes before deploying AI agents.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Weak IAM affects up to 98% of cloud environments",
+      "link": "https://www.helpnetsecurity.com/2026/08/14/intruder-cloud-misconfiguration-trends-report/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-08-14T05:00:16.000Z",
+      "summary": "Misconfiguration remains one of the leading threats to cloud environments because a single configuration error can result in public network access, unrotated keys, missing encryption, exposed services, and logging gaps. ",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Cloud environments face significant security risks primarily driven by widespread misconfigurations such as weak IAM settings. These errors can lead to critical vulnerabilities like public network access and exposed services.",
+        "whyItMatters": "Misconfigurations leave the vast majority of cloud environments vulnerable to unauthorized access and data exposure.",
+        "affected": [],
+        "action": "Audit and correct cloud IAM configurations immediately.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "17 draft Cyber Resilience Act standards are open for comment",
+      "link": "https://www.helpnetsecurity.com/2026/08/14/etsi-cyber-resilience-act-standards/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-08-14T04:30:18.000Z",
+      "summary": "A company selling a connected toy in Europe must show by the end of 2027 that the product meets the Cyber Resilience Act. The law states what manufacturers have to achieve and stops there, which leaves the toymaker to wo",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Seventeen draft standards for the European Cyber Resilience Act are currently open for public comment. These standards aim to help connected product manufacturers meet compliance requirements before the 2027 enforcement deadline.",
+        "whyItMatters": "It outlines the upcoming regulatory compliance framework that connected hardware and software manufacturers must follow to sell products in Europe.",
+        "affected": [],
+        "action": "Review the draft standards and submit feedback if applicable.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "注意喚起: MetabaseのSQLインジェクションの脆弱性（CVE-2026-72898）に関する注意喚起 (公開)",
       "link": "https://www.jpcert.or.jp/at/2026/at260023.html",
       "source": "JPCERT/CC",
@@ -917,6 +1410,32 @@
         "relatedCves": [
           "CVE-2026-72898"
         ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "New infosec products of the week: August 14, 2026",
+      "link": "https://www.helpnetsecurity.com/2026/08/14/new-infosec-products-of-the-week-august-14-2026/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-08-14T04:00:31.000Z",
+      "summary": "Here’s a look at the most interesting products from the past week, featuring releases from A10 Networks, ScienceLogic, Searchlight Cyber, and SelectHub. ScienceLogic delivers secure AI deployment and smarter IT operation",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "This article highlights new information security products released during the week of August 14, 2026. It features new security offerings and AI deployment solutions from vendors including A10 Networks, ScienceLogic, Searchlight Cyber, and SelectHub.",
+        "whyItMatters": "It keeps security professionals informed about newly available tools and technologies that could impact enterprise defense strategies.",
+        "affected": [],
+        "action": "Review the product releases to determine if any fit your organizational needs.",
+        "risk": "News",
+        "relatedCves": [],
         "source": "ai"
       }
     },
@@ -1822,282 +2341,6 @@
         "action": "Apply the latest vendor security patches immediately.",
         "risk": "Critical",
         "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-49162 Microsoft Brokering File System Elevation of Privilege Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-49162",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-13T14:00:00.000Z",
-      "summary": "Added acknowledgements. This is an informational change only.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-49162"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "Microsoft has published an informational update regarding CVE-2026-49162, a Brokering File System elevation of privilege vulnerability. The update solely consists of added acknowledgements without introducing technical fixes or new exploit details.",
-        "whyItMatters": "It is important for tracking administrative updates and researcher credits for known system vulnerabilities.",
-        "affected": [],
-        "action": "Review the advisory for informational purposes.",
-        "risk": "News",
-        "relatedCves": [
-          "CVE-2026-49162"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-49798 Windows Kernel Elevation of Privilege Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-49798",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-13T14:00:00.000Z",
-      "summary": "Acknowledgement Updated",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [
-        "CVE-2026-49798"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "A vulnerability identified as CVE-2026-49798 affects the Windows kernel and allows for elevation of privilege. The advisory content has been recently updated with acknowledgements.",
-        "whyItMatters": "Elevation of privilege vulnerabilities in the Windows kernel can allow attackers to gain system-level access and completely compromise the affected machine.",
-        "affected": [
-          "Microsoft Windows"
-        ],
-        "action": "Apply the latest security updates provided by Microsoft.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-49798"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-50342 Windows MIDI Service Module Elevation of Privileges Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50342",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-13T14:00:00.000Z",
-      "summary": "Acknowledgement Updated",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [
-        "CVE-2026-50342"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "A newly acknowledged security vulnerability designated as CVE-2026-50342 affects the Windows MIDI Service Module. This flaw could potentially allow threat actors to achieve elevation of privileges on targeted systems.",
-        "whyItMatters": "An attacker exploiting this vulnerability could gain elevated system access, potentially leading to a full compromise of the affected Windows host.",
-        "affected": [
-          "Windows MIDI Service Module"
-        ],
-        "action": "Apply the latest security updates from Microsoft as soon as they become available.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-50342"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-50298 Windows Spaceport.sys Elevation of Privilege Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50298",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-13T14:00:00.000Z",
-      "summary": "Acknowledgement Updated",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [
-        "CVE-2026-50298"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "A security advisory has been published regarding CVE-2026-50298, an elevation of privilege vulnerability affecting the Windows Spaceport.sys driver. The advisory notes that acknowledgement details have been recently updated.",
-        "whyItMatters": "This vulnerability could allow local attackers to escalate their privileges on vulnerable Windows systems.",
-        "affected": [
-          "Windows Spaceport.sys"
-        ],
-        "action": "Apply the latest security updates provided by Microsoft.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-50298"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-50309 Windows NTFS Remote Code Execution Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50309",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-13T14:00:00.000Z",
-      "summary": "Acknowledgement Updated",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [
-        "CVE-2026-50309"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "A Windows NTFS remote code execution vulnerability has been identified and tracked as CVE-2026-50309. Further details regarding the acknowledgement were recently updated.",
-        "whyItMatters": "Remote code execution flaws in core file systems like NTFS present severe security risks to underlying operating systems.",
-        "affected": [
-          "Microsoft Windows NTFS"
-        ],
-        "action": "Apply available security updates from Microsoft immediately.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-50309"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-50387 Windows GDI Elevation of Privilege Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50387",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-13T14:00:00.000Z",
-      "summary": "Acknowledgement Updated",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [
-        "CVE-2026-50387"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "A Microsoft Windows Graphics Device Interface vulnerability identified as CVE-2026-50387 allows for elevation of privilege. The advisory details an acknowledgement update for this security issue.",
-        "whyItMatters": "This vulnerability could allow an authenticated attacker to elevate their privileges on a vulnerable Windows system.",
-        "affected": [
-          "Microsoft Windows"
-        ],
-        "action": "Apply the latest security updates from Microsoft as soon as they become available.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-50387"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-50383 Windows Print Spooler Information Disclosure Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50383",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-13T14:00:00.000Z",
-      "summary": "Acknowledgement Updated",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [
-        "CVE-2026-50383"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "Microsoft has released an update acknowledging CVE-2026-50383, an information disclosure vulnerability in the Windows Print Spooler. Details regarding the nature of the vulnerability and specific remediation steps are currently limited.",
-        "whyItMatters": "Unpatched vulnerabilities in the Windows Print Spooler have historically been heavily targeted by attackers for local privilege escalation and information gathering.",
-        "affected": [
-          "Windows Print Spooler"
-        ],
-        "action": "Monitor vendor advisories and apply security patches as soon as they become available.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-50383"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-50461 Windows NTFS Remote Code Execution Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50461",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-13T14:00:00.000Z",
-      "summary": "Acknowledgement Updated",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [
-        "CVE-2026-50461"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "A vulnerability identified as CVE-2026-50461 affects the Windows NTFS file system, potentially allowing remote code execution. Microsoft has recently updated acknowledgements regarding this security flaw.",
-        "whyItMatters": "Remote code execution vulnerabilities in core file systems like Windows NTFS can allow attackers to compromise affected machines completely.",
-        "affected": [
-          "Windows NTFS"
-        ],
-        "action": "Apply the latest security updates from Microsoft as soon as they become available.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-50461"
-        ],
         "source": "ai"
       }
     },
@@ -3315,33 +3558,6 @@
           "Google Chrome VPN extensions (737 specific extensions)"
         ],
         "action": "Uninstall any untrusted free VPN or proxy extensions from Chrome immediately.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Ransomware Hits Colombian Justice Ministry Days Before Presidential Transition",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransomware-hits-colombian-justice-ministry-presidential-transition",
-      "source": "Dark Reading",
-      "publishedAt": "2026-08-12T14:00:00.000Z",
-      "summary": "Attackers continue to target critical infrastructure and government-linked organizations in the country, mirroring the increased activity across Latin America.",
-      "categories": [
-        "Ransomware",
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "high",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The Colombian Justice Ministry suffered a ransomware attack just days before a presidential transition. This incident highlights the ongoing threat of cyberattacks targeting critical infrastructure and government entities across Latin America.",
-        "whyItMatters": "It disrupts vital government operations during a sensitive political transition period, demonstrating the vulnerability of critical national infrastructure to ransomware.",
-        "affected": [],
-        "action": "Implement robust incident response plans and strengthen ransomware defenses for critical infrastructure.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -5548,257 +5764,6 @@
         "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
-      }
-    },
-    {
-      "title": "Cisco Advance Notification for Publication of August 5, 2026, Security Advisories",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-L4XfJg8S?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20August%205,%202026,%20Security%20Advisories%26vs_k=1",
-      "source": "Cisco PSIRT",
-      "publishedAt": "2026-08-05T16:01:06.000Z",
-      "summary": "On August 5, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the following advisories:\n\r\n\r\n\r\n\r\nCisco Security Advisory\r\nCVE ID\r\nSecurity Impact Rating\r\nCVSS Base Score\r\n\r\n\r\n\r\n\r\nCisco Catalyst SD",
-      "categories": [
-        "Incident Response",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Cisco"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Cisco has issued an advance notification for upcoming security advisories scheduled for publication on August 5, 2026. The advisory preview mentions potential vulnerabilities impacting Cisco Catalyst SD products.",
-        "whyItMatters": "Advance notifications help security teams prepare and plan for upcoming software patches and mitigation steps.",
-        "affected": [
-          "Cisco Catalyst SD"
-        ],
-        "action": "Monitor Cisco official channels for the full advisory release on August 5, 2026.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Cisco IOS XE Software Web-Based Management Interface Denial of Service Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-xe-webui-dos-PtAODAWW?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20IOS%20XE%20Software%20Web-Based%20Management%20Interface%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
-      "source": "Cisco PSIRT",
-      "publishedAt": "2026-08-05T16:00:00.000Z",
-      "summary": "A vulnerability in the web-based management interface of Cisco IOS XE Software could allow an authenticated, remote attacker with low privileges to cause a denial of service (DoS) condition on an affected device.\n\r\nThis ",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Cisco"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A vulnerability in Cisco IOS XE Software's web-based management interface allows authenticated, remote attackers with low privileges to trigger a denial of service condition. This flaw impacts the availability of affected network devices.",
-        "whyItMatters": "It allows low-privileged attackers to disrupt critical network infrastructure and cause device downtime.",
-        "affected": [
-          "Cisco IOS XE Software"
-        ],
-        "action": "Apply the vendor security updates and patches immediately.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Cisco Integrated Management Controller Cross-Site Scripting Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cimc-xss-7EhBFxBp?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Integrated%20Management%20Controller%20Cross-Site%20Scripting%20Vulnerability%26vs_k=1",
-      "source": "Cisco PSIRT",
-      "publishedAt": "2026-08-05T16:00:00.000Z",
-      "summary": "A vulnerability in the web-based management interface of Cisco Integrated Management Controller (IMC) could allow an authenticated, remote attacker to conduct a cross-site scripting (XSS) attack against a user of the int",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Cisco"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A cross-site scripting vulnerability exists in the web-based management interface of the Cisco Integrated Management Controller. An authenticated, remote attacker could exploit this flaw to execute arbitrary script code in the context of an affected user's browser session.",
-        "whyItMatters": "This vulnerability could allow malicious actors to compromise administrative sessions and potentially gain unauthorized control over affected management interfaces.",
-        "affected": [
-          "Cisco Integrated Management Controller"
-        ],
-        "action": "Apply the latest security updates provided by Cisco.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Python Software Foundation - Python 3.11.0a3 to 3.15.0b2",
-      "link": "https://bishopfox.com/blog/python-software-foundation-python-3-11-0a3-to-3-15-0b2",
-      "source": "Bishop Fox",
-      "publishedAt": "2026-08-05T13:00:00.000Z",
-      "summary": "Bishop Fox discovered a privilege escalation vulnerability in Python for Windows affecting versions 3.11.0a3 through 3.15.0b2. A low-privilege user can plant malicious files and wait for a privileged account to run the i",
-      "categories": [
-        "Vulnerability"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Bishop Fox discovered a privilege escalation vulnerability affecting Python for Windows versions 3.11.0a3 through 3.15.0b2. A low-privilege user can exploit this flaw by planting malicious files to be executed by a privileged account.",
-        "whyItMatters": "This vulnerability allows attackers with low-level access to escalate their privileges to a higher account level on Windows systems running vulnerable Python versions.",
-        "affected": [
-          "Python for Windows 3.11.0a3 through 3.15.0b2"
-        ],
-        "action": "Update Python to a patched version when available.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-18656 & CVE-2026-18657 - Issue with Kiro IDE and CLI - Executable Resolution from Untrusted Project Directory on Windows",
-      "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-074-aws/",
-      "source": "AWS Security Bulletins",
-      "publishedAt": "2026-08-04T19:43:11.000Z",
-      "summary": "Bulletin ID: 2026-074-AWS\n Scope: AWS\n Content Type: Important (requires attention)\n Publication Date: 08/04/2026 12:30 PM PDT\n \nDescription:\n \nKiro is an agentic IDE and command-line interface users install on their des",
-      "categories": [
-        "Vulnerability",
-        "Cloud"
-      ],
-      "tags": [
-        "Windows",
-        "AWS"
-      ],
-      "cves": [
-        "CVE-2026-18656",
-        "CVE-2026-18657"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "AWS has issued a security bulletin regarding Kiro IDE and CLI on Windows due to an executable resolution issue from untrusted project directories. This vulnerability, tracked as CVE-2026-18656 and CVE-2026-18657, affects users running the affected versions on Windows systems.",
-        "whyItMatters": "It allows attackers to execute arbitrary code by tricking the application into loading executables from untrusted project directories on Windows.",
-        "affected": [
-          "Kiro IDE",
-          "Kiro CLI"
-        ],
-        "action": "Review the AWS security bulletin and apply the recommended updates or mitigations.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-18656",
-          "CVE-2026-18657"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "The Frontier AI Vulnerability Burst: Industrializing Autonomous Zero-Day Discovery in Open-Source Software",
-      "link": "https://unit42.paloaltonetworks.com/frontier-ai-vulnerability-burst/",
-      "source": "Unit 42",
-      "publishedAt": "2026-08-04T13:00:11.000Z",
-      "summary": "Frontier AI is reshaping vulnerability discovery. Learn how our NOVA system found 14,000+ unknown vulnerabilities across the open-source software supply chain.\nThe post The Frontier AI Vulnerability Burst: Industrializin",
-      "categories": [
-        "Zero Day",
-        "Vulnerability",
-        "AI Security",
-        "Open Source"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A new frontier AI system called NOVA has industrialized the autonomous discovery of software vulnerabilities. The system successfully uncovered over 14,000 previously unknown security flaws across the open-source software supply chain.",
-        "whyItMatters": "The automated, large-scale discovery of thousands of zero-day vulnerabilities by AI highlights a dramatic shift in cyber threat capabilities that could outpace traditional patching efforts.",
-        "affected": [],
-        "action": "Monitor open-source dependencies and apply security updates promptly as automated patches and advisories become available.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Almost Half of Malware Samples Communicate Direct to IP",
-      "link": "https://unit42.paloaltonetworks.com/malware-bypass-dns-direct-to-ip/",
-      "source": "Unit 42",
-      "publishedAt": "2026-08-04T12:50:53.000Z",
-      "summary": "Nearly half of C2 malware bypasses DNS by connecting directly to IP addresses. Zero trust IP enforcement secures networks against these threats.\nThe post Almost Half of Malware Samples Communicate Direct to IP appeared f",
-      "categories": [
-        "Malware"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A recent analysis reveals that nearly half of command and control malware bypasses traditional DNS resolution by connecting directly to IP addresses. Implementing zero trust IP enforcement is highlighted as an effective network security measure against these direct connection threats.",
-        "whyItMatters": "Attackers bypassing DNS infrastructure can evade standard security monitoring and domain-based blocking mechanisms, making direct-to-IP traffic harder to detect.",
-        "affected": [],
-        "action": "Implement zero trust IP enforcement to secure networks against direct-to-IP threats.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "How legitimate cloud platforms enable phishers to bypass MFA",
-      "link": "https://securelist.com/cloud-platforms-in-phishing/120832/",
-      "source": "Kaspersky Securelist",
-      "publishedAt": "2026-08-04T12:00:12.000Z",
-      "summary": "We cover a cloud-based AitM attack scenario leveraging service workers and Ultraviolet, and provide detailed phishing hosting statistics across platforms like Cloudflare Workers, Vercel, Netlify, GitHub Pages, and IPFS.",
-      "categories": [
-        "Open Source"
-      ],
-      "tags": [
-        "GitHub"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Threat actors are increasingly utilizing legitimate cloud platforms and service workers to execute adversary-in-the-middle phishing attacks capable of bypassing multi-factor authentication. Researchers have compiled extensive hosting statistics highlighting the abuse of popular services such as Cloudflare Workers, Vercel, Netlify, GitHub Pages, and IPFS for malicious campaigns.",
-        "whyItMatters": "This technique allows attackers to bypass multi-factor authentication while blending malicious traffic with legitimate cloud infrastructure, making detection significantly more difficult.",
-        "affected": [
-          "Cloudflare Workers",
-          "Vercel",
-          "Netlify",
-          "GitHub Pages",
-          "IPFS"
-        ],
-        "action": "Monitor cloud platform hosting usage and implement phishing-resistant authentication methods.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
       }
     }
   ]
