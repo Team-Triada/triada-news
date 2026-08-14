@@ -1,6 +1,68 @@
 {
-  "updatedAt": "2026-08-14T08:37:10.054Z",
+  "updatedAt": "2026-08-14T10:16:58.323Z",
   "items": [
+    {
+      "title": "Over 1,000 Charities Hit by Beacon CRM Data Breach",
+      "link": "https://www.securityweek.com/over-1000-charities-hit-by-beacon-crm-data-breach/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-08-14T09:20:28.000Z",
+      "summary": "The root cause of the incident is believed to be a compromised AWS access key that was exposed in publicly available JavaScript build artifacts.\nThe post Over 1,000 Charities Hit by Beacon CRM Data Breach appeared first ",
+      "categories": [
+        "Incident Response",
+        "Cloud"
+      ],
+      "tags": [
+        "AWS"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Over 1,000 charities have been impacted by a data breach affecting Beacon CRM. The incident was reportedly caused by a compromised AWS access key that was exposed within publicly available JavaScript build artifacts.",
+        "whyItMatters": "Exposed cloud credentials can allow unauthorized access to sensitive databases and charity donor information.",
+        "affected": [
+          "Beacon CRM"
+        ],
+        "action": "Verify cloud credential security and rotate exposed AWS access keys.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "APT group HoneyMyte upgrades CoolClient: the backdoor gets a kernel-level Windows rootkit",
+      "link": "https://securelist.com/honeymyte-coolclient-driver-rootkit/121028/",
+      "source": "Kaspersky Securelist",
+      "publishedAt": "2026-08-14T09:00:14.000Z",
+      "summary": "Our experts discovered a new CoolClient backdoor variant with a kernel-mode rootkit driver that hides malicious processes, files, and network connections from security tools and threat analysts.",
+      "categories": [
+        "Malware",
+        "Threat Intel"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The APT group HoneyMyte has upgraded its CoolClient backdoor with a new kernel-mode rootkit driver. This stealthy tool is designed to conceal malicious processes, files, and network connections from security tools and analysts.",
+        "whyItMatters": "This kernel-level rootkit significantly enhances the malware's stealth capabilities, allowing threat actors to maintain persistent and undetected access to compromised Windows systems.",
+        "affected": [
+          "CoolClient backdoor"
+        ],
+        "action": "Deploy advanced endpoint detection mechanisms capable of monitoring kernel-level activity.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Data analyst sent to prison for stealing data, extorting employer",
       "link": "https://www.bleepingcomputer.com/news/security/data-analyst-sent-to-prison-for-stealing-data-extorting-employer/",
@@ -365,32 +427,6 @@
       }
     },
     {
-      "title": "New Zealand says China tried using space investments to spy on local affairs",
-      "link": "https://www.theregister.com/security/2026/08/14/new-zealand-says-china-tried-using-space-investments-to-spy-on-local-affairs/5287657",
-      "source": "The Register",
-      "publishedAt": "2026-08-14T03:23:34.000Z",
-      "summary": "Intelligence Service says finding domestic threats is harder due to proliferation of toxic content online",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "New Zealand's intelligence service reported that China attempted to use space investments as a cover for espionage activities in local affairs. Additionally, the agency noted that identifying domestic security threats has become increasingly difficult due to the proliferation of toxic content online.",
-        "whyItMatters": "This highlights ongoing foreign interference risks and the evolving challenges intelligence agencies face in monitoring domestic threats amidst online disinformation.",
-        "affected": [],
-        "action": "Monitor intelligence updates regarding foreign investments and domestic security.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "ISC Stormcast For Friday, August 14th, 2026 (Fri, Aug 14th)",
       "link": "https://isc.sans.edu/diary/rss/33246",
       "source": "SANS ISC",
@@ -441,34 +477,6 @@
           "Apple iPhone"
         ],
         "action": "Enable Lockdown Mode and follow Apple's security recommendations if you receive a threat notification.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "OpenAI ditches Recall-style screenshot surveillance for friendly keylogging",
-      "link": "https://www.theregister.com/ai-and-ml/2026/08/14/openai-ditches-recall-style-screenshot-surveillance-for-friendly-keylogging/5287618",
-      "source": "The Register",
-      "publishedAt": "2026-08-14T00:27:53.000Z",
-      "summary": "'Computer History' records clicks and typing to build ChatGPT memories",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "OpenAI has introduced a new feature called Computer History that records user clicks and typing to build ChatGPT memories. This capability replaces earlier concerns regarding screenshot surveillance with direct keylogging functionality.",
-        "whyItMatters": "Continuous logging of keystrokes and mouse clicks poses significant privacy risks regarding the collection and potential exposure of sensitive user data.",
-        "affected": [
-          "ChatGPT"
-        ],
-        "action": "Disable the Computer History feature if privacy of keystrokes and clicks is a concern.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -1229,32 +1237,6 @@
       }
     },
     {
-      "title": "Trump wants to grant private cyber firms a license to hack back",
-      "link": "https://www.theregister.com/security/2026/08/13/trump-wants-to-grant-private-cyber-firms-a-license-to-hack-back/5287420",
-      "source": "The Register",
-      "publishedAt": "2026-08-13T15:04:09.000Z",
-      "summary": "Contractors could surveil and disrupt foreign criminal networks, provided they follow strict rules and put up $1M",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "President Trump is considering a policy that would grant private cybersecurity contractors a license to hack back against foreign criminal networks. Under the proposed framework, these firms would be permitted to surveil and disrupt threats provided they adhere to strict rules and post a one million dollar bond.",
-        "whyItMatters": "This initiative represents a significant privatization of state-level offensive cyber operations, raising complex legal, ethical, and geopolitical questions about accountability in cyberspace.",
-        "affected": [],
-        "action": "Monitor developments regarding private sector offensive cyber policies.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Google Cloud Targets 2027 for First Major Post-Quantum Security Milestone",
       "link": "https://www.infosecurity-magazine.com/news/google-cloud-post-quantum-roadmap/",
       "source": "Infosecurity Magazine",
@@ -1275,35 +1257,6 @@
         "whyItMatters": "This milestone addresses the future threat of quantum computers decrypting sensitive data that is intercepted and stored today.",
         "affected": [],
         "action": "Monitor Google Cloud post-quantum updates and plan for future cryptographic migration.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "The backup Microsoft never promised you",
-      "link": "https://www.theregister.com/security/2026/08/13/sponsored-the-backup-microsoft-never-promised-you/5284957",
-      "source": "The Register",
-      "publishedAt": "2026-08-13T15:00:00.000Z",
-      "summary": "SPONSORED FEATURE: Your M365 and Azure data might not be as safe as you think from ransomware; time for a reality check",
-      "categories": [
-        "Ransomware",
-        "Cloud"
-      ],
-      "tags": [
-        "Azure"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "high",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "This sponsored feature highlights potential vulnerabilities of Microsoft 365 and Azure data against ransomware attacks. It serves as a reality check for organizations assuming native cloud backups are fully sufficient.",
-        "whyItMatters": "Organizations may suffer catastrophic data loss if they mistakenly assume Microsoft fully handles ransomware backup and recovery for their M365 and Azure environments.",
-        "affected": [],
-        "action": "Implement a third-party backup solution for M365 and Azure data.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -1358,6 +1311,33 @@
         "whyItMatters": "This policy significantly expands the government's offensive cyber capabilities by outsourcing state-backed hacking operations to the private sector.",
         "affected": [],
         "action": "Monitor developments regarding private sector offensive cyber operations.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Black Hat USA 2026: Will vulnerability discovery eventually decline in the AI era?",
+      "link": "https://www.welivesecurity.com/en/business-security/black-hat-usa-2026-vulnerability-discovery-decline-ai-era/",
+      "source": "WeLiveSecurity",
+      "publishedAt": "2026-08-13T14:30:00.000Z",
+      "summary": "And will today’s surge in AI-driven vulnerability discovery eventually make tomorrow’s software safer?",
+      "categories": [
+        "Vulnerability",
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "This article discusses the potential impact of AI-driven vulnerability discovery on future software security. It questions whether the current surge in automated findings will ultimately lead to a decline in overall vulnerabilities.",
+        "whyItMatters": "It raises strategic questions about how artificial intelligence will shape the future of software security and vulnerability management.",
+        "affected": [],
+        "action": "Monitor industry trends regarding AI-driven vulnerability research.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -2233,35 +2213,6 @@
       }
     },
     {
-      "title": "AWS key exposed in JavaScript may have lit way to Beacon's charity data",
-      "link": "https://www.theregister.com/security/2026/08/13/aws-key-exposed-in-javascript-may-have-lit-way-to-beacons-charity-data/5287303",
-      "source": "The Register",
-      "publishedAt": "2026-08-13T11:34:00.000Z",
-      "summary": "CRM provider confirms customer database was copied and probably downloaded in readable form",
-      "categories": [
-        "Incident Response",
-        "Cloud"
-      ],
-      "tags": [
-        "AWS"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CRM provider Beacon confirmed that an AWS key exposed in JavaScript potentially allowed unauthorized access to customer charity data. The exposed database was copied and likely downloaded in a readable form.",
-        "whyItMatters": "Exposed cloud credentials can lead to severe data breaches involving sensitive customer and charity information.",
-        "affected": [],
-        "action": "Rotate any exposed AWS keys and audit access logs.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Separating AI’s Technological Problems from Its Capitalism Problems",
       "link": "https://www.schneier.com/blog/archives/2026/08/separating-ais-technological-problems-from-its-capitalism-problems.html",
       "source": "Schneier on Security",
@@ -2283,38 +2234,6 @@
         "affected": [],
         "action": "Read the full essay on Tech Policy Press for further context.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Fortinet Patches Authentication Flaws in FortiWeb and FortiManager",
-      "link": "https://www.securityweek.com/fortinet-patches-authentication-flaws-in-fortiweb-and-fortimanager/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-08-13T10:40:57.000Z",
-      "summary": "The vulnerabilities could allow attackers to log in with random usernames and passwords or impersonate any FortiGate appliance.\nThe post Fortinet Patches Authentication Flaws in FortiWeb and FortiManager appeared first o",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Fortinet"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Fortinet has released security patches to address critical authentication flaws affecting FortiWeb and FortiManager products. These vulnerabilities could allow attackers to bypass login controls using random credentials or impersonate FortiGate appliances.",
-        "whyItMatters": "Unauthenticated access and device impersonation could allow threat actors to gain unauthorized administrative control over critical network management infrastructure.",
-        "affected": [
-          "FortiWeb",
-          "FortiManager"
-        ],
-        "action": "Apply the latest security patches provided by Fortinet immediately.",
-        "risk": "Critical",
         "relatedCves": [],
         "source": "ai"
       }
@@ -2426,6 +2345,32 @@
       }
     },
     {
+      "title": "Black Hat USA 2026: What the Hugging Face hack tells us about human responsibility",
+      "link": "https://www.welivesecurity.com/en/business-security/black-hat-usa-2026-hugging-face-hack-human-responsibility/",
+      "source": "WeLiveSecurity",
+      "publishedAt": "2026-08-13T09:00:00.000Z",
+      "summary": "The incident involving OpenAI models shows that autonomous hacks make human oversight more important, not less",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "An incident involving OpenAI models and a Hugging Face hack highlights the growing prevalence of autonomous cyberattacks. The event underscores that increased automation in hacking makes human oversight and responsibility more critical than ever.",
+        "whyItMatters": "It demonstrates that as autonomous hacking techniques advance, human vigilance remains essential for robust cybersecurity defense.",
+        "affected": [],
+        "action": "Maintain active human oversight of AI and automated systems.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "ICO Reprimands Criminal Records Office After 2023 Breach",
       "link": "https://www.infosecurity-magazine.com/news/ico-reprimands-acro-records-office/",
       "source": "Infosecurity Magazine",
@@ -2509,32 +2454,6 @@
       }
     },
     {
-      "title": "Passwords stored in public Google Doc then showed up in search results",
-      "link": "https://www.theregister.com/security/2026/08/13/passwords-stored-in-public-google-doc-then-showed-up-in-search-results/5287028",
-      "source": "The Register",
-      "publishedAt": "2026-08-13T07:00:00.000Z",
-      "summary": "Developer spotted hostname and credential string lurking in autocomplete",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A developer discovered that a public Google Document containing plain-text passwords and hostnames was indexed by search engines. The sensitive credentials subsequently appeared in search autocomplete suggestions.",
-        "whyItMatters": "Exposing production credentials in a publicly accessible document allows unauthorized third parties to compromise systems and data.",
-        "affected": [],
-        "action": "Revoke and rotate any credentials exposed in the public document immediately.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Attackers Exploit SharePoint Authentication Bypass After Public PoC Release",
       "link": "https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html",
       "source": "The Hacker News",
@@ -2564,34 +2483,6 @@
         "relatedCves": [
           "CVE-2026-55040"
         ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Chinese Loongson processors have leaky caches, researchers find",
-      "link": "https://www.theregister.com/security/2026/08/13/chinese-loongson-processors-have-leaky-caches-researchers-find/5287137",
-      "source": "The Register",
-      "publishedAt": "2026-08-13T02:14:11.000Z",
-      "summary": "Attackers could extract data, even working from inside a guest VM",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "Researchers have discovered cache leakage vulnerabilities in Chinese Loongson processors. The flaw allows attackers to extract sensitive data, even when operating from within a guest virtual machine.",
-        "whyItMatters": "This vulnerability compromises the isolation between virtual machines and the host hardware, posing a severe data theft risk in multi-tenant environments.",
-        "affected": [
-          "Loongson processors"
-        ],
-        "action": "Apply available security patches from Loongson.",
-        "risk": "High",
-        "relatedCves": [],
         "source": "ai"
       }
     },
@@ -2813,32 +2704,6 @@
         "whyItMatters": "Users who fall for discounted AI service scams risk exposing their sensitive data and credentials to malicious actors.",
         "affected": [],
         "action": "Avoid using unauthorized third-party redirect services for AI platforms.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "'Near-autonomous' AI agents attack Taiwan's nuclear safety agency",
-      "link": "https://www.theregister.com/security/2026/08/12/near-autonomous-ai-agents-attack-taiwans-nuclear-safety-agency/5287055",
-      "source": "The Register",
-      "publishedAt": "2026-08-12T21:45:16.000Z",
-      "summary": "Some say the world will end in fire, some say an agentic swarm",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Near-autonomous AI agents carried out a cyber attack against Taiwan's nuclear safety agency. The incident highlights the growing threat of agentic swarms conducting automated cyber operations.",
-        "whyItMatters": "It demonstrates the dangerous evolution of cyber attacks using near-autonomous AI agents against critical infrastructure.",
-        "affected": [],
-        "action": "Monitor critical infrastructure networks for anomalous AI-driven traffic.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -5801,6 +5666,161 @@
         "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
+      }
+    },
+    {
+      "title": "CVE-2026-18656 & CVE-2026-18657 - Issue with Kiro IDE and CLI - Executable Resolution from Untrusted Project Directory on Windows",
+      "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-074-aws/",
+      "source": "AWS Security Bulletins",
+      "publishedAt": "2026-08-04T19:43:11.000Z",
+      "summary": "Bulletin ID: 2026-074-AWS\n Scope: AWS\n Content Type: Important (requires attention)\n Publication Date: 08/04/2026 12:30 PM PDT\n \nDescription:\n \nKiro is an agentic IDE and command-line interface users install on their des",
+      "categories": [
+        "Vulnerability",
+        "Cloud"
+      ],
+      "tags": [
+        "Windows",
+        "AWS"
+      ],
+      "cves": [
+        "CVE-2026-18656",
+        "CVE-2026-18657"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "AWS has issued a security bulletin regarding Kiro IDE and CLI on Windows due to an executable resolution issue from untrusted project directories. The vulnerabilities, tracked as CVE-2026-18656 and CVE-2026-18657, pose potential security risks for users of the affected tools.",
+        "whyItMatters": "It matters because attackers could exploit this behavior to execute arbitrary code within the context of the user running the Kiro IDE or CLI from an untrusted directory.",
+        "affected": [
+          "Kiro IDE",
+          "Kiro CLI"
+        ],
+        "action": "Review the AWS security bulletin and update the affected software promptly.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-18656",
+          "CVE-2026-18657"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "The Frontier AI Vulnerability Burst: Industrializing Autonomous Zero-Day Discovery in Open-Source Software",
+      "link": "https://unit42.paloaltonetworks.com/frontier-ai-vulnerability-burst/",
+      "source": "Unit 42",
+      "publishedAt": "2026-08-04T13:00:11.000Z",
+      "summary": "Frontier AI is reshaping vulnerability discovery. Learn how our NOVA system found 14,000+ unknown vulnerabilities across the open-source software supply chain.\nThe post The Frontier AI Vulnerability Burst: Industrializin",
+      "categories": [
+        "Zero Day",
+        "Vulnerability",
+        "AI Security",
+        "Open Source"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A new AI system called NOVA has industrialized autonomous zero-day discovery in open-source software. The system successfully identified over 14,000 unknown vulnerabilities across the open-source software supply chain.",
+        "whyItMatters": "It demonstrates how frontier artificial intelligence can be used to discover massive numbers of unknown vulnerabilities at an unprecedented scale.",
+        "affected": [],
+        "action": "Monitor open-source dependencies for newly disclosed AI-discovered vulnerabilities.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Almost Half of Malware Samples Communicate Direct to IP",
+      "link": "https://unit42.paloaltonetworks.com/malware-bypass-dns-direct-to-ip/",
+      "source": "Unit 42",
+      "publishedAt": "2026-08-04T12:50:53.000Z",
+      "summary": "Nearly half of C2 malware bypasses DNS by connecting directly to IP addresses. Zero trust IP enforcement secures networks against these threats.\nThe post Almost Half of Malware Samples Communicate Direct to IP appeared f",
+      "categories": [
+        "Malware"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Nearly half of all Command and Control malware bypasses traditional DNS resolution by communicating directly with hardcoded IP addresses. This technique allows malicious software to evade standard network monitoring and security controls that rely on domain name analysis.",
+        "whyItMatters": "Bypassing DNS makes it harder for traditional security tools to detect and block malicious communications, exposing networks to undetected threats.",
+        "affected": [],
+        "action": "Implement zero trust IP enforcement to secure networks against direct-to-IP malware communications.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "How legitimate cloud platforms enable phishers to bypass MFA",
+      "link": "https://securelist.com/cloud-platforms-in-phishing/120832/",
+      "source": "Kaspersky Securelist",
+      "publishedAt": "2026-08-04T12:00:12.000Z",
+      "summary": "We cover a cloud-based AitM attack scenario leveraging service workers and Ultraviolet, and provide detailed phishing hosting statistics across platforms like Cloudflare Workers, Vercel, Netlify, GitHub Pages, and IPFS.",
+      "categories": [
+        "Open Source"
+      ],
+      "tags": [
+        "GitHub"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Threat actors are increasingly utilizing legitimate cloud platforms and tools like service workers and Ultraviolet to deploy advanced Adversary-in-the-Middle phishing attacks capable of bypassing multi-factor authentication. Researchers have compiled extensive hosting statistics revealing the abuse of popular services such as Cloudflare Workers, Vercel, Netlify, GitHub Pages, and IPFS for these malicious campaigns.",
+        "whyItMatters": "This technique allows attackers to host highly effective phishing campaigns on trusted infrastructure, making malicious sites difficult to detect and capable of bypassing standard multi-factor authentication defenses.",
+        "affected": [
+          "Cloudflare Workers",
+          "Vercel",
+          "Netlify",
+          "GitHub Pages",
+          "IPFS"
+        ],
+        "action": "Implement phishing-resistant MFA and monitor cloud hosting platforms for unauthorized or suspicious deployments.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "NCSC statement in response to recent incidents resulting from frontier AI evaluations",
+      "link": "https://www.ncsc.gov.uk/news/ncsc-statement-in-response-to-recent-incidents-resulting-from-frontier-ai-evaluations",
+      "source": "NCSC UK",
+      "publishedAt": "2026-08-04T12:00:00.000Z",
+      "summary": "A statement from Ollie Whitehouse, Chief Technology Officer at the NCSC, on AI security following recent incidents.",
+      "categories": [
+        "AI Security",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The UK's NCSC issued a statement regarding recent security incidents stemming from frontier AI evaluations. CTO Ollie Whitehouse addressed the emerging risks associated with advanced artificial intelligence testing.",
+        "whyItMatters": "It highlights growing national security concerns and safety risks surrounding the evaluation of advanced frontier AI models.",
+        "affected": [],
+        "action": "Review organizational protocols for safe frontier AI evaluations.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
       }
     }
   ]
