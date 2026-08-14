@@ -1,6 +1,32 @@
 {
-  "updatedAt": "2026-08-14T19:12:30.580Z",
+  "updatedAt": "2026-08-14T19:54:59.525Z",
   "items": [
+    {
+      "title": "Mission-Driven Security: Inside a Global Bank's Defense",
+      "link": "https://www.darkreading.com/cybersecurity-operations/mission-driven-security-inside-global-bank-defense",
+      "source": "Dark Reading",
+      "publishedAt": "2026-08-14T19:24:18.000Z",
+      "summary": "In this video interview, Standard Chartered's group CISO shares insights on transitioning from technical roles to strategic leadership, the importance of business-savvy security executives, and how AI is reshaping both d",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Standard Chartered's group CISO discusses the transition from technical roles to strategic leadership in a video interview. The conversation highlights the growing importance of business-savvy security executives and how artificial intelligence is reshaping defense strategies.",
+        "whyItMatters": "It offers leadership perspectives on how evolving technologies like AI and strategic business alignment impact modern enterprise cybersecurity.",
+        "affected": [],
+        "action": "Watch the video interview for insights on CISO leadership and AI in cybersecurity.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Hackers arrested over €30M bank fraud exploiting service provider flaw",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-arrested-over-30m-bank-fraud-exploiting-service-provider-flaw/",
@@ -1658,6 +1684,66 @@
       }
     },
     {
+      "title": "DSA-6442-1 util-linux - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00353.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-08-14T00:00:00.000Z",
+      "summary": "Several vulnerabilities were discovered in util-linux which could result\nin privilege escalation.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6442-1",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Several vulnerabilities have been discovered in the util-linux package that may allow attackers to achieve privilege escalation. Debian has released a security update to address these issues in the affected software.",
+        "whyItMatters": "Unpatched privilege escalation vulnerabilities allow local attackers to gain unauthorized administrative access to compromised systems.",
+        "affected": [
+          "util-linux"
+        ],
+        "action": "Apply the latest security update from your vendor.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6441-1 python-httplib2 - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00352.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-08-14T00:00:00.000Z",
+      "summary": "A flaw was discovered in python-httplib2, a comprehensive Python HTTP\nclient library. Unbounded decompression of HTTP response bodies encoded\nwith gzip or deflate Content-Encoding could result in denial of service.\n\n\nhtt",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A security vulnerability was discovered in python-httplib2, a Python HTTP client library. The flaw involves unbounded decompression of gzip or deflate encoded HTTP response bodies, which could lead to a denial of service.",
+        "whyItMatters": "Attackers could exploit this flaw to cause application crashes or resource exhaustion through malicious HTTP responses.",
+        "affected": [
+          "python-httplib2"
+        ],
+        "action": "Update python-httplib2 to the latest patched version.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "DSA-6440-1 unzip - security update",
       "link": "https://lists.debian.org/debian-security-announce/2026/msg00351.html",
       "source": "Debian Security",
@@ -3265,35 +3351,6 @@
       }
     },
     {
-      "title": "Long-running Data Theft Campaign Targeting Salesforce, ServiceNow",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/long-running-data-theft-campaign-salesforce-servicenow",
-      "source": "Dark Reading",
-      "publishedAt": "2026-08-12T21:08:54.000Z",
-      "summary": "The \"City-Forum\" campaign has been active since at least March 2025 and has targeted organizations across multiple sectors with custom tooling.",
-      "categories": [
-        "Threat Intel"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A long-running data theft campaign named City-Forum has been active since March 2025, targeting organizations across multiple sectors. The threat actors utilize custom tooling specifically designed to compromise Salesforce and ServiceNow environments.",
-        "whyItMatters": "This campaign poses a severe risk to enterprise cloud platforms by directly targeting sensitive data stored within widely used CRM and IT service management systems.",
-        "affected": [
-          "Salesforce",
-          "ServiceNow"
-        ],
-        "action": "Audit access controls and monitor Salesforce and ServiceNow environments for unauthorized data exfiltration.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Retirement: Containerized data connector agent for the Microsoft Sentinel solution for SAP applications",
       "link": "https://azure.microsoft.com/updates?id=568457",
       "source": "Azure Updates",
@@ -4229,65 +4286,6 @@
           "SPIP"
         ],
         "action": "Update SPIP to the latest patched version provided by your distributor.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6434-1 lemonldap-ng - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00344.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-08-12T00:00:00.000Z",
-      "summary": "It was discovered that the Lemonldap::NG web SSO system insufficiently\nenforced access when using the GitHub/Linkedin authentication backends.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6434-1",
-      "categories": [
-        "Vendor Advisory",
-        "Open Source"
-      ],
-      "tags": [
-        "GitHub"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A security vulnerability was discovered in the Lemonldap::NG web SSO system. The flaw involves insufficient enforcement of access controls when utilizing GitHub or LinkedIn authentication backends.",
-        "whyItMatters": "Attackers could bypass authentication restrictions and gain unauthorized access if organizations rely on the affected GitHub or LinkedIn login backends.",
-        "affected": [
-          "Lemonldap::NG"
-        ],
-        "action": "Update Lemonldap::NG to the latest patched version provided by your vendor.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6433-1 xdg-dbus-proxy - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00346.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-08-12T00:00:00.000Z",
-      "summary": "It was discovered that incorrect validation of broadcast policy rules in\nxdg-dbus-proxy (a filtering proxy for D-Bus connections) allowed a\nmalicious Flatpak application to monitor signals on the D-Bus session\nbus.\n\n\nhtt",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A security vulnerability was discovered in xdg-dbus-proxy due to incorrect validation of broadcast policy rules. This flaw allowed a malicious Flatpak application to monitor signals on the D-Bus session bus.",
-        "whyItMatters": "It compromises user privacy and application security by enabling unauthorized monitoring of sensitive D-Bus communication.",
-        "affected": [
-          "xdg-dbus-proxy"
-        ],
-        "action": "Update the xdg-dbus-proxy package to the latest security release.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
