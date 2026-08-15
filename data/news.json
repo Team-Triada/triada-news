@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T20:36:27.634Z",
+  "updatedAt": "2026-08-15T21:34:25.302Z",
   "items": [
     {
       "title": "New Evooo1Bot Linux botnet turns routers into traffic relay nodes",
@@ -4044,247 +4044,6 @@
       }
     },
     {
-      "title": "Broken access control in the RADIUS type admin group",
-      "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-158",
-      "source": "Fortinet PSIRT",
-      "publishedAt": "2026-08-12T07:00:00.000Z",
-      "summary": "CVSSv3 Score:\n \n 8.8\n\n\n An Improper Authentication vulnerability  [CWE-287] in the FortiWeb Remote Radius Type Admin Authentication configured with specific, non-default settings may allow a remote unauthenticated attack",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "An improper authentication vulnerability exists in FortiWeb when Remote RADIUS Type Admin Authentication is configured with specific non-default settings. This broken access control flaw may allow remote unauthenticated attackers to compromise the system.",
-        "whyItMatters": "It allows remote unauthenticated attackers to bypass authentication and potentially gain unauthorized administrative access under specific non-default configurations.",
-        "affected": [
-          "FortiWeb Remote RADIUS Type Admin Authentication"
-        ],
-        "action": "Review and update FortiWeb configurations or apply vendor-supplied patches.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Content-Encoding WAF Evasion",
-      "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-157",
-      "source": "Fortinet PSIRT",
-      "publishedAt": "2026-08-12T07:00:00.000Z",
-      "summary": "CVSSv3 Score:\n \n 4.8\n\n\n An incomplete list of disallowed inputs [CWE-184] in FortiWeb WAF may allow an unauthenticated attacker to bypass policies via specifically crafted requests.\n\n\n \n  Revised on 2026-08-12 00:00:00",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "An incomplete list of disallowed inputs in the FortiWeb Web Application Firewall allows unauthenticated attackers to bypass security policies. This evasion technique relies on specifically crafted requests targeting the WAF's handling of content encoding.",
-        "whyItMatters": "Attackers can exploit this vulnerability to bypass WAF defenses and deliver malicious payloads to protected web applications.",
-        "affected": [
-          "FortiWeb WAF"
-        ],
-        "action": "Apply the latest security patches provided by Fortinet.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "FGFM Authentication Weakening via CLI Configuration",
-      "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-160",
-      "source": "Fortinet PSIRT",
-      "publishedAt": "2026-08-12T07:00:00.000Z",
-      "summary": "CVSSv3 Score:\n \n 7.3\n\n\n An Authentication Bypass Using an Alternate Path or Channel [CWE-288] vulnerability in FortiManager and FortiManager Cloud may allow a remote unauthenticated attacker to impersonate any FortiGate ",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A vulnerability in FortiManager and FortiManager Cloud allows remote unauthenticated attackers to impersonate FortiGate devices. The issue stems from an authentication bypass using an alternate path or channel via CLI configuration.",
-        "whyItMatters": "This flaw could allow malicious actors to spoof legitimate network devices and compromise enterprise security perimeters.",
-        "affected": [
-          "FortiManager",
-          "FortiManager Cloud"
-        ],
-        "action": "Check vendor advisories and apply the recommended patches or configuration workarounds.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "HTTP/2 Bomb CVE-2026-49975",
-      "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-163",
-      "source": "Fortinet PSIRT",
-      "publishedAt": "2026-08-12T07:00:00.000Z",
-      "summary": "CVSSv3 Score:\n \n 5.8\n\n\n CVE-2026-49975Memory Allocation with Excessive Size Value vulnerability in Apache HTTP Server's mod_http leads to denial of service via malicious HTTP requests. This issue affects Apache HTTP Serv",
-      "categories": [
-        "Vulnerability",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Apache"
-      ],
-      "cves": [
-        "CVE-2026-49975"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CVSSv3 Score:\n \n 5.8\n\n\n CVE-2026-49975Memory Allocation with Excessive Size Value vulnerability in Apache HTTP Server's mod_http leads to denial of service via malicious HTTP requests. This issue affects Apache HTTP Serv",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Apache"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [
-          "CVE-2026-49975"
-        ],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Heap overflow in kernel driver due to missing size validation",
-      "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-156",
-      "source": "Fortinet PSIRT",
-      "publishedAt": "2026-08-12T07:00:00.000Z",
-      "summary": "CVSSv3 Score:\n \n 7.3\n\n\n A buffer copy without checking size of input vulnerability [CWE-120] in FortiClient Windows may allow an unauthenticated attacker in a position to alter or craft DNS responses to the targeted host",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CVSSv3 Score:\n \n 7.3\n\n\n A buffer copy without checking size of input vulnerability [CWE-120] in FortiClient Windows may allow an unauthenticated attacker in a position to alter or craft DNS responses to the targeted host",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Windows"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Server-Side Request Forgery (SSRF)",
-      "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-159",
-      "source": "Fortinet PSIRT",
-      "publishedAt": "2026-08-12T07:00:00.000Z",
-      "summary": "CVSSv3 Score:\n \n 3.4\n\n\n A Server-Side request forgery (SSRF) [CWE-918] vulnerability in FortiSIEM GUI may allow an authenticated attacker to send HTTP requests originating from the targeted device via specially crafted H",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CVSSv3 Score:\n \n 3.4\n\n\n A Server-Side request forgery (SSRF) [CWE-918] vulnerability in FortiSIEM GUI may allow an authenticated attacker to send HTTP requests originating from the targeted device via specially crafted H",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Stack buffer overflow in WAD",
-      "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-161",
-      "source": "Fortinet PSIRT",
-      "publishedAt": "2026-08-12T07:00:00.000Z",
-      "summary": "CVSSv3 Score:\n \n 5.1\n\n\n A Stack-based Buffer Overflow vulnerability [CWE-121] in FortiOS explicit proxy may allow an unauthenticated attacker who can bypass stack protection and ASLR to execute arbitrary code or commands",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CVSSv3 Score:\n \n 5.1\n\n\n A Stack-based Buffer Overflow vulnerability [CWE-121] in FortiOS explicit proxy may allow an unauthenticated attacker who can bypass stack protection and ASLR to execute arbitrary code or commands",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "UI DoS attack",
-      "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-162",
-      "source": "Fortinet PSIRT",
-      "publishedAt": "2026-08-12T07:00:00.000Z",
-      "summary": "CVSSv3 Score:\n \n 5.0\n\n\n An Allocation of Resources Without Limits or Throttling vulnerability [CWE-770] in FortiOS may allow an unauthenticated attacker to perform a slow HTTP DoS attack on the web interface via crafted ",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CVSSv3 Score:\n \n 5.0\n\n\n An Allocation of Resources Without Limits or Throttling vulnerability [CWE-770] in FortiOS may allow an unauthenticated attacker to perform a slow HTTP DoS attack on the web interface via crafted",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "注意喚起: 2026年8月マイクロソフトセキュリティ更新プログラムに関する注意喚起 (公開)",
       "link": "https://www.jpcert.or.jp/at/2026/at260022.html",
       "source": "JPCERT/CC",
@@ -5780,6 +5539,250 @@
         "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
+      }
+    },
+    {
+      "title": "Smashing Security podcast #479: How a fake police officer nearly stole Graham’s cryptocurrency",
+      "link": "https://grahamcluley.com/smashing-security-podcast-479-how-a-fake-police-officer-nearly-stole-grahams-cryptocurrency/",
+      "source": "Graham Cluley",
+      "publishedAt": "2026-08-05T23:10:20.000Z",
+      "summary": "Graham gets a phone call from the police. Well, someone who sounds convincingly like the police.  There's just one small problem: what they really want is the 24-word seed key to Graham's cryptocurrency wallet.\r\n\r\nMeanwh",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Podcaster Graham received a convincing scam phone call from someone impersonating a police officer. The fraudulent caller attempted to trick him into revealing the 24-word seed key to his cryptocurrency wallet.",
+        "whyItMatters": "This incident highlights how sophisticated social engineering tactics and impersonation can be used to target cryptocurrency holdings.",
+        "affected": [],
+        "action": "Never share your cryptocurrency wallet seed key with anyone.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Can AI do novel security research? Meet the HTTP Terminator",
+      "link": "https://portswigger.net/research/can-ai-do-novel-security-research",
+      "source": "PortSwigger Research",
+      "publishedAt": "2026-08-05T19:30:00.000Z",
+      "summary": "Abstract We all know AI can find bugs. After a decade of research, I asked a harder question: can an autonomous system invent new attack techniques, and use them to hack live websites at scale? Buildi",
+      "categories": [
+        "AI Security",
+        "Research"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Researchers are exploring whether autonomous artificial intelligence systems can invent novel attack techniques to hack live websites at scale. This experiment investigates the capability of AI to move beyond finding existing bugs and perform truly novel security research.",
+        "whyItMatters": "It determines whether AI can autonomously discover and weaponize unprecedented cybersecurity vulnerabilities, fundamentally changing the threat landscape.",
+        "affected": [],
+        "action": "Monitor developments in AI-driven security research to anticipate future automated attack vectors.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Cisco Advance Notification for Publication of August 5, 2026, Security Advisories",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-L4XfJg8S?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20August%205,%202026,%20Security%20Advisories%26vs_k=1",
+      "source": "Cisco PSIRT",
+      "publishedAt": "2026-08-05T16:01:06.000Z",
+      "summary": "On August 5, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the following advisories:\n\r\n\r\n\r\n\r\nCisco Security Advisory\r\nCVE ID\r\nSecurity Impact Rating\r\nCVSS Base Score\r\n\r\n\r\n\r\n\r\nCisco Catalyst SD",
+      "categories": [
+        "Incident Response",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Cisco"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Cisco has issued an advance notification regarding security advisories scheduled for publication on August 5, 2026. The advisory mentions a security impact rating and CVSS base score for Cisco Catalyst SD.",
+        "whyItMatters": "Advance notifications help administrators prepare for upcoming patches and mitigate potential vulnerabilities before exploitation occurs.",
+        "affected": [
+          "Cisco Catalyst SD"
+        ],
+        "action": "Monitor the Cisco PSIRT portal for the full advisory release on August 5, 2026.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Cisco IOS XE Software Web-Based Management Interface Denial of Service Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-xe-webui-dos-PtAODAWW?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20IOS%20XE%20Software%20Web-Based%20Management%20Interface%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
+      "source": "Cisco PSIRT",
+      "publishedAt": "2026-08-05T16:00:00.000Z",
+      "summary": "A vulnerability in the web-based management interface of Cisco IOS XE Software could allow an authenticated, remote attacker with low privileges to cause a denial of service (DoS) condition on an affected device.\n\r\nThis ",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Cisco"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A vulnerability in the web-based management interface of Cisco IOS XE Software allows authenticated, remote attackers with low privileges to trigger a denial of service condition. Exploitation of this flaw causes the affected device to crash and reload, disrupting network operations.",
+        "whyItMatters": "It allows low-privileged attackers to disrupt critical network infrastructure by crashing affected Cisco devices.",
+        "affected": [
+          "Cisco IOS XE Software"
+        ],
+        "action": "Apply the official security patches provided by Cisco.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Cisco Integrated Management Controller Cross-Site Scripting Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cimc-xss-7EhBFxBp?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Integrated%20Management%20Controller%20Cross-Site%20Scripting%20Vulnerability%26vs_k=1",
+      "source": "Cisco PSIRT",
+      "publishedAt": "2026-08-05T16:00:00.000Z",
+      "summary": "A vulnerability in the web-based management interface of Cisco Integrated Management Controller (IMC) could allow an authenticated, remote attacker to conduct a cross-site scripting (XSS) attack against a user of the int",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Cisco"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A cross-site scripting vulnerability exists in the web-based management interface of the Cisco Integrated Management Controller. This flaw allows an authenticated, remote attacker to execute malicious scripts against users of the affected system.",
+        "whyItMatters": "An attacker could exploit this vulnerability to execute arbitrary script code in the context of an affected user's browser session, potentially leading to unauthorized actions or data theft.",
+        "affected": [
+          "Cisco Integrated Management Controller"
+        ],
+        "action": "Apply the relevant software updates provided by Cisco to remediate the vulnerability.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Python Software Foundation - Python 3.11.0a3 to 3.15.0b2",
+      "link": "https://bishopfox.com/blog/python-software-foundation-python-3-11-0a3-to-3-15-0b2",
+      "source": "Bishop Fox",
+      "publishedAt": "2026-08-05T13:00:00.000Z",
+      "summary": "Bishop Fox discovered a privilege escalation vulnerability in Python for Windows affecting versions 3.11.0a3 through 3.15.0b2. A low-privilege user can plant malicious files and wait for a privileged account to run the i",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Bishop Fox discovered a privilege escalation vulnerability affecting Python for Windows versions 3.11.0a3 through 3.15.0b2. The flaw allows a low-privilege user to plant malicious files that can be executed by a privileged account.",
+        "whyItMatters": "This vulnerability allows local attackers to escalate their privileges to a higher level on affected Windows systems.",
+        "affected": [
+          "Python for Windows 3.11.0a3 to 3.15.0b2"
+        ],
+        "action": "Update Python to a patched version once available.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-18656 & CVE-2026-18657 - Issue with Kiro IDE and CLI - Executable Resolution from Untrusted Project Directory on Windows",
+      "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-074-aws/",
+      "source": "AWS Security Bulletins",
+      "publishedAt": "2026-08-04T19:43:11.000Z",
+      "summary": "Bulletin ID: 2026-074-AWS\n Scope: AWS\n Content Type: Important (requires attention)\n Publication Date: 08/04/2026 12:30 PM PDT\n \nDescription:\n \nKiro is an agentic IDE and command-line interface users install on their des",
+      "categories": [
+        "Vulnerability",
+        "Cloud"
+      ],
+      "tags": [
+        "Windows",
+        "AWS"
+      ],
+      "cves": [
+        "CVE-2026-18656",
+        "CVE-2026-18657"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "AWS has issued a security bulletin regarding Kiro IDE and CLI on Windows due to an executable resolution issue from untrusted project directories. This vulnerability, tracked as CVE-2026-18656 and CVE-2026-18657, could allow malicious execution if triggered within an untrusted directory.",
+        "whyItMatters": "It allows attackers to potentially execute arbitrary code on a victim's machine by exploiting how the application resolves executables within untrusted project directories.",
+        "affected": [
+          "Kiro IDE",
+          "Kiro CLI"
+        ],
+        "action": "Review the AWS security bulletin and apply the recommended updates or mitigations.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-18656",
+          "CVE-2026-18657"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "The Frontier AI Vulnerability Burst: Industrializing Autonomous Zero-Day Discovery in Open-Source Software",
+      "link": "https://unit42.paloaltonetworks.com/frontier-ai-vulnerability-burst/",
+      "source": "Unit 42",
+      "publishedAt": "2026-08-04T13:00:11.000Z",
+      "summary": "Frontier AI is reshaping vulnerability discovery. Learn how our NOVA system found 14,000+ unknown vulnerabilities across the open-source software supply chain.\nThe post The Frontier AI Vulnerability Burst: Industrializin",
+      "categories": [
+        "Zero Day",
+        "Vulnerability",
+        "AI Security",
+        "Open Source"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Researchers introduced a frontier AI system named NOVA to automate vulnerability discovery across the open-source software supply chain. The system successfully identified over 14,000 previously unknown security flaws.",
+        "whyItMatters": "This development highlights how advanced artificial intelligence can be used to industrialize zero-day discovery at an unprecedented scale.",
+        "affected": [],
+        "action": "Monitor open-source dependencies for newly disclosed vulnerabilities.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
       }
     }
   ]
