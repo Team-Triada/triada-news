@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T08:46:18.936Z",
+  "updatedAt": "2026-08-16T09:39:57.423Z",
   "items": [
     {
       "title": "Week in review: Salesforce and ServiceNow portals exposed for 17 months, exploited Metabase 0-day",
@@ -2017,174 +2017,6 @@
       }
     },
     {
-      "title": "USN-8631-3: Linux kernel (NVIDIA Tegra IGX) vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8631-3",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-13T21:47:34.000Z",
-      "summary": "Siebe Devroe, Héloïse Gollier, and Mathy Vanhoef discovered that the WiFi\nimplementation in the Linux kernel did not properly handle aggregated\nframes in mesh networks, due to an incorrect fix for CVE-2020-24588. A\nphysi",
-      "categories": [
-        "Vulnerability",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [
-        "CVE-2020-24588"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Researchers discovered that the WiFi implementation in the Linux kernel for NVIDIA Tegra IGX improperly handles aggregated frames in mesh networks due to an incorrect fix for a previous vulnerability. This flaw could potentially allow unauthorized network access or disruption.",
-        "whyItMatters": "It leaves systems using the affected Linux kernel vulnerable to network-based attacks that exploit improperly handled mesh network frames.",
-        "affected": [
-          "Linux kernel (NVIDIA Tegra IGX)"
-        ],
-        "action": "Update the Linux kernel to the latest patched version provided by the vendor.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2020-24588"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8633-2: Linux kernel vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8633-2",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-13T21:44:52.000Z",
-      "summary": "Siebe Devroe, Héloïse Gollier, and Mathy Vanhoef discovered that the WiFi\nimplementation in the Linux kernel did not properly handle aggregated\nframes in mesh networks, due to an incorrect fix for CVE-2020-24588. A\nphysi",
-      "categories": [
-        "Vulnerability",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [
-        "CVE-2020-24588"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Researchers discovered that the Linux kernel's WiFi implementation improperly handles aggregated frames in mesh networks due to an incomplete fix for CVE-2020-24588. This vulnerability could potentially be exploited by attackers within physical proximity.",
-        "whyItMatters": "It leaves Linux-based systems utilizing mesh networks vulnerable to network-based attacks stemming from flawed historical patches.",
-        "affected": [
-          "Linux kernel"
-        ],
-        "action": "Update the Linux kernel to the latest patched version provided by your distributor.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2020-24588"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8529-2: Linux kernel vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8529-2",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-13T21:20:11.000Z",
-      "summary": "It was discovered that a logic flaw existed in the XFRM ESP-in-TCP\nsubsystem in the Linux kernel when handling socket buffer fragments. This\nflaw is known as Fragnesia. A local attacker could use this to escalate\nprivile",
-      "categories": [
-        "Vulnerability",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A logic flaw known as Fragnesia has been discovered in the Linux kernel's XFRM ESP-in-TCP subsystem when handling socket buffer fragments. This vulnerability could potentially allow a local attacker to escalate their privileges.",
-        "whyItMatters": "It matters because local attackers could exploit this kernel flaw to gain elevated privileges on vulnerable systems.",
-        "affected": [
-          "Linux kernel"
-        ],
-        "action": "Update the Linux kernel to the latest patched version.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8548-2: Linux kernel vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8548-2",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-13T21:12:03.000Z",
-      "summary": "It was discovered that a logic flaw existed in the XFRM ESP-in-TCP\nsubsystem in the Linux kernel when handling socket buffer fragments. This\nflaw is known as Fragnesia. A local attacker could use this to escalate\nprivile",
-      "categories": [
-        "Vulnerability",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A logic flaw known as Fragnesia has been discovered in the XFRM ESP-in-TCP subsystem of the Linux kernel during the handling of socket buffer fragments. This vulnerability could be exploited by a local attacker to achieve privilege escalation.",
-        "whyItMatters": "It matters because a local attacker could exploit this kernel flaw to escalate their privileges and potentially compromise the entire system.",
-        "affected": [
-          "Linux kernel"
-        ],
-        "action": "Update the Linux kernel to the latest patched version.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8530-2: Linux kernel (HWE) vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8530-2",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-13T21:10:27.000Z",
-      "summary": "It was discovered that the Linux kernel did not properly handle shared page\nfragments during socket buffer operations, collectively known as Dirty\nFrag. A logic flaw existed in the XFRM ESP-in-TCP subsystem and in the\nRx",
-      "categories": [
-        "Vulnerability",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Canonical has released a Linux kernel security update addressing vulnerabilities related to shared page fragment handling during socket buffer operations, known as Dirty Frag. The update also fixes a logic flaw in the XFRM ESP-in-TCP subsystem.",
-        "whyItMatters": "Unpatched Linux kernel vulnerabilities can allow local attackers to compromise system security or cause denial of service.",
-        "affected": [
-          "Linux kernel"
-        ],
-        "action": "Update the Linux kernel to the latest version provided by your distributor.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Global Threat Campaign Hits Critical VMware vCenter Flaw",
       "link": "https://www.darkreading.com/vulnerabilities-threats/global-threat-campaign-critical-vmware-vcenter-flaw",
       "source": "Dark Reading",
@@ -2218,35 +2050,6 @@
       }
     },
     {
-      "title": "USN-8638-1: Axios vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8638-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-13T19:31:14.000Z",
-      "summary": "Ameer Assadi discovered that Axios did not properly handle certain\nhostnames when applying NO_PROXY rules. An attacker could possibly use\nthis issue to bypass proxy restrictions and access internal services,\nresulting in",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Ameer Assadi discovered that Axios improperly handled specific hostnames when applying NO_PROXY rules. This flaw could allow an attacker to bypass proxy restrictions and access internal services.",
-        "whyItMatters": "It allows attackers to bypass proxy restrictions and gain unauthorized access to internal services.",
-        "affected": [
-          "Axios"
-        ],
-        "action": "Update Axios to the patched version.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Curiouser and Curiouser",
       "link": "https://blog.talosintelligence.com/curiouser-and-curiouser/",
       "source": "Talos Intelligence",
@@ -2269,76 +2072,6 @@
         "action": "Read the newsletter for further insights.",
         "risk": "News",
         "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8637-1: Linux kernel (OEM) vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8637-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-13T17:59:27.000Z",
-      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - x86 architecture;\n  - InfiniBand dri",
-      "categories": [
-        "Vulnerability",
-        "Incident Response",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Canonical has released a security update for the Linux kernel (OEM) to address multiple vulnerabilities. These flaws could potentially allow an attacker to compromise the affected system.",
-        "whyItMatters": "Unpatched kernel vulnerabilities can allow local or remote attackers to fully compromise the affected operating system and its underlying hardware.",
-        "affected": [
-          "Linux kernel (OEM)"
-        ],
-        "action": "Update the Linux kernel to the latest version provided by your distribution.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8631-2: Linux kernel (Oracle) vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8631-2",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-13T17:54:26.000Z",
-      "summary": "Siebe Devroe, Héloïse Gollier, and Mathy Vanhoef discovered that the WiFi\nimplementation in the Linux kernel did not properly handle aggregated\nframes in mesh networks, due to an incorrect fix for CVE-2020-24588. A\nphysi",
-      "categories": [
-        "Vulnerability",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux",
-        "Oracle"
-      ],
-      "cves": [
-        "CVE-2020-24588"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Researchers discovered a vulnerability in the Linux kernel's WiFi implementation regarding aggregated frames in mesh networks. This issue stems from an incorrect fix for a previous vulnerability, CVE-2020-24588.",
-        "whyItMatters": "This flaw could potentially allow attackers to exploit mesh network communications if left unpatched.",
-        "affected": [
-          "Linux kernel"
-        ],
-        "action": "Update the Linux kernel to the latest patched version.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2020-24588"
-        ],
         "source": "ai"
       }
     },
@@ -5787,6 +5520,250 @@
         "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
+      }
+    },
+    {
+      "title": "Smashing Security podcast #479: How a fake police officer nearly stole Graham’s cryptocurrency",
+      "link": "https://grahamcluley.com/smashing-security-podcast-479-how-a-fake-police-officer-nearly-stole-grahams-cryptocurrency/",
+      "source": "Graham Cluley",
+      "publishedAt": "2026-08-05T23:10:20.000Z",
+      "summary": "Graham gets a phone call from the police. Well, someone who sounds convincingly like the police.  There's just one small problem: what they really want is the 24-word seed key to Graham's cryptocurrency wallet.\r\n\r\nMeanwh",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Podcaster Graham received a convincing scam phone call from someone impersonating a police officer. The fraudulent caller attempted to trick him into revealing the 24-word seed key to his cryptocurrency wallet.",
+        "whyItMatters": "This incident highlights how sophisticated social engineering tactics and impersonation can be used to target and steal digital assets from individuals.",
+        "affected": [],
+        "action": "Never share your cryptocurrency wallet seed phrase with anyone.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Can AI do novel security research? Meet the HTTP Terminator",
+      "link": "https://portswigger.net/research/can-ai-do-novel-security-research",
+      "source": "PortSwigger Research",
+      "publishedAt": "2026-08-05T19:30:00.000Z",
+      "summary": "Abstract We all know AI can find bugs. After a decade of research, I asked a harder question: can an autonomous system invent new attack techniques, and use them to hack live websites at scale? Buildi",
+      "categories": [
+        "AI Security",
+        "Research"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Researchers are exploring whether autonomous AI systems can invent entirely novel attack techniques and execute them against live websites at scale. This experiment pushes the boundaries of artificial intelligence beyond simply finding known bugs into the realm of conducting original security research.",
+        "whyItMatters": "If AI can autonomously invent and execute new attack techniques at scale, the threat landscape will shift dramatically toward automated, highly sophisticated cyber attacks.",
+        "affected": [],
+        "action": "Monitor ongoing research into autonomous AI attack capabilities.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Cisco Advance Notification for Publication of August 5, 2026, Security Advisories",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-L4XfJg8S?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20August%205,%202026,%20Security%20Advisories%26vs_k=1",
+      "source": "Cisco PSIRT",
+      "publishedAt": "2026-08-05T16:01:06.000Z",
+      "summary": "On August 5, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the following advisories:\n\r\n\r\n\r\n\r\nCisco Security Advisory\r\nCVE ID\r\nSecurity Impact Rating\r\nCVSS Base Score\r\n\r\n\r\n\r\n\r\nCisco Catalyst SD",
+      "categories": [
+        "Incident Response",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Cisco"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Cisco has issued an advance notification regarding security advisories scheduled for publication on August 5, 2026. The preliminary details mention impact on Cisco Catalyst SD, though full vulnerability specifics are pending.",
+        "whyItMatters": "Advance notifications help organizations prepare for upcoming patches and mitigate potential security risks before exploit details become public.",
+        "affected": [
+          "Cisco Catalyst SD"
+        ],
+        "action": "Monitor Cisco's security portal for the full advisory release and subsequent patches.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Cisco IOS XE Software Web-Based Management Interface Denial of Service Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-xe-webui-dos-PtAODAWW?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20IOS%20XE%20Software%20Web-Based%20Management%20Interface%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
+      "source": "Cisco PSIRT",
+      "publishedAt": "2026-08-05T16:00:00.000Z",
+      "summary": "A vulnerability in the web-based management interface of Cisco IOS XE Software could allow an authenticated, remote attacker with low privileges to cause a denial of service (DoS) condition on an affected device.\n\r\nThis ",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Cisco"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A vulnerability in the web-based management interface of Cisco IOS XE Software could allow an authenticated remote attacker with low privileges to cause a denial of service condition. This security flaw impacts vulnerable devices running the affected software.",
+        "whyItMatters": "It enables low-privileged attackers to disrupt critical network device availability.",
+        "affected": [
+          "Cisco IOS XE Software"
+        ],
+        "action": "Apply the appropriate software patches provided by Cisco.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Cisco Integrated Management Controller Cross-Site Scripting Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cimc-xss-7EhBFxBp?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Integrated%20Management%20Controller%20Cross-Site%20Scripting%20Vulnerability%26vs_k=1",
+      "source": "Cisco PSIRT",
+      "publishedAt": "2026-08-05T16:00:00.000Z",
+      "summary": "A vulnerability in the web-based management interface of Cisco Integrated Management Controller (IMC) could allow an authenticated, remote attacker to conduct a cross-site scripting (XSS) attack against a user of the int",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Cisco"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A cross-site scripting vulnerability exists in the web-based management interface of the Cisco Integrated Management Controller. An authenticated, remote attacker could exploit this flaw to conduct XSS attacks against other users.",
+        "whyItMatters": "It allows attackers to execute malicious scripts in the context of an affected user's session, potentially compromising administrative control.",
+        "affected": [
+          "Cisco Integrated Management Controller"
+        ],
+        "action": "Apply the vendor security updates immediately.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Python Software Foundation - Python 3.11.0a3 to 3.15.0b2",
+      "link": "https://bishopfox.com/blog/python-software-foundation-python-3-11-0a3-to-3-15-0b2",
+      "source": "Bishop Fox",
+      "publishedAt": "2026-08-05T13:00:00.000Z",
+      "summary": "Bishop Fox discovered a privilege escalation vulnerability in Python for Windows affecting versions 3.11.0a3 through 3.15.0b2. A low-privilege user can plant malicious files and wait for a privileged account to run the i",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Bishop Fox discovered a privilege escalation vulnerability in Python for Windows affecting versions 3.11.0a3 through 3.15.0b2. A low-privilege local user can exploit this flaw by planting malicious files for a privileged account to execute.",
+        "whyItMatters": "This vulnerability allows local low-privilege users to escalate their privileges to a higher level on affected Windows systems.",
+        "affected": [
+          "Python 3.11.0a3 through 3.15.0b2"
+        ],
+        "action": "Update Python to a patched version once available.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-18656 & CVE-2026-18657 - Issue with Kiro IDE and CLI - Executable Resolution from Untrusted Project Directory on Windows",
+      "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-074-aws/",
+      "source": "AWS Security Bulletins",
+      "publishedAt": "2026-08-04T19:43:11.000Z",
+      "summary": "Bulletin ID: 2026-074-AWS\n Scope: AWS\n Content Type: Important (requires attention)\n Publication Date: 08/04/2026 12:30 PM PDT\n \nDescription:\n \nKiro is an agentic IDE and command-line interface users install on their des",
+      "categories": [
+        "Vulnerability",
+        "Cloud"
+      ],
+      "tags": [
+        "Windows",
+        "AWS"
+      ],
+      "cves": [
+        "CVE-2026-18656",
+        "CVE-2026-18657"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "AWS has issued a security bulletin regarding Kiro IDE and CLI on Windows due to an executable resolution issue from untrusted project directories. The vulnerabilities are tracked as CVE-2026-18656 and CVE-2026-18657.",
+        "whyItMatters": "An attacker could potentially exploit these resolution flaws to execute arbitrary code within the context of the user running the Kiro IDE or CLI on Windows.",
+        "affected": [
+          "Kiro IDE",
+          "Kiro CLI"
+        ],
+        "action": "Apply the latest security updates provided by AWS.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-18656",
+          "CVE-2026-18657"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "The Frontier AI Vulnerability Burst: Industrializing Autonomous Zero-Day Discovery in Open-Source Software",
+      "link": "https://unit42.paloaltonetworks.com/frontier-ai-vulnerability-burst/",
+      "source": "Unit 42",
+      "publishedAt": "2026-08-04T13:00:11.000Z",
+      "summary": "Frontier AI is reshaping vulnerability discovery. Learn how our NOVA system found 14,000+ unknown vulnerabilities across the open-source software supply chain.\nThe post The Frontier AI Vulnerability Burst: Industrializin",
+      "categories": [
+        "Zero Day",
+        "Vulnerability",
+        "AI Security",
+        "Open Source"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Researchers introduced NOVA, a frontier AI system that autonomously discovered over 14,000 unknown vulnerabilities in the open-source software supply chain. This demonstrates a significant shift toward industrializing zero-day discovery using artificial intelligence.",
+        "whyItMatters": "It highlights the capability of advanced AI to autonomously scale the discovery of zero-day vulnerabilities at an unprecedented rate, threatening open-source security.",
+        "affected": [],
+        "action": "Audit critical open-source dependencies for unknown vulnerabilities.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
       }
     }
   ]
