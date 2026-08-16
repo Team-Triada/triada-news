@@ -1,6 +1,34 @@
 {
-  "updatedAt": "2026-08-16T16:39:52.308Z",
+  "updatedAt": "2026-08-16T17:34:01.673Z",
   "items": [
+    {
+      "title": "Large-scale DDoS attacks disrupted Threema secure messaging service",
+      "link": "https://www.bleepingcomputer.com/news/security/large-scale-ddos-attacks-disrupted-threema-secure-messaging-service/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-08-16T17:29:52.000Z",
+      "summary": "Multiple distributed denial-of-service (DDoS) attacks targeted the Threema secure messaging service earlier this week, causing severe disruptions to communications. [...]",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple distributed denial-of-service attacks recently targeted the Threema secure messaging service. These attacks caused severe disruptions to communications for users of the platform.",
+        "whyItMatters": "It highlights the vulnerability of secure communication platforms to availability disruptions from DDoS attacks.",
+        "affected": [
+          "Threema"
+        ],
+        "action": "Monitor Threema status updates for service restoration details.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "New AmnesiaStealer macOS malware hijacks browser sessions via remote control",
       "link": "https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control/",
@@ -65,6 +93,74 @@
       }
     },
     {
+      "title": "CVE-2026-65767 Microsoft Teams for Android Spoofing Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-65767",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-16T14:00:00.000Z",
+      "summary": "Corrected build number for the security update.  This in an informational change only.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Android"
+      ],
+      "cves": [
+        "CVE-2026-65767"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft has released an informational security update regarding CVE-2026-65767, correcting the build number for the Microsoft Teams for Android spoofing vulnerability. This change is strictly informational and does not introduce new technical mitigations.",
+        "whyItMatters": "Accurate build numbers are essential for administrators verifying that their mobile devices have successfully applied the necessary security fixes.",
+        "affected": [
+          "Microsoft Teams for Android"
+        ],
+        "action": "Verify the correct build number for Microsoft Teams on Android devices.",
+        "risk": "Medium",
+        "relatedCves": [
+          "CVE-2026-65767"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-65768 Microsoft Teams Remote Code Execution Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-65768",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-16T14:00:00.000Z",
+      "summary": "Corrected build number for the security update.  This in an informational change only.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-65768"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft has released an informational update regarding the build number for CVE-2026-65768, a remote code execution vulnerability affecting Microsoft Teams. This correction is strictly for informational purposes to ensure accurate tracking of the security update.",
+        "whyItMatters": "Accurate build numbers are essential for administrators to verify that their systems are properly patched against remote code execution threats.",
+        "affected": [
+          "Microsoft Teams"
+        ],
+        "action": "Verify the correct build number for your Microsoft Teams deployment.",
+        "risk": "Medium",
+        "relatedCves": [
+          "CVE-2026-65768"
+        ],
+        "source": "ai"
+      }
+    },
+    {
       "title": "Supply Chain Security Analysis of a 9.5M-Install VS Code Extension",
       "link": "https://projectdiscovery.io/blog/a-9-5m-install-vs-code-extension-one-markdown-file-and-a-supply-chain-foothold",
       "source": "ProjectDiscovery",
@@ -85,32 +181,6 @@
         "whyItMatters": "Compromised code editor extensions can grant attackers direct access to sensitive developer credentials and proprietary source code.",
         "affected": [],
         "action": "Audit installed code editor extensions and monitor their permissions.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Stopping a cyberattack while walking your dog - defensive AI security CEO says it's not ruff to do",
-      "link": "https://www.theregister.com/security/2026/08/16/stopping-a-cyberattack-while-walking-your-dog-defensive-ai-security-ceo-says-its-not-ruff-to-do/5288126",
-      "source": "The Register",
-      "publishedAt": "2026-08-16T10:06:00.000Z",
-      "summary": "Corma CEO tells The Reg it's building 'One ring to rule them all, for the defenders to have this power'",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The CEO of defensive AI security firm Corma stated that their platform enables defenders to stop cyberattacks remotely, even while walking a dog. The company is developing a centralized tool intended to give security teams ultimate control against threats.",
-        "whyItMatters": "It highlights the growing industry trend of utilizing artificial intelligence and mobile-accessible platforms to streamline incident response for security teams.",
-        "affected": [],
-        "action": "Monitor Corma's product developments for potential deployment in your security operations.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -206,35 +276,6 @@
         "whyItMatters": "This botnet expands malicious infrastructure by weaponizing standard gateway devices for covert traffic relaying.",
         "affected": [],
         "action": "Ensure all internet-facing routers and gateways are updated with the latest firmware and secure default credentials.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "ChainDrop worm crawls into npm supply chain, evades standard defenses",
-      "link": "https://www.theregister.com/security/2026/08/15/chaindrop-worm-crawls-into-npm-supply-chain-evades-standard-defenses/5287958",
-      "source": "The Register",
-      "publishedAt": "2026-08-15T10:31:00.000Z",
-      "summary": "Shai-Hulud variant poisons 444 packages, spreads via tarballs and dev-tool hooks",
-      "categories": [
-        "Malware",
-        "Open Source"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A new worm named ChainDrop, a Shai-Hulud variant, has infected 444 npm packages within the software supply chain. The malware spreads effectively through tarballs and development-tool hooks while evading standard security defenses.",
-        "whyItMatters": "This supply chain compromise poses a widespread security risk to developers and systems utilizing the poisoned npm packages.",
-        "affected": [
-          "npm packages"
-        ],
-        "action": "Audit npm packages for signs of the ChainDrop worm.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -474,34 +515,6 @@
       }
     },
     {
-      "title": "1.6M RingCentral accounts' data dumped after ShinyHunters extortion attack",
-      "link": "https://www.theregister.com/cyber-crime/2026/08/14/16m-ringcentral-accounts-data-dumped-after-shinyhunters-extortion-attack/5288003",
-      "source": "The Register",
-      "publishedAt": "2026-08-14T17:34:57.000Z",
-      "summary": "Another one bites the dust",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "Data from 1.6 million RingCentral accounts was dumped following an extortion attack by the ShinyHunters threat group. The incident highlights ongoing data security risks associated with third-party breaches and extortion tactics.",
-        "whyItMatters": "Exposed account data can be leveraged by malicious actors for credential stuffing, phishing attacks, and further unauthorized access.",
-        "affected": [
-          "RingCentral accounts"
-        ],
-        "action": "Review account security and reset passwords immediately.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Amid AI-Driven Bug-Hunt Tsunami, NIST Looks to … AI",
       "link": "https://www.darkreading.com/vulnerabilities-threats/ai-driven-bug-tsunami-nist-looks-to-ai",
       "source": "Dark Reading",
@@ -633,32 +646,6 @@
         "whyItMatters": "This incident exposes sensitive data from multiple organizations to the public, increasing the risk of extortion, data misuse, and further cyber attacks against the affected entities.",
         "affected": [],
         "action": "Monitor networks for unauthorized data exfiltration and review threat intelligence regarding ExfilSquad.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "French tax authority admits data heist after crook touts 2M records",
-      "link": "https://www.theregister.com/security/2026/08/14/french-tax-authority-admits-data-heist-after-crook-touts-2m-records/5287885",
-      "source": "The Register",
-      "publishedAt": "2026-08-14T14:27:00.000Z",
-      "summary": "Government disputes claims of continued access as investigators measure damage",
-      "categories": [
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The French tax authority has acknowledged a data breach following a criminal's claim of possessing two million records. Government officials are currently disputing allegations that the unauthorized access is ongoing while investigators assess the full extent of the damage.",
-        "whyItMatters": "This incident exposes millions of sensitive citizen records to potential theft and exploitation, undermining trust in government cybersecurity.",
-        "affected": [],
-        "action": "Investigate internal systems for unauthorized access and monitor affected citizen data.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -890,72 +877,6 @@
       }
     },
     {
-      "title": "CVE-2026-65671 Remote Access API Elevation of Privilege Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-65671",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-14T14:00:00.000Z",
-      "summary": "Acknowledgement Updated",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-65671"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "A vulnerability designated as CVE-2026-65671 involves a remote access API elevation of privilege issue. The affected vendor or product details have not been fully disclosed in the provided text.",
-        "whyItMatters": "Elevation of privilege vulnerabilities can allow unauthorized attackers to gain higher-level permissions on targeted systems.",
-        "affected": [],
-        "action": "Monitor vendor advisories for updates and patches regarding CVE-2026-65671.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-65671"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-68821 Windows Package Manager Elevation of Privilege Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68821",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-14T14:00:00.000Z",
-      "summary": "Acknowledgement Updated",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [
-        "CVE-2026-68821"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "A security vulnerability has been identified as CVE-2026-68821, affecting the Windows Package Manager. The issue involves an elevation of privilege flaw, though specific exploitation details remain scarce.",
-        "whyItMatters": "An elevation of privilege vulnerability allows attackers with limited access to execute code with higher privileges, potentially compromising the entire system.",
-        "affected": [
-          "Windows Package Manager"
-        ],
-        "action": "Apply the latest security updates from Microsoft.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-68821"
-        ],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Max severity SAP Commerce Cloud flaw now targeted in attacks",
       "link": "https://www.bleepingcomputer.com/news/security/max-severity-sap-commerce-cloud-flaw-now-targeted-in-attacks/",
       "source": "BleepingComputer",
@@ -1008,32 +929,6 @@
         "affected": [],
         "action": "Monitor accounts for suspicious activity and await official guidance from French tax authorities.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Autonomous AI attacks pose 'clear and present danger' to critical infrastructure",
-      "link": "https://www.theregister.com/security/2026/08/14/autonomous-ai-attacks-pose-clear-and-present-danger-to-critical-infrastructure/5287594",
-      "source": "The Register",
-      "publishedAt": "2026-08-14T13:03:00.000Z",
-      "summary": "Weaponized agents could turn digital intrusions into kinetic disasters, experts warn",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Experts warn that weaponized autonomous AI agents pose a clear and present danger to critical infrastructure. These advanced attacks could potentially escalate digital intrusions into physical disasters.",
-        "whyItMatters": "This highlights the growing risk of autonomous AI being leveraged to execute devastating cyberattacks against vital public systems.",
-        "affected": [],
-        "action": "Monitor developments in AI security and enhance infrastructure defenses against automated threats.",
-        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
@@ -1172,33 +1067,6 @@
         "affected": [],
         "action": "Review the full news reports for specific mitigation guidance related to these incidents.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Shell investigates 'potential incident' after Clop data theft claims",
-      "link": "https://www.bleepingcomputer.com/news/security/shell-investigates-potential-incident-after-clop-data-theft-claims/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-08-14T11:55:45.000Z",
-      "summary": "Oil giant Shell has confirmed it is investigating a potential security incident after the Clop ransomware gang claimed it stole 89GB of data. [...]",
-      "categories": [
-        "Ransomware",
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "high",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Oil giant Shell is investigating a potential security incident after the Clop ransomware gang claimed to have stolen 89GB of data. The cybercriminal group added Shell to its dark web leak site as a target.",
-        "whyItMatters": "This incident highlights the ongoing threat of ransomware groups targeting major global corporations for massive data theft.",
-        "affected": [],
-        "action": "Monitor official communications from Shell and review enterprise security controls for ransomware indicators.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -1398,32 +1266,6 @@
       }
     },
     {
-      "title": "Crypto wallet maker Trezor confirms 13,000 customers' details exposed in logistics breach",
-      "link": "https://www.theregister.com/security/2026/08/14/crypto-wallet-maker-trezor-confirms-13000-customers-details-exposed-in-logistics-breach/5287734",
-      "source": "The Register",
-      "publishedAt": "2026-08-14T10:29:00.000Z",
-      "summary": "Even if your hardware is secure, quantum-ready, encrypted, and future-proof, no one is immune to a supplier letting the side down",
-      "categories": [
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Crypto wallet maker Trezor confirmed that a logistics data breach has exposed the personal details of 13,000 customers. This incident highlights ongoing third-party vendor risks despite the high security of the physical hardware devices.",
-        "whyItMatters": "Exposed customer details from hardware wallet providers can be leveraged by attackers to target high-value individuals with sophisticated phishing and extortion campaigns.",
-        "affected": [],
-        "action": "Remain vigilant against targeted phishing attempts and do not share your seed phrase.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "1.6 Million Likely Impacted by RingCentral Data Breach",
       "link": "https://www.securityweek.com/1-6-million-likely-impacted-by-ringcentral-data-breach/",
       "source": "SecurityWeek",
@@ -1509,32 +1351,6 @@
         ],
         "action": "Deploy advanced endpoint detection mechanisms capable of monitoring kernel-level activity.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Scottish prosecutors cast eye over leaky supplier after staff data exposed",
-      "link": "https://www.theregister.com/security/2026/08/14/scottish-prosecutors-cast-eye-over-leaky-supplier-after-staff-data-exposed/5287479",
-      "source": "The Register",
-      "publishedAt": "2026-08-14T08:46:00.000Z",
-      "summary": "Unnamed third party spotted suspicious activity, with names, roles, and email addresses potentially affected",
-      "categories": [
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Scottish prosecutors are investigating a data breach at an unnamed third-party supplier that potentially exposed the names, roles, and email addresses of staff. The security incident was detected after the supplier identified suspicious activity on its systems.",
-        "whyItMatters": "This incident highlights the cybersecurity risks third-party vendors pose to public sector organizations and the sensitive data they handle.",
-        "affected": [],
-        "action": "Verify third-party vendor security controls and monitor for compromised credentials.",
-        "risk": "Medium",
         "relatedCves": [],
         "source": "ai"
       }
@@ -1847,32 +1663,6 @@
         "relatedCves": [
           "CVE-2026-72898"
         ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "New Zealand says China tried using space investments to spy on local affairs",
-      "link": "https://www.theregister.com/security/2026/08/14/new-zealand-says-china-tried-using-space-investments-to-spy-on-local-affairs/5287657",
-      "source": "The Register",
-      "publishedAt": "2026-08-14T03:23:34.000Z",
-      "summary": "Intelligence Service says finding domestic threats is harder due to proliferation of toxic content online",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "New Zealand's Intelligence Service has accused China of attempting to use space investments as a cover to spy on local affairs. Additionally, the agency noted that finding domestic threats has become increasingly difficult due to the proliferation of toxic online content.",
-        "whyItMatters": "Foreign espionage via strategic investments and the amplification of online toxic content pose significant national security risks to sovereign nations.",
-        "affected": [],
-        "action": "Monitor geopolitical intelligence updates.",
-        "risk": "News",
-        "relatedCves": [],
         "source": "ai"
       }
     },
@@ -5784,6 +5574,247 @@
         "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
+      }
+    },
+    {
+      "title": "CRLF-Powered Desync Attacks: Beheading HTTP Streams",
+      "link": "https://portswigger.net/research/crlf-powered-desync-attacks",
+      "source": "PortSwigger Research",
+      "publishedAt": "2026-08-05T23:30:00.000Z",
+      "summary": "Abstract In this paper we’ll show that HTTP Header Injection is severely underestimated. Forget open redirects or Cross-Site Scripting and instead, embrace the catastrophic potential of the CRLF-Power",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Researchers have detailed a severe class of HTTP Header Injection vulnerabilities called CRLF-Powered Desync Attacks. This technique demonstrates how seemingly minor CRLF injection flaws can be escalated into catastrophic HTTP request desynchronization.",
+        "whyItMatters": "It elevates traditional HTTP header injection risks to critical request desync attacks that can bypass security controls and compromise data streams.",
+        "affected": [],
+        "action": "Review and sanitize all HTTP inputs to prevent CRLF injection vulnerabilities.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Smashing Security podcast #479: How a fake police officer nearly stole Graham’s cryptocurrency",
+      "link": "https://grahamcluley.com/smashing-security-podcast-479-how-a-fake-police-officer-nearly-stole-grahams-cryptocurrency/",
+      "source": "Graham Cluley",
+      "publishedAt": "2026-08-05T23:10:20.000Z",
+      "summary": "Graham gets a phone call from the police. Well, someone who sounds convincingly like the police.  There's just one small problem: what they really want is the 24-word seed key to Graham's cryptocurrency wallet.\r\n\r\nMeanwh",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A podcast episode discusses a sophisticated vishing attack where scammers impersonated police officers to steal a cryptocurrency owner's seed key. The fraudulent callers attempted to manipulate the victim into handing over sensitive wallet credentials.",
+        "whyItMatters": "This highlights how social engineering tactics like impersonation are actively used to target and steal digital assets from cryptocurrency holders.",
+        "affected": [],
+        "action": "Never share your cryptocurrency seed key with anyone.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Can AI do novel security research? Meet the HTTP Terminator",
+      "link": "https://portswigger.net/research/can-ai-do-novel-security-research",
+      "source": "PortSwigger Research",
+      "publishedAt": "2026-08-05T19:30:00.000Z",
+      "summary": "Abstract We all know AI can find bugs. After a decade of research, I asked a harder question: can an autonomous system invent new attack techniques, and use them to hack live websites at scale? Buildi",
+      "categories": [
+        "AI Security",
+        "Research"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Researchers are exploring whether autonomous artificial intelligence systems can invent novel attack techniques to hack live websites at scale. This experiment investigates the capability of AI to move beyond finding existing bugs and perform truly novel security research.",
+        "whyItMatters": "It determines whether AI can autonomously develop and execute new cyber attack vectors against live targets, significantly changing the threat landscape.",
+        "affected": [],
+        "action": "Monitor developments in AI-driven security research to anticipate potential new automated attack methodologies.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Cisco Advance Notification for Publication of August 5, 2026, Security Advisories",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-L4XfJg8S?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20August%205,%202026,%20Security%20Advisories%26vs_k=1",
+      "source": "Cisco PSIRT",
+      "publishedAt": "2026-08-05T16:01:06.000Z",
+      "summary": "On August 5, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the following advisories:\n\r\n\r\n\r\n\r\nCisco Security Advisory\r\nCVE ID\r\nSecurity Impact Rating\r\nCVSS Base Score\r\n\r\n\r\n\r\n\r\nCisco Catalyst SD",
+      "categories": [
+        "Incident Response",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Cisco"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Cisco has issued an advance notification for upcoming security advisories scheduled for publication on August 5, 2026. The alert includes preliminary details regarding vulnerabilities impacting Cisco Catalyst SD products.",
+        "whyItMatters": "Advance notifications allow administrators to prepare for critical patches before exploit details become widely available.",
+        "affected": [
+          "Cisco Catalyst SD"
+        ],
+        "action": "Monitor Cisco advisory channels for the full patch release on August 5, 2026.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Cisco IOS XE Software Web-Based Management Interface Denial of Service Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-xe-webui-dos-PtAODAWW?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20IOS%20XE%20Software%20Web-Based%20Management%20Interface%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
+      "source": "Cisco PSIRT",
+      "publishedAt": "2026-08-05T16:00:00.000Z",
+      "summary": "A vulnerability in the web-based management interface of Cisco IOS XE Software could allow an authenticated, remote attacker with low privileges to cause a denial of service (DoS) condition on an affected device.\n\r\nThis ",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Cisco"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A vulnerability in the web-based management interface of Cisco IOS XE Software could allow an authenticated, remote attacker with low privileges to trigger a denial of service condition. Exploitation of this flaw causes affected devices to stop responding, disrupting network operations.",
+        "whyItMatters": "It allows low-privileged attackers to remotely disrupt critical network infrastructure by causing a denial of service.",
+        "affected": [
+          "Cisco IOS XE Software"
+        ],
+        "action": "Apply the official security updates provided by Cisco.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Cisco Integrated Management Controller Cross-Site Scripting Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cimc-xss-7EhBFxBp?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Integrated%20Management%20Controller%20Cross-Site%20Scripting%20Vulnerability%26vs_k=1",
+      "source": "Cisco PSIRT",
+      "publishedAt": "2026-08-05T16:00:00.000Z",
+      "summary": "A vulnerability in the web-based management interface of Cisco Integrated Management Controller (IMC) could allow an authenticated, remote attacker to conduct a cross-site scripting (XSS) attack against a user of the int",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Cisco"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A cross-site scripting vulnerability exists in the web-based management interface of the Cisco Integrated Management Controller. This flaw allows an authenticated, remote attacker to execute malicious scripts against users interacting with the interface.",
+        "whyItMatters": "It allows attackers with access to compromise user sessions and potentially gain unauthorized control over affected management interfaces.",
+        "affected": [
+          "Cisco Integrated Management Controller"
+        ],
+        "action": "Apply the latest security patches provided by Cisco.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Python Software Foundation - Python 3.11.0a3 to 3.15.0b2",
+      "link": "https://bishopfox.com/blog/python-software-foundation-python-3-11-0a3-to-3-15-0b2",
+      "source": "Bishop Fox",
+      "publishedAt": "2026-08-05T13:00:00.000Z",
+      "summary": "Bishop Fox discovered a privilege escalation vulnerability in Python for Windows affecting versions 3.11.0a3 through 3.15.0b2. A low-privilege user can plant malicious files and wait for a privileged account to run the i",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Bishop Fox discovered a privilege escalation vulnerability affecting Python for Windows versions 3.11.0a3 through 3.15.0b2. A low-privilege user can exploit this flaw by planting malicious files that may be executed by a privileged account.",
+        "whyItMatters": "This vulnerability allows low-privileged users to escalate their privileges on Windows systems running vulnerable Python versions.",
+        "affected": [
+          "Python for Windows 3.11.0a3 to 3.15.0b2"
+        ],
+        "action": "Update Python to a patched version when available.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-18656 & CVE-2026-18657 - Issue with Kiro IDE and CLI - Executable Resolution from Untrusted Project Directory on Windows",
+      "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-074-aws/",
+      "source": "AWS Security Bulletins",
+      "publishedAt": "2026-08-04T19:43:11.000Z",
+      "summary": "Bulletin ID: 2026-074-AWS\n Scope: AWS\n Content Type: Important (requires attention)\n Publication Date: 08/04/2026 12:30 PM PDT\n \nDescription:\n \nKiro is an agentic IDE and command-line interface users install on their des",
+      "categories": [
+        "Vulnerability",
+        "Cloud"
+      ],
+      "tags": [
+        "Windows",
+        "AWS"
+      ],
+      "cves": [
+        "CVE-2026-18656",
+        "CVE-2026-18657"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "AWS has issued a security bulletin regarding Kiro IDE and CLI on Windows due to an executable resolution issue from untrusted project directories. This vulnerability, tracked as CVE-2026-18656 and CVE-2026-18657, affects users running the affected agentic IDE and command-line interface.",
+        "whyItMatters": "It allows potential arbitrary code execution by loading executables from untrusted project directories on Windows systems.",
+        "affected": [
+          "Kiro IDE",
+          "Kiro CLI"
+        ],
+        "action": "Review the AWS security bulletin and update the affected Kiro products.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-18656",
+          "CVE-2026-18657"
+        ],
+        "source": "ai"
       }
     }
   ]
