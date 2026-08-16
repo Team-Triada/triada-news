@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T18:46:21.100Z",
+  "updatedAt": "2026-08-16T19:32:08.505Z",
   "items": [
     {
       "title": "Large-scale DDoS attacks disrupted Threema secure messaging service",
@@ -1835,10 +1835,10 @@
       "cves": [
         "CVE-2026-72898"
       ],
-      "kev": true,
+      "kev": false,
       "poc": false,
-      "severity": "critical",
-      "breaking": true,
+      "severity": "medium",
+      "breaking": false,
       "readTimeMin": 2,
       "aiSummary": {
         "summary": "An advisory has been issued regarding a SQL injection vulnerability in Metabase tracked as CVE-2026-72898. Users are urged to take notice of this security flaw affecting the software.",
@@ -2755,239 +2755,6 @@
         "whyItMatters": "Involving private entities in offensive state-sponsored cyber operations blurs the lines of accountability and increases the risk of unintended geopolitical escalation.",
         "affected": [],
         "action": "Monitor developments in state-sponsored cyber policy and assess potential third-party risks.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Siemens Siveillance Video",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-10",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-08-13T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nSiveillance Video Management Servers contains a vulnerability that could allow a Remote Code Execution attack. Siemens has released new versions for the affected products and recommends to update to the",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Siemens Siveillance Video Management Servers contain a vulnerability that could allow a remote code execution attack. Siemens has released new software versions and recommends that users update their systems immediately.",
-        "whyItMatters": "This vulnerability could allow attackers to execute arbitrary code remotely, potentially leading to a complete compromise of the video management server.",
-        "affected": [
-          "Siemens Siveillance Video Management Server"
-        ],
-        "action": "Update to the latest patched version.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Siemens License Server (SLS)",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-07",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-08-13T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nSiemens License Server is affected by multiple vulnerabilities which could allow an attacker to elevate its privileges and read arbitrary files on the system. Siemens has released a new version for Siem",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Siemens License Server contains multiple vulnerabilities that could allow attackers to elevate privileges and read arbitrary files on the system. Siemens has released a new version to address these issues.",
-        "whyItMatters": "Unauthenticated or low-privileged attackers could exploit these flaws to gain elevated access and compromise sensitive system data.",
-        "affected": [
-          "Siemens License Server"
-        ],
-        "action": "Update to the latest Siemens License Server version.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Siemens Desigo DXR and PXC Controllers",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-08",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-08-13T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nA vulnerability in Desigo DXR and PXC controllers has been identified that could allow an attacker to cause denial of service conditions by sending malformed BACnet packets. Recovery requires a device r",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A vulnerability in Siemens Desigo DXR and PXC controllers allows attackers to trigger denial of service conditions using malformed BACnet packets. Recovering from the attack requires a physical device reboot.",
-        "whyItMatters": "This vulnerability threatens critical building automation systems, potentially causing operational disruptions that require manual intervention to fix.",
-        "affected": [
-          "Siemens Desigo DXR controllers",
-          "Siemens Desigo PXC controllers"
-        ],
-        "action": "Apply the vendor security updates and restrict network access to vulnerable controllers.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Johnson Controls Inc. Airwall",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-03",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-08-13T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to decrypt sensitive data, bypass authentication controls, gaining unauthorized access to read arbitrary files on the system, or ",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Johnson Controls Inc. Airwall contains vulnerabilities that could allow attackers to decrypt sensitive data and bypass authentication controls. Successful exploitation enables unauthorized users to gain access and read arbitrary files on the system.",
-        "whyItMatters": "This flaw compromises system confidentiality and access controls, potentially exposing sensitive organizational data to unauthorized entities.",
-        "affected": [
-          "Johnson Controls Inc. Airwall"
-        ],
-        "action": "Review the CSAF advisory and apply available patches or mitigations provided by the vendor.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Johnson Controls Metasys",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-14",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-08-13T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow a low-privilege user or attacker to inject a persistent malicious payload via a crafted URL that executes in the context of other users' session",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A vulnerability in Johnson Controls Metasys allows low-privileged attackers to inject persistent malicious payloads using crafted URLs. These payloads execute within the browser sessions of other active users.",
-        "whyItMatters": "It enables unauthorized script execution in other users' sessions, potentially leading to privilege escalation or session hijacking.",
-        "affected": [
-          "Johnson Controls Metasys"
-        ],
-        "action": "Check vendor advisories and apply available patches.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Siemens Siveillance Video",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-09",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-08-13T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nSiveillance Video Management Servers contains a vulnerability that could allow a Remote Code Execution attack. Siemens has released new versions for the affected products and recommends to update to the",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Siemens Siveillance Video Management Servers contain a vulnerability that could allow a remote code execution attack. Siemens has released new versions to address this issue and recommends updating immediately.",
-        "whyItMatters": "This vulnerability could allow attackers to execute arbitrary code remotely on affected video management servers, posing a severe compromise risk.",
-        "affected": [
-          "Siemens Siveillance Video Management Servers"
-        ],
-        "action": "Update to the latest version recommended by Siemens.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Flow Neuroscience FL-100",
-      "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-225-01",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-08-13T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker within Bluetooth range to manipulate brain stimulation parameters and override safety limits.\nThe following versions of Flow Neurosc",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A vulnerability in the Flow Neuroscience FL-100 device allows attackers within Bluetooth range to manipulate brain stimulation parameters. Consequently, unauthorized individuals could override safety limits on the affected hardware.",
-        "whyItMatters": "This flaw poses direct physical and neurological safety risks to users by allowing external control over medical brain stimulation equipment.",
-        "affected": [
-          "Flow Neuroscience FL-100"
-        ],
-        "action": "Review vendor advisories and restrict Bluetooth access to the device.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Siemens LOGO! Soft Comfort",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-13",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-08-13T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nSiemens LOGO! Soft Comfort contains multiple vulnerabilities in its project-file encryption and password handling mechanisms. A local attacker could exploit these vulnerabilities to extract the master k",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Siemens LOGO! Soft Comfort contains multiple vulnerabilities in its project-file encryption and password handling mechanisms. A local attacker could exploit these flaws to extract sensitive information such as the master key.",
-        "whyItMatters": "These vulnerabilities allow local attackers to bypass security controls and potentially compromise encrypted project files.",
-        "affected": [
-          "Siemens LOGO! Soft Comfort"
-        ],
-        "action": "Check Siemens security advisories for patches and mitigation guidance.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -5033,10 +4800,10 @@
       "cves": [
         "CVE-2026-72898"
       ],
-      "kev": true,
+      "kev": false,
       "poc": false,
       "severity": "critical",
-      "breaking": true,
+      "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
         "summary": "A critical, unauthenticated SQL injection vulnerability has been disclosed in the password reset functionality of self-hosted Metabase. Organizations running affected instances are urged to take immediate action to secure their environments.",
@@ -5422,10 +5189,10 @@
       "cves": [
         "CVE-2026-63077"
       ],
-      "kev": true,
+      "kev": false,
       "poc": false,
       "severity": "critical",
-      "breaking": true,
+      "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
         "summary": "Overview\nOn July 27, 2026, JetBrains published a security advisory for CVE-2026-63077, a critical unsafe deserialization vulnerability affecting JetBrains TeamCity. An attacker who can reach a TeamCity server over HTTP o",
@@ -5788,6 +5555,247 @@
         "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
+      }
+    },
+    {
+      "title": "CRLF-Powered Desync Attacks: Beheading HTTP Streams",
+      "link": "https://portswigger.net/research/crlf-powered-desync-attacks",
+      "source": "PortSwigger Research",
+      "publishedAt": "2026-08-05T23:30:00.000Z",
+      "summary": "Abstract In this paper we’ll show that HTTP Header Injection is severely underestimated. Forget open redirects or Cross-Site Scripting and instead, embrace the catastrophic potential of the CRLF-Power",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Researchers have published a paper highlighting the severe security implications of HTTP Header Injection using CRLF sequences. The research demonstrates how these injections can lead to catastrophic HTTP request desync attacks rather than just minor issues like open redirects or XSS.",
+        "whyItMatters": "It elevates the perceived severity of HTTP header injection vulnerabilities by showing they can be weaponized for complex HTTP desync attacks.",
+        "affected": [],
+        "action": "Review web applications and servers for improper handling of CRLF sequences in HTTP headers.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Smashing Security podcast #479: How a fake police officer nearly stole Graham’s cryptocurrency",
+      "link": "https://grahamcluley.com/smashing-security-podcast-479-how-a-fake-police-officer-nearly-stole-grahams-cryptocurrency/",
+      "source": "Graham Cluley",
+      "publishedAt": "2026-08-05T23:10:20.000Z",
+      "summary": "Graham gets a phone call from the police. Well, someone who sounds convincingly like the police.  There's just one small problem: what they really want is the 24-word seed key to Graham's cryptocurrency wallet.\r\n\r\nMeanwh",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Graham received a convincing phone call from a scammer impersonating a police officer in an attempt to steal his digital assets. The fraudulent caller specifically demanded the 24-word seed key to access Graham's cryptocurrency wallet.",
+        "whyItMatters": "This incident highlights sophisticated social engineering tactics where attackers impersonate trusted authority figures to steal cryptocurrency recovery phrases.",
+        "affected": [],
+        "action": "Never share your cryptocurrency wallet seed key with anyone.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Can AI do novel security research? Meet the HTTP Terminator",
+      "link": "https://portswigger.net/research/can-ai-do-novel-security-research",
+      "source": "PortSwigger Research",
+      "publishedAt": "2026-08-05T19:30:00.000Z",
+      "summary": "Abstract We all know AI can find bugs. After a decade of research, I asked a harder question: can an autonomous system invent new attack techniques, and use them to hack live websites at scale? Buildi",
+      "categories": [
+        "AI Security",
+        "Research"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A cybersecurity researcher explores whether autonomous AI systems can invent novel attack techniques to compromise live websites at scale. The project investigates the potential of artificial intelligence to conduct advanced, automated security research beyond finding known bugs.",
+        "whyItMatters": "This research explores the evolution of AI capabilities in cybersecurity, shifting from merely finding bugs to autonomously developing novel attack vectors.",
+        "affected": [],
+        "action": "Monitor developments in AI-driven security research.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Cisco Advance Notification for Publication of August 5, 2026, Security Advisories",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-L4XfJg8S?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20August%205,%202026,%20Security%20Advisories%26vs_k=1",
+      "source": "Cisco PSIRT",
+      "publishedAt": "2026-08-05T16:01:06.000Z",
+      "summary": "On August 5, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the following advisories:\n\r\n\r\n\r\n\r\nCisco Security Advisory\r\nCVE ID\r\nSecurity Impact Rating\r\nCVSS Base Score\r\n\r\n\r\n\r\n\r\nCisco Catalyst SD",
+      "categories": [
+        "Incident Response",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Cisco"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Cisco has issued an advance notification regarding upcoming security advisories scheduled for publication on August 5, 2026. The incomplete advisory text indicates that publications will cover vulnerabilities affecting Cisco Catalyst SD products.",
+        "whyItMatters": "Advance notifications help organizations prepare for upcoming patches and mitigate potential zero-day or high-severity exploits before public details emerge.",
+        "affected": [
+          "Cisco Catalyst SD"
+        ],
+        "action": "Monitor Cisco's official security advisory page for the full August 5, 2026 updates.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Cisco IOS XE Software Web-Based Management Interface Denial of Service Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-xe-webui-dos-PtAODAWW?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20IOS%20XE%20Software%20Web-Based%20Management%20Interface%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
+      "source": "Cisco PSIRT",
+      "publishedAt": "2026-08-05T16:00:00.000Z",
+      "summary": "A vulnerability in the web-based management interface of Cisco IOS XE Software could allow an authenticated, remote attacker with low privileges to cause a denial of service (DoS) condition on an affected device.\n\r\nThis ",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Cisco"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A vulnerability in the web-based management interface of Cisco IOS XE Software could allow an authenticated, remote attacker with low privileges to cause a denial of service condition. Exploitation of this flaw causes the affected device to crash and reload.",
+        "whyItMatters": "It matters because a low-privileged attacker can disrupt critical network operations by triggering a denial of service on affected devices.",
+        "affected": [
+          "Cisco IOS XE Software"
+        ],
+        "action": "Apply the official security patches provided by Cisco.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Cisco Integrated Management Controller Cross-Site Scripting Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cimc-xss-7EhBFxBp?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Integrated%20Management%20Controller%20Cross-Site%20Scripting%20Vulnerability%26vs_k=1",
+      "source": "Cisco PSIRT",
+      "publishedAt": "2026-08-05T16:00:00.000Z",
+      "summary": "A vulnerability in the web-based management interface of Cisco Integrated Management Controller (IMC) could allow an authenticated, remote attacker to conduct a cross-site scripting (XSS) attack against a user of the int",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Cisco"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A cross-site scripting vulnerability exists in the web-based management interface of the Cisco Integrated Management Controller. The flaw could allow an authenticated, remote attacker to execute malicious scripts against a user of the interface.",
+        "whyItMatters": "This vulnerability could enable attackers to hijack user sessions or compromise the management interface integrity if exploited.",
+        "affected": [
+          "Cisco Integrated Management Controller"
+        ],
+        "action": "Apply the latest security patches provided by Cisco.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Python Software Foundation - Python 3.11.0a3 to 3.15.0b2",
+      "link": "https://bishopfox.com/blog/python-software-foundation-python-3-11-0a3-to-3-15-0b2",
+      "source": "Bishop Fox",
+      "publishedAt": "2026-08-05T13:00:00.000Z",
+      "summary": "Bishop Fox discovered a privilege escalation vulnerability in Python for Windows affecting versions 3.11.0a3 through 3.15.0b2. A low-privilege user can plant malicious files and wait for a privileged account to run the i",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Bishop Fox discovered a privilege escalation vulnerability affecting Python for Windows versions 3.11.0a3 through 3.15.0b2. The flaw allows a low-privilege user to plant malicious files that can be executed by a privileged account.",
+        "whyItMatters": "This vulnerability enables local attackers to escalate privileges on Windows systems by tricking privileged accounts into executing malicious files.",
+        "affected": [
+          "Python for Windows 3.11.0a3 to 3.15.0b2"
+        ],
+        "action": "Update Python to a patched version once available.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-18656 & CVE-2026-18657 - Issue with Kiro IDE and CLI - Executable Resolution from Untrusted Project Directory on Windows",
+      "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-074-aws/",
+      "source": "AWS Security Bulletins",
+      "publishedAt": "2026-08-04T19:43:11.000Z",
+      "summary": "Bulletin ID: 2026-074-AWS\n Scope: AWS\n Content Type: Important (requires attention)\n Publication Date: 08/04/2026 12:30 PM PDT\n \nDescription:\n \nKiro is an agentic IDE and command-line interface users install on their des",
+      "categories": [
+        "Vulnerability",
+        "Cloud"
+      ],
+      "tags": [
+        "Windows",
+        "AWS"
+      ],
+      "cves": [
+        "CVE-2026-18656",
+        "CVE-2026-18657"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "AWS has issued a security bulletin regarding Kiro IDE and CLI on Windows due to an executable resolution issue from untrusted project directories. This vulnerability, tracked as CVE-2026-18656 and CVE-2026-18657, presents potential security risks for users running the affected software.",
+        "whyItMatters": "It matters because attackers could exploit the untrusted directory resolution to execute arbitrary code on Windows systems.",
+        "affected": [
+          "Kiro IDE",
+          "Kiro CLI"
+        ],
+        "action": "Review the AWS security bulletin and update the affected software.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-18656",
+          "CVE-2026-18657"
+        ],
+        "source": "ai"
       }
     }
   ]
