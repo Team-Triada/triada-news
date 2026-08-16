@@ -1,6 +1,32 @@
 {
-  "updatedAt": "2026-08-16T12:58:53.856Z",
+  "updatedAt": "2026-08-16T13:43:34.325Z",
   "items": [
+    {
+      "title": "Supply Chain Security Analysis of a 9.5M-Install VS Code Extension",
+      "link": "https://projectdiscovery.io/blog/a-9-5m-install-vs-code-extension-one-markdown-file-and-a-supply-chain-foothold",
+      "source": "ProjectDiscovery",
+      "publishedAt": "2026-08-16T13:08:38.000Z",
+      "summary": "Your code editor extensions auto-update and run with your privileges on the machine that holds your source code, your SSH keys, and your publishing credentials, but they rarely show up in a software bill of materials.\n\n\n",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "This article discusses the overlooked security risks of code editor extensions, which automatically update and run with user privileges. It highlights that these extensions often have access to sensitive assets like source code, SSH keys, and publishing credentials despite rarely being included in software bills of materials.",
+        "whyItMatters": "Compromised code editor extensions can grant attackers direct access to sensitive developer credentials and proprietary source code.",
+        "affected": [],
+        "action": "Audit installed code editor extensions and monitor their permissions.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Stopping a cyberattack while walking your dog - defensive AI security CEO says it's not ruff to do",
       "link": "https://www.theregister.com/security/2026/08/16/stopping-a-cyberattack-while-walking-your-dog-defensive-ai-security-ceo-says-its-not-ruff-to-do/5288126",
@@ -5756,34 +5782,6 @@
         ],
         "action": "Review advisory for affected versions and patch on your normal cycle.",
         "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "CRLF-Powered Desync Attacks: Beheading HTTP Streams",
-      "link": "https://portswigger.net/research/crlf-powered-desync-attacks",
-      "source": "PortSwigger Research",
-      "publishedAt": "2026-08-05T23:30:00.000Z",
-      "summary": "Abstract In this paper we’ll show that HTTP Header Injection is severely underestimated. Forget open redirects or Cross-Site Scripting and instead, embrace the catastrophic potential of the CRLF-Power",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Abstract In this paper we’ll show that HTTP Header Injection is severely underestimated. Forget open redirects or Cross-Site Scripting and instead, embrace the catastrophic potential of the CRLF-Power",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
