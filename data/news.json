@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T15:34:39.117Z",
+  "updatedAt": "2026-08-16T16:39:52.308Z",
   "items": [
     {
       "title": "New AmnesiaStealer macOS malware hijacks browser sessions via remote control",
@@ -28,6 +28,39 @@
         "action": "Avoid clicking suspicious links or executing untrusted scripts on macOS.",
         "risk": "High",
         "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-65769 Microsoft Teams iOS Information Disclosure Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-65769",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-16T14:00:00.000Z",
+      "summary": "Corrected build number for the security update.  This in an informational change only.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-65769"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft has released an informational update regarding CVE-2026-65769, correcting the build number for a security update. The vulnerability involves an information disclosure issue in Microsoft Teams for iOS.",
+        "whyItMatters": "Accurate build tracking ensures organizations apply the correct patches to prevent unauthorized information disclosure on mobile devices.",
+        "affected": [
+          "Microsoft Teams iOS"
+        ],
+        "action": "Verify and apply the updated Microsoft Teams iOS build numbers.",
+        "risk": "Medium",
+        "relatedCves": [
+          "CVE-2026-65769"
+        ],
         "source": "ai"
       }
     },
@@ -918,41 +951,6 @@
         "risk": "High",
         "relatedCves": [
           "CVE-2026-68821"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-66804 Microsoft Windows Cross Device Service Elevation of Privilege Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-66804",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-14T14:00:00.000Z",
-      "summary": "Acknowledgement Updated",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [
-        "CVE-2026-66804"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "A vulnerability identified as CVE-2026-66804 affects the Microsoft Windows Cross Device Service, leading to an elevation of privilege risk. The article provides minimal details beyond acknowledging an update.",
-        "whyItMatters": "Elevation of privilege vulnerabilities can allow unauthorized local users to gain elevated system privileges and compromise the entire operating system.",
-        "affected": [
-          "Microsoft Windows Cross Device Service"
-        ],
-        "action": "Apply the latest security updates from Microsoft.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-66804"
         ],
         "source": "ai"
       }
