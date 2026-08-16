@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T19:32:08.505Z",
+  "updatedAt": "2026-08-16T20:36:58.737Z",
   "items": [
     {
       "title": "Large-scale DDoS attacks disrupted Threema secure messaging service",
@@ -256,32 +256,6 @@
       }
     },
     {
-      "title": "Stopping a cyberattack while walking your dog - defensive AI security CEO says it's not ruff to do",
-      "link": "https://www.theregister.com/security/2026/08/16/stopping-a-cyberattack-while-walking-your-dog-defensive-ai-security-ceo-says-its-not-ruff-to-do/5288126",
-      "source": "The Register",
-      "publishedAt": "2026-08-16T10:06:00.000Z",
-      "summary": "Corma CEO tells The Reg it's building 'One ring to rule them all, for the defenders to have this power'",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The CEO of defensive AI security firm Corma stated that their platform aims to give defenders unprecedented centralized control against cyberattacks. The executive used the analogy of managing security incidents remotely while walking a dog to highlight the tool's ease of use.",
-        "whyItMatters": "It highlights the growing industry trend of leveraging autonomous AI agents to manage and remediate cyberattacks in real time.",
-        "affected": [],
-        "action": "Monitor developments in defensive AI security tools.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Week in review: Salesforce and ServiceNow portals exposed for 17 months, exploited Metabase 0-day",
       "link": "https://www.helpnetsecurity.com/2026/08/16/week-in-review-salesforce-and-servicenow-portals-exposed-for-17-months-exploited-metabase-0-day/",
       "source": "Help Net Security",
@@ -311,6 +285,35 @@
           "Metabase"
         ],
         "action": "Review enterprise portal security configurations and apply available patches immediately.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6444-1 neutron - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00355.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-08-16T00:00:00.000Z",
+      "summary": "Two vulnerabilities were discovered in Neutron, the OpenStack virtual\nnetwork service, which could result in incorrect validation of API\npermissions.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6444-1",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Two vulnerabilities have been discovered in Neutron, the OpenStack virtual network service. These flaws could result in the incorrect validation of API permissions.",
+        "whyItMatters": "Improper API permission validation could allow unauthorized users to perform restricted network operations in OpenStack environments.",
+        "affected": [
+          "OpenStack Neutron"
+        ],
+        "action": "Apply the security update provided by your distributor.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -371,35 +374,6 @@
         "whyItMatters": "This botnet expands malicious infrastructure by weaponizing standard gateway devices for covert traffic relaying.",
         "affected": [],
         "action": "Ensure all internet-facing routers and gateways are updated with the latest firmware and secure default credentials.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "ChainDrop worm crawls into npm supply chain, evades standard defenses",
-      "link": "https://www.theregister.com/security/2026/08/15/chaindrop-worm-crawls-into-npm-supply-chain-evades-standard-defenses/5287958",
-      "source": "The Register",
-      "publishedAt": "2026-08-15T10:31:00.000Z",
-      "summary": "Shai-Hulud variant poisons 444 packages, spreads via tarballs and dev-tool hooks",
-      "categories": [
-        "Malware",
-        "Open Source"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A new supply chain worm named ChainDrop has poisoned 444 npm packages using tarballs and development tool hooks. This variant successfully evades standard security defenses while propagating through the npm ecosystem.",
-        "whyItMatters": "It threatens the integrity of the software supply chain by automating the distribution of malicious code across hundreds of development packages.",
-        "affected": [
-          "npm packages"
-        ],
-        "action": "Audit npm dependencies for unauthorized modifications or poisoned packages.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -639,34 +613,6 @@
       }
     },
     {
-      "title": "1.6M RingCentral accounts' data dumped after ShinyHunters extortion attack",
-      "link": "https://www.theregister.com/cyber-crime/2026/08/14/16m-ringcentral-accounts-data-dumped-after-shinyhunters-extortion-attack/5288003",
-      "source": "The Register",
-      "publishedAt": "2026-08-14T17:34:57.000Z",
-      "summary": "Another one bites the dust",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "Data from 1.6 million RingCentral accounts was leaked following an extortion attack by the ShinyHunters threat group. The incident highlights ongoing risks to enterprise communication platforms from high-profile data theft operations.",
-        "whyItMatters": "It exposes millions of user accounts to potential downstream credential stuffing, phishing, and secondary attacks.",
-        "affected": [
-          "RingCentral"
-        ],
-        "action": "Audit RingCentral accounts for unauthorized activity and enforce credential resets.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Amid AI-Driven Bug-Hunt Tsunami, NIST Looks to … AI",
       "link": "https://www.darkreading.com/vulnerabilities-threats/ai-driven-bug-tsunami-nist-looks-to-ai",
       "source": "Dark Reading",
@@ -798,32 +744,6 @@
         "whyItMatters": "This incident exposes sensitive data from multiple organizations to the public, increasing the risk of extortion, data misuse, and further cyber attacks against the affected entities.",
         "affected": [],
         "action": "Monitor networks for unauthorized data exfiltration and review threat intelligence regarding ExfilSquad.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "French tax authority admits data heist after crook touts 2M records",
-      "link": "https://www.theregister.com/security/2026/08/14/french-tax-authority-admits-data-heist-after-crook-touts-2m-records/5287885",
-      "source": "The Register",
-      "publishedAt": "2026-08-14T14:27:00.000Z",
-      "summary": "Government disputes claims of continued access as investigators measure damage",
-      "categories": [
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The French tax authority has acknowledged a data breach following claims by a criminal that two million records were stolen. Government officials are currently assessing the damage and disputing claims that the attacker still has access to their systems.",
-        "whyItMatters": "This incident exposes millions of sensitive citizen records to potential misuse, raising serious concerns about government data security.",
-        "affected": [],
-        "action": "Monitor official government communications for guidance and remain vigilant against potential phishing attempts.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -1037,32 +957,6 @@
         "affected": [],
         "action": "Monitor accounts for suspicious activity and await official guidance from French tax authorities.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Autonomous AI attacks pose 'clear and present danger' to critical infrastructure",
-      "link": "https://www.theregister.com/security/2026/08/14/autonomous-ai-attacks-pose-clear-and-present-danger-to-critical-infrastructure/5287594",
-      "source": "The Register",
-      "publishedAt": "2026-08-14T13:03:00.000Z",
-      "summary": "Weaponized agents could turn digital intrusions into kinetic disasters, experts warn",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Experts warn that weaponized autonomous AI agents pose a clear and present danger to critical infrastructure. These agents could potentially escalate digital intrusions into physical, kinetic disasters.",
-        "whyItMatters": "It highlights the rising threat of automated cyber weapons capable of causing real-world physical damage to critical systems.",
-        "affected": [],
-        "action": "Monitor evolving AI security threats and strengthen critical infrastructure defenses.",
-        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
@@ -1400,34 +1294,6 @@
       }
     },
     {
-      "title": "Crypto wallet maker Trezor confirms 13,000 customers' details exposed in logistics breach",
-      "link": "https://www.theregister.com/security/2026/08/14/crypto-wallet-maker-trezor-confirms-13000-customers-details-exposed-in-logistics-breach/5287734",
-      "source": "The Register",
-      "publishedAt": "2026-08-14T10:29:00.000Z",
-      "summary": "Even if your hardware is secure, quantum-ready, encrypted, and future-proof, no one is immune to a supplier letting the side down",
-      "categories": [
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Crypto wallet maker Trezor confirmed a security breach affecting the personal details of 13,000 customers due to a compromised third-party logistics provider. The incident highlights supply chain vulnerabilities that can expose sensitive user information despite strong device security.",
-        "whyItMatters": "Exposed customer details can be leveraged by attackers to conduct targeted phishing campaigns against cryptocurrency owners.",
-        "affected": [
-          "Trezor logistics database"
-        ],
-        "action": "Remain vigilant against phishing attempts targeting your cryptocurrency credentials.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "1.6 Million Likely Impacted by RingCentral Data Breach",
       "link": "https://www.securityweek.com/1-6-million-likely-impacted-by-ringcentral-data-breach/",
       "source": "SecurityWeek",
@@ -1513,32 +1379,6 @@
         ],
         "action": "Deploy advanced endpoint detection mechanisms capable of monitoring kernel-level activity.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Scottish prosecutors cast eye over leaky supplier after staff data exposed",
-      "link": "https://www.theregister.com/security/2026/08/14/scottish-prosecutors-cast-eye-over-leaky-supplier-after-staff-data-exposed/5287479",
-      "source": "The Register",
-      "publishedAt": "2026-08-14T08:46:00.000Z",
-      "summary": "Unnamed third party spotted suspicious activity, with names, roles, and email addresses potentially affected",
-      "categories": [
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Scottish prosecutors are investigating a data breach involving an unnamed third-party supplier. The incident potentially exposed staff names, roles, and email addresses after suspicious activity was detected.",
-        "whyItMatters": "This incident highlights supply chain vulnerabilities and the risk of employee data exposure through third-party vendors.",
-        "affected": [],
-        "action": "Verify third-party vendor security controls and monitor for compromised credentials.",
-        "risk": "Medium",
         "relatedCves": [],
         "source": "ai"
       }
@@ -1835,10 +1675,10 @@
       "cves": [
         "CVE-2026-72898"
       ],
-      "kev": false,
+      "kev": true,
       "poc": false,
-      "severity": "medium",
-      "breaking": false,
+      "severity": "critical",
+      "breaking": true,
       "readTimeMin": 2,
       "aiSummary": {
         "summary": "An advisory has been issued regarding a SQL injection vulnerability in Metabase tracked as CVE-2026-72898. Users are urged to take notice of this security flaw affecting the software.",
@@ -1851,32 +1691,6 @@
         "relatedCves": [
           "CVE-2026-72898"
         ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "New Zealand says China tried using space investments to spy on local affairs",
-      "link": "https://www.theregister.com/security/2026/08/14/new-zealand-says-china-tried-using-space-investments-to-spy-on-local-affairs/5287657",
-      "source": "The Register",
-      "publishedAt": "2026-08-14T03:23:34.000Z",
-      "summary": "Intelligence Service says finding domestic threats is harder due to proliferation of toxic content online",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "New Zealand's intelligence service reported that China attempted to use space investments as a cover for espionage activities targeting local affairs. Additionally, the agency noted that detecting domestic security threats has become increasingly difficult due to the widespread proliferation of toxic online content.",
-        "whyItMatters": "This highlights ongoing geopolitical espionage risks and the growing challenge authorities face in mitigating domestic threats amplified by online toxicity.",
-        "affected": [],
-        "action": "Monitor geopolitical intelligence reports and strengthen screening for foreign investments.",
-        "risk": "News",
-        "relatedCves": [],
         "source": "ai"
       }
     },
@@ -2761,6 +2575,239 @@
       }
     },
     {
+      "title": "Siemens Parasolid",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-10",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-08-13T12:00:00.000Z",
+      "summary": "View CSAF\nSummary\nParasolid is affected by an out of bounds read vulnerability that could be triggered when the application reads files in X_T format. This could allow an attacker to crash the application or execute arbi",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Siemens Parasolid contains an out-of-bounds read vulnerability that is triggered when processing files in the X_T format. This flaw can be exploited by an attacker to crash the application or potentially execute arbitrary code.",
+        "whyItMatters": "This vulnerability poses a significant risk as it allows potential remote code execution or application crashes simply by opening a specially crafted file.",
+        "affected": [
+          "Parasolid"
+        ],
+        "action": "Check Siemens advisories and apply available patches or updates for Parasolid.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Siemens License Server (SLS)",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-07",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-08-13T12:00:00.000Z",
+      "summary": "View CSAF\nSummary\nSiemens License Server is affected by multiple vulnerabilities which could allow an attacker to elevate its privileges and read arbitrary files on the system. Siemens has released a new version for Siem",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Siemens License Server is affected by multiple vulnerabilities that can allow attackers to elevate privileges and read arbitrary files. Siemens has released an updated version to address these security issues.",
+        "whyItMatters": "Unauthenticated or low-privileged attackers could exploit these flaws to compromise sensitive system data and gain elevated access.",
+        "affected": [
+          "Siemens License Server"
+        ],
+        "action": "Update Siemens License Server to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Siemens Desigo DXR and PXC Controllers",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-08",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-08-13T12:00:00.000Z",
+      "summary": "View CSAF\nSummary\nA vulnerability in Desigo DXR and PXC controllers has been identified that could allow an attacker to cause denial of service conditions by sending malformed BACnet packets. Recovery requires a device r",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A vulnerability in Siemens Desigo DXR and PXC controllers allows attackers to trigger denial of service conditions using malformed BACnet packets. Recovering the affected devices requires a physical reboot.",
+        "whyItMatters": "This vulnerability could disrupt critical building automation systems, leading to a complete loss of device availability.",
+        "affected": [
+          "Siemens Desigo DXR controllers",
+          "Siemens Desigo PXC controllers"
+        ],
+        "action": "Apply the vendor patches or updates to secure the controllers against malformed BACnet packets.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Johnson Controls Inc. Airwall",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-03",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-08-13T12:00:00.000Z",
+      "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to decrypt sensitive data, bypass authentication controls, gaining unauthorized access to read arbitrary files on the system, or ",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Johnson Controls Inc. Airwall contains vulnerabilities that could allow attackers to decrypt sensitive data and bypass authentication controls. Successful exploitation enables unauthorized users to gain access and read arbitrary files on the affected system.",
+        "whyItMatters": "It exposes critical infrastructure to unauthorized data access and potential full system compromise.",
+        "affected": [
+          "Johnson Controls Inc. Airwall"
+        ],
+        "action": "Apply the latest security updates provided by Johnson Controls.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Johnson Controls Metasys",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-14",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-08-13T12:00:00.000Z",
+      "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow a low-privilege user or attacker to inject a persistent malicious payload via a crafted URL that executes in the context of other users' session",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A vulnerability in Johnson Controls Metasys allows a low-privilege attacker to inject a persistent malicious payload using a crafted URL. This payload executes within the security context of other users' active sessions.",
+        "whyItMatters": "It allows attackers to compromise user sessions and execute unauthorized actions with the privileges of unsuspecting victims.",
+        "affected": [
+          "Johnson Controls Metasys"
+        ],
+        "action": "Check vendor advisories and apply available patches or updates.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Siemens Siveillance Video",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-09",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-08-13T12:00:00.000Z",
+      "summary": "View CSAF\nSummary\nSiveillance Video Management Servers contains a vulnerability that could allow a Remote Code Execution attack. Siemens has released new versions for the affected products and recommends to update to the",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Siemens Siveillance Video Management Servers contain a vulnerability that could allow a remote code execution attack. Siemens has released updated versions to address this security issue.",
+        "whyItMatters": "This vulnerability could allow attackers to execute arbitrary code remotely, potentially compromising the entire video management server.",
+        "affected": [
+          "Siemens Siveillance Video"
+        ],
+        "action": "Update to the latest version provided by Siemens.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Flow Neuroscience FL-100",
+      "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-225-01",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-08-13T12:00:00.000Z",
+      "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker within Bluetooth range to manipulate brain stimulation parameters and override safety limits.\nThe following versions of Flow Neurosc",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A vulnerability in the Flow Neuroscience FL-100 device allows attackers within Bluetooth range to manipulate brain stimulation parameters and override safety limits. Successful exploitation could compromise user safety by altering the intended therapeutic operations.",
+        "whyItMatters": "It matters because unauthorized manipulation of neurostimulation devices poses direct physical safety risks to users.",
+        "affected": [
+          "Flow Neuroscience FL-100"
+        ],
+        "action": "Review vendor advisories and apply available security updates or limit Bluetooth exposure.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Siemens LOGO! Soft Comfort",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-13",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-08-13T12:00:00.000Z",
+      "summary": "View CSAF\nSummary\nSiemens LOGO! Soft Comfort contains multiple vulnerabilities in its project-file encryption and password handling mechanisms. A local attacker could exploit these vulnerabilities to extract the master k",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Siemens LOGO! Soft Comfort contains multiple vulnerabilities within its project-file encryption and password handling mechanisms. A local attacker could potentially exploit these flaws to extract the master key.",
+        "whyItMatters": "This vulnerability allows local attackers to compromise sensitive encryption keys and passwords, threatening the confidentiality of protected projects.",
+        "affected": [
+          "Siemens LOGO! Soft Comfort"
+        ],
+        "action": "Check vendor advisories for available security updates and patches.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "How BitLocker PINs help protect your data and devices",
       "link": "https://www.ncsc.gov.uk/blogs/how-bitlocker-pins-help-protect-your-data-and-devices",
       "source": "NCSC UK",
@@ -3227,34 +3274,6 @@
           "apr-util"
         ],
         "action": "Update the apr-util package to the latest security release.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6436-1 chromium - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00347.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-08-13T00:00:00.000Z",
-      "summary": "Security issues were discovered in Chromium which could result\nin the execution of arbitrary code, denial of service, or information\ndisclosure.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6436-1",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Multiple security vulnerabilities have been discovered in the Chromium browser. These issues could potentially allow attackers to execute arbitrary code, cause a denial of service, or disclose sensitive information.",
-        "whyItMatters": "Unpatched browser vulnerabilities can be exploited by malicious actors to compromise user systems or sensitive data.",
-        "affected": [
-          "Chromium"
-        ],
-        "action": "Update Chromium to the latest version provided by your vendor.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -4800,10 +4819,10 @@
       "cves": [
         "CVE-2026-72898"
       ],
-      "kev": false,
+      "kev": true,
       "poc": false,
       "severity": "critical",
-      "breaking": false,
+      "breaking": true,
       "readTimeMin": 1,
       "aiSummary": {
         "summary": "A critical, unauthenticated SQL injection vulnerability has been disclosed in the password reset functionality of self-hosted Metabase. Organizations running affected instances are urged to take immediate action to secure their environments.",
@@ -4894,6 +4913,34 @@
         "affected": [],
         "action": "Monitor network traffic for unauthorized interactions with Polygon smart contracts associated with malicious activity.",
         "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Meta’s Ray-Bans are being banned from pubs, restaurants, and theatres",
+      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/meta-ray-ban-banned-pubs-restaurants-theatres",
+      "source": "Graham Cluley",
+      "publishedAt": "2026-08-10T19:31:19.000Z",
+      "summary": "A growing number of UK venues have decided to act against privacy-busting smart glasses.\r\n\r\nRead more in my article on the Hot for Security blog.",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A growing number of UK venues, including pubs, restaurants, and theatres, are banning Meta's Ray-Ban smart glasses over privacy concerns. These establishments are taking proactive steps to protect patron privacy from the recording capabilities of the wearable devices.",
+        "whyItMatters": "This highlights the increasing social and regulatory friction between wearable smart technology and physical privacy expectations in public spaces.",
+        "affected": [
+          "Meta Ray-Ban smart glasses"
+        ],
+        "action": "Be aware of venue policies regarding smart glasses when visiting public establishments in the UK.",
+        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
@@ -5189,10 +5236,10 @@
       "cves": [
         "CVE-2026-63077"
       ],
-      "kev": false,
+      "kev": true,
       "poc": false,
       "severity": "critical",
-      "breaking": false,
+      "breaking": true,
       "readTimeMin": 1,
       "aiSummary": {
         "summary": "Overview\nOn July 27, 2026, JetBrains published a security advisory for CVE-2026-63077, a critical unsafe deserialization vulnerability affecting JetBrains TeamCity. An attacker who can reach a TeamCity server over HTTP o",
@@ -5756,45 +5803,6 @@
         "action": "Update Python to a patched version once available.",
         "risk": "High",
         "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-18656 & CVE-2026-18657 - Issue with Kiro IDE and CLI - Executable Resolution from Untrusted Project Directory on Windows",
-      "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-074-aws/",
-      "source": "AWS Security Bulletins",
-      "publishedAt": "2026-08-04T19:43:11.000Z",
-      "summary": "Bulletin ID: 2026-074-AWS\n Scope: AWS\n Content Type: Important (requires attention)\n Publication Date: 08/04/2026 12:30 PM PDT\n \nDescription:\n \nKiro is an agentic IDE and command-line interface users install on their des",
-      "categories": [
-        "Vulnerability",
-        "Cloud"
-      ],
-      "tags": [
-        "Windows",
-        "AWS"
-      ],
-      "cves": [
-        "CVE-2026-18656",
-        "CVE-2026-18657"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "AWS has issued a security bulletin regarding Kiro IDE and CLI on Windows due to an executable resolution issue from untrusted project directories. This vulnerability, tracked as CVE-2026-18656 and CVE-2026-18657, presents potential security risks for users running the affected software.",
-        "whyItMatters": "It matters because attackers could exploit the untrusted directory resolution to execute arbitrary code on Windows systems.",
-        "affected": [
-          "Kiro IDE",
-          "Kiro CLI"
-        ],
-        "action": "Review the AWS security bulletin and update the affected software.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-18656",
-          "CVE-2026-18657"
-        ],
         "source": "ai"
       }
     }
