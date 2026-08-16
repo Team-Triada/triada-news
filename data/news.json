@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T11:32:29.111Z",
+  "updatedAt": "2026-08-16T12:58:53.856Z",
   "items": [
     {
       "title": "Stopping a cyberattack while walking your dog - defensive AI security CEO says it's not ruff to do",
@@ -57,6 +57,38 @@
           "Metabase"
         ],
         "action": "Review enterprise portal security configurations and apply available patches immediately.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6443-1 docker.io - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00354.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-08-16T00:00:00.000Z",
+      "summary": "Multiple vulnerabilities were discovered in the Docker container engine\nand in the bundled BuildKit build toolkit, which may result in privilege\nescalation, arbitrary file access on the host, or bypass of authorization\np",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Docker"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple vulnerabilities have been discovered in the Docker container engine and its bundled BuildKit build toolkit. These security flaws could potentially lead to privilege escalation, arbitrary file access on the host system, or the bypass of authorization controls.",
+        "whyItMatters": "These vulnerabilities pose a significant threat to container security, potentially allowing attackers to compromise the host system and bypass crucial access controls.",
+        "affected": [
+          "docker.io",
+          "BuildKit"
+        ],
+        "action": "Update the docker.io package to the latest security release.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -4364,35 +4396,6 @@
         "whyItMatters": "This resilient architecture allows the botnet to evade traditional takedown methods and detection by blending in with legitimate browser traffic and decentralized infrastructure.",
         "affected": [],
         "action": "Monitor network traffic for anomalous behavior masking as Chrome requests and block known malicious Ethereum addresses.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6435-1 spip - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00345.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-08-12T00:00:00.000Z",
-      "summary": "Several vulnerabilities were discovered in SPIP, a website engine for\npublishing, which could result in remote code execution, SQL injection\nand server-side request forgery.\n\n\nhttps://security-tracker.debian.org/tracker/",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Multiple vulnerabilities have been discovered in the SPIP website publishing engine. These security flaws could potentially allow attackers to achieve remote code execution, perform SQL injection, or execute server-side request forgery.",
-        "whyItMatters": "Unpatched vulnerabilities in content management systems like SPIP can be exploited by attackers to compromise underlying servers and steal sensitive data.",
-        "affected": [
-          "SPIP"
-        ],
-        "action": "Update SPIP to the latest patched version provided by your distributor.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
