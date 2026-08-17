@@ -1,6 +1,138 @@
 {
-  "updatedAt": "2026-08-17T16:45:07.451Z",
+  "updatedAt": "2026-08-17T17:44:15.659Z",
   "items": [
+    {
+      "title": "[In preview] Public Preview: Azure Linux on WSL",
+      "link": "https://azure.microsoft.com/updates?id=569376",
+      "source": "Azure Updates",
+      "publishedAt": "2026-08-17T17:08:40.000Z",
+      "summary": "Azure Linux on WSL is now available in Public Preview (Beta).  Extending Azure Linux to the developer workstation means that teams can now:Validate behavior using production-aligned configurationsReproduce issues more re",
+      "categories": [
+        "Cloud"
+      ],
+      "tags": [
+        "Linux",
+        "Azure"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft has announced the public preview of Azure Linux on the Windows Subsystem for Linux (WSL). This development allows developer teams to validate software behavior using production-aligned configurations directly on their workstations.",
+        "whyItMatters": "It matters because it helps developers catch environment-specific issues early by using the same Linux distribution locally that runs in production.",
+        "affected": [
+          "Azure Linux on WSL"
+        ],
+        "action": "Evaluate the Azure Linux WSL preview for local development alignment.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "SafePal latest crypto hardware wallet maker affected by breach, with nearly 40,000 impacted",
+      "link": "https://therecord.media/safepal-crypto-hardware-breach",
+      "source": "The Record",
+      "publishedAt": "2026-08-17T17:00:00.000Z",
+      "summary": "The crypto hardware wallet company SafePal confirmed a data breach on Sunday, telling users that nearly 40,000 customers had information stolen during a recent security incident.",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Crypto hardware wallet maker SafePal has confirmed a data breach affecting nearly 40,000 customers. The security incident resulted in the theft of sensitive user information.",
+        "whyItMatters": "This breach compromises the personal data of thousands of cryptocurrency users, potentially exposing them to targeted phishing attacks and further security risks.",
+        "affected": [
+          "SafePal hardware wallets"
+        ],
+        "action": "Monitor your accounts closely for suspicious activity and remain vigilant against phishing attempts.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8631-4: Linux kernel (Azure CVM) vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8631-4",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-17T16:46:13.000Z",
+      "summary": "Siebe Devroe, Héloïse Gollier, and Mathy Vanhoef discovered that the WiFi\nimplementation in the Linux kernel did not properly handle aggregated\nframes in mesh networks, due to an incorrect fix for CVE-2020-24588. A\nphysi",
+      "categories": [
+        "Vulnerability",
+        "Cloud",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux",
+        "Azure"
+      ],
+      "cves": [
+        "CVE-2020-24588"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Researchers discovered that the WiFi implementation in the Linux kernel's Azure CVM did not properly handle aggregated frames in mesh networks due to an incorrect fix for CVE-2020-24588. This flaw could potentially be exploited by attackers in proximity to the network.",
+        "whyItMatters": "Unfixed vulnerabilities in the Linux kernel WiFi stack can lead to potential network disruptions or security bypasses.",
+        "affected": [
+          "Linux kernel (Azure CVM)"
+        ],
+        "action": "Update the Linux kernel to the latest patched version provided by your distributor.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2020-24588"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8629-2: Linux kernel (AWS) vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8629-2",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-17T16:43:06.000Z",
+      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - x86 architecture;\n  - InfiniBand dri",
+      "categories": [
+        "Vulnerability",
+        "Incident Response",
+        "Cloud",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux",
+        "AWS"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Several security issues were discovered in the Linux kernel for AWS, potentially allowing system compromise by an attacker. This security update addresses and corrects underlying flaws within the x86 architecture and InfiniBand subsystems.",
+        "whyItMatters": "Unpatched vulnerabilities in cloud-based Linux kernels can allow malicious actors to compromise critical cloud infrastructure and underlying systems.",
+        "affected": [
+          "Linux kernel (AWS)"
+        ],
+        "action": "Update the Linux kernel to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "An AI broke Snowflake's code. Then another AI agent exploited it",
       "link": "https://www.theregister.com/security/2026/08/17/an-ai-broke-snowflakes-code-then-another-ai-agent-exploited-it/5288666",
@@ -315,6 +447,206 @@
         "risk": "News",
         "relatedCves": [
           "CVE-2026-62722"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-66807 Microsoft Office Graphics Component Remote Code Execution Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-66807",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-17T14:00:00.000Z",
+      "summary": "Acknowledgement Updated",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-66807"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Microsoft has published an acknowledgement update regarding CVE-2026-66807, a remote code execution vulnerability impacting the Microsoft Office Graphics Component. Further details on the vulnerability and specific updates are expected to be provided by Microsoft.",
+        "whyItMatters": "Remote code execution flaws in widely used software like Microsoft Office can allow attackers to execute arbitrary code on target systems.",
+        "affected": [
+          "Microsoft Office Graphics Component"
+        ],
+        "action": "Monitor Microsoft security advisories for patches and further guidance.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-66807"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-63519 Microsoft Office Graphics Component Remote Code Execution Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63519",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-17T14:00:00.000Z",
+      "summary": "Acknowledgement Updated",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-63519"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "A remote code execution vulnerability has been identified in the Microsoft Office Graphics Component, tracked as CVE-2026-63519. The vendor has recently provided acknowledgment updates regarding this security flaw.",
+        "whyItMatters": "This vulnerability could allow attackers to execute arbitrary code on affected systems via crafted graphical files.",
+        "affected": [
+          "Microsoft Office Graphics Component"
+        ],
+        "action": "Apply the latest security updates from Microsoft.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-63519"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-63513 Microsoft Office Graphics Component Remote Code Execution Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63513",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-17T14:00:00.000Z",
+      "summary": "Acknowledgement Updated",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-63513"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "A remote code execution vulnerability has been identified in the Microsoft Office Graphics Component, tracked as CVE-2026-63513. The advisory currently contains updated acknowledgements regarding the security flaw.",
+        "whyItMatters": "This vulnerability could allow attackers to execute arbitrary code on vulnerable systems via manipulated Office files.",
+        "affected": [
+          "Microsoft Office Graphics Component"
+        ],
+        "action": "Apply the latest security updates provided by Microsoft.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-63513"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-58612 PowerShell Information Disclosure Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58612",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-17T14:00:00.000Z",
+      "summary": "Acknowledgement Updated",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-58612"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "A newly acknowledged security flaw designated as CVE-2026-58612 has been identified as a PowerShell information disclosure vulnerability. Details regarding the specific mechanics and updates have been provided in the acknowledgement.",
+        "whyItMatters": "Information disclosure vulnerabilities can expose sensitive data to unauthorized parties, potentially compromising system security.",
+        "affected": [
+          "PowerShell"
+        ],
+        "action": "Review vendor advisories and apply available updates.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-58612"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-70337 Microsoft PowerShell Remote Code Execution Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70337",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-17T14:00:00.000Z",
+      "summary": "Acknowledgement Updated",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-70337"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Microsoft has released an acknowledgment update regarding CVE-2026-70337, a remote code execution vulnerability affecting PowerShell. Further details on the specific nature of the flaw and its remediation are expected from the vendor.",
+        "whyItMatters": "Remote code execution vulnerabilities in core components like PowerShell present severe security risks if exploited by attackers.",
+        "affected": [
+          "Microsoft PowerShell"
+        ],
+        "action": "Monitor vendor advisories for updates and patches.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-70337"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-40400 Windows PowerShell Remote Code Execution Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40400",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-17T14:00:00.000Z",
+      "summary": "Acknowledgement Updated",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [
+        "CVE-2026-40400"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Microsoft has released an update acknowledging CVE-2026-40400, a remote code execution vulnerability affecting Windows PowerShell. Further details regarding the specific nature of the flaw and its remediation have been updated in the advisory.",
+        "whyItMatters": "Remote code execution flaws in foundational components like PowerShell can allow attackers to gain unauthorized access and control over affected systems.",
+        "affected": [
+          "Windows PowerShell"
+        ],
+        "action": "Review the latest security advisories and apply available updates for Windows PowerShell.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-40400"
         ],
         "source": "ai"
       }
@@ -1689,143 +2021,6 @@
       }
     },
     {
-      "title": "CVE-2026-65769 Microsoft Teams iOS Information Disclosure Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-65769",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-16T14:00:00.000Z",
-      "summary": "Corrected build number for the security update.  This in an informational change only.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-65769"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has released an informational update regarding CVE-2026-65769, correcting the build number for a security update. The vulnerability involves an information disclosure issue in Microsoft Teams for iOS.",
-        "whyItMatters": "Accurate build tracking ensures organizations apply the correct patches to prevent unauthorized information disclosure on mobile devices.",
-        "affected": [
-          "Microsoft Teams iOS"
-        ],
-        "action": "Verify and apply the updated Microsoft Teams iOS build numbers.",
-        "risk": "Medium",
-        "relatedCves": [
-          "CVE-2026-65769"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-57104 Azure Storage Explorer Elevation of Privilege Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-57104",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-16T14:00:00.000Z",
-      "summary": "Corrected build number for the security update.  This in an informational change only.",
-      "categories": [
-        "Vulnerability",
-        "Cloud",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Azure"
-      ],
-      "cves": [
-        "CVE-2026-57104"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has released a corrected build number for the security update addressing CVE-2026-57104, an elevation of privilege vulnerability in Azure Storage Explorer. This change is purely informational to ensure accurate tracking of the patched software versions.",
-        "whyItMatters": "Accurate build numbers are essential for administrators to verify that their systems are running the correct security updates to prevent potential privilege escalation attacks.",
-        "affected": [
-          "Azure Storage Explorer"
-        ],
-        "action": "Verify and update Azure Storage Explorer to the corrected build number.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-57104"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-65767 Microsoft Teams for Android Spoofing Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-65767",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-16T14:00:00.000Z",
-      "summary": "Corrected build number for the security update.  This in an informational change only.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Android"
-      ],
-      "cves": [
-        "CVE-2026-65767"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has released an informational security update regarding CVE-2026-65767, correcting the build number for the Microsoft Teams for Android spoofing vulnerability. This change is strictly informational and does not introduce new technical mitigations.",
-        "whyItMatters": "Accurate build numbers are essential for administrators verifying that their mobile devices have successfully applied the necessary security fixes.",
-        "affected": [
-          "Microsoft Teams for Android"
-        ],
-        "action": "Verify the correct build number for Microsoft Teams on Android devices.",
-        "risk": "Medium",
-        "relatedCves": [
-          "CVE-2026-65767"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-59124 Microsoft High Performance Computing (HPC) Pack Remote Code Execution Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-59124",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-16T14:00:00.000Z",
-      "summary": "Corrected the listed software in the Security Updates table.  Microsoft recommends installing the security update as soon as possible.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-59124"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has released a security update to address CVE-2026-59124, a remote code execution vulnerability affecting the Microsoft High Performance Computing (HPC) Pack. Users and administrators should review the corrected software listing and apply the patch promptly.",
-        "whyItMatters": "Remote code execution vulnerabilities allow attackers to run arbitrary code on affected systems, potentially leading to a complete compromise.",
-        "affected": [
-          "Microsoft High Performance Computing (HPC) Pack"
-        ],
-        "action": "Install the security update as soon as possible.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-59124"
-        ],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Supply Chain Security Analysis of a 9.5M-Install VS Code Extension",
       "link": "https://projectdiscovery.io/blog/a-9-5m-install-vs-code-extension-one-markdown-file-and-a-supply-chain-foothold",
       "source": "ProjectDiscovery",
@@ -2368,100 +2563,6 @@
         "affected": [],
         "action": "Educate board members on technology risks.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-72970 Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-72970",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-14T14:00:00.000Z",
-      "summary": "Heap-based buffer overflow in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-72970"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A heap-based buffer overflow vulnerability has been identified in Microsoft Edge, which is based on the Chromium engine. This security flaw allows an unauthorized remote attacker to execute arbitrary code over the network.",
-        "whyItMatters": "It matters because it allows remote attackers to execute arbitrary code on user systems, potentially leading to a complete compromise of the affected machine.",
-        "affected": [
-          "Microsoft Edge (Chromium-based)"
-        ],
-        "action": "Update Microsoft Edge to the latest patched version immediately.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-72970"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-61347 Windows Event Logging Service Information Disclosure Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-61347",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-14T14:00:00.000Z",
-      "summary": "Acknowledgement Updated",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [
-        "CVE-2026-61347"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "A newly acknowledged information disclosure vulnerability has been identified in the Windows Event Logging Service, designated as CVE-2026-61347. Specific details regarding the exploit mechanism and remediation steps are currently limited.",
-        "whyItMatters": "Information disclosure flaws can allow unauthorized actors to access sensitive system data, potentially aiding in further attacks against the network.",
-        "affected": [
-          "Microsoft Windows Event Logging Service"
-        ],
-        "action": "Monitor vendor advisories for official patches and updates.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-61347"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "France investigates tax authority breach after hacker claims 600,000 victims",
-      "link": "https://therecord.media/french-tax-authority-dgfip-confirms-data-breach",
-      "source": "The Record",
-      "publishedAt": "2026-08-14T13:14:15.000Z",
-      "summary": "French authorities confirmed that someone gained unauthorized access to systems at the Directorate General of Public Finances in late June after stealing or misusing someone’s identity.",
-      "categories": [
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "French authorities confirmed an unauthorized access incident at the Directorate General of Public Finances in late June. The breach occurred after an attacker stole or misused a valid identity to compromise the systems.",
-        "whyItMatters": "This incident potentially compromises sensitive tax data for a massive number of individuals, raising significant privacy and security concerns.",
-        "affected": [],
-        "action": "Monitor accounts for suspicious activity and await official guidance from French tax authorities.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -3227,76 +3328,6 @@
         "action": "Read the newsletter for further insights.",
         "risk": "News",
         "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8637-1: Linux kernel (OEM) vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8637-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-13T17:59:27.000Z",
-      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - x86 architecture;\n  - InfiniBand dri",
-      "categories": [
-        "Vulnerability",
-        "Incident Response",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several security issues were discovered in the Linux kernel OEM. An attacker could potentially exploit these flaws to compromise the affected system.",
-        "whyItMatters": "Unpatched kernel vulnerabilities can allow attackers to compromise the entire system, leading to unauthorized access and control.",
-        "affected": [
-          "Linux kernel (OEM)"
-        ],
-        "action": "Update the Linux kernel to the latest version provided by your distributor.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8631-2: Linux kernel (Oracle) vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8631-2",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-13T17:54:26.000Z",
-      "summary": "Siebe Devroe, Héloïse Gollier, and Mathy Vanhoef discovered that the WiFi\nimplementation in the Linux kernel did not properly handle aggregated\nframes in mesh networks, due to an incorrect fix for CVE-2020-24588. A\nphysi",
-      "categories": [
-        "Vulnerability",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux",
-        "Oracle"
-      ],
-      "cves": [
-        "CVE-2020-24588"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Researchers discovered a vulnerability in the Linux kernel's WiFi implementation regarding aggregated frames in mesh networks. This issue stems from an incorrect fix for a previous vulnerability, CVE-2020-24588.",
-        "whyItMatters": "Flaws in the Linux kernel WiFi stack can potentially allow attackers to compromise affected mesh networks.",
-        "affected": [
-          "Linux kernel"
-        ],
-        "action": "Update the Linux kernel to the latest patched version provided by Oracle.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2020-24588"
-        ],
         "source": "ai"
       }
     },
@@ -4196,37 +4227,6 @@
           "Azure Front Door"
         ],
         "action": "Review the documentation to enable and test mutual TLS in the Azure Front Door preview.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "[In preview] Public Preview: Markdown for Agents in Azure App Service",
-      "link": "https://azure.microsoft.com/updates?id=568979",
-      "source": "Azure Updates",
-      "publishedAt": "2026-08-12T16:38:31.000Z",
-      "summary": "Today, we are announcing the public preview of Markdown for Agents in Azure App Service. This feature gives AI agents and other tools a cleaner way to consume content from an App Service app. When a client requests Markd",
-      "categories": [
-        "Cloud",
-        "AI Security"
-      ],
-      "tags": [
-        "Azure"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has announced the public preview of Markdown for Agents in Azure App Service. This feature allows AI agents and other tools to consume content from an App Service app in a cleaner format.",
-        "whyItMatters": "It introduces a new content delivery mechanism for AI integrations within Azure App Service.",
-        "affected": [
-          "Azure App Service"
-        ],
-        "action": "Review the preview documentation if using AI agents with Azure App Service.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
