@@ -1,6 +1,35 @@
 {
-  "updatedAt": "2026-08-17T17:44:15.659Z",
+  "updatedAt": "2026-08-17T18:55:54.598Z",
   "items": [
+    {
+      "title": "USN-8640-1: Engrampa vulnerability",
+      "link": "https://ubuntu.com/security/notices/USN-8640-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-17T17:29:24.000Z",
+      "summary": "It was discovered that Engrampa incorrectly handled symbolic links when\nextracting certain archives. An attacker could possibly use this issue to\nwrite arbitrary files and execute arbitrary code.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A vulnerability was discovered in Engrampa where it improperly handles symbolic links during the extraction of certain archives. This flaw could potentially allow an attacker to write arbitrary files to the system and execute arbitrary code.",
+        "whyItMatters": "This vulnerability matters because it allows remote attackers to achieve arbitrary code execution through crafted archive files.",
+        "affected": [
+          "Engrampa"
+        ],
+        "action": "Update Engrampa to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "[In preview] Public Preview: Azure Linux on WSL",
       "link": "https://azure.microsoft.com/updates?id=569376",
@@ -551,39 +580,6 @@
       }
     },
     {
-      "title": "CVE-2026-58612 PowerShell Information Disclosure Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58612",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-17T14:00:00.000Z",
-      "summary": "Acknowledgement Updated",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-58612"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "A newly acknowledged security flaw designated as CVE-2026-58612 has been identified as a PowerShell information disclosure vulnerability. Details regarding the specific mechanics and updates have been provided in the acknowledgement.",
-        "whyItMatters": "Information disclosure vulnerabilities can expose sensitive data to unauthorized parties, potentially compromising system security.",
-        "affected": [
-          "PowerShell"
-        ],
-        "action": "Review vendor advisories and apply available updates.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-58612"
-        ],
-        "source": "ai"
-      }
-    },
-    {
       "title": "CVE-2026-70337 Microsoft PowerShell Remote Code Execution Vulnerability",
       "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70337",
       "source": "Microsoft MSRC",
@@ -617,8 +613,8 @@
       }
     },
     {
-      "title": "CVE-2026-40400 Windows PowerShell Remote Code Execution Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40400",
+      "title": "CVE-2026-58612 PowerShell Information Disclosure Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58612",
       "source": "Microsoft MSRC",
       "publishedAt": "2026-08-17T14:00:00.000Z",
       "summary": "Acknowledgement Updated",
@@ -626,11 +622,75 @@
         "Vulnerability",
         "Vendor Advisory"
       ],
-      "tags": [
-        "Windows"
-      ],
+      "tags": [],
       "cves": [
-        "CVE-2026-40400"
+        "CVE-2026-58612"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "A newly acknowledged security flaw designated as CVE-2026-58612 has been identified as a PowerShell information disclosure vulnerability. Details regarding the specific mechanics and updates have been provided in the acknowledgement.",
+        "whyItMatters": "Information disclosure vulnerabilities can expose sensitive data to unauthorized parties, potentially compromising system security.",
+        "affected": [
+          "PowerShell"
+        ],
+        "action": "Review vendor advisories and apply available updates.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-58612"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-62886 .NET Elevation of Privilege Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62886",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-17T14:00:00.000Z",
+      "summary": "Acknowledgement Updated",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-62886"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Microsoft has published an acknowledgement update regarding CVE-2026-62886, a .NET elevation of privilege vulnerability. Further details about the specific impacts and technical scope of this advisory remain limited.",
+        "whyItMatters": "Elevation of privilege vulnerabilities can allow unauthorized local users to gain elevated system access, potentially compromising the entire host.",
+        "affected": [
+          ".NET"
+        ],
+        "action": "Monitor Microsoft security advisories for patches and updated guidance.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-62886"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-63518 Microsoft Office Word Remote Code Execution Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63518",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-17T14:00:00.000Z",
+      "summary": "Acknowledgement Updated",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-63518"
       ],
       "kev": false,
       "poc": false,
@@ -638,15 +698,15 @@
       "breaking": false,
       "readTimeMin": 2,
       "aiSummary": {
-        "summary": "Microsoft has released an update acknowledging CVE-2026-40400, a remote code execution vulnerability affecting Windows PowerShell. Further details regarding the specific nature of the flaw and its remediation have been updated in the advisory.",
-        "whyItMatters": "Remote code execution flaws in foundational components like PowerShell can allow attackers to gain unauthorized access and control over affected systems.",
+        "summary": "Microsoft has acknowledged CVE-2026-63518, a remote code execution vulnerability affecting Microsoft Office Word. Few specific details have been provided regarding the nature of the exploit or remediation.",
+        "whyItMatters": "Remote code execution flaws in widely used applications like Microsoft Office Word pose severe risks of system compromise.",
         "affected": [
-          "Windows PowerShell"
+          "Microsoft Office Word"
         ],
-        "action": "Review the latest security advisories and apply available updates for Windows PowerShell.",
+        "action": "Monitor vendor advisories for updates and patches.",
         "risk": "High",
         "relatedCves": [
-          "CVE-2026-40400"
+          "CVE-2026-63518"
         ],
         "source": "ai"
       }
@@ -1988,39 +2048,6 @@
       }
     },
     {
-      "title": "CVE-2026-65768 Microsoft Teams Remote Code Execution Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-65768",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-16T14:00:00.000Z",
-      "summary": "Corrected build number for the security update.  This in an informational change only.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-65768"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has released an informational update regarding the build number for CVE-2026-65768, a remote code execution vulnerability affecting Microsoft Teams. This correction is strictly for informational purposes to ensure accurate tracking of the security update.",
-        "whyItMatters": "Accurate build numbers are essential for administrators to verify that their systems are properly patched against remote code execution threats.",
-        "affected": [
-          "Microsoft Teams"
-        ],
-        "action": "Verify the correct build number for your Microsoft Teams deployment.",
-        "risk": "Medium",
-        "relatedCves": [
-          "CVE-2026-65768"
-        ],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Supply Chain Security Analysis of a 9.5M-Install VS Code Extension",
       "link": "https://projectdiscovery.io/blog/a-9-5m-install-vs-code-extension-one-markdown-file-and-a-supply-chain-foothold",
       "source": "ProjectDiscovery",
@@ -3275,33 +3302,6 @@
         "relatedCves": [
           "CVE-2026-59310"
         ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8638-1: Axios vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8638-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-13T19:31:14.000Z",
-      "summary": "Ameer Assadi discovered that Axios did not properly handle certain\nhostnames when applying NO_PROXY rules. An attacker could possibly use\nthis issue to bypass proxy restrictions and access internal services,\nresulting in",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Axios contains vulnerabilities related to the improper handling of certain hostnames when applying NO_PROXY rules. This flaw could potentially allow an attacker to bypass proxy restrictions and gain unauthorized access to internal services.",
-        "whyItMatters": "It matters because attackers can exploit this flaw to bypass network controls and access sensitive internal services.",
-        "affected": [],
-        "action": "Update Axios to the latest patched version.",
-        "risk": "High",
-        "relatedCves": [],
         "source": "ai"
       }
     },
