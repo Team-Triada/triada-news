@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-08-17T14:42:30.888Z",
+  "updatedAt": "2026-08-17T15:37:24.406Z",
   "items": [
+    {
+      "title": "Microsoft confirms GitHub is down worldwide",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-github-is-down-worldwide/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-08-17T14:47:08.000Z",
+      "summary": "GitHub is down for some users as a widespread outage is causing errors across the website, API, Actions, Pull Requests, and several other services. [...]",
+      "categories": [
+        "Open Source"
+      ],
+      "tags": [
+        "GitHub"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "high",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "GitHub is currently experiencing a worldwide outage affecting the website, API, Actions, and Pull Requests. Users globally are reporting various errors across multiple platform services.",
+        "whyItMatters": "This disruption halts developer workflows, CI/CD pipelines, and project management for millions of users and organizations worldwide.",
+        "affected": [
+          "GitHub"
+        ],
+        "action": "Monitor GitHub's official status page for updates on service restoration.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Apple Screen Sharing Security, (Mon, Aug 17th)",
       "link": "https://isc.sans.edu/diary/rss/33252",
@@ -61,6 +91,32 @@
       }
     },
     {
+      "title": "An “invisible” car? Researcher uses machine learning to hide vehicles from Flock cameras",
+      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/invisible-car-machine-learning-hide-vehicle-flock-cameras",
+      "source": "Graham Cluley",
+      "publishedAt": "2026-08-17T14:10:48.000Z",
+      "summary": "A cybersecurity expert has demonstrated how computer-generated patterns can successfully prevent surveillance cameras from detecting vehicles - such as the controversial AI-powered Flock licence plate readers that are be",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A cybersecurity researcher demonstrated how computer-generated patterns can prevent surveillance cameras from detecting vehicles. The technique successfully hides cars from AI-powered Flock license plate readers.",
+        "whyItMatters": "This technique highlights potential vulnerabilities in automated surveillance systems used by law enforcement.",
+        "affected": [],
+        "action": "Monitor developments in adversarial machine learning against computer vision systems.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "Certighost and the Privilege Hiding in Your Certificate Authority",
       "link": "https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority/",
       "source": "BleepingComputer",
@@ -86,6 +142,37 @@
         "risk": "Critical",
         "relatedCves": [
           "CVE-2026-54121"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-62722 Microsoft Brokering File System Elevation of Privilege Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62722",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-17T14:00:00.000Z",
+      "summary": "Corrected the CVE description and title. This is an informational change only.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-62722"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft has corrected the description and title for CVE-2026-62722, which involves a Brokering File System elevation of privilege vulnerability. This update is strictly informational and does not introduce new technical fixes or functional changes.",
+        "whyItMatters": "Accurate vulnerability documentation is essential for security teams to properly assess and prioritize risks within their environments.",
+        "affected": [],
+        "action": "Review the updated CVE documentation for awareness.",
+        "risk": "News",
+        "relatedCves": [
+          "CVE-2026-62722"
         ],
         "source": "ai"
       }
@@ -1393,34 +1480,6 @@
       }
     },
     {
-      "title": "Large-scale DDoS attacks disrupted Threema secure messaging service",
-      "link": "https://www.bleepingcomputer.com/news/security/large-scale-ddos-attacks-disrupted-threema-secure-messaging-service/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-08-16T17:29:52.000Z",
-      "summary": "Multiple distributed denial-of-service (DDoS) attacks targeted the Threema secure messaging service earlier this week, causing severe disruptions to communications. [...]",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Multiple distributed denial-of-service attacks recently targeted the Threema secure messaging service. These attacks caused severe disruptions to communications for users of the platform.",
-        "whyItMatters": "It highlights the vulnerability of secure communication platforms to availability disruptions from DDoS attacks.",
-        "affected": [
-          "Threema"
-        ],
-        "action": "Monitor Threema status updates for service restoration details.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "CVE-2026-65768 Microsoft Teams Remote Code Execution Vulnerability",
       "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-65768",
       "source": "Microsoft MSRC",
@@ -2229,39 +2288,6 @@
         "risk": "High",
         "relatedCves": [
           "CVE-2026-61347"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-62746 Win32k Information Disclosure Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62746",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-14T14:00:00.000Z",
-      "summary": "Acknowledgement Updated",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-62746"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "A cybersecurity vulnerability identified as CVE-2026-62746 affects Win32k and involves an information disclosure flaw. The advisory has recently received an updated acknowledgement from its source.",
-        "whyItMatters": "Information disclosure vulnerabilities can allow attackers to access sensitive data, potentially aiding further exploitation of the affected system.",
-        "affected": [
-          "Win32k"
-        ],
-        "action": "Monitor vendor advisories for official patches and updates.",
-        "risk": "Medium",
-        "relatedCves": [
-          "CVE-2026-62746"
         ],
         "source": "ai"
       }
@@ -5752,34 +5778,6 @@
         ],
         "action": "Review advisory for affected versions and patch on your normal cycle.",
         "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Why metaphor may dictate your security strategy",
-      "link": "https://blog.talosintelligence.com/why-metaphor-may-dictate-your-security-strategy/",
-      "source": "Talos Intelligence",
-      "publishedAt": "2026-08-06T18:00:01.000Z",
-      "summary": "In this week's newsletter, Martin looks at how the metaphors we use to describe AI \"escaping\" its sandbox can completely change how we react to the threat.",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "In this week's newsletter, Martin looks at how the metaphors we use to describe AI \"escaping\" its sandbox can completely change how we react to the threat.",
-        "whyItMatters": "Background context — no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required — informational.",
-        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
