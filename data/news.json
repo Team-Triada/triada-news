@@ -1,6 +1,149 @@
 {
-  "updatedAt": "2026-08-17T13:51:51.716Z",
+  "updatedAt": "2026-08-17T14:42:30.888Z",
   "items": [
+    {
+      "title": "Apple Screen Sharing Security, (Mon, Aug 17th)",
+      "link": "https://isc.sans.edu/diary/rss/33252",
+      "source": "SANS ISC",
+      "publishedAt": "2026-08-17T14:33:58.000Z",
+      "summary": "About 20 years ago, with macOS 10.5 (Leopard), Apple introduced screen sharing. Apple did not invent a new protocol for screen sharing. Instead, it used the established VNC protocol. VNC is a pretty simple, unencrypted p",
+      "categories": [
+        "News"
+      ],
+      "tags": [
+        "macOS",
+        "Apple"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Apple's long-standing screen sharing feature, introduced in macOS 10.5 Leopard about 20 years ago, utilizes the established VNC protocol. VNC was chosen instead of a proprietary protocol, but it operates as a simple and unencrypted system.",
+        "whyItMatters": "Using an unencrypted protocol for screen sharing exposes remote sessions to potential interception and eavesdropping risks.",
+        "affected": [
+          "macOS 10.5 Leopard and later"
+        ],
+        "action": "Use encrypted tunneling or secure alternatives when utilizing Apple screen sharing.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "France’s tax authority admits hackers made off with data on 678,000 individuals",
+      "link": "https://www.helpnetsecurity.com/2026/08/17/france-tax-authority-data-breach/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-08-17T14:20:20.000Z",
+      "summary": "France’s tax authority has disclosed a data breach after an attacker accessed the General Directorate of Public Finances (DGFiP) systems, saying the intrusion exposed data on 678,000 individuals and professionals. The in",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "France's tax authority, the DGFiP, suffered a data breach where hackers accessed internal systems. The incident resulted in the exposure of personal and professional data belonging to 678,000 individuals.",
+        "whyItMatters": "This massive exposure of taxpayer data creates a severe risk of targeted phishing, identity theft, and financial fraud for hundreds of thousands of victims.",
+        "affected": [
+          "DGFiP systems"
+        ],
+        "action": "Monitor affected accounts for suspicious activity and remain vigilant against targeted phishing attempts.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Certighost and the Privilege Hiding in Your Certificate Authority",
+      "link": "https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-08-17T14:00:10.000Z",
+      "summary": "CVE-2026-54121 lets a standard domain user turn your Enterprise CA into a Domain Controller. The patch is the easy part. The lesson is standing privilege, implicit trust, and treating PKI as the Tier 0 identity infrastru",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-54121"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "CVE-2026-54121 is a security vulnerability allowing a standard domain user to escalate privileges and turn an Enterprise Certificate Authority into a Domain Controller. While applying the patch is straightforward, the issue highlights the dangers of standing privilege and implicit trust within Public Key Infrastructure.",
+        "whyItMatters": "It matters because it demonstrates how PKI can be dangerously exploited as Tier 0 identity infrastructure to achieve full domain compromise from a low-privileged account.",
+        "affected": [],
+        "action": "Apply the vendor-provided patch immediately and audit your Enterprise CA permissions.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-54121"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "680,000 Impacted by French Tax Authority Data Breach",
+      "link": "https://www.securityweek.com/680000-impacted-by-french-tax-authority-data-breach/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-08-17T13:53:55.000Z",
+      "summary": "Hackers used compromised credentials to access enterprise and personal tax-related data.\nThe post 680,000 Impacted by French Tax Authority Data Breach appeared first on SecurityWeek.",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Hackers utilized compromised credentials to breach the French tax authority, compromising enterprise and personal tax-related data. The security incident has impacted approximately 680,000 individuals and organizations.",
+        "whyItMatters": "This breach exposes sensitive financial and personal data of hundreds of thousands of taxpayers, highlighting the risks of compromised credentials in government systems.",
+        "affected": [],
+        "action": "Monitor accounts for suspicious activity and review credential security.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Fortinet expands AI security portfolio with Virtue AI acquisition",
+      "link": "https://www.helpnetsecurity.com/2026/08/17/fortinet-virtue-ai-acquisition/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-08-17T13:52:00.000Z",
+      "summary": "Fortinet has acquired Virtue AI, strengthening its broader Security for AI strategy and its vision for securing the agentic enterprise. The acquisition builds on Fortinet’s existing AI security portfolio, which includes ",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [
+        "Fortinet"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Fortinet has acquired Virtue AI to strengthen its security portfolio and support its vision for securing the agentic enterprise. This acquisition expands the company's existing artificial intelligence security capabilities.",
+        "whyItMatters": "It signals Fortinet's strategic expansion into artificial intelligence security to address emerging enterprise risks.",
+        "affected": [],
+        "action": "Monitor Fortinet's product updates for new AI security integration features.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "17th August – Threat Intelligence Report",
       "link": "https://research.checkpoint.com/2026/17th-august-threat-intelligence-report/",
@@ -23,6 +166,34 @@
         "whyItMatters": "Government institutions remain prime targets for ransomware attacks, which can severely disrupt public services and compromise sensitive data.",
         "affected": [],
         "action": "Review government cybersecurity measures and ensure robust ransomware defenses are in place.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "ShieldBreak bypasses Microsoft’s patch for earlier Defender flaw",
+      "link": "https://www.malwarebytes.com/blog/bugs/2026/08/shieldbreak-bypasses-microsofts-patch-for-earlier-defender-flaw",
+      "source": "Malwarebytes Labs",
+      "publishedAt": "2026-08-17T13:34:31.000Z",
+      "summary": "The researcher who found RoguePlanet has discovered ShieldBreak, a new way to bypass Microsoft’s fix and gain SYSTEM privileges.",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A security researcher has discovered a new technique called ShieldBreak that bypasses Microsoft's previous patch for a Windows Defender vulnerability. This bypass allows attackers to successfully gain elevated SYSTEM privileges on target systems.",
+        "whyItMatters": "It leaves systems vulnerable to privilege escalation despite applying official security updates.",
+        "affected": [
+          "Microsoft Defender"
+        ],
+        "action": "Monitor for official guidance and patches from Microsoft.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -54,6 +225,35 @@
         ],
         "action": "Update the User Profile Builder plugin immediately.",
         "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More",
+      "link": "https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-17T13:23:51.000Z",
+      "summary": "The expensive attacks are not always the clever ones.\n\nThis week had plenty of proof. Exposed services got hit, old bugs found fresh use, browser sessions became attack paths, and supply-chain problems kept spreading far",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [
+        "Windows",
+        "VMware"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "This weekly cybersecurity recap highlights various attacks involving exposed services, reused old bugs, and compromised browser sessions. It also notes the ongoing spread of supply-chain vulnerabilities.",
+        "whyItMatters": "Understanding these diverse attack vectors helps organizations prioritize defenses against both novel exploits and persistent threats targeting exposed infrastructure.",
+        "affected": [],
+        "action": "Review your organization's exposure to recently reported vulnerabilities and secure exposed services.",
+        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
@@ -1023,32 +1223,6 @@
       }
     },
     {
-      "title": "When companies get specific about AI, revenue growth looks different",
-      "link": "https://www.helpnetsecurity.com/2026/08/17/ai-adoption-revenue-growth-research/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-08-17T04:00:30.000Z",
-      "summary": "Companies that provide specific evidence of how they use AI tend to record stronger revenue growth. Researchers at Carnegie Mellon University and Larridin examined a study universe of 564 companies across 12 industry sec",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Researchers at Carnegie Mellon University and Larridin analyzed 564 companies across 12 industry sectors regarding their artificial intelligence usage. The study found that companies providing specific evidence of how they use AI tend to record stronger revenue growth.",
-        "whyItMatters": "This highlights a correlation between transparent AI adoption and positive financial performance.",
-        "affected": [],
-        "action": "Review organizational disclosures regarding artificial intelligence usage.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Microsoft blames AI for delayed Exchange update, can’t say when it will arrive",
       "link": "https://www.theregister.com/software/2026/08/17/microsoft-blames-ai-for-delayed-exchange-update-cant-say-when-it-will-arrive/5288227",
       "source": "The Register",
@@ -1241,36 +1415,6 @@
           "Threema"
         ],
         "action": "Monitor Threema status updates for service restoration details.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "New AmnesiaStealer macOS malware hijacks browser sessions via remote control",
-      "link": "https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-08-16T15:07:44.000Z",
-      "summary": "A new information-stealing malware called AmnesiaStealer, which targets macOS users via ClickFix attacks, includes a streaming module that allows the attacker to interactively control the victim's web browser. [...]",
-      "categories": [
-        "Malware"
-      ],
-      "tags": [
-        "macOS"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A new macOS information-stealing malware called AmnesiaStealer targets users through ClickFix attacks to steal data. It features a unique streaming module that enables attackers to interactively control the victim's web browser remotely.",
-        "whyItMatters": "This malware poses a severe threat because it goes beyond passive data theft to grant attackers active, real-time control over compromised browser sessions.",
-        "affected": [
-          "macOS"
-        ],
-        "action": "Avoid clicking suspicious links or executing untrusted scripts on macOS.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -1494,41 +1638,6 @@
         "affected": [],
         "action": "Monitor developments in defensive AI security platforms.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Week in review: Salesforce and ServiceNow portals exposed for 17 months, exploited Metabase 0-day",
-      "link": "https://www.helpnetsecurity.com/2026/08/16/week-in-review-salesforce-and-servicenow-portals-exposed-for-17-months-exploited-metabase-0-day/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-08-16T08:00:56.000Z",
-      "summary": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: GitHub Dependabot malware alerts now cover eight ecosystems GitHub has flagged npm malware since March 2026. Anyone pullin",
-      "categories": [
-        "Malware",
-        "Vulnerability",
-        "Incident Response",
-        "Open Source"
-      ],
-      "tags": [
-        "GitHub"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A recent review highlights significant cybersecurity events, including the long-term exposure of Salesforce and ServiceNow portals and the exploitation of a Metabase zero-day vulnerability. Additionally, GitHub has expanded its Dependabot malware alerts to cover eight different ecosystems.",
-        "whyItMatters": "Unsecured enterprise portals and zero-day exploits pose severe risks of unauthorized data access and system compromise for organizations.",
-        "affected": [
-          "Salesforce portals",
-          "ServiceNow portals",
-          "Metabase"
-        ],
-        "action": "Audit enterprise portals and update affected software immediately.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -1952,32 +2061,6 @@
       }
     },
     {
-      "title": "IAM Compliance Requirements and Best Practices",
-      "link": "https://thehackernews.com/2026/08/iam-compliance-requirements-and-best.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-14T17:19:49.000Z",
-      "summary": "IAM compliance is the practice of demonstrating that identity and access controls are not only documented but actually enforced across users, applications, infrastructure, and non-human identities. This guide explains wh",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "This article discusses IAM compliance, which is the practice of demonstrating that identity and access controls are effectively enforced across users, applications, and infrastructure. It serves as a guide for organizations looking to meet compliance requirements and adopt best practices for access management.",
-        "whyItMatters": "Proper IAM compliance is essential for preventing unauthorized access and maintaining robust security postures across organizational assets.",
-        "affected": [],
-        "action": "Review and enforce IAM compliance policies across your infrastructure.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Upcoming Speaking Engagements",
       "link": "https://www.schneier.com/blog/archives/2026/08/upcoming-speaking-engagements-59.html",
       "source": "Schneier on Security",
@@ -2343,34 +2426,6 @@
         "affected": [],
         "action": "Review the full news reports for specific mitigation guidance related to these incidents.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Trivy, Not LiteLLM Behind the 2,500 Org Compromise",
-      "link": "https://www.securityweek.com/trivy-not-litellm-behind-the-2500-org-compromise/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-08-14T11:35:23.000Z",
-      "summary": "Over 95% of the affected companies were exposed before the malicious LiteLLM packages were published.\nThe post Trivy, Not LiteLLM Behind the 2,500 Org Compromise appeared first on SecurityWeek.",
-      "categories": [
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Recent investigations reveal that Trivy, rather than LiteLLM, is responsible for the security incidents affecting over 2,500 organizations. Over 95% of the impacted companies were exposed prior to the publication of the malicious LiteLLM packages.",
-        "whyItMatters": "Correctly identifying the root cause of large-scale organizational compromises is crucial for effective incident response and remediation.",
-        "affected": [
-          "Trivy"
-        ],
-        "action": "Verify your organization's exposure to Trivy and review recent security advisories.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -3715,32 +3770,6 @@
       }
     },
     {
-      "title": "Parents take on Meta, TikTok, Google, and Snap in 3,000 youth safety lawsuits",
-      "link": "https://www.malwarebytes.com/blog/privacy/2026/08/parents-take-on-meta-tiktok-google-and-snap-in-3000-youth-safety-lawsuits",
-      "source": "Malwarebytes Labs",
-      "publishedAt": "2026-08-13T09:59:48.000Z",
-      "summary": "It's the biggest legal challenge yet to addictive social media design and its impact on children.",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Parents have filed approximately 3,000 lawsuits against major social media companies including Meta, TikTok, Google, and Snap. This legal action targets the addictive design features of these platforms and their negative impacts on children.",
-        "whyItMatters": "This massive litigation campaign could fundamentally change how social media platforms design algorithms and features targeted at youth safety.",
-        "affected": [],
-        "action": "Monitor legal developments regarding social media youth safety regulations.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Black Hat USA 2026: What the Hugging Face hack tells us about human responsibility",
       "link": "https://www.welivesecurity.com/en/business-security/black-hat-usa-2026-hugging-face-hack-human-responsibility/",
       "source": "WeLiveSecurity",
@@ -4821,37 +4850,6 @@
         "affected": [],
         "action": "Monitor ongoing federal investigations and review in-flight network security controls.",
         "risk": "Medium",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
-      "link": "https://isc.sans.edu/diary/rss/33236",
-      "source": "SANS ISC",
-      "publishedAt": "2026-08-11T17:54:49.000Z",
-      "summary": "This month we got patches for 418 vulnerabilities. Of these, 62 are critical, 1 is being exploited in the wild, and 2 were publicly disclosed as zero-days. Notable fixes include Windows privilege escalation, container ta",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has released its August 2026 Patch Tuesday updates, addressing a massive total of 418 vulnerabilities across its ecosystem. Among these flaws, 62 are rated critical, with one actively exploited in the wild and two publicly disclosed as zero-days.",
-        "whyItMatters": "The high volume of critical flaws, including active exploitation and public zero-days, poses an immediate threat to organizations running unpatched Windows systems.",
-        "affected": [
-          "Microsoft Windows"
-        ],
-        "action": "Apply the August 2026 security updates immediately.",
-        "risk": "Critical",
         "relatedCves": [],
         "source": "ai"
       }
