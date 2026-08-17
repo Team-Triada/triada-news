@@ -1,6 +1,151 @@
 {
-  "updatedAt": "2026-08-17T18:55:54.598Z",
+  "updatedAt": "2026-08-17T19:40:00.668Z",
   "items": [
+    {
+      "title": "Hacker claims 3.6 million Azure account records stolen from major companies",
+      "link": "https://www.bleepingcomputer.com/news/security/hacker-claims-36-million-azure-account-records-stolen-from-major-companies/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-08-17T19:35:01.000Z",
+      "summary": "A threat actor is selling employee databases allegedly stolen from the Microsoft Azure infrastructure of multiple Fortune 500 companies after gaining access using compromised credentials. [...]",
+      "categories": [
+        "Threat Intel",
+        "Incident Response",
+        "Cloud"
+      ],
+      "tags": [
+        "Azure"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A threat actor is selling allegedly stolen employee databases containing 3.6 million Microsoft Azure account records from multiple Fortune 500 companies. The breach reportedly occurred after attackers gained access using compromised credentials.",
+        "whyItMatters": "This incident exposes millions of corporate accounts to potential unauthorized access and subsequent targeted attacks.",
+        "affected": [
+          "Microsoft Azure"
+        ],
+        "action": "Audit Azure access logs and enforce strong multi-factor authentication across all accounts.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Pokémon Center data breach exposes customer info, cancels some orders",
+      "link": "https://www.bleepingcomputer.com/news/security/pokemon-center-data-breach-exposes-customer-info-cancels-some-orders/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-08-17T19:12:39.000Z",
+      "summary": "Pokémon Center is notifying customers in the United Kingdom and Germany that it suffered a third-party data breach after hackers stole customer personal and order information from third-party logistics provider CEVA Logi",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Pokemon Center in the United Kingdom and Germany experienced a data breach following a security incident at a third-party logistics provider, CEVA Logistics. The breach resulted in the exposure of customer personal and order information, leading to the cancellation of some orders.",
+        "whyItMatters": "This incident highlights the ongoing supply chain risk where third-party vendor compromises can directly expose sensitive customer data and disrupt business operations.",
+        "affected": [],
+        "action": "Review your Pokemon Center account and monitor for suspicious communications regarding your personal information or orders.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Snowflake GitHub Actions Flaw Lets Crafted Issues Trigger Command Injection",
+      "link": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets_0330881554.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-17T18:44:17.000Z",
+      "summary": "Cybersecurity researchers at Wiz have disclosed a new GitHub Actions workflow injection vulnerability in Snowflake's public snowflakedb/snowflake-connector-net repository that it said could be exploited through a crafted",
+      "categories": [
+        "Vulnerability",
+        "Open Source"
+      ],
+      "tags": [
+        "GitHub"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Researchers at Wiz have discovered a GitHub Actions workflow injection vulnerability in Snowflake's public snowflakedb/snowflake-connector-net repository. The flaw allows attackers to trigger command injection by using specially crafted issues.",
+        "whyItMatters": "This vulnerability could allow malicious actors to execute arbitrary commands within the context of the repository's CI/CD pipeline, potentially leading to unauthorized access or repository compromise.",
+        "affected": [
+          "snowflakedb/snowflake-connector-net"
+        ],
+        "action": "Update or patch the GitHub Actions workflows in the affected repository.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP Uploads",
+      "link": "https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-17T18:22:09.000Z",
+      "summary": "A critical security flaw has been disclosed in Forminator Forms, a WordPress plugin with more than 600,000 active installations, that could be exploited to achieve arbitrary code execution on susceptible sites.\n\nThe vuln",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [
+        "WordPress"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A critical security flaw has been disclosed in the Forminator Forms WordPress plugin that allows unauthenticated attackers to achieve arbitrary code execution. The vulnerability can be exploited through malicious PHP file uploads on susceptible sites.",
+        "whyItMatters": "It threatens over 600,000 active WordPress sites with potential full system compromise by unauthenticated malicious actors.",
+        "affected": [
+          "Forminator Forms WordPress plugin"
+        ],
+        "action": "Update the Forminator Forms plugin to the latest patched version immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Cavern C2 Uses DNS and Google Apps Script to Blend Into Legitimate Traffic",
+      "link": "https://thehackernews.com/2026/08/cavern-c2-uses-dns-and-google-apps.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-17T17:41:06.000Z",
+      "summary": "Cybersecurity researchers have traced the continued evolution of the Cavern (aka Cav3rn) command-and-control (C2) framework used by Iranian nation-state hackers in attacks targeting entities in Israel.\n\nRussian cybersecu",
+      "categories": [
+        "Threat Intel"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Cybersecurity researchers have traced the continued evolution of the Cavern command-and-control framework used by Iranian nation-state hackers. The tool utilizes DNS and Google Apps Script to blend into legitimate traffic while targeting entities in Israel.",
+        "whyItMatters": "This threat enables state-sponsored attackers to bypass traditional security controls by camouflaging malicious communications within legitimate network traffic.",
+        "affected": [],
+        "action": "Monitor network traffic for anomalous DNS queries and suspicious Google Apps Script usage.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "USN-8640-1: Engrampa vulnerability",
       "link": "https://ubuntu.com/security/notices/USN-8640-1",
@@ -1962,64 +2107,6 @@
       }
     },
     {
-      "title": "SafePal data breach impacts 39,798 customers, stolen info for sale",
-      "link": "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-08-16T23:47:06.000Z",
-      "summary": "Cryptocurrency hardware wallet provider SafePal is warning of a data breach affecting about 39,798 customers after a flaw was exploited to steal customer order information, and a threat actor is now claiming to be sellin",
-      "categories": [
-        "Vulnerability",
-        "Threat Intel",
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Cryptocurrency hardware wallet provider SafePal suffered a data breach impacting 39,798 customers after a flaw was exploited to steal their order information. The stolen data is currently being offered for sale by a threat actor.",
-        "whyItMatters": "Exposed customer order information can be leveraged by attackers for targeted phishing campaigns and physical extortion attempts against cryptocurrency holders.",
-        "affected": [
-          "SafePal order management systems"
-        ],
-        "action": "Monitor for targeted phishing attempts and secure personal communication channels.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Anthropic confirms Claude is down in major outage affecting multiple services",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-major-outage-affecting-multiple-services/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-08-16T22:28:57.000Z",
-      "summary": "Claude is experiencing a major outage, with users reporting login problems and degraded performance across several Anthropic services. [...]",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Anthropic has confirmed a major outage affecting Claude, causing login problems and degraded performance for users across multiple services. The disruption has left many unable to access the AI platform.",
-        "whyItMatters": "This service disruption impacts productivity and operational workflows for individuals and businesses relying on Claude.",
-        "affected": [
-          "Claude"
-        ],
-        "action": "Check Anthropic status updates for service restoration progress.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Wireshark 4.6.8 Released, (Sun, Aug 16th)",
       "link": "https://isc.sans.edu/diary/rss/33248",
       "source": "SANS ISC",
@@ -2190,73 +2277,6 @@
       }
     },
     {
-      "title": "SAP Commerce Cloud CVE-2026-58231 Targeted in Exploitation Attempts Days After Patch",
-      "link": "https://thehackernews.com/2026/08/sap-commerce-cloud-cve-2026-58231.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-15T08:38:46.000Z",
-      "summary": "A maximum-severity security vulnerability impacting SAP Commerce Cloud is witnessing active exploitation efforts.\n\nThe vulnerability, tracked as CVE-2026-58231, is rated 10.0 on the CVSS scoring system. It relates to an ",
-      "categories": [
-        "Vulnerability"
-      ],
-      "tags": [
-        "SAP"
-      ],
-      "cves": [
-        "CVE-2026-58231"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A maximum-severity vulnerability in SAP Commerce Cloud, tracked as CVE-2026-58231, has become the target of active exploitation attempts just days after a patch was released. The critical flaw carries the highest possible CVSS score of 10.0.",
-        "whyItMatters": "Active exploitation of a maximum-severity vulnerability threatens organizations utilizing SAP Commerce Cloud with potential system compromise.",
-        "affected": [
-          "SAP Commerce Cloud"
-        ],
-        "action": "Apply the available security patch immediately.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-58231"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Apple macOS Screen Sharing Flaw Exploited on Internet-Exposed Macs to Install Monero Miner",
-      "link": "https://thehackernews.com/2026/08/apple-macos-screen-sharing-flaw.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-15T07:24:04.000Z",
-      "summary": "A recently patched security flaw in Apple macOS has come under active exploitation in the wild to deploy a cryptocurrency miner, the Netherlands National Cyber Security Centre (NCSC) has warned.\n\nThe vulnerability in que",
-      "categories": [
-        "Vulnerability",
-        "Incident Response",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "macOS",
-        "Apple"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A recently patched security flaw in Apple macOS is being actively exploited in the wild to deploy a cryptocurrency miner. The Netherlands National Cyber Security Centre warned that internet-exposed Macs with the Screen Sharing feature enabled are targets for this attack.",
-        "whyItMatters": "Active exploitation of this unpatched or newly patched vulnerability puts internet-exposed macOS systems at risk of unauthorized resource hijacking and persistent malware installation.",
-        "affected": [
-          "Apple macOS"
-        ],
-        "action": "Update macOS to the latest patched version immediately.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "注意喚起: NetScaler ADCおよびNetScaler Gatewayにおけるリモートコード実行につながる脆弱性（CVE-2026-8452）に関する注意喚起 (公開)",
       "link": "https://www.jpcert.or.jp/at/2026/at260024.html",
       "source": "JPCERT/CC",
@@ -2401,32 +2421,6 @@
         "affected": [],
         "action": "Watch the interview to gain strategic leadership insights.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Hackers Spend Nearly $7 Million on Expired Domains to Redirect Traffic to Scams and Malware",
-      "link": "https://thehackernews.com/2026/08/hackers-spend-nearly-7-million-on.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-14T18:48:46.000Z",
-      "summary": "Threat actors are acquiring expired domains to inherit website traffic and reputation to redirect victims to scams and malware on a large scale.\n\nDNS threat intelligence firm Infoblox has given the name dropcatch domains",
-      "categories": [
-        "Malware"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Threat actors are purchasing expired domains on a large scale to hijack their traffic and reputation. They use these acquired domains, tracked as dropcatch domains, to redirect unsuspecting victims to scams and malware.",
-        "whyItMatters": "This technique exploits established web traffic and trust to distribute malware and scams without needing to compromise original infrastructure.",
-        "affected": [],
-        "action": "Monitor domain portfolios and implement robust traffic analysis.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
