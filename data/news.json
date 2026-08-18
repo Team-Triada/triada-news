@@ -1,6 +1,32 @@
 {
-  "updatedAt": "2026-08-18T15:45:29.497Z",
+  "updatedAt": "2026-08-18T16:47:48.277Z",
   "items": [
+    {
+      "title": "University of Texas forced to take systems offline in San Antonio after cyberattack",
+      "link": "https://therecord.media/university-of-texas-forced-to-take-systems-offline-cyberattack-san-antonio",
+      "source": "The Record",
+      "publishedAt": "2026-08-18T16:20:00.000Z",
+      "summary": "The University of Texas at San Antonio, which serves 40,000 students across six campuses, said its IT team identified threat activity on its academic campus over the weekend and took some systems, including phones, offli",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The University of Texas at San Antonio detected unauthorized threat activity on its academic campus network over the weekend. In response, the IT team deliberately took several critical systems, including university phones, offline.",
+        "whyItMatters": "This cyberattack disrupts educational operations and administrative communications for a large university serving 40,000 students across six campuses.",
+        "affected": [],
+        "action": "Investigate the incident and monitor official university updates for instructions.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Wiz AI Agent Finds Critical Snowflake GitHub Repo Flaw Advanced Security Missed",
       "link": "https://www.infosecurity-magazine.com/news/wiz-ai-agent-finds-snowflake/",
@@ -705,6 +731,94 @@
         "affected": [],
         "action": "Implement continuous monitoring and automated remediation for active credentials.",
         "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Siemens Simcenter Nastran",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-230-02-0",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-08-18T12:00:00.000Z",
+      "summary": "View CSAF\nSummary\nSimcenter Nastran is affected by a stack overflow vulnerability that could be triggered when an application binary reads arbitrary string as a file argument. If a user is tricked to run one of the impac",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Siemens Simcenter Nastran contains a stack overflow vulnerability that can be triggered when its application binary reads an arbitrary string as a file argument. This issue may be exploited if an unsuspecting user is tricked into running a malicious input file.",
+        "whyItMatters": "Attackers could potentially exploit this vulnerability to cause a crash or execute arbitrary code on systems running the affected software.",
+        "affected": [
+          "Simcenter Nastran"
+        ],
+        "action": "Check vendor advisories and apply available patches or updates.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Siemens Simcenter Nastran",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-230-02",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-08-18T12:00:00.000Z",
+      "summary": "View CSAF\nSummary\nSimcenter Nastran is affected by a stack overflow vulnerability that could be triggered when an application binary reads arbitrary string as a file argument. If a user is tricked to run one of the impac",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Siemens Simcenter Nastran contains a stack overflow vulnerability that can be triggered when its binary processes an arbitrary string as a file argument. An attacker could exploit this issue if a user is tricked into running a malicious file.",
+        "whyItMatters": "This vulnerability could allow an attacker to achieve arbitrary code execution or cause a denial of service on systems running the affected software.",
+        "affected": [
+          "Siemens Simcenter Nastran"
+        ],
+        "action": "Check the vendor CSAF advisory and apply available patches or updates.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CISA Malcolm",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-230-01",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-08-18T12:00:00.000Z",
+      "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition or execute arbitrary code.\nThe following versions of CISA Malcolm are affected:\nMalcolm <2",
+      "categories": [
+        "Vulnerability",
+        "Government",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "CISA has released an advisory for vulnerabilities in Malcolm versions prior to 2. Successful exploitation of these flaws could allow attackers to trigger a denial-of-service condition or execute arbitrary code.",
+        "whyItMatters": "Unpatched systems running affected versions of CISA Malcolm are vulnerable to remote code execution and denial-of-service attacks.",
+        "affected": [
+          "CISA Malcolm <2"
+        ],
+        "action": "Update CISA Malcolm to version 2 or later.",
+        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -2032,33 +2146,6 @@
       }
     },
     {
-      "title": "Irregular faces criticism over ‘spin’ in AI hacking postmortem",
-      "link": "https://therecord.media/irregular-ai-hacking-model-blog",
-      "source": "The Record",
-      "publishedAt": "2026-08-17T16:15:00.000Z",
-      "summary": "The company at the center of a series of incidents in which AI models compromised real-world computer systems during security evaluations is facing criticism after the release of a report that security experts say leaves",
-      "categories": [
-        "Incident Response",
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Security experts are criticizing Irregular for its handling of a postmortem report regarding AI models compromising real-world computer systems. Critics claim the company's report downplays critical security incidents through misleading spin.",
-        "whyItMatters": "Transparent reporting on AI safety failures is essential for maintaining trust and properly addressing vulnerabilities in automated security evaluations.",
-        "affected": [],
-        "action": "Monitor updates from independent security experts regarding AI model vulnerabilities.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "UNISOC Modem Flaw Enables Remote Code Execution via Video Calls",
       "link": "https://www.infosecurity-magazine.com/news/unisoc-modem-flaw-rce-calls/",
       "source": "Infosecurity Magazine",
@@ -2842,6 +2929,34 @@
       }
     },
     {
+      "title": "MacSync Stealer: How a Google Search for Claude Led to a macOS Infostealer",
+      "link": "https://www.huntress.com/blog/fake-claude-macsync",
+      "source": "Huntress",
+      "publishedAt": "2026-08-17T04:00:00.000Z",
+      "summary": "Huntress SOC analysts reverse engineer MacSync Stealer, a macOS infostealer spread through fake Claude Code download pages. Watch the full analysis.",
+      "categories": [
+        "News"
+      ],
+      "tags": [
+        "macOS"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Huntress SOC analysts have reverse engineered MacSync Stealer, a new macOS infostealer targeting users. The malware is distributed through fraudulent download pages masquerading as the Claude Code tool via Google Search results.",
+        "whyItMatters": "This campaign exploits brand trust and search engine optimization to trick macOS users into downloading malicious software that can compromise sensitive information.",
+        "affected": [],
+        "action": "Avoid downloading software from unverified search engine links and use official vendor websites.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "Microsoft blames AI for delayed Exchange update, can’t say when it will arrive",
       "link": "https://www.theregister.com/software/2026/08/17/microsoft-blames-ai-for-delayed-exchange-update-cant-say-when-it-will-arrive/5288227",
       "source": "The Register",
@@ -3423,6 +3538,32 @@
       }
     },
     {
+      "title": "10 Hacker Summer Camp Standouts at Black Hat and DEF CON",
+      "link": "https://www.huntress.com/blog/black-hat-def-con-standouts",
+      "source": "Huntress",
+      "publishedAt": "2026-08-14T04:00:00.000Z",
+      "summary": "From the panels to the villages, Huntress researchers and SOC analysts were all over Hacker Summer Camp this year.  Here’s what stood out at Black Hat and DEF CON.",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Huntress researchers and SOC analysts attended Hacker Summer Camp to explore various panels and villages at Black Hat and DEF CON. The article highlights their top ten standouts from the events.",
+        "whyItMatters": "It provides insight into notable trends and research presented at major cybersecurity conferences.",
+        "affected": [],
+        "action": "Read the full article to learn about the Hacker Summer Camp standouts.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "ISC Stormcast For Friday, August 14th, 2026 (Fri, Aug 14th)",
       "link": "https://isc.sans.edu/diary/rss/33246",
       "source": "SANS ISC",
@@ -3865,6 +4006,32 @@
       }
     },
     {
+      "title": "Education Under Attack: The Pattern Behind Recent University Breaches",
+      "link": "https://www.huntress.com/blog/why-is-education-under-attack",
+      "source": "Huntress",
+      "publishedAt": "2026-08-13T15:00:00.000Z",
+      "summary": "Four university breaches, one root cause: misconfiguration. See the pattern behind 2026's higher ed cyberattacks and how to fix the gap.",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Recent cyberattacks targeting four universities in 2026 all stem from a single root cause of misconfiguration. Higher education institutions must identify and fix this recurring security gap to prevent further breaches.",
+        "whyItMatters": "It highlights a systemic vulnerability to misconfigurations putting sensitive university data at risk.",
+        "affected": [],
+        "action": "Review and correct system misconfigurations immediately.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "Black Hat USA 2026: Will vulnerability discovery eventually decline in the AI era?",
       "link": "https://www.welivesecurity.com/en/business-security/black-hat-usa-2026-vulnerability-discovery-decline-ai-era/",
       "source": "WeLiveSecurity",
@@ -3887,6 +4054,34 @@
         "affected": [],
         "action": "Monitor industry trends regarding AI-driven vulnerability discovery.",
         "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Fake Refund Scam Hits Shopify Shop App Users",
+      "link": "https://www.huntress.com/blog/shopify-fake-refund-scam",
+      "source": "Huntress",
+      "publishedAt": "2026-08-13T13:00:00.000Z",
+      "summary": "A Shopify fake refund scam has been making the rounds over the past few months, targeting Shopify’s Shop app users directly within the app. Here’s what to know.",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A fake refund scam has been targeting users directly within Shopify's Shop app over the past few months. Attackers use deceptive messages to trick victims into believing they are owed money, leading to financial fraud.",
+        "whyItMatters": "This scam exploits a trusted e-commerce platform to deceive consumers, putting users at direct risk of financial loss.",
+        "affected": [
+          "Shopify Shop app"
+        ],
+        "action": "Verify all refund notifications through official merchant channels before taking any action.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "ai"
       }
@@ -4030,93 +4225,6 @@
         ],
         "action": "Apply the latest security updates provided by Johnson Controls.",
         "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Johnson Controls Metasys",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-14",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-08-13T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow a low-privilege user or attacker to inject a persistent malicious payload via a crafted URL that executes in the context of other users' session",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A vulnerability in Johnson Controls Metasys allows a low-privilege attacker to inject a persistent malicious payload using a crafted URL. This payload executes within the security context of other users' active sessions.",
-        "whyItMatters": "It allows attackers to compromise user sessions and execute unauthorized actions with the privileges of unsuspecting victims.",
-        "affected": [
-          "Johnson Controls Metasys"
-        ],
-        "action": "Check vendor advisories and apply available patches or updates.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Siemens Siveillance Video",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-09",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-08-13T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nSiveillance Video Management Servers contains a vulnerability that could allow a Remote Code Execution attack. Siemens has released new versions for the affected products and recommends to update to the",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Siemens Siveillance Video Management Servers contain a vulnerability that could allow a remote code execution attack. Siemens has released updated versions to address this security issue.",
-        "whyItMatters": "This vulnerability could allow attackers to execute arbitrary code remotely, potentially compromising the entire video management server.",
-        "affected": [
-          "Siemens Siveillance Video"
-        ],
-        "action": "Update to the latest version provided by Siemens.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Flow Neuroscience FL-100",
-      "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-225-01",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-08-13T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker within Bluetooth range to manipulate brain stimulation parameters and override safety limits.\nThe following versions of Flow Neurosc",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A vulnerability in the Flow Neuroscience FL-100 device allows attackers within Bluetooth range to manipulate brain stimulation parameters and override safety limits. Successful exploitation could compromise user safety by altering the intended therapeutic operations.",
-        "whyItMatters": "It matters because unauthorized manipulation of neurostimulation devices poses direct physical safety risks to users.",
-        "affected": [
-          "Flow Neuroscience FL-100"
-        ],
-        "action": "Review vendor advisories and apply available security updates or limit Bluetooth exposure.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -4475,6 +4583,32 @@
       }
     },
     {
+      "title": "Guide to Cybersecurity Budget Planning: How Much + How To | Huntress",
+      "link": "https://www.huntress.com/blog/cybersecurity-budget",
+      "source": "Huntress",
+      "publishedAt": "2026-08-12T17:00:00.000Z",
+      "summary": "Planning your cybersecurity budget shouldn't be a headache. See how to protect your business and get the most out of your security spend without the fluff.",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "This article provides a guide on how to plan a cybersecurity budget effectively for businesses. It outlines strategies to protect operations and maximize return on security investments.",
+        "whyItMatters": "Proper budget planning is essential for organizations to allocate resources efficiently and defend against evolving cyber threats.",
+        "affected": [],
+        "action": "Read the guide to optimize your cybersecurity budget planning.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "Cisco Advance Notification for Publication of August 19, 2026, Security Advisories",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-LDquvx5d?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20August%2019,%202026,%20Security%20Advisories%26vs_k=1",
       "source": "Cisco PSIRT",
@@ -4526,6 +4660,32 @@
         "affected": [],
         "action": "Review AI governance frameworks and accountability policies.",
         "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Akira Hits Safe Mode: Ransomware Rebooting Around EDR",
+      "link": "https://www.huntress.com/blog/akira-hits-safe-mode-ransomware-rebooting-around-edr",
+      "source": "Huntress",
+      "publishedAt": "2026-08-12T13:00:00.000Z",
+      "summary": "An Akira affiliate rebooted into Safe Mode to kill EDR and Defender, then Safe Mode broke their own ransomware. Here’s the full attack chain.",
+      "categories": [
+        "Ransomware"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "high",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "An Akira ransomware affiliate attempted to reboot a target system into Safe Mode to disable Endpoint Detection and Response (EDR) software and Windows Defender. However, the Safe Mode execution ultimately malfunctioned and broke the ransomware's own deployment.",
+        "whyItMatters": "This incident highlights how cybercriminal tactics increasingly involve evading security controls by abusing native operating system modes like Safe Mode.",
+        "affected": [],
+        "action": "Monitor for unauthorized system reboots into Safe Mode and restrict Safe Mode access.",
+        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -5497,6 +5657,36 @@
       }
     },
     {
+      "title": "Five Years, 88,000 Backdoors, and a Pair of Handcuffs: Inside the Global Manhunt That Ended in an Arrest",
+      "link": "https://www.huntress.com/blog/declassified-cybercrime-episode-three",
+      "source": "Huntress",
+      "publishedAt": "2026-08-10T13:00:00.000Z",
+      "summary": "Go inside Huntress and the FBI’s five-year pursuit of Silk Typhoon, from 88,000 Exchange backdoors to an arrest and a wider fight against cybercrime.",
+      "categories": [
+        "Government"
+      ],
+      "tags": [
+        "Exchange"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Huntress and the FBI concluded a five-year manhunt resulting in the arrest of a key threat actor associated with Silk Typhoon. The operation targeted a massive campaign involving 88,000 Microsoft Exchange backdoors globally.",
+        "whyItMatters": "This enforcement action highlights the successful international disruption of a prolific threat group responsible for widespread enterprise compromises.",
+        "affected": [
+          "Microsoft Exchange Server"
+        ],
+        "action": "Ensure all Microsoft Exchange servers are patched and monitor for legacy backdoor artifacts.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "IT threat evolution in Q2 2026. Non-mobile statistics",
       "link": "https://securelist.com/malware-report-q2-2026-pc-iot-statistics/120960/",
       "source": "Kaspersky Securelist",
@@ -5574,212 +5764,6 @@
           "Not specified"
         ],
         "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Inside the Modern SOC: The Identity Front Door",
-      "link": "https://unit42.paloaltonetworks.com/soc-identity-front-door/",
-      "source": "Unit 42",
-      "publishedAt": "2026-08-07T23:00:01.000Z",
-      "summary": "Identity-based attacks drive 90% of incidents. Learn how modern attackers exploit identities and what SOC leaders can do to respond.\nThe post Inside the Modern SOC: The Identity Front Door appeared first on Unit 42.",
-      "categories": [
-        "Vulnerability"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Identity-based attacks drive 90% of incidents. Learn how modern attackers exploit identities and what SOC leaders can do to respond.\nThe post Inside the Modern SOC: The Identity Front Door appeared first on Unit 42.",
-        "whyItMatters": "Background context — no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required — informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Cisco Catalyst SD-WAN Manager Information Disclosure Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-infodis-SPuJBDCe?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Manager%20Information%20Disclosure%20Vulnerability%26vs_k=1",
-      "source": "Cisco PSIRT",
-      "publishedAt": "2026-08-07T15:56:16.000Z",
-      "summary": "A vulnerability in the web-based management interface of Cisco Catalyst SD-WAN Manager could allow an authenticated, remote attacker to view sensitive information in clear text on an affected system.\n\r\nThis vulnerability",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Cisco"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A vulnerability in the web-based management interface of Cisco Catalyst SD-WAN Manager could allow an authenticated, remote attacker to view sensitive information in clear text on an affected system.\n\r\nThis vulnerability",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Cisco"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Beware cut-price AI services that read your every word",
-      "link": "https://www.fortra.com/blog/beware-cut-price-ai-services-read-your-every-word",
-      "source": "Graham Cluley",
-      "publishedAt": "2026-08-07T15:33:08.000Z",
-      "summary": "f someone offered you 90% off the official price to access Claude, the powerful AI model from Anthropic, would you be tempted? It turns out that around 900 people were, and they may be regretting their decision. \r\n\r\nRead",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Approximately 900 users fell victim to a scam offering a 90% discount on access to Anthropic's Claude AI model. These unauthorized, cut-price services likely compromised user privacy by reading and logging sensitive conversations.",
-        "whyItMatters": "Users leveraging cheap, unofficial AI services risk exposing sensitive personal and corporate data to malicious third parties.",
-        "affected": [],
-        "action": "Avoid unofficial, heavily discounted AI service providers and only use authorized platforms.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "VU#987105: The nothings stb TrueType library, up to version 1.26, contains a heap buffer overflow vulnerability",
-      "link": "https://kb.cert.org/vuls/id/987105",
-      "source": "CERT/CC",
-      "publishedAt": "2026-08-07T14:15:19.038Z",
-      "summary": "Overview\nA heap buffer overflow vulnerability exists in the stb TrueType library created by nothings. Exploitation of this vulnerability can occur when handling malformed font data and may lead to both Denial of Service ",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Overview\nA heap buffer overflow vulnerability exists in the stb TrueType library created by nothings. Exploitation of this vulnerability can occur when handling malformed font data and may lead to both Denial of Service",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "ClamAV Vulnerabilities Affecting Cisco Products: August 2026",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-WuuvVd26?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=ClamAV%20Vulnerabilities%20Affecting%20Cisco%20Products:%20August%202026%26vs_k=1",
-      "source": "Cisco PSIRT",
-      "publishedAt": "2026-08-07T10:30:00.000Z",
-      "summary": "Multiple vulnerabilities in ClamAV could allow a remote attacker to cause a denial of service (DoS) condition, interrupting scanning operations. \n\r\nFor more information about these vulnerabilities, see the Details sectio",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Cisco"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Multiple vulnerabilities in ClamAV could allow a remote attacker to cause a denial of service (DoS) condition, interrupting scanning operations. \n\r\nFor more information about these vulnerabilities, see the Details sectio",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Cisco"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "CrowdStrike Threat Hunts for Shell Command Obfuscation on VMware ESX",
-      "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/",
-      "source": "CrowdStrike",
-      "publishedAt": "2026-08-07T05:00:00.000Z",
-      "summary": "CrowdStrike Threat Hunts for Shell Command Obfuscation on VMware ESX",
-      "categories": [
-        "News"
-      ],
-      "tags": [
-        "VMware"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CrowdStrike Threat Hunts for Shell Command Obfuscation on VMware ESX",
-        "whyItMatters": "Background context — no immediate action expected.",
-        "affected": [
-          "VMware"
-        ],
-        "action": "No action required — informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "ChainDrop: Inside a Self-Propagating npm Worm",
-      "link": "https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/",
-      "source": "Unit 42",
-      "publishedAt": "2026-08-06T22:26:39.000Z",
-      "summary": "Analysis of ChainDrop, an npm supply chain worm extracting GitHub Actions runner secrets and using Ethereum smart contracts for C2 routing.\nThe post ChainDrop: Inside a Self-Propagating npm Worm appeared first on Unit 42",
-      "categories": [
-        "Malware",
-        "Open Source"
-      ],
-      "tags": [
-        "GitHub"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Analysis of ChainDrop, an npm supply chain worm extracting GitHub Actions runner secrets and using Ethereum smart contracts for C2 routing.\nThe post ChainDrop: Inside a Self-Propagating npm Worm appeared first on Unit 42",
-        "whyItMatters": "Background context — no immediate action expected.",
-        "affected": [
-          "GitHub"
-        ],
-        "action": "Monitor for indicators of compromise.",
         "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
