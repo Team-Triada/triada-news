@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T23:35:48.937Z",
+  "updatedAt": "2026-08-18T01:48:44.805Z",
   "items": [
     {
       "title": "Video Call Exploit Chains Two Flaws in Unisoc Modems",
@@ -515,6 +515,39 @@
         "action": "Monitor your accounts closely for suspicious activity and remain vigilant against phishing attempts.",
         "risk": "High",
         "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8639-1: libpng vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8639-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-17T16:46:16.000Z",
+      "summary": "Patrick Keshishian discovered that libpng incorrectly handled certain\ntext chunks. An attacker could possibly use this issue to cause a denial of\nservice. This issue only affected Ubuntu 16.04 LTS. (CVE-2016-10087)\n\nIt w",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2016-10087"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Patrick Keshishian discovered that libpng incorrectly handled certain text chunks, which could allow an attacker to cause a denial of service. The vulnerability specifically affected Ubuntu 16.04 LTS systems running the vulnerable package version.",
+        "whyItMatters": "Unchecked handling of text chunks in widely used libraries like libpng can lead to application crashes and denial of service conditions.",
+        "affected": [
+          "Ubuntu 16.04 LTS"
+        ],
+        "action": "Update libpng to the latest patched version.",
+        "risk": "Medium",
+        "relatedCves": [
+          "CVE-2016-10087"
+        ],
         "source": "ai"
       }
     },
@@ -3461,38 +3494,6 @@
           "Linux kernel"
         ],
         "action": "Update the Linux kernel to the latest patched version.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8530-2: Linux kernel (HWE) vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8530-2",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-13T21:10:27.000Z",
-      "summary": "It was discovered that the Linux kernel did not properly handle shared page\nfragments during socket buffer operations, collectively known as Dirty\nFrag. A logic flaw existed in the XFRM ESP-in-TCP subsystem and in the\nRx",
-      "categories": [
-        "Vulnerability",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Canonical has released a security notice addressing Linux kernel vulnerabilities in hardware enablement (HWE) kernels, including a flaw known as Dirty Frag involving socket buffer operations. Additionally, a logic flaw was discovered in the XFRM ESP-in-TCP subsystem.",
-        "whyItMatters": "Unpatched kernel vulnerabilities can allow attackers to compromise system stability, cause denial of service, or potentially escalate privileges.",
-        "affected": [
-          "Linux kernel (HWE)"
-        ],
-        "action": "Update the Linux kernel to the latest version provided by your distribution.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
