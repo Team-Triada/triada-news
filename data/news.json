@@ -1,6 +1,90 @@
 {
-  "updatedAt": "2026-08-18T16:47:48.277Z",
+  "updatedAt": "2026-08-18T17:41:24.148Z",
   "items": [
+    {
+      "title": "Clop created custom web shell for Windchill data theft attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-08-18T17:29:51.000Z",
+      "summary": "A custom Java web shell likely linked to the Clop ransomware gang was designed specifically for PTC Windchill and FlexPLM servers, with built-in features to decrypt credentials, enumerate file repositories, and steal fil",
+      "categories": [
+        "Ransomware"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "high",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The Clop ransomware gang has developed a custom Java web shell targeting PTC Windchill and FlexPLM servers. This tool includes built-in capabilities to decrypt credentials, enumerate file repositories, and exfiltrate sensitive data.",
+        "whyItMatters": "This weaponized web shell provides attackers with targeted access to enterprise product lifecycle management data, increasing the risk of widespread data theft and corporate espionage.",
+        "affected": [
+          "PTC Windchill",
+          "PTC FlexPLM"
+        ],
+        "action": "Audit PTC Windchill and FlexPLM servers for unauthorized Java web shells and apply necessary security patches.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Medusa ransomware tallies hundreds of new victims, says updated advisory on group’s tactics",
+      "link": "https://cyberscoop.com/medusa-ransomware-tactics-cisa-advisory/",
+      "source": "CyberScoop",
+      "publishedAt": "2026-08-18T17:18:58.000Z",
+      "summary": "The updated warning from the FBI, CISA and HHS draws on a year’s worth of investigations to detail how the group gains initial access and what it does afterward.\nThe post Medusa ransomware tallies hundreds of new victims",
+      "categories": [
+        "Ransomware",
+        "Government",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "high",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "FBI, CISA, and HHS have released an updated advisory detailing the tactics, techniques, and procedures of the Medusa ransomware group. The report highlights hundreds of new victims and provides insights into how the threat actor gains initial network access.",
+        "whyItMatters": "Understanding the evolving tactics of active ransomware groups helps organizations strengthen their defenses and prevent potentially devastating operational disruptions.",
+        "affected": [],
+        "action": "Review the updated advisory to update your organization's defenses against Medusa ransomware tactics.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Berlin cuts two state ministries off government network after security breach",
+      "link": "https://therecord.media/berlin-cuts-two-state-ministries-off-government-breach",
+      "source": "The Record",
+      "publishedAt": "2026-08-18T16:40:00.000Z",
+      "summary": "The affected ministries — one responsible for urban development, construction and housing, and the other for mobility, transport, climate protection and the environment — have been isolated from government networks since",
+      "categories": [
+        "Incident Response",
+        "Government"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Berlin has disconnected two state ministries from the government network following a security breach. The incident affected the ministries responsible for urban development and mobility.",
+        "whyItMatters": "This security breach compromises critical state government infrastructure and forces emergency isolation protocols to prevent further unauthorized access.",
+        "affected": [],
+        "action": "Investigate the security breach and secure the isolated government networks.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "University of Texas forced to take systems offline in San Antonio after cyberattack",
       "link": "https://therecord.media/university-of-texas-forced-to-take-systems-offline-cyberattack-san-antonio",
@@ -349,6 +433,41 @@
       }
     },
     {
+      "title": "CVE-2026-50419 Windows Kernel Information Disclosure Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50419",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-18T14:00:00.000Z",
+      "summary": "Acknowledgement Updated",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [
+        "CVE-2026-50419"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Microsoft has acknowledged a Windows Kernel vulnerability tracked as CVE-2026-50419. The security flaw specifically involves an information disclosure issue within the operating system's kernel.",
+        "whyItMatters": "Information disclosure vulnerabilities can allow attackers to access sensitive data, potentially facilitating further exploitation of the compromised system.",
+        "affected": [
+          "Microsoft Windows Kernel"
+        ],
+        "action": "Monitor vendor advisories and apply official patches when available.",
+        "risk": "Medium",
+        "relatedCves": [
+          "CVE-2026-50419"
+        ],
+        "source": "ai"
+      }
+    },
+    {
       "title": "CVE-2026-24301 Microsoft Copilot Information Disclosure Vulnerability",
       "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24301",
       "source": "Microsoft MSRC",
@@ -377,6 +496,41 @@
         "risk": "High",
         "relatedCves": [
           "CVE-2026-24301"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-65791 Windows iSCSI Target Service Remote Code Execution Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-65791",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-18T14:00:00.000Z",
+      "summary": "Acknowledgement Updated",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [
+        "CVE-2026-65791"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "A remote code execution vulnerability has been identified in the Windows iSCSI Target Service, designated as CVE-2026-65791. Acknowledgments for discovering the security flaw have recently been updated by the vendor.",
+        "whyItMatters": "This vulnerability could allow attackers to execute arbitrary code remotely on affected systems via the iSCSI Target Service.",
+        "affected": [
+          "Windows iSCSI Target Service"
+        ],
+        "action": "Apply the latest security updates provided by Microsoft.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-65791"
         ],
         "source": "ai"
       }
@@ -731,35 +885,6 @@
         "affected": [],
         "action": "Implement continuous monitoring and automated remediation for active credentials.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Siemens Simcenter Nastran",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-230-02-0",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-08-18T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nSimcenter Nastran is affected by a stack overflow vulnerability that could be triggered when an application binary reads arbitrary string as a file argument. If a user is tricked to run one of the impac",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Siemens Simcenter Nastran contains a stack overflow vulnerability that can be triggered when its application binary reads an arbitrary string as a file argument. This issue may be exploited if an unsuspecting user is tricked into running a malicious input file.",
-        "whyItMatters": "Attackers could potentially exploit this vulnerability to cause a crash or execute arbitrary code on systems running the affected software.",
-        "affected": [
-          "Simcenter Nastran"
-        ],
-        "action": "Check vendor advisories and apply available patches or updates.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -2012,34 +2137,6 @@
       }
     },
     {
-      "title": "SafePal latest crypto hardware wallet maker affected by breach, with nearly 40,000 impacted",
-      "link": "https://therecord.media/safepal-crypto-hardware-breach",
-      "source": "The Record",
-      "publishedAt": "2026-08-17T17:00:00.000Z",
-      "summary": "The crypto hardware wallet company SafePal confirmed a data breach on Sunday, telling users that nearly 40,000 customers had information stolen during a recent security incident.",
-      "categories": [
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Crypto hardware wallet maker SafePal has confirmed a data breach affecting nearly 40,000 customers. The security incident resulted in the theft of sensitive user information.",
-        "whyItMatters": "This breach compromises the personal data of thousands of cryptocurrency users, potentially exposing them to targeted phishing attacks and further security risks.",
-        "affected": [
-          "SafePal hardware wallets"
-        ],
-        "action": "Monitor your accounts closely for suspicious activity and remain vigilant against phishing attempts.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "USN-8639-1: libpng vulnerabilities",
       "link": "https://ubuntu.com/security/notices/USN-8639-1",
       "source": "Canonical Ubuntu Security",
@@ -2198,36 +2295,6 @@
         "affected": [],
         "action": "Monitor Linux devices for unauthorized exploitation modules, credential theft attempts, and unusual reverse SOCKS relay traffic.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Microsoft confirms GitHub is down worldwide",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-github-is-down-worldwide/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-08-17T14:47:08.000Z",
-      "summary": "GitHub is down for some users as a widespread outage is causing errors across the website, API, Actions, Pull Requests, and several other services. [...]",
-      "categories": [
-        "Open Source"
-      ],
-      "tags": [
-        "GitHub"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "high",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "GitHub is currently experiencing a worldwide outage affecting the website, API, Actions, and Pull Requests. Users globally are reporting various errors across multiple platform services.",
-        "whyItMatters": "This disruption halts developer workflows, CI/CD pipelines, and project management for millions of users and organizations worldwide.",
-        "affected": [
-          "GitHub"
-        ],
-        "action": "Monitor GitHub's official status page for updates on service restoration.",
-        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
@@ -2419,72 +2486,6 @@
         "risk": "High",
         "relatedCves": [
           "CVE-2026-66807"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-63519 Microsoft Office Graphics Component Remote Code Execution Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63519",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-17T14:00:00.000Z",
-      "summary": "Acknowledgement Updated",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-63519"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "A remote code execution vulnerability has been identified in the Microsoft Office Graphics Component, tracked as CVE-2026-63519. The vendor has recently provided acknowledgment updates regarding this security flaw.",
-        "whyItMatters": "This vulnerability could allow attackers to execute arbitrary code on affected systems via crafted graphical files.",
-        "affected": [
-          "Microsoft Office Graphics Component"
-        ],
-        "action": "Apply the latest security updates from Microsoft.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-63519"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-63513 Microsoft Office Graphics Component Remote Code Execution Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-63513",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-17T14:00:00.000Z",
-      "summary": "Acknowledgement Updated",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-63513"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "A remote code execution vulnerability has been identified in the Microsoft Office Graphics Component, tracked as CVE-2026-63513. The advisory currently contains updated acknowledgements regarding the security flaw.",
-        "whyItMatters": "This vulnerability could allow attackers to execute arbitrary code on vulnerable systems via manipulated Office files.",
-        "affected": [
-          "Microsoft Office Graphics Component"
-        ],
-        "action": "Apply the latest security updates provided by Microsoft.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-63513"
         ],
         "source": "ai"
       }
@@ -3864,6 +3865,37 @@
       }
     },
     {
+      "title": "ClamAV Vulnerabilities Affecting Cisco Products: August 2026",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-WuuvVd26?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=ClamAV%20Vulnerabilities%20Affecting%20Cisco%20Products:%20August%202026%26vs_k=1",
+      "source": "Cisco PSIRT",
+      "publishedAt": "2026-08-13T20:11:34.000Z",
+      "summary": "Multiple vulnerabilities in ClamAV could allow a remote attacker to cause a denial of service (DoS) condition, interrupting scanning operations. \n\r\nFor more information about these vulnerabilities, see the Details sectio",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Cisco"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple vulnerabilities in ClamAV could allow a remote attacker to cause a denial of service condition in affected systems. These flaws specifically interrupt scanning operations within Cisco products that integrate the ClamAV software.",
+        "whyItMatters": "This vulnerability threatens service availability by disrupting critical antivirus scanning operations across impacted systems.",
+        "affected": [
+          "Cisco products integrating ClamAV"
+        ],
+        "action": "Review the vendor advisory and apply the necessary security updates for ClamAV.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "Curiouser and Curiouser",
       "link": "https://blog.talosintelligence.com/curiouser-and-curiouser/",
       "source": "Talos Intelligence",
@@ -4225,6 +4257,35 @@
         ],
         "action": "Apply the latest security updates provided by Johnson Controls.",
         "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Johnson Controls Metasys",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-14",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-08-13T12:00:00.000Z",
+      "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow a low-privilege user or attacker to inject a persistent malicious payload via a crafted URL that executes in the context of other users' session",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A vulnerability in Johnson Controls Metasys allows low-privileged attackers to inject persistent malicious payloads via crafted URLs. These payloads execute within the context of other users' active sessions.",
+        "whyItMatters": "It enables attackers to compromise user sessions and potentially escalate privileges within the application.",
+        "affected": [
+          "Johnson Controls Metasys"
+        ],
+        "action": "Check vendor advisories for available patches and updates.",
+        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -5040,34 +5101,6 @@
       }
     },
     {
-      "title": "Kimwolf botnet rebuilt to survive takedowns, researchers say",
-      "link": "https://cyberscoop.com/kimwolf-botnet-palo-alto-unit-42-android-tv-boxes/",
-      "source": "CyberScoop",
-      "publishedAt": "2026-08-12T00:13:08.000Z",
-      "summary": "Months after police seized its servers and arrested an alleged operator, the Kimwolf botnet is running code that disguises attacks as Chrome traffic and fetches its orders from the Ethereum blockchain.\nThe post Kimwolf b",
-      "categories": [
-        "News"
-      ],
-      "tags": [
-        "Chrome"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The Kimwolf botnet has been rebuilt following a police takedown months ago. The new version disguises attacks as Chrome traffic and fetches its operational orders from the Ethereum blockchain.",
-        "whyItMatters": "This resilient architecture allows the botnet to evade traditional takedown methods and detection by blending in with legitimate browser traffic and decentralized infrastructure.",
-        "affected": [],
-        "action": "Monitor network traffic for anomalous behavior masking as Chrome requests and block known malicious Ethereum addresses.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
       "link": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
       "source": "Talos Intelligence",
@@ -5358,10 +5391,10 @@
       "cves": [
         "CVE-2026-55040"
       ],
-      "kev": false,
+      "kev": true,
       "poc": false,
-      "severity": "medium",
-      "breaking": false,
+      "severity": "critical",
+      "breaking": true,
       "readTimeMin": 1,
       "aiSummary": {
         "summary": "Rapid7 and Microsoft disclosed CVE-2026-55040, an authentication bypass vulnerability affecting Microsoft SharePoint. Rapid7 published a technical analysis detailing the mechanics of the JWT token authentication bypass.",
@@ -5739,34 +5772,6 @@
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
-      }
-    },
-    {
-      "title": "Are AI tutors safe for your kids?",
-      "link": "https://www.welivesecurity.com/en/kids-online/ai-tutors-safe-kids/",
-      "source": "WeLiveSecurity",
-      "publishedAt": "2026-08-10T09:00:00.000Z",
-      "summary": "AI tutors can offer useful support, but their quality and safeguards vary widely. Here’s what parents should check before handing one to a child.",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "AI tutors can offer useful support, but their quality and safeguards vary widely. Here’s what parents should check before handing one to a child.",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
       }
     }
   ]
