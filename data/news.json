@@ -1,6 +1,152 @@
 {
-  "updatedAt": "2026-08-18T13:07:51.867Z",
+  "updatedAt": "2026-08-18T13:56:17.377Z",
   "items": [
+    {
+      "title": "CVE-2026-24301 Microsoft Copilot Information Disclosure Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24301",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-18T14:00:00.000Z",
+      "summary": "Improper neutralization of special elements used in a command ('command injection') in Microsoft Copilot allows an unauthorized attacker to disclose information over a network.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-24301"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "An information disclosure vulnerability identified as CVE-2026-24301 affects Microsoft Copilot. The issue stems from improper neutralization of special elements used in a command, enabling unauthorized attackers to extract sensitive data over a network.",
+        "whyItMatters": "This flaw could allow malicious actors to compromise sensitive information remotely through network-based attacks without requiring authentication.",
+        "affected": [
+          "Microsoft Copilot"
+        ],
+        "action": "Apply the latest security updates provided by Microsoft to address CVE-2026-24301.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-24301"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "NETSCOUT expands Adaptive DDoS Protection with outbound attack mitigation",
+      "link": "https://www.helpnetsecurity.com/2026/08/18/netscout-expands-adaptive-ddos-protection-with-outbound-attack-mitigation/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-08-18T13:39:08.000Z",
+      "summary": "NETSCOUT has announced an extension of its Adaptive DDoS Protection (ADP) solution enabling service providers to automatically detect and mitigate outbound DDoS attack traffic. By extending protection from the attack tar",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "NETSCOUT has expanded its Adaptive DDoS Protection solution to include outbound attack mitigation capabilities. This new feature allows service providers to automatically detect and mitigate outbound distributed denial-of-service attack traffic.",
+        "whyItMatters": "It helps service providers prevent their networks from being used to launch malicious outbound DDoS attacks against others.",
+        "affected": [],
+        "action": "Review the updated NETSCOUT Adaptive DDoS Protection solution for deployment in your network.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Thousands of Hacked WordPress Sites, One Operation: Unmasking StopAndProtect",
+      "link": "https://research.checkpoint.com/2026/thousands-of-hacked-wordpress-sites-one-operation-unmasking-stopandprotect/",
+      "source": "Check Point Research",
+      "publishedAt": "2026-08-18T13:05:44.000Z",
+      "summary": "Research by: Jaromír Hořejší (@JaromirHorejsi) Key points Introduction We first noticed a ransomware family called StopAndProtect in the middle of May 2026. Further analysis of the infrastructure reveals that the infecti",
+      "categories": [
+        "Ransomware",
+        "Incident Response",
+        "Research"
+      ],
+      "tags": [
+        "WordPress"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "high",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Researchers discovered a new ransomware family named StopAndProtect affecting thousands of WordPress sites starting in mid-May 2026. Analysis of the underlying infrastructure has revealed the scope and operation behind these widespread infections.",
+        "whyItMatters": "This campaign threatens thousands of WordPress sites with ransomware encryption, potentially causing massive data loss and operational downtime.",
+        "affected": [
+          "WordPress"
+        ],
+        "action": "Audit WordPress installations and ensure robust backups are in place.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8642-1: c3p0 vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8642-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-18T13:02:22.000Z",
+      "summary": "It was discovered that c3p0 was vulnerable to remote code execution via maliciously\ncrafted serialized objects and JNDI references. An attacker could use this to\nexecute arbitrary code, bypass security restrictions, or c",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Ubuntu Security Notice USN-8642-1 addresses remote code execution vulnerabilities in c3p0 affecting serialized objects and JNDI references. An attacker could exploit these flaws to execute arbitrary code or bypass security restrictions.",
+        "whyItMatters": "Unpatched remote code execution vulnerabilities allow attackers to completely compromise vulnerable systems and applications.",
+        "affected": [
+          "c3p0"
+        ],
+        "action": "Update c3p0 to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Silent 'TwinLoot' Cyber Threat Operates Entirely From Microsoft's Cloud",
+      "link": "https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud",
+      "source": "Dark Reading",
+      "publishedAt": "2026-08-18T13:00:00.000Z",
+      "summary": "The Python-based malware framework takes living-off-the-land tactics to a new heights of stealth, with a modular implant that steals credentials and achieves persistence.",
+      "categories": [
+        "Malware"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A new Python-based malware framework called TwinLoot leverages Microsoft's cloud infrastructure to operate with high stealth. The modular implant utilizes living-off-the-land tactics to steal credentials and maintain persistence.",
+        "whyItMatters": "It poses a significant threat by abusing legitimate cloud services to evade traditional security detection mechanisms.",
+        "affected": [],
+        "action": "Monitor cloud environments for anomalous Python-based execution and unauthorized credential access.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "'Ransom Busters': Ransomware Actor Poses as Incident-Recovery Service",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransom-busters-ransomware-actor-incident-recovery-service",
@@ -79,6 +225,33 @@
         ],
         "action": "Monitor AI model security updates and refine prompt injection defenses.",
         "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "New Report: AI threats are here. Why Q2 2026 signals the end of traditional patch cycles",
+      "link": "https://www.rapid7.com/blog/post/tr-new-report-ai-threats-q2-2026-ends-traditional-patch-cycles",
+      "source": "Rapid7",
+      "publishedAt": "2026-08-18T12:49:46.000Z",
+      "summary": "You can’t patch everything. So what do you fix first? Findings in Q2 2026 have changed traditional answers.\nThe latest Quarterly Threat Landscape Report from Rapid7 Labs shows vulnerability disclosures still surging whil",
+      "categories": [
+        "Vulnerability",
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The latest Quarterly Threat Landscape Report from Rapid7 Labs highlights a continued surge in vulnerability disclosures. This trend suggests that traditional patch cycles are becoming unsustainable in the face of evolving threats.",
+        "whyItMatters": "Organizations can no longer rely on patching everything, necessitating a fundamental shift in how vulnerabilities are prioritized and managed.",
+        "affected": [],
+        "action": "Adopt risk-based vulnerability prioritization strategies instead of relying solely on traditional patch cycles.",
+        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -918,32 +1091,6 @@
         "affected": [],
         "action": "Explore the open-source HEIR compiler project on GitHub to understand its capabilities.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "A hollowed out data layer is making CISOs fly blind into AI attacks",
-      "link": "https://www.helpnetsecurity.com/2026/08/18/siem-data-blind-spots-mapping/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-08-18T05:00:30.000Z",
-      "summary": "The security industry is currently transitioning to an era where both offense and defense are AI-led, and every SOC operates at machine speed. However, what most CISOs have not yet reckoned with is that the AI defenders ",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The cybersecurity industry is transitioning into an era where both offense and defense are driven by artificial intelligence operating at machine speed. However, many Chief Information Security Officers have not yet fully reckoned with the vulnerabilities in their data layers.",
-        "whyItMatters": "Inadequate visibility into the data layer leaves organizations flying blind against increasingly sophisticated AI-driven cyber attacks.",
-        "affected": [],
-        "action": "Audit and secure your organizational data layer to ensure visibility against AI-driven threats.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -2059,39 +2206,6 @@
       }
     },
     {
-      "title": "CVE-2026-58612 PowerShell Information Disclosure Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58612",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-17T14:00:00.000Z",
-      "summary": "Acknowledgement Updated",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-58612"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "A newly acknowledged security flaw designated as CVE-2026-58612 has been identified as a PowerShell information disclosure vulnerability. Details regarding the specific mechanics and updates have been provided in the acknowledgement.",
-        "whyItMatters": "Information disclosure vulnerabilities can expose sensitive data to unauthorized parties, potentially compromising system security.",
-        "affected": [
-          "PowerShell"
-        ],
-        "action": "Review vendor advisories and apply available updates.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-58612"
-        ],
-        "source": "ai"
-      }
-    },
-    {
       "title": "680,000 Impacted by French Tax Authority Data Breach",
       "link": "https://www.securityweek.com/680000-impacted-by-french-tax-authority-data-breach/",
       "source": "SecurityWeek",
@@ -3127,33 +3241,6 @@
       }
     },
     {
-      "title": "Scottish Govt Suffers Potentially Widening Data Breach at Prosecutor's Office",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/scottish-govt-data-breach-prosecutors-office",
-      "source": "Dark Reading",
-      "publishedAt": "2026-08-14T15:58:50.000Z",
-      "summary": "One Caledonian government agency reported a breach, thanks to a third party that may have serviced other agencies as well.",
-      "categories": [
-        "Incident Response",
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The Scottish government has reported a data breach originating from a third-party vendor servicing its prosecutor's office. Authorities are investigating whether the incident has impacted other government agencies connected to the same vendor.",
-        "whyItMatters": "Third-party vendor vulnerabilities can expose multiple interconnected government networks to widespread data compromise.",
-        "affected": [],
-        "action": "Investigate third-party vendor access and audit connected government agency systems.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Apple now uses iPhone alerts for targets of mercenary spyware",
       "link": "https://www.malwarebytes.com/blog/news/2026/08/apple-now-uses-iphone-alerts-for-targets-of-mercenary-spyware",
       "source": "Malwarebytes Labs",
@@ -3620,38 +3707,6 @@
       "aiSummary": {
         "summary": "A logic flaw known as Fragnesia has been discovered in the XFRM ESP-in-TCP subsystem of the Linux kernel when handling socket buffer fragments. This vulnerability could potentially allow a local attacker to escalate their privileges.",
         "whyItMatters": "It matters because a local attacker could exploit this vulnerability to gain elevated privileges on affected Linux systems.",
-        "affected": [
-          "Linux kernel"
-        ],
-        "action": "Update the Linux kernel to the latest patched version.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8548-2: Linux kernel vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8548-2",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-13T21:12:03.000Z",
-      "summary": "It was discovered that a logic flaw existed in the XFRM ESP-in-TCP\nsubsystem in the Linux kernel when handling socket buffer fragments. This\nflaw is known as Fragnesia. A local attacker could use this to escalate\nprivile",
-      "categories": [
-        "Vulnerability",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A logic flaw known as Fragnesia has been discovered in the Linux kernel's XFRM ESP-in-TCP subsystem involving socket buffer fragments. This vulnerability could potentially be exploited by a local attacker to escalate privileges on the affected system.",
-        "whyItMatters": "It matters because local attackers could exploit this kernel flaw to gain unauthorized privilege escalation.",
         "affected": [
           "Linux kernel"
         ],
@@ -5604,39 +5659,6 @@
       }
     },
     {
-      "title": "Rapid7 Analysis: Unauthenticated Remote Code Execution in JetBrains TeamCity (CVE-2026-63077)",
-      "link": "https://www.rapid7.com/blog/post/ra-unauthenticated-rce-in-jetbrains-teamcity-cve-2026-63077",
-      "source": "Rapid7",
-      "publishedAt": "2026-08-07T14:32:47.000Z",
-      "summary": "Overview\nOn July 27, 2026, JetBrains published a security advisory for CVE-2026-63077, a critical unsafe deserialization vulnerability affecting JetBrains TeamCity. An attacker who can reach a TeamCity server over HTTP o",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-63077"
-      ],
-      "kev": true,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Overview\nOn July 27, 2026, JetBrains published a security advisory for CVE-2026-63077, a critical unsafe deserialization vulnerability affecting JetBrains TeamCity. An attacker who can reach a TeamCity server over HTTP o",
-        "whyItMatters": "Actively exploited or high-impact; treat as urgent.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Patch immediately.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-63077"
-        ],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "VU#987105: The nothings stb TrueType library, up to version 1.26, contains a heap buffer overflow vulnerability",
       "link": "https://kb.cert.org/vuls/id/987105",
       "source": "CERT/CC",
@@ -5752,34 +5774,6 @@
           "GitHub"
         ],
         "action": "Monitor for indicators of compromise.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "When Agentic Glue Melts: Exploiting Cloudflare Code Mode and Workers",
-      "link": "https://research.checkpoint.com/2026/when-agentic-glue-melts/",
-      "source": "Check Point Research",
-      "publishedAt": "2026-08-06T22:20:00.000Z",
-      "summary": "By Yarden Porat, Check Point Research Key Points The short version We set out to break Cloudflare Code Mode, and ended up breaking Cloudflare Workers too. We did both by targeting workerd, the runtime beneath both: an in",
-      "categories": [
-        "Research"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "By Yarden Porat, Check Point Research Key Points The short version We set out to break Cloudflare Code Mode, and ended up breaking Cloudflare Workers too. We did both by targeting workerd, the runtime beneath both: an in",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
         "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
