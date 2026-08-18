@@ -1,6 +1,93 @@
 {
-  "updatedAt": "2026-08-18T07:52:21.192Z",
+  "updatedAt": "2026-08-18T08:51:56.687Z",
   "items": [
+    {
+      "title": "GitLab Patches Critical Code Injection Vulnerability",
+      "link": "https://www.securityweek.com/gitlab-patches-critical-code-injection-vulnerability/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-08-18T08:51:07.000Z",
+      "summary": "The security defect allows unauthenticated attackers to modify or delete user data and public projects.\nThe post GitLab Patches Critical Code Injection Vulnerability appeared first on SecurityWeek.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory",
+        "Open Source"
+      ],
+      "tags": [
+        "GitLab"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "GitLab has patched a critical code injection vulnerability that can be exploited by unauthenticated attackers. This security defect allows malicious actors to modify or delete user data and public projects.",
+        "whyItMatters": "Unauthenticated attackers can compromise the integrity and availability of sensitive user data and public projects without needing prior access.",
+        "affected": [],
+        "action": "Update GitLab to the latest patched version immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "UK Legal Regulator Raises AI Misuse Concerns",
+      "link": "https://www.infosecurity-magazine.com/news/uk-legal-regulator-raises-ai/",
+      "source": "Infosecurity Magazine",
+      "publishedAt": "2026-08-18T08:17:00.000Z",
+      "summary": "Solicitors Regulation Authority sounds the alarm over AI hallucinations and data leaks",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "The UK Solicitors Regulation Authority has raised concerns regarding the potential misuse of artificial intelligence within the legal sector. The warnings specifically highlight risks associated with AI hallucinations and data leaks.",
+        "whyItMatters": "It highlights growing regulatory scrutiny over the security and reliability risks of adopting AI technologies in sensitive industries like law.",
+        "affected": [],
+        "action": "Review internal AI usage policies and guard against data leaks.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Microsoft starts removing WMIC tool used by cybercriminals",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wmic-lolbin-tool-in-windows-11-beta-builds/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-08-18T08:12:08.000Z",
+      "summary": "Microsoft announced that it removed the Windows Management Instrumentation Command-line (WMIC) tool from Windows 11 24H2 and 25H2, as well as from Windows 11 beta builds released this week. [...]",
+      "categories": [
+        "News"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft has begun removing the legacy Windows Management Instrumentation Command-line (WMIC) tool from recent Windows 11 versions and beta builds. This change aims to reduce the attack surface as threat actors frequently misuse the tool for living-off-the-land techniques during cyberattacks.",
+        "whyItMatters": "Eliminating WMIC disrupts common attacker workflows that rely on native system utilities for post-exploitation and reconnaissance.",
+        "affected": [
+          "Windows 11 24H2",
+          "Windows 11 25H2"
+        ],
+        "action": "Update administrative scripts to use PowerShell instead of WMIC.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Synthesized builds Test Data Agent to validate AI agents with production-like data",
       "link": "https://www.helpnetsecurity.com/2026/08/18/synthesized-builds-test-data-agent-to-validate-ai-agents-with-production-like-data/",
@@ -2073,39 +2160,6 @@
       }
     },
     {
-      "title": "Microsoft working on Defender patch for ShieldBreak zero-day",
-      "link": "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-08-17T09:05:33.000Z",
-      "summary": "Microsoft is working on a security patch for the \"ShieldBreak\" zero-day vulnerability disclosed last week by security researcher \"Nightmare Eclipse\" and now tracked as CVE-2026-69414. [...]",
-      "categories": [
-        "Zero Day",
-        "Vulnerability"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-69414"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft is currently developing a security patch to address the ShieldBreak zero-day vulnerability. The flaw, disclosed by a researcher, has been officially assigned the identifier CVE-2026-69414.",
-        "whyItMatters": "Unpatched zero-day vulnerabilities in security software like Microsoft Defender leave systems highly vulnerable to exploitation by malicious actors.",
-        "affected": [
-          "Microsoft Defender"
-        ],
-        "action": "Apply the official patch from Microsoft as soon as it becomes available.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-69414"
-        ],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Code fixers have fired up the AI warp drive. Strange new worlds await",
       "link": "https://www.theregister.com/columnists/2026/08/17/code-fixers-have-fired-up-the-ai-warp-drive-strange-new-worlds-await/5287681",
       "source": "The Register",
@@ -2349,40 +2403,6 @@
         "affected": [],
         "action": "Review the specific security advisories from that week for detailed information.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Fortune 500 Companies Hit in Azure Data Theft Campaign",
-      "link": "https://www.securityweek.com/fortune-500-companies-hit-in-azure-data-theft-campaign/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-08-17T06:51:08.000Z",
-      "summary": "A threat actor is claiming the exfiltration of millions of records from McDonald’s, TCS, Vodafone, and other large organizations.\nThe post Fortune 500 Companies Hit in Azure Data Theft Campaign appeared first on Security",
-      "categories": [
-        "Threat Intel",
-        "Cloud"
-      ],
-      "tags": [
-        "Azure"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A threat actor claims to have exfiltrated millions of records from major organizations including McDonald's, TCS, and Vodafone. The data theft campaign reportedly targets Azure-hosted data across multiple Fortune 500 companies.",
-        "whyItMatters": "This incident exposes sensitive data of major global corporations, potentially leading to widespread regulatory, financial, and reputational damage.",
-        "affected": [
-          "Microsoft Azure",
-          "McDonald's",
-          "TCS",
-          "Vodafone"
-        ],
-        "action": "Audit Azure cloud environments and review access logs for unauthorized data exfiltration.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -3142,36 +3162,6 @@
         "affected": [],
         "action": "Monitor ongoing policy debates regarding artificial intelligence regulation.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Novel macOS Infostealer AmnesiaStealer Spread via ClickFix",
-      "link": "https://www.infosecurity-magazine.com/news/macos-infostealer-spread-clickfix/",
-      "source": "Infosecurity Magazine",
-      "publishedAt": "2026-08-14T10:45:00.000Z",
-      "summary": "AmnesiaStealer contains novel functions, including the attackers gaining remote control over the victim’s browser to steal cookie data",
-      "categories": [
-        "News"
-      ],
-      "tags": [
-        "macOS"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A novel macOS infostealer named AmnesiaStealer is being spread using the ClickFix tactic. The malware features unique capabilities that allow attackers to gain remote control of the victim's browser to harvest cookie data.",
-        "whyItMatters": "This threat is significant because it introduces new remote-control capabilities specifically targeting macOS browsers to steal sensitive user data.",
-        "affected": [
-          "macOS browsers"
-        ],
-        "action": "Avoid interacting with suspicious ClickFix prompts and monitor macOS endpoints for unauthorized browser activity.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
