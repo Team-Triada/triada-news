@@ -1,6 +1,41 @@
 {
-  "updatedAt": "2026-08-18T21:36:35.130Z",
+  "updatedAt": "2026-08-18T22:39:30.046Z",
   "items": [
+    {
+      "title": "Critical GitLab Zero-Click Flaw Poses Mitigation Challenges",
+      "link": "https://www.darkreading.com/application-security/critical-gitlab-zero-click-flaw-mitigation-challenges",
+      "source": "Dark Reading",
+      "publishedAt": "2026-08-18T21:25:58.000Z",
+      "summary": "A lack of technical details could make it hard for organizations running self-managed GitLab versions to detect potential exploitation of CVE-2026-19478.",
+      "categories": [
+        "Vulnerability",
+        "Open Source"
+      ],
+      "tags": [
+        "GitLab"
+      ],
+      "cves": [
+        "CVE-2026-19478"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A zero-click vulnerability tracked as CVE-2026-19478 affects self-managed GitLab instances. The current lack of technical details makes it difficult for organizations to detect potential exploitation.",
+        "whyItMatters": "Without sufficient technical details, defenders cannot effectively identify or mitigate potential attacks exploiting this zero-click vulnerability.",
+        "affected": [
+          "GitLab self-managed"
+        ],
+        "action": "Monitor GitLab security advisories for technical details and patching instructions.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-19478"
+        ],
+        "source": "ai"
+      }
+    },
     {
       "title": "USN-8630-3: Linux kernel (Oracle) vulnerabilities",
       "link": "https://ubuntu.com/security/notices/USN-8630-3",
@@ -1040,6 +1075,142 @@
       }
     },
     {
+      "title": "CVE-2026-24301 Microsoft Copilot Information Disclosure Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24301",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-18T14:00:00.000Z",
+      "summary": "Improper neutralization of special elements used in a command ('command injection') in Microsoft Copilot allows an unauthorized attacker to disclose information over a network.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-24301"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "An information disclosure vulnerability identified as CVE-2026-24301 affects Microsoft Copilot. The issue stems from improper neutralization of special elements used in a command, enabling unauthorized attackers to extract sensitive data over a network.",
+        "whyItMatters": "This flaw could allow malicious actors to compromise sensitive information remotely through network-based attacks without requiring authentication.",
+        "affected": [
+          "Microsoft Copilot"
+        ],
+        "action": "Apply the latest security updates provided by Microsoft to address CVE-2026-24301.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-24301"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-65791 Windows iSCSI Target Service Remote Code Execution Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-65791",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-18T14:00:00.000Z",
+      "summary": "Acknowledgement Updated",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [
+        "CVE-2026-65791"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "A remote code execution vulnerability has been identified in the Windows iSCSI Target Service, designated as CVE-2026-65791. Acknowledgments for discovering the security flaw have recently been updated by the vendor.",
+        "whyItMatters": "This vulnerability could allow attackers to execute arbitrary code remotely on affected systems via the iSCSI Target Service.",
+        "affected": [
+          "Windows iSCSI Target Service"
+        ],
+        "action": "Apply the latest security updates provided by Microsoft.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-65791"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-66804 Microsoft Windows Cross Device Service Elevation of Privilege Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-66804",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-18T14:00:00.000Z",
+      "summary": "Acknowledgement Updated",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [
+        "CVE-2026-66804"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "A security vulnerability identified as CVE-2026-66804 has been disclosed for the Microsoft Windows Cross Device Service. This flaw involves an elevation of privilege vulnerability in the affected operating system component.",
+        "whyItMatters": "An attacker could exploit this vulnerability to gain elevated privileges on targeted Windows systems.",
+        "affected": [
+          "Microsoft Windows Cross Device Service"
+        ],
+        "action": "Apply the latest security updates from Microsoft.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-66804"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-70338 Microsoft PowerShell Security Feature Bypass Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70338",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-18T14:00:00.000Z",
+      "summary": "Acknowledgement Updated",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-70338"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "A security feature bypass vulnerability has been identified in Microsoft PowerShell, designated as CVE-2026-70338. Further details regarding the specific nature of the flaw and acknowledgment updates are currently limited.",
+        "whyItMatters": "This vulnerability could allow attackers to bypass security controls implemented within Microsoft PowerShell.",
+        "affected": [
+          "Microsoft PowerShell"
+        ],
+        "action": "Monitor vendor advisories and apply patches as soon as they become available.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-70338"
+        ],
+        "source": "ai"
+      }
+    },
+    {
       "title": "CVE-2026-47632 Azure Connected Machine Agent Elevation of Privilege Vulnerability",
       "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-47632",
       "source": "Microsoft MSRC",
@@ -1139,74 +1310,6 @@
         "risk": "News",
         "relatedCves": [
           "CVE-2026-56642"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-24301 Microsoft Copilot Information Disclosure Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24301",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-18T14:00:00.000Z",
-      "summary": "Improper neutralization of special elements used in a command ('command injection') in Microsoft Copilot allows an unauthorized attacker to disclose information over a network.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-24301"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "An information disclosure vulnerability identified as CVE-2026-24301 affects Microsoft Copilot. The issue stems from improper neutralization of special elements used in a command, enabling unauthorized attackers to extract sensitive data over a network.",
-        "whyItMatters": "This flaw could allow malicious actors to compromise sensitive information remotely through network-based attacks without requiring authentication.",
-        "affected": [
-          "Microsoft Copilot"
-        ],
-        "action": "Apply the latest security updates provided by Microsoft to address CVE-2026-24301.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-24301"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-65791 Windows iSCSI Target Service Remote Code Execution Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-65791",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-18T14:00:00.000Z",
-      "summary": "Acknowledgement Updated",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [
-        "CVE-2026-65791"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "A remote code execution vulnerability has been identified in the Windows iSCSI Target Service, designated as CVE-2026-65791. Acknowledgments for discovering the security flaw have recently been updated by the vendor.",
-        "whyItMatters": "This vulnerability could allow attackers to execute arbitrary code remotely on affected systems via the iSCSI Target Service.",
-        "affected": [
-          "Windows iSCSI Target Service"
-        ],
-        "action": "Apply the latest security updates provided by Microsoft.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-65791"
         ],
         "source": "ai"
       }
@@ -2762,35 +2865,6 @@
       }
     },
     {
-      "title": "Linux Botnet Evooo1Bot Expands Mirai Capabilities Well Beyond DDoS",
-      "link": "https://www.darkreading.com/cyber-risk/linux-botnet-evooo1bot-mirai-capabilities-beyond-ddos",
-      "source": "Dark Reading",
-      "publishedAt": "2026-08-17T15:44:34.000Z",
-      "summary": "The botnet adds exploitation modules, credential theft, and reverse SOCKS relays to turn compromised devices into persistent attacker infrastructure.",
-      "categories": [
-        "Vulnerability",
-        "Incident Response"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The Evooo1Bot Linux botnet has expanded its capabilities beyond traditional DDoS attacks by integrating exploitation modules, credential theft, and reverse SOCKS relays. These new features transform compromised devices into persistent attacker infrastructure.",
-        "whyItMatters": "It transforms simple DDoS bots into multi-purpose persistent threats capable of deeper network penetration and credential harvesting.",
-        "affected": [],
-        "action": "Monitor Linux devices for unauthorized exploitation modules, credential theft attempts, and unusual reverse SOCKS relay traffic.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Apple Screen Sharing Security, (Mon, Aug 17th)",
       "link": "https://isc.sans.edu/diary/rss/33252",
       "source": "SANS ISC",
@@ -2878,72 +2952,6 @@
         "risk": "High",
         "relatedCves": [
           "CVE-2026-40400"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-56188 Windows Server Network driver Remote Code Execution Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-56188",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-17T14:00:00.000Z",
-      "summary": "Updated an acknowledgement. This is an informational change only.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [
-        "CVE-2026-56188"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "Microsoft has published an informational update regarding CVE-2026-56188, a remote code execution vulnerability in the Windows Server Network driver. This update consists solely of an acknowledgement change with no functional modifications.",
-        "whyItMatters": "It tracks a critical remote code execution vulnerability in core Windows Server networking components, though this specific update is merely informational.",
-        "affected": [
-          "Windows Server Network driver"
-        ],
-        "action": "Review the advisory for any new context regarding the vulnerability.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-56188"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-62722 Microsoft Brokering File System Elevation of Privilege Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62722",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-17T14:00:00.000Z",
-      "summary": "Corrected the CVE description and title. This is an informational change only.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-62722"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has corrected the description and title for CVE-2026-62722, which involves a Brokering File System elevation of privilege vulnerability. This update is strictly informational and does not introduce new technical fixes or functional changes.",
-        "whyItMatters": "Accurate vulnerability documentation is essential for security teams to properly assess and prioritize risks within their environments.",
-        "affected": [],
-        "action": "Review the updated CVE documentation for awareness.",
-        "risk": "News",
-        "relatedCves": [
-          "CVE-2026-62722"
         ],
         "source": "ai"
       }
@@ -4901,6 +4909,42 @@
       }
     },
     {
+      "title": "HTTP/2 Bomb CVE-2026-49975",
+      "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-163",
+      "source": "Fortinet PSIRT",
+      "publishedAt": "2026-08-12T07:00:00.000Z",
+      "summary": "CVSSv3 Score:\n \n 5.8\n\n\n CVE-2026-49975Memory Allocation with Excessive Size Value vulnerability in Apache HTTP Server's mod_http leads to denial of service via malicious HTTP requests. This issue affects Apache HTTP Serv",
+      "categories": [
+        "Vulnerability",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Apache"
+      ],
+      "cves": [
+        "CVE-2026-49975"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A memory allocation vulnerability tracked as CVE-2026-49975 affects the Apache HTTP Server's mod_http module. Malicious HTTP requests can exploit this flaw to cause a denial of service.",
+        "whyItMatters": "This vulnerability allows attackers to disrupt server availability by exhausting memory resources with specially crafted requests.",
+        "affected": [
+          "Apache HTTP Server"
+        ],
+        "action": "Update the Apache HTTP Server to the latest patched version.",
+        "risk": "Medium",
+        "relatedCves": [
+          "CVE-2026-49975"
+        ],
+        "source": "ai"
+      }
+    },
+    {
       "title": "Broken access control in the RADIUS type admin group",
       "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-158",
       "source": "Fortinet PSIRT",
@@ -4984,42 +5028,6 @@
         "action": "Apply the vendor-provided security patches immediately.",
         "risk": "High",
         "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "HTTP/2 Bomb CVE-2026-49975",
-      "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-163",
-      "source": "Fortinet PSIRT",
-      "publishedAt": "2026-08-12T07:00:00.000Z",
-      "summary": "CVSSv3 Score:\n \n 5.8\n\n\n CVE-2026-49975Memory Allocation with Excessive Size Value vulnerability in Apache HTTP Server's mod_http leads to denial of service via malicious HTTP requests. This issue affects Apache HTTP Serv",
-      "categories": [
-        "Vulnerability",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Apache"
-      ],
-      "cves": [
-        "CVE-2026-49975"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A memory allocation vulnerability tracked as CVE-2026-49975 affects the Apache HTTP Server's mod_http module. Malicious HTTP requests can exploit this flaw to cause a denial of service.",
-        "whyItMatters": "This vulnerability allows attackers to disrupt server availability by exhausting memory resources with specially crafted requests.",
-        "affected": [
-          "Apache HTTP Server"
-        ],
-        "action": "Update the Apache HTTP Server to the latest patched version.",
-        "risk": "Medium",
-        "relatedCves": [
-          "CVE-2026-49975"
-        ],
         "source": "ai"
       }
     },
