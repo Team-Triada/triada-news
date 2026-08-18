@@ -1,6 +1,32 @@
 {
-  "updatedAt": "2026-08-18T04:50:13.495Z",
+  "updatedAt": "2026-08-18T05:43:38.013Z",
   "items": [
+    {
+      "title": "A hollowed out data layer is making CISOs fly blind into AI attacks",
+      "link": "https://www.helpnetsecurity.com/2026/08/18/siem-data-blind-spots-mapping/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-08-18T05:00:30.000Z",
+      "summary": "The security industry is currently transitioning to an era where both offense and defense are AI-led, and every SOC operates at machine speed. However, what most CISOs have not yet reckoned with is that the AI defenders ",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The cybersecurity industry is transitioning into an era where both offense and defense are driven by artificial intelligence operating at machine speed. However, many Chief Information Security Officers have not yet fully reckoned with the vulnerabilities in their data layers.",
+        "whyItMatters": "Inadequate visibility into the data layer leaves organizations flying blind against increasingly sophisticated AI-driven cyber attacks.",
+        "affected": [],
+        "action": "Audit and secure your organizational data layer to ensure visibility against AI-driven threats.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Attackers turn to AI for help identifying files worth stealing",
       "link": "https://www.helpnetsecurity.com/2026/08/18/gambit-security-ai-cyberattack-tools-report/",
@@ -2298,62 +2324,6 @@
         ],
         "action": "Audit Azure cloud environments and review access logs for unauthorized data exfiltration.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Windows 11’s strongest security defenses can be bypassed without a screwdriver",
-      "link": "https://www.helpnetsecurity.com/2026/08/17/windows-11-security-bypass-research/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-08-17T05:30:34.000Z",
-      "summary": "Researchers from the University of Birmingham and Durham University have found a way to knock down some of the toughest protections in Windows 11 without physically opening or modifying the target machine. The attack ass",
-      "categories": [
-        "News"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Researchers from the University of Birmingham and Durham University have discovered a method to bypass robust security protections in Windows 11. The attack can be executed remotely without requiring physical access or hardware modification to the target machine.",
-        "whyItMatters": "This vulnerability undermines core hardware-backed security features of Windows 11, potentially exposing millions of systems to unauthorized compromise.",
-        "affected": [
-          "Windows 11"
-        ],
-        "action": "Monitor vendor advisories and apply security updates as soon as they become available.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Teaching AI to Reason Through Detection Triage",
-      "link": "https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/",
-      "source": "CrowdStrike",
-      "publishedAt": "2026-08-17T05:00:00.000Z",
-      "summary": "Teaching AI to Reason Through Detection Triage",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "This article discusses methods for teaching artificial intelligence to reason through the triage of security detections. It explores enhancing automated analysis capabilities in cybersecurity operations.",
-        "whyItMatters": "Improving AI reasoning for detection triage can significantly reduce analyst workload and accelerate threat response times.",
-        "affected": [],
-        "action": "Monitor developments in AI-assisted security operations.",
-        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
@@ -5780,6 +5750,35 @@
         "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
+      }
+    },
+    {
+      "title": "VU#487613: Alinto SOGo v5.12.7 vulnerable to cross-site scripting via malformed ICS calendar invitations",
+      "link": "https://kb.cert.org/vuls/id/487613",
+      "source": "CERT/CC",
+      "publishedAt": "2026-08-06T18:36:37.747Z",
+      "summary": "Overview\nA cross-site scripting (XSS) vulnerability in Alinto SOGo v5.12.7 allows attackers to achieve remote code execution by embedding malicious SVG (Scalable Vector Graphics) objects in ICS (iCalendar) invitations. T",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A cross-site scripting vulnerability exists in Alinto SOGo version 5.12.7. Attackers can exploit this flaw by embedding malicious SVG objects within ICS calendar invitations.",
+        "whyItMatters": "This vulnerability could allow attackers to achieve remote code execution through seemingly harmless calendar invites.",
+        "affected": [
+          "Alinto SOGo v5.12.7"
+        ],
+        "action": "Upgrade to a patched version of Alinto SOGo immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
       }
     }
   ]
