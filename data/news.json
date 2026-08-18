@@ -1,6 +1,32 @@
 {
-  "updatedAt": "2026-08-18T07:03:00.181Z",
+  "updatedAt": "2026-08-18T07:52:21.192Z",
   "items": [
+    {
+      "title": "Synthesized builds Test Data Agent to validate AI agents with production-like data",
+      "link": "https://www.helpnetsecurity.com/2026/08/18/synthesized-builds-test-data-agent-to-validate-ai-agents-with-production-like-data/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-08-18T07:38:34.000Z",
+      "summary": "Synthesized has announced its Test Data Agent, a new agentic infrastructure capability being developed to create and provision the realistic data, business context, and system states enterprises need to validate AI agent",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Synthesized has announced its Test Data Agent, a new agentic infrastructure capability designed to create realistic data and system states. This tool aims to help enterprises validate AI agents using production-like data and business context.",
+        "whyItMatters": "It introduces a specialized tool for enterprises to safely test and validate AI agents with realistic, production-like data.",
+        "affected": [],
+        "action": "Review the announcement for potential integration into your AI testing workflows.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Dozens of WebKit Vulnerabilities Patched With Fresh macOS, iOS Security Updates",
       "link": "https://www.securityweek.com/dozens-of-webkit-vulnerabilities-patched-with-fresh-macos-ios-security-updates/",
@@ -30,6 +56,35 @@
         ],
         "action": "Update macOS and iOS to the latest versions immediately.",
         "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CISA Flags Actively Exploited Ray Flaw That Can Trigger Browser-Based RCE",
+      "link": "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-18T06:34:20.000Z",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a critical flaw impacting Ray to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nRay is an open",
+      "categories": [
+        "Vulnerability",
+        "Government"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "CISA has added a critical vulnerability affecting the open-source Ray framework to its Known Exploited Vulnerabilities catalog. The flaw has been cited as being actively exploited in the wild and can lead to browser-based remote code execution.",
+        "whyItMatters": "Active exploitation of a remote code execution vulnerability in Ray poses an immediate threat to organizations utilizing the framework, as attackers can potentially compromise affected systems.",
+        "affected": [
+          "Ray"
+        ],
+        "action": "Review CISA guidelines and apply necessary updates or patches to mitigate the Ray vulnerability.",
+        "risk": "Critical",
         "relatedCves": [],
         "source": "ai"
       }
@@ -1933,34 +1988,6 @@
       }
     },
     {
-      "title": "SafePal breach affects 39,798 customers, data allegedly for sale",
-      "link": "https://www.helpnetsecurity.com/2026/08/17/safepal-data-breach-customer-order-information/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-08-17T10:29:57.000Z",
-      "summary": "Cryptocurrency wallet maker SafePal disclosed a data breach that exposed order information for 39,798 customers, including names, email addresses, shipping addresses, phone numbers and purchase details. The company trace",
-      "categories": [
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Cryptocurrency wallet maker SafePal has suffered a data breach exposing the order information of nearly 39,800 customers. The compromised data includes sensitive details such as names, email addresses, shipping addresses, phone numbers, and purchase history.",
-        "whyItMatters": "Exposed customer contact and shipping details put affected individuals at a high risk of targeted phishing attacks and physical security threats.",
-        "affected": [
-          "SafePal cryptocurrency wallet (customer order database)"
-        ],
-        "action": "Remain vigilant against phishing attempts and unsolicited communications regarding your orders.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "French tax authority data breach affects 678,000 individuals",
       "link": "https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals/",
       "source": "BleepingComputer",
@@ -2012,34 +2039,6 @@
           "SafePal plugin"
         ],
         "action": "Audit and patch the vulnerable order-tracking plugin.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Evooo1Bot Linux Botnet Exploits Known Flaws to Turn Edge Devices Into SOCKS5 Proxies",
-      "link": "https://thehackernews.com/2026/08/evooo1bot-linux-botnet-exploits-known.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-17T09:29:55.000Z",
-      "summary": "Cybersecurity researchers have flagged a previously undocumented Linux botnet family dubbed Evooo1Bot that derives its core functionality from the Mirai botnet source code and is equipped to turn internet-facing devices ",
-      "categories": [
-        "News"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Researchers have discovered a new Linux botnet called Evooo1Bot that is derived from the Mirai source code. This malware exploits known vulnerabilities to turn internet-facing edge devices into SOCKS5 proxies.",
-        "whyItMatters": "It weaponizes vulnerable edge devices into unauthorized proxies, expanding attackers' infrastructure for malicious traffic routing.",
-        "affected": [],
-        "action": "Update and patch all internet-facing edge devices against known vulnerabilities.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -2128,6 +2127,32 @@
         "whyItMatters": "Automated patching accelerates development cycles but introduces uncertainty regarding the long-term stability and security of AI-generated fixes.",
         "affected": [],
         "action": "Monitor AI-generated patches closely for potential regressions.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "How QR-code phishing can slip past corporate security measures",
+      "link": "https://www.welivesecurity.com/en/business-security/qr-code-phishing-slip-past-corporate-security-measures/",
+      "source": "WeLiveSecurity",
+      "publishedAt": "2026-08-17T09:00:00.000Z",
+      "summary": "Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap.",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Quishing, or QR-code phishing, is gaining popularity as a method for cybercriminals to bypass traditional corporate security measures. Businesses must implement targeted strategies to close this security gap and protect against the rising threat.",
+        "whyItMatters": "It matters because QR-code phishing easily evades standard email filters, leaving organizations vulnerable to credential theft and unauthorized access.",
+        "affected": [],
+        "action": "Implement specialized security controls to detect and block malicious QR codes.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -5746,34 +5771,6 @@
       "readTimeMin": 1,
       "aiSummary": {
         "summary": "By Yarden Porat, Check Point Research Key Points The short version We set out to break Cloudflare Code Mode, and ended up breaking Cloudflare Workers too. We did both by targeting workerd, the runtime beneath both: an in",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "CSS:the bomb inside your inbox",
-      "link": "https://portswigger.net/research/css-the-bomb-inside-your-inbox",
-      "source": "PortSwigger Research",
-      "publishedAt": "2026-08-06T22:00:00.000Z",
-      "summary": "Gareth Heyes - gareth.heyes@portswigger.net - @garethheyes It's quite common for webmail clients to render untrusted CSS in a trusted UI. They attempt to make this safe using CSS sanitization. In this",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Gareth Heyes - gareth.heyes@portswigger.net - @garethheyes It's quite common for webmail clients to render untrusted CSS in a trusted UI. They attempt to make this safe using CSS sanitization. In this",
         "whyItMatters": "Background context; no immediate action expected.",
         "affected": [
           "Not specified"
