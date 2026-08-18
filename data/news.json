@@ -1,6 +1,266 @@
 {
-  "updatedAt": "2026-08-18T17:41:24.148Z",
+  "updatedAt": "2026-08-18T18:55:41.785Z",
   "items": [
+    {
+      "title": "USN-8646-1: Linux kernel vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8646-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-18T18:26:29.000Z",
+      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - OCFS2 file system;\n  - B.A.T.M.A.N. ",
+      "categories": [
+        "Vulnerability",
+        "Incident Response",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Several security issues were discovered in the Linux kernel that could allow an attacker to compromise the system. This update corrects flaws specifically within the OCFS2 file system and B.A.T.M.A.N. subsystems.",
+        "whyItMatters": "Unpatched kernel vulnerabilities can allow local or remote attackers to fully compromise the affected operating system.",
+        "affected": [
+          "Linux kernel OCFS2 file system",
+          "Linux kernel B.A.T.M.A.N."
+        ],
+        "action": "Update the Linux kernel to the latest version provided by your distributor.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-75897 - Uncontrolled resource consumption in OpenSearch Dashboards capabilities route",
+      "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-082-aws/",
+      "source": "AWS Security Bulletins",
+      "publishedAt": "2026-08-18T18:26:06.000Z",
+      "summary": "Bulletin ID: 2026-082-AWS\n Scope: AWS\n Content Type: Important (requires attention)\n Publication Date: 08/18/2026 10:00 AM PDT\n \nDescription:\n \nOpenSearch Dashboards is the open-source visualization and management UI for",
+      "categories": [
+        "Vulnerability",
+        "Cloud",
+        "Open Source"
+      ],
+      "tags": [
+        "AWS"
+      ],
+      "cves": [
+        "CVE-2026-75897"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "AWS has published a security bulletin regarding an uncontrolled resource consumption vulnerability in the OpenSearch Dashboards capabilities route, tracked as CVE-2026-75897. The issue impacts the open-source visualization and management UI, requiring attention from administrators.",
+        "whyItMatters": "Uncontrolled resource consumption vulnerabilities can be exploited to cause denial of service conditions by exhausting system resources.",
+        "affected": [
+          "OpenSearch Dashboards"
+        ],
+        "action": "Review the AWS security bulletin and apply the recommended updates or mitigations.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-75897"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8645-1: Linux kernel (Oracle) vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8645-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-18T18:23:33.000Z",
+      "summary": "Siebe Devroe, Héloïse Gollier, and Mathy Vanhoef discovered that the WiFi\nimplementation in the Linux kernel did not properly handle aggregated\nframes in mesh networks, due to an incorrect fix for CVE-2020-24588. A\nphysi",
+      "categories": [
+        "Vulnerability",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux",
+        "Oracle"
+      ],
+      "cves": [
+        "CVE-2020-24588"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Researchers discovered a vulnerability in the Linux kernel's WiFi implementation regarding the handling of aggregated frames in mesh networks. This issue stems from an incorrect fix for a previously identified security flaw.",
+        "whyItMatters": "Attackers could potentially exploit this kernel weakness in mesh network environments to compromise affected systems.",
+        "affected": [
+          "Linux kernel"
+        ],
+        "action": "Update the Linux kernel to the latest patched version provided by Oracle.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2020-24588"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8644-1: Linux kernel vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8644-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-18T18:20:23.000Z",
+      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - File systems infrastructure;\n  - OCF",
+      "categories": [
+        "Vulnerability",
+        "Incident Response",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Several security issues were discovered in the Linux kernel affecting file systems infrastructure and OCF subsystems. An attacker could potentially exploit these vulnerabilities to compromise the system.",
+        "whyItMatters": "Unpatched Linux kernel vulnerabilities can allow unauthorized system compromise, threatening overall server and device security.",
+        "affected": [
+          "Linux kernel"
+        ],
+        "action": "Update the Linux kernel to the latest available version.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8643-1: Linux kernel vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8643-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-18T18:08:07.000Z",
+      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - Network drivers;\n  - Open vSwitch;\n ",
+      "categories": [
+        "Vulnerability",
+        "Incident Response",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Several security issues were discovered in the Linux kernel that could allow an attacker to compromise the system. The updates specifically correct flaws located within the network drivers and Open vSwitch subsystems.",
+        "whyItMatters": "Kernel vulnerabilities can lead to full system compromise, making timely patching essential for maintaining infrastructure security.",
+        "affected": [
+          "Linux kernel network drivers",
+          "Open vSwitch"
+        ],
+        "action": "Update the Linux kernel to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "More than 200 victims of Medusa ransomware identified over the last year, CISA says",
+      "link": "https://therecord.media/more-than-200-medusa-ransomware-victims-in-last-year-cisa",
+      "source": "The Record",
+      "publishedAt": "2026-08-18T18:05:00.000Z",
+      "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) and FBI updated an advisory on the group initially released in March 2025 — writing that as of April 2026, Medusa actors have hit more than 500 victims. CISA pr",
+      "categories": [
+        "Ransomware",
+        "Government",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "high",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "CISA and the FBI updated an advisory stating that Medusa ransomware actors have targeted over 500 victims globally. The group continues to pose a significant threat across various critical infrastructure and commercial sectors.",
+        "whyItMatters": "It highlights the escalating scale and persistent threat posed by the Medusa ransomware group to organizations worldwide.",
+        "affected": [],
+        "action": "Review the updated CISA advisory and implement recommended hardening measures to protect against ransomware.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps",
+      "link": "https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-18T17:47:22.000Z",
+      "summary": "Varonis Threat Labs has disclosed three vulnerabilities in Microsoft Copilot Personal that it said could allow a single click on a crafted link to silently pull data from connected apps and other information available to",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Varonis Threat Labs discovered three vulnerabilities in Microsoft Copilot Personal that can be exploited via a single crafted link. These flaws allow attackers to silently exfiltrate data from connected applications and other accessible user information.",
+        "whyItMatters": "It demonstrates how malicious actors can leverage AI assistants to quietly steal sensitive data from integrated enterprise apps through simple phishing links.",
+        "affected": [
+          "Microsoft Copilot Personal"
+        ],
+        "action": "Review and restrict connected app permissions for Microsoft Copilot Personal while awaiting official patches.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Attackers Exploit MLflow SSRF Flaw to Steal Cloud Credentials and Secrets",
+      "link": "https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-18T17:44:05.000Z",
+      "summary": "Two critical vulnerabilities impacting MLflow, an open-source artificial intelligence (AI) platform, and FUXA, an open-source, web-based SCADA / HMI software built for operational technology (OT) and industrial automatio",
+      "categories": [
+        "Vulnerability",
+        "AI Security",
+        "Open Source"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Attackers are actively exploiting a critical server-side request forgery vulnerability in the open-source MLflow AI platform. This flaw allows malicious actors to steal sensitive cloud credentials and other stored secrets.",
+        "whyItMatters": "This vulnerability exposes organizations to unauthorized data access and potential cloud infrastructure compromise through stolen credentials.",
+        "affected": [
+          "MLflow"
+        ],
+        "action": "Patch MLflow immediately to the latest secure version.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Clop created custom web shell for Windchill data theft attacks",
       "link": "https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/",
@@ -31,6 +291,66 @@
       }
     },
     {
+      "title": "[Launched] Generally Available: Managed Instance on Azure App Service",
+      "link": "https://azure.microsoft.com/updates?id=568952",
+      "source": "Azure Updates",
+      "publishedAt": "2026-08-18T17:26:25.000Z",
+      "summary": "Managed Instance on Azure App Service is now generally available. Managed Instance helps organizations migrate web applications to Azure App Service with minimal configuration and no code changes. Applications running on",
+      "categories": [
+        "Cloud"
+      ],
+      "tags": [
+        "Azure"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft has announced the general availability of Managed Instance on Azure App Service. This feature helps organizations migrate web applications to Azure App Service with minimal configuration and no code changes.",
+        "whyItMatters": "It streamlines cloud migration for enterprise web applications without requiring code modifications.",
+        "affected": [
+          "Azure App Service"
+        ],
+        "action": "Review the Azure documentation to evaluate the new migration capabilities.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "[In preview] Public Preview: Ipv6 support in Azure Firewall",
+      "link": "https://azure.microsoft.com/updates?id=569520",
+      "source": "Azure Updates",
+      "publishedAt": "2026-08-18T17:25:30.000Z",
+      "summary": "Azure Firewall now supports IPv6 in public\r\npreview, enabling customers to configure Azure Firewall and Firewall Policy in\r\ndual-stack mode for both IPv4 and IPv6 traffic. This preview allows native IPv6\r\nnetwork-rule fi",
+      "categories": [
+        "Cloud"
+      ],
+      "tags": [
+        "Azure"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft has announced the public preview of IPv6 support for Azure Firewall, allowing users to configure firewall policies in dual-stack mode. This feature enables native handling of both IPv4 and IPv6 network traffic within Azure environments.",
+        "whyItMatters": "It introduces new dual-stack networking capabilities that expand the attack surface and require proper IPv6 security configuration.",
+        "affected": [
+          "Azure Firewall"
+        ],
+        "action": "Review IPv6 firewall policies and dual-stack security configurations in the Azure preview.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "Medusa ransomware tallies hundreds of new victims, says updated advisory on group’s tactics",
       "link": "https://cyberscoop.com/medusa-ransomware-tactics-cisa-advisory/",
       "source": "CyberScoop",
@@ -53,6 +373,35 @@
         "whyItMatters": "Understanding the evolving tactics of active ransomware groups helps organizations strengthen their defenses and prevent potentially devastating operational disruptions.",
         "affected": [],
         "action": "Review the updated advisory to update your organization's defenses against Medusa ransomware tactics.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Ransom Busters Claims It Hacked Ransomware Servers, Asks Victims for Up to $60,000",
+      "link": "https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-18T16:58:16.000Z",
+      "summary": "A ransomware affiliate calling itself Ransom Busters has been spotted proactively sending emails to victim organizations and claims to delete stolen data from ransomware groups' servers in exchange for a fee ranging from",
+      "categories": [
+        "Ransomware",
+        "Incident Response"
+      ],
+      "tags": [
+        "Exchange"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "high",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A ransomware affiliate known as Ransom Busters is emailing victim organizations with offers to delete their stolen data from criminal servers. In exchange for this service, the group demands fees ranging up to 60,000 dollars.",
+        "whyItMatters": "This extortion tactic introduces a new layer of risk and uncertainty for ransomware victims attempting to recover compromised data.",
+        "affected": [],
+        "action": "Do not pay extortion fees to Ransom Busters and report any outreach to law enforcement.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -949,6 +1298,42 @@
       }
     },
     {
+      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/08/18/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-08-18T12:00:00.000Z",
+      "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  \nCVE-2026-33824 Microsoft Internet Key Exchange (IKE) Service Extensions Double Fre",
+      "categories": [
+        "Vulnerability",
+        "Government",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Exchange"
+      ],
+      "cves": [
+        "CVE-2026-33824"
+      ],
+      "kev": true,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "CISA has added four newly discovered vulnerabilities to its Known Exploited Vulnerabilities Catalog following evidence of active attacks in the wild. The latest additions include a double free vulnerability identified as CVE-2026-33824 affecting the Microsoft Internet Key Exchange Service Extensions.",
+        "whyItMatters": "Active exploitation in the wild means attackers are actively leveraging these flaws, significantly increasing the risk of compromise for organizations using the affected software.",
+        "affected": [
+          "Microsoft Internet Key Exchange (IKE) Service Extensions"
+        ],
+        "action": "Apply the latest security patches provided by Microsoft immediately.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-33824"
+        ],
+        "source": "ai"
+      }
+    },
+    {
       "title": "Google’s $10,000 refund test shows why AI agents need zero trust",
       "link": "https://www.helpnetsecurity.com/2026/08/18/google-zero-trust-ai-agents/",
       "source": "Help Net Security",
@@ -1567,35 +1952,6 @@
       }
     },
     {
-      "title": "CISA Flags Actively Exploited Ray Flaw That Can Trigger Browser-Based RCE",
-      "link": "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-18T06:34:20.000Z",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a critical flaw impacting Ray to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nRay is an open",
-      "categories": [
-        "Vulnerability",
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CISA has added a critical vulnerability affecting the open-source Ray framework to its Known Exploited Vulnerabilities catalog. The flaw has been cited as being actively exploited in the wild and can lead to browser-based remote code execution.",
-        "whyItMatters": "Active exploitation of a remote code execution vulnerability in Ray poses an immediate threat to organizations utilizing the framework, as attackers can potentially compromise affected systems.",
-        "affected": [
-          "Ray"
-        ],
-        "action": "Review CISA guidelines and apply necessary updates or patches to mitigate the Ray vulnerability.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Google’s open-source HEIR lets AI work with data it can’t see",
       "link": "https://www.helpnetsecurity.com/2026/08/18/google-heir-open-source-compiler-toolchain/",
       "source": "Help Net Security",
@@ -1734,38 +2090,6 @@
       }
     },
     {
-      "title": "Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects",
-      "link": "https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-17T21:03:04.000Z",
-      "summary": "GitLab has released security updates to address a critical vulnerability impacting its Community Edition (CE) and Enterprise Edition (EE) software that, under certain conditions, could allow an unauthenticated attacker t",
-      "categories": [
-        "Vulnerability",
-        "Open Source"
-      ],
-      "tags": [
-        "GitLab"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "GitLab has released security updates to address a critical vulnerability in its Community and Enterprise Edition software. Under certain conditions, this flaw could allow an unauthenticated attacker to delete public projects.",
-        "whyItMatters": "Unauthenticated attackers can permanently destroy public data and projects, posing a severe threat to project integrity and availability.",
-        "affected": [
-          "GitLab Community Edition (CE)",
-          "GitLab Enterprise Edition (EE)"
-        ],
-        "action": "Update GitLab installations to the latest patched version immediately.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Details emerge on BlackFile’s recent attacks on financial companies",
       "link": "https://cyberscoop.com/blackfile-cyberattacks-financial-sector/",
       "source": "CyberScoop",
@@ -1874,32 +2198,6 @@
           "Claude"
         ],
         "action": "Monitor and restrict competitive multi-agent AI testing environments.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Nearly 750k had financial info, SSNs leaked in South Carolina loan company breach",
-      "link": "https://therecord.media/financial-info-leak-debt-consolidator",
-      "source": "The Record",
-      "publishedAt": "2026-08-17T20:05:00.000Z",
-      "summary": "The breach affected anyone who received a loan through the company or inquired about a loan product through a third party.",
-      "categories": [
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A data breach at a South Carolina loan company resulted in the exposure of financial information and Social Security numbers. The incident impacted individuals who obtained a loan directly or inquired about one via a third party.",
-        "whyItMatters": "The exposure of sensitive personal identifiable information like SSNs and financial data puts nearly 750,000 individuals at high risk for identity theft and financial fraud.",
-        "affected": [],
-        "action": "Monitor credit reports and financial accounts for suspicious activity.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -2046,37 +2344,6 @@
       }
     },
     {
-      "title": "Snowflake GitHub Actions Flaw Lets Crafted Issues Trigger Command Injection",
-      "link": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets_0330881554.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-17T18:44:17.000Z",
-      "summary": "Cybersecurity researchers at Wiz have disclosed a new GitHub Actions workflow injection vulnerability in Snowflake's public snowflakedb/snowflake-connector-net repository that it said could be exploited through a crafted",
-      "categories": [
-        "Vulnerability",
-        "Open Source"
-      ],
-      "tags": [
-        "GitHub"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Researchers at Wiz have discovered a GitHub Actions workflow injection vulnerability in Snowflake's public snowflakedb/snowflake-connector-net repository. The flaw allows attackers to trigger command injection by using specially crafted issues.",
-        "whyItMatters": "This vulnerability could allow malicious actors to execute arbitrary commands within the context of the repository's CI/CD pipeline, potentially leading to unauthorized access or repository compromise.",
-        "affected": [
-          "snowflakedb/snowflake-connector-net"
-        ],
-        "action": "Update or patch the GitHub Actions workflows in the affected repository.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "USN-8640-1: Engrampa vulnerability",
       "link": "https://ubuntu.com/security/notices/USN-8640-1",
       "source": "Canonical Ubuntu Security",
@@ -2204,41 +2471,6 @@
         "relatedCves": [
           "CVE-2020-24588"
         ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8629-2: Linux kernel (AWS) vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8629-2",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-17T16:43:06.000Z",
-      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - x86 architecture;\n  - InfiniBand dri",
-      "categories": [
-        "Vulnerability",
-        "Incident Response",
-        "Cloud",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux",
-        "AWS"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several security issues were discovered in the Linux kernel for AWS, potentially allowing system compromise by an attacker. This security update addresses and corrects underlying flaws within the x86 architecture and InfiniBand subsystems.",
-        "whyItMatters": "Unpatched vulnerabilities in cloud-based Linux kernels can allow malicious actors to compromise critical cloud infrastructure and underlying systems.",
-        "affected": [
-          "Linux kernel (AWS)"
-        ],
-        "action": "Update the Linux kernel to the latest patched version.",
-        "risk": "High",
-        "relatedCves": [],
         "source": "ai"
       }
     },
@@ -3761,110 +3993,6 @@
       }
     },
     {
-      "title": "USN-8631-3: Linux kernel (NVIDIA Tegra IGX) vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8631-3",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-13T21:47:34.000Z",
-      "summary": "Siebe Devroe, Héloïse Gollier, and Mathy Vanhoef discovered that the WiFi\nimplementation in the Linux kernel did not properly handle aggregated\nframes in mesh networks, due to an incorrect fix for CVE-2020-24588. A\nphysi",
-      "categories": [
-        "Vulnerability",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [
-        "CVE-2020-24588"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Researchers discovered that the WiFi implementation in the Linux kernel for NVIDIA Tegra IGX improperly handles aggregated frames in mesh networks due to an incorrect fix for a previous vulnerability. This flaw could potentially be exploited by attackers within physical range of the target network.",
-        "whyItMatters": "It leaves mesh network implementations vulnerable to frame manipulation and related attacks due to an incomplete security patch.",
-        "affected": [
-          "Linux kernel (NVIDIA Tegra IGX)"
-        ],
-        "action": "Update the Linux kernel to the latest patched version provided by your vendor.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2020-24588"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8633-2: Linux kernel vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8633-2",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-13T21:44:52.000Z",
-      "summary": "Siebe Devroe, Héloïse Gollier, and Mathy Vanhoef discovered that the WiFi\nimplementation in the Linux kernel did not properly handle aggregated\nframes in mesh networks, due to an incorrect fix for CVE-2020-24588. A\nphysi",
-      "categories": [
-        "Vulnerability",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [
-        "CVE-2020-24588"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Researchers discovered that the Linux kernel's WiFi implementation improperly handles aggregated frames in mesh networks due to an incorrect fix for a previous vulnerability. This flaw exposes systems running affected kernel versions to potential security risks.",
-        "whyItMatters": "It leaves Linux systems using mesh networks vulnerable to exploitation because a previous security fix was flawed.",
-        "affected": [
-          "Linux kernel"
-        ],
-        "action": "Update the Linux kernel to the latest patched version.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2020-24588"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8529-2: Linux kernel vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8529-2",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-13T21:20:11.000Z",
-      "summary": "It was discovered that a logic flaw existed in the XFRM ESP-in-TCP\nsubsystem in the Linux kernel when handling socket buffer fragments. This\nflaw is known as Fragnesia. A local attacker could use this to escalate\nprivile",
-      "categories": [
-        "Vulnerability",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A logic flaw known as Fragnesia has been discovered in the XFRM ESP-in-TCP subsystem of the Linux kernel when handling socket buffer fragments. This vulnerability could potentially allow a local attacker to escalate their privileges.",
-        "whyItMatters": "It matters because a local attacker could exploit this vulnerability to gain elevated privileges on affected Linux systems.",
-        "affected": [
-          "Linux kernel"
-        ],
-        "action": "Update the Linux kernel to the latest patched version.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "ClamAV Vulnerabilities Affecting Cisco Products: August 2026",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-WuuvVd26?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=ClamAV%20Vulnerabilities%20Affecting%20Cisco%20Products:%20August%202026%26vs_k=1",
       "source": "Cisco PSIRT",
@@ -4002,36 +4130,6 @@
           "Azure Ultra data disks"
         ],
         "action": "Review the Azure documentation to utilize live resizing for shared data disks.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "[Launched] Generally Available: Pre-upgrade validation checks for Azure Database for PostgreSQL Flexible Server",
-      "link": "https://azure.microsoft.com/updates?id=568419",
-      "source": "Azure Updates",
-      "publishedAt": "2026-08-13T16:13:22.000Z",
-      "summary": "Pre-upgrade validation checks are now generally available for Azure Database for PostgreSQL flexible server, helping you proactively validate major version upgrade (MVU) readiness before initiating the actual upgrade pro",
-      "categories": [
-        "Cloud"
-      ],
-      "tags": [
-        "Azure"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has announced the general availability of pre-upgrade validation checks for Azure Database for PostgreSQL Flexible Server. This feature allows users to proactively verify their major version upgrade readiness before initiating the upgrade process.",
-        "whyItMatters": "It helps administrators identify and resolve potential upgrade blockers beforehand, reducing downtime and preventing failures during database maintenance.",
-        "affected": [
-          "Azure Database for PostgreSQL Flexible Server"
-        ],
-        "action": "Use the pre-upgrade validation checks before initiating major version upgrades.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -4257,35 +4355,6 @@
         ],
         "action": "Apply the latest security updates provided by Johnson Controls.",
         "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Johnson Controls Metasys",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-14",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-08-13T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow a low-privilege user or attacker to inject a persistent malicious payload via a crafted URL that executes in the context of other users' session",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A vulnerability in Johnson Controls Metasys allows low-privileged attackers to inject persistent malicious payloads via crafted URLs. These payloads execute within the context of other users' active sessions.",
-        "whyItMatters": "It enables attackers to compromise user sessions and potentially escalate privileges within the application.",
-        "affected": [
-          "Johnson Controls Metasys"
-        ],
-        "action": "Check vendor advisories for available patches and updates.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -4582,36 +4651,6 @@
         "affected": [],
         "action": "Do not use unauthorized third-party services offering discounted access to AI platforms.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Retirement: Containerized data connector agent for the Microsoft Sentinel solution for SAP applications",
-      "link": "https://azure.microsoft.com/updates?id=568457",
-      "source": "Azure Updates",
-      "publishedAt": "2026-08-12T19:41:20.000Z",
-      "summary": "On September 14, 2026 we will retire the containerized data connector agent for the Microsoft Sentinel solution for SAP applications. After this date the agent will be permanently disabled and will stop sending SAP logs ",
-      "categories": [
-        "News"
-      ],
-      "tags": [
-        "SAP"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has announced the retirement of the containerized data connector agent for the Microsoft Sentinel solution for SAP applications on September 14, 2026. After this retirement date, the agent will be permanently disabled and will cease transmitting SAP logs.",
-        "whyItMatters": "Organizations relying on this agent for SAP log integration with Microsoft Sentinel must migrate to an alternative solution before the retirement date to avoid monitoring blind spots.",
-        "affected": [
-          "Containerized data connector agent for Microsoft Sentinel solution for SAP applications"
-        ],
-        "action": "Migrate from the containerized data connector agent to a supported alternative before September 14, 2026.",
-        "risk": "Medium",
         "relatedCves": [],
         "source": "ai"
       }
@@ -5743,32 +5782,6 @@
         "whyItMatters": "Understanding current malware trends and statistics helps organizations and individuals anticipate emerging threats and improve defensive postures across desktop and IoT platforms.",
         "affected": [],
         "action": "Review the threat statistics to update your security awareness and defenses.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "IT threat evolution in Q2 2026. Mobile statistics",
-      "link": "https://securelist.com/malware-report-q2-2026-mobile-statistics/120948/",
-      "source": "Kaspersky Securelist",
-      "publishedAt": "2026-08-10T10:00:09.000Z",
-      "summary": "This report contains mobile threat statistics for Q2 2026, along with noteworthy discoveries and quarterly trends: the Anatsa banker and a transition to droppers.",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "This report details mobile threat statistics and quarterly trends for Q2 2026. It highlights the activity of the Anatsa banker and a notable industry transition toward the use of droppers.",
-        "whyItMatters": "Understanding current mobile threat trends and the proliferation of droppers is essential for anticipating and mitigating advanced banking malware campaigns.",
-        "affected": [],
-        "action": "Review the threat report to update mobile security posture and monitoring strategies.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
