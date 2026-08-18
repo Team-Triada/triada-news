@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T03:07:24.671Z",
+  "updatedAt": "2026-08-18T03:55:51.796Z",
   "items": [
     {
       "title": "ISC Stormcast For Tuesday, August 18th, 2026 (Tue, Aug 18th)",
@@ -23,6 +23,35 @@
         "affected": [],
         "action": "Listen to the podcast for the latest daily security updates.",
         "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6446-1 expat - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00357.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-08-18T00:00:00.000Z",
+      "summary": "A flaw was discovered in the UTF-16 decoding support of expat, an XML\nparsing C library, where low surrogates were treated in the same way as\nhigh surrogates. Parsing crafted XML input may result in an out-of-bounds\nread",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A vulnerability has been discovered in the UTF-16 decoding support of the expat XML parsing C library. This flaw allows low surrogates to be treated the same as high surrogates, which can cause an out-of-bounds read when parsing crafted XML input.",
+        "whyItMatters": "This flaw could potentially lead to application crashes or information disclosure when processing untrusted XML data.",
+        "affected": [
+          "expat"
+        ],
+        "action": "Update the expat library to the latest patched version provided by your vendor.",
+        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -4217,34 +4246,6 @@
         "whyItMatters": "Unpatched vulnerabilities in network devices can allow attackers to compromise enterprise perimeters and gain unauthorized access.",
         "affected": [],
         "action": "Check the vendor advisory and apply available firmware patches immediately.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6438-1 postgresql-17 - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00349.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-08-13T00:00:00.000Z",
-      "summary": "Multiple security issues were discovered in PostgreSQL, which may\nresult in execution of arbitrary code, incorrect authentication,\ninformation disclosure, or privilege escalation.\n\nThe upstream fix to address CVE-2026-64",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Multiple security issues have been discovered in PostgreSQL 17 that could lead to arbitrary code execution, incorrect authentication, information disclosure, or privilege escalation. An upstream fix has been released to address CVE-2026-64.",
-        "whyItMatters": "Unpatched database vulnerabilities can allow attackers to compromise sensitive data, elevate privileges, or execute arbitrary code on the underlying system.",
-        "affected": [
-          "postgresql-17"
-        ],
-        "action": "Update postgresql-17 to the latest security release.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
