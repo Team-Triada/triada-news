@@ -1,6 +1,90 @@
 {
-  "updatedAt": "2026-08-18T09:48:28.221Z",
+  "updatedAt": "2026-08-18T10:45:06.584Z",
   "items": [
+    {
+      "title": "LLMs and Contextual Integrity",
+      "link": "https://www.schneier.com/blog/archives/2026/08/llms-and-contextual-integrity.html",
+      "source": "Schneier on Security",
+      "publishedAt": "2026-08-18T10:40:16.000Z",
+      "summary": "I have been thinking a lot about AI and integrity. Part of that is contextual integrity. I recently found two papers on the topic.\n“CIMemories: A Compositional Benchmark for Contextual Integrity of Persistent Memory in L",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A cybersecurity article discusses the concept of contextual integrity in Large Language Models and references academic papers on persistent memory. However, the text is incomplete and lacks specific vulnerability details.",
+        "whyItMatters": "Understanding contextual integrity in AI persistent memory is important for privacy, but this specific excerpt reveals no immediate actionable security threat.",
+        "affected": [],
+        "action": "Monitor future research on LLM contextual integrity.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CISA: Windows Task Host flaw now exploited by ransomware gangs",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-windows-task-host-flaw-now-exploited-by-ransomware-gangs/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-08-18T10:32:16.000Z",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has confirmed that ransomware gangs are also exploiting a high-severity Windows Task Host vulnerability that was flagged as actively exploited in April. [.",
+      "categories": [
+        "Ransomware",
+        "Vulnerability",
+        "Government"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "CISA has confirmed that ransomware gangs are actively exploiting a high-severity Windows Task Host vulnerability. This flaw was initially flagged as actively exploited earlier in April.",
+        "whyItMatters": "Active exploitation by ransomware groups significantly increases the urgency for organizations to secure their Windows environments against this flaw.",
+        "affected": [
+          "Windows Task Host"
+        ],
+        "action": "Apply the latest security updates for Windows to mitigate the Task Host vulnerability.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Three-quarters of Ransomware Attacks Target Mid-Market Firms",
+      "link": "https://www.infosecurity-magazine.com/news/threequarters-ransomware-attacks/",
+      "source": "Infosecurity Magazine",
+      "publishedAt": "2026-08-18T10:00:00.000Z",
+      "summary": "Black Kite finds mid-market is the sweet spot for ransomware as manufacturers are most likely to be hit",
+      "categories": [
+        "Ransomware"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "high",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A recent Black Kite report reveals that three-quarters of all ransomware attacks now target mid-market companies. The study highlights that manufacturers within this mid-market segment are particularly vulnerable to these cyber threats.",
+        "whyItMatters": "It demonstrates a strategic shift by threat actors toward mid-sized organizations that may lack enterprise-grade security resources.",
+        "affected": [],
+        "action": "Review and strengthen cybersecurity defenses across mid-market and manufacturing assets.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "OpenAI tightens defenses after AI agents breach research environment",
       "link": "https://www.helpnetsecurity.com/2026/08/18/openai-strengthening-security-measures/",
@@ -1974,32 +2058,6 @@
       }
     },
     {
-      "title": "Philips and GE investigating Clop ransomware data theft claims",
-      "link": "https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-08-17T11:25:02.000Z",
-      "summary": "Tech giants General Electric (GE) and Philips have also confirmed they're investigating claims that the Clop ransomware gang breached their systems and stole data. [...]",
-      "categories": [
-        "Ransomware"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "high",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "General Electric and Philips are currently investigating claims made by the Clop ransomware gang regarding a system breach and data theft. Both tech giants have confirmed they are looking into the situation to determine the validity of the threat.",
-        "whyItMatters": "A successful data breach by a prolific ransomware group like Clop against major industrial and healthcare technology providers could expose sensitive corporate and customer data.",
-        "affected": [],
-        "action": "Monitor official statements from GE and Philips for further updates.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Hacking Public Wi-Fi DNS to Steal Credentials",
       "link": "https://www.schneier.com/blog/archives/2026/08/hacking-public-wi-fi-dns-to-steal-credentials.html",
       "source": "Schneier on Security",
@@ -2212,6 +2270,32 @@
         "affected": [],
         "action": "Monitor AI-generated patches closely for potential regressions.",
         "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "How QR-code phishing can slip past corporate security measures",
+      "link": "https://www.welivesecurity.com/en/business-security/qr-code-phishing-slip-past-corporate-security-measures/",
+      "source": "WeLiveSecurity",
+      "publishedAt": "2026-08-17T09:00:00.000Z",
+      "summary": "Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap.",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Quishing, or QR-code phishing, has emerged as a popular alternative to traditional phishing attacks for cybercriminals. Businesses need to understand these tactics to close security gaps and better protect their organizations.",
+        "whyItMatters": "QR-code phishing bypasses traditional email security controls, making it a critical threat vector for corporate environments.",
+        "affected": [],
+        "action": "Implement advanced email security solutions that can detect and analyze QR codes.",
+        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -2995,34 +3079,6 @@
         "affected": [],
         "action": "Educate board members on technology risks.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "New Mirai-Based Linux Botnet ‘Evooo1Bot’ Turns Victims Into Proxies",
-      "link": "https://www.infosecurity-magazine.com/news/new-linux-botnet-evooo1bot-victims/",
-      "source": "Infosecurity Magazine",
-      "publishedAt": "2026-08-14T13:00:00.000Z",
-      "summary": "Evooo1Bot is a newly observed botnet based on the Mirai framework but equipped with advanced features, turning edge devices into persistent proxies",
-      "categories": [
-        "News"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Evooo1Bot is a newly observed botnet built on the Mirai framework that targets edge devices. It utilizes advanced features to convert infected systems into persistent proxies.",
-        "whyItMatters": "It expands the threat landscape by equipping standard Mirai-based malware with persistent proxy capabilities, making victim infrastructure harder to detect and mitigate.",
-        "affected": [],
-        "action": "Monitor network traffic for unauthorized proxy activity and ensure all edge devices run updated firmware.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -5140,33 +5196,6 @@
       }
     },
     {
-      "title": "AI for Military Support",
-      "link": "https://www.schneier.com/blog/archives/2026/08/ai-for-military-support.html",
-      "source": "Schneier on Security",
-      "publishedAt": "2026-08-11T11:18:07.000Z",
-      "summary": "Interesting empirical research: “Black Box Warfare: Human Judgment and Military Decision-Making in the Age of AI.”\nAbstract: How is AI transforming decision-making in modern conflict? This study provides a unique empiric",
-      "categories": [
-        "AI Security",
-        "Research"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Recent empirical research explores the intersection of artificial intelligence and human judgment in modern military decision-making. The study investigates how black-box AI systems transform strategic choices during conflict.",
-        "whyItMatters": "Understanding the reliability and risks of AI in military applications is critical as autonomous systems increasingly influence high-stakes security decisions.",
-        "affected": [],
-        "action": "Review the research paper to understand the implications of AI in military decision-making.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Project CAV3RN continues: Google Apps Script as C2 relay and DNS-based C2 channel selection",
       "link": "https://securelist.com/project-cav3rn-continues/120991/",
       "source": "Kaspersky Securelist",
@@ -5738,32 +5767,6 @@
         "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
-      }
-    },
-    {
-      "title": "CSS:the bomb inside your inbox",
-      "link": "https://portswigger.net/research/css-the-bomb-inside-your-inbox",
-      "source": "PortSwigger Research",
-      "publishedAt": "2026-08-06T22:00:00.000Z",
-      "summary": "Gareth Heyes - gareth.heyes@portswigger.net - @garethheyes It's quite common for webmail clients to render untrusted CSS in a trusted UI. They attempt to make this safe using CSS sanitization. In this",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Webmail clients frequently attempt to render untrusted CSS safely within a trusted user interface by using CSS sanitization. However, this practice creates security risks as flaws in sanitization can lead to vulnerabilities.",
-        "whyItMatters": "Inadequate CSS sanitization in webmail clients can allow attackers to execute malicious styles or scripts within a trusted context, potentially compromising user accounts.",
-        "affected": [],
-        "action": "Review and strengthen CSS sanitization implementations in webmail clients.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
       }
     }
   ]
