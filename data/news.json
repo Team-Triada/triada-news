@@ -1,6 +1,58 @@
 {
-  "updatedAt": "2026-08-19T22:38:46.388Z",
+  "updatedAt": "2026-08-19T23:35:02.730Z",
   "items": [
+    {
+      "title": "Smashing Security podcast #481: Never say this to a robot dog",
+      "link": "https://grahamcluley.com/smashing-security-podcast-481/",
+      "source": "Graham Cluley",
+      "publishedAt": "2026-08-19T23:10:23.000Z",
+      "summary": "At Black Hat this month, a group of security researchers took a $9,000 robot dog, plugged Google's AI into its brain, and jailbroke it by telling it - with a completely straight face - that it was a Pokemon. What followe",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Security researchers at Black Hat successfully jailbroke a nine-thousand-dollar robot dog integrated with Google's AI. They achieved this by tricking the artificial intelligence into believing it was a Pokemon character.",
+        "whyItMatters": "This demonstration highlights the vulnerability of AI-driven physical machinery to creative prompt injection and social engineering attacks.",
+        "affected": [],
+        "action": "Review AI integration security in physical robotics to prevent unauthorized behavioral manipulation.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "'Not a theoretical risk,' feds warn as attackers use AI-made code to hack critical infrastructure controllers",
+      "link": "https://www.theregister.com/security/2026/08/19/not-a-theoretical-risk-feds-warn-as-attackers-use-ai-made-code-to-hack-critical-infrastructure-controllers/5289960",
+      "source": "The Register",
+      "publishedAt": "2026-08-19T22:38:41.000Z",
+      "summary": "'It is an active threat'",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Federal authorities have warned that malicious actors are actively using artificial intelligence-generated code to target critical infrastructure controllers. This development marks a transition from theoretical concerns to real-world exploitation of operational technology systems.",
+        "whyItMatters": "AI-generated exploits lower the technical barrier for attackers targeting critical infrastructure, threatening essential public services.",
+        "affected": [],
+        "action": "Review and harden critical infrastructure controls against automated exploit attempts.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "[Launched] Generally Available: Azure Databricks Lakebase in four additional regions",
       "link": "https://azure.microsoft.com/updates?id=569684",
@@ -3349,39 +3401,6 @@
       }
     },
     {
-      "title": "Apple plugs image-processing hole ripe for spyware abuse",
-      "link": "https://www.theregister.com/security/2026/08/18/apple-plugs-image-processing-hole-ripe-for-spyware-abuse/5289031",
-      "source": "The Register",
-      "publishedAt": "2026-08-18T14:56:00.000Z",
-      "summary": "Patch batch spans current kit, older iGadgets, Macs, and Vision Pro",
-      "categories": [
-        "Malware"
-      ],
-      "tags": [
-        "Apple"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "Apple has released a security patch to address a critical image-processing vulnerability actively exploited to deliver spyware. The update covers a wide range of devices, including current and older iPhones, iPads, Macs, and the Vision Pro.",
-        "whyItMatters": "This vulnerability allows attackers to compromise devices via malicious images without user interaction, posing a severe risk of targeted spyware deployment.",
-        "affected": [
-          "iPhones",
-          "iPads",
-          "Macs",
-          "Vision Pro"
-        ],
-        "action": "Update your Apple devices immediately.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Apple fixes another image-processing flaw that could allow code execution",
       "link": "https://www.malwarebytes.com/blog/bugs/2026/08/apple-fixes-another-image-processing-flaw-that-could-allow-code-execution",
       "source": "Malwarebytes Labs",
@@ -5707,32 +5726,6 @@
         "affected": [],
         "action": "Review the new NCSC guidance for secure connectivity principles.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Project CAV3RN continues: Google Apps Script as C2 relay and DNS-based C2 channel selection",
-      "link": "https://securelist.com/project-cav3rn-continues/120991/",
-      "source": "Kaspersky Securelist",
-      "publishedAt": "2026-08-11T10:00:19.000Z",
-      "summary": "Project CAV3RN targets Israel with Google Apps Script C2 relays and DNS-based routing. Modular .NET NativeAOT framework blends C2 traffic with legitimate Google services to evade detection.",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Project CAV3RN is a modular .NET framework targeting Israel that uses Google Apps Script as a command and control relay. It employs DNS-based routing to blend malicious traffic with legitimate Google services and evade detection.",
-        "whyItMatters": "This technique allows threat actors to bypass standard network monitoring by camouflaging malicious command and control traffic as legitimate Google service activity.",
-        "affected": [],
-        "action": "Monitor network traffic for anomalous DNS routing and unauthorized Google Apps Script relay usage.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
