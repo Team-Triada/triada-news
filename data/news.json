@@ -1,6 +1,116 @@
 {
-  "updatedAt": "2026-08-19T13:07:12.245Z",
+  "updatedAt": "2026-08-19T13:57:01.323Z",
   "items": [
+    {
+      "title": "Virtual Event Today: CodeSecCon – Secure Your Code and Applications",
+      "link": "https://www.securityweek.com/virtual-event-today-codeseccon-secure-your-code-and-applications/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-08-19T13:36:17.000Z",
+      "summary": "CodeSecCon is the premier virtual event bringing together developers and cybersecurity professionals to revolutionize the way applications are built, secured, and maintained.\nThe post Virtual Event Today: CodeSecCon – Se",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "CodeSecCon is hosting a virtual event today aimed at bringing together developers and cybersecurity professionals. The conference focuses on revolutionizing how applications are built, secured, and maintained.",
+        "whyItMatters": "It serves as a professional development opportunity for industry experts to discuss modern application security practices.",
+        "affected": [],
+        "action": "Attend the virtual event if interested in application security.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Comcast gives its Wi-Fi motion detector a security makeover",
+      "link": "https://www.theregister.com/security/2026/08/19/comcast-gives-its-wi-fi-motion-detector-a-security-makeover/5289572",
+      "source": "The Register",
+      "publishedAt": "2026-08-19T13:14:00.000Z",
+      "summary": "Rebranded feature promises household alerts without video, but mind the small print",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Comcast has rebranded and updated its Wi-Fi motion detector feature to provide household alerts without the use of video cameras. However, users are advised to review the small print regarding privacy and security implications.",
+        "whyItMatters": "It introduces smart home monitoring capabilities that raise potential privacy and data collection concerns for consumers.",
+        "affected": [
+          "Comcast Wi-Fi motion detector"
+        ],
+        "action": "Review the privacy terms and small print before enabling the feature.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "SilkParasite Espionage Campaign Targets Central Asian Governments with Five New RATs",
+      "link": "https://thehackernews.com/2026/08/silkparasite-espionage-campaign-targets.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-19T13:12:17.000Z",
+      "summary": "A previously unreported cyber espionage operation dubbed SilkParasite has been observed targeting government bodies in Central Asia.\n\nThe intrusion set makes use of seven remote access tool (RAT) families, five of which ",
+      "categories": [
+        "Threat Intel",
+        "Government"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A newly discovered cyber espionage campaign named SilkParasite has been targeting government organizations in Central Asia. The operation utilizes a total of seven remote access trojans, including five previously unseen RAT families.",
+        "whyItMatters": "This campaign represents an active, highly sophisticated espionage threat targeting critical government infrastructure in Central Asia using novel malware.",
+        "affected": [],
+        "action": "Monitor network traffic for indicators of compromise associated with the SilkParasite RAT families.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8649-1: libheif vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8649-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-19T12:39:30.000Z",
+      "summary": "It was discovered that libheif had an integer underflow in the Fraction\nconstructor when a clap transform was applied twice. An attacker could\npossibly use this issue to cause libheif to crash, resulting in a denial of\ns",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Ubuntu Security Notice USN-8649-1 addresses vulnerabilities in libheif, specifically an integer underflow in the Fraction constructor when a clap transform is applied twice. An attacker could potentially exploit this flaw to cause a denial of service by crashing the application.",
+        "whyItMatters": "This vulnerability could allow malicious actors to cause application crashes and denial of service conditions in systems processing HEIF images.",
+        "affected": [
+          "libheif"
+        ],
+        "action": "Update libheif to the latest patched version.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "US charges Iranians for sprawling hacking campaign on government agencies, universities",
       "link": "https://therecord.media/iran-cyberattacks-us-doj",
@@ -25,6 +135,42 @@
         "action": "Review threat intelligence reports regarding Iranian state-sponsored cyber activity.",
         "risk": "News",
         "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8563-3: nginx vulnerability",
+      "link": "https://ubuntu.com/security/notices/USN-8563-3",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-19T12:01:08.000Z",
+      "summary": "USN-8563-1 fixed vulnerabilities in nginx. The fix for CVE-2026-42533 was\nbacked out in USN-8563-2 because it could cause a regression. This update\nincludes a better fix for CVE-2026-42533.\n\nWe apologize for the inconven",
+      "categories": [
+        "Vulnerability",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Nginx"
+      ],
+      "cves": [
+        "CVE-2026-42533"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Ubuntu has released an update to address a regression caused by a previous patch for an nginx vulnerability. This new update provides a corrected fix for CVE-2026-42533.",
+        "whyItMatters": "Properly patching vulnerabilities without introducing regressions is critical to maintaining system stability and security.",
+        "affected": [
+          "nginx"
+        ],
+        "action": "Update nginx to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-42533"
+        ],
         "source": "ai"
       }
     },
@@ -82,6 +228,64 @@
       }
     },
     {
+      "title": "USN-8648-1: Bind vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8648-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-19T11:45:39.000Z",
+      "summary": "It was discovered that Bind incorrectly accepted NSEC3 records whose signer\nname did not match the owning zone. A remote attacker could possibly use\nthis issue to perform NSEC3 impersonation attacks, bypassing DNSSEC\nval",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Bind contained a vulnerability where it incorrectly accepted NSEC3 records with signer names that did not match the owning zone. This flaw could allow a remote attacker to conduct NSEC3 impersonation attacks and bypass DNSSEC validation.",
+        "whyItMatters": "This vulnerability undermines DNSSEC integrity by allowing attackers to bypass security validations through NSEC3 impersonation.",
+        "affected": [
+          "Bind"
+        ],
+        "action": "Update Bind to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Hackers Compromised 14,500+ Dahua Devices Using Credential Attacks, Auth Bypasses, and P2P",
+      "link": "https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-19T11:34:28.000Z",
+      "summary": "Cybersecurity researchers at Hunt.io have disclosed details of a campaign that they say compromised more than 14,530 Dahua devices between June 17 and July 22, 2026, using credential attacks, two authentication-bypass fl",
+      "categories": [
+        "Threat Intel",
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Cybersecurity researchers at Hunt.io revealed that hackers compromised over 14,530 Dahua devices between June 17 and July 22, 2026. The attackers exploited credential attacks, two authentication-bypass flaws, and P2P mechanisms to gain unauthorized access.",
+        "whyItMatters": "This campaign exposes a large volume of IoT infrastructure to potential malicious control through compromised authentication mechanisms.",
+        "affected": [
+          "Dahua devices"
+        ],
+        "action": "Audit and secure Dahua devices by updating firmware and changing default credentials.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "US Charges 17 Iranian Hackers, Offers $10 Million Rewards for 5 of Them",
       "link": "https://www.securityweek.com/us-charges-17-iranian-hackers-offers-10-million-rewards-for-5-of-them/",
       "source": "SecurityWeek",
@@ -102,6 +306,32 @@
         "whyItMatters": "This enforcement action highlights ongoing international efforts to hold state-sponsored cybercriminals accountable and disrupt foreign threat operations.",
         "affected": [],
         "action": "Review threat intelligence reports regarding Iranian cyber operations.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Phishing 3.0: The Fight Moves to Agent Versus Agent",
+      "link": "https://thehackernews.com/2026/08/phishing-30-fight-moves-to-agent-versus.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-19T11:30:00.000Z",
+      "summary": "Most email defenses still do the job they did a decade ago. Scan the message, look for something malicious, block it. That worked when the danger sat in the payload, a bad link or an attachment. It stopped working when t",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Traditional email security tools that scan for malicious links and attachments are increasingly ineffective against modern phishing tactics. Security is evolving into an autonomous battleground where AI agents fight against AI agents.",
+        "whyItMatters": "As phishing attacks transition to automated, agent-based operations, legacy defenses fail to protect organizations from sophisticated threats.",
+        "affected": [],
+        "action": "Evaluate modern email security solutions that utilize AI-driven defense mechanisms.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -713,6 +943,35 @@
       }
     },
     {
+      "title": "USN-8093-2: libssh vulnerability",
+      "link": "https://ubuntu.com/security/notices/USN-8093-2",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-19T08:15:33.000Z",
+      "summary": "USN-8093-1 fixed a vulnerability in libssh. This update provides\nthe corresponsing fix for Ubuntu 26.04 LTS.\n\nOriginal advisory details:\n\n It was discovered that libssh incorrectly performed bounds checking when\n process",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Ubuntu has released an update to fix a bounds checking vulnerability in libssh originally addressed in USN-8093-1. This advisory provides the corresponding fix specifically for Ubuntu 26.04 LTS.",
+        "whyItMatters": "Unpatched bounds checking vulnerabilities in libraries like libssh can potentially lead to memory corruption and remote code execution.",
+        "affected": [
+          "libssh (Ubuntu 26.04 LTS)"
+        ],
+        "action": "Update the libssh package to the latest available version.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "CISA: Medusa ransomware hit over 500 critical infrastructure orgs",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-500-critical-infrastructure-orgs/",
       "source": "BleepingComputer",
@@ -735,6 +994,35 @@
         "affected": [],
         "action": "Review and harden defenses against the Medusa ransomware group.",
         "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8113-2: LibTIFF vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8113-2",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-19T07:39:43.000Z",
+      "summary": "USN 8113-1 fixed vulnerabilities in tiff. This update\nprovides the corresponding fixes for Ubuntu 26.04 LTS.\n\nOriginal advisory details:\n\n It was discovered that LibTIFF did not properly handle memory when\n processing ce",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Canonical has released a security update for LibTIFF to address memory handling vulnerabilities in Ubuntu 26.04 LTS. This follows a previous advisory that fixed similar issues in other versions of Ubuntu.",
+        "whyItMatters": "Unpatched memory handling flaws in widely used libraries like LibTIFF can potentially lead to application crashes or arbitrary code execution when processing malicious image files.",
+        "affected": [
+          "Ubuntu 26.04 LTS"
+        ],
+        "action": "Update the LibTIFF package on affected systems.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "ai"
       }
@@ -1456,40 +1744,6 @@
       }
     },
     {
-      "title": "USN-8646-1: Linux kernel vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8646-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-18T18:26:29.000Z",
-      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - OCFS2 file system;\n  - B.A.T.M.A.N. ",
-      "categories": [
-        "Vulnerability",
-        "Incident Response",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several security issues were discovered in the Linux kernel that could allow an attacker to compromise the system. This update corrects flaws specifically within the OCFS2 file system and B.A.T.M.A.N. subsystems.",
-        "whyItMatters": "Unpatched kernel vulnerabilities can allow local or remote attackers to fully compromise the affected operating system.",
-        "affected": [
-          "Linux kernel OCFS2 file system",
-          "Linux kernel B.A.T.M.A.N."
-        ],
-        "action": "Update the Linux kernel to the latest version provided by your distributor.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "CVE-2026-75897 - Uncontrolled resource consumption in OpenSearch Dashboards capabilities route",
       "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-082-aws/",
       "source": "AWS Security Bulletins",
@@ -1522,110 +1776,6 @@
         "relatedCves": [
           "CVE-2026-75897"
         ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8645-1: Linux kernel (Oracle) vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8645-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-18T18:23:33.000Z",
-      "summary": "Siebe Devroe, Héloïse Gollier, and Mathy Vanhoef discovered that the WiFi\nimplementation in the Linux kernel did not properly handle aggregated\nframes in mesh networks, due to an incorrect fix for CVE-2020-24588. A\nphysi",
-      "categories": [
-        "Vulnerability",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux",
-        "Oracle"
-      ],
-      "cves": [
-        "CVE-2020-24588"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Researchers discovered a vulnerability in the Linux kernel's WiFi implementation regarding the handling of aggregated frames in mesh networks. This issue stems from an incorrect fix for a previously identified security flaw.",
-        "whyItMatters": "Attackers could potentially exploit this kernel weakness in mesh network environments to compromise affected systems.",
-        "affected": [
-          "Linux kernel"
-        ],
-        "action": "Update the Linux kernel to the latest patched version provided by Oracle.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2020-24588"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8644-1: Linux kernel vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8644-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-18T18:20:23.000Z",
-      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - File systems infrastructure;\n  - OCF",
-      "categories": [
-        "Vulnerability",
-        "Incident Response",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several security issues were discovered in the Linux kernel affecting file systems infrastructure and OCF subsystems. An attacker could potentially exploit these vulnerabilities to compromise the system.",
-        "whyItMatters": "Unpatched Linux kernel vulnerabilities can allow unauthorized system compromise, threatening overall server and device security.",
-        "affected": [
-          "Linux kernel"
-        ],
-        "action": "Update the Linux kernel to the latest available version.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8643-1: Linux kernel vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8643-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-18T18:08:07.000Z",
-      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - Network drivers;\n  - Open vSwitch;\n ",
-      "categories": [
-        "Vulnerability",
-        "Incident Response",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several security issues were discovered in the Linux kernel that could allow an attacker to compromise the system. The updates specifically correct flaws located within the network drivers and Open vSwitch subsystems.",
-        "whyItMatters": "Kernel vulnerabilities can lead to full system compromise, making timely patching essential for maintaining infrastructure security.",
-        "affected": [
-          "Linux kernel network drivers",
-          "Open vSwitch"
-        ],
-        "action": "Update the Linux kernel to the latest patched version.",
-        "risk": "High",
-        "relatedCves": [],
         "source": "ai"
       }
     },
@@ -1681,36 +1831,6 @@
         ],
         "action": "Review and restrict connected app permissions for Microsoft Copilot Personal while awaiting official patches.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Attackers Exploit MLflow SSRF Flaw to Steal Cloud Credentials and Secrets",
-      "link": "https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-18T17:44:05.000Z",
-      "summary": "Two critical vulnerabilities impacting MLflow, an open-source artificial intelligence (AI) platform, and FUXA, an open-source, web-based SCADA / HMI software built for operational technology (OT) and industrial automatio",
-      "categories": [
-        "Vulnerability",
-        "AI Security",
-        "Open Source"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Attackers are actively exploiting a critical server-side request forgery vulnerability in the open-source MLflow AI platform. This flaw allows malicious actors to steal sensitive cloud credentials and other stored secrets.",
-        "whyItMatters": "This vulnerability exposes organizations to unauthorized data access and potential cloud infrastructure compromise through stolen credentials.",
-        "affected": [
-          "MLflow"
-        ],
-        "action": "Patch MLflow immediately to the latest secure version.",
-        "risk": "Critical",
         "relatedCves": [],
         "source": "ai"
       }
@@ -1833,35 +1953,6 @@
       }
     },
     {
-      "title": "Ransom Busters Claims It Hacked Ransomware Servers, Asks Victims for Up to $60,000",
-      "link": "https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-18T16:58:16.000Z",
-      "summary": "A ransomware affiliate calling itself Ransom Busters has been spotted proactively sending emails to victim organizations and claims to delete stolen data from ransomware groups' servers in exchange for a fee ranging from",
-      "categories": [
-        "Ransomware",
-        "Incident Response"
-      ],
-      "tags": [
-        "Exchange"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "high",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A ransomware affiliate known as Ransom Busters is emailing victim organizations with offers to delete their stolen data from criminal servers. In exchange for this service, the group demands fees ranging up to 60,000 dollars.",
-        "whyItMatters": "This extortion tactic introduces a new layer of risk and uncertainty for ransomware victims attempting to recover compromised data.",
-        "affected": [],
-        "action": "Do not pay extortion fees to Ransom Busters and report any outreach to law enforcement.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Berlin cuts two state ministries off government network after security breach",
       "link": "https://therecord.media/berlin-cuts-two-state-ministries-off-government-breach",
       "source": "The Record",
@@ -1972,65 +2063,6 @@
         "action": "Patch the Ray vulnerability immediately within the mandated three-day window.",
         "risk": "Critical",
         "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Webinar Today: Rethinking Cyber Defense for AI-Speed Attacks",
-      "link": "https://www.securityweek.com/webinar-today-rethinking-cyber-defense-for-ai-speed-attacks/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-08-18T15:03:30.000Z",
-      "summary": "Join the live webinar as we explore if detection-first security operations can keep pace with AI, or if it’s time to rethink prevention as the strongest default.\nThe post Webinar Today: Rethinking Cyber Defense for AI-Sp",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "This news item announces a live webinar focused on rethinking cybersecurity operations in the context of AI-speed attacks. The session debates whether traditional detection-first security can keep pace or if prevention should become the primary default strategy.",
-        "whyItMatters": "It highlights the evolving threat landscape where automation and AI necessitate a reevaluation of organizational defense strategies.",
-        "affected": [],
-        "action": "Register for the webinar to learn about modern cyber defense strategies.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8641-1: .NET vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8641-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-18T15:02:43.000Z",
-      "summary": "Miha Zupan discovered that .NET did not properly interpret certain HTTP\nrequests. An attacker could possibly use this issue to perform request\nsmuggling and bypass a security feature. (CVE-2026-62899)\n\nIvan Demchuk disco",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-62899"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Multiple vulnerabilities have been discovered in .NET regarding the improper interpretation of certain HTTP requests. These flaws could allow a remote attacker to perform request smuggling and bypass security features.",
-        "whyItMatters": "HTTP request smuggling can allow attackers to bypass security controls and potentially gain unauthorized access to backend systems.",
-        "affected": [
-          ".NET"
-        ],
-        "action": "Update .NET to the latest patched versions provided by the vendor.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-62899"
-        ],
         "source": "ai"
       }
     },
@@ -2581,32 +2613,6 @@
         "whyItMatters": "Organizations can no longer rely on patching everything, necessitating a fundamental shift in how vulnerabilities are prioritized and managed.",
         "affected": [],
         "action": "Adopt risk-based vulnerability prioritization strategies instead of relying solely on traditional patch cycles.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "AI \"Mind Viruses\" Can Spread Between Agents Through Persistent Prompt Files",
-      "link": "https://thehackernews.com/2026/08/ai-mind-viruses-can-spread-between.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-18T12:38:36.000Z",
-      "summary": "Security researchers at Anthropic and Switzerland's EPFL have demonstrated that self-propagating payloads can spread from one artificial intelligence (AI) agent to the next through the editable system prompt files that a",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Security researchers at Anthropic and EPFL demonstrated that self-propagating payloads can spread between artificial intelligence agents. This infection occurs through editable system prompt files used by the agents.",
-        "whyItMatters": "This vulnerability shows how AI agents can be compromised and spread malicious payloads autonomously without direct human intervention.",
-        "affected": [],
-        "action": "Secure system prompt files to prevent unauthorized modifications.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -3539,33 +3545,6 @@
         "affected": [],
         "action": "Avoid engaging with unauthorized third-party TikTok reward pages.",
         "risk": "Medium",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Code fixers have fired up the AI warp drive. Strange new worlds await",
-      "link": "https://www.theregister.com/columnists/2026/08/17/code-fixers-have-fired-up-the-ai-warp-drive-strange-new-worlds-await/5287681",
-      "source": "The Register",
-      "publishedAt": "2026-08-17T09:04:00.000Z",
-      "summary": "With more patches per month than at a pirate convention, the bug must be an endangered species. Well, about that",
-      "categories": [
-        "AI Security",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "AI tools are significantly increasing the frequency and speed of software patch generation. This rapid deployment of automated fixes is transforming traditional vulnerability remediation processes.",
-        "whyItMatters": "Accelerated patching by AI could drastically change the vulnerability landscape and software maintenance cycles.",
-        "affected": [],
-        "action": "Monitor AI-generated patches for quality and reliability.",
-        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
