@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T20:44:40.060Z",
+  "updatedAt": "2026-08-20T21:41:48.809Z",
   "items": [
     {
       "title": "Calling on Cyber Pros to Help Defend City Hall",
@@ -22,6 +22,98 @@
         "whyItMatters": "Underfunded government agencies are frequent targets for cyberattacks, making external cybersecurity support critical for public infrastructure defense.",
         "affected": [],
         "action": "Consider volunteering cybersecurity expertise to local government agencies.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8643-2: Linux kernel vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8643-2",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-20T21:32:40.000Z",
+      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - Network drivers;\n  - Open vSwitch;\n ",
+      "categories": [
+        "Vulnerability",
+        "Incident Response",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Several security issues were discovered in the Linux kernel that could allow an attacker to compromise the system. This update specifically corrects flaws in the network drivers and Open vSwitch subsystems.",
+        "whyItMatters": "Unpatched vulnerabilities in the Linux kernel can lead to full system compromise by local or remote attackers depending on the specific flaw.",
+        "affected": [
+          "Linux kernel"
+        ],
+        "action": "Update the Linux kernel to the latest version.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8656-1: Linux kernel (HWE) vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8656-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-20T21:21:56.000Z",
+      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - x86 architecture;\n  - InfiniBand dri",
+      "categories": [
+        "Vulnerability",
+        "Incident Response",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Several security issues were discovered in the Linux kernel across subsystems including the x86 architecture and InfiniBand drivers. An attacker could potentially exploit these flaws to compromise the affected system.",
+        "whyItMatters": "Unpatched kernel vulnerabilities can allow local or remote attackers to fully compromise the underlying operating system.",
+        "affected": [
+          "Linux kernel"
+        ],
+        "action": "Update the Linux kernel to the latest version provided by the vendor.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "New CUSTODY Framework Constrains AI Agents Inside the Network",
+      "link": "https://www.darkreading.com/perimeter/new-custody-framework-constrains-ai-agents-inside-network",
+      "source": "Dark Reading",
+      "publishedAt": "2026-08-20T20:42:18.000Z",
+      "summary": "Enterprise cybersecurity expert Jake Williams joins the Dark Reading News Desk to explain why he decided to release his new agentic AI framework in the wake of the OpenAI attacks on Hugging Face.",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Enterprise cybersecurity expert Jake Williams has released a new framework called CUSTODY designed to constrain agentic AI inside corporate networks. The framework was developed in response to recent AI-targeted attacks on the Hugging Face platform.",
+        "whyItMatters": "It provides crucial security controls to prevent autonomous AI agents from being compromised or misused within enterprise networks.",
+        "affected": [],
+        "action": "Review the CUSTODY framework to understand how to secure agentic AI deployments.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -2707,32 +2799,6 @@
       }
     },
     {
-      "title": "Agentic AI Presents New Insider Threat Model for Orgs",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/agentic-ai-new-insider-threat-model",
-      "source": "Dark Reading",
-      "publishedAt": "2026-08-19T19:54:43.000Z",
-      "summary": "Katie Moussouris of Luta Security talks with the Dark Reading News Desk about how enterprises will now need to monitor risks posed by their own agents in the wake of the recent Hugging Face attack.",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Agentic AI introduces a new insider threat model for organizations, requiring enterprises to monitor risks from their own autonomous agents. This follows a recent security incident involving Hugging Face that highlighted the potential dangers of AI agent exploitation.",
-        "whyItMatters": "It matters because autonomous AI agents operate with privileges that can be weaponized against the enterprise, expanding the traditional insider threat attack surface.",
-        "affected": [],
-        "action": "Implement strict monitoring and access controls for all deployed AI agents.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "USN-8563-4: nginx regression",
       "link": "https://ubuntu.com/security/notices/USN-8563-4",
       "source": "Canonical Ubuntu Security",
@@ -3531,42 +3597,6 @@
       }
     },
     {
-      "title": "USN-8563-3: nginx vulnerability",
-      "link": "https://ubuntu.com/security/notices/USN-8563-3",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-19T12:01:08.000Z",
-      "summary": "USN-8563-1 fixed vulnerabilities in nginx. The fix for CVE-2026-42533 was\nbacked out in USN-8563-2 because it could cause a regression. This update\nincludes a better fix for CVE-2026-42533.\n\nWe apologize for the inconven",
-      "categories": [
-        "Vulnerability",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Nginx"
-      ],
-      "cves": [
-        "CVE-2026-42533"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Ubuntu has released an update to address a regression caused by a previous patch for an nginx vulnerability. This new update provides a corrected fix for CVE-2026-42533.",
-        "whyItMatters": "Properly patching vulnerabilities without introducing regressions is critical to maintaining system stability and security.",
-        "affected": [
-          "nginx"
-        ],
-        "action": "Update nginx to the latest patched version.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-42533"
-        ],
-        "source": "ai"
-      }
-    },
-    {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/08/19/cisa-adds-one-known-exploited-vulnerability-catalog",
       "source": "CISA Advisories",
@@ -3650,35 +3680,6 @@
         "affected": [],
         "action": "Review regional cybersecurity partnerships for potential security service integrations.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8648-1: Bind vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8648-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-19T11:45:39.000Z",
-      "summary": "It was discovered that Bind incorrectly accepted NSEC3 records whose signer\nname did not match the owning zone. A remote attacker could possibly use\nthis issue to perform NSEC3 impersonation attacks, bypassing DNSSEC\nval",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Bind contained a vulnerability where it incorrectly accepted NSEC3 records with signer names that did not match the owning zone. This flaw could allow a remote attacker to conduct NSEC3 impersonation attacks and bypass DNSSEC validation.",
-        "whyItMatters": "This vulnerability undermines DNSSEC integrity by allowing attackers to bypass security validations through NSEC3 impersonation.",
-        "affected": [
-          "Bind"
-        ],
-        "action": "Update Bind to the latest patched version.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -4034,42 +4035,6 @@
         "action": "Review and strengthen credential security controls and monitor for unauthorized access attempts.",
         "risk": "High",
         "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-75897 - Uncontrolled resource consumption in OpenSearch Dashboards capabilities route",
-      "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-082-aws/",
-      "source": "AWS Security Bulletins",
-      "publishedAt": "2026-08-18T18:26:06.000Z",
-      "summary": "Bulletin ID: 2026-082-AWS\n Scope: AWS\n Content Type: Important (requires attention)\n Publication Date: 08/18/2026 10:00 AM PDT\n \nDescription:\n \nOpenSearch Dashboards is the open-source visualization and management UI for",
-      "categories": [
-        "Vulnerability",
-        "Cloud",
-        "Open Source"
-      ],
-      "tags": [
-        "AWS"
-      ],
-      "cves": [
-        "CVE-2026-75897"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "AWS has published a security bulletin regarding an uncontrolled resource consumption vulnerability in the OpenSearch Dashboards capabilities route, tracked as CVE-2026-75897. The issue impacts the open-source visualization and management UI, requiring attention from administrators.",
-        "whyItMatters": "Uncontrolled resource consumption vulnerabilities can be exploited to cause denial of service conditions by exhausting system resources.",
-        "affected": [
-          "OpenSearch Dashboards"
-        ],
-        "action": "Review the AWS security bulletin and apply the recommended updates or mitigations.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-75897"
-        ],
         "source": "ai"
       }
     },
@@ -5747,6 +5712,35 @@
         ],
         "action": "Review and apply the latest Microsoft security updates.",
         "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+      "link": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+      "source": "Talos Intelligence",
+      "publishedAt": "2026-08-11T22:21:02.000Z",
+      "summary": "Microsoft has released its monthly security update for August 2026, which includes 421 vulnerabilities affecting a range of products, including 62 that Microsoft marked as \"critical.\"",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft has released its monthly security update for August 2026, addressing 421 vulnerabilities across various products. Among these fixes, 62 security flaws have been officially classified by Microsoft as critical.",
+        "whyItMatters": "Unpatched critical vulnerabilities in Microsoft products can be exploited by threat actors to achieve remote code execution or system compromise.",
+        "affected": [
+          "Microsoft products"
+        ],
+        "action": "Apply the August 2026 security updates immediately.",
+        "risk": "Critical",
         "relatedCves": [],
         "source": "ai"
       }
