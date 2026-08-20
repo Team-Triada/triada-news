@@ -1,6 +1,34 @@
 {
-  "updatedAt": "2026-08-19T23:35:02.730Z",
+  "updatedAt": "2026-08-20T01:50:11.481Z",
   "items": [
+    {
+      "title": "OpenAI confirms ChatGPT is down as logins and signups fail",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-as-logins-and-signups-fail/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-08-20T00:20:55.000Z",
+      "summary": "ChatGPT is experiencing a major outage, and users are unable to sign in, create accounts, or load chats, including previous conversations. [...]",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "OpenAI's ChatGPT is currently experiencing a major outage affecting user logins, account signups, and chat loading functionality. Users are unable to access their previous conversations or utilize the platform.",
+        "whyItMatters": "This service disruption halts productivity and access for millions of users relying on ChatGPT for daily workflows.",
+        "affected": [
+          "ChatGPT"
+        ],
+        "action": "Check official status pages and wait for OpenAI to restore service.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Smashing Security podcast #481: Never say this to a robot dog",
       "link": "https://grahamcluley.com/smashing-security-podcast-481/",
@@ -2038,36 +2066,6 @@
       }
     },
     {
-      "title": "Microsoft fixes known issue causing Windows Defender crashes",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-known-issue-causing-windows-defender-crashes/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-08-19T11:14:28.000Z",
-      "summary": "Microsoft has resolved a bug that caused Windows Defender to crash after a recent security update, resulting in 0xc0000005 access violation errors on some affected systems. [...]",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has resolved a bug that caused Windows Defender to crash following a recent security update. The issue resulted in 0xc0000005 access violation errors on some affected Windows systems.",
-        "whyItMatters": "Unresolved security software crashes can leave systems temporarily unprotected against malware and active threats.",
-        "affected": [
-          "Windows Defender"
-        ],
-        "action": "Update Windows Defender to the latest version.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Cl0p Ransomware Group Names Over 40 Victims of PTC Windchill Campaign",
       "link": "https://www.securityweek.com/cl0p-ransomware-group-names-over-40-victims-of-ptc-windchill-campaign/",
       "source": "SecurityWeek",
@@ -2929,6 +2927,35 @@
           "Elastic products"
         ],
         "action": "Check the vendor advisory and apply the latest security patches.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6452-1 designate - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00363.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-08-19T00:00:00.000Z",
+      "summary": "Two security vulnerabilities were discovered in Designate, the OpenStack\nDNS-as-a-Service component, which could result in a tenant manipulating\nthe zones of a different tenant, resulting in denial of service or DNS\nhija",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Two security vulnerabilities were discovered in Designate, the OpenStack DNS-as-a-Service component. These flaws could allow a tenant to manipulate the DNS zones of a different tenant, leading to denial of service or DNS hijacking.",
+        "whyItMatters": "It allows malicious multi-tenant users to compromise and hijack the DNS zones of other tenants within an OpenStack environment.",
+        "affected": [
+          "OpenStack Designate"
+        ],
+        "action": "Apply the security update provided by your vendor.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -4333,35 +4360,6 @@
         "affected": [],
         "action": "Audit installed code editor extensions and monitor their permissions.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6444-1 neutron - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00355.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-08-16T00:00:00.000Z",
-      "summary": "Two vulnerabilities were discovered in Neutron, the OpenStack virtual\nnetwork service, which could result in incorrect validation of API\npermissions.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6444-1",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Two vulnerabilities have been discovered in Neutron, the OpenStack virtual network service. These flaws could result in the incorrect validation of API permissions.",
-        "whyItMatters": "Improper permission validation can allow unauthorized users to bypass security controls and perform restricted actions within the virtual network environment.",
-        "affected": [
-          "OpenStack Neutron"
-        ],
-        "action": "Apply the security update provided by Debian DSA-6444-1.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
