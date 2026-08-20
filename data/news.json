@@ -1,6 +1,65 @@
 {
-  "updatedAt": "2026-08-20T15:47:39.723Z",
+  "updatedAt": "2026-08-20T16:49:50.909Z",
   "items": [
+    {
+      "title": "Researcher tricks Apple’s Find My into sharing location data with Linux",
+      "link": "https://www.theregister.com/security/2026/08/20/researcher-tricks-apples-find-my-into-sharing-location-data-with-linux/5290496",
+      "source": "The Register",
+      "publishedAt": "2026-08-20T16:10:54.000Z",
+      "summary": "Clever protocol wrangling gets iBiz-only people tracking working on a non-iGadget",
+      "categories": [
+        "News"
+      ],
+      "tags": [
+        "Linux",
+        "Apple"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A security researcher has successfully manipulated Apple's Find My protocol to share location data with Linux systems. This clever workaround enables device tracking outside of Apple's proprietary ecosystem.",
+        "whyItMatters": "It demonstrates a protocol bypass that extends Apple's exclusive tracking network to non-Apple hardware.",
+        "affected": [],
+        "action": "Monitor for further technical details regarding the protocol manipulation.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Announcing: Azure Copilot introduces direct access to agents",
+      "link": "https://azure.microsoft.com/updates?id=569685",
+      "source": "Azure Updates",
+      "publishedAt": "2026-08-20T16:08:02.000Z",
+      "summary": "Starting in August 2026, customers can engage directly with Azure Copilot agents to move more quickly from questions to action.With this update:Choose the right agent for your goal. Customers can select the specific agen",
+      "categories": [
+        "Cloud"
+      ],
+      "tags": [
+        "Azure"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft is introducing direct access to Azure Copilot agents starting in August 2026. This update allows customers to select specific agents to move more quickly from questions to action.",
+        "whyItMatters": "It changes how users interact with Azure Copilot by enabling direct engagement with specialized agents for improved efficiency.",
+        "affected": [
+          "Azure Copilot"
+        ],
+        "action": "Review the upcoming agent features to prepare for the August 2026 rollout.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Retail theft bill spurs ‘very large and very dangerous’ surveillance fears",
       "link": "https://cyberscoop.com/corca-retail-theft-bill-ice-surveillance/",
@@ -114,6 +173,34 @@
         ],
         "action": "Update Elementor Pro to the latest patched version immediately.",
         "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "New Cryptographic Context Injection Attack Could Let Web Pages Steal Grok Chat Data",
+      "link": "https://thehackernews.com/2026/08/new-cryptographic-context-injection.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-20T14:36:27.000Z",
+      "summary": "Adversa AI has disclosed an attack technique that it says can cause xAI's Grok chatbot to send a user's name, approximate location, subscription tier, and the prompts from the ongoing conversation to an attacker-controll",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Adversa AI has disclosed a cryptographic context injection attack that can cause xAI's Grok chatbot to exfiltrate sensitive user data to attackers. The compromised data includes the user's name, approximate location, subscription tier, and ongoing conversation prompts.",
+        "whyItMatters": "This vulnerability allows malicious web pages to secretly steal private user data and chat history from an AI service through context manipulation.",
+        "affected": [
+          "xAI Grok chatbot"
+        ],
+        "action": "Disable interaction with untrusted web pages until xAI patches the vulnerability.",
+        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -293,6 +380,43 @@
         "risk": "Medium",
         "relatedCves": [
           "CVE-2026-62754"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-71331 Windows Device Health Attestation (DHA) Remote Code Execution Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-71331",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-20T14:00:00.000Z",
+      "summary": "Corrected the Executive Summary to clarify that the vulnerability affects Windows Device Health Attestation (DHA), not Microsoft Azure Attestation. This is an informational change only.",
+      "categories": [
+        "Vulnerability",
+        "Cloud",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Windows",
+        "Azure"
+      ],
+      "cves": [
+        "CVE-2026-71331"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A correction was issued to clarify that CVE-2026-71331 specifically impacts the Windows Device Health Attestation service rather than Microsoft Azure Attestation. This update serves as an informational change to the executive summary of the advisory.",
+        "whyItMatters": "Accurate scope identification ensures organizations apply security updates to the correct operating system components.",
+        "affected": [
+          "Windows Device Health Attestation (DHA)"
+        ],
+        "action": "Review the updated advisory for correct component scope.",
+        "risk": "News",
+        "relatedCves": [
+          "CVE-2026-71331"
         ],
         "source": "ai"
       }
@@ -1223,34 +1347,6 @@
       }
     },
     {
-      "title": "NASA AIT-GUI Flaws Could Let Unauthenticated Attackers Issue Spacecraft Commands",
-      "link": "https://thehackernews.com/2026/08/nasa-ait-gui-flaws-could-let.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-20T11:05:11.000Z",
-      "summary": "Security researchers at Cycode have disclosed a chain of flaws in AIT-GUI, the browser-based operator console for NASA/JPL's open-source AMMOS Instrument Toolkit, that allow an unauthenticated attacker to issue arbitrary",
-      "categories": [
-        "Open Source"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Security researchers at Cycode discovered a chain of vulnerabilities in NASA's AIT-GUI browser-based operator console. These flaws could potentially allow unauthenticated attackers to issue arbitrary spacecraft commands.",
-        "whyItMatters": "This vulnerability is critical because it exposes mission-critical space infrastructure and spacecraft command systems to remote, unauthenticated attackers.",
-        "affected": [
-          "NASA/JPL AMMOS Instrument Toolkit AIT-GUI"
-        ],
-        "action": "Update the AIT-GUI console to the latest secure version immediately.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "ICS Operators Warned of AI-Driven Attacks on Siemens PLCs",
       "link": "https://www.infosecurity-magazine.com/news/ics-ai-attacks-siemens/",
       "source": "Infosecurity Magazine",
@@ -1833,6 +1929,34 @@
         ],
         "action": "Check official status pages and wait for OpenAI to restore service.",
         "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6453-1 libgit2 - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00364.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-08-20T00:00:00.000Z",
+      "summary": "Multiple security issues were discovered in libgit2, a low-level Git\nlibrary, which could result in the execution of arbitrary commands on a\nremote SSH server, disclosure of credentials, denial of service or the\ncreation",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple security vulnerabilities have been discovered in libgit2, a low-level Git library. These flaws can lead to arbitrary command execution on remote SSH servers, credential disclosure, denial of service, or unauthorized file creation.",
+        "whyItMatters": "Exploitation of these vulnerabilities could allow attackers to compromise remote servers, steal sensitive credentials, or disrupt services relying on the library.",
+        "affected": [
+          "libgit2"
+        ],
+        "action": "Update the libgit2 package to the latest patched version provided by your vendor.",
+        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -2955,39 +3079,6 @@
       }
     },
     {
-      "title": "CVE-2026-65811 Power BI Remote Code Execution Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-65811",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-19T14:00:00.000Z",
-      "summary": "Corrected the Power BI Report Server version in the Security Updates table to use the public release version instead of the internal build number. This is an informational change only.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-65811"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft corrected the Power BI Report Server version information in the Security Updates table for CVE-2026-65811. This change is strictly informational and replaces an internal build number with the public release version.",
-        "whyItMatters": "Accurate version tracking ensures administrators can correctly identify and verify their patch status against potential remote code execution vulnerabilities.",
-        "affected": [
-          "Power BI Report Server"
-        ],
-        "action": "Verify your Power BI Report Server version against the updated public release numbers.",
-        "risk": "News",
-        "relatedCves": [
-          "CVE-2026-65811"
-        ],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Latvian officials resign after cyberattack exposes data on 1.2 million people",
       "link": "https://therecord.media/latvia-cyberattack-vehicle-data",
       "source": "The Record",
@@ -3009,34 +3100,6 @@
         "affected": [],
         "action": "Investigate the breach vector and strengthen security controls for national databases.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Comcast gives its Wi-Fi motion detector a security makeover",
-      "link": "https://www.theregister.com/security/2026/08/19/comcast-gives-its-wi-fi-motion-detector-a-security-makeover/5289572",
-      "source": "The Register",
-      "publishedAt": "2026-08-19T13:14:00.000Z",
-      "summary": "Rebranded feature promises household alerts without video, but mind the small print",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Comcast has rebranded and updated its Wi-Fi motion detector feature to provide households with motion alerts without the need for video cameras. However, users are advised to review the fine print regarding privacy and security implications.",
-        "whyItMatters": "It introduces new smart home monitoring capabilities that handle sensitive in-home presence data, requiring careful privacy consideration.",
-        "affected": [
-          "Comcast Wi-Fi motion detector"
-        ],
-        "action": "Review the privacy terms and small print before enabling the motion detector feature.",
-        "risk": "Medium",
         "relatedCves": [],
         "source": "ai"
       }
@@ -3821,36 +3884,6 @@
       }
     },
     {
-      "title": "[Launched] Generally Available: Managed Instance on Azure App Service",
-      "link": "https://azure.microsoft.com/updates?id=568952",
-      "source": "Azure Updates",
-      "publishedAt": "2026-08-18T17:26:25.000Z",
-      "summary": "Managed Instance on Azure App Service is now generally available. Managed Instance helps organizations migrate web applications to Azure App Service with minimal configuration and no code changes. Applications running on",
-      "categories": [
-        "Cloud"
-      ],
-      "tags": [
-        "Azure"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has announced the general availability of Managed Instance on Azure App Service. This feature helps organizations migrate web applications to Azure App Service with minimal configuration and no code changes.",
-        "whyItMatters": "It streamlines cloud migration for enterprise web applications without requiring code modifications.",
-        "affected": [
-          "Azure App Service"
-        ],
-        "action": "Review the Azure documentation to evaluate the new migration capabilities.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Medusa ransomware tallies hundreds of new victims, says updated advisory on group’s tactics",
       "link": "https://cyberscoop.com/medusa-ransomware-tactics-cisa-advisory/",
       "source": "CyberScoop",
@@ -4560,35 +4593,6 @@
         "whyItMatters": "This campaign exploits brand trust and search engine optimization to trick macOS users into downloading malicious software that can compromise sensitive information.",
         "affected": [],
         "action": "Avoid downloading software from unverified search engine links and use official vendor websites.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6445-1 ironic - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00356.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "summary": "Multiple security vulnerabilities were discovered in Ironic,\nthe OpenStack component to management and provision of baremetal\nservers, which could result in bypass of administrative access/API\nrestrictions, information d",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Multiple security vulnerabilities were discovered in OpenStack Ironic, an open-source bare-metal provisioning component. These flaws could potentially allow attackers to bypass administrative access and API restrictions or lead to information disclosure.",
-        "whyItMatters": "Unrestricted administrative access to bare-metal provisioning systems can allow attackers to completely compromise cloud infrastructure and underlying physical servers.",
-        "affected": [
-          "OpenStack Ironic"
-        ],
-        "action": "Apply the official security update provided by your vendor.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
