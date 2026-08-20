@@ -1,6 +1,100 @@
 {
-  "updatedAt": "2026-08-20T05:45:22.068Z",
+  "updatedAt": "2026-08-20T07:04:49.467Z",
   "items": [
+    {
+      "title": "AI agent suggested installing a malware package. Engineer almost took its advice",
+      "link": "https://www.theregister.com/security/2026/08/20/ai-agent-suggested-installing-a-malware-package-engineer-almost-took-its-advice/5289849",
+      "source": "The Register",
+      "publishedAt": "2026-08-20T07:00:00.000Z",
+      "summary": "Fortunately, the company had a policy of checking source code on GitHub first",
+      "categories": [
+        "Malware",
+        "AI Security",
+        "Open Source"
+      ],
+      "tags": [
+        "GitHub"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "An artificial intelligence agent erroneously suggested that an engineer install a malicious software package. Fortunately, the company's internal security policy required checking the source code on GitHub first, preventing a potential breach.",
+        "whyItMatters": "This incident highlights the growing risk of AI hallucinations or poisoning attacks leading developers to introduce supply chain malware into enterprise environments.",
+        "affected": [],
+        "action": "Verify all AI-recommended packages and dependencies before installation.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Microsoft says August Windows updates may cause gaming issues",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-windows-updates-may-cause-gaming-issues-reboots/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-08-20T06:51:03.000Z",
+      "summary": "Microsoft is investigating a potential issue with the August 2026 updates that may prevent some games from launching or cause them to crash on affected Windows 11 systems. [...]",
+      "categories": [
+        "News"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft is investigating an issue in the August 2026 Windows updates that causes some games on Windows 11 to crash or fail to launch. The company has not yet provided a permanent fix or workaround for the affected systems.",
+        "whyItMatters": "This bug disrupts normal user operations and gaming experiences for individuals using updated Windows 11 systems.",
+        "affected": [
+          "Windows 11"
+        ],
+        "action": "Wait for an official Microsoft patch before troubleshooting gaming crashes related to the update.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute Code",
+      "link": "https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-20T06:04:34.000Z",
+      "summary": "Cybersecurity researchers have disclosed details of a critical flaw in the Elementor Pro WordPress plugin that, if successfully exploited, could lead to remote code execution.\n\nThe vulnerability, tracked as CVE-2026-3247",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [
+        "WordPress"
+      ],
+      "cves": [
+        "CVE-2026-3247"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A critical vulnerability in the Elementor Pro WordPress plugin allows unauthenticated attackers to upload arbitrary PHP files and achieve remote code execution. Cybersecurity researchers recently disclosed technical details regarding this flaw.",
+        "whyItMatters": "This vulnerability allows completely unauthenticated malicious actors to take over vulnerable WordPress sites and execute arbitrary code.",
+        "affected": [
+          "Elementor Pro WordPress plugin"
+        ],
+        "action": "Update the Elementor Pro plugin immediately to the latest patched version.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-3247"
+        ],
+        "source": "ai"
+      }
+    },
     {
       "title": "AI is making fraud harder to spot and identity harder to prove",
       "link": "https://www.helpnetsecurity.com/2026/08/20/experian-digital-identity-fraud-risks-report/",
@@ -1344,33 +1438,6 @@
         "affected": [],
         "action": "Restrict access to the cloud metadata service IP address from untrusted networks and applications.",
         "risk": "Medium",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Password spraying attacks surge 155x as hackers exploit MFA gaps",
-      "link": "https://www.bleepingcomputer.com/news/security/password-spraying-attacks-surge-155x-as-hackers-exploit-mfa-gaps/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-08-19T14:00:10.000Z",
-      "summary": "Huntress observed a 155x increase in password spraying attacks in H1 2026, including a campaign that generated more than 81 million login attempts in two weeks. The attacks exploited legacy authentication and gaps in MFA",
-      "categories": [
-        "Vulnerability",
-        "Threat Intel"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Huntress reported a massive 155x surge in password spraying attacks during the first half of 2026. This activity included a single campaign that generated over 81 million login attempts by exploiting legacy authentication and gaps in multi-factor authentication.",
-        "whyItMatters": "This staggering increase highlights how threat actors are successfully weaponizing legacy authentication protocols and MFA blind spots to breach enterprise networks at scale.",
-        "affected": [],
-        "action": "Disable legacy authentication protocols and enforce comprehensive MFA coverage across all enterprise accounts.",
-        "risk": "Critical",
         "relatedCves": [],
         "source": "ai"
       }
@@ -2766,36 +2833,6 @@
       }
     },
     {
-      "title": "Microsoft Links 30+ Rotating Domains to MacSync Stealer Infrastructure",
-      "link": "https://thehackernews.com/2026/08/microsoft-links-30-rotating-domains-to.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-19T06:01:53.000Z",
-      "summary": "Microsoft Defender Experts have linked more than 30 web domains to MacSync Stealer, a macOS-focused information stealer, after correlating recurring endpoint and network behaviors across changing infrastructure, tracing ",
-      "categories": [
-        "News"
-      ],
-      "tags": [
-        "macOS"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft Defender Experts have linked over 30 rotating web domains to the MacSync Stealer infrastructure. This discovery was made by correlating recurring endpoint and network behaviors associated with the macOS malware.",
-        "whyItMatters": "It reveals the expanding infrastructure and evolving sophistication of malware specifically targeting macOS environments.",
-        "affected": [
-          "macOS"
-        ],
-        "action": "Monitor network traffic and endpoint behavior for indicators associated with MacSync Stealer domains.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Benchmaxxing: When the Benchmark Becomes the Target",
       "link": "https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/",
       "source": "CrowdStrike",
@@ -3425,35 +3462,6 @@
       }
     },
     {
-      "title": "CISA gives feds 3 days to fix actively exploited Ray RCE bug",
-      "link": "https://www.theregister.com/security/2026/08/18/cisa-gives-feds-3-days-to-fix-actively-exploited-ray-rce-bug/5289007",
-      "source": "The Register",
-      "publishedAt": "2026-08-18T15:26:00.000Z",
-      "summary": "Phishing, malvertising attacks could target devs to gain access to private corporate networks",
-      "categories": [
-        "Vulnerability",
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CISA has issued an urgent directive giving federal agencies three days to remediate an actively exploited remote code execution vulnerability in Ray. Attackers are reportedly leveraging phishing and malvertising campaigns to target developers and breach private corporate networks.",
-        "whyItMatters": "Active exploitation of this vulnerability in Ray poses an immediate and severe risk to federal networks and corporate environments.",
-        "affected": [
-          "Ray"
-        ],
-        "action": "Patch the Ray vulnerability immediately within the mandated three-day window.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Apple fixes another image-processing flaw that could allow code execution",
       "link": "https://www.malwarebytes.com/blog/bugs/2026/08/apple-fixes-another-image-processing-flaw-that-could-allow-code-execution",
       "source": "Malwarebytes Labs",
@@ -3519,28 +3527,27 @@
       }
     },
     {
-      "title": "'Ransom Busters': Ransomware Actor Poses as Incident-Recovery Service",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransom-busters-ransomware-actor-incident-recovery-service",
+      "title": "Silent 'TwinLoot' Cyber Threat Operates Entirely From Microsoft's Cloud",
+      "link": "https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud",
       "source": "Dark Reading",
       "publishedAt": "2026-08-18T13:00:00.000Z",
-      "summary": "A ransomware affiliate appears to be sidling up to victims with offers of aid, masking its true intention of diverting ransom payments.",
+      "summary": "The Python-based malware framework takes living-off-the-land tactics to a new heights of stealth, with a modular implant that steals credentials and achieves persistence.",
       "categories": [
-        "Ransomware",
-        "Incident Response"
+        "Malware"
       ],
       "tags": [],
       "cves": [],
       "kev": false,
       "poc": false,
-      "severity": "high",
+      "severity": "news",
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "A ransomware affiliate is posing as an incident-recovery service to deceive victims. The actor aims to divert ransom payments by falsely offering aid.",
-        "whyItMatters": "This deceitful tactic compromises victims' recovery efforts and reroutes extortion funds directly to the threat actors.",
+        "summary": "A new Python-based malware framework called TwinLoot leverages Microsoft's cloud infrastructure to operate with high stealth. The modular implant utilizes living-off-the-land tactics to steal credentials and maintain persistence.",
+        "whyItMatters": "It poses a significant threat because it abuses legitimate cloud services to evade traditional security detection mechanisms.",
         "affected": [],
-        "action": "Verify the credentials of any third-party incident-recovery service before sharing details.",
-        "risk": "Medium",
+        "action": "Monitor Microsoft cloud environments for anomalous Python-based activity and unauthorized access.",
+        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
