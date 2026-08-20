@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T19:44:32.174Z",
+  "updatedAt": "2026-08-20T20:44:40.060Z",
   "items": [
     {
       "title": "Calling on Cyber Pros to Help Defend City Hall",
@@ -23,6 +23,32 @@
         "affected": [],
         "action": "Consider volunteering cybersecurity expertise to local government agencies.",
         "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Suspected Russian Hackers Abuse Google OAuth and WhatsApp Linking to Hijack Accounts",
+      "link": "https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-20T19:59:19.000Z",
+      "summary": "Three distinct suspected Russian cyber espionage threat clusters have been observed leveraging legitimate authentication flows to single out individuals working in academia, aerospace and defense, governments, and think ",
+      "categories": [
+        "Threat Intel"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Three suspected Russian cyber espionage threat clusters are abusing legitimate authentication flows like Google OAuth and WhatsApp linking to hijack accounts. These campaigns specifically target individuals working in academia, aerospace and defense, governments, and think tanks.",
+        "whyItMatters": "This technique allows attackers to bypass traditional credential-based security controls by hijacking trusted session and authentication mechanisms.",
+        "affected": [],
+        "action": "Monitor and audit active OAuth grants and linked devices for unauthorized access.",
+        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -1294,6 +1320,32 @@
       }
     },
     {
+      "title": "CTEM 101: Moving From Spreadsheets to Continuous Risk Reduction",
+      "link": "https://bishopfox.com/blog/ctem-101-moving-from-spreadsheets-to-continuous-risk-reduction",
+      "source": "Bishop Fox",
+      "publishedAt": "2026-08-20T13:00:00.000Z",
+      "summary": "Traditional vulnerability management was built for a smaller, slower problem than most teams face today. This post breaks down CTEM, why it exists, how its five stages work, and what it actually takes to move from a reac",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "This article introduces Continuous Threat Exposure Management (CTEM) as an evolution beyond traditional vulnerability management methods. It outlines the five stages of CTEM and explains how organizations can transition to a proactive risk reduction strategy.",
+        "whyItMatters": "Organizations need modern exposure management frameworks to keep pace with rapidly evolving cyber threats.",
+        "affected": [],
+        "action": "Implement a continuous threat exposure management framework.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "Using Microsoft Graph and Powershell to Mine for Information - Stale Accounts and Licenses, (Thu, Aug 20th)",
       "link": "https://isc.sans.edu/diary/rss/33264",
       "source": "SANS ISC",
@@ -1689,33 +1741,6 @@
         ],
         "action": "Apply the latest security patches provided by Cisco immediately.",
         "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Why \"Shady AI\" is Security's Next Big Governance Problem",
-      "link": "https://thehackernews.com/2026/08/why-shady-ai-is-securitys-next-big.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-20T11:45:00.000Z",
-      "summary": "In March 2026, an internal AI agent at Meta triggered a “Sev 1” incident after sensitive company and user data was exposed to employees who weren’t authorized to access it. \n\nThe incident began when a Meta employee poste",
-      "categories": [
-        "Incident Response",
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "In March 2026, an internal AI agent at Meta caused a high-severity security incident by exposing sensitive company and user data to unauthorized employees. The breach originated from a post made by a Meta employee, highlighting growing governance risks associated with artificial intelligence.",
-        "whyItMatters": "It demonstrates how autonomous AI agents can bypass traditional access controls and accidentally leak sensitive data to unauthorized internal users.",
-        "affected": [],
-        "action": "Implement stricter access controls and governance policies for internal AI agents.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -2426,6 +2451,34 @@
         "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
+      }
+    },
+    {
+      "title": "DSA-6454-1 sabnzbdplus - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00365.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-08-20T00:00:00.000Z",
+      "summary": "It was discovered that the password protection of the web UI of the\nSABnzbd+ binary news reader/grabber could be bypassed.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6454-1",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A security vulnerability was discovered in the SABnzbd+ binary news reader and grabber. The issue allows attackers to bypass the password protection of the web user interface.",
+        "whyItMatters": "This flaw could allow unauthorized users to access and control the SABnzbd+ web interface without authentication.",
+        "affected": [
+          "SABnzbd+"
+        ],
+        "action": "Update sabnzbdplus to the latest patched version provided by your distributor.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
       }
     },
     {
@@ -4371,35 +4424,6 @@
       }
     },
     {
-      "title": "DSA-6446-1 expat - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00357.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-08-18T00:00:00.000Z",
-      "summary": "A flaw was discovered in the UTF-16 decoding support of expat, an XML\nparsing C library, where low surrogates were treated in the same way as\nhigh surrogates. Parsing crafted XML input may result in an out-of-bounds\nread",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A vulnerability was discovered in the UTF-16 decoding support of the expat XML parsing C library. This flaw causes low surrogates to be treated the same as high surrogates, potentially leading to an out-of-bounds read when parsing crafted XML input.",
-        "whyItMatters": "Attackers could exploit this flaw using specially crafted XML input to trigger an out-of-bounds read, potentially leading to application crashes or information disclosure.",
-        "affected": [
-          "expat"
-        ],
-        "action": "Update expat to the latest patched version provided by your distributor.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
       "link": "https://isc.sans.edu/diary/rss/33254",
       "source": "SANS ISC",
@@ -5723,35 +5747,6 @@
         ],
         "action": "Review and apply the latest Microsoft security updates.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
-      "link": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
-      "source": "Talos Intelligence",
-      "publishedAt": "2026-08-11T22:21:02.000Z",
-      "summary": "Microsoft has released its monthly security update for August 2026, which includes 421 vulnerabilities affecting a range of products, including 62 that Microsoft marked as \"critical.\"",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has released its monthly security update for August 2026, addressing a total of 421 vulnerabilities across its product lineup. Among these fixes, 62 security issues have been officially classified by Microsoft as critical.",
-        "whyItMatters": "Unpatched critical vulnerabilities in Microsoft products can allow attackers to compromise systems, execute arbitrary code, or elevate privileges.",
-        "affected": [
-          "Microsoft products"
-        ],
-        "action": "Apply the August 2026 Microsoft security updates immediately.",
-        "risk": "Critical",
         "relatedCves": [],
         "source": "ai"
       }
