@@ -1,6 +1,32 @@
 {
-  "updatedAt": "2026-08-20T14:55:09.958Z",
+  "updatedAt": "2026-08-20T15:47:39.723Z",
   "items": [
+    {
+      "title": "Retail theft bill spurs ‘very large and very dangerous’ surveillance fears",
+      "link": "https://cyberscoop.com/corca-retail-theft-bill-ice-surveillance/",
+      "source": "CyberScoop",
+      "publishedAt": "2026-08-20T15:27:24.000Z",
+      "summary": "The Combating Organized Retail Crime Act has won a big House vote and could be on the fast track in the Senate — and supporters say it could help fight cybercrime. \nThe post Retail theft bill spurs ‘very large and very d",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A new retail theft bill recently won a significant House vote and is advancing quickly in the Senate. Supporters argue the legislation could help in the fight against cybercrime.",
+        "whyItMatters": "The bill raises significant concerns regarding potential large-scale and dangerous government surveillance.",
+        "affected": [],
+        "action": "Monitor the Senate's progress on the retail theft bill.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Hackers Target Zimbra Servers in Active Exploitation Campaign",
       "link": "https://www.securityweek.com/hackers-target-zimbra-servers-in-active-exploitation-campaign/",
@@ -31,6 +57,34 @@
         "relatedCves": [
           "CVE-2026-73570"
         ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "ChatGPT for Teens tackles risky chats and homework shortcuts",
+      "link": "https://www.malwarebytes.com/blog/family-and-parenting/2026/08/chatgpt-for-teens-tackles-risky-chats-and-homework-shortcuts",
+      "source": "Malwarebytes Labs",
+      "publishedAt": "2026-08-20T14:44:31.000Z",
+      "summary": "OpenAI has strengthened ChatGPT's protections for teens, but some of its strongest parental controls still depend on linked accounts.",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "OpenAI has introduced stronger protections for teens within ChatGPT to address risky chats and shortcuts for homework. However, the effectiveness of some parental controls still relies on having linked accounts.",
+        "whyItMatters": "This matters because enhanced AI safety measures are crucial for protecting minors from potential online harms as adolescent adoption of generative tools grows.",
+        "affected": [
+          "ChatGPT"
+        ],
+        "action": "Link parent and teen accounts to enable the strongest available safety controls.",
+        "risk": "News",
+        "relatedCves": [],
         "source": "ai"
       }
     },
@@ -248,13 +302,15 @@
       "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-71331",
       "source": "Microsoft MSRC",
       "publishedAt": "2026-08-20T14:00:00.000Z",
-      "summary": "Updated links to security updates.  This is an informational change only.",
+      "summary": "Corrected the Executive Summary to clarify that the vulnerability affects Windows Device Health Attestation (DHA), not Microsoft Azure Attestation. This is an informational change only.",
       "categories": [
         "Vulnerability",
+        "Cloud",
         "Vendor Advisory"
       ],
       "tags": [
-        "Windows"
+        "Windows",
+        "Azure"
       ],
       "cves": [
         "CVE-2026-71331"
@@ -265,13 +321,13 @@
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "Microsoft has released updated security links regarding CVE-2026-71331, a remote code execution vulnerability in the Windows Device Health Attestation service. This update appears to be informational only.",
-        "whyItMatters": "Remote code execution vulnerabilities in core Windows services can allow attackers to compromise affected systems.",
+        "summary": "A correction was issued to clarify that CVE-2026-71331 specifically impacts the Windows Device Health Attestation service rather than Microsoft Azure Attestation. This update serves as an informational change to the executive summary of the advisory.",
+        "whyItMatters": "Accurate scope identification ensures organizations apply security updates to the correct operating system components.",
         "affected": [
           "Windows Device Health Attestation (DHA)"
         ],
-        "action": "Review the updated security links and apply any recommended patches.",
-        "risk": "High",
+        "action": "Review the updated advisory for correct component scope.",
+        "risk": "News",
         "relatedCves": [
           "CVE-2026-71331"
         ],
@@ -3303,32 +3359,6 @@
       }
     },
     {
-      "title": "Your polite reply to that text is worth $2 on the dark web",
-      "link": "https://www.malwarebytes.com/blog/threat-intel/2026/08/your-polite-reply-to-that-text-is-worth-2-on-the-dark-web",
-      "source": "Malwarebytes Labs",
-      "publishedAt": "2026-08-19T09:39:03.000Z",
-      "summary": "A polite reply to a wrong-number text may seem harmless. But scammers use it to profile their victims and fuel a multibillion-dollar fraud industry.",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Scammers are using polite replies to wrong-number text messages to profile potential victims for a multibillion-dollar fraud industry. Engaging with these texts confirms an active phone number, making individuals more vulnerable to subsequent targeted scams.",
-        "whyItMatters": "Even seemingly harmless interactions like replying to a wrong number can be monetized by bad actors to fuel large-scale fraudulent operations.",
-        "affected": [],
-        "action": "Ignore and delete wrong-number text messages instead of replying.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "USN-8093-2: libssh vulnerability",
       "link": "https://ubuntu.com/security/notices/USN-8093-2",
       "source": "Canonical Ubuntu Security",
@@ -4221,32 +4251,6 @@
         "affected": [],
         "action": "Monitor networks for BlackFile activity and ensure robust offline backups are maintained.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Irregular says ‘human oversight’ responsible for AI sandbox escape incidents",
-      "link": "https://cyberscoop.com/irregular-ai-sandbox-escape-human-oversight/",
-      "source": "CyberScoop",
-      "publishedAt": "2026-08-17T20:36:56.000Z",
-      "summary": "In a post-mortem, the frontier AI testing company said internet access for models is necessary to fully test out their cybersecurity capabilities.\nThe post Irregular says ‘human oversight’ responsible for AI sandbox esca",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Frontier AI testing company Irregular attributed recent AI sandbox escape incidents to human oversight during testing procedures. The organization explained that providing models with internet access remains necessary for evaluating their full cybersecurity capabilities.",
-        "whyItMatters": "This highlights the inherent risks and operational challenges involved in granting frontier AI models internet access during safety and capability evaluations.",
-        "affected": [],
-        "action": "Review and tighten oversight protocols for AI testing environments.",
-        "risk": "Medium",
         "relatedCves": [],
         "source": "ai"
       }
