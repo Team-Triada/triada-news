@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T22:44:55.952Z",
+  "updatedAt": "2026-08-20T23:37:59.340Z",
   "items": [
     {
       "title": "Calling on Cyber Pros to Help Defend City Hall",
@@ -23,6 +23,74 @@
         "affected": [],
         "action": "Consider volunteering cybersecurity expertise to local government agencies.",
         "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8630-4: Linux kernel (AWS) vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8630-4",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-20T23:05:13.000Z",
+      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - x86 architecture;\n  - InfiniBand dri",
+      "categories": [
+        "Vulnerability",
+        "Incident Response",
+        "Cloud",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux",
+        "AWS"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Several security vulnerabilities have been discovered in the AWS Linux kernel affecting x86 architecture and InfiniBand subsystems. An attacker could potentially exploit these flaws to compromise the affected system.",
+        "whyItMatters": "Unpatched kernel vulnerabilities can allow attackers to fully compromise affected cloud systems and gain unauthorized access.",
+        "affected": [
+          "Linux kernel (AWS)"
+        ],
+        "action": "Update the Linux kernel to the latest version provided by the vendor.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8662-1: Linux kernel vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8662-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-20T23:02:10.000Z",
+      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - x86 architecture;\n  - Cryptographic ",
+      "categories": [
+        "Vulnerability",
+        "Incident Response",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Several security issues were discovered in the Linux kernel that could allow an attacker to compromise the system. This update corrects flaws specifically located within the x86 architecture and cryptographic subsystems.",
+        "whyItMatters": "Unpatched kernel vulnerabilities can allow attackers to fully compromise the affected operating system.",
+        "affected": [
+          "Linux kernel"
+        ],
+        "action": "Update the Linux kernel to the latest version.",
+        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -501,39 +569,6 @@
           "Linux kernel"
         ],
         "action": "Update the Linux kernel to the latest version.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8656-1: Linux kernel (HWE) vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8656-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-20T21:21:56.000Z",
-      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - x86 architecture;\n  - InfiniBand dri",
-      "categories": [
-        "Vulnerability",
-        "Incident Response",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several security issues were discovered in the Linux kernel across subsystems including the x86 architecture and InfiniBand drivers. An attacker could potentially exploit these flaws to compromise the affected system.",
-        "whyItMatters": "Unpatched kernel vulnerabilities can allow local or remote attackers to fully compromise the underlying operating system.",
-        "affected": [
-          "Linux kernel"
-        ],
-        "action": "Update the Linux kernel to the latest version provided by the vendor.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -1526,8 +1561,8 @@
         "affected": [
           "Windows"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [
           "CVE-2026-62703"
         ],
@@ -1561,42 +1596,12 @@
         "affected": [
           "Windows"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [
           "CVE-2026-62747"
         ],
         "source": "heuristic"
-      }
-    },
-    {
-      "title": "USN-8654-1: Netty vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8654-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-20T13:57:14.000Z",
-      "summary": "It was discovered that Netty did not properly handle malformed HTTP/2\ncontrol frames. An attacker could use this to cause a denial of service\nvia resource exhaustion. This issue only affects Ubuntu 18.04 LTS,\nUbuntu 20.0",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Netty was discovered to have vulnerabilities involving the improper handling of malformed HTTP/2 control frames. This flaw allows a remote attacker to trigger resource exhaustion and cause a denial of service.",
-        "whyItMatters": "Unpatched systems running affected versions of Netty are vulnerable to denial of service attacks through resource exhaustion.",
-        "affected": [
-          "Ubuntu 18.04 LTS",
-          "Ubuntu 20.0"
-        ],
-        "action": "Update Netty to the latest patched version.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
       }
     },
     {
@@ -2894,6 +2899,32 @@
         "whyItMatters": "The integration of AI into fraudulent activities severely complicates identity verification and threat detection for both consumers and businesses.",
         "affected": [],
         "action": "Review and strengthen digital identity verification processes.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CrowdStrike Named Strongest Overall Leader in 2026 Frost Radar&trade;: Cloud Workload Protection Platforms",
+      "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-strongest-overall-leader-2026-frost-radar-cwpp/",
+      "source": "CrowdStrike",
+      "publishedAt": "2026-08-20T05:00:00.000Z",
+      "summary": "CrowdStrike Named Strongest Overall Leader in 2026 Frost Radar&trade;: Cloud Workload Protection Platforms",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "CrowdStrike has been recognized as the strongest overall leader in the 2026 Frost Radar evaluation for Cloud Workload Protection Platforms. This ranking highlights the company's strong performance and market position in cloud security solutions.",
+        "whyItMatters": "It highlights industry recognition for a major cybersecurity vendor's cloud workload protection capabilities.",
+        "affected": [],
+        "action": "Review the report for market intelligence purposes.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -5766,35 +5797,6 @@
         "relatedCves": [
           "CVE-2026-49975"
         ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Broken access control in the RADIUS type admin group",
-      "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-158",
-      "source": "Fortinet PSIRT",
-      "publishedAt": "2026-08-12T07:00:00.000Z",
-      "summary": "CVSSv3 Score:\n \n 8.8\n\n\n An Improper Authentication vulnerability  [CWE-287] in the FortiWeb Remote Radius Type Admin Authentication configured with specific, non-default settings may allow a remote unauthenticated attack",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "An improper authentication vulnerability exists in FortiWeb when using Remote RADIUS Type Admin Authentication with specific non-default settings. This broken access control flaw allows remote unauthenticated attackers to potentially compromise the affected system.",
-        "whyItMatters": "It allows remote unauthenticated attackers to bypass authentication controls and gain unauthorized access if non-default RADIUS settings are used.",
-        "affected": [
-          "FortiWeb"
-        ],
-        "action": "Review and update FortiWeb RADIUS authentication configurations.",
-        "risk": "High",
-        "relatedCves": [],
         "source": "ai"
       }
     }
