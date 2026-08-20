@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T21:41:48.809Z",
+  "updatedAt": "2026-08-20T22:44:55.952Z",
   "items": [
     {
       "title": "Calling on Cyber Pros to Help Defend City Hall",
@@ -23,6 +23,452 @@
         "affected": [],
         "action": "Consider volunteering cybersecurity expertise to local government agencies.",
         "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8644-2: Linux kernel (GCP) vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8644-2",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-20T22:31:33.000Z",
+      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - File systems infrastructure;\n  - OCF",
+      "categories": [
+        "Vulnerability",
+        "Incident Response",
+        "Cloud",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux",
+        "GCP"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Canonical has released USN-8644-2 addressing multiple security vulnerabilities in the Google Cloud Platform (GCP) Linux kernel. These flaws exist within the file systems infrastructure and the OCF subsystems.",
+        "whyItMatters": "Unpatched kernel vulnerabilities can allow local attackers to compromise system security and potentially gain elevated privileges.",
+        "affected": [
+          "Linux kernel (GCP)"
+        ],
+        "action": "Update the Linux kernel to the latest version provided by your distributor.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8661-1: Linux kernel vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8661-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-20T22:26:52.000Z",
+      "summary": "Siebe Devroe, Héloïse Gollier, and Mathy Vanhoef discovered that the WiFi\nimplementation in the Linux kernel did not properly handle aggregated\nframes in mesh networks, due to an incorrect fix for CVE-2020-24588. A\nphysi",
+      "categories": [
+        "Vulnerability",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [
+        "CVE-2020-24588"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Researchers discovered that the Linux kernel's WiFi implementation improperly handles aggregated frames in mesh networks due to an incorrect fix for a previous vulnerability. This flaw exposes systems running affected kernel versions to potential security risks.",
+        "whyItMatters": "It reintroduces vulnerabilities in Linux mesh network WiFi handling that could be exploited by attackers within range.",
+        "affected": [
+          "Linux kernel"
+        ],
+        "action": "Update your Linux kernel to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2020-24588"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8660-1: Linux kernel vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8660-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-20T22:18:41.000Z",
+      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - x86 architecture;\n  - InfiniBand dri",
+      "categories": [
+        "Vulnerability",
+        "Incident Response",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple security vulnerabilities have been discovered in the Linux kernel that could allow an attacker to compromise the affected system. The update specifically addresses flaws found within the x86 architecture and InfiniBand subsystems.",
+        "whyItMatters": "Kernel-level vulnerabilities can grant attackers full control over compromised systems, making timely patching critical for maintaining overall infrastructure security.",
+        "affected": [
+          "Linux kernel"
+        ],
+        "action": "Update your Linux kernel to the latest version provided by your distributor.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8659-1: Linux kernel vulnerability",
+      "link": "https://ubuntu.com/security/notices/USN-8659-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-20T22:13:42.000Z",
+      "summary": "A security issue was discovered in the Linux kernel.\nAn attacker could possibly use this to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - Open vSwitch;",
+      "categories": [
+        "Vulnerability",
+        "Incident Response",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A security vulnerability has been discovered in the Linux kernel, specifically affecting the Open vSwitch subsystem. An attacker could potentially exploit this flaw to compromise the affected system.",
+        "whyItMatters": "Kernel-level vulnerabilities can allow attackers to fully compromise the operating system and gain unauthorized control over affected hosts.",
+        "affected": [
+          "Linux kernel Open vSwitch subsystem"
+        ],
+        "action": "Update the Linux kernel to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8658-1: Linux kernel vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8658-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-20T22:05:40.000Z",
+      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - Open vSwitch;\n  - SCTP protocol;\n(CV",
+      "categories": [
+        "Vulnerability",
+        "Incident Response",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple security vulnerabilities have been discovered in the Linux kernel that could allow an attacker to compromise a system. The update specifically addresses flaws found within the Open vSwitch and SCTP protocol subsystems.",
+        "whyItMatters": "Unpatched Linux kernel vulnerabilities can allow local or remote attackers to fully compromise the affected operating system.",
+        "affected": [
+          "Linux kernel Open vSwitch",
+          "Linux kernel SCTP protocol"
+        ],
+        "action": "Update the Linux kernel to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Ongoing updates on Copy.fail and variants",
+      "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-030-aws/",
+      "source": "AWS Security Bulletins",
+      "publishedAt": "2026-08-20T21:35:57.000Z",
+      "summary": "Bulletin ID: 2026-030-AWS\n Scope: AWS\n Content Type: Important (requires attention)\n Publication Date: 05/13/2026 10:00 PM PDT\n \nThis is an ongoing issue. This bulletin will be updated as more information becomes availab",
+      "categories": [
+        "Cloud"
+      ],
+      "tags": [
+        "AWS"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "AWS has issued a security bulletin regarding ongoing updates related to Copy.fail and its variants. The advisory is currently marked as important and indicates that further information will be provided as it becomes available.",
+        "whyItMatters": "It indicates an active, evolving security situation affecting AWS environments that requires ongoing monitoring.",
+        "affected": [
+          "AWS"
+        ],
+        "action": "Monitor the AWS security bulletin for future updates.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-13762 and CVE-2026-13763 - Issue with HTTP/2 multi-frame request body inspection in AWS WAF",
+      "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-048-aws/",
+      "source": "AWS Security Bulletins",
+      "publishedAt": "2026-08-20T21:35:57.000Z",
+      "summary": "Bulletin ID: 2026-048-AWS\n Scope: AWS\n Content Type: Important (requires attention)\n Publication Date: 06/29/2026 11:15 PM PDT\n \nDescription:\n \nAWS WAF is a web application firewall that monitors the HTTP(S) requests tha",
+      "categories": [
+        "Vulnerability",
+        "Cloud"
+      ],
+      "tags": [
+        "AWS"
+      ],
+      "cves": [
+        "CVE-2026-13762",
+        "CVE-2026-13763"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "AWS has issued a security bulletin regarding an issue with HTTP/2 multi-frame request body inspection in AWS WAF. This vulnerability affects how web application firewall rules analyze specific multi-frame HTTP/2 requests.",
+        "whyItMatters": "Flaws in web application firewalls can allow malicious HTTP/2 requests to bypass inspection and reach backend applications undetected.",
+        "affected": [
+          "AWS WAF"
+        ],
+        "action": "Review the AWS security bulletin and update WAF configurations as recommended.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-13762",
+          "CVE-2026-13763"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-18830 - Issue with Amazon Bedrock AgentCore harness – Insufficient Input Validation",
+      "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-073-aws/",
+      "source": "AWS Security Bulletins",
+      "publishedAt": "2026-08-20T21:35:57.000Z",
+      "summary": "Bulletin ID: 2026-073-AWS\n Scope: AWS\n Content Type: Important (requires attention)\n Publication Date: 08/04/2026 10:00 AM PDT\n \nDescription:\n \nWe have identified CVE-2026-18830 in the Amazon Bedrock AgentCore harness In",
+      "categories": [
+        "Vulnerability",
+        "Cloud"
+      ],
+      "tags": [
+        "AWS"
+      ],
+      "cves": [
+        "CVE-2026-18830"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "AWS has issued a security bulletin regarding CVE-2026-18830, an insufficient input validation vulnerability in the Amazon Bedrock AgentCore harness. The issue requires attention from administrators managing affected AWS environments.",
+        "whyItMatters": "Insufficient input validation in core components like Amazon Bedrock AgentCore can potentially allow malicious actors to exploit the harness.",
+        "affected": [
+          "Amazon Bedrock AgentCore harness"
+        ],
+        "action": "Review the AWS security bulletin and apply necessary updates or mitigations.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-18830"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Issue with AWS-LC: an open-source, general-purpose cryptographic library (CVE-2026-3336, CVE-2026-3337, CVE-2026-3338)",
+      "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-005-aws/",
+      "source": "AWS Security Bulletins",
+      "publishedAt": "2026-08-20T21:35:57.000Z",
+      "summary": "Bulletin ID: 2026-005-AWS\n Scope: AWS\n Content Type: Important (requires attention)\n Publication Date: 2026/03/02 14:30 PM PST\n \nDescription:\n \nAWS-LC is an open-source, general-purpose cryptographic library. We identifi",
+      "categories": [
+        "Vulnerability",
+        "Cloud",
+        "Open Source"
+      ],
+      "tags": [
+        "AWS"
+      ],
+      "cves": [
+        "CVE-2026-3336",
+        "CVE-2026-3337",
+        "CVE-2026-3338"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "AWS has issued a security bulletin regarding vulnerabilities identified in AWS-LC, an open-source, general-purpose cryptographic library. The advisory covers three specific CVEs (CVE-2026-3336, CVE-2026-3337, and CVE-2026-3338) requiring attention.",
+        "whyItMatters": "Cryptographic library vulnerabilities can compromise the security and encryption mechanisms of systems relying on the affected software.",
+        "affected": [
+          "AWS-LC"
+        ],
+        "action": "Review the advisory and update AWS-LC to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-3336",
+          "CVE-2026-3337",
+          "CVE-2026-3338"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Issues with AWS Research and Engineering Studio (RES)",
+      "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-014-aws/",
+      "source": "AWS Security Bulletins",
+      "publishedAt": "2026-08-20T21:35:57.000Z",
+      "summary": "Bulletin ID: 2026-014-AWS\n Scope: AWS\n Content Type: Important (requires attention)\n Publication Date: 2026/04/06 14:00 PM PDT\n \nDescription:\n \nResearch and Engineering Studio (RES) on AWS is an open source, web portal d",
+      "categories": [
+        "Cloud",
+        "Research",
+        "Open Source"
+      ],
+      "tags": [
+        "AWS"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A security bulletin has been issued regarding the AWS Research and Engineering Studio (RES), an open-source web portal. The advisory indicates important issues that require attention from administrators.",
+        "whyItMatters": "Unresolved issues in cloud management portals like AWS RES can potentially expose research environments to unauthorized access or operational disruptions.",
+        "affected": [
+          "AWS Research and Engineering Studio (RES)"
+        ],
+        "action": "Review the official AWS bulletin and apply recommended updates or configurations.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-15895: OS command injection in jsii-diff in AWS jsii",
+      "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-057-aws/",
+      "source": "AWS Security Bulletins",
+      "publishedAt": "2026-08-20T21:35:57.000Z",
+      "summary": "Bulletin ID: 2026-057-AWS\n Scope: AWS\n Content Type: Important (requires attention)\n Publication Date: 07/15/2026 12:00 PM PDT\n \nDescription:\n \njsii-diff is a command line tool to compare the API differences between two ",
+      "categories": [
+        "Vulnerability",
+        "Cloud"
+      ],
+      "tags": [
+        "AWS"
+      ],
+      "cves": [
+        "CVE-2026-15895"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "AWS has issued a security bulletin regarding CVE-2026-15895, an OS command injection vulnerability affecting the jsii-diff tool. The tool, used to compare API differences in AWS jsii, requires attention due to this flaw.",
+        "whyItMatters": "OS command injection vulnerabilities can allow attackers to execute arbitrary commands on the underlying operating system with the privileges of the application.",
+        "affected": [
+          "AWS jsii-diff"
+        ],
+        "action": "Update jsii-diff to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-15895"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-18428 - OpenSearch SQL Plugin - Async Query Validation Bypass",
+      "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-081-aws/",
+      "source": "AWS Security Bulletins",
+      "publishedAt": "2026-08-20T21:35:57.000Z",
+      "summary": "Bulletin ID: 2026-081-AWS\n Scope: AWS\n Content Type: Important (requires attention)\n Publication Date: 08/13/2026 10:30 AM PDT\n \nDescription:\n \nOpenSearch SQL plugin is a plugin that enables SQL and PPL query capabilitie",
+      "categories": [
+        "Vulnerability",
+        "Cloud"
+      ],
+      "tags": [
+        "AWS"
+      ],
+      "cves": [
+        "CVE-2026-18428"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A security vulnerability designated as CVE-2026-18428 has been identified in the OpenSearch SQL plugin, involving an asynchronous query validation bypass. AWS has published a security bulletin regarding this important issue requiring attention.",
+        "whyItMatters": "This vulnerability could allow attackers to bypass query validation mechanisms within the OpenSearch SQL plugin, potentially leading to unauthorized data access or manipulation.",
+        "affected": [
+          "OpenSearch SQL Plugin"
+        ],
+        "action": "Review the AWS security bulletin and apply the recommended updates or patches.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-18428"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Issue with FreeRTOS-Plus-TCP - MAC Address Validation Bypass and ICMP Echo Reply Integer Underflow",
+      "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-021-aws/",
+      "source": "AWS Security Bulletins",
+      "publishedAt": "2026-08-20T21:35:57.000Z",
+      "summary": "Bulletin ID: 2026-021-AWS\n Scope: AWS\n Content Type: Important (requires attention)\n Publication Date: 2026/04/29 12:00 PM PDT\n \nDescription:\n \nFreeRTOS-Plus-TCP is a scalable, open source, and thread-safe TCP/IP stack f",
+      "categories": [
+        "Cloud",
+        "Open Source"
+      ],
+      "tags": [
+        "AWS"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "AWS has issued a security bulletin addressing vulnerabilities in the FreeRTOS-Plus-TCP stack. The issues involve a MAC address validation bypass and an ICMP echo reply integer underflow.",
+        "whyItMatters": "These vulnerabilities could potentially allow attackers to bypass security controls or cause denial of service conditions in embedded systems utilizing the TCP/IP stack.",
+        "affected": [
+          "FreeRTOS-Plus-TCP"
+        ],
+        "action": "Review the AWS bulletin and apply the necessary patches or updates to FreeRTOS-Plus-TCP.",
+        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -115,6 +561,33 @@
         "affected": [],
         "action": "Review the CUSTODY framework to understand how to secure agentic AI deployments.",
         "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million Downloads",
+      "link": "https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-20T20:22:35.000Z",
+      "summary": "The Rust Project has deleted malicious versions of three widely used Rust crates from crates.io after a compromised maintainer account published releases that added a typosquatted dependency whose build script downloaded",
+      "categories": [
+        "Malware",
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The Rust Project removed malicious versions of three popular crates from crates.io after a compromised maintainer account published updates. These updates introduced a typosquatted dependency with a build script designed to download malware.",
+        "whyItMatters": "This supply chain attack compromised widely used software packages, potentially exposing millions of downstream projects to build-time malware execution.",
+        "affected": [],
+        "action": "Audit Rust project dependencies and verify the integrity of crates used in builds.",
+        "risk": "Critical",
         "relatedCves": [],
         "source": "ai"
       }
@@ -814,124 +1287,198 @@
       }
     },
     {
-      "title": "CVE-2026-33824 Windows Internet Key Exchange (IKE) Service Extensions Remote Code Execution Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33824",
+      "title": "CVE-2026-62834 Azure Data Factory Elevation of Privilege Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62834",
       "source": "Microsoft MSRC",
       "publishedAt": "2026-08-20T14:00:00.000Z",
-      "summary": "Added clarifying information to the mitigation. This is an informational change only.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows",
-        "Exchange"
-      ],
-      "cves": [
-        "CVE-2026-33824"
-      ],
-      "kev": true,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has updated the mitigation guidance for CVE-2026-33824, a remote code execution vulnerability affecting the Windows Internet Key Exchange (IKE) Service Extensions. This update is strictly informational and contains no functional changes to the software or the fix.",
-        "whyItMatters": "It ensures administrators have accurate guidance to properly secure their systems against potential remote code execution attacks.",
-        "affected": [
-          "Windows Internet Key Exchange Service Extensions"
-        ],
-        "action": "Review the updated mitigation information provided by Microsoft.",
-        "risk": "Medium",
-        "relatedCves": [
-          "CVE-2026-33824"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-54118 Microsoft SQL Server Remote Code Execution Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-54118",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-20T14:00:00.000Z",
-      "summary": "The CVSS vector string was update to reflect that an attacker does not require any privileges to successfully exploit this vulnerability (PR:N).  This is an informational change only.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-54118"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The CVSS vector string for CVE-2026-54118 has been updated to indicate that attackers require no privileges to exploit the vulnerability. This change is purely informational.",
-        "whyItMatters": "It highlights that the Microsoft SQL Server vulnerability is theoretically easier to exploit from a privilege standpoint than previously stated.",
-        "affected": [
-          "Microsoft SQL Server"
-        ],
-        "action": "Review the updated CVSS vector and apply relevant Microsoft security updates.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-54118"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-54117 Microsoft SQL Server Remote Code Execution Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-54117",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-20T14:00:00.000Z",
-      "summary": "The CVSS vector string was update to reflect that an attacker does not require any privileges to successfully exploit this vulnerability (PR:N).  This is an informational change only.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-54117"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft updated the CVSS vector string for CVE-2026-54117, indicating that the SQL Server Remote Code Execution vulnerability can be exploited without requiring any privileges. This update is strictly informational and does not represent a new patch or functional change.",
-        "whyItMatters": "It clarifies that the vulnerability presents a higher inherent threat because unauthenticated attackers can potentially exploit it.",
-        "affected": [
-          "Microsoft SQL Server"
-        ],
-        "action": "Review the updated CVSS metrics and apply any available security updates for Microsoft SQL Server.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-54117"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-66802 Windows Device Health Attestation (DHA) Remote Code Execution Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-66802",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-20T14:00:00.000Z",
-      "summary": "Corrected the Executive Summary to clarify that the vulnerability affects Windows Device Health Attestation (DHA), not Microsoft Azure Attestation. This is an informational change only.",
+      "summary": "Improper verification of cryptographic signature in Azure Data Factory allows an unauthorized attacker to elevate privileges over a network.",
       "categories": [
         "Vulnerability",
         "Cloud",
         "Vendor Advisory"
       ],
       "tags": [
-        "Windows",
         "Azure"
       ],
       "cves": [
-        "CVE-2026-66802"
+        "CVE-2026-62834"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "An elevation of privilege vulnerability, tracked as CVE-2026-62834, affects Azure Data Factory. The flaw stems from improper verification of cryptographic signatures, allowing network-based attacks by unauthorized actors.",
+        "whyItMatters": "This vulnerability allows unauthorized attackers to elevate their privileges remotely over a network, potentially compromising the entire Azure Data Factory environment.",
+        "affected": [
+          "Azure Data Factory"
+        ],
+        "action": "Apply the latest security updates provided by Microsoft for Azure Data Factory.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-62834"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-65801 Microsoft Exchange Online Elevation of Privilege Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-65801",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-20T14:00:00.000Z",
+      "summary": "Server-side request forgery (ssrf) in Microsoft Exchange Online allows an unauthorized attacker to elevate privileges over a network.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Exchange"
+      ],
+      "cves": [
+        "CVE-2026-65801"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "An elevation of privilege vulnerability has been identified in Microsoft Exchange Online. The flaw involves a server-side request forgery issue that permits unauthorized network attackers to escalate their privileges.",
+        "whyItMatters": "This vulnerability allows unauthorized attackers to gain elevated privileges within Microsoft Exchange Online, potentially compromising sensitive communications and data.",
+        "affected": [
+          "Microsoft Exchange Online"
+        ],
+        "action": "Apply the latest security updates provided by Microsoft.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-65801"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-68789 Azure SQL Database Elevation of Privilege Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68789",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-20T14:00:00.000Z",
+      "summary": "Improper neutralization of special elements used in an sql command ('sql injection') in Azure SQL Database allows an authorized attacker to elevate privileges over a network.",
+      "categories": [
+        "Vulnerability",
+        "Cloud",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Azure"
+      ],
+      "cves": [
+        "CVE-2026-68789"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "An SQL injection vulnerability, tracked as CVE-2026-68789, has been identified in Azure SQL Database. This flaw allows an authorized attacker to elevate their privileges over a network by improperly neutralizing special elements in SQL commands.",
+        "whyItMatters": "It matters because it allows authenticated malicious actors to gain unauthorized privileged access within a cloud database environment.",
+        "affected": [
+          "Azure SQL Database"
+        ],
+        "action": "Apply the latest security patches provided by Microsoft.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-68789"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-69519 Azure Stack HCI Information Disclosure Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69519",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-20T14:00:00.000Z",
+      "summary": "Observable response discrepancy in Azure Stack HCI allows an unauthorized attacker to disclose information over a network.",
+      "categories": [
+        "Vulnerability",
+        "Cloud",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Azure"
+      ],
+      "cves": [
+        "CVE-2026-69519"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "An information disclosure vulnerability has been identified in Azure Stack HCI. This flaw stems from an observable response discrepancy that allows unauthorized network attackers to access sensitive information.",
+        "whyItMatters": "It matters because unauthorized attackers can exploit the response discrepancy to extract sensitive information over the network without authentication.",
+        "affected": [
+          "Azure Stack HCI"
+        ],
+        "action": "Apply the latest security patches provided by Microsoft.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-69519"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-69851 Microsoft Entra ID Elevation of Privilege Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69851",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-20T14:00:00.000Z",
+      "summary": "Server-side request forgery (ssrf) in Azure Active Directory allows an authorized attacker to elevate privileges over a network.",
+      "categories": [
+        "Vulnerability",
+        "Cloud",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Azure"
+      ],
+      "cves": [
+        "CVE-2026-69851"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A server-side request forgery vulnerability has been identified in Microsoft Entra ID, formerly known as Azure Active Directory. The flaw allows an authorized attacker to elevate their privileges over a network.",
+        "whyItMatters": "This vulnerability could allow malicious actors with network access to gain unauthorized elevated privileges within cloud environments.",
+        "affected": [
+          "Microsoft Entra ID",
+          "Azure Active Directory"
+        ],
+        "action": "Apply the latest security updates provided by Microsoft.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-69851"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-69836 Microsoft Entra ID Remote Code Execution Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69836",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-20T14:00:00.000Z",
+      "summary": "Deserialization of untrusted data in Microsoft Entra ID allows an unauthorized attacker to execute code over a network.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-69836"
       ],
       "kev": false,
       "poc": false,
@@ -939,35 +1486,34 @@
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "Microsoft has corrected an executive summary regarding CVE-2026-66802 to clarify that the vulnerability affects Windows Device Health Attestation rather than Microsoft Azure Attestation. This update is strictly informational and involves no technical changes to the advisory.",
-        "whyItMatters": "Accurate scoping of vulnerabilities is critical for security teams to prioritize remediation correctly and avoid chasing false positives.",
+        "summary": "A remote code execution vulnerability identified as CVE-2026-69836 exists in Microsoft Entra ID due to the deserialization of untrusted data. This flaw allows an unauthorized attacker to execute arbitrary code over a network.",
+        "whyItMatters": "It enables unauthorized remote code execution, which can lead to a complete compromise of affected systems.",
         "affected": [
-          "Windows Device Health Attestation"
+          "Microsoft Entra ID"
         ],
-        "action": "Review the updated advisory for accurate scope.",
-        "risk": "News",
+        "action": "Apply the latest security patches provided by Microsoft immediately.",
+        "risk": "Critical",
         "relatedCves": [
-          "CVE-2026-66802"
+          "CVE-2026-69836"
         ],
         "source": "ai"
       }
     },
     {
-      "title": "CVE-2026-62754 Windows Kerberos Elevation of Privilege Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62754",
+      "title": "CVE-2026-62703 Windows DWM Core Library Information Disclosure Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62703",
       "source": "Microsoft MSRC",
       "publishedAt": "2026-08-20T14:00:00.000Z",
-      "summary": "Updated links to security updates.  This is an informational change only.",
+      "summary": "Updated an acknowledgement. This is an informational change only.",
       "categories": [
         "Vulnerability",
         "Vendor Advisory"
       ],
       "tags": [
-        "Windows",
-        "Kerberos"
+        "Windows"
       ],
       "cves": [
-        "CVE-2026-62754"
+        "CVE-2026-62703"
       ],
       "kev": false,
       "poc": false,
@@ -975,128 +1521,52 @@
       "breaking": false,
       "readTimeMin": 2,
       "aiSummary": {
-        "summary": "Microsoft has released updated links for security updates regarding CVE-2026-62754, a Windows Kerberos Elevation of Privilege vulnerability. This update is purely informational with no functional changes to the underlying advisory.",
-        "whyItMatters": "It ensures administrators have access to the correct and current resources for patching privilege escalation flaws in Windows Kerberos.",
+        "summary": "Updated an acknowledgement. This is an informational change only.",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
         "affected": [
           "Windows"
         ],
-        "action": "Review the updated security advisory links to ensure systems are properly patched.",
         "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
         "relatedCves": [
-          "CVE-2026-62754"
+          "CVE-2026-62703"
         ],
-        "source": "ai"
+        "source": "heuristic"
       }
     },
     {
-      "title": "CVE-2026-71331 Windows Device Health Attestation (DHA) Remote Code Execution Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-71331",
+      "title": "CVE-2026-62747 Windows Device Association Service Elevation of Privilege Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62747",
       "source": "Microsoft MSRC",
       "publishedAt": "2026-08-20T14:00:00.000Z",
-      "summary": "Corrected the Executive Summary to clarify that the vulnerability affects Windows Device Health Attestation (DHA), not Microsoft Azure Attestation. This is an informational change only.",
+      "summary": "Updated an acknowledgement. This is an informational change only.",
       "categories": [
         "Vulnerability",
-        "Cloud",
         "Vendor Advisory"
       ],
       "tags": [
-        "Windows",
-        "Azure"
+        "Windows"
       ],
       "cves": [
-        "CVE-2026-71331"
+        "CVE-2026-62747"
       ],
       "kev": false,
       "poc": false,
-      "severity": "critical",
+      "severity": "medium",
       "breaking": false,
-      "readTimeMin": 1,
+      "readTimeMin": 2,
       "aiSummary": {
-        "summary": "A correction was issued to clarify that CVE-2026-71331 specifically impacts the Windows Device Health Attestation service rather than Microsoft Azure Attestation. This update serves as an informational change to the executive summary of the advisory.",
-        "whyItMatters": "Accurate scope identification ensures organizations apply security updates to the correct operating system components.",
+        "summary": "Updated an acknowledgement. This is an informational change only.",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
         "affected": [
-          "Windows Device Health Attestation (DHA)"
+          "Windows"
         ],
-        "action": "Review the updated advisory for correct component scope.",
-        "risk": "News",
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
         "relatedCves": [
-          "CVE-2026-71331"
+          "CVE-2026-62747"
         ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-71331 Windows Device Health Attestation (DHA) Remote Code Execution Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-71331",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-20T14:00:00.000Z",
-      "summary": "Corrected the Executive Summary to clarify that the vulnerability affects Windows Device Health Attestation (DHA), not Microsoft Azure Attestation. This is an informational change only.",
-      "categories": [
-        "Vulnerability",
-        "Cloud",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows",
-        "Azure"
-      ],
-      "cves": [
-        "CVE-2026-71331"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A correction was issued to clarify that CVE-2026-71331 specifically impacts the Windows Device Health Attestation service rather than Microsoft Azure Attestation. This update serves as an informational change to the executive summary of the advisory.",
-        "whyItMatters": "Accurate scope identification ensures organizations apply security updates to the correct operating system components.",
-        "affected": [
-          "Windows Device Health Attestation (DHA)"
-        ],
-        "action": "Review the updated advisory for correct component scope.",
-        "risk": "News",
-        "relatedCves": [
-          "CVE-2026-71331"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-71331 Windows Device Health Attestation (DHA) Remote Code Execution Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-71331",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-20T14:00:00.000Z",
-      "summary": "Corrected the Executive Summary to clarify that the vulnerability affects Windows Device Health Attestation (DHA), not Microsoft Azure Attestation. This is an informational change only.",
-      "categories": [
-        "Vulnerability",
-        "Cloud",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows",
-        "Azure"
-      ],
-      "cves": [
-        "CVE-2026-71331"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A correction was issued to clarify that CVE-2026-71331 specifically impacts the Windows Device Health Attestation service rather than Microsoft Azure Attestation. This update serves as an informational change to the executive summary of the advisory.",
-        "whyItMatters": "Accurate scope identification ensures organizations apply security updates to the correct operating system components.",
-        "affected": [
-          "Windows Device Health Attestation (DHA)"
-        ],
-        "action": "Review the updated advisory for correct component scope.",
-        "risk": "News",
-        "relatedCves": [
-          "CVE-2026-71331"
-        ],
-        "source": "ai"
+        "source": "heuristic"
       }
     },
     {
@@ -1659,34 +2129,6 @@
       }
     },
     {
-      "title": "Zombie Card Attack Can Revive Expired Visa Cards for Contactless Payments",
-      "link": "https://thehackernews.com/2026/08/zombie-card-attack-can-revive-expired.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-20T12:01:24.000Z",
-      "summary": "Researchers at the University of Massachusetts Amherst have demonstrated an attack that revives expired Visa contactless credit cards for real in-store purchases by rewriting the expiration date a point-of-sale (POS) ter",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Researchers at the University of Massachusetts Amherst have demonstrated a novel 'Zombie Card Attack' that allows expired Visa contactless credit cards to be used for real in-store purchases. This is achieved by rewriting the card's expiration date directly through a point-of-sale terminal.",
-        "whyItMatters": "This vulnerability undermines the expiration security of Visa contactless cards, potentially enabling fraudsters to use deactivated cards for unauthorized in-store transactions.",
-        "affected": [
-          "Visa contactless credit cards"
-        ],
-        "action": "Implement stricter terminal-side validation checks for card expiration dates.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/08/20/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "source": "CISA Advisories",
@@ -1834,39 +2276,6 @@
         "action": "Apply the latest security patches provided by Cisco immediately.",
         "risk": "Critical",
         "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8653-1: PostgreSQL vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8653-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-20T11:42:58.000Z",
-      "summary": "It was discovered that PostgreSQL incorrectly handled COPY FROM STDIN when\nan early failure occurred. An authenticated user could possibly use this\nissue to execute arbitrary SQL commands. (CVE-2026-6464)\n\nIt was discove",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-6464"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "PostgreSQL contains a vulnerability involving incorrect handling of COPY FROM STDIN during early failures. An authenticated user could potentially exploit this issue to execute arbitrary SQL commands.",
-        "whyItMatters": "This flaw allows authenticated attackers to escalate their privileges and execute arbitrary SQL commands on vulnerable database systems.",
-        "affected": [
-          "PostgreSQL"
-        ],
-        "action": "Update PostgreSQL to the latest patched version.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-6464"
-        ],
         "source": "ai"
       }
     },
@@ -2799,42 +3208,6 @@
       }
     },
     {
-      "title": "USN-8563-4: nginx regression",
-      "link": "https://ubuntu.com/security/notices/USN-8563-4",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-19T19:30:43.000Z",
-      "summary": "USN-8563-3 fixed a vulnerability in nginx. The fix introduced a regression\nin certain environments. This update reverts the fix for CVE-2026-42533\npending further investigation.\n\nWe apologize for the inconvenience.\n\nOrig",
-      "categories": [
-        "Vulnerability",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Nginx"
-      ],
-      "cves": [
-        "CVE-2026-42533"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Canonical has released an update for nginx to address a regression caused by a previous security patch for CVE-2026-42533. This update temporarily reverts the original fix in certain environments while the issue is investigated further.",
-        "whyItMatters": "Reverting the security fix temporarily re-exposes systems to CVE-2026-42533 until a stable resolution is provided.",
-        "affected": [
-          "nginx"
-        ],
-        "action": "Apply the latest nginx update and monitor for subsequent patches.",
-        "risk": "Medium",
-        "relatedCves": [
-          "CVE-2026-42533"
-        ],
-        "source": "ai"
-      }
-    },
-    {
       "title": "VU#874418: RDK-B WebUI contains multiple vulnerabilities",
       "link": "https://kb.cert.org/vuls/id/874418",
       "source": "CERT/CC",
@@ -3069,35 +3442,6 @@
       }
     },
     {
-      "title": "USN-8651-1: curl vulnerability",
-      "link": "https://ubuntu.com/security/notices/USN-8651-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-19T16:44:20.000Z",
-      "summary": "It was discovered that curl incorrectly handled reusing connections\nwhen the origin changed between transfers. A remote attacker could\npossibly use this issue to obtain sensitive information.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A vulnerability was discovered in curl where connections were incorrectly reused when the origin changed between transfers. This flaw could potentially allow a remote attacker to gain access to sensitive information.",
-        "whyItMatters": "It matters because attackers could exploit this flaw to intercept sensitive data during network communications.",
-        "affected": [
-          "curl"
-        ],
-        "action": "Update curl to the latest patched version.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "[Launched] Generally Available: BYON (Bring Your Own NIC) in Azure Site Recovery",
       "link": "https://azure.microsoft.com/updates?id=569515",
       "source": "Azure Updates",
@@ -3123,35 +3467,6 @@
         ],
         "action": "Review the Azure Site Recovery documentation to utilize the new BYON feature for your disaster recovery plans.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8650-1: Cap'n Proto vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8650-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-19T16:00:14.000Z",
-      "summary": "Chanho Kim and Jihyeok Han discovered that Cap'n Proto incorrectly\nhandled negative Content-Length values or excessively large chunk sizes\nwhen processing HTTP messages. An attacker could possibly use these\nissues to cau",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Chanho Kim and Jihyeok Han discovered vulnerabilities in Cap'n Proto related to improper handling of negative Content-Length values and excessively large chunk sizes during HTTP message processing. An attacker could potentially exploit these flaws to cause denial of service or other disruptions.",
-        "whyItMatters": "Unvalidated HTTP message processing in core protocol libraries can leave dependent applications vulnerable to crashes or resource exhaustion attacks.",
-        "affected": [
-          "Cap'n Proto"
-        ],
-        "action": "Update Cap'n Proto to the latest patched version.",
-        "risk": "Medium",
         "relatedCves": [],
         "source": "ai"
       }
@@ -3563,35 +3878,6 @@
         "affected": [],
         "action": "Investigate the breach vector and strengthen security controls for national databases.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8649-1: libheif vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8649-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-19T12:39:30.000Z",
-      "summary": "It was discovered that libheif had an integer underflow in the Fraction\nconstructor when a clap transform was applied twice. An attacker could\npossibly use this issue to cause libheif to crash, resulting in a denial of\ns",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Ubuntu Security Notice USN-8649-1 addresses vulnerabilities in libheif, specifically an integer underflow in the Fraction constructor when a clap transform is applied twice. An attacker could potentially exploit this flaw to cause a denial of service by crashing the application.",
-        "whyItMatters": "This vulnerability could allow malicious actors to cause application crashes and denial of service conditions in systems processing HEIF images.",
-        "affected": [
-          "libheif"
-        ],
-        "action": "Update libheif to the latest patched version.",
-        "risk": "Medium",
         "relatedCves": [],
         "source": "ai"
       }
@@ -5508,239 +5794,6 @@
         ],
         "action": "Review and update FortiWeb RADIUS authentication configurations.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Content-Encoding WAF Evasion",
-      "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-157",
-      "source": "Fortinet PSIRT",
-      "publishedAt": "2026-08-12T07:00:00.000Z",
-      "summary": "CVSSv3 Score:\n \n 4.8\n\n\n An incomplete list of disallowed inputs [CWE-184] in FortiWeb WAF may allow an unauthenticated attacker to bypass policies via specifically crafted requests.\n\n\n \n  Revised on 2026-08-12 00:00:00",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "An incomplete list of disallowed inputs in FortiWeb WAF may allow an unauthenticated attacker to bypass security policies. This vulnerability involves content-encoding techniques used to evade detection.",
-        "whyItMatters": "Attackers can exploit this flaw to bypass web application firewall protections and deliver malicious payloads.",
-        "affected": [
-          "FortiWeb WAF"
-        ],
-        "action": "Apply the latest security patches provided by Fortinet.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "FGFM Authentication Weakening via CLI Configuration",
-      "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-160",
-      "source": "Fortinet PSIRT",
-      "publishedAt": "2026-08-12T07:00:00.000Z",
-      "summary": "CVSSv3 Score:\n \n 7.3\n\n\n An Authentication Bypass Using an Alternate Path or Channel [CWE-288] vulnerability in FortiManager and FortiManager Cloud may allow a remote unauthenticated attacker to impersonate any FortiGate ",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "An authentication bypass vulnerability in FortiManager and FortiManager Cloud allows remote unauthenticated attackers to impersonate FortiGate devices. The issue stems from an authentication weakening weakness via CLI configuration.",
-        "whyItMatters": "It allows malicious actors to impersonate legitimate FortiGate devices and potentially compromise network management infrastructure.",
-        "affected": [
-          "FortiManager",
-          "FortiManager Cloud"
-        ],
-        "action": "Apply the vendor-provided patches or mitigations immediately.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Heap overflow in kernel driver due to missing size validation",
-      "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-156",
-      "source": "Fortinet PSIRT",
-      "publishedAt": "2026-08-12T07:00:00.000Z",
-      "summary": "CVSSv3 Score:\n \n 7.3\n\n\n A buffer copy without checking size of input vulnerability [CWE-120] in FortiClient Windows may allow an unauthenticated attacker in a position to alter or craft DNS responses to the targeted host",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A heap overflow vulnerability exists in the FortiClient Windows kernel driver due to missing size validation during buffer copies. An unauthenticated attacker capable of crafting malicious DNS responses can potentially exploit this flaw.",
-        "whyItMatters": "This vulnerability allows remote attackers to compromise the targeted host through manipulated network traffic.",
-        "affected": [
-          "FortiClient Windows"
-        ],
-        "action": "Apply the vendor-provided security updates.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Server-Side Request Forgery (SSRF)",
-      "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-159",
-      "source": "Fortinet PSIRT",
-      "publishedAt": "2026-08-12T07:00:00.000Z",
-      "summary": "CVSSv3 Score:\n \n 3.4\n\n\n A Server-Side request forgery (SSRF) [CWE-918] vulnerability in FortiSIEM GUI may allow an authenticated attacker to send HTTP requests originating from the targeted device via specially crafted H",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A Server-Side Request Forgery vulnerability exists in the FortiSIEM GUI, tracked as CWE-918 with a CVSS score of 3.4. It may allow an authenticated attacker to send unauthorized HTTP requests originating from the targeted device using specially crafted inputs.",
-        "whyItMatters": "This vulnerability could enable authenticated attackers to leverage the targeted device to perform unauthorized requests against internal or external resources.",
-        "affected": [
-          "FortiSIEM GUI"
-        ],
-        "action": "Apply the vendor-provided patch or update to the latest secured version.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Stack buffer overflow in WAD",
-      "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-161",
-      "source": "Fortinet PSIRT",
-      "publishedAt": "2026-08-12T07:00:00.000Z",
-      "summary": "CVSSv3 Score:\n \n 5.1\n\n\n A Stack-based Buffer Overflow vulnerability [CWE-121] in FortiOS explicit proxy may allow an unauthenticated attacker who can bypass stack protection and ASLR to execute arbitrary code or commands",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A stack-based buffer overflow vulnerability exists in FortiOS explicit proxy. An unauthenticated attacker could potentially exploit this flaw to execute arbitrary code or commands.",
-        "whyItMatters": "This vulnerability poses a significant risk as it could allow remote attackers to execute arbitrary code on vulnerable systems if they can bypass existing security protections.",
-        "affected": [
-          "FortiOS explicit proxy"
-        ],
-        "action": "Apply the vendor-provided security updates or patches.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "UI DoS attack",
-      "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-162",
-      "source": "Fortinet PSIRT",
-      "publishedAt": "2026-08-12T07:00:00.000Z",
-      "summary": "CVSSv3 Score:\n \n 5.0\n\n\n An Allocation of Resources Without Limits or Throttling vulnerability [CWE-770] in FortiOS may allow an unauthenticated attacker to perform a slow HTTP DoS attack on the web interface via crafted ",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "An allocation of resources without limits or throttling vulnerability in FortiOS allows unauthenticated attackers to conduct a slow HTTP denial of service attack. This flaw targets the web management interface using crafted requests.",
-        "whyItMatters": "It allows remote, unauthenticated attackers to degrade the availability of the web interface by exhausting server resources.",
-        "affected": [
-          "FortiOS"
-        ],
-        "action": "Apply the appropriate vendor patches or mitigations for FortiOS.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "注意喚起: 2026年8月マイクロソフトセキュリティ更新プログラムに関する注意喚起 (公開)",
-      "link": "https://www.jpcert.or.jp/at/2026/at260022.html",
-      "source": "JPCERT/CC",
-      "publishedAt": "2026-08-12T02:26:00.000Z",
-      "summary": "注意喚起: 2026年8月マイクロソフトセキュリティ更新プログラムに関する注意喚起  (公開)",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "A security advisory regarding the Microsoft security updates for August 2026 has been published. Users and administrators are advised to review the latest patch information.",
-        "whyItMatters": "Applying monthly Microsoft security updates is essential to protect systems from newly discovered vulnerabilities.",
-        "affected": [
-          "Microsoft products"
-        ],
-        "action": "Review and apply the latest Microsoft security updates.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
-      "link": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
-      "source": "Talos Intelligence",
-      "publishedAt": "2026-08-11T22:21:02.000Z",
-      "summary": "Microsoft has released its monthly security update for August 2026, which includes 421 vulnerabilities affecting a range of products, including 62 that Microsoft marked as \"critical.\"",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has released its monthly security update for August 2026, addressing 421 vulnerabilities across various products. Among these fixes, 62 security flaws have been officially classified by Microsoft as critical.",
-        "whyItMatters": "Unpatched critical vulnerabilities in Microsoft products can be exploited by threat actors to achieve remote code execution or system compromise.",
-        "affected": [
-          "Microsoft products"
-        ],
-        "action": "Apply the August 2026 security updates immediately.",
-        "risk": "Critical",
         "relatedCves": [],
         "source": "ai"
       }
