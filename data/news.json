@@ -1,20 +1,51 @@
 {
-  "updatedAt": "2026-08-20T07:04:49.467Z",
+  "updatedAt": "2026-08-20T07:56:01.056Z",
   "items": [
     {
-      "title": "AI agent suggested installing a malware package. Engineer almost took its advice",
-      "link": "https://www.theregister.com/security/2026/08/20/ai-agent-suggested-installing-a-malware-package-engineer-almost-took-its-advice/5289849",
-      "source": "The Register",
-      "publishedAt": "2026-08-20T07:00:00.000Z",
-      "summary": "Fortunately, the company had a policy of checking source code on GitHub first",
+      "title": "Critical GitLab Flaw Exploited Shortly After Disclosure",
+      "link": "https://www.securityweek.com/critical-gitlab-flaw-exploited-shortly-after-disclosure/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-08-20T07:48:24.000Z",
+      "summary": "CVE-2026-19478 can be exploited without authentication to modify or delete public projects and user data.\nThe post Critical GitLab Flaw Exploited Shortly After Disclosure appeared first on SecurityWeek.",
       "categories": [
-        "Malware",
-        "AI Security",
+        "Vulnerability",
         "Open Source"
       ],
       "tags": [
-        "GitHub"
+        "GitLab"
       ],
+      "cves": [
+        "CVE-2026-19478"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A critical unauthenticated vulnerability in GitLab, tracked as CVE-2026-19478, allows attackers to modify or delete public projects and user data. Threat actors have already begun exploiting this flaw shortly after its public disclosure.",
+        "whyItMatters": "This vulnerability poses an immediate and severe threat to data integrity because it can be exploited remotely without requiring authentication.",
+        "affected": [
+          "GitLab"
+        ],
+        "action": "Apply the latest security updates provided by GitLab immediately.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-19478"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Tufin expands Unified Control Plane with AI intelligence and multi-vendor automation",
+      "link": "https://www.helpnetsecurity.com/2026/08/20/tufin-expands-unified-control-plane-with-ai-intelligence-and-multi-vendor-automation/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-08-20T07:31:56.000Z",
+      "summary": "Tufin has announced the availability of Tufin Orchestration Suite (TOS) 5.3, helping enterprises further simplify security operations and maintain consistent control across increasingly complex multi-vendor, hybrid envir",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
       "cves": [],
       "kev": false,
       "poc": false,
@@ -22,11 +53,70 @@
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "An artificial intelligence agent erroneously suggested that an engineer install a malicious software package. Fortunately, the company's internal security policy required checking the source code on GitHub first, preventing a potential breach.",
-        "whyItMatters": "This incident highlights the growing risk of AI hallucinations or poisoning attacks leading developers to introduce supply chain malware into enterprise environments.",
+        "summary": "Tufin has announced the release of Tufin Orchestration Suite (TOS) 5.3, expanding its Unified Control Plane with AI intelligence and multi-vendor automation. The new version is designed to help enterprises simplify security operations and maintain consistent control across complex hybrid environments.",
+        "whyItMatters": "This update introduces new automation and AI capabilities that impact enterprise network security management.",
+        "affected": [
+          "Tufin Orchestration Suite (TOS) 5.3"
+        ],
+        "action": "Review the new TOS 5.3 release notes to evaluate the updated features.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "US charges 17 Iranian hackers over 31-terabyte academic data theft",
+      "link": "https://www.helpnetsecurity.com/2026/08/20/us-iranian-hackers-mabna-institute-charged/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-08-20T07:28:56.000Z",
+      "summary": "The U.S. has charged 17 alleged members of Mabna Institute, an Iranian hacking-for-hire company accused of running a years-long campaign that stole data from American universities, companies, and government agencies.\nThe",
+      "categories": [
+        "Threat Intel",
+        "Government"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The United States has filed charges against 17 alleged members of the Iranian hacking-for-hire company Mabna Institute. The group is accused of conducting a years-long campaign that successfully stole 31 terabytes of academic and proprietary data from American universities, companies, and government agencies.",
+        "whyItMatters": "This indictment highlights state-sponsored intellectual property theft and serves as a major enforcement action against foreign actors targeting critical research and institutional data in the US.",
         "affected": [],
-        "action": "Verify all AI-recommended packages and dependencies before installation.",
-        "risk": "Medium",
+        "action": "Review institutional networks for unauthorized data exfiltration and enhance monitoring against state-sponsored actors.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Hackers Using AI to Target Siemens PLCs in Critical US Sectors",
+      "link": "https://www.securityweek.com/hackers-using-ai-to-target-siemens-plcs-in-critical-us-sectors/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-08-20T07:02:02.000Z",
+      "summary": "A cybersecurity advisory with technical details and recommendations has been written by the NSA, CISA and other agencies.\nThe post Hackers Using AI to Target Siemens PLCs in Critical US Sectors appeared first on Security",
+      "categories": [
+        "AI Security",
+        "Government",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "US cybersecurity agencies including the NSA and CISA have issued an advisory regarding hackers utilizing artificial intelligence to target Siemens Programmable Logic Controllers. The campaign specifically impacts critical infrastructure sectors within the United States.",
+        "whyItMatters": "This threat highlights the growing use of artificial intelligence by malicious actors to target critical industrial control systems.",
+        "affected": [
+          "Siemens PLCs"
+        ],
+        "action": "Review the joint agency cybersecurity advisory and apply recommended mitigations for Siemens PLCs.",
+        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -252,32 +342,6 @@
         "affected": [],
         "action": "Review AI integration security in physical robotics to prevent unauthorized behavioral manipulation.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "'Not a theoretical risk,' feds warn as attackers use AI-made code to hack critical infrastructure controllers",
-      "link": "https://www.theregister.com/security/2026/08/19/not-a-theoretical-risk-feds-warn-as-attackers-use-ai-made-code-to-hack-critical-infrastructure-controllers/5289960",
-      "source": "The Register",
-      "publishedAt": "2026-08-19T22:38:41.000Z",
-      "summary": "'It is an active threat'",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Federal authorities have warned that malicious actors are actively using artificial intelligence-generated code to target critical infrastructure controllers. This development marks a transition from theoretical concerns to real-world exploitation of operational technology systems.",
-        "whyItMatters": "AI-generated exploits lower the technical barrier for attackers targeting critical infrastructure, threatening essential public services.",
-        "affected": [],
-        "action": "Review and harden critical infrastructure controls against automated exploit attempts.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -631,32 +695,6 @@
       }
     },
     {
-      "title": "ICE boss to agents: Leave the Meta spy glasses at home",
-      "link": "https://www.theregister.com/security/2026/08/19/ice-boss-to-agents-leave-the-meta-spy-glasses-at-home/5289826",
-      "source": "The Register",
-      "publishedAt": "2026-08-19T18:16:46.000Z",
-      "summary": "'Personally owned body-worn cameras are prohibited,' ICE tells The Reg. Because the last thing DHS needs is more proof of misconduct",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Immigration and Customs Enforcement has prohibited its agents from wearing personally owned body-worn cameras and Meta smart glasses while on duty. The agency stated that privately owned recording devices are strictly forbidden.",
-        "whyItMatters": "This directive aims to mitigate unauthorized recording risks and potential agency liability resulting from personnel misconduct.",
-        "affected": [],
-        "action": "Ensure agency personnel are informed of the prohibition against unauthorized personal recording devices.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Electronic health record company CareCloud says 3.7 million people affected by breach",
       "link": "https://therecord.media/electronic-health-record-company-carecloud-data-breach",
       "source": "The Record",
@@ -971,32 +1009,6 @@
           "Azure Site Recovery"
         ],
         "action": "Review the Azure Site Recovery documentation to utilize the new BYON feature for your disaster recovery plans.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Flock surveillance backlash mounts as fiendish Halloween plans circulate",
-      "link": "https://www.theregister.com/security/2026/08/19/flock-surveillance-backlash-mounts-as-fiendish-halloween-plans-circulate/5289701",
-      "source": "The Register",
-      "publishedAt": "2026-08-19T16:08:00.000Z",
-      "summary": "CEO apologizes for police misuse as activists call for vandal action against license plate cameras",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Activist backlash is growing against Flock automated license plate reading cameras, with some groups circulating plans to vandalize the hardware. Meanwhile, the company's CEO has issued an apology regarding the misuse of the police surveillance system.",
-        "whyItMatters": "This highlights a significant physical security and privacy backlash against automated surveillance infrastructure that could lead to widespread vandalism and operational disruption.",
-        "affected": [],
-        "action": "Monitor physical security measures around deployed surveillance infrastructure.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -1811,34 +1823,6 @@
       }
     },
     {
-      "title": "Comcast gives its Wi-Fi motion detector a security makeover",
-      "link": "https://www.theregister.com/security/2026/08/19/comcast-gives-its-wi-fi-motion-detector-a-security-makeover/5289572",
-      "source": "The Register",
-      "publishedAt": "2026-08-19T13:14:00.000Z",
-      "summary": "Rebranded feature promises household alerts without video, but mind the small print",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Comcast has rebranded and updated its Wi-Fi motion detector feature to provide household alerts without the use of video cameras. However, users are advised to review the small print regarding privacy and security implications.",
-        "whyItMatters": "It introduces smart home monitoring capabilities that raise potential privacy and data collection concerns for consumers.",
-        "affected": [
-          "Comcast Wi-Fi motion detector"
-        ],
-        "action": "Review the privacy terms and small print before enabling the feature.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "SilkParasite Espionage Campaign Targets Central Asian Governments with Five New RATs",
       "link": "https://thehackernews.com/2026/08/silkparasite-espionage-campaign-targets.html",
       "source": "The Hacker News",
@@ -2609,60 +2593,6 @@
       }
     },
     {
-      "title": "Google’s AI security agents found 100+ critical software vulnerabilities in just two days",
-      "link": "https://www.helpnetsecurity.com/2026/08/19/google-mandiant-avdh-ai-vulnerability-discovery-tool/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-08-19T09:03:25.000Z",
-      "summary": "Google’s Mandiant has disclosed the workings of an internal tool that uses chains of AI agents to hunt for vulnerabilities in source code, saying it found over 100 verified, high-severity flaws in just two days during a ",
-      "categories": [
-        "Vulnerability",
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Google's Mandiant revealed an internal AI agent tool designed to hunt for vulnerabilities in source code. The system successfully discovered over 100 verified, high-severity flaws in just two days.",
-        "whyItMatters": "It demonstrates the growing capability of AI-driven tools to autonomously discover software vulnerabilities at unprecedented speed.",
-        "affected": [],
-        "action": "Monitor internal codebases for vulnerabilities using advanced automated security tools.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "OpenAI puts major frontier AI training run on hold over cyber risks",
-      "link": "https://www.helpnetsecurity.com/2026/08/19/openai-model-safety-updates/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-08-19T08:48:40.000Z",
-      "summary": "OpenAI temporarily paused reinforcement learning (RL) training on its latest models intended for deployment for two weeks while it hardened and red-teamed research environments and expanded monitoring. “Our largest plann",
-      "categories": [
-        "AI Security",
-        "Research"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "OpenAI temporarily paused reinforcement learning training on its latest frontier AI models for two weeks. During this hiatus, the organization hardened and red-teamed its research environments while expanding system monitoring.",
-        "whyItMatters": "This pause highlights the growing priority of securing advanced AI training infrastructure against evolving cyber threats.",
-        "affected": [],
-        "action": "Monitor OpenAI for updates regarding their frontier AI training and security enhancements.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "UK Fraud Cases Hit Record High in 2026",
       "link": "https://www.infosecurity-magazine.com/news/uk-fraud-cases-hit-record-high/",
       "source": "Infosecurity Magazine",
@@ -2683,38 +2613,6 @@
         "whyItMatters": "This unprecedented rise in identity theft and account takeovers highlights the growing financial and security risks facing individuals and organizations in the UK.",
         "affected": [],
         "action": "Strengthen account security with multi-factor authentication and monitor financial statements closely.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Chrome, Firefox Updates Patch Dozens of Vulnerabilities",
-      "link": "https://www.securityweek.com/chrome-firefox-updates-patch-dozens-of-vulnerabilities/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-08-19T08:19:09.000Z",
-      "summary": "The bugs could lead to code execution, privilege escalation, sandbox escape, and information disclosure.\nThe post Chrome, Firefox Updates Patch Dozens of Vulnerabilities appeared first on SecurityWeek.",
-      "categories": [
-        "Vulnerability"
-      ],
-      "tags": [
-        "Chrome",
-        "Firefox"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Google and Mozilla have released critical security updates for Chrome and Firefox to patch dozens of vulnerabilities. These newly addressed security flaws could potentially lead to code execution, privilege escalation, sandbox escape, and information disclosure.",
-        "whyItMatters": "Unpatched browser vulnerabilities are frequently exploited by attackers to compromise user systems, execute malicious code, and bypass security controls.",
-        "affected": [
-          "Google Chrome",
-          "Mozilla Firefox"
-        ],
-        "action": "Update Chrome and Firefox to the latest versions immediately.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -2805,34 +2703,6 @@
       }
     },
     {
-      "title": "CareCloud Data Breach Impact Grows to 3.7 Million Individuals",
-      "link": "https://www.securityweek.com/carecloud-data-breach-impact-grows-to-3-7-million-individuals/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-08-19T06:56:43.000Z",
-      "summary": "The data breach was initially believed to affect roughly 350,000 people, but the HHS breach tracker shows a far bigger impact.\nThe post CareCloud Data Breach Impact Grows to 3.7 Million Individuals appeared first on Secu",
-      "categories": [
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The reported impact of the CareCloud data breach has expanded significantly from an initial estimate of 350,000 to approximately 3.7 million individuals. This updated figure is reflected in the Department of Health and Human Services breach tracker.",
-        "whyItMatters": "This massive increase in affected individuals significantly heightens privacy risks and the potential for widespread identity theft or medical fraud.",
-        "affected": [
-          "CareCloud"
-        ],
-        "action": "Monitor accounts closely for suspicious activity and watch for official breach notification communications.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Benchmaxxing: When the Benchmark Becomes the Target",
       "link": "https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/",
       "source": "CrowdStrike",
@@ -2854,32 +2724,6 @@
         "affected": [],
         "action": "Evaluate systems based on real-world workloads rather than standardized benchmarks.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Australian hotel chain leaks guests’ PII after breach at third-party database operator",
-      "link": "https://www.theregister.com/cyber-crime/2026/08/19/australian-hotel-chain-leaks-guests-pii-after-breach-at-third-party-database-operator/5289341",
-      "source": "The Register",
-      "publishedAt": "2026-08-19T02:16:03.000Z",
-      "summary": "Unknown parties know where you stayed last summer, down under, across 120 Quest properties",
-      "categories": [
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "An Australian hotel chain suffered a data leak exposing guests' personally identifiable information following a security breach at a third-party database operator. The incident compromised sensitive guest stay data across approximately 120 Quest properties.",
-        "whyItMatters": "This incident highlights the significant cyber risk posed by third-party vendors with access to sensitive customer data.",
-        "affected": [],
-        "action": "Verify if your personal information was exposed and monitor accounts for suspicious activity.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -3055,32 +2899,6 @@
       }
     },
     {
-      "title": "OpenAI's overhead will rise 20 percent for some workloads as it hardens security",
-      "link": "https://www.theregister.com/ai-and-ml/2026/08/19/openais-overhead-will-rise-20-percent-for-some-workloads-as-it-hardens-security/5289303",
-      "source": "The Register",
-      "publishedAt": "2026-08-18T23:36:36.000Z",
-      "summary": "Expanded multistage chain of thought monitoring makes frontier model work more expensive",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "OpenAI is implementing expanded multistage chain of thought monitoring to harden security for its frontier models. This new security measure will increase operational overhead costs by twenty percent for certain workloads.",
-        "whyItMatters": "Increased compute costs for advanced AI security monitoring may impact pricing and resource allocation for organizations utilizing these frontier models.",
-        "affected": [],
-        "action": "Monitor OpenAI service pricing and updates regarding security overhead changes.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Critical GitLab Zero-Click Flaw Poses Mitigation Challenges",
       "link": "https://www.darkreading.com/application-security/critical-gitlab-zero-click-flaw-mitigation-challenges",
       "source": "Dark Reading",
@@ -3112,32 +2930,6 @@
         "relatedCves": [
           "CVE-2026-19478"
         ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Expired credit cards revived by researchers to make unauthorized payments",
-      "link": "https://www.theregister.com/security/2026/08/18/expired-credit-cards-revived-by-researchers-to-make-unauthorized-payments/5289229",
-      "source": "The Register",
-      "publishedAt": "2026-08-18T20:20:28.000Z",
-      "summary": "Gaps in expiry checks could let dead plastic make purchases again",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Security researchers discovered vulnerabilities involving expired credit cards being successfully revived to make unauthorized purchases. The issue stems from gaps in how payment systems verify card expiration dates during transactions.",
-        "whyItMatters": "This vulnerability undermines basic payment security controls, potentially enabling widespread fraudulent transactions using dead credit cards.",
-        "affected": [],
-        "action": "Update payment processing verification checks to strictly validate expiration dates.",
-        "risk": "High",
-        "relatedCves": [],
         "source": "ai"
       }
     },
@@ -5731,6 +5523,228 @@
         "whyItMatters": "It improves industrial control system security by providing critical infrastructure operators with practical connectivity guidance.",
         "affected": [],
         "action": "Review the new NCSC guidance for secure connectivity principles.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Project CAV3RN continues: Google Apps Script as C2 relay and DNS-based C2 channel selection",
+      "link": "https://securelist.com/project-cav3rn-continues/120991/",
+      "source": "Kaspersky Securelist",
+      "publishedAt": "2026-08-11T10:00:19.000Z",
+      "summary": "Project CAV3RN targets Israel with Google Apps Script C2 relays and DNS-based routing. Modular .NET NativeAOT framework blends C2 traffic with legitimate Google services to evade detection.",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Project CAV3RN is a targeted cyberattack campaign against Israel utilizing Google Apps Script as a command and control relay. The campaign employs a modular .NET NativeAOT framework that blends malicious traffic with legitimate Google services to evade detection.",
+        "whyItMatters": "It demonstrates how threat actors abuse trusted cloud services and DNS routing to blend malicious traffic into legitimate networks and evade standard security controls.",
+        "affected": [],
+        "action": "Monitor for anomalous Google Apps Script usage and suspicious DNS routing patterns.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Kimwolf v7: An Evolution of the Kimwolf Botnet",
+      "link": "https://unit42.paloaltonetworks.com/kimwolf-v7-botnet-malware/",
+      "source": "Unit 42",
+      "publishedAt": "2026-08-11T10:00:16.000Z",
+      "summary": "Discover how Kimwolf v7 targets Android IoT devices with HTTP/2 DDoS fingerprinting, Ethereum ENS C2 resolution and Tor backup routing.\nThe post Kimwolf v7: An Evolution of the Kimwolf Botnet appeared first on Unit 42.",
+      "categories": [
+        "News"
+      ],
+      "tags": [
+        "Android"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Unit 42 has detailed the emergence of Kimwolf v7, a new evolution of the Kimwolf botnet targeting Android IoT devices. The malware features advanced capabilities including HTTP/2 DDoS fingerprinting, Ethereum ENS C2 resolution, and Tor backup routing.",
+        "whyItMatters": "This development highlights the continuous evolution of IoT botnets, adopting advanced evasion and resilience techniques like blockchain-based C2 resolution to complicate mitigation efforts.",
+        "affected": [],
+        "action": "Monitor network traffic for anomalous HTTP/2 patterns and Tor routing to detect potential botnet infections.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Critical SQL Injection in Metabase via Password Reset: CVE-2026-72898",
+      "link": "https://bishopfox.com/blog/critical-sql-injection-in-metabase-via-password-reset-cve-2026-72898",
+      "source": "Bishop Fox",
+      "publishedAt": "2026-08-11T07:00:00.000Z",
+      "summary": "Immediate action is advised for all organizations running self-hosted Metabase. A critical, unauthenticated SQL injection vulnerability has been disclosed in Metabase's password reset functionality, and Metabase has conf",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-72898"
+      ],
+      "kev": true,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A critical unauthenticated SQL injection vulnerability has been disclosed in the password reset functionality of self-hosted Metabase instances. Organizations running affected versions are strongly advised to take immediate action to secure their deployments.",
+        "whyItMatters": "This vulnerability allows unauthenticated attackers to execute arbitrary SQL commands, potentially leading to unauthorized data access or complete system compromise.",
+        "affected": [
+          "Metabase self-hosted"
+        ],
+        "action": "Update Metabase to the latest patched version immediately.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-72898"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "August 2026 Patch Tuesday: One Exploited Zero-Day and 62 Critical Vulnerabilities Among 415 CVEs",
+      "link": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/",
+      "source": "CrowdStrike",
+      "publishedAt": "2026-08-11T05:00:00.000Z",
+      "summary": "August 2026 Patch Tuesday: One Exploited Zero-Day and 62 Critical Vulnerabilities Among 415 CVEs",
+      "categories": [
+        "Zero Day",
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft's August 2026 Patch Tuesday addresses 415 CVEs, including one actively exploited zero-day vulnerability. The update also patches 62 critical vulnerabilities across the company's product lineup.",
+        "whyItMatters": "Actively exploited zero-day vulnerabilities pose an immediate threat to organizations and require urgent patching to prevent active exploitation.",
+        "affected": [],
+        "action": "Apply the August 2026 security updates immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "The Permanent Threat: Analyzing Aeternum’s Blockchain-Based C2 Operations and Communications",
+      "link": "https://unit42.paloaltonetworks.com/aeternum-blockchain-c2-analysis/",
+      "source": "Unit 42",
+      "publishedAt": "2026-08-10T22:00:02.000Z",
+      "summary": "Analysis of the Aeternum botnet loader, a threat leveraging Polygon blockchain smart contracts for decentralized C2 infrastructure and payload execution.\nThe post The Permanent Threat: Analyzing Aeternum’s Blockchain-Bas",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Security researchers have analyzed the Aeternum botnet loader, a novel malware that utilizes Polygon blockchain smart contracts for decentralized command and control operations. This architecture enables permanent and resilient communication channels for payload execution.",
+        "whyItMatters": "Using blockchain technology for command and control infrastructure makes malicious operations significantly harder to disrupt and take down.",
+        "affected": [],
+        "action": "Monitor network traffic for unauthorized blockchain interactions associated with botnet activity.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Meta’s Ray-Bans are being banned from pubs, restaurants, and theatres",
+      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/meta-ray-ban-banned-pubs-restaurants-theatres",
+      "source": "Graham Cluley",
+      "publishedAt": "2026-08-10T19:31:19.000Z",
+      "summary": "A growing number of UK venues have decided to act against privacy-busting smart glasses.\r\n\r\nRead more in my article on the Hot for Security blog.",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A growing number of UK venues, including pubs, restaurants, and theatres, are banning Meta's Ray-Ban smart glasses over privacy concerns. These establishments are taking proactive steps to protect patron privacy from the recording capabilities of the wearable devices.",
+        "whyItMatters": "This highlights the increasing social and physical security pushback against consumer recording devices in public and private spaces due to privacy risks.",
+        "affected": [
+          "Meta Ray-Ban smart glasses"
+        ],
+        "action": "Be aware of venue policies regarding smart glasses when traveling in the UK.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "VU#614868: Opencart ecommerce platform contains directory traversal vulnerability",
+      "link": "https://kb.cert.org/vuls/id/614868",
+      "source": "CERT/CC",
+      "publishedAt": "2026-08-10T14:47:20.804Z",
+      "summary": "Overview\nThe OpenCart v4.2.0.0 extension installer contains a directory traversal vulnerability. The extension installation process extracts uploaded .zip files then uses the zip entry filenames as filesystem paths, with",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The OpenCart e-commerce platform v4.2.0.0 contains a directory traversal vulnerability within its extension installer. This flaw occurs because the installation process improperly uses uploaded zip entry filenames as filesystem paths after extraction.",
+        "whyItMatters": "This vulnerability could allow attackers to manipulate files on the server and potentially compromise the underlying system.",
+        "affected": [
+          "OpenCart v4.2.0.0"
+        ],
+        "action": "Update OpenCart or apply the vendor patch to secure the extension installer.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "10th August – Threat Intelligence Report",
+      "link": "https://research.checkpoint.com/2026/10th-august-threat-intelligence-report/",
+      "source": "Check Point Research",
+      "publishedAt": "2026-08-10T13:53:22.000Z",
+      "summary": "For the latest discoveries in cyber research for the week of 10th August, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES North Carolina Ports, the US authority operating the ports of Wilmingto",
+      "categories": [
+        "Research"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A recent threat intelligence report highlights the latest cyber research and discoveries for the week of August 10th. The bulletin features top attacks and breaches, including an incident involving North Carolina Ports.",
+        "whyItMatters": "Staying informed about current threat intelligence and recent breaches helps organizations anticipate emerging attack vectors and protect their critical infrastructure.",
+        "affected": [],
+        "action": "Download and review the latest Threat Intelligence Bulletin.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
