@@ -1,6 +1,32 @@
 {
-  "updatedAt": "2026-08-21T22:39:14.420Z",
+  "updatedAt": "2026-08-21T23:36:20.736Z",
   "items": [
+    {
+      "title": "Connecting the Dots: Securing the Overlooked Corners of the Software Development Lifecycle (SDLC) Supply Chain",
+      "link": "https://unit42.paloaltonetworks.com/sdlc-supply-chain/",
+      "source": "Unit 42",
+      "publishedAt": "2026-08-21T23:00:21.000Z",
+      "summary": "Attackers are targeting CI/CD pipelines and developer tools instead of application code, requiring total SDLC visibility and strict security controls\nThe post Connecting the Dots: Securing the Overlooked Corners of the S",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Cybersecurity threats are increasingly shifting away from application code to target CI/CD pipelines and developer tools within the software development lifecycle. Securing these overlooked areas requires comprehensive visibility and stringent security controls across the entire supply chain.",
+        "whyItMatters": "Attackers can compromise the entire software supply chain by exploiting vulnerable developer tools and CI/CD pipelines rather than traditional application code.",
+        "affected": [],
+        "action": "Implement strict security controls and visibility across all CI/CD pipelines and developer tools.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "USN-8658-2: Linux kernel (IBM) vulnerabilities",
       "link": "https://ubuntu.com/security/notices/USN-8658-2",
@@ -1136,6 +1162,39 @@
       }
     },
     {
+      "title": "CVE-2026-54981 Visual Studio Code Python Extension Security Feature Bypass Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-54981",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-21T14:00:00.000Z",
+      "summary": "Affected software updated with new package information.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-54981"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "A security feature bypass vulnerability, tracked as CVE-2026-54981, has been identified in the Visual Studio Code Python Extension. The affected software has been updated with new package information to address the issue.",
+        "whyItMatters": "This vulnerability allows attackers to bypass security features in the extension, potentially leading to unauthorized access or compromised development environments.",
+        "affected": [
+          "Visual Studio Code Python Extension"
+        ],
+        "action": "Update the Visual Studio Code Python Extension to the latest version.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-54981"
+        ],
+        "source": "ai"
+      }
+    },
+    {
       "title": "CVE-2026-58547 Windows Universal Plug and Play (UPnP) Device Host Elevation of Privilege Vulnerability",
       "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58547",
       "source": "Microsoft MSRC",
@@ -1201,39 +1260,6 @@
         "risk": "Medium",
         "relatedCves": [
           "CVE-2026-49183"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-55134 Microsoft Word Remote Code Execution Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-55134",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-21T14:00:00.000Z",
-      "summary": "Updated an acknowledgement. This is an informational change only.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-55134"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "Microsoft has updated an acknowledgment for CVE-2026-55134, a remote code execution vulnerability affecting Microsoft Word. This update is strictly informational and does not contain new technical fixes.",
-        "whyItMatters": "Understanding advisory updates helps administrators track vulnerability status changes, though no immediate action is required for this informational change.",
-        "affected": [
-          "Microsoft Word"
-        ],
-        "action": "Review the advisory update for informational purposes.",
-        "risk": "News",
-        "relatedCves": [
-          "CVE-2026-55134"
         ],
         "source": "ai"
       }
@@ -5758,32 +5784,6 @@
         "affected": [],
         "action": "Review AI governance frameworks and accountability policies.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Akira Hits Safe Mode: Ransomware Rebooting Around EDR",
-      "link": "https://www.huntress.com/blog/akira-hits-safe-mode-ransomware-rebooting-around-edr",
-      "source": "Huntress",
-      "publishedAt": "2026-08-12T13:00:00.000Z",
-      "summary": "An Akira affiliate rebooted into Safe Mode to kill EDR and Defender, then Safe Mode broke their own ransomware. Here’s the full attack chain.",
-      "categories": [
-        "Ransomware"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "high",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "An Akira ransomware affiliate attempted to reboot a target system into Safe Mode to disable Endpoint Detection and Response (EDR) software and Windows Defender. However, the Safe Mode execution ultimately malfunctioned and broke the ransomware's own deployment.",
-        "whyItMatters": "This incident highlights how cybercriminal tactics increasingly involve evading security controls by abusing native operating system modes like Safe Mode.",
-        "affected": [],
-        "action": "Monitor for unauthorized system reboots into Safe Mode and restrict Safe Mode access.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
