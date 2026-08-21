@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T05:46:52.096Z",
+  "updatedAt": "2026-08-21T07:05:59.226Z",
   "items": [
     {
       "title": "Calling on Cyber Pros to Help Defend City Hall",
@@ -24,6 +24,38 @@
         "action": "Consider volunteering cybersecurity expertise to local government agencies.",
         "risk": "News",
         "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Microsoft Entra ID Flaw (CVSS 10.0) Exploited in Wild, Allows Remote Code Execution",
+      "link": "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-21T06:06:11.000Z",
+      "summary": "Microsoft on Thursday warned of a maximum-severity security flaw in Entra ID that it said has been exploited in the wild, but noted that no customer action is required.\n\nThe vulnerability, tracked as CVE-2026-69836 (CVSS",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-69836"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft has warned of a maximum-severity security flaw in Entra ID that is currently being exploited in the wild. The vulnerability allows for remote code execution, though Microsoft has stated that no customer action is required at this time.",
+        "whyItMatters": "This flaw poses an extreme risk due to its maximum severity and active exploitation in a critical identity and access management service.",
+        "affected": [
+          "Microsoft Entra ID"
+        ],
+        "action": "Monitor Microsoft advisories for updates regarding CVE-2026-69836.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-69836"
+        ],
         "source": "ai"
       }
     },
@@ -1963,35 +1995,6 @@
       }
     },
     {
-      "title": "Attackers Exploit Zimbra SNMP Flaw for Unauthenticated Remote Code Execution",
-      "link": "https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-20T13:24:28.000Z",
-      "summary": "A now-patched security flaw impacting Zimbra Collaboration (ZCS) has come under active exploitation in the wild, according to the Polish Computer Emergency Response Team (CERT Polska).\n\nThe vulnerability in question is C",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CERT Polska reports that a now-patched security flaw in Zimbra Collaboration has come under active exploitation in the wild. The vulnerability allows attackers to achieve unauthenticated remote code execution via the SNMP component.",
-        "whyItMatters": "Active exploitation of an unauthenticated remote code execution vulnerability poses a severe threat to vulnerable mail servers and their underlying network infrastructure.",
-        "affected": [
-          "Zimbra Collaboration"
-        ],
-        "action": "Apply the official security patches provided by Zimbra immediately.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Threat Actor Hacks 14,000 IP Cameras in Ukraine and Russia",
       "link": "https://www.securityweek.com/threat-actor-hacks-14000-ip-cameras-in-ukraine-and-russia/",
       "source": "SecurityWeek",
@@ -3035,6 +3038,32 @@
         ],
         "action": "Wait for an official Microsoft patch before troubleshooting gaming crashes related to the update.",
         "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CrowdStrike Named Strongest Overall Leader in 2026 Frost Radar&trade;: Cloud Workload Protection Platforms",
+      "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-strongest-overall-leader-2026-frost-radar-cwpp/",
+      "source": "CrowdStrike",
+      "publishedAt": "2026-08-20T05:00:00.000Z",
+      "summary": "CrowdStrike Named Strongest Overall Leader in 2026 Frost Radar&trade;: Cloud Workload Protection Platforms",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "CrowdStrike has been recognized as the strongest overall leader in the 2026 Frost Radar evaluation for Cloud Workload Protection Platforms. This ranking highlights the company's strong performance and market position in cloud security.",
+        "whyItMatters": "It highlights industry recognition of leading vendors in cloud workload protection, which helps organizations evaluate security solutions.",
+        "affected": [],
+        "action": "Review the Frost Radar report for vendor evaluation insights.",
+        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
@@ -5760,35 +5789,6 @@
         "relatedCves": [
           "CVE-2026-49975"
         ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Broken access control in the RADIUS type admin group",
-      "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-158",
-      "source": "Fortinet PSIRT",
-      "publishedAt": "2026-08-12T07:00:00.000Z",
-      "summary": "CVSSv3 Score:\n \n 8.8\n\n\n An Improper Authentication vulnerability  [CWE-287] in the FortiWeb Remote Radius Type Admin Authentication configured with specific, non-default settings may allow a remote unauthenticated attack",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "An improper authentication vulnerability exists in FortiWeb when Remote RADIUS Type Admin Authentication is configured with specific non-default settings. This broken access control flaw allows remote unauthenticated attackers to potentially compromise the system.",
-        "whyItMatters": "It allows remote unauthenticated attackers to exploit authentication controls and potentially gain unauthorized administrative access.",
-        "affected": [
-          "FortiWeb"
-        ],
-        "action": "Review FortiWeb RADIUS authentication configurations and apply vendor patches.",
-        "risk": "High",
-        "relatedCves": [],
         "source": "ai"
       }
     }
