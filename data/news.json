@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T13:10:33.094Z",
+  "updatedAt": "2026-08-21T13:57:03.379Z",
   "items": [
     {
       "title": "Calling on Cyber Pros to Help Defend City Hall",
@@ -126,6 +126,37 @@
         "risk": "News",
         "relatedCves": [
           "CVE-2026-55134"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-50466 Microsoft Brokering File System Elevation of Privilege Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50466",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-21T14:00:00.000Z",
+      "summary": "Updated an acknowledgement. This is an informational change only.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-50466"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Microsoft has updated an acknowledgment related to CVE-2026-50466, a Brokering File System Elevation of Privilege Vulnerability. This update is purely informational and does not contain new remediation steps.",
+        "whyItMatters": "Keeping track of vulnerability metadata updates helps security teams maintain accurate threat intelligence records.",
+        "affected": [],
+        "action": "Review the updated acknowledgment for informational purposes.",
+        "risk": "News",
+        "relatedCves": [
+          "CVE-2026-50466"
         ],
         "source": "ai"
       }
@@ -267,37 +298,60 @@
       }
     },
     {
-      "title": "CVE-2026-32202 Windows Shell Spoofing Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32202",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-21T14:00:00.000Z",
-      "summary": "Updated an acknowledgement. This is an informational change only.",
+      "title": "Microsoft rolls out Classic Outlook theme for New Outlook users",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-classic-outlook-theme-for-new-outlook-users/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-08-21T13:39:35.000Z",
+      "summary": "Microsoft has started rolling out a Classic Outlook theme for users of Outlook on the web and the New Outlook for Windows. [...]",
       "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
+        "News"
       ],
       "tags": [
         "Windows"
       ],
-      "cves": [
-        "CVE-2026-32202"
-      ],
-      "kev": true,
+      "cves": [],
+      "kev": false,
       "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 2,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
       "aiSummary": {
-        "summary": "Microsoft has updated an acknowledgement for CVE-2026-32202, a Windows Shell spoofing vulnerability. This change is purely informational and does not contain new technical details.",
-        "whyItMatters": "It tracks ongoing updates regarding potential spoofing weaknesses within the Windows Shell component.",
+        "summary": "Microsoft is rolling out a new Classic Outlook theme for users of Outlook on the web and the New Outlook for Windows. This update aims to bring the familiar look of the traditional desktop application to the newer web-based platforms.",
+        "whyItMatters": "This is a UI update that improves user experience and familiarity without impacting core security.",
         "affected": [
-          "Windows Shell"
+          "Outlook on the web",
+          "New Outlook for Windows"
         ],
-        "action": "Review the updated vendor advisory for informational tracking purposes.",
+        "action": "Enjoy the updated interface once available.",
         "risk": "News",
-        "relatedCves": [
-          "CVE-2026-32202"
-        ],
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "OpenAI Adds Controls That Should've Been There Already",
+      "link": "https://www.darkreading.com/application-security/openai-adds-controls-already",
+      "source": "Dark Reading",
+      "publishedAt": "2026-08-21T13:30:00.000Z",
+      "summary": "The new AI security controls follow the Hugging Face incident last month, though many of these additions perhaps should have been in place prior to the frontier models escaping.",
+      "categories": [
+        "Incident Response",
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "OpenAI has introduced new AI security controls in the wake of a recent security incident involving Hugging Face. These additions aim to better secure frontier models, though observers note they should have been implemented earlier.",
+        "whyItMatters": "It highlights ongoing gaps in foundational AI security practices among major developers.",
+        "affected": [],
+        "action": "Review the newly implemented OpenAI security controls.",
+        "risk": "News",
+        "relatedCves": [],
         "source": "ai"
       }
     },
@@ -2782,37 +2836,6 @@
       }
     },
     {
-      "title": "Citrix urges admins to patch new NetScaler flaws as soon as possible",
-      "link": "https://www.bleepingcomputer.com/news/security/citrix-urges-admins-to-patch-new-netscaler-flaws-as-soon-as-possible/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-08-20T12:14:38.000Z",
-      "summary": "Citrix has warned customers to immediately secure their systems against two vulnerabilities affecting NetScaler Gateway secure remote access solutions and NetScaler ADC networking appliances. [...]",
-      "categories": [
-        "Vulnerability"
-      ],
-      "tags": [
-        "Citrix"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Citrix is urging administrators to immediately patch two newly disclosed vulnerabilities affecting NetScaler Gateway and NetScaler ADC appliances. These security flaws could potentially expose secure remote access solutions and networking infrastructure to exploitation if left unmitigated.",
-        "whyItMatters": "Unpatched NetScaler vulnerabilities are frequently targeted by threat actors to gain initial access to enterprise networks.",
-        "affected": [
-          "NetScaler Gateway",
-          "NetScaler ADC"
-        ],
-        "action": "Apply the latest security patches provided by Citrix immediately.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/08/20/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "source": "CISA Advisories",
@@ -3492,32 +3515,6 @@
         ],
         "action": "Update the MSSQL extension to access the new provisioning features.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "No-Filter 'Kriminal' AI Platform Raises Cybercrime Concerns",
-      "link": "https://www.darkreading.com/application-security/no-filter-kriminal-ai-platform-cybercrime-concerns",
-      "source": "Dark Reading",
-      "publishedAt": "2026-08-19T20:32:09.000Z",
-      "summary": "The AI company officially forbids illicit use, while offering guardrail-free social engineering, offensive cybercrime, and OSINT scanning to anyone with a bit of cryptocurrency.",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A new AI platform called Kriminal offers guardrail-free capabilities for social engineering, offensive cybercrime, and OSINT scanning to users paying with cryptocurrency. Although the company officially forbids illicit use, the platform's lack of filters raises significant cybersecurity concerns.",
-        "whyItMatters": "It lowers the technical barrier for malicious actors to conduct sophisticated cyberattacks and social engineering campaigns.",
-        "affected": [],
-        "action": "Monitor network traffic for indicators of compromise related to Kriminal AI and educate employees on advanced social engineering tactics.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
