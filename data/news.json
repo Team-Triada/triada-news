@@ -1,6 +1,101 @@
 {
-  "updatedAt": "2026-08-21T18:54:49.341Z",
+  "updatedAt": "2026-08-21T19:36:23.286Z",
   "items": [
+    {
+      "title": "USN-8667-1: Linux kernel (KVM) vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8667-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-21T19:27:34.000Z",
+      "summary": "Siebe Devroe, Héloïse Gollier, and Mathy Vanhoef discovered that the WiFi\nimplementation in the Linux kernel did not properly handle aggregated\nframes in mesh networks, due to an incorrect fix for CVE-2020-24588. A\nphysi",
+      "categories": [
+        "Vulnerability",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [
+        "CVE-2020-24588"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Researchers discovered that the Linux kernel's WiFi implementation improperly handles aggregated frames in mesh networks due to an incorrect fix for CVE-2020-24588. This flaw affects the Linux kernel KVM component and could potentially be exploited by attackers.",
+        "whyItMatters": "It leaves Linux systems using mesh networks vulnerable to exploitation because a previous security fix was implemented incorrectly.",
+        "affected": [
+          "Linux kernel"
+        ],
+        "action": "Update your Linux kernel to the latest patched version provided by your distributor.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2020-24588"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8662-2: Linux kernel (FIPS) vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8662-2",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-21T19:23:06.000Z",
+      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - x86 architecture;\n  - Cryptographic ",
+      "categories": [
+        "Vulnerability",
+        "Incident Response",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Canonical has released USN-8662-2 addressing multiple security vulnerabilities in the Linux kernel FIPS edition. The flaws affect the x86 architecture and cryptographic subsystems, potentially allowing system compromise.",
+        "whyItMatters": "Unpatched kernel vulnerabilities can allow local attackers or malicious software to gain full control over affected systems.",
+        "affected": [
+          "Linux kernel (FIPS)"
+        ],
+        "action": "Update the Linux kernel to the latest version provided by your distribution.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Apollo discloses data breach from ongoing wave of attacks hitting financial sector",
+      "link": "https://cyberscoop.com/apollo-discloses-data-breach-social-engineering-attack/",
+      "source": "CyberScoop",
+      "publishedAt": "2026-08-21T19:14:28.000Z",
+      "summary": "The private equity firm said attackers broke into some of its cloud platforms during a five-day period in early July, compromising sensitive personal data.\nThe post Apollo discloses data breach from ongoing wave of attac",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Private equity firm Apollo disclosed a data breach after attackers compromised some of its cloud platforms over a five-day period in early July. The unauthorized access resulted in the compromise of sensitive personal data amidst an ongoing wave of attacks targeting the financial sector.",
+        "whyItMatters": "This incident highlights the escalating risk and successful targeting of cloud platforms within the financial sector by malicious actors.",
+        "affected": [],
+        "action": "Review cloud security controls and monitor for unauthorized access.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "New SynkLoader malware pushed in Microsoft Teams phishing campaign",
       "link": "https://www.bleepingcomputer.com/news/security/new-synkloader-malware-pushed-in-microsoft-teams-phishing-campaign/",
@@ -1126,6 +1221,40 @@
       }
     },
     {
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/08/21/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-08-21T12:00:00.000Z",
+      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  \nCVE-2026-73570 Zimbra Collaboration Suite (ZCS) OS Command Injection Vulnerability\nTh",
+      "categories": [
+        "Vulnerability",
+        "Government",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-73570"
+      ],
+      "kev": true,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "CISA has added a new vulnerability in the Zimbra Collaboration Suite to its Known Exploited Vulnerabilities Catalog. The flaw is an OS command injection vulnerability that is currently being actively exploited in the wild.",
+        "whyItMatters": "Active exploitation of this vulnerability poses an immediate threat to organizations using the affected software, as attackers can execute arbitrary system commands.",
+        "affected": [
+          "Zimbra Collaboration Suite"
+        ],
+        "action": "Apply the vendor security updates immediately.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-73570"
+        ],
+        "source": "ai"
+      }
+    },
+    {
       "title": "Medical records, SSNs, and bank details exposed in CareCloud data breach",
       "link": "https://www.malwarebytes.com/blog/news/2026/08/medical-records-ssns-and-bank-details-exposed-in-carecloud-data-breach",
       "source": "Malwarebytes Labs",
@@ -2008,77 +2137,6 @@
         "action": "Update the Linux kernel to the latest version.",
         "risk": "High",
         "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8644-2: Linux kernel (GCP) vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8644-2",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-20T22:31:33.000Z",
-      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - File systems infrastructure;\n  - OCF",
-      "categories": [
-        "Vulnerability",
-        "Incident Response",
-        "Cloud",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux",
-        "GCP"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Canonical has released USN-8644-2 addressing multiple security vulnerabilities in the Google Cloud Platform (GCP) Linux kernel. These flaws exist within the file systems infrastructure and the OCF subsystems.",
-        "whyItMatters": "Unpatched kernel vulnerabilities can allow local attackers to compromise system security and potentially gain elevated privileges.",
-        "affected": [
-          "Linux kernel (GCP)"
-        ],
-        "action": "Update the Linux kernel to the latest version provided by your distributor.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8661-1: Linux kernel vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8661-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-20T22:26:52.000Z",
-      "summary": "Siebe Devroe, Héloïse Gollier, and Mathy Vanhoef discovered that the WiFi\nimplementation in the Linux kernel did not properly handle aggregated\nframes in mesh networks, due to an incorrect fix for CVE-2020-24588. A\nphysi",
-      "categories": [
-        "Vulnerability",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [
-        "CVE-2020-24588"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Researchers discovered that the Linux kernel's WiFi implementation improperly handles aggregated frames in mesh networks due to an incorrect fix for a previous vulnerability. This flaw exposes systems running affected kernel versions to potential security risks.",
-        "whyItMatters": "It reintroduces vulnerabilities in Linux mesh network WiFi handling that could be exploited by attackers within range.",
-        "affected": [
-          "Linux kernel"
-        ],
-        "action": "Update your Linux kernel to the latest patched version.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2020-24588"
-        ],
         "source": "ai"
       }
     },
@@ -3118,6 +3176,36 @@
       }
     },
     {
+      "title": "Johnson Controls Simplex Incident Manager",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-232-01",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-08-20T12:00:00.000Z",
+      "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow a local attacker with low privileges to extract user credentials (passwords and authentication tokens) from system memory, potentially leading t",
+      "categories": [
+        "Vulnerability",
+        "Incident Response",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A vulnerability in Johnson Controls Simplex Incident Manager allows local, low-privileged attackers to extract user credentials, including passwords and authentication tokens, from system memory. Successful exploitation could compromise sensitive user data and lead to further unauthorized system access.",
+        "whyItMatters": "It allows low-privileged local users to steal sensitive credentials directly from memory, compromising system security.",
+        "affected": [
+          "Simplex Incident Manager"
+        ],
+        "action": "Apply vendor patches or updates as soon as they become available.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/08/20/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "source": "CISA Advisories",
@@ -3148,36 +3236,6 @@
         "relatedCves": [
           "CVE-2026-72529"
         ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Johnson Controls Simplex Incident Manager",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-232-01",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-08-20T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow a local attacker with low privileges to extract user credentials (passwords and authentication tokens) from system memory, potentially leading t",
-      "categories": [
-        "Vulnerability",
-        "Incident Response",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A vulnerability in Johnson Controls Simplex Incident Manager allows local, low-privileged attackers to extract user credentials, including passwords and authentication tokens, from system memory. Successful exploitation could compromise sensitive user data and lead to further unauthorized system access.",
-        "whyItMatters": "It allows low-privileged local users to steal sensitive credentials directly from memory, compromising system security.",
-        "affected": [
-          "Simplex Incident Manager"
-        ],
-        "action": "Apply vendor patches or updates as soon as they become available.",
-        "risk": "High",
-        "relatedCves": [],
         "source": "ai"
       }
     },
@@ -4581,33 +4639,6 @@
       }
     },
     {
-      "title": "Eight years later, federal authorities re-up charges against alleged Iranian hackers at Mabna Institute",
-      "link": "https://cyberscoop.com/mabna-institute-iranian-hackers-indictment/",
-      "source": "CyberScoop",
-      "publishedAt": "2026-08-18T20:12:06.000Z",
-      "summary": "The superseding indictment adds defendants and allegations against the Iranian firm accused of a massive cybertheft campaign against foreign universities and others.\nThe post Eight years later, federal authorities re-up ",
-      "categories": [
-        "Threat Intel",
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Federal authorities have filed a superseding indictment against alleged Iranian hackers associated with the Mabna Institute. The updated charges add new defendants and allegations regarding a massive cybertheft campaign targeting foreign universities and other entities.",
-        "whyItMatters": "This action demonstrates the ongoing commitment of law enforcement to pursue international state-sponsored cybercriminals regardless of the time elapsed.",
-        "affected": [],
-        "action": "Review the updated indictment details for threat intelligence purposes.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Threat Brief: Mitigating Large-Scale Credential Attacks (Updated August 18)",
       "link": "https://unit42.paloaltonetworks.com/large-scale-credential-attacks/",
       "source": "Unit 42",
@@ -4693,35 +4724,6 @@
       }
     },
     {
-      "title": "Siemens Simcenter Nastran",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-230-02",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-08-18T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nSimcenter Nastran is affected by a stack overflow vulnerability that could be triggered when an application binary reads arbitrary string as a file argument. If a user is tricked to run one of the impac",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Siemens Simcenter Nastran contains a stack overflow vulnerability that can be triggered when its binary processes an arbitrary string as a file argument. An attacker could exploit this issue if a user is tricked into running a malicious file.",
-        "whyItMatters": "This vulnerability could allow an attacker to achieve arbitrary code execution or cause a denial of service on systems running the affected software.",
-        "affected": [
-          "Siemens Simcenter Nastran"
-        ],
-        "action": "Check the vendor CSAF advisory and apply available patches or updates.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "CISA Malcolm",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-230-01",
       "source": "CISA Advisories",
@@ -4746,6 +4748,35 @@
           "CISA Malcolm <2"
         ],
         "action": "Update CISA Malcolm to version 2 or later.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Siemens Simcenter Nastran",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-230-02",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-08-18T12:00:00.000Z",
+      "summary": "View CSAF\nSummary\nSimcenter Nastran is affected by a stack overflow vulnerability that could be triggered when an application binary reads arbitrary string as a file argument. If a user is tricked to run one of the impac",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Siemens Simcenter Nastran contains a stack overflow vulnerability that can be triggered when its binary processes an arbitrary string as a file argument. An attacker could exploit this issue if a user is tricked into running a malicious file.",
+        "whyItMatters": "This vulnerability could allow an attacker to achieve arbitrary code execution or cause a denial of service on systems running the affected software.",
+        "affected": [
+          "Siemens Simcenter Nastran"
+        ],
+        "action": "Check the vendor CSAF advisory and apply available patches or updates.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -4950,40 +4981,6 @@
         "action": "Review government cybersecurity measures and ensure robust ransomware defenses are in place.",
         "risk": "High",
         "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/08/17/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-08-17T12:00:00.000Z",
-      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  \nCVE-2025-62593 Ray-Project Ray Code Injection Vulnerability\nThis type of vulnerabilit",
-      "categories": [
-        "Vulnerability",
-        "Government",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2025-62593"
-      ],
-      "kev": true,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CISA has added a new vulnerability to its Known Exploited Vulnerabilities Catalog following evidence of active exploitation in the wild. The newly listed issue is CVE-2025-62593, a code injection vulnerability affecting Ray-Project Ray.",
-        "whyItMatters": "Active exploitation in the wild means threat actors are actively leveraging this vulnerability to compromise systems, making immediate remediation critical.",
-        "affected": [
-          "Ray-Project Ray"
-        ],
-        "action": "Apply the latest security updates or mitigations provided by the vendor immediately.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2025-62593"
-        ],
         "source": "ai"
       }
     },
