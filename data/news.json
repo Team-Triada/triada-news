@@ -1,9 +1,147 @@
 {
-  "updatedAt": "2026-08-21T13:57:03.379Z",
+  "updatedAt": "2026-08-21T14:52:41.049Z",
   "items": [
     {
+      "title": "VU#756733: Calix GS7 XGS GS5239XG residential router contains missing authentication vulnerability",
+      "link": "https://kb.cert.org/vuls/id/756733",
+      "source": "CERT/CC",
+      "publishedAt": "2026-08-21T14:44:16.922Z",
+      "summary": "Overview\nThe Calix GS7 XGS GS5239XG router running firmware EXOS/6.6.47 contains a missing authentication vulnerability that exposes its UPnP (Universal Plug and Play) WANIPConnection service on the public WAN interface.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The Calix GS7 XGS GS5239XG residential router running firmware EXOS/6.6.47 contains a missing authentication vulnerability. This security flaw exposes the device's UPnP WANIPConnection service directly on the public WAN interface.",
+        "whyItMatters": "Exposing UPnP services on the public WAN without authentication allows unauthorized remote attackers to manipulate network settings and potentially compromise the router.",
+        "affected": [
+          "Calix GS7 XGS GS5239XG firmware EXOS/6.6.47"
+        ],
+        "action": "Disable UPnP on the WAN interface or update the router firmware.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Encrypted Prompts Bypass AI Safety Guardrails in Grok and Gemini",
+      "link": "https://www.securityweek.com/encrypted-prompts-bypass-ai-safety-guardrails-in-grok-and-gemini/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-08-21T14:34:05.000Z",
+      "summary": "Researchers say the new ‘Cryptographic Context Injection’ technique conceals malicious instructions until they are decrypted inside a trusted execution environment.\nThe post Encrypted Prompts Bypass AI Safety Guardrails ",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Researchers have demonstrated a new technique called Cryptographic Context Injection that hides malicious instructions until they are decrypted inside a trusted execution environment. This method successfully bypasses the safety guardrails of popular AI models like Grok and Gemini.",
+        "whyItMatters": "This vulnerability undermines core AI safety mechanisms, allowing attackers to trick models into executing hidden malicious commands.",
+        "affected": [
+          "Grok",
+          "Gemini"
+        ],
+        "action": "Update AI safety filters to detect and intercept encrypted prompt injection techniques.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "New Phishing Toolkit Uses Passkeys to Maintain Access After Password Resets",
+      "link": "https://www.securityweek.com/new-phishing-toolkit-uses-passkeys-to-maintain-access-after-password-resets/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-08-21T14:22:06.000Z",
+      "summary": "Researchers say iAuthFlow V2 can register an attacker-controlled passkey, enabling persistent access even after passwords are changed and active sessions revoked.\nThe post New Phishing Toolkit Uses Passkeys to Maintain A",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Researchers have discovered a new phishing toolkit called iAuthFlow V2 that exploits passkeys. This allows attackers to register their own passkeys and maintain persistent access to accounts even after victims change their passwords and revoke active sessions.",
+        "whyItMatters": "This technique bypasses traditional account recovery methods by establishing persistent cryptographic access that survives standard password resets.",
+        "affected": [],
+        "action": "Monitor authentication logs for suspicious passkey registrations and educate users on advanced phishing tactics.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Zombie Card: An expired Visa credit card can be used for purchases",
+      "link": "https://www.malwarebytes.com/blog/news/2026/08/zombie-card-an-expired-visa-credit-card-can-be-used-for-purchases",
+      "source": "Malwarebytes Labs",
+      "publishedAt": "2026-08-21T14:03:48.000Z",
+      "summary": "Scientific research showed that the expiration date on some Visa credit cards can be manipulated in so-called Zombie Card attacks.",
+      "categories": [
+        "Research"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Researchers have discovered a vulnerability dubbed Zombie Card that allows expired Visa credit cards to be used for unauthorized purchases. The attack involves manipulating the card expiration date during the transaction process.",
+        "whyItMatters": "This flaw undermines a fundamental security control of credit card transactions, potentially enabling ongoing fraudulent charges on expired accounts.",
+        "affected": [
+          "Visa credit cards"
+        ],
+        "action": "Monitor credit card statements closely for unauthorized transactions and contact your financial institution if anomalies occur.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Is Online Privacy Possible? How Digital Identities Can Help",
+      "link": "https://www.bleepingcomputer.com/news/security/is-online-privacy-possible-how-digital-identities-can-help/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-08-21T14:00:10.000Z",
+      "summary": "Using the same email, phone number, payment method, and other identifiers makes it easier for data brokers and attackers to profile your activity. Anonyome Labs explains how separate digital personas can reduce correlati",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Using identical identifiers across various online services makes it easier for data brokers and attackers to profile user activity. Anonyome Labs suggests that utilizing separate digital personas can help reduce this correlation.",
+        "whyItMatters": "Reusing personal identifiers increases user vulnerability to tracking and cyberattacks by making online profiling effortless.",
+        "affected": [],
+        "action": "Use separate digital personas to minimize online tracking.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "Calling on Cyber Pros to Help Defend City Hall",
-      "link": "https://www.darkreading.com/cyber-risk/calling-on-cyber-pros-to-help-city-hall",
+      "link": "https://www.darkreading.com/cyber-risk/cyber-pros-help-city-hall",
       "source": "Dark Reading",
       "publishedAt": "2026-08-21T14:00:00.000Z",
       "summary": "Government agencies with smaller budgets need support — and here's how you can help.",
@@ -18,10 +156,10 @@
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "This article discusses the cybersecurity challenges faced by government agencies with limited budgets and calls on cybersecurity professionals to offer assistance. It highlights the need for community support to help secure local government infrastructure like city halls.",
-        "whyItMatters": "Underfunded government agencies are frequent targets for cyberattacks, making external cybersecurity support critical for public infrastructure defense.",
+        "summary": "This opinion or call-to-action piece discusses how cybersecurity professionals can assist underfunded government agencies. It encourages community involvement and expertise sharing to help defend municipal organizations like city halls.",
+        "whyItMatters": "Smaller government agencies often lack the resources to defend against sophisticated cyber threats, putting public infrastructure at risk.",
         "affected": [],
-        "action": "Consider volunteering cybersecurity expertise to local government agencies.",
+        "action": "Volunteer your cybersecurity expertise to local government agencies in need.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -294,6 +432,34 @@
         "relatedCves": [
           "CVE-2026-70335"
         ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Russian network monitoring firm confirms cyberattack claimed by pro-Ukraine hackers",
+      "link": "https://therecord.media/russian-network-monitoring-firm-confirms-cyberattack-claimed-by-pro-ukraine-group",
+      "source": "The Record",
+      "publishedAt": "2026-08-21T13:55:00.000Z",
+      "summary": "The statement came a day after a hacking group calling itself Black Spark claimed it had spent more than a month inside Microolap’s network and gained access to its internal systems, including EtherSensor, the company's ",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Russian network monitoring firm Microolap has confirmed a cyberattack after pro-Ukraine hackers operating under the name Black Spark claimed to have breached its internal systems. The attackers stated they spent over a month inside the network, gaining access to sensitive assets including the EtherSensor product.",
+        "whyItMatters": "This incident highlights ongoing cyber warfare activities where critical monitoring infrastructure and vendor networks are targeted by politically motivated threat actors.",
+        "affected": [
+          "Microolap EtherSensor"
+        ],
+        "action": "Investigate internal systems for unauthorized access and review security controls for EtherSensor.",
+        "risk": "High",
+        "relatedCves": [],
         "source": "ai"
       }
     },
@@ -2405,32 +2571,6 @@
       }
     },
     {
-      "title": "Surveillance – Everything You Wanted to Know, But Were Afraid to Ask",
-      "link": "https://www.securityweek.com/surveillance-everything-you-wanted-to-know-but-were-afraid-to-ask/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-08-20T14:30:00.000Z",
-      "summary": "We all know they’re watching us. But we don’t know who they are, nor why nor how they are doing it.\nThe post Surveillance – Everything You Wanted to Know, But Were Afraid to Ask appeared first on SecurityWeek.",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "This article discusses the pervasive nature of modern digital surveillance and the general lack of public awareness regarding who is watching and how. It serves as a brief introductory teaser for surveillance-related topics on SecurityWeek.",
-        "whyItMatters": "It highlights the ongoing privacy concerns surrounding pervasive surveillance in the digital age.",
-        "affected": [],
-        "action": "Read the full article for more details.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Ransomware crook poses as recovery firm to steal payments from fellow extortionists",
       "link": "https://www.theregister.com/cyber-crime/2026/08/20/ransomware-crook-poses-as-recovery-firm-to-steal-payments-from-fellow-extortionists/5290344",
       "source": "The Register",
@@ -2451,32 +2591,6 @@
         "whyItMatters": "It demonstrates the chaotic and untrustworthy nature of the underground cybercrime economy.",
         "affected": [],
         "action": "Ignore this as a general news item with no technical action required.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "How MSPs can catch phishing attacks email filters miss",
-      "link": "https://www.bleepingcomputer.com/news/security/how-msps-can-catch-phishing-attacks-email-filters-miss/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-08-20T14:01:11.000Z",
-      "summary": "AI is making phishing attacks more personalized, convincing, and difficult for traditional email filters to detect. Kaseya explains how MSPs can monitor identity, email, and endpoint activity to detect and contain attack",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "AI is making phishing attacks increasingly personalized and difficult for traditional email filters to detect. Managed Service Providers are advised to monitor identity, email, and endpoint activity to mitigate these threats.",
-        "whyItMatters": "As attackers leverage AI to bypass standard email filters, organizations face a higher risk of successful phishing campaigns.",
-        "affected": [],
-        "action": "Monitor identity, email, and endpoint activity to catch advanced phishing.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -2558,34 +2672,6 @@
         "affected": [],
         "action": "Check your Twitch account settings to opt out of AI training.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Threat Actor Hacks 14,000 IP Cameras in Ukraine and Russia",
-      "link": "https://www.securityweek.com/threat-actor-hacks-14000-ip-cameras-in-ukraine-and-russia/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-08-20T13:16:35.000Z",
-      "summary": "Operation CameraSwarm targeted Dahua cameras across multiple countries, focusing on Russian and CIS telecom netblocks.\nThe post Threat Actor Hacks 14,000 IP Cameras in Ukraine and Russia appeared first on SecurityWeek.",
-      "categories": [
-        "Threat Intel"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A threat actor executed an operation dubbed CameraSwarm, successfully compromising 14,000 IP cameras primarily across Russia and Ukraine. The campaign specifically targeted Dahua cameras deployed within various regional telecom netblocks.",
-        "whyItMatters": "Large-scale compromise of network-connected surveillance devices poses severe espionage and physical security risks to targeted regions.",
-        "affected": [
-          "Dahua IP cameras"
-        ],
-        "action": "Audit and secure IP camera configurations and firmware.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -4086,32 +4172,6 @@
       }
     },
     {
-      "title": "Latvian officials resign after cyberattack exposes data on 1.2 million people",
-      "link": "https://therecord.media/latvia-cyberattack-vehicle-data",
-      "source": "The Record",
-      "publishedAt": "2026-08-19T13:45:00.000Z",
-      "summary": "Latvia’s road traffic agency confirmed that hackers stole data connected to about two-thirds of the country’s population in a major cyberattack that has prompted calls for senior officials to resign.",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Latvia's road traffic agency suffered a major cyberattack that resulted in the theft of personal data affecting roughly two-thirds of the country's population. The severe breach has sparked intense public backlash and calls for senior officials to resign.",
-        "whyItMatters": "This massive data breach compromises the sensitive personal information of a vast majority of a nation's citizens, highlighting critical vulnerabilities in government cybersecurity defenses.",
-        "affected": [],
-        "action": "Investigate the breach vector and strengthen security controls for national databases.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/08/19/cisa-adds-one-known-exploited-vulnerability-catalog",
       "source": "CISA Advisories",
@@ -4195,32 +4255,6 @@
         "affected": [],
         "action": "Review regional cybersecurity partnerships for potential security service integrations.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Scammers are using fake crypto AML checkers to drain your wallet",
-      "link": "https://www.malwarebytes.com/blog/threat-intel/2026/08/scammers-are-using-fake-crypto-aml-checkers-to-drain-your-wallet",
-      "source": "Malwarebytes Labs",
-      "publishedAt": "2026-08-19T10:55:06.000Z",
-      "summary": "We found wallet-checking sites impersonating real anti-money laundering services that trick people into approving access to scammers.",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Scammers are deploying fake cryptocurrency anti-money laundering websites to deceive users. These malicious platforms trick victims into granting unauthorized access to drain their digital wallets.",
-        "whyItMatters": "This scam directly threatens cryptocurrency holders by using deceptive compliance services to steal funds.",
-        "affected": [],
-        "action": "Verify anti-money laundering service URLs before connecting your wallet.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -5755,32 +5789,6 @@
         "whyItMatters": "This disconnect highlights growing anxiety among leadership regarding the security risks and complexities introduced by widespread AI adoption.",
         "affected": [],
         "action": "Evaluate organizational AI integration strategies for potential security gaps.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Help shape the future of resilient private 5G",
-      "link": "https://www.ncsc.gov.uk/blogs/help-shape-the-future-of-resilient-private-5g",
-      "source": "NCSC UK",
-      "publishedAt": "2026-08-12T12:00:00.000Z",
-      "summary": "The NCSC wants to collaborate with organisations developing technologies and approaches for secure, resilient and deployable private 5G",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The UK's NCSC is seeking collaboration with organizations to develop secure, resilient, and deployable private 5G technologies. This initiative aims to help shape the future of private 5G network security and resilience.",
-        "whyItMatters": "It proactively addresses security and resilience standards for emerging private 5G network technologies.",
-        "affected": [],
-        "action": "Participate in the NCSC private 5G collaboration initiative if developing relevant technologies.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
