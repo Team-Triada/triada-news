@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T23:37:59.340Z",
+  "updatedAt": "2026-08-21T01:57:01.176Z",
   "items": [
     {
       "title": "Calling on Cyber Pros to Help Defend City Hall",
@@ -23,6 +23,195 @@
         "affected": [],
         "action": "Consider volunteering cybersecurity expertise to local government agencies.",
         "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Even MOAR Powershell, looking at Entra logins - the good, the bad and the password sprays, (Fri, Aug 21st)",
+      "link": "https://isc.sans.edu/diary/rss/33268",
+      "source": "SANS ISC",
+      "publishedAt": "2026-08-21T01:49:18.000Z",
+      "summary": "One thing that folks never seem to do after \"going to the CLOOOOUUUUD\" is to look at their logs, logs that they would have checked daily when things were on premise.",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A cybersecurity article discusses the importance of monitoring Entra login logs in cloud environments, contrasting it with traditional on-premise log-checking habits. It highlights the security risks associated with neglecting these logs, including password spray attacks.",
+        "whyItMatters": "Failing to monitor cloud authentication logs leaves organizations blind to active credential attacks like password spraying.",
+        "affected": [],
+        "action": "Review and monitor your Entra login logs regularly.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Russian snoops add OAuth abuse to targeted phishing campaigns",
+      "link": "https://www.theregister.com/security/2026/08/21/russian-snoops-add-oauth-abuse-to-targeted-phishing-campaigns/5290706",
+      "source": "The Register",
+      "publishedAt": "2026-08-21T00:19:25.000Z",
+      "summary": "Don't click on that State Department meeting invite",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Russian state-sponsored actors are utilizing OAuth abuse in targeted phishing campaigns disguised as State Department meeting invites. These attacks aim to compromise victim accounts by exploiting legitimate authentication mechanisms.",
+        "whyItMatters": "OAuth abuse allows attackers to maintain persistent, stealthy access to cloud environments while bypassing traditional credential-based security controls.",
+        "affected": [],
+        "action": "Educate users to scrutinize unsolicited meeting invites and audit OAuth application permissions in your environment.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8666-1: Linux kernel vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8666-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-20T23:47:34.000Z",
+      "summary": "Siebe Devroe, Héloïse Gollier, and Mathy Vanhoef discovered that the WiFi\nimplementation in the Linux kernel did not properly handle aggregated\nframes in mesh networks, due to an incorrect fix for CVE-2020-24588. A\nphysi",
+      "categories": [
+        "Vulnerability",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [
+        "CVE-2020-24588"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Researchers discovered that the Linux kernel's WiFi implementation improperly handles aggregated frames in mesh networks due to an incorrect fix for a previous vulnerability. This flaw could potentially be exploited by attackers within physical range of the target.",
+        "whyItMatters": "It leaves Linux-based systems utilizing mesh networking vulnerable to potential network attacks due to flawed security patches.",
+        "affected": [
+          "Linux kernel"
+        ],
+        "action": "Update your Linux kernel to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2020-24588"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8665-1: Linux kernel (Raspberry Pi) vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8665-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-20T23:31:14.000Z",
+      "summary": "It was discovered that some AMD processors did not properly clear data in\nthe floating point divider unit during speculative execution. A local\nattacker could use this to expose sensitive information. (CVE-2025-54505)\n\nI",
+      "categories": [
+        "Vulnerability",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [
+        "CVE-2025-54505"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A vulnerability in the floating point divider unit of certain AMD processors during speculative execution allows local attackers to expose sensitive information. This issue affects the Linux kernel used in Raspberry Pi devices.",
+        "whyItMatters": "It allows local attackers to bypass security boundaries and extract sensitive data from the system.",
+        "affected": [
+          "Linux kernel (Raspberry Pi)"
+        ],
+        "action": "Update the Linux kernel to the latest patched version provided by your distributor.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2025-54505"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8664-1: Linux kernel (NVIDIA BaseOS) vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8664-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-20T23:22:25.000Z",
+      "summary": "It was discovered that some AMD Zen 2 processors did not properly isolate\nshared resources in the operation cache. A local attacker could possibly\nuse this issue to corrupt instructions executed at a higher privilege\nlev",
+      "categories": [
+        "Vulnerability",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Certain AMD Zen 2 processors failed to properly isolate shared resources within the operation cache. This vulnerability could allow a local attacker to potentially corrupt instructions executed at higher privilege levels.",
+        "whyItMatters": "It allows a local attacker to compromise system security by tampering with higher-privilege instructions through cache manipulation.",
+        "affected": [
+          "Linux kernel (NVIDIA BaseOS)",
+          "AMD Zen 2 processors"
+        ],
+        "action": "Apply the latest kernel security updates provided by your vendor.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8663-1: Linux kernel (NVIDIA) vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8663-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-20T23:18:42.000Z",
+      "summary": "It was discovered that some AMD Zen 2 processors did not properly isolate\nshared resources in the operation cache. A local attacker could possibly\nuse this issue to corrupt instructions executed at a higher privilege\nlev",
+      "categories": [
+        "Vulnerability",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Some AMD Zen 2 processors improperly isolated shared resources in the operation cache. A local attacker could potentially exploit this vulnerability to corrupt instructions executed at a higher privilege level.",
+        "whyItMatters": "This hardware vulnerability allows local attackers to compromise system integrity and potentially gain unauthorized control over privileged execution levels.",
+        "affected": [
+          "AMD Zen 2 processors"
+        ],
+        "action": "Apply the appropriate microcode updates or security patches provided by your vendor.",
+        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -163,106 +352,6 @@
         "relatedCves": [
           "CVE-2020-24588"
         ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8660-1: Linux kernel vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8660-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-20T22:18:41.000Z",
-      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - x86 architecture;\n  - InfiniBand dri",
-      "categories": [
-        "Vulnerability",
-        "Incident Response",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Multiple security vulnerabilities have been discovered in the Linux kernel that could allow an attacker to compromise the affected system. The update specifically addresses flaws found within the x86 architecture and InfiniBand subsystems.",
-        "whyItMatters": "Kernel-level vulnerabilities can grant attackers full control over compromised systems, making timely patching critical for maintaining overall infrastructure security.",
-        "affected": [
-          "Linux kernel"
-        ],
-        "action": "Update your Linux kernel to the latest version provided by your distributor.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8659-1: Linux kernel vulnerability",
-      "link": "https://ubuntu.com/security/notices/USN-8659-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-20T22:13:42.000Z",
-      "summary": "A security issue was discovered in the Linux kernel.\nAn attacker could possibly use this to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - Open vSwitch;",
-      "categories": [
-        "Vulnerability",
-        "Incident Response",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A security vulnerability has been discovered in the Linux kernel, specifically affecting the Open vSwitch subsystem. An attacker could potentially exploit this flaw to compromise the affected system.",
-        "whyItMatters": "Kernel-level vulnerabilities can allow attackers to fully compromise the operating system and gain unauthorized control over affected hosts.",
-        "affected": [
-          "Linux kernel Open vSwitch subsystem"
-        ],
-        "action": "Update the Linux kernel to the latest patched version.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8658-1: Linux kernel vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8658-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-20T22:05:40.000Z",
-      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - Open vSwitch;\n  - SCTP protocol;\n(CV",
-      "categories": [
-        "Vulnerability",
-        "Incident Response",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Multiple security vulnerabilities have been discovered in the Linux kernel that could allow an attacker to compromise a system. The update specifically addresses flaws found within the Open vSwitch and SCTP protocol subsystems.",
-        "whyItMatters": "Unpatched Linux kernel vulnerabilities can allow local or remote attackers to fully compromise the affected operating system.",
-        "affected": [
-          "Linux kernel Open vSwitch",
-          "Linux kernel SCTP protocol"
-        ],
-        "action": "Update the Linux kernel to the latest patched version.",
-        "risk": "High",
-        "relatedCves": [],
         "source": "ai"
       }
     },
@@ -536,39 +625,6 @@
           "FreeRTOS-Plus-TCP"
         ],
         "action": "Review the AWS bulletin and apply the necessary patches or updates to FreeRTOS-Plus-TCP.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8643-2: Linux kernel vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8643-2",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-20T21:32:40.000Z",
-      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - Network drivers;\n  - Open vSwitch;\n ",
-      "categories": [
-        "Vulnerability",
-        "Incident Response",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several security issues were discovered in the Linux kernel that could allow an attacker to compromise the system. This update specifically corrects flaws in the network drivers and Open vSwitch subsystems.",
-        "whyItMatters": "Unpatched vulnerabilities in the Linux kernel can lead to full system compromise by local or remote attackers depending on the specific flaw.",
-        "affected": [
-          "Linux kernel"
-        ],
-        "action": "Update the Linux kernel to the latest version.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -2905,32 +2961,6 @@
       }
     },
     {
-      "title": "CrowdStrike Named Strongest Overall Leader in 2026 Frost Radar&trade;: Cloud Workload Protection Platforms",
-      "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-strongest-overall-leader-2026-frost-radar-cwpp/",
-      "source": "CrowdStrike",
-      "publishedAt": "2026-08-20T05:00:00.000Z",
-      "summary": "CrowdStrike Named Strongest Overall Leader in 2026 Frost Radar&trade;: Cloud Workload Protection Platforms",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CrowdStrike has been recognized as the strongest overall leader in the 2026 Frost Radar evaluation for Cloud Workload Protection Platforms. This ranking highlights the company's strong performance and market position in cloud security solutions.",
-        "whyItMatters": "It highlights industry recognition for a major cybersecurity vendor's cloud workload protection capabilities.",
-        "affected": [],
-        "action": "Review the report for market intelligence purposes.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Pakistan's Transparent Tribe Refreshes Toolset for Afghan Cyberattacks",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/pakistan-transparent-tribe-afghan-cyberattacks",
       "source": "Dark Reading",
@@ -2983,6 +3013,34 @@
         "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
+      }
+    },
+    {
+      "title": "DSA-6455-1 chromium - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00366.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-08-20T00:00:00.000Z",
+      "summary": "Security issues were discovered in Chromium which could result\nin the execution of arbitrary code, denial of service, or information\ndisclosure.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6455-1",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple security issues have been discovered in the Chromium browser that could potentially lead to arbitrary code execution, denial of service, or information disclosure. Debian has released a security update to address these vulnerabilities.",
+        "whyItMatters": "Exploitation of these browser vulnerabilities could allow attackers to execute arbitrary code or compromise user data.",
+        "affected": [
+          "Chromium"
+        ],
+        "action": "Update Chromium to the latest version provided by Debian.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
       }
     },
     {
@@ -3291,32 +3349,6 @@
         ],
         "action": "Review security postures for Siemens S7 controllers and monitor for AI-driven anomalous activity.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "ICE boss to agents: Leave the Meta spy glasses at home",
-      "link": "https://www.theregister.com/security/2026/08/19/ice-boss-to-agents-leave-the-meta-spy-glasses-at-home/5289826",
-      "source": "The Register",
-      "publishedAt": "2026-08-19T18:16:46.000Z",
-      "summary": "'Personally owned body-worn cameras are prohibited,' ICE tells The Reg. Because the last thing DHS needs is more proof of misconduct",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Immigration and Customs Enforcement has prohibited its agents from using personally owned body-worn cameras, including Meta spy glasses. The agency aims to prevent unauthorized recordings and potential documentation of misconduct.",
-        "whyItMatters": "This internal directive highlights ongoing concerns regarding accountability and the unauthorized use of surveillance technology by law enforcement personnel.",
-        "affected": [],
-        "action": "Ensure agency personnel comply with the ban on personally owned body-worn cameras.",
-        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
@@ -4677,35 +4709,6 @@
       }
     },
     {
-      "title": "DSA-6447-1 librabbitmq - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00358.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-08-18T00:00:00.000Z",
-      "summary": "Two security vulnerabilities were discovered in librabbitmq, an AMQP\nclient library, which could result in denial of service or potentially\nthe execution of arbitrary code.\n\n\nhttps://security-tracker.debian.org/tracker/D",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Two security vulnerabilities have been discovered in librabbitmq, an AMQP client library. These flaws could potentially lead to a denial of service or the execution of arbitrary code.",
-        "whyItMatters": "Exploitation of these vulnerabilities could allow attackers to crash applications using the library or execute arbitrary code on the affected system.",
-        "affected": [
-          "librabbitmq"
-        ],
-        "action": "Update the librabbitmq package to the latest security release.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
       "link": "https://isc.sans.edu/diary/rss/33254",
       "source": "SANS ISC",
@@ -4735,37 +4738,6 @@
         ],
         "action": "Update your Apple devices immediately.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Apple Screen Sharing Security, (Mon, Aug 17th)",
-      "link": "https://isc.sans.edu/diary/rss/33252",
-      "source": "SANS ISC",
-      "publishedAt": "2026-08-17T14:33:58.000Z",
-      "summary": "About 20 years ago, with macOS 10.5 (Leopard), Apple introduced screen sharing. Apple did not invent a new protocol for screen sharing. Instead, it used the established VNC protocol. VNC is a pretty simple, unencrypted p",
-      "categories": [
-        "News"
-      ],
-      "tags": [
-        "macOS",
-        "Apple"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Apple's long-standing screen sharing feature, introduced in macOS 10.5 Leopard about 20 years ago, utilizes the established VNC protocol. VNC was chosen instead of a proprietary protocol, but it operates as a simple and unencrypted system.",
-        "whyItMatters": "Using an unencrypted protocol for screen sharing exposes remote sessions to potential interception and eavesdropping risks.",
-        "affected": [
-          "macOS 10.5 Leopard and later"
-        ],
-        "action": "Use encrypted tunneling or secure alternatives when utilizing Apple screen sharing.",
-        "risk": "Medium",
         "relatedCves": [],
         "source": "ai"
       }
@@ -5797,6 +5769,35 @@
         "relatedCves": [
           "CVE-2026-49975"
         ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Broken access control in the RADIUS type admin group",
+      "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-158",
+      "source": "Fortinet PSIRT",
+      "publishedAt": "2026-08-12T07:00:00.000Z",
+      "summary": "CVSSv3 Score:\n \n 8.8\n\n\n An Improper Authentication vulnerability  [CWE-287] in the FortiWeb Remote Radius Type Admin Authentication configured with specific, non-default settings may allow a remote unauthenticated attack",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "An improper authentication vulnerability exists in FortiWeb when Remote RADIUS Type Admin Authentication is configured with specific non-default settings. This broken access control flaw allows remote unauthenticated attackers to potentially compromise the system.",
+        "whyItMatters": "It allows remote unauthenticated attackers to exploit authentication controls and potentially gain unauthorized administrative access.",
+        "affected": [
+          "FortiWeb"
+        ],
+        "action": "Review FortiWeb RADIUS authentication configurations and apply vendor patches.",
+        "risk": "High",
+        "relatedCves": [],
         "source": "ai"
       }
     }
