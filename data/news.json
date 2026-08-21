@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T10:45:32.363Z",
+  "updatedAt": "2026-08-21T11:38:40.380Z",
   "items": [
     {
       "title": "Calling on Cyber Pros to Help Defend City Hall",
@@ -28,6 +28,65 @@
       }
     },
     {
+      "title": "Microsoft warns of max severity Entra ID flaw exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-08-21T11:04:10.000Z",
+      "summary": "Microsoft has patched a maximum-severity vulnerability in the Entra ID identity and access management (IAM) platform that has been exploited in attacks. [...]",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft has patched a maximum-severity vulnerability in the Entra ID identity and access management platform. The security flaw has already been actively exploited in real-world attacks.",
+        "whyItMatters": "This vulnerability compromises a core IAM platform, allowing attackers potential unauthorized access to critical identity and access controls.",
+        "affected": [
+          "Microsoft Entra ID"
+        ],
+        "action": "Apply the security patches provided by Microsoft immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Hackers abuse FTP server banners to deliver new Windows malware",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-ftp-server-banners-to-deliver-new-windows-malware/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-08-21T11:00:00.000Z",
+      "summary": "Threat actors are abusing FTP banners to hide commands that deliver two previously undocumented remote access trojans named E4del and PINHOLE. [...]",
+      "categories": [
+        "Malware"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Threat actors are abusing FTP server banners to conceal malicious commands that deliver two undocumented Windows remote access trojans named E4del and PINHOLE. This novel delivery mechanism bypasses traditional security controls by hiding payloads within standard protocol greeting banners.",
+        "whyItMatters": "It demonstrates an innovative evasion technique that exploits legitimate network protocols to secretly deliver advanced malware to Windows systems.",
+        "affected": [
+          "Windows systems"
+        ],
+        "action": "Monitor FTP traffic for anomalous banners and update endpoint detection rules to identify E4del and PINHOLE trojans.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "SickKids data breach exposes employee and job applicant info",
       "link": "https://www.bleepingcomputer.com/news/security/sickkids-data-breach-exposes-employee-and-job-applicant-info/",
       "source": "BleepingComputer",
@@ -50,6 +109,38 @@
         "affected": [],
         "action": "Verify third-party software security controls and monitor for unauthorized data exposure.",
         "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Cisco Patches Nine Crosswork and Secure Workload Flaws, Five Scoring CVSS 10.0",
+      "link": "https://thehackernews.com/2026/08/cisco-patches-nine-crosswork-and-secure.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-21T10:03:11.000Z",
+      "summary": "Cisco has published another round of security updates for Crosswork platforms and Secure Workload Software as part of a continued comprehensive internal security review.\n\nFour of the security vulnerabilities affect Cross",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Cisco"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Cisco has released security updates addressing nine vulnerabilities affecting Crosswork platforms and Secure Workload Software. Five of these newly patched flaws carry the maximum CVSS score of 10.0.",
+        "whyItMatters": "Unpatched maximum-severity flaws in critical enterprise platforms allow attackers to easily achieve complete system compromise.",
+        "affected": [
+          "Crosswork platforms",
+          "Secure Workload Software"
+        ],
+        "action": "Apply the latest security patches provided by Cisco immediately.",
+        "risk": "Critical",
         "relatedCves": [],
         "source": "ai"
       }
@@ -2147,37 +2238,6 @@
       }
     },
     {
-      "title": "Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE",
-      "link": "https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-20T13:48:24.000Z",
-      "summary": "Cybersecurity researchers have disclosed a critical security flaw in isolated-vm, a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to escape the confines of the",
-      "categories": [
-        "Vulnerability",
-        "Open Source"
-      ],
-      "tags": [
-        "GitHub"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Researchers discovered a critical security flaw in the isolated-vm open-source JavaScript sandbox library. The vulnerability allows attackers to break out of the sandbox environment and potentially achieve remote code execution on the host machine.",
-        "whyItMatters": "This flaw compromises the core security boundary of isolated-vm, exposing host systems to arbitrary code execution if untrusted JavaScript is processed.",
-        "affected": [
-          "isolated-vm"
-        ],
-        "action": "Update isolated-vm to the latest patched version immediately.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "The push to designate AI as the next critical infrastructure sector",
       "link": "https://cyberscoop.com/ai-critical-infrastructure-designation-cisa-report/",
       "source": "CyberScoop",
@@ -2853,34 +2913,6 @@
       }
     },
     {
-      "title": "New Manic Android malware can exfiltrate data through nearby devices",
-      "link": "https://www.bleepingcomputer.com/news/security/new-manic-android-malware-can-exfiltrate-data-through-nearby-devices/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-08-20T10:02:02.000Z",
-      "summary": "A new Android malware named Manic targeting users in multiple European countries has a fallback data exfiltration mechanism that uses nearby infected devices. [...]",
-      "categories": [
-        "Malware"
-      ],
-      "tags": [
-        "Android"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A new Android malware named Manic is targeting users across multiple European countries to steal sensitive data. It features a unique fallback exfiltration mechanism that routes stolen data through nearby infected devices.",
-        "whyItMatters": "This localized relay technique allows attackers to exfiltrate data even when direct internet connectivity is blocked or unavailable.",
-        "affected": [],
-        "action": "Ensure your Android device is updated and avoid downloading apps from untrusted sources.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "UAT-10147 deploys SPECTRE: A cross-platform implant with Linux rootkit and BYOVD capabilities",
       "link": "https://blog.talosintelligence.com/uat-10147-deploys-spectre-a-cross-platform-implant-with-linux-rootkit-and-byovd-capabilities/",
       "source": "Talos Intelligence",
@@ -3017,34 +3049,6 @@
         "affected": [],
         "action": "Review local surveillance policies for transparency.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Critical Zimbra RCE flaw now actively exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/critical-zimbra-rce-flaw-now-actively-exploited-in-attacks/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-08-20T09:46:54.000Z",
-      "summary": "CERT Polska, the Polish Computer Emergency Response Team (CERT), warned that attackers have begun exploiting a critical vulnerability in Zimbra Collaboration Suite (ZCS). [...]",
-      "categories": [
-        "Vulnerability"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CERT Polska has issued a warning that a critical remote code execution vulnerability in the Zimbra Collaboration Suite is currently being exploited in active attacks. Organizations using the affected software are urged to apply available security patches immediately to prevent potential compromise.",
-        "whyItMatters": "Active exploitation of a critical remote code execution flaw poses an immediate threat to the confidentiality and integrity of vulnerable enterprise email servers.",
-        "affected": [
-          "Zimbra Collaboration Suite"
-        ],
-        "action": "Apply the latest security updates for Zimbra Collaboration Suite immediately.",
-        "risk": "Critical",
         "relatedCves": [],
         "source": "ai"
       }
