@@ -1,6 +1,75 @@
 {
-  "updatedAt": "2026-08-21T21:36:41.773Z",
+  "updatedAt": "2026-08-21T22:39:14.420Z",
   "items": [
+    {
+      "title": "USN-8658-2: Linux kernel (IBM) vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8658-2",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-21T22:02:41.000Z",
+      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - Open vSwitch;\n  - SCTP protocol;\n(CV",
+      "categories": [
+        "Vulnerability",
+        "Incident Response",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple security vulnerabilities have been discovered in the Linux kernel for IBM systems affecting the Open vSwitch and SCTP protocol subsystems. An unauthenticated attacker could potentially exploit these flaws to compromise the affected system.",
+        "whyItMatters": "Unpatched kernel vulnerabilities can allow local or remote attackers to compromise system security, leading to potential system takeover or denial of service.",
+        "affected": [
+          "Linux kernel (IBM)"
+        ],
+        "action": "Update the Linux kernel to the latest version provided by the vendor.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8661-2: Linux kernel (Low Latency) vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8661-2",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-21T21:58:55.000Z",
+      "summary": "Siebe Devroe, Héloïse Gollier, and Mathy Vanhoef discovered that the WiFi\nimplementation in the Linux kernel did not properly handle aggregated\nframes in mesh networks, due to an incorrect fix for CVE-2020-24588. A\nphysi",
+      "categories": [
+        "Vulnerability",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [
+        "CVE-2020-24588"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Researchers discovered that the Linux kernel's WiFi implementation improperly handles aggregated frames in mesh networks due to an incorrect fix for a previous vulnerability. This flaw exposes systems running specific low latency Linux kernel versions to potential security risks.",
+        "whyItMatters": "It leaves mesh network implementations vulnerable to attacks that exploit improper frame aggregation handling.",
+        "affected": [
+          "Linux kernel Low Latency"
+        ],
+        "action": "Update the Linux kernel to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2020-24588"
+        ],
+        "source": "ai"
+      }
+    },
     {
       "title": "Friday Squid Blogging: Neon Flying Squid",
       "link": "https://www.schneier.com/blog/archives/2026/08/friday-squid-blogging-neon-flying-squid.html",
@@ -2178,78 +2247,6 @@
         "action": "Apply the latest security updates provided by Debian.",
         "risk": "Critical",
         "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8666-1: Linux kernel vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8666-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-20T23:47:34.000Z",
-      "summary": "Siebe Devroe, Héloïse Gollier, and Mathy Vanhoef discovered that the WiFi\nimplementation in the Linux kernel did not properly handle aggregated\nframes in mesh networks, due to an incorrect fix for CVE-2020-24588. A\nphysi",
-      "categories": [
-        "Vulnerability",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [
-        "CVE-2020-24588"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Researchers discovered that the Linux kernel's WiFi implementation improperly handles aggregated frames in mesh networks due to an incorrect fix for a previous vulnerability. This flaw could potentially be exploited by attackers within physical range of the target.",
-        "whyItMatters": "It leaves Linux-based systems utilizing mesh networking vulnerable to potential network attacks due to flawed security patches.",
-        "affected": [
-          "Linux kernel"
-        ],
-        "action": "Update your Linux kernel to the latest patched version.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2020-24588"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8665-1: Linux kernel (Raspberry Pi) vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8665-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-20T23:31:14.000Z",
-      "summary": "It was discovered that some AMD processors did not properly clear data in\nthe floating point divider unit during speculative execution. A local\nattacker could use this to expose sensitive information. (CVE-2025-54505)\n\nI",
-      "categories": [
-        "Vulnerability",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [
-        "CVE-2025-54505"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A vulnerability in the floating point divider unit of certain AMD processors during speculative execution allows local attackers to expose sensitive information. This issue affects the Linux kernel used in Raspberry Pi devices.",
-        "whyItMatters": "It allows local attackers to bypass security boundaries and extract sensitive data from the system.",
-        "affected": [
-          "Linux kernel (Raspberry Pi)"
-        ],
-        "action": "Update the Linux kernel to the latest patched version provided by your distributor.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2025-54505"
-        ],
         "source": "ai"
       }
     },
