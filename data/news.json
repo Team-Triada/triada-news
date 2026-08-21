@@ -1,6 +1,165 @@
 {
-  "updatedAt": "2026-08-21T19:36:23.286Z",
+  "updatedAt": "2026-08-21T20:39:12.449Z",
   "items": [
+    {
+      "title": "USN-8669-1: Linux kernel (NVIDIA) vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8669-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-21T19:59:28.000Z",
+      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - Foo-over-UDP (FOU);\n  - ARM64 archit",
+      "categories": [
+        "Vulnerability",
+        "Incident Response",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Several security issues were discovered in the NVIDIA Linux kernel affecting subsystems like Foo-over-UDP and ARM64 architecture. An attacker could potentially exploit these flaws to compromise the affected system.",
+        "whyItMatters": "Unpatched kernel vulnerabilities can allow attackers to fully compromise affected systems.",
+        "affected": [
+          "Linux kernel (NVIDIA)"
+        ],
+        "action": "Update the Linux kernel to the latest version.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Lawmakers call for investigation into impact of CISA staffing cuts",
+      "link": "https://therecord.media/lawmakers-call-for-investigation-into-impact-of-cisa-cuts",
+      "source": "The Record",
+      "publishedAt": "2026-08-21T19:56:00.000Z",
+      "summary": "Lawmakers say little is known about how recent cuts have impacted CISA and how the knowledge that was lost has been replaced.",
+      "categories": [
+        "Government"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Lawmakers are demanding an official investigation into the impacts of recent staffing cuts at CISA. They are concerned about how the agency has been affected and whether the lost institutional knowledge has been adequately replaced.",
+        "whyItMatters": "Staffing reductions at a critical cybersecurity agency could weaken national defense and incident response capabilities.",
+        "affected": [],
+        "action": "Monitor updates regarding the proposed CISA investigation.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8643-3: Linux kernel (NVIDIA) vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8643-3",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-21T19:54:33.000Z",
+      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - Network drivers;\n  - Open vSwitch;\n ",
+      "categories": [
+        "Vulnerability",
+        "Incident Response",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Canonical has released USN-8643-3 addressing security vulnerabilities in the NVIDIA Linux kernel packages. The update specifically corrects flaws located within the network drivers and Open vSwitch subsystems.",
+        "whyItMatters": "Unpatched kernel vulnerabilities can allow local attackers or network vectors to compromise the entire system.",
+        "affected": [
+          "Linux kernel (NVIDIA)"
+        ],
+        "action": "Update your Linux kernel packages to the latest version.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8659-2: Linux kernel (HWE) vulnerability",
+      "link": "https://ubuntu.com/security/notices/USN-8659-2",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-21T19:49:55.000Z",
+      "summary": "A security issue was discovered in the Linux kernel.\nAn attacker could possibly use this to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - Open vSwitch;",
+      "categories": [
+        "Vulnerability",
+        "Incident Response",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A security vulnerability has been discovered in the Linux kernel (HWE) affecting the Open vSwitch subsystem. This flaw could potentially allow an attacker to compromise the affected system.",
+        "whyItMatters": "Unpatched kernel vulnerabilities can allow local or remote attackers to compromise system security and integrity depending on the specific attack vector.",
+        "affected": [
+          "Linux kernel (HWE)"
+        ],
+        "action": "Update the Linux kernel to the latest version provided by the distribution.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8668-1: Linux kernel (GCP) vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8668-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-21T19:45:48.000Z",
+      "summary": "Maxim Suhanov discovered that the NTFS file system implementation in the\nLinux kernel did not properly validate file name length in certain\nsituations, leading to an out-of-bounds read. An attacker could use this to\ncons",
+      "categories": [
+        "Vulnerability",
+        "Cloud",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux",
+        "GCP"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Maxim Suhanov discovered that the NTFS file system implementation in the Linux kernel fails to properly validate file name lengths in certain situations. This flaw results in an out-of-bounds read vulnerability that could be exploited by an attacker.",
+        "whyItMatters": "Unvalidated file name lengths in the kernel's NTFS implementation can lead to out-of-bounds reads, potentially compromising system stability or leaking sensitive memory data.",
+        "affected": [
+          "Linux kernel (GCP)"
+        ],
+        "action": "Update the Linux kernel to the latest patched version provided by your vendor.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "USN-8667-1: Linux kernel (KVM) vulnerabilities",
       "link": "https://ubuntu.com/security/notices/USN-8667-1",
@@ -91,6 +250,38 @@
         "whyItMatters": "This incident highlights the escalating risk and successful targeting of cloud platforms within the financial sector by malicious actors.",
         "affected": [],
         "action": "Review cloud security controls and monitor for unauthorized access.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2",
+      "link": "https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-21T18:53:00.000Z",
+      "summary": "Cybersecurity researchers have discovered a set of trojanized npm packages that masquerade as working calendar and streak utilities but are engineered to stealthily deliver an artificial intelligence (AI)-powered Linux i",
+      "categories": [
+        "Malware",
+        "AI Security",
+        "Open Source"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Cybersecurity researchers have discovered 14 trojanized npm packages disguised as calendar and streak utilities. These malicious packages are engineered to stealthily deliver an AI-powered Linux backdoor known as RedC2 4.0.",
+        "whyItMatters": "This campaign demonstrates how threat actors are leveraging AI-assisted command and control mechanisms within malicious supply chain packages targeting Linux environments.",
+        "affected": [
+          "npm packages (calendar and streak utilities)"
+        ],
+        "action": "Audit your npm dependencies and remove any unrecognized calendar or streak packages.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -1936,6 +2127,35 @@
       }
     },
     {
+      "title": "DSA-6456-1 spip - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00367.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-08-21T00:00:00.000Z",
+      "summary": "A vulnerability was discovered in SPIP, a website engine for publishing,\nwhich could result in unauthenticated remote code execution.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6456-1",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A security vulnerability has been discovered in the SPIP website publishing engine. This flaw could potentially allow unauthenticated attackers to achieve remote code execution.",
+        "whyItMatters": "Unauthenticated remote code execution is a severe vulnerability that allows attackers to completely compromise affected servers without needing credentials.",
+        "affected": [
+          "SPIP"
+        ],
+        "action": "Apply the latest security updates provided by Debian.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "USN-8666-1: Linux kernel vulnerabilities",
       "link": "https://ubuntu.com/security/notices/USN-8666-1",
       "source": "Canonical Ubuntu Security",
@@ -2004,139 +2224,6 @@
         "relatedCves": [
           "CVE-2025-54505"
         ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8664-1: Linux kernel (NVIDIA BaseOS) vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8664-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-20T23:22:25.000Z",
-      "summary": "It was discovered that some AMD Zen 2 processors did not properly isolate\nshared resources in the operation cache. A local attacker could possibly\nuse this issue to corrupt instructions executed at a higher privilege\nlev",
-      "categories": [
-        "Vulnerability",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Certain AMD Zen 2 processors failed to properly isolate shared resources within the operation cache. This vulnerability could allow a local attacker to potentially corrupt instructions executed at higher privilege levels.",
-        "whyItMatters": "It allows a local attacker to compromise system security by tampering with higher-privilege instructions through cache manipulation.",
-        "affected": [
-          "Linux kernel (NVIDIA BaseOS)",
-          "AMD Zen 2 processors"
-        ],
-        "action": "Apply the latest kernel security updates provided by your vendor.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8663-1: Linux kernel (NVIDIA) vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8663-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-20T23:18:42.000Z",
-      "summary": "It was discovered that some AMD Zen 2 processors did not properly isolate\nshared resources in the operation cache. A local attacker could possibly\nuse this issue to corrupt instructions executed at a higher privilege\nlev",
-      "categories": [
-        "Vulnerability",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Some AMD Zen 2 processors improperly isolated shared resources in the operation cache. A local attacker could potentially exploit this vulnerability to corrupt instructions executed at a higher privilege level.",
-        "whyItMatters": "This hardware vulnerability allows local attackers to compromise system integrity and potentially gain unauthorized control over privileged execution levels.",
-        "affected": [
-          "AMD Zen 2 processors"
-        ],
-        "action": "Apply the appropriate microcode updates or security patches provided by your vendor.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8630-4: Linux kernel (AWS) vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8630-4",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-20T23:05:13.000Z",
-      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - x86 architecture;\n  - InfiniBand dri",
-      "categories": [
-        "Vulnerability",
-        "Incident Response",
-        "Cloud",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux",
-        "AWS"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several security vulnerabilities have been discovered in the AWS Linux kernel affecting x86 architecture and InfiniBand subsystems. An attacker could potentially exploit these flaws to compromise the affected system.",
-        "whyItMatters": "Unpatched kernel vulnerabilities can allow attackers to fully compromise affected cloud systems and gain unauthorized access.",
-        "affected": [
-          "Linux kernel (AWS)"
-        ],
-        "action": "Update the Linux kernel to the latest version provided by the vendor.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8662-1: Linux kernel vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8662-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-20T23:02:10.000Z",
-      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - x86 architecture;\n  - Cryptographic ",
-      "categories": [
-        "Vulnerability",
-        "Incident Response",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several security issues were discovered in the Linux kernel that could allow an attacker to compromise the system. This update corrects flaws specifically located within the x86 architecture and cryptographic subsystems.",
-        "whyItMatters": "Unpatched kernel vulnerabilities can allow attackers to fully compromise the affected operating system.",
-        "affected": [
-          "Linux kernel"
-        ],
-        "action": "Update the Linux kernel to the latest version.",
-        "risk": "High",
-        "relatedCves": [],
         "source": "ai"
       }
     },
@@ -2469,32 +2556,6 @@
       }
     },
     {
-      "title": "Suspected Russian Hackers Abuse Google OAuth and WhatsApp Linking to Hijack Accounts",
-      "link": "https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-20T19:59:19.000Z",
-      "summary": "Three distinct suspected Russian cyber espionage threat clusters have been observed leveraging legitimate authentication flows to single out individuals working in academia, aerospace and defense, governments, and think ",
-      "categories": [
-        "Threat Intel"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Three suspected Russian cyber espionage threat clusters are abusing legitimate authentication flows like Google OAuth and WhatsApp linking to hijack accounts. These campaigns specifically target individuals working in academia, aerospace and defense, governments, and think tanks.",
-        "whyItMatters": "This technique allows attackers to bypass traditional credential-based security controls by hijacking trusted session and authentication mechanisms.",
-        "affected": [],
-        "action": "Monitor and audit active OAuth grants and linked devices for unauthorized access.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "China’s ‘SilkParasite’ espionage operation targeting Central Asia with AI-assisted malware",
       "link": "https://therecord.media/china-cyber-espionage-central-asia",
       "source": "The Record",
@@ -2650,34 +2711,6 @@
         ],
         "action": "Review password manager configurations and assess cloud-based credential storage risks.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Senators press TikTok over withholding of safety features for some users",
-      "link": "https://therecord.media/senators-press-tiktok-over-withholding-safety-features",
-      "source": "The Record",
-      "publishedAt": "2026-08-20T17:33:00.000Z",
-      "summary": "In a letter on Wednesday, Sens. Marsha Blackburn (R-TN) and Richard Blumenthal (D-CT) criticized the company for having “knowingly withheld a critical safety measure for millions of American users.\"",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "U.S. Senators Marsha Blackburn and Richard Blumenthal sent a letter criticizing TikTok for allegedly withholding critical safety features from millions of American users. The lawmakers pressed the company to explain why these protective measures were not deployed universally.",
-        "whyItMatters": "This scrutiny highlights ongoing legislative concerns regarding user safety practices and transparency by major social media platforms.",
-        "affected": [
-          "TikTok"
-        ],
-        "action": "Monitor regulatory developments regarding platform safety requirements.",
-        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
@@ -4898,35 +4931,6 @@
         ],
         "action": "Apply the latest security updates provided by your distribution.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6448-1 spip - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00359.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-08-18T00:00:00.000Z",
-      "summary": "A vulnerability was discovered in SPIP, a website engine for publishing,\nwhich could result in unauthenticated remote code execution.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6448-1",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A security vulnerability has been discovered in the SPIP content management system. This flaw allows unauthenticated attackers to achieve remote code execution on affected systems.",
-        "whyItMatters": "This vulnerability is critical because it allows remote attackers to execute arbitrary code without authentication, potentially leading to a complete system compromise.",
-        "affected": [
-          "SPIP"
-        ],
-        "action": "Update SPIP to the latest patched version provided by your vendor.",
-        "risk": "Critical",
         "relatedCves": [],
         "source": "ai"
       }
