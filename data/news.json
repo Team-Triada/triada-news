@@ -1,6 +1,34 @@
 {
-  "updatedAt": "2026-08-21T23:36:20.736Z",
+  "updatedAt": "2026-08-22T01:48:36.175Z",
   "items": [
+    {
+      "title": "AWS Security makes an inscrutable choice",
+      "link": "https://www.theregister.com/security/2026/08/22/aws-security-makes-an-inscrutable-choice-corey-quinn/5291446",
+      "source": "The Register",
+      "publishedAt": "2026-08-21T23:42:41.000Z",
+      "summary": "Quarantining leaked credentials is not good enough",
+      "categories": [
+        "Cloud"
+      ],
+      "tags": [
+        "AWS"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "An opinion piece argues that AWS Security's current practice of quarantining leaked credentials is insufficient for proper risk management. The author suggests that AWS needs to implement stronger measures to address credential exposure effectively.",
+        "whyItMatters": "Inadequate handling of leaked credentials by major cloud providers leaves organizations vulnerable to unauthorized access and subsequent data breaches.",
+        "affected": [],
+        "action": "Review your AWS account monitoring and credential management practices.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Connecting the Dots: Securing the Overlooked Corners of the Software Development Lifecycle (SDLC) Supply Chain",
       "link": "https://unit42.paloaltonetworks.com/sdlc-supply-chain/",
@@ -2248,6 +2276,64 @@
       }
     },
     {
+      "title": "DSA-6458-1 gst-plugins-bad1.0 - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00369.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-08-21T00:00:00.000Z",
+      "summary": "Multiple security vulnerabilities were discovered in plugins for\nthe GStreamer media framework and its codecs and demuxers, which\nmay result in denial of service or potentially the execution of\narbitrary code if a malfor",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple security vulnerabilities were discovered in plugins for the GStreamer media framework, codecs, and demuxers. These flaws may result in a denial of service or potentially the execution of arbitrary code.",
+        "whyItMatters": "Unpatched media framework vulnerabilities can lead to system compromise or service disruption when processing untrusted media files.",
+        "affected": [
+          "gst-plugins-bad1.0"
+        ],
+        "action": "Update the gst-plugins-bad1.0 package to the latest security release.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6457-1 openjdk-21 - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00368.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-08-21T00:00:00.000Z",
+      "summary": "Several vulnerabilities have been discovered in the OpenJDK Java\nruntime, which may result in denial of service or information disclosure.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6457-1",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Debian has issued a security update (DSA-6457-1) for the OpenJDK 21 package to address multiple vulnerabilities. These flaws could potentially lead to denial of service or unauthorized information disclosure.",
+        "whyItMatters": "Unpatched Java runtimes can expose systems to service disruptions and data leaks.",
+        "affected": [
+          "openjdk-21"
+        ],
+        "action": "Update openjdk-21 to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "DSA-6456-1 spip - security update",
       "link": "https://lists.debian.org/debian-security-announce/2026/msg00367.html",
       "source": "Debian Security",
@@ -3088,34 +3174,6 @@
         "whyItMatters": "It demonstrates how legitimate, signed security software can be subverted by threat actors to achieve powerful kernel-level access.",
         "affected": [],
         "action": "Monitor for misuse of signed remediation drivers and apply relevant vendor mitigations.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Grok chat duped into swallowing injected instructions",
-      "link": "https://www.theregister.com/ai-and-ml/2026/08/20/grok-chat-duped-into-swallowing-injected-instructions/5290019",
-      "source": "The Register",
-      "publishedAt": "2026-08-20T13:00:00.000Z",
-      "summary": "A spoonful of encryption helps the malware go down",
-      "categories": [
-        "Malware"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "An analysis of the Grok chat system reveals it was successfully manipulated through injected instructions. This prompt injection vulnerability highlights ongoing security challenges in securing large language model interactions.",
-        "whyItMatters": "Prompt injection attacks can trick AI systems into generating malicious content or behaving in unintended ways, posing significant security risks.",
-        "affected": [
-          "Grok chat"
-        ],
-        "action": "Implement robust input sanitization and prompt validation mechanisms.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -4922,64 +4980,6 @@
         "affected": [],
         "action": "Monitor future research on LLM contextual integrity.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6450-1 srt - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00361.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-08-18T00:00:00.000Z",
-      "summary": "Two security vulnerabilities were discovered in SRT, a latency-aware UDP\nstreaming library, which could result in denial of service or encryption\nbypass.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6450-1",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Two security vulnerabilities have been discovered in the SRT latency-aware UDP streaming library. These flaws could potentially lead to a denial of service condition or an encryption bypass.",
-        "whyItMatters": "This vulnerability exposes systems using the affected SRT library to denial of service attacks and unauthorized decryption of streaming data.",
-        "affected": [
-          "SRT"
-        ],
-        "action": "Apply the security update provided by your vendor.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6449-1 swift - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00360.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-08-18T00:00:00.000Z",
-      "summary": "Multiple security vulnerabilities were discovered in Swift, a\ndistributed virtual object store, which could result in information\ndisclosure via SSRF or authorisation bypass in the s3api middleware.\n\n\nhttps://security-tr",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Multiple security vulnerabilities have been discovered in Swift, a distributed virtual object store. These flaws could potentially lead to information disclosure through Server-Side Request Forgery (SSRF) or unauthorized access via the s3api middleware.",
-        "whyItMatters": "These vulnerabilities could allow attackers to bypass authorization controls or exploit server-side request forgery to access sensitive data within the object store.",
-        "affected": [
-          "Swift"
-        ],
-        "action": "Apply the latest security updates provided by your distribution.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
