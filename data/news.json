@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-08-22T12:58:39.016Z",
+  "updatedAt": "2026-08-22T13:43:14.618Z",
   "items": [
+    {
+      "title": "Named Pipes Under Attack: Securing Windows Interprocess Communication",
+      "link": "https://www.bleepingcomputer.com/news/security/named-pipes-under-attack-securing-windows-interprocess-communication/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-08-22T13:00:09.000Z",
+      "summary": "Windows named pipes provide fast interprocess communication, but weak access controls can expose privileged services to untrusted processes. ThreatLocker explains how endpoint verification, command authorization, strict ",
+      "categories": [
+        "News"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Windows named pipes facilitate fast interprocess communication, but weak access controls can expose privileged services to untrusted processes. ThreatLocker highlights the importance of endpoint verification, command authorization, and strict security configurations to protect these channels.",
+        "whyItMatters": "Insecure named pipe configurations can allow untrusted processes to compromise privileged Windows services.",
+        "affected": [
+          "Windows Named Pipes"
+        ],
+        "action": "Implement strict access controls and endpoint verification for Windows named pipes.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Banking Trojans Manic, Grandoreiro, ToxicPanda 2.0 in the Spotlight",
       "link": "https://www.securityweek.com/banking-trojans-manic-grandoreiro-toxicpanda-2-0-in-the-spotlight/",
@@ -1727,36 +1757,6 @@
         ],
         "action": "Apply the security patches provided by Microsoft immediately.",
         "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Hackers abuse FTP server banners to deliver new Windows malware",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-ftp-server-banners-to-deliver-new-windows-malware/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-08-21T11:00:00.000Z",
-      "summary": "Threat actors are abusing FTP banners to hide commands that deliver two previously undocumented remote access trojans named E4del and PINHOLE. [...]",
-      "categories": [
-        "Malware"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Threat actors are abusing FTP server banners to conceal malicious commands that deliver two undocumented Windows remote access trojans named E4del and PINHOLE. This novel delivery mechanism bypasses traditional security controls by hiding payloads within standard protocol greeting banners.",
-        "whyItMatters": "It demonstrates an innovative evasion technique that exploits legitimate network protocols to secretly deliver advanced malware to Windows systems.",
-        "affected": [
-          "Windows systems"
-        ],
-        "action": "Monitor FTP traffic for anomalous banners and update endpoint detection rules to identify E4del and PINHOLE trojans.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
