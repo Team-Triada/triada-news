@@ -1,6 +1,37 @@
 {
-  "updatedAt": "2026-08-22T13:43:14.618Z",
+  "updatedAt": "2026-08-22T14:36:16.491Z",
   "items": [
+    {
+      "title": "Hackers infect Android car head units with proxy botnet malware",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-08-22T14:14:24.000Z",
+      "summary": "A supply-chain attack targeting Android-based car head units is using a legitimate device-update app to spread malware that enlists compromised devices in a proxy botnet or uses them for ad fraud. [...]",
+      "categories": [
+        "Malware",
+        "Incident Response"
+      ],
+      "tags": [
+        "Android"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A supply-chain attack has compromised Android-based car head units by using a legitimate device-update app to spread malware. This malware enlists the infected vehicles into a proxy botnet or uses them to perpetrate ad fraud.",
+        "whyItMatters": "It exposes vehicle infotainment systems as a new vector for large-scale botnet operations and ad fraud.",
+        "affected": [
+          "Android car head units"
+        ],
+        "action": "Avoid installing unauthorized updates on car head units and monitor network traffic for anomalous proxy activity.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Named Pipes Under Attack: Securing Windows Interprocess Communication",
       "link": "https://www.bleepingcomputer.com/news/security/named-pipes-under-attack-securing-windows-interprocess-communication/",
@@ -1728,35 +1759,6 @@
         "affected": [],
         "action": "Read the full article to understand AI integration in SOC workflows.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Microsoft warns of max severity Entra ID flaw exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-08-21T11:04:10.000Z",
-      "summary": "Microsoft has patched a maximum-severity vulnerability in the Entra ID identity and access management (IAM) platform that has been exploited in attacks. [...]",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has patched a maximum-severity vulnerability in the Entra ID identity and access management platform. The security flaw has already been actively exploited in real-world attacks.",
-        "whyItMatters": "This vulnerability compromises a core IAM platform, allowing attackers potential unauthorized access to critical identity and access controls.",
-        "affected": [
-          "Microsoft Entra ID"
-        ],
-        "action": "Apply the security patches provided by Microsoft immediately.",
-        "risk": "Critical",
         "relatedCves": [],
         "source": "ai"
       }
