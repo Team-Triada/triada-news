@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T19:32:20.412Z",
+  "updatedAt": "2026-08-23T20:38:09.756Z",
   "items": [
     {
       "title": "ToxicPanda Android malware uses VPN permissions to block Google Play",
@@ -59,6 +59,63 @@
           "Azure tenants"
         ],
         "action": "Review system security configurations and monitor for unauthorized access.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6461-1 thunderbird - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00372.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-08-23T00:00:00.000Z",
+      "summary": "Multiple security issues were discovered in Thunderbird, which could\nresult in the execution of arbitrary code or information disclosure\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6461-1",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Debian has issued a security update, designated as DSA-6461-1, for the Thunderbird email client to address multiple vulnerabilities. These security flaws could potentially allow attackers to execute arbitrary code or cause information disclosure on affected systems.",
+        "whyItMatters": "Exploitation of these vulnerabilities could compromise the confidentiality and integrity of user systems through arbitrary code execution or data exposure.",
+        "affected": [
+          "Thunderbird"
+        ],
+        "action": "Update Thunderbird to the latest patched version provided by Debian.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6460-1 openjdk-25 - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00371.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-08-23T00:00:00.000Z",
+      "summary": "Several vulnerabilities have been discovered in the OpenJDK Java runtime,\nwhich may result in denial of service or information disclosure.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6460-1",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Debian has issued a security update for OpenJDK-25 to address multiple vulnerabilities. These flaws could potentially lead to a denial of service or unauthorized information disclosure.",
+        "whyItMatters": "Unpatched Java runtime environments can be exploited to compromise system availability and sensitive data.",
+        "affected": [
+          "OpenJDK-25"
+        ],
+        "action": "Update OpenJDK-25 packages to the latest fixed version.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -225,6 +282,35 @@
         "whyItMatters": "These active banking trojan campaigns pose a severe financial and privacy threat to individuals and financial institutions across multiple regions.",
         "affected": [],
         "action": "Monitor endpoints for suspicious banking trojan activity and update security policies.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6459-1 libnet-dns-perl - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00370.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-08-22T00:00:00.000Z",
+      "summary": "Two vulnerabilities were discovered in libnet-dns-perl, a Perl module to\nperform DNS queries, which could result in denial of service or remote\ncode execution.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6459-1",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Two vulnerabilities have been discovered in libnet-dns-perl, a Perl module used for performing DNS queries. These security flaws could potentially result in a denial of service or remote code execution.",
+        "whyItMatters": "Exploitation of these vulnerabilities could allow attackers to crash applications or execute arbitrary code on systems processing DNS queries with the affected module.",
+        "affected": [
+          "libnet-dns-perl"
+        ],
+        "action": "Update libnet-dns-perl to the latest security release.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -3831,34 +3917,6 @@
       }
     },
     {
-      "title": "DSA-6453-1 libgit2 - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00364.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-08-20T00:00:00.000Z",
-      "summary": "Multiple security issues were discovered in libgit2, a low-level Git\nlibrary, which could result in the execution of arbitrary commands on a\nremote SSH server, disclosure of credentials, denial of service or the\ncreation",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Multiple security vulnerabilities have been discovered in libgit2, a low-level Git library. These flaws can lead to arbitrary command execution on remote SSH servers, credential disclosure, denial of service, or unauthorized file creation.",
-        "whyItMatters": "Exploitation of these vulnerabilities could allow attackers to compromise remote servers, steal sensitive credentials, or disrupt services relying on the library.",
-        "affected": [
-          "libgit2"
-        ],
-        "action": "Update the libgit2 package to the latest patched version provided by your vendor.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Smashing Security podcast #481: Never say this to a robot dog",
       "link": "https://grahamcluley.com/smashing-security-podcast-481/",
       "source": "Graham Cluley",
@@ -4719,65 +4777,6 @@
           "Elastic products"
         ],
         "action": "Check the vendor advisory and apply the latest security patches.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6452-1 designate - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00363.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-08-19T00:00:00.000Z",
-      "summary": "Two security vulnerabilities were discovered in Designate, the OpenStack\nDNS-as-a-Service component, which could result in a tenant manipulating\nthe zones of a different tenant, resulting in denial of service or DNS\nhija",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Two security vulnerabilities were discovered in Designate, the OpenStack DNS-as-a-Service component. These flaws could allow a tenant to manipulate the DNS zones of a different tenant, leading to denial of service or DNS hijacking.",
-        "whyItMatters": "It allows malicious multi-tenant users to compromise and hijack the DNS zones of other tenants within an OpenStack environment.",
-        "affected": [
-          "OpenStack Designate"
-        ],
-        "action": "Apply the security update provided by your vendor.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6451-1 firefox-esr - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00362.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-08-19T00:00:00.000Z",
-      "summary": "Multiple security issues have been found in the Mozilla Firefox web\nbrowser, which could potentially result in the execution of arbitrary\ncode, privilege escalation, information disclosure or bypass of the\nsame-origin po",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Firefox"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Multiple security issues have been discovered in the Mozilla Firefox web browser. These vulnerabilities could potentially lead to arbitrary code execution, privilege escalation, information disclosure, or bypass of the same-origin policy.",
-        "whyItMatters": "Exploitation of these flaws could allow attackers to compromise affected systems, steal sensitive data, or bypass critical browser security controls.",
-        "affected": [
-          "firefox-esr"
-        ],
-        "action": "Update the firefox-esr package to the latest security release.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
