@@ -1,6 +1,119 @@
 {
-  "updatedAt": "2026-08-24T18:57:53.725Z",
+  "updatedAt": "2026-08-24T19:42:46.653Z",
   "items": [
+    {
+      "title": "Hackers target WordPress sites in miniOrange auth bypass attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-08-24T19:26:32.000Z",
+      "summary": "Hackers are attempting to exploit two critical authentication bypass vulnerabilities in the miniOrange SAML 2.0 Single Sign On plugin for WordPress that can be used to forge SAML responses and log in as administrators. [",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [
+        "WordPress"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Hackers are actively targeting WordPress sites to exploit two critical authentication bypass vulnerabilities in the miniOrange SAML 2.0 Single Sign On plugin. These flaws allow attackers to forge SAML responses and successfully log in as site administrators.",
+        "whyItMatters": "This vulnerability allows complete administrative takeover of vulnerable WordPress sites, posing an immediate and severe security risk.",
+        "affected": [
+          "miniOrange SAML 2.0 Single Sign On plugin for WordPress"
+        ],
+        "action": "Update the miniOrange SAML 2.0 plugin immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Treasury sanctions alleged Iranian hackers as part of ‘economic D-Day’",
+      "link": "https://cyberscoop.com/us-treasury-sanctions-iranian-hackers-economic-dday/",
+      "source": "CyberScoop",
+      "publishedAt": "2026-08-24T19:06:12.000Z",
+      "summary": "It’s a follow-up to an indictment the Justice Department unsealed last week against people affiliated with the Mabna Institute.\nThe post Treasury sanctions alleged Iranian hackers as part of ‘economic D-Day’ appeared fir",
+      "categories": [
+        "Government"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The U.S. Treasury has imposed sanctions on alleged Iranian hackers linked to the Mabna Institute. This action follows a recent Justice Department indictment against individuals associated with the same organization.",
+        "whyItMatters": "It demonstrates ongoing international law enforcement and economic pressure against state-sponsored cyber threat actors.",
+        "affected": [],
+        "action": "Monitor threat intelligence for potential retaliatory cyber activity.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Bipartisan Senate bill aims to prepare energy sector for Q-Day",
+      "link": "https://cyberscoop.com/quantum-guard-act-electric-grid-cybersecurity/",
+      "source": "CyberScoop",
+      "publishedAt": "2026-08-24T19:01:05.000Z",
+      "summary": "Under the bill, FERC would consider cyber threats from quantum computers and post-quantum cryptography in its reliability standards for the energy sector. \nThe post Bipartisan Senate bill aims to prepare energy sector fo",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A bipartisan Senate bill has been introduced to prepare the energy sector for the potential cryptographic threats posed by quantum computers. Under this legislation, the Federal Energy Regulatory Commission would incorporate quantum threats and post-quantum cryptography into its reliability standards.",
+        "whyItMatters": "It initiates regulatory preparation to protect critical energy infrastructure against future quantum computing attacks that could break current encryption standards.",
+        "affected": [],
+        "action": "Monitor legislative progress and prepare for potential future post-quantum cryptography compliance requirements.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "[Launched] Generally Available: eBPF host routing in Advanced Container Networking Services for AKS",
+      "link": "https://azure.microsoft.com/updates?id=569873",
+      "source": "Azure Updates",
+      "publishedAt": "2026-08-24T18:36:01.000Z",
+      "summary": "eBPF Host Routing in Advanced\r\nContainer Networking Services for Azure Kubernetes Service (AKS) is now\r\ngenerally available. eBPF Host Routing improves\r\nKubernetes networking performance by moving packet forwarding and r",
+      "categories": [
+        "Cloud"
+      ],
+      "tags": [
+        "Azure",
+        "Kubernetes"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft has announced the general availability of eBPF Host Routing in Advanced Container Networking Services for Azure Kubernetes Service (AKS). This feature enhances Kubernetes networking performance by optimizing packet forwarding directly at the host level.",
+        "whyItMatters": "It improves container networking efficiency and performance for cloud-native deployments on Azure.",
+        "affected": [
+          "Azure Kubernetes Service"
+        ],
+        "action": "Review the Azure documentation to evaluate eBPF host routing for your AKS deployments.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Indian man who fled US arrested on charges he helped scammers siphon $7.5 million from the elderly",
       "link": "https://therecord.media/cyber-scam-indian-arrested",
@@ -185,6 +298,35 @@
         "affected": [],
         "action": "Avoid downloading unauthorized GTA 6 demos or media from unofficial sites.",
         "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8670-1: curl vulnerability",
+      "link": "https://ubuntu.com/security/notices/USN-8670-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-24T16:31:26.000Z",
+      "summary": "Joshua Rogers discovered that curl incorrectly handled reusing connections\nwhen client certificate settings changed. This could result in the wrong\nclient certificates being used, contrary to expectations.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Joshua Rogers discovered that curl incorrectly handled reusing connections when client certificate settings changed. This flaw could result in the wrong client certificates being used during connections.",
+        "whyItMatters": "It could lead to authentication bypass or unintended exposure of sensitive client certificate information.",
+        "affected": [
+          "curl"
+        ],
+        "action": "Update curl to the latest patched version.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "ai"
       }
@@ -1745,36 +1887,6 @@
       }
     },
     {
-      "title": "ToxicPanda Android malware uses VPN permissions to block Google Play",
-      "link": "https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-08-23T14:23:46.000Z",
-      "summary": "The ToxicPanda Android malware has evolved with new malicious functionality, expanding its targeting to 349 applications and adding support for 167 remote commands. [...]",
-      "categories": [
-        "Malware"
-      ],
-      "tags": [
-        "Android"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The ToxicPanda Android malware has evolved to target 349 applications and added support for 167 remote commands. It now utilizes VPN permissions to block access to Google Play on infected devices.",
-        "whyItMatters": "This malware evolution increases attacker control and prevents users from accessing official security updates or removing the threat via Google Play.",
-        "affected": [
-          "Android devices"
-        ],
-        "action": "Avoid downloading unverified applications and monitor device VPN permissions.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "DSA-6461-1 thunderbird - security update",
       "link": "https://lists.debian.org/debian-security-announce/2026/msg00372.html",
       "source": "Debian Security",
@@ -2307,39 +2419,6 @@
         "relatedCves": [
           "CVE-2020-24588"
         ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8662-2: Linux kernel (FIPS) vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8662-2",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-21T19:23:06.000Z",
-      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - x86 architecture;\n  - Cryptographic ",
-      "categories": [
-        "Vulnerability",
-        "Incident Response",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Canonical has released USN-8662-2 addressing multiple security vulnerabilities in the Linux kernel FIPS edition. The flaws affect the x86 architecture and cryptographic subsystems, potentially allowing system compromise.",
-        "whyItMatters": "Unpatched kernel vulnerabilities can allow local attackers or malicious software to gain full control over affected systems.",
-        "affected": [
-          "Linux kernel (FIPS)"
-        ],
-        "action": "Update the Linux kernel to the latest version provided by your distribution.",
-        "risk": "High",
-        "relatedCves": [],
         "source": "ai"
       }
     },
@@ -4299,36 +4378,6 @@
       }
     },
     {
-      "title": "[Launched] Generally Available: Azure SQL Database provisioning in MSSQL extension",
-      "link": "https://azure.microsoft.com/updates?id=569160",
-      "source": "Azure Updates",
-      "publishedAt": "2026-08-19T20:59:19.000Z",
-      "summary": "With Azure SQL Database provisioning, you can create and connect to a fully managed cloud database directly from your editor—at no cost. Now generally available, the feature also includes ready-to-use Azure Resource Mana",
-      "categories": [
-        "Cloud"
-      ],
-      "tags": [
-        "Azure"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has announced the general availability of Azure SQL Database provisioning within the MSSQL extension. This new feature allows users to create and connect to fully managed cloud databases directly from their editor.",
-        "whyItMatters": "This release streamlines database management workflows for developers using the MSSQL extension, though it does not address a security vulnerability.",
-        "affected": [
-          "MSSQL extension"
-        ],
-        "action": "Update the MSSQL extension to access the new provisioning features.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "VU#874418: RDK-B WebUI contains multiple vulnerabilities",
       "link": "https://kb.cert.org/vuls/id/874418",
       "source": "CERT/CC",
@@ -4353,34 +4402,6 @@
         ],
         "action": "Update RDK-B WebUI to a patched version immediately.",
         "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "AI-fueled attacks pose ‘active threat’ to water, other sectors, U.S. agencies warn",
-      "link": "https://cyberscoop.com/hackers-use-ai-target-siemens-plcs-critical-infrastructure/",
-      "source": "CyberScoop",
-      "publishedAt": "2026-08-19T18:45:53.000Z",
-      "summary": "The agencies said the hackers are taking aim at Siemens S7 Series programmable logic controllers in what could be a first.\nThe post AI-fueled attacks pose ‘active threat’ to water, other sectors, U.S. agencies warn appea",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "U.S. agencies warn that AI-fueled cyberattacks pose an active threat to critical infrastructure sectors, including water facilities. The hackers are reportedly targeting Siemens S7 Series programmable logic controllers in a potentially unprecedented manner.",
-        "whyItMatters": "This marks a concerning escalation as adversaries leverage artificial intelligence to target critical operational technology essential for public services.",
-        "affected": [
-          "Siemens S7 Series"
-        ],
-        "action": "Review security postures for Siemens S7 controllers and monitor for AI-driven anomalous activity.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -4634,32 +4655,6 @@
         ],
         "action": "Apply the official security updates provided by Cisco to remediate the vulnerability.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "A California county wants to hire Tina Peters to help run its elections",
-      "link": "https://cyberscoop.com/shasta-county-elections-tina-peters/",
-      "source": "CyberScoop",
-      "publishedAt": "2026-08-19T15:57:37.000Z",
-      "summary": "After her prison sentence for felony election-related crimes was commuted, Peters is poised to once again administer critical election duties.\nThe post A California county wants to hire Tina Peters to help run its electi",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A California county is considering hiring Tina Peters, whose prison sentence for felony election-related crimes was commuted, to help run its elections. This development places a figure previously convicted of election tampering back into a position of administrative responsibility.",
-        "whyItMatters": "It raises potential insider threat and election integrity concerns due to the past felony convictions associated with election-related crimes.",
-        "affected": [],
-        "action": "Monitor developments regarding election administration staffing policies.",
-        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
