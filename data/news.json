@@ -1,6 +1,116 @@
 {
-  "updatedAt": "2026-08-24T20:48:48.301Z",
+  "updatedAt": "2026-08-24T21:43:28.348Z",
   "items": [
+    {
+      "title": "You don't want this Sleepwalker backdoor on your Windows machine",
+      "link": "https://www.theregister.com/security/2026/08/24/you-dont-want-this-sleepwalker-backdoor-on-your-windows-machine/5292021",
+      "source": "The Register",
+      "publishedAt": "2026-08-24T21:39:39.000Z",
+      "summary": "Its own command language, 23 instructions - signs point to 'well-resourced operation rather than an opportunistic one'",
+      "categories": [
+        "Malware"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A newly discovered backdoor named Sleepwalker targets Windows systems with its own custom command language consisting of 23 instructions. Security analysts indicate this threat originates from a well-resourced operation rather than opportunistic attackers.",
+        "whyItMatters": "Custom backdoors deployed by well-resourced threat actors pose severe, targeted risks to Windows environments that standard detection tools might miss.",
+        "affected": [
+          "Windows"
+        ],
+        "action": "Monitor network and endpoint activity for unauthorized command execution or unusual backdoor behavior.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Unpatched Calix flaw lets hackers bypass NAT to expose internal devices",
+      "link": "https://www.bleepingcomputer.com/news/security/unpatched-calix-flaw-lets-hackers-bypass-nat-to-expose-internal-devices/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-08-24T21:14:30.000Z",
+      "summary": "An unpatched vulnerability in Calix GS7 XGS (GS5239XG) residential routers used by multiple U.S. broadband providers allows remote, unauthenticated attackers to create port-forwarding rules that can expose local network ",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "An unpatched vulnerability in Calix GS7 XGS residential routers allows remote attackers to bypass NAT mechanisms. This flaw enables unauthorized creation of port-forwarding rules that expose internal local network devices to the internet.",
+        "whyItMatters": "This vulnerability leaves home networks managed by U.S. broadband providers exposed to remote compromise without requiring authentication.",
+        "affected": [
+          "Calix GS7 XGS GS5239XG"
+        ],
+        "action": "Disable remote management on affected routers and monitor for unauthorized port-forwarding rules until a patch is released.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Browser fingerprint tool shows how easy you are to track using the latest sneaky tricks",
+      "link": "https://www.theregister.com/security/2026/08/24/browser-fingerprint-tool-shows-how-easy-you-are-to-track-using-the-latest-sneaky-tricks/5292015",
+      "source": "The Register",
+      "publishedAt": "2026-08-24T21:07:10.000Z",
+      "summary": "Glassbox dev admits he had some help from Claude to build locally running tool",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A developer created a local browser fingerprinting tool to demonstrate how easily users can be tracked using advanced techniques. The creator admitted to receiving assistance from the Claude AI model to build the application.",
+        "whyItMatters": "It highlights the growing accessibility of sophisticated browser tracking methods and the dual-use nature of AI in software development.",
+        "affected": [],
+        "action": "Be aware of advanced browser fingerprinting techniques used for online tracking.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Foul Language: WordlistLoader Disguises Malware as Ordinary Text",
+      "link": "https://www.darkreading.com/data-privacy/wordlistloader-disguises-malware-ordinary-text",
+      "source": "Dark Reading",
+      "publishedAt": "2026-08-24T20:51:27.000Z",
+      "summary": "ClickFix-style threat campaigns are using a new trick to evade detection and deliver Amatera, an increasingly prevalent infostealer.",
+      "categories": [
+        "Malware"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "ClickFix-style threat campaigns are employing a new technique called WordlistLoader to disguise malware as ordinary text. This method is designed to evade detection and successfully deliver the Amatera infostealer.",
+        "whyItMatters": "It introduces a novel evasion tactic that helps stealthy infostealers bypass traditional security controls.",
+        "affected": [],
+        "action": "Monitor for unusual text-based payloads and update endpoint detection rules to identify WordlistLoader activity.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "New Zealand to pursue social media ban for children under 16",
       "link": "https://therecord.media/new-zealand-to-pursue-social-media-ban-for-children",
@@ -86,8 +196,8 @@
         "affected": [
           "Azure"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -343,6 +453,32 @@
           "CVE-2026-66036",
           "CVE-2026-66039"
         ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Iran-linked cyberattack shut down a UK power plant",
+      "link": "https://www.theregister.com/security/2026/08/24/iran-linked-cyberattack-shut-down-a-uk-power-plant/5291930",
+      "source": "The Register",
+      "publishedAt": "2026-08-24T16:59:00.000Z",
+      "summary": "No risk to wider energy system, government tells The Reg",
+      "categories": [
+        "Government"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "An Iran-linked cyberattack successfully shut down a UK power plant. The British government has assured the public that there is no risk to the wider energy system.",
+        "whyItMatters": "State-sponsored cyberattacks targeting critical infrastructure pose severe national security risks.",
+        "affected": [],
+        "action": "Monitor official government security advisories for critical infrastructure protection guidelines.",
+        "risk": "High",
+        "relatedCves": [],
         "source": "ai"
       }
     },
@@ -901,6 +1037,39 @@
       }
     },
     {
+      "title": "CVE-2026-50661 Windows BitLocker Security Feature Bypass Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50661",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-24T14:00:00.000Z",
+      "summary": "Acknowledgement Updated",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [
+        "CVE-2026-50661"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "A security feature bypass vulnerability has been identified in Windows BitLocker, tracked as CVE-2026-50661. Further details regarding the exact nature of the flaw and affected configurations are currently limited.",
+        "whyItMatters": "This vulnerability could potentially allow attackers to bypass BitLocker encryption protections on vulnerable Windows systems.",
+        "affected": [],
+        "action": "Monitor vendor advisories and apply security patches as soon as they become available.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-50661"
+        ],
+        "source": "ai"
+      }
+    },
+    {
       "title": "CVE-2026-65787 Desktop Window Manager Elevation of Privilege Vulnerability",
       "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-65787",
       "source": "Microsoft MSRC",
@@ -1151,6 +1320,36 @@
         "affected": [],
         "action": "Monitor endpoints for suspicious loader activity and educate users against social engineering tactics like ClickFix.",
         "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "AliExpress accused of fingerprinting shoppers with silent audio trick that also muted a dev's headphones",
+      "link": "https://www.theregister.com/security/2026/08/24/aliexpress-accused-of-fingerprinting-shoppers-with-silent-audio-trick-that-also-muted-a-devs-headphones/5291662",
+      "source": "The Register",
+      "publishedAt": "2026-08-24T12:32:00.000Z",
+      "summary": "Sawtooth waves you can't hear still mess with your Bluetooth. Firefox and Brave say they've got you covered",
+      "categories": [
+        "News"
+      ],
+      "tags": [
+        "Firefox"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "AliExpress has been accused of using a silent audio trick to fingerprint online shoppers. This technique also inadvertently muted a developer's Bluetooth headphones.",
+        "whyItMatters": "Audio fingerprinting is an intrusive tracking method that bypasses traditional privacy controls without user consent.",
+        "affected": [
+          "AliExpress website"
+        ],
+        "action": "Use privacy-focused browsers like Firefox or Brave that mitigate tracking.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "ai"
       }
@@ -1524,6 +1723,32 @@
       }
     },
     {
+      "title": "Security vets rally around $4 paper password books for sale in Australia",
+      "link": "https://www.theregister.com/security/2026/08/24/security-vets-rally-around-4-paper-password-books-for-sale-in-australia/5291234",
+      "source": "The Register",
+      "publishedAt": "2026-08-24T10:17:00.000Z",
+      "summary": "Once shunned by the IT crowd, pen-and-paper password vaults are getting the love they deserve in 2026",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Pen-and-paper password notebooks are gaining renewed appreciation among IT professionals in 2026 as a low-tech security alternative. These physical vaults provide a tangible way to store credentials without exposure to digital threats.",
+        "whyItMatters": "It highlights a growing reliance on low-tech physical security measures to counter complex digital cyber threats.",
+        "affected": [],
+        "action": "Evaluate the viability of physical password storage for your personal use.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "Personal Information Exposed in Apollo Global Data Breach",
       "link": "https://www.securityweek.com/personal-information-exposed-in-apollo-global-data-breach/",
       "source": "SecurityWeek",
@@ -1603,36 +1828,6 @@
         ],
         "action": "Check your car head unit for suspicious software updates and disable untrusted updaters.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Microsoft shares temporary fix for Windows 11 gaming issues",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-temporary-fix-for-windows-11-gaming-issues/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-08-24T09:42:05.000Z",
-      "summary": "Microsoft has shared a temporary fix for ongoing gaming issues caused by Windows 11 updates released during the August 2026 Patch Tuesday. [...]",
-      "categories": [
-        "News"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has released a temporary fix for ongoing gaming issues affecting Windows 11 systems. These performance problems were triggered by updates deployed during the August 2026 Patch Tuesday.",
-        "whyItMatters": "Unresolved gaming and system performance issues can disrupt user productivity and lead to frustrating system instability.",
-        "affected": [
-          "Windows 11"
-        ],
-        "action": "Apply the temporary fix provided by Microsoft.",
-        "risk": "Medium",
         "relatedCves": [],
         "source": "ai"
       }
@@ -2088,6 +2283,32 @@
       }
     },
     {
+      "title": "If you're not using AI to attack your own systems, your adversaries will",
+      "link": "https://www.theregister.com/security/2026/08/22/if-youre-not-using-ai-to-attack-your-own-systems-your-adversaries-will/5291346",
+      "source": "The Register",
+      "publishedAt": "2026-08-22T15:02:00.000Z",
+      "summary": "Agents are also the new attack surface - cue defenders' existential angst",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "This opinion piece highlights the growing necessity for defenders to utilize artificial intelligence for offensive security testing. It emphasizes that adversaries are already leveraging AI agents, making them a critical new attack surface for organizations.",
+        "whyItMatters": "Organizations must adopt AI-driven security testing to keep pace with adversaries who are already using these advanced technologies to find and exploit system vulnerabilities.",
+        "affected": [],
+        "action": "Incorporate AI tools into your offensive security and penetration testing strategies.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "TikTok Agrees to $400 Million Settlement in U.S. Child Privacy Lawsuit",
       "link": "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html",
       "source": "The Hacker News",
@@ -2138,6 +2359,36 @@
         ],
         "action": "Update libnet-dns-perl to the latest security release.",
         "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "AWS Security makes an inscrutable choice",
+      "link": "https://www.theregister.com/security/2026/08/22/aws-security-makes-an-inscrutable-choice-corey-quinn/5291446",
+      "source": "The Register",
+      "publishedAt": "2026-08-21T23:42:41.000Z",
+      "summary": "Quarantining leaked credentials is not good enough",
+      "categories": [
+        "Cloud"
+      ],
+      "tags": [
+        "AWS"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Amazon Web Services has implemented a policy of quarantining leaked credentials rather than taking more proactive measures. Security critics argue that this response strategy is insufficient for adequately protecting cloud environments.",
+        "whyItMatters": "Inadequate handling of leaked credentials leaves cloud infrastructure vulnerable to unauthorized access and potential data breaches.",
+        "affected": [
+          "Amazon Web Services"
+        ],
+        "action": "Review and monitor your AWS environments for exposed credentials.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "ai"
       }
@@ -2558,6 +2809,34 @@
       }
     },
     {
+      "title": "Homeland security cybercops say patch TrueConf (Russia's Zoom) if you're using it",
+      "link": "https://www.theregister.com/patches/2026/08/21/homeland-security-cybercops-say-patch-trueconf-russias-zoom-if-youre-using-it/5291156",
+      "source": "The Register",
+      "publishedAt": "2026-08-21T16:29:00.000Z",
+      "summary": "Ukrainian hacktivists exploiting the bugs, but TrueConf's reach stretches well beyond home turf",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Ukrainian hacktivists are actively exploiting security vulnerabilities in TrueConf, a Russian video conferencing application often described as Russia's Zoom. Homeland security cybercops have urged users of the software to apply patches immediately to mitigate the risks.",
+        "whyItMatters": "Active exploitation by threat actors puts organizations and individuals using the software at immediate risk of compromise.",
+        "affected": [
+          "TrueConf"
+        ],
+        "action": "Patch TrueConf immediately if you are using it.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "U.S. Bank says breach claims related to fourth-party incident",
       "link": "https://therecord.media/us-bank-says-breach-claims-related-to-fourth-party-incident",
       "source": "The Record",
@@ -2863,39 +3142,6 @@
       }
     },
     {
-      "title": "CVE-2026-54981 Visual Studio Code Python Extension Security Feature Bypass Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-54981",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-21T14:00:00.000Z",
-      "summary": "Affected software updated with new package information.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-54981"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "A security feature bypass vulnerability, designated as CVE-2026-54981, has been identified in the Visual Studio Code Python Extension. The affected software has been updated with new package information to address the issue.",
-        "whyItMatters": "This vulnerability allows attackers to bypass security features in the widely used VS Code Python extension, potentially compromising development environments.",
-        "affected": [
-          "Visual Studio Code Python Extension"
-        ],
-        "action": "Update the Visual Studio Code Python Extension to the latest version.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-54981"
-        ],
-        "source": "ai"
-      }
-    },
-    {
       "title": "OpenAI Adds Controls That Should've Been There Already",
       "link": "https://www.darkreading.com/application-security/openai-adds-controls-already",
       "source": "Dark Reading",
@@ -2917,32 +3163,6 @@
         "whyItMatters": "It highlights ongoing gaps in foundational AI security practices among major developers.",
         "affected": [],
         "action": "Review the newly implemented OpenAI security controls.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Hardware Makers Implement Post-Quantum Cryptography as Security Threats Near",
-      "link": "https://www.darkreading.com/cyber-risk/hardware-makers-implement-post-quantum-cryptography",
-      "source": "Dark Reading",
-      "publishedAt": "2026-08-21T13:10:33.000Z",
-      "summary": "The coming threat of super-powerful computers capable of cracking today’s algorithms requires upgrading encryption now. Tech companies have begun building defenses.",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Hardware manufacturers are beginning to implement post-quantum cryptography to defend against future super-powerful computers. These tech companies are upgrading encryption now to address approaching security threats.",
-        "whyItMatters": "Upgrading encryption proactively is essential to protect sensitive data from future quantum computing attacks capable of cracking current algorithms.",
-        "affected": [],
-        "action": "Monitor hardware vendors for post-quantum cryptographic upgrade availability.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -5528,214 +5748,6 @@
         "affected": [],
         "action": "Monitor for phishing campaigns utilizing the JWR framework and educate users on verifying payment page authenticity.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Black Hat USA 2026: What the Hugging Face hack tells us about human responsibility",
-      "link": "https://www.welivesecurity.com/en/business-security/black-hat-usa-2026-hugging-face-hack-human-responsibility/",
-      "source": "WeLiveSecurity",
-      "publishedAt": "2026-08-13T09:00:00.000Z",
-      "summary": "The incident involving OpenAI models shows that autonomous hacks make human oversight more important, not less",
-      "categories": [
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "An incident involving OpenAI models and a Hugging Face hack highlights the risks of automated security breaches. The event demonstrates that the rise of autonomous hacks makes human oversight more critical than ever.",
-        "whyItMatters": "It emphasizes that despite advancing AI automation in cybersecurity, human responsibility and oversight remain essential to prevent critical breaches.",
-        "affected": [],
-        "action": "Maintain strict human oversight on AI-driven systems and models.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Armored Likho expands its cyber-espionage toolkit",
-      "link": "https://securelist.com/armored-likho-still-toolkit/121033/",
-      "source": "Kaspersky Securelist",
-      "publishedAt": "2026-08-13T08:00:15.000Z",
-      "summary": "Kaspersky experts break down a new Armored Likho campaign that poses as a fundraising efforts and delivers a new Still Toolkit aimed at stealing Telegram data and eavesdropping on victims.",
-      "categories": [
-        "Threat Intel"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Kaspersky researchers have uncovered a new cyber-espionage campaign by Armored Likho that disguises itself as fundraising efforts. The attackers deploy a new Still Toolkit designed to steal Telegram data and eavesdrop on victims.",
-        "whyItMatters": "This campaign represents an active cyber-espionage threat capable of compromising sensitive communication data and user privacy.",
-        "affected": [],
-        "action": "Remain vigilant against unsolicited fundraising messages and ensure security software is up to date.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Smashing Security podcast #480: This is the AI service you should never sign up to",
-      "link": "https://grahamcluley.com/smashing-security-podcast-480/",
-      "source": "Graham Cluley",
-      "publishedAt": "2026-08-12T23:12:28.000Z",
-      "summary": "Would you like access to Anthropic's Claude at 90% off the normal price? All you have to do is redirect your traffic to a mysterious service called \"Poison Claude\". Only problem is that it's run by fraudsters...\r\n\r\nMeanw",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Fraudsters are promoting a fraudulent service called Poison Claude that offers Anthropic's Claude AI at a 90% discount. Users who sign up for this service unknowingly redirect their traffic to malicious operators.",
-        "whyItMatters": "This scam targets users seeking discounts on AI services to intercept their traffic and potentially compromise sensitive data.",
-        "affected": [],
-        "action": "Avoid unofficial third-party AI services offering heavily discounted access.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Guide to Cybersecurity Budget Planning: How Much + How To | Huntress",
-      "link": "https://www.huntress.com/blog/cybersecurity-budget",
-      "source": "Huntress",
-      "publishedAt": "2026-08-12T17:00:00.000Z",
-      "summary": "Planning your cybersecurity budget shouldn't be a headache. See how to protect your business and get the most out of your security spend without the fluff.",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "This article offers a practical guide to planning a cybersecurity budget for businesses. It outlines strategies to protect organizations and maximize the return on security investments without unnecessary complexity.",
-        "whyItMatters": "Effective budget planning ensures organizations allocate adequate resources to mitigate evolving cyber threats.",
-        "affected": [],
-        "action": "Read the guide to optimize your organization's cybersecurity spending.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Black Hat USA 2026: AI is racing ahead of cybersecurity controls",
-      "link": "https://www.welivesecurity.com/en/business-security/black-hat-usa-2026-ai-racing-cybersecurity-controls/",
-      "source": "WeLiveSecurity",
-      "publishedAt": "2026-08-12T13:28:07.000Z",
-      "summary": "AI took center stage, but the clearest lesson was less about what AI can do than about who is accountable when something goes wrong",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "At Black Hat USA 2026, artificial intelligence dominated discussions regarding the fast pace of technological advancement. A primary takeaway from the event centered on determining accountability when AI-related security incidents occur.",
-        "whyItMatters": "It highlights the growing governance and responsibility gap as artificial intelligence development outpaces existing cybersecurity controls.",
-        "affected": [],
-        "action": "Review organizational governance and accountability frameworks for AI deployments.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Akira Hits Safe Mode: Ransomware Rebooting Around EDR",
-      "link": "https://www.huntress.com/blog/akira-hits-safe-mode-ransomware-rebooting-around-edr",
-      "source": "Huntress",
-      "publishedAt": "2026-08-12T13:00:00.000Z",
-      "summary": "An Akira affiliate rebooted into Safe Mode to kill EDR and Defender, then Safe Mode broke their own ransomware. Here’s the full attack chain.",
-      "categories": [
-        "Ransomware"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "high",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "An Akira ransomware affiliate rebooted a compromised system into Safe Mode in an attempt to disable endpoint detection and response (EDR) software and Windows Defender. However, the Safe Mode environment inadvertently prevented their own ransomware payload from executing correctly.",
-        "whyItMatters": "This incident highlights an emerging evasion technique where attackers abuse operating system diagnostic modes to bypass security controls.",
-        "affected": [],
-        "action": "Monitor for unauthorized system reboots into Safe Mode and restrict access to boot configuration settings.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "AI is Working in the SOC. So Why are Security Executives More Worried Than Ever?",
-      "link": "https://www.rapid7.com/blog/post/ai-report-500-security-leaders-reveal-security-operations-transformation",
-      "source": "Rapid7",
-      "publishedAt": "2026-08-12T13:00:00.000Z",
-      "summary": "Something shifted in security operations over the last two years: AI stopped being a pilot program and became the plan.\nAnd if you survey 500 security professionals on whether that's going well – as Omdia did, commission",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Recent industry surveys indicate that artificial intelligence has transitioned from a pilot program into a core component of security operations centers. However, security executives report feeling increasingly worried despite the successful integration of these AI tools.",
-        "whyItMatters": "It highlights a paradox where the broader adoption of operational AI coincides with heightened anxiety among security leadership regarding overall threat management.",
-        "affected": [],
-        "action": "Monitor evolving security leadership perspectives on operational AI integration.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Help shape the future of resilient private 5G",
-      "link": "https://www.ncsc.gov.uk/blogs/help-shape-the-future-of-resilient-private-5g",
-      "source": "NCSC UK",
-      "publishedAt": "2026-08-12T12:00:00.000Z",
-      "summary": "The NCSC wants to collaborate with organisations developing technologies and approaches for secure, resilient and deployable private 5G",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The UK's National Cyber Security Centre is seeking collaboration with organizations to develop secure and resilient private 5G technologies. This initiative aims to shape the future of deployable private 5G solutions.",
-        "whyItMatters": "It promotes the development of stronger cybersecurity standards for emerging private 5G infrastructure.",
-        "affected": [],
-        "action": "Review the NCSC initiative for potential collaboration opportunities.",
-        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
