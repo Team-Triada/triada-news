@@ -1,6 +1,37 @@
 {
-  "updatedAt": "2026-08-24T19:42:46.653Z",
+  "updatedAt": "2026-08-24T20:48:48.301Z",
   "items": [
+    {
+      "title": "New Zealand to pursue social media ban for children under 16",
+      "link": "https://therecord.media/new-zealand-to-pursue-social-media-ban-for-children",
+      "source": "The Record",
+      "publishedAt": "2026-08-24T20:36:00.000Z",
+      "summary": "The legislation would mandate that high-risk social media platforms such as Instagram, TikTok, Snapchat and Facebook take “reasonable steps” to ensure users are over age 16 by using tools like facial age estimation, digi",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "New Zealand is planning to introduce legislation that would ban children under the age of 16 from using high-risk social media platforms. The proposed law would require companies like Instagram, TikTok, Snapchat, and Facebook to implement age-verification tools such as facial age estimation.",
+        "whyItMatters": "This policy represents a significant government intervention into children's digital safety and platform regulation.",
+        "affected": [
+          "Instagram",
+          "TikTok",
+          "Snapchat",
+          "Facebook"
+        ],
+        "action": "Monitor legislative developments regarding age-verification requirements.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Hackers target WordPress sites in miniOrange auth bypass attacks",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/",
@@ -29,6 +60,36 @@
         "risk": "Critical",
         "relatedCves": [],
         "source": "ai"
+      }
+    },
+    {
+      "title": "Announcing: Extended Support for Azure Database for PostgreSQL Flexible Server",
+      "link": "https://azure.microsoft.com/updates?id=569526",
+      "source": "Azure Updates",
+      "publishedAt": "2026-08-24T19:15:05.000Z",
+      "summary": "Extended Support for Azure Database for PostgreSQL Flexible Server helps you maintain secure, supported workloads while transitioning to newer PostgreSQL versions. With access to critical security updates, critical bug f",
+      "categories": [
+        "Cloud"
+      ],
+      "tags": [
+        "Azure"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Extended Support for Azure Database for PostgreSQL Flexible Server helps you maintain secure, supported workloads while transitioning to newer PostgreSQL versions. With access to critical security updates, critical bug f",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Azure"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
       }
     },
     {
@@ -251,28 +312,37 @@
       }
     },
     {
-      "title": "Iran-linked cyberattack shut down a UK power plant",
-      "link": "https://www.theregister.com/security/2026/08/24/iran-linked-cyberattack-shut-down-a-uk-power-plant/5291930",
-      "source": "The Register",
-      "publishedAt": "2026-08-24T16:59:00.000Z",
-      "summary": "No risk to wider energy system, government tells The Reg",
+      "title": "USN-8671-1: FFmpeg vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8671-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-24T17:16:26.000Z",
+      "summary": "Adrian Junge was discovered that FFmpeg incorrectly handled certain media\nfiles. An attacker could possibly use this issue to cause a denial of\nservice or execute arbitrary code. (CVE-2026-66036, CVE-2026-66039)\n\nAdrian ",
       "categories": [
-        "Government"
+        "Vulnerability",
+        "Vendor Advisory"
       ],
       "tags": [],
-      "cves": [],
+      "cves": [
+        "CVE-2026-66036",
+        "CVE-2026-66039"
+      ],
       "kev": false,
       "poc": false,
-      "severity": "news",
+      "severity": "medium",
       "breaking": false,
-      "readTimeMin": 2,
+      "readTimeMin": 1,
       "aiSummary": {
-        "summary": "An Iran-linked cyberattack successfully shut down a UK power plant, according to recent reports. The British government has stated that there is no risk to the wider energy system as a result of the incident.",
-        "whyItMatters": "This incident highlights the growing threat of state-sponsored cyberattacks targeting critical national infrastructure.",
-        "affected": [],
-        "action": "Review industrial control systems for unauthorized access and enhance monitoring.",
+        "summary": "FFmpeg has been found to incorrectly handle certain media files, which could be exploited by an attacker. This flaw may lead to a denial of service or the execution of arbitrary code.",
+        "whyItMatters": "Unpatched media processing vulnerabilities in a widely used library like FFmpeg can allow remote attackers to crash systems or gain code execution.",
+        "affected": [
+          "FFmpeg"
+        ],
+        "action": "Update FFmpeg to the latest patched version.",
         "risk": "High",
-        "relatedCves": [],
+        "relatedCves": [
+          "CVE-2026-66036",
+          "CVE-2026-66039"
+        ],
         "source": "ai"
       }
     },
@@ -1086,36 +1156,6 @@
       }
     },
     {
-      "title": "AliExpress accused of fingerprinting shoppers with silent audio trick that also muted a dev's headphones",
-      "link": "https://www.theregister.com/security/2026/08/24/aliexpress-accused-of-fingerprinting-shoppers-with-silent-audio-trick-that-also-muted-a-devs-headphones/5291662",
-      "source": "The Register",
-      "publishedAt": "2026-08-24T12:32:00.000Z",
-      "summary": "Sawtooth waves you can't hear still mess with your Bluetooth. Firefox and Brave say they've got you covered",
-      "categories": [
-        "News"
-      ],
-      "tags": [
-        "Firefox"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Sawtooth waves you can't hear still mess with your Bluetooth. Firefox and Brave say they've got you covered",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Firefox"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Hackers infecting Android car systems to build proxy botnet",
       "link": "https://therecord.media/android-botnet-china-hackers",
       "source": "The Record",
@@ -1142,6 +1182,43 @@
         "action": "Monitor connected vehicle network traffic for unusual proxy activity.",
         "risk": "High",
         "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/08/24/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-08-24T12:00:00.000Z",
+      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  \nCVE-2026-21962 Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in Improper A",
+      "categories": [
+        "Vulnerability",
+        "Government",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Oracle"
+      ],
+      "cves": [
+        "CVE-2026-21962"
+      ],
+      "kev": true,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "CISA has added a new vulnerability, CVE-2026-21962 affecting Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in, to its Known Exploited Vulnerabilities Catalog. This addition is based on evidence indicating that the flaw is currently being actively exploited in the wild.",
+        "whyItMatters": "Active exploitation in the wild means attackers are actively targeting this flaw, significantly increasing the risk of immediate compromise for unpatched systems.",
+        "affected": [
+          "Oracle HTTP Server",
+          "Oracle Weblogic Server Proxy Plug-in"
+        ],
+        "action": "Apply the necessary security updates or mitigations provided by the vendor immediately.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-21962"
+        ],
         "source": "ai"
       }
     },
@@ -1441,32 +1518,6 @@
         "whyItMatters": "It provides academic insight into the mechanisms of financial and entrepreneurial fraud.",
         "affected": [],
         "action": "Read the research paper for more details on fraud patterns.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Security vets rally around $4 paper password books for sale in Australia",
-      "link": "https://www.theregister.com/security/2026/08/24/security-vets-rally-around-4-paper-password-books-for-sale-in-australia/5291234",
-      "source": "The Register",
-      "publishedAt": "2026-08-24T10:17:00.000Z",
-      "summary": "Once shunned by the IT crowd, pen-and-paper password vaults are getting the love they deserve in 2026",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Security professionals are increasingly endorsing simple pen-and-paper password books as a viable alternative to digital storage. These four-dollar physical notebooks are gaining popularity in 2026 for personal credential management.",
-        "whyItMatters": "Physical password books are immune to remote cyberattacks, offering a secure offline option for users overwhelmed by digital security tools.",
-        "affected": [],
-        "action": "Consider using physical password books for offline backup if digital password managers are not preferred.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -1887,6 +1938,73 @@
       }
     },
     {
+      "title": "DSA-6463-1 webkit2gtk - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00374.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-08-24T00:00:00.000Z",
+      "summary": "The following vulnerabilities have been discovered in the WebKitGTK\nweb engine:\n\nCVE-2026-43804\n\n    Heiko Kiesel discovered that visiting a website may lead to an app\n    denial-of-service.\n\nCVE-2026-64713\n\n    Kwak Kiy",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-43804",
+        "CVE-2026-64713"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Vulnerabilities have been discovered in the WebKitGTK web engine that could lead to an application denial-of-service when visiting a malicious website. Debian has issued a security update to address these issues in the affected packages.",
+        "whyItMatters": "Unpatched denial-of-service vulnerabilities in web engines can lead to application crashes and service disruptions for users browsing the web.",
+        "affected": [
+          "webkit2gtk"
+        ],
+        "action": "Update the webkit2gtk package to the latest security version.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-43804",
+          "CVE-2026-64713"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6462-1 zfs-linux - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00373.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-08-24T00:00:00.000Z",
+      "summary": "Erica Windisch reported several vulnerabilities in the Linux\nimplementation of OpenZFS, a filesystem and volume manager.\n\nThe administrative operations exposed by the /dev/zfs ioctl interface\naccepted the CAP_SYS_ADMIN c",
+      "categories": [
+        "Vulnerability",
+        "Incident Response",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Erica Windisch reported several vulnerabilities in the Linux implementation of OpenZFS. The administrative operations exposed by the /dev/zfs ioctl interface improperly accepted CAP_SYS_ADMIN capabilities.",
+        "whyItMatters": "This flaw could allow unauthorized administrative actions through the ZFS filesystem interface.",
+        "affected": [
+          "zfs-linux"
+        ],
+        "action": "Update the zfs-linux package to the latest security version.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "DSA-6461-1 thunderbird - security update",
       "link": "https://lists.debian.org/debian-security-announce/2026/msg00372.html",
       "source": "Debian Security",
@@ -1970,32 +2088,6 @@
       }
     },
     {
-      "title": "If you're not using AI to attack your own systems, your adversaries will",
-      "link": "https://www.theregister.com/security/2026/08/22/if-youre-not-using-ai-to-attack-your-own-systems-your-adversaries-will/5291346",
-      "source": "The Register",
-      "publishedAt": "2026-08-22T15:02:00.000Z",
-      "summary": "Agents are also the new attack surface - cue defenders' existential angst",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "This opinion piece discusses the growing importance of utilizing artificial intelligence to proactively test and attack one's own systems. It highlights that AI agents are becoming a new attack surface, causing concern for defenders.",
-        "whyItMatters": "It matters because organizations must leverage AI offensively to stay ahead of adversaries who are already adopting these technologies for attacks.",
-        "affected": [],
-        "action": "Incorporate AI-driven testing into your security posture.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "TikTok Agrees to $400 Million Settlement in U.S. Child Privacy Lawsuit",
       "link": "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html",
       "source": "The Hacker News",
@@ -2046,36 +2138,6 @@
         ],
         "action": "Update libnet-dns-perl to the latest security release.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "AWS Security makes an inscrutable choice",
-      "link": "https://www.theregister.com/security/2026/08/22/aws-security-makes-an-inscrutable-choice-corey-quinn/5291446",
-      "source": "The Register",
-      "publishedAt": "2026-08-21T23:42:41.000Z",
-      "summary": "Quarantining leaked credentials is not good enough",
-      "categories": [
-        "Cloud"
-      ],
-      "tags": [
-        "AWS"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "Amazon Web Services Security has been criticized for relying solely on quarantining leaked credentials rather than taking stronger preventive actions. Critics argue this current approach is inadequate for effectively protecting cloud environments from unauthorized access.",
-        "whyItMatters": "Inadequate handling of leaked credentials leaves cloud infrastructure vulnerable to persistent unauthorized access and potential data breaches.",
-        "affected": [
-          "Amazon Web Services"
-        ],
-        "action": "Review cloud credential management and monitoring practices.",
-        "risk": "Medium",
         "relatedCves": [],
         "source": "ai"
       }
@@ -2387,42 +2449,6 @@
       }
     },
     {
-      "title": "USN-8667-1: Linux kernel (KVM) vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8667-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-21T19:27:34.000Z",
-      "summary": "Siebe Devroe, Héloïse Gollier, and Mathy Vanhoef discovered that the WiFi\nimplementation in the Linux kernel did not properly handle aggregated\nframes in mesh networks, due to an incorrect fix for CVE-2020-24588. A\nphysi",
-      "categories": [
-        "Vulnerability",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [
-        "CVE-2020-24588"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Researchers discovered that the Linux kernel's WiFi implementation improperly handles aggregated frames in mesh networks due to an incorrect fix for CVE-2020-24588. This flaw affects the Linux kernel KVM component and could potentially be exploited by attackers.",
-        "whyItMatters": "It leaves Linux systems using mesh networks vulnerable to exploitation because a previous security fix was implemented incorrectly.",
-        "affected": [
-          "Linux kernel"
-        ],
-        "action": "Update your Linux kernel to the latest patched version provided by your distributor.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2020-24588"
-        ],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Apollo discloses data breach from ongoing wave of attacks hitting financial sector",
       "link": "https://cyberscoop.com/apollo-discloses-data-breach-social-engineering-attack/",
       "source": "CyberScoop",
@@ -2532,34 +2558,6 @@
       }
     },
     {
-      "title": "Homeland security cybercops say patch TrueConf (Russia's Zoom) if you're using it",
-      "link": "https://www.theregister.com/patches/2026/08/21/homeland-security-cybercops-say-patch-trueconf-russias-zoom-if-youre-using-it/5291156",
-      "source": "The Register",
-      "publishedAt": "2026-08-21T16:29:00.000Z",
-      "summary": "Ukrainian hacktivists exploiting the bugs, but TrueConf's reach stretches well beyond home turf",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Ukrainian hacktivists are actively exploiting security vulnerabilities in TrueConf, a Russian video conferencing application often described as Russia's Zoom. Homeland security cybercops have urged users to apply available patches immediately.",
-        "whyItMatters": "Active exploitation of collaboration software by hacktivists poses a severe threat to organizational confidentiality and infrastructure security.",
-        "affected": [
-          "TrueConf"
-        ],
-        "action": "Patch TrueConf immediately.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "U.S. Bank says breach claims related to fourth-party incident",
       "link": "https://therecord.media/us-bank-says-breach-claims-related-to-fourth-party-incident",
       "source": "The Record",
@@ -2608,59 +2606,6 @@
         "affected": [],
         "action": "Monitor the GAO probe developments.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Canada’s Hospital for Sick Children attacked by cybercriminals again as employee data stolen",
-      "link": "https://therecord.media/canada-hospital-for-sick-children-attacked-again-employee-data",
-      "source": "The Record",
-      "publishedAt": "2026-08-21T15:00:00.000Z",
-      "summary": "The Hospital for Sick Children — which was hit in a ransomware incident in 2022 that disabled some of its systems — released a statement on Thursday warning of a data theft incident they believe is tied to a third-party ",
-      "categories": [
-        "Ransomware",
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "high",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Canada's Hospital for Sick Children has suffered another cyberattack, resulting in the theft of employee data. The incident is believed to be tied to a third-party vendor.",
-        "whyItMatters": "This breach highlights the ongoing vulnerability of critical healthcare infrastructure and the severe risks posed by third-party vendor compromises.",
-        "affected": [],
-        "action": "Review third-party vendor security controls and monitor for unauthorized data exposure.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Hackers poison popular Rust crates to steal developers' credentials",
-      "link": "https://www.theregister.com/security/2026/08/21/hackers-poison-popular-rust-crates-to-steal-developers-credentials/5291075",
-      "source": "The Register",
-      "publishedAt": "2026-08-21T14:57:00.000Z",
-      "summary": "Malicious updates turned routine builds into a delivery system for infostealer malware",
-      "categories": [
-        "Malware"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Malicious updates were recently discovered in popular Rust crates designed to infiltrate developer builds. These compromised packages act as a delivery mechanism for infostealer malware aimed at harvesting sensitive credentials.",
-        "whyItMatters": "This supply chain attack compromises the integrity of developer environments, potentially exposing critical credentials and proprietary code.",
-        "affected": [],
-        "action": "Review and audit all recently downloaded Rust crates for unauthorized modifications.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -3178,36 +3123,6 @@
         ],
         "action": "Avoid downloading unverified software updates for vehicle head units.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Cisco bug severity warning reads like Olympic gymnastics scores: 10, 10, 9.9, 9.6, and 7.5.",
-      "link": "https://www.theregister.com/security/2026/08/21/cisco-bug-severity-warning-reads-like-olympic-gymnastics-scores-10-10-99-96-and-75/5290838",
-      "source": "The Register",
-      "publishedAt": "2026-08-21T05:33:08.000Z",
-      "summary": "Secure Workload Software has five nasty flaws and even SaaS users have updates to install",
-      "categories": [
-        "News"
-      ],
-      "tags": [
-        "Cisco"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Cisco has disclosed five significant vulnerabilities affecting its Secure Workload Software, impacting both on-premise and SaaS deployments. The flaws carry severe severity ratings ranging from 7.5 up to the maximum score of 10.",
-        "whyItMatters": "These critical vulnerabilities could allow attackers to compromise vulnerable systems if left unpatched.",
-        "affected": [
-          "Cisco Secure Workload Software"
-        ],
-        "action": "Apply the available updates from Cisco immediately.",
-        "risk": "Critical",
         "relatedCves": [],
         "source": "ai"
       }
@@ -4207,62 +4122,6 @@
       }
     },
     {
-      "title": "DSA-6455-1 chromium - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00366.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-08-20T00:00:00.000Z",
-      "summary": "Security issues were discovered in Chromium which could result\nin the execution of arbitrary code, denial of service, or information\ndisclosure.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6455-1",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Multiple security issues have been discovered in the Chromium browser that could potentially lead to arbitrary code execution, denial of service, or information disclosure. Debian has released a security update to address these vulnerabilities.",
-        "whyItMatters": "Exploitation of these browser vulnerabilities could allow attackers to execute arbitrary code or compromise user data.",
-        "affected": [
-          "Chromium"
-        ],
-        "action": "Update Chromium to the latest version provided by Debian.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6454-1 sabnzbdplus - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00365.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-08-20T00:00:00.000Z",
-      "summary": "It was discovered that the password protection of the web UI of the\nSABnzbd+ binary news reader/grabber could be bypassed.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6454-1",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A security vulnerability was discovered in the SABnzbd+ binary news reader and grabber. The issue allows attackers to bypass the password protection of the web user interface.",
-        "whyItMatters": "This flaw could allow unauthorized users to access and control the SABnzbd+ web interface without authentication.",
-        "affected": [
-          "SABnzbd+"
-        ],
-        "action": "Update sabnzbdplus to the latest patched version provided by your distributor.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Smashing Security podcast #481: Never say this to a robot dog",
       "link": "https://grahamcluley.com/smashing-security-podcast-481/",
       "source": "Graham Cluley",
@@ -4344,34 +4203,6 @@
           "Visual Studio Code Azure SQL extension"
         ],
         "action": "Update your Visual Studio Code extensions to explore the new keyboard shortcut customization options.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "[In preview] Public Preview: SQL Formatter in MSSQL extension",
-      "link": "https://azure.microsoft.com/updates?id=569155",
-      "source": "Azure Updates",
-      "publishedAt": "2026-08-19T21:00:19.000Z",
-      "summary": "With SQL Formatter, you can format SQL scripts directly in your editor for cleaner, more consistent, and readable code. Now in public preview, it includes more customizable formatting options to match your preferred codi",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has released a public preview of the SQL Formatter feature within the MSSQL extension. This tool allows developers to format SQL scripts directly in their editor for cleaner and more readable code.",
-        "whyItMatters": "It improves developer productivity and code consistency by introducing customizable SQL formatting options within the MSSQL extension.",
-        "affected": [
-          "MSSQL extension"
-        ],
-        "action": "Update the MSSQL extension to explore the new SQL Formatter preview.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -4660,6 +4491,34 @@
       }
     },
     {
+      "title": "Defending Against an Active Threat to Siemens S7 Series PLCs",
+      "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-231a",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-08-19T12:00:00.000Z",
+      "summary": "Executive summary\nNote: This advisory relates to an active threat to Siemens S7 Series programmable logic controllers (PLCs). However, ongoing PLC targeting activity is broader than Siemens PLCs. All PLC owners and opera",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Siemens S7 Series programmable logic controllers are currently facing an active cybersecurity threat in the wild. While this specific advisory highlights Siemens devices, the malicious targeting activity is actively impacting a broader range of PLC brands and owners.",
+        "whyItMatters": "Active exploitation of programmable logic controllers poses a critical risk to industrial control systems and physical infrastructure operations.",
+        "affected": [
+          "Siemens S7 Series PLCs"
+        ],
+        "action": "Review and secure industrial control system networks immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/08/19/cisa-adds-one-known-exploited-vulnerability-catalog",
       "source": "CISA Advisories",
@@ -4690,34 +4549,6 @@
         "relatedCves": [
           "CVE-2026-64849"
         ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Defending Against an Active Threat to Siemens S7 Series PLCs",
-      "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-231a",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-08-19T12:00:00.000Z",
-      "summary": "Executive summary\nNote: This advisory relates to an active threat to Siemens S7 Series programmable logic controllers (PLCs). However, ongoing PLC targeting activity is broader than Siemens PLCs. All PLC owners and opera",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Siemens S7 Series programmable logic controllers are currently facing an active cybersecurity threat in the wild. While this specific advisory highlights Siemens devices, the malicious targeting activity is actively impacting a broader range of PLC brands and owners.",
-        "whyItMatters": "Active exploitation of programmable logic controllers poses a critical risk to industrial control systems and physical infrastructure operations.",
-        "affected": [
-          "Siemens S7 Series PLCs"
-        ],
-        "action": "Review and secure industrial control system networks immediately.",
-        "risk": "Critical",
-        "relatedCves": [],
         "source": "ai"
       }
     },
@@ -4987,36 +4818,6 @@
         "whyItMatters": "Organizations can no longer rely on patching everything, necessitating a fundamental shift in how vulnerabilities are prioritized and managed.",
         "affected": [],
         "action": "Adopt risk-based vulnerability prioritization strategies instead of relying solely on traditional patch cycles.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CISA Malcolm",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-230-01",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-08-18T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition or execute arbitrary code.\nThe following versions of CISA Malcolm are affected:\nMalcolm <2",
-      "categories": [
-        "Vulnerability",
-        "Government",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CISA has released an advisory for vulnerabilities in Malcolm versions prior to 2. Successful exploitation of these flaws could allow attackers to trigger a denial-of-service condition or execute arbitrary code.",
-        "whyItMatters": "Unpatched systems running affected versions of CISA Malcolm are vulnerable to remote code execution and denial-of-service attacks.",
-        "affected": [
-          "CISA Malcolm <2"
-        ],
-        "action": "Update CISA Malcolm to version 2 or later.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -5727,6 +5528,214 @@
         "affected": [],
         "action": "Monitor for phishing campaigns utilizing the JWR framework and educate users on verifying payment page authenticity.",
         "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Black Hat USA 2026: What the Hugging Face hack tells us about human responsibility",
+      "link": "https://www.welivesecurity.com/en/business-security/black-hat-usa-2026-hugging-face-hack-human-responsibility/",
+      "source": "WeLiveSecurity",
+      "publishedAt": "2026-08-13T09:00:00.000Z",
+      "summary": "The incident involving OpenAI models shows that autonomous hacks make human oversight more important, not less",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "An incident involving OpenAI models and a Hugging Face hack highlights the risks of automated security breaches. The event demonstrates that the rise of autonomous hacks makes human oversight more critical than ever.",
+        "whyItMatters": "It emphasizes that despite advancing AI automation in cybersecurity, human responsibility and oversight remain essential to prevent critical breaches.",
+        "affected": [],
+        "action": "Maintain strict human oversight on AI-driven systems and models.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Armored Likho expands its cyber-espionage toolkit",
+      "link": "https://securelist.com/armored-likho-still-toolkit/121033/",
+      "source": "Kaspersky Securelist",
+      "publishedAt": "2026-08-13T08:00:15.000Z",
+      "summary": "Kaspersky experts break down a new Armored Likho campaign that poses as a fundraising efforts and delivers a new Still Toolkit aimed at stealing Telegram data and eavesdropping on victims.",
+      "categories": [
+        "Threat Intel"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Kaspersky researchers have uncovered a new cyber-espionage campaign by Armored Likho that disguises itself as fundraising efforts. The attackers deploy a new Still Toolkit designed to steal Telegram data and eavesdrop on victims.",
+        "whyItMatters": "This campaign represents an active cyber-espionage threat capable of compromising sensitive communication data and user privacy.",
+        "affected": [],
+        "action": "Remain vigilant against unsolicited fundraising messages and ensure security software is up to date.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Smashing Security podcast #480: This is the AI service you should never sign up to",
+      "link": "https://grahamcluley.com/smashing-security-podcast-480/",
+      "source": "Graham Cluley",
+      "publishedAt": "2026-08-12T23:12:28.000Z",
+      "summary": "Would you like access to Anthropic's Claude at 90% off the normal price? All you have to do is redirect your traffic to a mysterious service called \"Poison Claude\". Only problem is that it's run by fraudsters...\r\n\r\nMeanw",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Fraudsters are promoting a fraudulent service called Poison Claude that offers Anthropic's Claude AI at a 90% discount. Users who sign up for this service unknowingly redirect their traffic to malicious operators.",
+        "whyItMatters": "This scam targets users seeking discounts on AI services to intercept their traffic and potentially compromise sensitive data.",
+        "affected": [],
+        "action": "Avoid unofficial third-party AI services offering heavily discounted access.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Guide to Cybersecurity Budget Planning: How Much + How To | Huntress",
+      "link": "https://www.huntress.com/blog/cybersecurity-budget",
+      "source": "Huntress",
+      "publishedAt": "2026-08-12T17:00:00.000Z",
+      "summary": "Planning your cybersecurity budget shouldn't be a headache. See how to protect your business and get the most out of your security spend without the fluff.",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "This article offers a practical guide to planning a cybersecurity budget for businesses. It outlines strategies to protect organizations and maximize the return on security investments without unnecessary complexity.",
+        "whyItMatters": "Effective budget planning ensures organizations allocate adequate resources to mitigate evolving cyber threats.",
+        "affected": [],
+        "action": "Read the guide to optimize your organization's cybersecurity spending.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Black Hat USA 2026: AI is racing ahead of cybersecurity controls",
+      "link": "https://www.welivesecurity.com/en/business-security/black-hat-usa-2026-ai-racing-cybersecurity-controls/",
+      "source": "WeLiveSecurity",
+      "publishedAt": "2026-08-12T13:28:07.000Z",
+      "summary": "AI took center stage, but the clearest lesson was less about what AI can do than about who is accountable when something goes wrong",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "At Black Hat USA 2026, artificial intelligence dominated discussions regarding the fast pace of technological advancement. A primary takeaway from the event centered on determining accountability when AI-related security incidents occur.",
+        "whyItMatters": "It highlights the growing governance and responsibility gap as artificial intelligence development outpaces existing cybersecurity controls.",
+        "affected": [],
+        "action": "Review organizational governance and accountability frameworks for AI deployments.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Akira Hits Safe Mode: Ransomware Rebooting Around EDR",
+      "link": "https://www.huntress.com/blog/akira-hits-safe-mode-ransomware-rebooting-around-edr",
+      "source": "Huntress",
+      "publishedAt": "2026-08-12T13:00:00.000Z",
+      "summary": "An Akira affiliate rebooted into Safe Mode to kill EDR and Defender, then Safe Mode broke their own ransomware. Here’s the full attack chain.",
+      "categories": [
+        "Ransomware"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "high",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "An Akira ransomware affiliate rebooted a compromised system into Safe Mode in an attempt to disable endpoint detection and response (EDR) software and Windows Defender. However, the Safe Mode environment inadvertently prevented their own ransomware payload from executing correctly.",
+        "whyItMatters": "This incident highlights an emerging evasion technique where attackers abuse operating system diagnostic modes to bypass security controls.",
+        "affected": [],
+        "action": "Monitor for unauthorized system reboots into Safe Mode and restrict access to boot configuration settings.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "AI is Working in the SOC. So Why are Security Executives More Worried Than Ever?",
+      "link": "https://www.rapid7.com/blog/post/ai-report-500-security-leaders-reveal-security-operations-transformation",
+      "source": "Rapid7",
+      "publishedAt": "2026-08-12T13:00:00.000Z",
+      "summary": "Something shifted in security operations over the last two years: AI stopped being a pilot program and became the plan.\nAnd if you survey 500 security professionals on whether that's going well – as Omdia did, commission",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Recent industry surveys indicate that artificial intelligence has transitioned from a pilot program into a core component of security operations centers. However, security executives report feeling increasingly worried despite the successful integration of these AI tools.",
+        "whyItMatters": "It highlights a paradox where the broader adoption of operational AI coincides with heightened anxiety among security leadership regarding overall threat management.",
+        "affected": [],
+        "action": "Monitor evolving security leadership perspectives on operational AI integration.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Help shape the future of resilient private 5G",
+      "link": "https://www.ncsc.gov.uk/blogs/help-shape-the-future-of-resilient-private-5g",
+      "source": "NCSC UK",
+      "publishedAt": "2026-08-12T12:00:00.000Z",
+      "summary": "The NCSC wants to collaborate with organisations developing technologies and approaches for secure, resilient and deployable private 5G",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The UK's National Cyber Security Centre is seeking collaboration with organizations to develop secure and resilient private 5G technologies. This initiative aims to shape the future of deployable private 5G solutions.",
+        "whyItMatters": "It promotes the development of stronger cybersecurity standards for emerging private 5G infrastructure.",
+        "affected": [],
+        "action": "Review the NCSC initiative for potential collaboration opportunities.",
+        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
