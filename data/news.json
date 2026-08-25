@@ -1,6 +1,93 @@
 {
-  "updatedAt": "2026-08-25T15:58:35.870Z",
+  "updatedAt": "2026-08-25T16:53:48.698Z",
   "items": [
+    {
+      "title": "Linux Foundation to Govern TRACE, an Open Standard for AI Runtime Attestation",
+      "link": "https://www.securityweek.com/linux-foundation-to-govern-trace-an-open-standard-for-ai-runtime-attestation/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-08-25T16:23:45.000Z",
+      "summary": "TRACE was developed by AMD, Intel, Microsoft, OPAQUE, and TII and contributed to the Linux Foundation.\nThe post Linux Foundation to Govern TRACE, an Open Standard for AI Runtime Attestation appeared first on SecurityWeek",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Major technology companies including AMD, Intel, and Microsoft have developed the TRACE standard for AI runtime attestation. This open standard has now been contributed to the Linux Foundation for future governance.",
+        "whyItMatters": "It establishes a collaborative open standard for securing AI runtimes through attestation.",
+        "affected": [],
+        "action": "Monitor the Linux Foundation for updates on the TRACE standard.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "VU#308749: Remote Code Execution and Arbitrary File Read Vulnerabilities in Kaltura Servers",
+      "link": "https://kb.cert.org/vuls/id/308749",
+      "source": "CERT/CC",
+      "publishedAt": "2026-08-25T16:11:49.036Z",
+      "summary": "Overview\nThe Kaltura HTML5 Player Library (mwEmbed / html5lib) contains two vulnerabilities, both involving the same insecure deserialization flaw, that enable arbitrary file read and remote code execution. Affected vers",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The Kaltura HTML5 Player Library contains two vulnerabilities involving an insecure deserialization flaw. These security issues enable attackers to achieve remote code execution and arbitrary file reads on affected servers.",
+        "whyItMatters": "This vulnerability allows attackers to compromise server integrity and execute arbitrary code, posing a severe threat to organizations using the affected Kaltura software.",
+        "affected": [
+          "Kaltura HTML5 Player Library mwEmbed",
+          "Kaltura HTML5 Player Library html5lib"
+        ],
+        "action": "Update the Kaltura HTML5 Player Library to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "You could've applied all 1,449 Oracle patches and still been hit by this attack",
+      "link": "https://www.theregister.com/security/2026/08/25/you-couldve-applied-all-1449-oracle-patches-and-still-been-hit-by-this-attack/5292335",
+      "source": "The Register",
+      "publishedAt": "2026-08-25T16:09:00.000Z",
+      "summary": "Attackers now ready to exploit how things work, rather than just break them, says Oracle support expert",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Oracle"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Attackers are now exploiting the fundamental behavior of systems rather than just traditional software flaws. This means organizations can be compromised even after applying all available vendor patches.",
+        "whyItMatters": "It highlights a fundamental shift in threat actor methodology from exploiting simple bugs to weaponizing system design.",
+        "affected": [],
+        "action": "Review system architecture and behavior-based monitoring rather than relying solely on patching.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Massive DDoS attack disrupts Norway’s government digital services",
       "link": "https://www.bleepingcomputer.com/news/security/massive-ddos-attack-disrupts-norways-government-digital-services/",
@@ -418,6 +505,74 @@
       }
     },
     {
+      "title": "CVE-2026-70337 Microsoft PowerShell Remote Code Execution Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70337",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-25T14:00:00.000Z",
+      "summary": "Acknowledgement Updated",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-70337"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Microsoft has acknowledged a remote code execution vulnerability designated as CVE-2026-70337 in PowerShell. Further details regarding the update and specifics of the vulnerability remain limited at this time.",
+        "whyItMatters": "Remote code execution flaws in core administrative tools like PowerShell pose severe risks to system integrity and enterprise security.",
+        "affected": [
+          "Microsoft PowerShell"
+        ],
+        "action": "Monitor vendor advisories for patching information.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-70337"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-59127 Windows Installer Elevation of Privilege Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-59127",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-25T14:00:00.000Z",
+      "summary": "Acknowledgement Updated",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [
+        "CVE-2026-59127"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "A vulnerability identified as CVE-2026-59127 has been disclosed affecting the Windows Installer. The issue involves an elevation of privilege vulnerability in the Windows operating system.",
+        "whyItMatters": "This vulnerability matters because it could allow an authenticated attacker to elevate their privileges on a compromised Windows system.",
+        "affected": [
+          "Microsoft Windows"
+        ],
+        "action": "Apply the latest security updates provided by Microsoft.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-59127"
+        ],
+        "source": "ai"
+      }
+    },
+    {
       "title": "CVE-2026-55137 Microsoft Excel Remote Code Execution Vulnerability",
       "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-55137",
       "source": "Microsoft MSRC",
@@ -516,41 +671,6 @@
         "risk": "News",
         "relatedCves": [
           "CVE-2026-49183"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-50333 Windows Spaceport.sys Elevation of Privilege Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50333",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-25T14:00:00.000Z",
-      "summary": "Updated an acknowledgement. This is an informational change only.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [
-        "CVE-2026-50333"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "Acknowledgment details have been updated for CVE-2026-50333, a Windows Spaceport.sys elevation of privilege vulnerability. This update is informational only with no functional changes reported.",
-        "whyItMatters": "It tracks vulnerability acknowledgment updates for a Windows component that could be relevant to privilege escalation risks.",
-        "affected": [
-          "Windows Spaceport.sys"
-        ],
-        "action": "Review vendor advisories for updated acknowledgment details.",
-        "risk": "News",
-        "relatedCves": [
-          "CVE-2026-50333"
         ],
         "source": "ai"
       }
@@ -1618,41 +1738,6 @@
       }
     },
     {
-      "title": "CISA Warns of Exploited Oracle WebLogic Vulnerability",
-      "link": "https://www.securityweek.com/cisa-warns-of-exploited-oracle-weblogic-vulnerability/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-08-25T07:46:34.000Z",
-      "summary": "The vulnerability is tracked as CVE-2026-21962 and it has been widely exploited by threat actors against WebLogic servers.\nThe post CISA Warns of Exploited Oracle WebLogic Vulnerability appeared first on SecurityWeek.",
-      "categories": [
-        "Vulnerability",
-        "Government"
-      ],
-      "tags": [
-        "Oracle"
-      ],
-      "cves": [
-        "CVE-2026-21962"
-      ],
-      "kev": true,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CISA has issued a warning regarding a critical Oracle WebLogic vulnerability tracked as CVE-2026-21962. This security flaw is currently being actively exploited by threat actors in the wild against target servers.",
-        "whyItMatters": "Active exploitation in the wild poses an immediate threat to organizations running vulnerable WebLogic servers, increasing the risk of unauthorized access and system compromise.",
-        "affected": [
-          "Oracle WebLogic"
-        ],
-        "action": "Apply the necessary security updates provided by Oracle immediately.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-21962"
-        ],
-        "source": "ai"
-      }
-    },
-    {
       "title": "AI supply chain risk is showing up in developer workflows first",
       "link": "https://www.helpnetsecurity.com/2026/08/25/jaushin-lee-ai-zentera-systems-supply-chain-risk/",
       "source": "Help Net Security",
@@ -2389,36 +2474,6 @@
       }
     },
     {
-      "title": "Malicious Firefox add-ons caught stealing cryptowallet seed phrases and browser credentials",
-      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/malicious-firefox-add-ons-stealing-cryptowallet-seed-phrases-browser-credentials",
-      "source": "Graham Cluley",
-      "publishedAt": "2026-08-24T15:00:02.000Z",
-      "summary": "Every time you add an extension or plugin to your browser, there's a risk that you might be doing more than managing your cryptocurrency wallet, generating passwords, taking notes, or tracking sports results. There's a c",
-      "categories": [
-        "News"
-      ],
-      "tags": [
-        "Firefox"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Malicious Firefox add-ons have been detected stealing cryptocurrency wallet seed phrases and browser credentials. These fraudulent extensions pose a significant security risk to users by compromising sensitive personal and financial data.",
-        "whyItMatters": "Compromised seed phrases and browser credentials can lead to immediate and irreversible financial theft for cryptocurrency users.",
-        "affected": [
-          "Mozilla Firefox extensions"
-        ],
-        "action": "Remove any untrusted or suspicious extensions from Firefox immediately.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "VU#728712: Konami's Metal Gear Online 3 contains a heap-based buffer overflow",
       "link": "https://kb.cert.org/vuls/id/728712",
       "source": "CERT/CC",
@@ -2612,39 +2667,6 @@
       }
     },
     {
-      "title": "CVE-2026-50661 Windows BitLocker Security Feature Bypass Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50661",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-24T14:00:00.000Z",
-      "summary": "Acknowledgement Updated",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [
-        "CVE-2026-50661"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "A security feature bypass vulnerability has been identified in Windows BitLocker, tracked as CVE-2026-50661. Further details regarding the exact nature of the flaw and affected configurations are currently limited.",
-        "whyItMatters": "This vulnerability could potentially allow attackers to bypass BitLocker encryption protections on vulnerable Windows systems.",
-        "affected": [],
-        "action": "Monitor vendor advisories and apply security patches as soon as they become available.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-50661"
-        ],
-        "source": "ai"
-      }
-    },
-    {
       "title": "ToxicPanda 2.0 can take over your Android phone and banking apps",
       "link": "https://www.malwarebytes.com/blog/mobile/2026/08/toxicpanda-2-0-can-take-over-your-android-phone-and-banking-apps",
       "source": "Malwarebytes Labs",
@@ -2669,32 +2691,6 @@
           "Android"
         ],
         "action": "Remove unauthorized apps and monitor your device for suspicious activity.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Gunra ransomware: what you need to know",
-      "link": "https://www.fortra.com/blog/gunra-ransomware-what-you-need-know",
-      "source": "Graham Cluley",
-      "publishedAt": "2026-08-24T12:52:37.000Z",
-      "summary": "The ransomware gang Gunra has been creating havoc - exploiting unpatched VPNs and firewalls to steal data, encrypt systems, and extort victims across healthcare, finance, manufacturing, and more.\r\n\r\nRead more in my artic",
-      "categories": [
-        "Ransomware"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "high",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A new ransomware gang known as Gunra is causing widespread disruption across critical sectors like healthcare, finance, and manufacturing. The group gains initial access by exploiting unpatched vulnerabilities in virtual private networks (VPNs) and firewalls to steal data and encrypt systems for extortion.",
-        "whyItMatters": "Unpatched edge devices provide cybercriminals with a direct entry point to compromise enterprise networks and deploy disruptive ransomware.",
-        "affected": [],
-        "action": "Patch all corporate VPNs and firewalls immediately.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -3016,32 +3012,6 @@
         "whyItMatters": "This development impacts national voting procedures and the administration of mail-in ballots during elections.",
         "affected": [],
         "action": "Monitor legal updates regarding mail ballot regulations.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "If you're not using AI to attack your own systems, your adversaries will",
-      "link": "https://www.theregister.com/security/2026/08/22/if-youre-not-using-ai-to-attack-your-own-systems-your-adversaries-will/5291346",
-      "source": "The Register",
-      "publishedAt": "2026-08-22T15:02:00.000Z",
-      "summary": "Agents are also the new attack surface - cue defenders' existential angst",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "AI agents are emerging as a new attack surface, prompting defenders to adopt automated adversarial techniques. Organizations must leverage AI-driven offense to secure their systems before adversaries exploit these vulnerabilities.",
-        "whyItMatters": "As attackers increasingly utilize AI agents, defenders must adopt automated offensive strategies to identify and remediate system weaknesses proactively.",
-        "affected": [],
-        "action": "Integrate AI-driven security testing into your defense strategy.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -4504,32 +4474,6 @@
       }
     },
     {
-      "title": "Smashing Security podcast #481: Never say this to a robot dog",
-      "link": "https://grahamcluley.com/smashing-security-podcast-481/",
-      "source": "Graham Cluley",
-      "publishedAt": "2026-08-19T23:10:23.000Z",
-      "summary": "At Black Hat this month, a group of security researchers took a $9,000 robot dog, plugged Google's AI into its brain, and jailbroke it by telling it - with a completely straight face - that it was a Pokemon. What followe",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Security researchers at Black Hat successfully jailbroke a nine-thousand-dollar robot dog integrated with Google's AI. They achieved this by tricking the artificial intelligence into believing it was a Pokemon character.",
-        "whyItMatters": "This demonstration highlights the vulnerability of AI-driven physical machinery to creative prompt injection and social engineering attacks.",
-        "affected": [],
-        "action": "Review AI integration security in physical robotics to prevent unauthorized behavioral manipulation.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "[Launched] Generally Available: Azure Databricks Lakebase in four additional regions",
       "link": "https://azure.microsoft.com/updates?id=569684",
       "source": "Azure Updates",
@@ -5013,32 +4957,6 @@
       }
     },
     {
-      "title": "Prison for data analyst who tried to extort $2.5 million from his employer",
-      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/prison-data-analyst-extort-employer",
-      "source": "Graham Cluley",
-      "publishedAt": "2026-08-19T07:26:50.000Z",
-      "summary": "When Cameron Curry discovered that his contract as a data analyst wasn't going to be renewed, he could have updated his LinkedIn profile. He could have started sending out his resume.\r\n\r\nBut what the 27-year-old from Cha",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A former data analyst was sentenced to prison after attempting to extort 2.5 million dollars from his employer when his contract was not renewed. The malicious insider incident highlights the security risks posed by disgruntled or departing employees with access to sensitive company data.",
-        "whyItMatters": "It demonstrates the severe physical, legal, and financial threats organizations face from malicious insiders attempting corporate extortion.",
-        "affected": [],
-        "action": "Revoke access for departing employees immediately and monitor insider activity.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Benchmaxxing: When the Benchmark Becomes the Target",
       "link": "https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/",
       "source": "CrowdStrike",
@@ -5230,32 +5148,6 @@
         ],
         "action": "Check the vendor CSAF advisory and apply available patches or updates.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "An “invisible” car? Researcher uses machine learning to hide vehicles from Flock cameras",
-      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/invisible-car-machine-learning-hide-vehicle-flock-cameras",
-      "source": "Graham Cluley",
-      "publishedAt": "2026-08-17T14:10:48.000Z",
-      "summary": "A cybersecurity expert has demonstrated how computer-generated patterns can successfully prevent surveillance cameras from detecting vehicles - such as the controversial AI-powered Flock licence plate readers that are be",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A cybersecurity researcher demonstrated how computer-generated patterns can prevent surveillance cameras from detecting vehicles. The technique successfully hides cars from AI-powered Flock license plate readers.",
-        "whyItMatters": "This technique highlights potential vulnerabilities in automated surveillance systems used by law enforcement.",
-        "affected": [],
-        "action": "Monitor developments in adversarial machine learning against computer vision systems.",
-        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
@@ -5765,6 +5657,113 @@
         ],
         "action": "Verify all refund notifications through official merchant channels before taking any action.",
         "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "The State of Ransomware Q2 2026",
+      "link": "https://research.checkpoint.com/2026/the-state-of-ransomware-q2-2026/",
+      "source": "Check Point Research",
+      "publishedAt": "2026-08-13T12:54:35.000Z",
+      "summary": "For the past year, the ransomware conversation has centered on concentration: a handful of dominant RaaS operations controlling most of the damage, and a shrinking pool of active groups fighting over the same territory. ",
+      "categories": [
+        "Ransomware"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "high",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Recent data from the state of ransomware in Q2 2026 highlights a trend toward concentration, with a small number of dominant Ransomware-as-a-Service operations controlling the majority of attacks. Meanwhile, the overall pool of active groups is shrinking as they compete fiercely for the same territory.",
+        "whyItMatters": "This concentration of ransomware operations indicates that targeted disruptions against a few dominant groups could significantly impact the broader threat landscape.",
+        "affected": [],
+        "action": "Monitor threat intelligence feeds for shifts in dominant ransomware group tactics.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "How BitLocker PINs help protect your data and devices",
+      "link": "https://www.ncsc.gov.uk/blogs/how-bitlocker-pins-help-protect-your-data-and-devices",
+      "source": "NCSC UK",
+      "publishedAt": "2026-08-13T12:00:00.000Z",
+      "summary": "Using a PIN mitigates many BitLocker vulnerabilities. Make sure you’re ready for the next one...",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "This article discusses the security benefits of using a PIN with BitLocker to protect data and devices. It advises users to prepare for potential future vulnerabilities by implementing this mitigation.",
+        "whyItMatters": "Enabling a BitLocker PIN enhances device security by mitigating known vulnerabilities that could otherwise expose encrypted data.",
+        "affected": [],
+        "action": "Enable a BitLocker PIN on your compatible devices.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Dissecting the JWR phishing framework",
+      "link": "https://blog.talosintelligence.com/dissecting-the-jwr-phishing-framework/",
+      "source": "Talos Intelligence",
+      "publishedAt": "2026-08-13T10:00:35.000Z",
+      "summary": "Cisco Talos recently identified an undocumented phishing framework, internally branded \"JWR\" by its developer, built to convincingly impersonate checkout and login pages across major payment and shopping platforms.",
+      "categories": [
+        "News"
+      ],
+      "tags": [
+        "Cisco"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Cisco Talos has discovered an undocumented phishing framework named JWR, which is designed to convincingly impersonate checkout and login pages for major shopping and payment platforms. The framework represents a sophisticated tool used by threat actors to deceive users and harvest sensitive credentials.",
+        "whyItMatters": "This new framework poses a significant threat to consumer security by facilitating convincing phishing attacks against high-profile e-commerce and financial platforms.",
+        "affected": [],
+        "action": "Monitor for phishing campaigns utilizing the JWR framework and educate users on verifying authentic login pages.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Black Hat USA 2026: What the Hugging Face hack tells us about human responsibility",
+      "link": "https://www.welivesecurity.com/en/business-security/black-hat-usa-2026-hugging-face-hack-human-responsibility/",
+      "source": "WeLiveSecurity",
+      "publishedAt": "2026-08-13T09:00:00.000Z",
+      "summary": "The incident involving OpenAI models shows that autonomous hacks make human oversight more important, not less",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A recent security incident involving Hugging Face and OpenAI models highlights the growing impact of autonomous hacking techniques. Experts at Black Hat USA 2026 emphasize that these automated threats make rigorous human oversight more critical than ever.",
+        "whyItMatters": "It demonstrates that as attackers increasingly rely on automation and AI, human responsibility and intervention remain essential for effective defense.",
+        "affected": [],
+        "action": "Maintain strong human oversight over automated security workflows.",
+        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
