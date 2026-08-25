@@ -1,6 +1,181 @@
 {
-  "updatedAt": "2026-08-25T20:45:59.219Z",
+  "updatedAt": "2026-08-25T21:43:13.809Z",
   "items": [
+    {
+      "title": "Boardroom Battles 2026: ASD’s Cyber Priorities & AI Risk",
+      "link": "https://www.huntress.com/blog/australian-signals-directorate-cyber-priorities",
+      "source": "Huntress",
+      "publishedAt": "2026-08-27T14:00:00.000Z",
+      "summary": "The Australian Signals Directorate’s 2026 board priorities and frontier AI guidance show why speed alone won’t stop AI-era cyber threats.",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The Australian Signals Directorate has released its 2026 board priorities and frontier AI guidance. The advisory addresses the evolving landscape of AI-era cyber threats and organizational risk management.",
+        "whyItMatters": "It establishes official strategic guidance for organizations to address emerging artificial intelligence cybersecurity risks.",
+        "affected": [],
+        "action": "Review the updated ASD frontier AI guidance.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Hackers abuse npm mirrors to host phishing redirect pages",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-npm-mirrors-to-host-phishing-redirect-pages/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-08-25T21:39:01.000Z",
+      "summary": "Threat actors are abusing npm and its mirrors to host malicious HTML pages that impersonate Cloudflare CAPTCHAs to redirect visitors to attacker-controlled websites. [...]",
+      "categories": [
+        "Open Source"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Threat actors are abusing npm and its mirrors to host malicious HTML pages impersonating Cloudflare CAPTCHAs. These pages are designed to deceive visitors and redirect them to attacker-controlled external websites.",
+        "whyItMatters": "It misuses trusted package repository infrastructure to lend legitimacy to phishing campaigns and evade traditional security filters.",
+        "affected": [],
+        "action": "Monitor and block outbound traffic leading from npm mirrors to known phishing domains.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8666-2: Linux kernel (Azure) vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8666-2",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-25T21:15:06.000Z",
+      "summary": "Siebe Devroe, Héloïse Gollier, and Mathy Vanhoef discovered that the WiFi\nimplementation in the Linux kernel did not properly handle aggregated\nframes in mesh networks, due to an incorrect fix for CVE-2020-24588. A\nphysi",
+      "categories": [
+        "Vulnerability",
+        "Cloud",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux",
+        "Azure"
+      ],
+      "cves": [
+        "CVE-2020-24588"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Security researchers discovered that the Linux kernel's WiFi implementation incorrectly handles aggregated frames in mesh networks due to an incomplete fix for CVE-2020-24588. This vulnerability affects the Linux kernel used in Azure environments.",
+        "whyItMatters": "Flaws in the Linux kernel's network stack can potentially lead to security compromises in cloud and mesh networking deployments.",
+        "affected": [
+          "Linux kernel (Azure)"
+        ],
+        "action": "Update the Linux kernel to the latest patched version provided by your distributor.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2020-24588"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8630-5: Linux kernel (Raspberry Pi) vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8630-5",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-25T21:12:04.000Z",
+      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - x86 architecture;\n  - InfiniBand dri",
+      "categories": [
+        "Vulnerability",
+        "Incident Response",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple security vulnerabilities have been discovered in the Linux kernel for Raspberry Pi. These flaws could potentially allow an attacker to compromise the affected system.",
+        "whyItMatters": "Unpatched kernel vulnerabilities can allow local or remote attackers to fully compromise the underlying operating system.",
+        "affected": [
+          "Linux kernel (Raspberry Pi)"
+        ],
+        "action": "Update the Linux kernel to the latest version provided by your distribution.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Hidden Prompts Trick AI Into False Email Summaries",
+      "link": "https://www.darkreading.com/cyber-risk/hidden-prompts-trick-ai-false-email-summaries",
+      "source": "Dark Reading",
+      "publishedAt": "2026-08-25T21:08:55.000Z",
+      "summary": "With some simple HTML that's invisible to users, attackers can manipulate AI-powered email summarizers into producing malicious information.",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Attackers are utilizing invisible HTML within emails to manipulate AI-powered summarization tools. This technique successfully tricks the artificial intelligence into generating false and potentially malicious information for users.",
+        "whyItMatters": "It matters because users relying on AI to summarize communications can be deceived into trusting malicious or fabricated content.",
+        "affected": [],
+        "action": "Disable AI email summarization features until vendors release patches to filter hidden HTML.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "The GTA VI leaks are breaking the internet. Security researchers have seen this before.",
+      "link": "https://cyberscoop.com/grand-theft-auto-6-data-theft-extortion-leaks/",
+      "source": "CyberScoop",
+      "publishedAt": "2026-08-25T20:51:39.000Z",
+      "summary": "A memecoin, a manifesto, and a week of daily leaks — but to researchers, it's a familiar extortion playbook with an unusually large audience.\nThe post The GTA VI leaks are breaking the internet. Security researchers have",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Massive leaks regarding the upcoming game GTA VI have surfaced online alongside a memecoin and a manifesto. Cybersecurity researchers recognize this pattern as a familiar extortion playbook utilizing a public audience.",
+        "whyItMatters": "High-profile data breaches and subsequent public extortion attempts highlight ongoing vulnerabilities in game development security and intellectual property protection.",
+        "affected": [],
+        "action": "Monitor internal systems for potential unauthorized data access.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "58 arrested in international cybercrime crackdown",
       "link": "https://therecord.media/58-arrested-international-cybercrime-crackdown-interpol",
@@ -1018,6 +1193,72 @@
       }
     },
     {
+      "title": "CVE-2026-59130 AMD Zen Information Disclosure Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-59130",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-25T14:00:00.000Z",
+      "summary": "Updated CWE value.  This is an informational change only.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-59130"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "An informational update has been issued regarding CVE-2026-59130, an information disclosure vulnerability affecting AMD Zen processors. This change exclusively updates the Common Weakness Enumeration (CWE) value without introducing new technical fixes.",
+        "whyItMatters": "It is important for tracking and classification purposes, though it does not represent a new functional change to the vulnerability status.",
+        "affected": [
+          "AMD Zen"
+        ],
+        "action": "Review the updated CWE classification for tracking purposes.",
+        "risk": "News",
+        "relatedCves": [
+          "CVE-2026-59130"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-59131 AMD Zen Information Disclosure Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-59131",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-25T14:00:00.000Z",
+      "summary": "Updated CWE value.  This is an informational change only.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-59131"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "An update has been issued for CVE-2026-59131, which is an information disclosure vulnerability affecting AMD Zen processors. This change solely involves an updated Common Weakness Enumeration (CWE) value for the tracking record.",
+        "whyItMatters": "It clarifies the vulnerability classification for security tracking, though no immediate functional risk or exploit details are provided in this informational update.",
+        "affected": [
+          "AMD Zen processors"
+        ],
+        "action": "Review the updated CWE details for vulnerability tracking purposes.",
+        "risk": "News",
+        "relatedCves": [
+          "CVE-2026-59131"
+        ],
+        "source": "ai"
+      }
+    },
+    {
       "title": "CVE-2026-55137 Microsoft Excel Remote Code Execution Vulnerability",
       "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-55137",
       "source": "Microsoft MSRC",
@@ -1048,76 +1289,6 @@
           "CVE-2026-55137"
         ],
         "source": "heuristic"
-      }
-    },
-    {
-      "title": "CVE-2026-50448 Windows NTFS Remote Code Execution Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50448",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-25T14:00:00.000Z",
-      "summary": "Updated an acknowledgement. This is an informational change only.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [
-        "CVE-2026-50448"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "Microsoft has updated an informational acknowledgement regarding CVE-2026-50448, a remote code execution vulnerability affecting Windows NTFS. The change is strictly informational and does not introduce new technical mitigation steps.",
-        "whyItMatters": "Unresolved remote code execution vulnerabilities in core file systems like NTFS pose severe risks to system integrity and security.",
-        "affected": [
-          "Windows NTFS"
-        ],
-        "action": "Review vendor documentation for official updates regarding this vulnerability.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-50448"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-49183 Windows Clipboard Server Elevation of Privilege Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-49183",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-25T14:00:00.000Z",
-      "summary": "Updated an acknowledgement. This is an informational change only.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [
-        "CVE-2026-49183"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "Microsoft has updated an acknowledgement for CVE-2026-49183, a Windows Clipboard Server elevation of privilege vulnerability. This update is strictly informational with no changes to the vulnerability mechanics.",
-        "whyItMatters": "Understanding advisory updates ensures accurate vulnerability tracking, though this specific change introduces no new risks or functional updates.",
-        "affected": [
-          "Microsoft Windows"
-        ],
-        "action": "Review the advisory update for informational tracking purposes.",
-        "risk": "News",
-        "relatedCves": [
-          "CVE-2026-49183"
-        ],
-        "source": "ai"
       }
     },
     {
@@ -1354,6 +1525,32 @@
         "affected": [],
         "action": "Warn employees to be vigilant against unsolicited recruitment messages on mobile devices.",
         "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "What Good Identity Hardening Looks Like",
+      "link": "https://www.huntress.com/blog/good-identity-hardening",
+      "source": "Huntress",
+      "publishedAt": "2026-08-25T13:00:00.000Z",
+      "summary": "MFA is just the starting line. Learn what mature identity hardening actually looks like, from closing MFA exceptions to catching drift before attackers do.",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "This article discusses mature identity hardening strategies that go beyond basic multi-factor authentication. It emphasizes the importance of eliminating MFA exceptions and continuously monitoring for configuration drift.",
+        "whyItMatters": "Proper identity hardening is crucial for preventing sophisticated cyber attacks that exploit weak authentication configurations.",
+        "affected": [],
+        "action": "Review and harden your organization identity and MFA policies.",
+        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
@@ -1976,32 +2173,6 @@
         "whyItMatters": "It highlights the rapid industry-wide shift toward artificial intelligence and agent-based solutions in the cybersecurity market.",
         "affected": [],
         "action": "Review current security vendor roadmaps for AI integration.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Police arrests dozens of suspects in global cybercrime crackdown",
-      "link": "https://www.bleepingcomputer.com/news/security/police-arrests-dozens-of-suspects-in-global-cybercrime-crackdown/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-08-25T10:53:20.000Z",
-      "summary": "Law enforcement agencies from 22 countries helped identify 263 suspects and arrested 58 individuals linked to cybercrime networks coordinated by African crime groups. [...]",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Law enforcement agencies from 22 countries collaborated on a global crackdown targeting cybercrime networks coordinated by African crime groups. The operation successfully identified 263 suspects and resulted in the arrest of 58 individuals.",
-        "whyItMatters": "This international operation disrupts organized cybercrime networks that inflict significant financial and operational damage globally.",
-        "affected": [],
-        "action": "Review threat intelligence reports regarding international cybercrime syndicates.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -2815,41 +2986,6 @@
       }
     },
     {
-      "title": "USN-8671-1: FFmpeg vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8671-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-24T17:16:26.000Z",
-      "summary": "Adrian Junge was discovered that FFmpeg incorrectly handled certain media\nfiles. An attacker could possibly use this issue to cause a denial of\nservice or execute arbitrary code. (CVE-2026-66036, CVE-2026-66039)\n\nAdrian ",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-66036",
-        "CVE-2026-66039"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "FFmpeg has been found to incorrectly handle certain media files, which could be exploited by an attacker. This flaw may lead to a denial of service or the execution of arbitrary code.",
-        "whyItMatters": "Unpatched media processing vulnerabilities in a widely used library like FFmpeg can allow remote attackers to crash systems or gain code execution.",
-        "affected": [
-          "FFmpeg"
-        ],
-        "action": "Update FFmpeg to the latest patched version.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-66036",
-          "CVE-2026-66039"
-        ],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Iran-linked cyberattack shut down a UK power plant",
       "link": "https://www.theregister.com/security/2026/08/24/iran-linked-cyberattack-shut-down-a-uk-power-plant/5291930",
       "source": "The Register",
@@ -2897,35 +3033,6 @@
         "affected": [],
         "action": "Avoid downloading unauthorized GTA 6 demos or media from unofficial sites.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8670-1: curl vulnerability",
-      "link": "https://ubuntu.com/security/notices/USN-8670-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-24T16:31:26.000Z",
-      "summary": "Joshua Rogers discovered that curl incorrectly handled reusing connections\nwhen client certificate settings changed. This could result in the wrong\nclient certificates being used, contrary to expectations.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Joshua Rogers discovered that curl incorrectly handled reusing connections when client certificate settings changed. This flaw could result in the wrong client certificates being used during connections.",
-        "whyItMatters": "It could lead to authentication bypass or unintended exposure of sensitive client certificate information.",
-        "affected": [
-          "curl"
-        ],
-        "action": "Update curl to the latest patched version.",
-        "risk": "Medium",
         "relatedCves": [],
         "source": "ai"
       }
@@ -3036,36 +3143,6 @@
         "whyItMatters": "This new threat combines classic evasion methods with advanced data-theft capabilities, posing a significant risk of follow-on ransomware deployments.",
         "affected": [],
         "action": "Monitor endpoints for anomalous screen-hijacking behavior and unauthorized credential access attempts.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Malicious Firefox add-ons caught stealing cryptowallet seed phrases and browser credentials",
-      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/malicious-firefox-add-ons-stealing-cryptowallet-seed-phrases-browser-credentials",
-      "source": "Graham Cluley",
-      "publishedAt": "2026-08-24T15:00:02.000Z",
-      "summary": "Every time you add an extension or plugin to your browser, there's a risk that you might be doing more than managing your cryptocurrency wallet, generating passwords, taking notes, or tracking sports results. There's a c",
-      "categories": [
-        "News"
-      ],
-      "tags": [
-        "Firefox"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Malicious Firefox add-ons have been detected stealing cryptocurrency wallet seed phrases and browser credentials. These fraudulent extensions pose a significant security risk to users who install untrusted browser plugins.",
-        "whyItMatters": "This threat directly compromises users' financial assets and sensitive account credentials through stealthy browser extensions.",
-        "affected": [
-          "Mozilla Firefox add-ons"
-        ],
-        "action": "Uninstall any suspicious or untrusted Firefox extensions immediately.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -3265,6 +3342,32 @@
       }
     },
     {
+      "title": "New Partner View for Security Incident Investigations",
+      "link": "https://www.huntress.com/blog/security-incident-investigations-partner-view",
+      "source": "Huntress",
+      "publishedAt": "2026-08-24T14:00:00.000Z",
+      "summary": "See how the Huntress SOC runs security incident investigations from first signal to final resolution, including the ones closed as benign.",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Huntress has introduced a new Partner View feature to provide transparency into how their Security Operations Center investigates security incidents. This tool allows partners to observe the full lifecycle of an investigation from the initial alert to the final resolution, including benign events.",
+        "whyItMatters": "It improves operational visibility and trust between Managed Service Providers and the Huntress SOC by showcasing their investigative processes.",
+        "affected": [],
+        "action": "Review the new Partner View feature documentation to understand the updated incident reporting.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "ToxicPanda 2.0 can take over your Android phone and banking apps",
       "link": "https://www.malwarebytes.com/blog/mobile/2026/08/toxicpanda-2-0-can-take-over-your-android-phone-and-banking-apps",
       "source": "Malwarebytes Labs",
@@ -3289,32 +3392,6 @@
           "Android"
         ],
         "action": "Remove unauthorized apps and monitor your device for suspicious activity.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Gunra ransomware: what you need to know",
-      "link": "https://www.fortra.com/blog/gunra-ransomware-what-you-need-know",
-      "source": "Graham Cluley",
-      "publishedAt": "2026-08-24T12:52:37.000Z",
-      "summary": "The ransomware gang Gunra has been creating havoc - exploiting unpatched VPNs and firewalls to steal data, encrypt systems, and extort victims across healthcare, finance, manufacturing, and more.\r\n\r\nRead more in my artic",
-      "categories": [
-        "Ransomware"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "high",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The Gunra ransomware gang is actively targeting unpatched VPNs and firewalls to breach organizations across multiple industries. The group steals sensitive data, encrypts systems, and demands extortions from victims in sectors such as healthcare, finance, and manufacturing.",
-        "whyItMatters": "It poses a severe threat to critical infrastructure and enterprise networks by exploiting vulnerable perimeter security devices.",
-        "affected": [],
-        "action": "Patch all VPNs and firewalls immediately.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -3686,13 +3763,13 @@
       }
     },
     {
-      "title": "How an Emerging Industrial Protocol Family Could Put OT at Risk",
-      "link": "https://www.darkreading.com/ics-ot-security/how-emerging-industrial-protocol-family-put-ot-at-risk",
-      "source": "Dark Reading",
-      "publishedAt": "2026-08-21T20:24:42.000Z",
-      "summary": "New research shows how attacks against some unprotected TSN protocols could allow attackers to disrupt or manipulate physical processes",
+      "title": "What Is Account Takeover Fraud? A Comprehensive Guide | Huntress",
+      "link": "https://www.huntress.com/blog/account-takeover-what-it-is-and-how-to-protect-against-it",
+      "source": "Huntress",
+      "publishedAt": "2026-08-21T18:00:00.000Z",
+      "summary": "Account takeover (ATO) fraud happens when attackers steal login credentials to access accounts. Learn how to detect and prevent account takeover fraud.",
       "categories": [
-        "Research"
+        "News"
       ],
       "tags": [],
       "cves": [],
@@ -3702,23 +3779,23 @@
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "New research highlights vulnerabilities in unprotected Time-Sensitive Networking (TSN) protocols used in industrial environments. These weaknesses could potentially allow attackers to disrupt or manipulate physical OT processes.",
-        "whyItMatters": "Unprotected industrial protocols can expose critical operational technology to physical disruption and manipulation by malicious actors.",
+        "summary": "Account takeover fraud occurs when malicious actors steal login credentials to gain unauthorized access to user accounts. This educational guide by Huntress outlines strategies for detecting and preventing such fraudulent activities.",
+        "whyItMatters": "Understanding and preventing account takeover fraud is critical for protecting sensitive user data and maintaining organizational security.",
         "affected": [],
-        "action": "Review and secure TSN protocol implementations in industrial networks.",
-        "risk": "High",
+        "action": "Review credential monitoring and implement multi-factor authentication to prevent unauthorized access.",
+        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
     },
     {
-      "title": "Apollo discloses data breach from ongoing wave of attacks hitting financial sector",
-      "link": "https://cyberscoop.com/apollo-discloses-data-breach-social-engineering-attack/",
-      "source": "CyberScoop",
-      "publishedAt": "2026-08-21T19:14:28.000Z",
-      "summary": "The private equity firm said attackers broke into some of its cloud platforms during a five-day period in early July, compromising sensitive personal data.\nThe post Apollo discloses data breach from ongoing wave of attac",
+      "title": "RMM Abuse: How Attackers Exploit Remote Access Tools | Huntress",
+      "link": "https://www.huntress.com/blog/rmm-abuse-trusted-tools-untrusted-hands",
+      "source": "Huntress",
+      "publishedAt": "2026-08-21T17:00:00.000Z",
+      "summary": "RMM abuse jumped 277% & now shows up nearly 40% of Huntress investigations. See how attackers exploit trusted remote access tools, and how to stop it.",
       "categories": [
-        "Incident Response"
+        "Vulnerability"
       ],
       "tags": [],
       "cves": [],
@@ -3728,10 +3805,10 @@
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "Private equity firm Apollo disclosed a data breach after attackers compromised some of its cloud platforms over a five-day period in early July. The unauthorized access resulted in the compromise of sensitive personal data amidst an ongoing wave of attacks targeting the financial sector.",
-        "whyItMatters": "This incident highlights the escalating risk and successful targeting of cloud platforms within the financial sector by malicious actors.",
+        "summary": "Huntress reports a 277 percent increase in remote monitoring and management (RMM) abuse, which now appears in nearly 40 percent of their investigations. The article discusses how malicious actors are increasingly exploiting trusted remote access tools to compromise systems.",
+        "whyItMatters": "Attackers leverage legitimate administrative tools to blend in with normal network traffic, making unauthorized access harder to detect.",
         "affected": [],
-        "action": "Review cloud security controls and monitor for unauthorized access.",
+        "action": "Audit and restrict the use of unauthorized remote monitoring and management tools across your network.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -4653,32 +4730,6 @@
       }
     },
     {
-      "title": "Smashing Security podcast #481: Never say this to a robot dog",
-      "link": "https://grahamcluley.com/smashing-security-podcast-481/",
-      "source": "Graham Cluley",
-      "publishedAt": "2026-08-19T23:10:23.000Z",
-      "summary": "At Black Hat this month, a group of security researchers took a $9,000 robot dog, plugged Google's AI into its brain, and jailbroke it by telling it - with a completely straight face - that it was a Pokemon. What followe",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Security researchers at Black Hat demonstrated how to jailbreak a robot dog by integrating Google's AI and convincing it that it was a Pokemon character. This experiment highlights the novel security challenges introduced when combining artificial intelligence with physical robotic systems.",
-        "whyItMatters": "It demonstrates how easily AI-controlled physical hardware can be manipulated through prompt injection and semantic jailbreaking.",
-        "affected": [],
-        "action": "Monitor emerging security research regarding AI integration in robotics.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "VU#874418: RDK-B WebUI contains multiple vulnerabilities",
       "link": "https://kb.cert.org/vuls/id/874418",
       "source": "CERT/CC",
@@ -4961,6 +5012,33 @@
       }
     },
     {
+      "title": "Post-DEF CON Phishing Uses Malicious Google Doc to Deliver Malware",
+      "link": "https://www.huntress.com/blog/defcon-phishing-google-doc-malware",
+      "source": "Huntress",
+      "publishedAt": "2026-08-19T13:00:00.000Z",
+      "summary": "Huntress researcher uncovers post-Black Hat & DEF CON phishing campaign using X DMs & malicious documents to deliver AMOS, NetSupport RAT, and other malware.",
+      "categories": [
+        "Malware",
+        "Threat Intel"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A post-DEF CON phishing campaign uses malicious Google Docs delivered via X direct messages to target individuals. The attack deploys various malware strains, including AMOS and the NetSupport RAT, onto victims' devices.",
+        "whyItMatters": "This campaign highlights how threat actors exploit major cybersecurity events to compromise attendees and professionals using trusted platforms.",
+        "affected": [],
+        "action": "Avoid clicking suspicious links or opening unsolicited documents sent via social media direct messages.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "Rapid7 and Licencias OnLine Partner to Accelerate Cybersecurity Maturity across Latin America",
       "link": "https://www.rapid7.com/blog/post/c-licencias-online-partnership-accelerates-latam-cybersecurity-maturity-latin-america",
       "source": "Rapid7",
@@ -5039,32 +5117,6 @@
       }
     },
     {
-      "title": "Prison for data analyst who tried to extort $2.5 million from his employer",
-      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/prison-data-analyst-extort-employer",
-      "source": "Graham Cluley",
-      "publishedAt": "2026-08-19T07:26:50.000Z",
-      "summary": "When Cameron Curry discovered that his contract as a data analyst wasn't going to be renewed, he could have updated his LinkedIn profile. He could have started sending out his resume.\r\n\r\nBut what the 27-year-old from Cha",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Cameron Curry, a former data analyst, was sentenced to prison for attempting to extort $2.5 million from his former employer after learning his contract would not be renewed. The incident highlights an insider threat leading to criminal extortion rather than a traditional software vulnerability.",
-        "whyItMatters": "It demonstrates the serious legal and security risks posed by disgruntled former employees with access to sensitive company data.",
-        "affected": [],
-        "action": "Revoke system access immediately when terminating employee contracts.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Benchmaxxing: When the Benchmark Becomes the Target",
       "link": "https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/",
       "source": "CrowdStrike",
@@ -5085,6 +5137,32 @@
         "whyItMatters": "It matters because benchmark manipulation can create a false sense of security or performance, masking underlying vulnerabilities or inefficiencies.",
         "affected": [],
         "action": "Evaluate systems based on real-world workloads rather than standardized benchmarks.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "A Detection Engineer's Guide for Delegating Work to AI",
+      "link": "https://www.huntress.com/blog/delegating-work-to-ai",
+      "source": "Huntress",
+      "publishedAt": "2026-08-19T04:00:00.000Z",
+      "summary": "Before delegating work to AI, ask one question: can you check the output? A detection engineer on why verification, not trust, decides what tasks you hand over.",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "This article discusses a strategic approach for detection engineers when deciding which tasks to delegate to artificial intelligence. It emphasizes that the key deciding factor for delegation is the ability to thoroughly verify the AI's output rather than blindly trusting it.",
+        "whyItMatters": "It establishes a practical framework for securely and effectively integrating AI tools into cybersecurity operations without introducing undetected errors.",
+        "affected": [],
+        "action": "Ensure you can independently verify any AI-generated output before delegating tasks.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -5227,32 +5305,6 @@
         "affected": [],
         "action": "Adopt risk-based vulnerability prioritization strategies instead of relying solely on traditional patch cycles.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "An “invisible” car? Researcher uses machine learning to hide vehicles from Flock cameras",
-      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/invisible-car-machine-learning-hide-vehicle-flock-cameras",
-      "source": "Graham Cluley",
-      "publishedAt": "2026-08-17T14:10:48.000Z",
-      "summary": "A cybersecurity expert has demonstrated how computer-generated patterns can successfully prevent surveillance cameras from detecting vehicles - such as the controversial AI-powered Flock licence plate readers that are be",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A cybersecurity researcher has demonstrated that computer-generated patterns can successfully hide vehicles from AI-powered surveillance cameras. This technique prevents automated license plate readers, such as Flock cameras, from detecting targeted vehicles.",
-        "whyItMatters": "This technique highlights vulnerabilities in automated surveillance systems that rely heavily on machine learning for vehicle and license plate detection.",
-        "affected": [],
-        "action": "Monitor developments in AI-based surveillance resilience against adversarial patterns.",
-        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
@@ -5634,32 +5686,6 @@
       }
     },
     {
-      "title": "10 Hacker Summer Camp Standouts at Black Hat and DEF CON",
-      "link": "https://www.huntress.com/blog/black-hat-def-con-standouts",
-      "source": "Huntress",
-      "publishedAt": "2026-08-14T04:00:00.000Z",
-      "summary": "From the panels to the villages, Huntress researchers and SOC analysts were all over Hacker Summer Camp this year.  Here’s what stood out at Black Hat and DEF CON.",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Huntress researchers and SOC analysts attended Hacker Summer Camp to explore various panels and villages at Black Hat and DEF CON. The article highlights their top ten standouts from the events.",
-        "whyItMatters": "It provides insight into notable trends and research presented at major cybersecurity conferences.",
-        "affected": [],
-        "action": "Read the full article to learn about the Hacker Summer Camp standouts.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Curiouser and Curiouser",
       "link": "https://blog.talosintelligence.com/curiouser-and-curiouser/",
       "source": "Talos Intelligence",
@@ -5681,32 +5707,6 @@
         "affected": [],
         "action": "Read the newsletter for further insights.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Education Under Attack: The Pattern Behind Recent University Breaches",
-      "link": "https://www.huntress.com/blog/why-is-education-under-attack",
-      "source": "Huntress",
-      "publishedAt": "2026-08-13T15:00:00.000Z",
-      "summary": "Four university breaches, one root cause: misconfiguration. See the pattern behind 2026's higher ed cyberattacks and how to fix the gap.",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Recent cyberattacks targeting four universities in 2026 all stem from a single root cause of misconfiguration. Higher education institutions must identify and fix this recurring security gap to prevent further breaches.",
-        "whyItMatters": "It highlights a systemic vulnerability to misconfigurations putting sensitive university data at risk.",
-        "affected": [],
-        "action": "Review and correct system misconfigurations immediately.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
