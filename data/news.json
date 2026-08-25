@@ -1,6 +1,32 @@
 {
-  "updatedAt": "2026-08-25T18:55:46.825Z",
+  "updatedAt": "2026-08-25T19:45:12.118Z",
   "items": [
+    {
+      "title": "Employee benefits platform Paylogix says hackers stole financial and health data",
+      "link": "https://therecord.media/paylogix-cyberattack-akira-ransomware",
+      "source": "The Record",
+      "publishedAt": "2026-08-25T18:45:00.000Z",
+      "summary": "The benefits management firm Paylogix told regulators that hackers stole sensitive information on tens of thousands of people from its systems.",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Employee benefits management firm Paylogix reported that hackers breached its systems and stole sensitive data. The stolen information includes financial and health records belonging to tens of thousands of individuals.",
+        "whyItMatters": "This incident exposes large amounts of highly sensitive financial and health data to potential identity theft and fraud.",
+        "affected": [],
+        "action": "Monitor affected accounts for unauthorized activity.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Arrested man allegedly impersonated NSA elite hacking unit, Supreme Court chief justice",
       "link": "https://cyberscoop.com/arrested-man-allegedly-impersonated-nsa-elite-hacking-unit-supreme-court-chief-justice/",
@@ -22,6 +48,33 @@
         "whyItMatters": "Impersonating high-ranking government and intelligence officials undermines national security trust and can facilitate sophisticated social engineering or fraud.",
         "affected": [],
         "action": "Verify the identity of individuals claiming to represent elite government or intelligence units.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "U.S. Sanctions Iran-Linked Hackers Behind Critical Infrastructure Breaches",
+      "link": "https://thehackernews.com/2026/08/us-sanctions-iran-linked-hackers-behind.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-25T18:17:17.000Z",
+      "summary": "The U.S. Department of the Treasury has announced fresh sanctions on Iranian cyber actors as part of what it called an \"unprecedented, whole-of-government, economic campaign\" against the nation and its enablers.\n\n\"We are",
+      "categories": [
+        "Threat Intel",
+        "Government"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The U.S. Department of the Treasury has announced fresh sanctions against Iran-linked hackers involved in critical infrastructure breaches. This action is part of a broader, whole-of-government economic campaign targeting the nation and its cyber enablers.",
+        "whyItMatters": "It highlights aggressive U.S. government efforts to deter state-sponsored cyberattacks against critical infrastructure through financial penalties.",
+        "affected": [],
+        "action": "Review the treasury announcement for details on the sanctioned entities.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -53,6 +106,35 @@
         ],
         "action": "Review Azure documentation to determine if the new VM sizes benefit your workloads.",
         "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8678-1: OpenSSL vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8678-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-25T17:38:49.000Z",
+      "summary": "It was discovered that OpenSSL incorrectly handled the QUIC server incoming\nchannel queue. A remote attacker could possibly use this issue to cause\nOpenSSL to use excessive resources, leading to a denial of service. This",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A vulnerability was discovered in OpenSSL involving incorrect handling of the QUIC server incoming channel queue. This flaw allows a remote attacker to consume excessive resources and trigger a denial of service.",
+        "whyItMatters": "It matters because a remote attacker can exploit this flaw to disrupt services relying on OpenSSL for QUIC connections.",
+        "affected": [
+          "OpenSSL"
+        ],
+        "action": "Update OpenSSL to the latest patched version.",
+        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -1804,36 +1886,6 @@
       }
     },
     {
-      "title": "Attackers Target miniOrange SAML Flaws That Can Grant WordPress Admin Access",
-      "link": "https://thehackernews.com/2026/08/attackers-target-miniorange-saml-flaws.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-25T08:34:07.000Z",
-      "summary": "Bad actors are attempting to exploit two severe unauthenticated authentication bypasses in the Xecurify miniOrange SAML 2.0 Single Sign On plugin that make it possible for an attacker to sign in as any WordPress user, in",
-      "categories": [
-        "Vulnerability"
-      ],
-      "tags": [
-        "WordPress"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Threat actors are actively attempting to exploit two severe unauthenticated authentication bypasses in the Xecurify miniOrange SAML 2.0 Single Sign On plugin for WordPress. These flaws allow attackers to successfully sign in as any user, potentially granting administrative access.",
-        "whyItMatters": "This vulnerability allows complete site takeover by granting unauthenticated attackers full administrative access to vulnerable WordPress sites.",
-        "affected": [
-          "Xecurify miniOrange SAML 2.0 Single Sign On plugin for WordPress"
-        ],
-        "action": "Update the miniOrange SAML plugin immediately to the latest patched version.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Taiwan Charges 9 Over Illegal AI Server Exports to China, Including Nvidia and Super Micro Staff",
       "link": "https://www.securityweek.com/taiwan-charges-9-over-illegal-ai-server-exports-to-china-including-nvidia-and-super-micro-staff/",
       "source": "SecurityWeek",
@@ -2188,37 +2240,6 @@
         "affected": [],
         "action": "Monitor for unusual text-based payloads and update endpoint detection rules to identify WordlistLoader activity.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "New Zealand to pursue social media ban for children under 16",
-      "link": "https://therecord.media/new-zealand-to-pursue-social-media-ban-for-children",
-      "source": "The Record",
-      "publishedAt": "2026-08-24T20:36:00.000Z",
-      "summary": "The legislation would mandate that high-risk social media platforms such as Instagram, TikTok, Snapchat and Facebook take “reasonable steps” to ensure users are over age 16 by using tools like facial age estimation, digi",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "New Zealand is planning to introduce legislation that would ban children under the age of 16 from using high-risk social media platforms. The proposed law would require companies like Instagram, TikTok, Snapchat, and Facebook to implement age-verification tools such as facial age estimation.",
-        "whyItMatters": "This policy represents a significant government intervention into children's digital safety and platform regulation.",
-        "affected": [
-          "Instagram",
-          "TikTok",
-          "Snapchat",
-          "Facebook"
-        ],
-        "action": "Monitor legislative developments regarding age-verification requirements.",
-        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
@@ -2622,6 +2643,36 @@
       }
     },
     {
+      "title": "Malicious Firefox add-ons caught stealing cryptowallet seed phrases and browser credentials",
+      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/malicious-firefox-add-ons-stealing-cryptowallet-seed-phrases-browser-credentials",
+      "source": "Graham Cluley",
+      "publishedAt": "2026-08-24T15:00:02.000Z",
+      "summary": "Every time you add an extension or plugin to your browser, there's a risk that you might be doing more than managing your cryptocurrency wallet, generating passwords, taking notes, or tracking sports results. There's a c",
+      "categories": [
+        "News"
+      ],
+      "tags": [
+        "Firefox"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Malicious Firefox add-ons have been detected stealing cryptocurrency wallet seed phrases and browser credentials. These fraudulent extensions pose a significant security risk to users who install untrusted browser plugins.",
+        "whyItMatters": "This threat directly compromises users' financial assets and sensitive account credentials through stealthy browser extensions.",
+        "affected": [
+          "Mozilla Firefox add-ons"
+        ],
+        "action": "Uninstall any suspicious or untrusted Firefox extensions immediately.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "VU#728712: Konami's Metal Gear Online 3 contains a heap-based buffer overflow",
       "link": "https://kb.cert.org/vuls/id/728712",
       "source": "CERT/CC",
@@ -2839,6 +2890,32 @@
           "Android"
         ],
         "action": "Remove unauthorized apps and monitor your device for suspicious activity.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Gunra ransomware: what you need to know",
+      "link": "https://www.fortra.com/blog/gunra-ransomware-what-you-need-know",
+      "source": "Graham Cluley",
+      "publishedAt": "2026-08-24T12:52:37.000Z",
+      "summary": "The ransomware gang Gunra has been creating havoc - exploiting unpatched VPNs and firewalls to steal data, encrypt systems, and extort victims across healthcare, finance, manufacturing, and more.\r\n\r\nRead more in my artic",
+      "categories": [
+        "Ransomware"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "high",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The Gunra ransomware gang is actively targeting unpatched VPNs and firewalls to breach organizations across multiple industries. The group steals sensitive data, encrypts systems, and demands extortions from victims in sectors such as healthcare, finance, and manufacturing.",
+        "whyItMatters": "It poses a severe threat to critical infrastructure and enterprise networks by exploiting vulnerable perimeter security devices.",
+        "affected": [],
+        "action": "Patch all VPNs and firewalls immediately.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -3402,39 +3479,6 @@
           "Linux kernel (NVIDIA)"
         ],
         "action": "Update your Linux kernel packages to the latest version.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8659-2: Linux kernel (HWE) vulnerability",
-      "link": "https://ubuntu.com/security/notices/USN-8659-2",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-21T19:49:55.000Z",
-      "summary": "A security issue was discovered in the Linux kernel.\nAn attacker could possibly use this to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - Open vSwitch;",
-      "categories": [
-        "Vulnerability",
-        "Incident Response",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A security vulnerability has been discovered in the Linux kernel (HWE) affecting the Open vSwitch subsystem. This flaw could potentially allow an attacker to compromise the affected system.",
-        "whyItMatters": "Unpatched kernel vulnerabilities can allow local or remote attackers to compromise system security and integrity depending on the specific attack vector.",
-        "affected": [
-          "Linux kernel (HWE)"
-        ],
-        "action": "Update the Linux kernel to the latest version provided by the distribution.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -4535,6 +4579,32 @@
       }
     },
     {
+      "title": "Smashing Security podcast #481: Never say this to a robot dog",
+      "link": "https://grahamcluley.com/smashing-security-podcast-481/",
+      "source": "Graham Cluley",
+      "publishedAt": "2026-08-19T23:10:23.000Z",
+      "summary": "At Black Hat this month, a group of security researchers took a $9,000 robot dog, plugged Google's AI into its brain, and jailbroke it by telling it - with a completely straight face - that it was a Pokemon. What followe",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Security researchers at Black Hat demonstrated how to jailbreak a robot dog by integrating Google's AI and convincing it that it was a Pokemon character. This experiment highlights the novel security challenges introduced when combining artificial intelligence with physical robotic systems.",
+        "whyItMatters": "It demonstrates how easily AI-controlled physical hardware can be manipulated through prompt injection and semantic jailbreaking.",
+        "affected": [],
+        "action": "Monitor emerging security research regarding AI integration in robotics.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "[Launched] Generally Available: Azure Databricks Lakebase in four additional regions",
       "link": "https://azure.microsoft.com/updates?id=569684",
       "source": "Azure Updates",
@@ -4987,6 +5057,32 @@
       }
     },
     {
+      "title": "Prison for data analyst who tried to extort $2.5 million from his employer",
+      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/prison-data-analyst-extort-employer",
+      "source": "Graham Cluley",
+      "publishedAt": "2026-08-19T07:26:50.000Z",
+      "summary": "When Cameron Curry discovered that his contract as a data analyst wasn't going to be renewed, he could have updated his LinkedIn profile. He could have started sending out his resume.\r\n\r\nBut what the 27-year-old from Cha",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Cameron Curry, a former data analyst, was sentenced to prison for attempting to extort $2.5 million from his former employer after learning his contract would not be renewed. The incident highlights an insider threat leading to criminal extortion rather than a traditional software vulnerability.",
+        "whyItMatters": "It demonstrates the serious legal and security risks posed by disgruntled former employees with access to sensitive company data.",
+        "affected": [],
+        "action": "Revoke system access immediately when terminating employee contracts.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "Benchmaxxing: When the Benchmark Becomes the Target",
       "link": "https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/",
       "source": "CrowdStrike",
@@ -5149,6 +5245,32 @@
         "affected": [],
         "action": "Adopt risk-based vulnerability prioritization strategies instead of relying solely on traditional patch cycles.",
         "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "An “invisible” car? Researcher uses machine learning to hide vehicles from Flock cameras",
+      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/invisible-car-machine-learning-hide-vehicle-flock-cameras",
+      "source": "Graham Cluley",
+      "publishedAt": "2026-08-17T14:10:48.000Z",
+      "summary": "A cybersecurity expert has demonstrated how computer-generated patterns can successfully prevent surveillance cameras from detecting vehicles - such as the controversial AI-powered Flock licence plate readers that are be",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A cybersecurity researcher has demonstrated that computer-generated patterns can successfully hide vehicles from AI-powered surveillance cameras. This technique prevents automated license plate readers, such as Flock cameras, from detecting targeted vehicles.",
+        "whyItMatters": "This technique highlights vulnerabilities in automated surveillance systems that rely heavily on machine learning for vehicle and license plate detection.",
+        "affected": [],
+        "action": "Monitor developments in AI-based surveillance resilience against adversarial patterns.",
+        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
@@ -5629,141 +5751,6 @@
         "whyItMatters": "It raises important strategic questions about how artificial intelligence will shape the future of software development and vulnerability management.",
         "affected": [],
         "action": "Monitor industry trends regarding AI-driven vulnerability discovery.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Fake Refund Scam Hits Shopify Shop App Users",
-      "link": "https://www.huntress.com/blog/shopify-fake-refund-scam",
-      "source": "Huntress",
-      "publishedAt": "2026-08-13T13:00:00.000Z",
-      "summary": "A Shopify fake refund scam has been making the rounds over the past few months, targeting Shopify’s Shop app users directly within the app. Here’s what to know.",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A fake refund scam has been targeting users directly within Shopify's Shop app over the past few months. Attackers use deceptive messages to trick victims into believing they are owed money, leading to financial fraud.",
-        "whyItMatters": "This scam exploits a trusted e-commerce platform to deceive consumers, putting users at direct risk of financial loss.",
-        "affected": [
-          "Shopify Shop app"
-        ],
-        "action": "Verify all refund notifications through official merchant channels before taking any action.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "The State of Ransomware Q2 2026",
-      "link": "https://research.checkpoint.com/2026/the-state-of-ransomware-q2-2026/",
-      "source": "Check Point Research",
-      "publishedAt": "2026-08-13T12:54:35.000Z",
-      "summary": "For the past year, the ransomware conversation has centered on concentration: a handful of dominant RaaS operations controlling most of the damage, and a shrinking pool of active groups fighting over the same territory. ",
-      "categories": [
-        "Ransomware"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "high",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Recent data from the state of ransomware in Q2 2026 highlights a trend toward concentration, with a small number of dominant Ransomware-as-a-Service operations controlling the majority of attacks. Meanwhile, the overall pool of active groups is shrinking as they compete fiercely for the same territory.",
-        "whyItMatters": "This concentration of ransomware operations indicates that targeted disruptions against a few dominant groups could significantly impact the broader threat landscape.",
-        "affected": [],
-        "action": "Monitor threat intelligence feeds for shifts in dominant ransomware group tactics.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "How BitLocker PINs help protect your data and devices",
-      "link": "https://www.ncsc.gov.uk/blogs/how-bitlocker-pins-help-protect-your-data-and-devices",
-      "source": "NCSC UK",
-      "publishedAt": "2026-08-13T12:00:00.000Z",
-      "summary": "Using a PIN mitigates many BitLocker vulnerabilities. Make sure you’re ready for the next one...",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "This article discusses the security benefits of using a PIN with BitLocker to protect data and devices. It advises users to prepare for potential future vulnerabilities by implementing this mitigation.",
-        "whyItMatters": "Enabling a BitLocker PIN enhances device security by mitigating known vulnerabilities that could otherwise expose encrypted data.",
-        "affected": [],
-        "action": "Enable a BitLocker PIN on your compatible devices.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Dissecting the JWR phishing framework",
-      "link": "https://blog.talosintelligence.com/dissecting-the-jwr-phishing-framework/",
-      "source": "Talos Intelligence",
-      "publishedAt": "2026-08-13T10:00:35.000Z",
-      "summary": "Cisco Talos recently identified an undocumented phishing framework, internally branded \"JWR\" by its developer, built to convincingly impersonate checkout and login pages across major payment and shopping platforms.",
-      "categories": [
-        "News"
-      ],
-      "tags": [
-        "Cisco"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Cisco Talos has discovered an undocumented phishing framework named JWR, which is designed to convincingly impersonate checkout and login pages for major shopping and payment platforms. The framework represents a sophisticated tool used by threat actors to deceive users and harvest sensitive credentials.",
-        "whyItMatters": "This new framework poses a significant threat to consumer security by facilitating convincing phishing attacks against high-profile e-commerce and financial platforms.",
-        "affected": [],
-        "action": "Monitor for phishing campaigns utilizing the JWR framework and educate users on verifying authentic login pages.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Black Hat USA 2026: What the Hugging Face hack tells us about human responsibility",
-      "link": "https://www.welivesecurity.com/en/business-security/black-hat-usa-2026-hugging-face-hack-human-responsibility/",
-      "source": "WeLiveSecurity",
-      "publishedAt": "2026-08-13T09:00:00.000Z",
-      "summary": "The incident involving OpenAI models shows that autonomous hacks make human oversight more important, not less",
-      "categories": [
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A recent security incident involving Hugging Face and OpenAI models highlights the growing impact of autonomous hacking techniques. Experts at Black Hat USA 2026 emphasize that these automated threats make rigorous human oversight more critical than ever.",
-        "whyItMatters": "It demonstrates that as attackers increasingly rely on automation and AI, human responsibility and intervention remain essential for effective defense.",
-        "affected": [],
-        "action": "Maintain strong human oversight over automated security workflows.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
