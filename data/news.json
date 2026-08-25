@@ -1,6 +1,62 @@
 {
-  "updatedAt": "2026-08-25T17:44:13.629Z",
+  "updatedAt": "2026-08-25T18:55:46.825Z",
   "items": [
+    {
+      "title": "Arrested man allegedly impersonated NSA elite hacking unit, Supreme Court chief justice",
+      "link": "https://cyberscoop.com/arrested-man-allegedly-impersonated-nsa-elite-hacking-unit-supreme-court-chief-justice/",
+      "source": "CyberScoop",
+      "publishedAt": "2026-08-25T18:43:21.000Z",
+      "summary": "Joshua Culver, aka “Maverick Young,” is accused of imitating the head of the NSA’s Tailored Access Operations unit during a time it wasn’t called that.\nThe post Arrested man allegedly impersonated NSA elite hacking unit,",
+      "categories": [
+        "Government"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Joshua Culver, also known as Maverick Young, was arrested for allegedly impersonating the head of the NSA's elite Tailored Access Operations unit and the Supreme Court chief justice. The suspect used these false high-profile identities during his fraudulent activities.",
+        "whyItMatters": "Impersonating high-ranking government and intelligence officials undermines national security trust and can facilitate sophisticated social engineering or fraud.",
+        "affected": [],
+        "action": "Verify the identity of individuals claiming to represent elite government or intelligence units.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "[Launched] Generally Available: Azure 248 and 372 vCPU sizes for D/E v7 series VMs",
+      "link": "https://azure.microsoft.com/updates?id=569546",
+      "source": "Azure Updates",
+      "publishedAt": "2026-08-25T18:05:54.000Z",
+      "summary": "Azure announces the general availability of 248 and 372 vCPU Dl/D/E v7 VM sizes, powered by Intel® Xeon® 6 processors. These general-purpose and memory-optimized VMs deliver up to 20% better compute performance than prio",
+      "categories": [
+        "Cloud"
+      ],
+      "tags": [
+        "Azure"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft has announced the general availability of new Azure 248 and 372 vCPU virtual machine sizes for the D/E v7 series. These new VMs are powered by Intel Xeon 6 processors and deliver up to 20 percent better compute performance compared to prior generations.",
+        "whyItMatters": "This release provides cloud customers with significantly larger and faster compute and memory options for demanding enterprise workloads.",
+        "affected": [
+          "Azure D/E v7 series VMs"
+        ],
+        "action": "Review Azure documentation to determine if the new VM sizes benefit your workloads.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Water sector passes, government sector fails attempts to spot and halt simulated CISA attack",
       "link": "https://cyberscoop.com/cisa-red-team-report-government-water-cybersecurity/",
@@ -23,6 +79,38 @@
         "affected": [],
         "action": "Review incident response protocols to ensure rapid detection and isolation capabilities.",
         "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8670-2: curl vulnerability",
+      "link": "https://ubuntu.com/security/notices/USN-8670-2",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-25T16:30:06.000Z",
+      "summary": "USN-8670-1 fixed a vulnerability in curl. This update provides the\ncorresponding update for Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, and Ubuntu\n22.04 LTS.\n\nOriginal advisory details:\n\n Joshua Rogers discovered that curl incor",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Ubuntu has released security updates for multiple versions of the operating system to address a vulnerability in the curl data transfer tool. This advisory follows an initial fix to provide corresponding patches for Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, and Ubuntu 22.04 LTS.",
+        "whyItMatters": "Unpatched curl vulnerabilities could potentially expose systems to security risks such as data leakage or remote attacks depending on the specific flaw.",
+        "affected": [
+          "Ubuntu 18.04 LTS",
+          "Ubuntu 20.04 LTS",
+          "Ubuntu 22.04 LTS",
+          "curl"
+        ],
+        "action": "Update curl to the latest available version for your Ubuntu distribution.",
+        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -1103,6 +1191,40 @@
         "action": "Review the CISA red team insights to strengthen your SOC operations.",
         "risk": "News",
         "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/08/25/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-08-25T12:00:00.000Z",
+      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  \nCVE-2026-60004 Gitea Code Injection Vulnerability\nThis type of vulnerability is a fre",
+      "categories": [
+        "Vulnerability",
+        "Government",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-60004"
+      ],
+      "kev": true,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "CISA has added a new vulnerability to its Known Exploited Vulnerabilities Catalog following evidence of active exploitation in the wild. The newly listed issue is identified as CVE-2026-60004, a code injection vulnerability affecting Gitea.",
+        "whyItMatters": "Active exploitation of this code injection vulnerability poses a severe risk to organizations using Gitea, as attackers could leverage it to execute arbitrary code.",
+        "affected": [
+          "Gitea"
+        ],
+        "action": "Apply the latest security updates or mitigations provided by Gitea immediately.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-60004"
+        ],
         "source": "ai"
       }
     },
@@ -3319,40 +3441,6 @@
       }
     },
     {
-      "title": "USN-8668-1: Linux kernel (GCP) vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8668-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-21T19:45:48.000Z",
-      "summary": "Maxim Suhanov discovered that the NTFS file system implementation in the\nLinux kernel did not properly validate file name length in certain\nsituations, leading to an out-of-bounds read. An attacker could use this to\ncons",
-      "categories": [
-        "Vulnerability",
-        "Cloud",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux",
-        "GCP"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Maxim Suhanov discovered that the NTFS file system implementation in the Linux kernel fails to properly validate file name lengths in certain situations. This flaw results in an out-of-bounds read vulnerability that could be exploited by an attacker.",
-        "whyItMatters": "Unvalidated file name lengths in the kernel's NTFS implementation can lead to out-of-bounds reads, potentially compromising system stability or leaking sensitive memory data.",
-        "affected": [
-          "Linux kernel (GCP)"
-        ],
-        "action": "Update the Linux kernel to the latest patched version provided by your vendor.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Apollo discloses data breach from ongoing wave of attacks hitting financial sector",
       "link": "https://cyberscoop.com/apollo-discloses-data-breach-social-engineering-attack/",
       "source": "CyberScoop",
@@ -3456,33 +3544,6 @@
         "whyItMatters": "This technology lowers the barrier to creating custom biological agents, raising significant biosecurity and safety concerns.",
         "affected": [],
         "action": "Monitor developments in AI-driven biotechnology and establish robust biosecurity guidelines.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Lawmakers seek watchdog review of federal hacking of Americans",
-      "link": "https://cyberscoop.com/watchdog-review-federal-government-hacking-americans/",
-      "source": "CyberScoop",
-      "publishedAt": "2026-08-21T15:05:33.000Z",
-      "summary": "Sen. Ron Wyden and Rep. Greg Casar want a GAO probe on the government’s use of spyware and other sophisticated hacking tools and authorities.\nThe post Lawmakers seek watchdog review of federal hacking of Americans appear",
-      "categories": [
-        "Malware",
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Lawmakers Senator Ron Wyden and Representative Greg Casar are requesting a Government Accountability Office probe into the federal government's use of spyware and hacking tools against Americans. The inquiry aims to review how federal agencies utilize sophisticated surveillance and hacking authorities.",
-        "whyItMatters": "This review addresses critical oversight concerns regarding potential government overreach and the privacy rights of citizens regarding federal hacking tools.",
-        "affected": [],
-        "action": "Monitor the GAO probe developments.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -4504,37 +4565,6 @@
       }
     },
     {
-      "title": "[Launched] Generally Available: Azure SQL updates for mid-August 2026",
-      "link": "https://azure.microsoft.com/updates?id=569145",
-      "source": "Azure Updates",
-      "publishedAt": "2026-08-19T21:01:47.000Z",
-      "summary": "In mid-August 2026, the following updates and enhancements were made to Azure SQL: You can customize keyboard shortcuts for Quick Queries, the Results Grid, and the Query Editor directly within Visual Studio Code—without",
-      "categories": [
-        "Cloud"
-      ],
-      "tags": [
-        "Azure"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has released general availability updates for Azure SQL in mid-August 2026. The new enhancements include the ability to customize keyboard shortcuts for Quick Queries, the Results Grid, and the Query Editor directly within Visual Studio Code.",
-        "whyItMatters": "It introduces minor workflow customization features for developers using Azure SQL with Visual Studio Code.",
-        "affected": [
-          "Azure SQL",
-          "Visual Studio Code Azure SQL extension"
-        ],
-        "action": "Update your Visual Studio Code extensions to explore the new keyboard shortcut customization options.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "VU#874418: RDK-B WebUI contains multiple vulnerabilities",
       "link": "https://kb.cert.org/vuls/id/874418",
       "source": "CERT/CC",
@@ -5118,35 +5148,6 @@
         "whyItMatters": "Organizations can no longer rely on patching everything, necessitating a fundamental shift in how vulnerabilities are prioritized and managed.",
         "affected": [],
         "action": "Adopt risk-based vulnerability prioritization strategies instead of relying solely on traditional patch cycles.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Siemens Simcenter Nastran",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-230-02",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-08-18T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nSimcenter Nastran is affected by a stack overflow vulnerability that could be triggered when an application binary reads arbitrary string as a file argument. If a user is tricked to run one of the impac",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Siemens Simcenter Nastran contains a stack overflow vulnerability that can be triggered when its binary processes an arbitrary string as a file argument. An attacker could exploit this issue if a user is tricked into running a malicious file.",
-        "whyItMatters": "This vulnerability could allow an attacker to achieve arbitrary code execution or cause a denial of service on systems running the affected software.",
-        "affected": [
-          "Siemens Simcenter Nastran"
-        ],
-        "action": "Check the vendor CSAF advisory and apply available patches or updates.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
