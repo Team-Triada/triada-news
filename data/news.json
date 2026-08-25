@@ -1,6 +1,84 @@
 {
-  "updatedAt": "2026-08-25T15:12:28.947Z",
+  "updatedAt": "2026-08-25T15:58:35.870Z",
   "items": [
+    {
+      "title": "Massive DDoS attack disrupts Norway’s government digital services",
+      "link": "https://www.bleepingcomputer.com/news/security/massive-ddos-attack-disrupts-norways-government-digital-services/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-08-25T15:52:36.000Z",
+      "summary": "A large distributed denial-of-service (DDoS) attack has disrupted Norway's shared government digital infrastructure since Monday, affecting services used by the public sector. [...]",
+      "categories": [
+        "Government"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A massive distributed denial-of-service attack has disrupted Norway's shared government digital infrastructure. The incident has impacted various public sector digital services since Monday.",
+        "whyItMatters": "It disrupts critical public sector services and highlights the vulnerability of national digital infrastructure to DDoS attacks.",
+        "affected": [],
+        "action": "Mitigate the DDoS traffic and restore affected government services.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Obfuscating IP Addresses as Hostnames, (Tue, Aug 25th)",
+      "link": "https://isc.sans.edu/diary/rss/33280",
+      "source": "SANS ISC",
+      "publishedAt": "2026-08-25T15:03:33.000Z",
+      "summary": "It is pretty obvious that hostnames can replace IP addresses. Pretty much any software accepting an IP address will also accept a hostname as an argument. Last week, I wrote about scans for the cloud metadata service lis",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "An article discusses the concept of obfuscating IP addresses by using hostnames instead in network communications. It follows up on a previous week's discussion regarding scans targeting cloud metadata services.",
+        "whyItMatters": "Understanding hostname obfuscation techniques helps security teams recognize potential evasion tactics used by attackers during network reconnaissance.",
+        "affected": [],
+        "action": "Review network monitoring tools to ensure they properly resolve and inspect hostnames used in place of IP addresses.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Is Cyber Facing an Affordability Crisis?",
+      "link": "https://www.darkreading.com/cybersecurity-operations/is-cyber-facing-an-affordability-crisis-",
+      "source": "Dark Reading",
+      "publishedAt": "2026-08-25T14:53:13.000Z",
+      "summary": "As breach costs reach record highs and defense spending nears $240 billion, small businesses are dangerously exposed, threatening supply chain security.",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Cybersecurity breach costs have reached record highs while global defense spending approaches $240 billion. This financial pressure leaves small businesses dangerously exposed and threatens overall supply chain security.",
+        "whyItMatters": "The rising costs of security create an affordability crisis that leaves vulnerable small businesses exposed, posing a systemic risk to supply chains.",
+        "affected": [],
+        "action": "Evaluate your organization's cybersecurity budget and supply chain risks.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Hospital operator Nutex Health says data stolen in cyberattack",
       "link": "https://www.bleepingcomputer.com/news/security/hospital-operator-nutex-health-says-data-stolen-in-cyberattack/",
@@ -127,6 +205,35 @@
         "affected": [],
         "action": "Monitor Alice's upcoming AI security offerings and enterprise guardrail solutions.",
         "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw",
+      "link": "https://thehackernews.com/2026/08/a-malicious-webpage-could-poison-your.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-25T14:07:37.000Z",
+      "summary": "Oasis Security has disclosed a weakness in NVIDIA NemoClaw that could let an attacker-controlled webpage take unauthenticated control of the local Ollama instance serving an AI agent and plant hidden instructions inside ",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Oasis Security discovered a vulnerability in NVIDIA NemoClaw that allows a malicious webpage to seize unauthenticated control of a local Ollama instance. Attackers can exploit this weakness to inject hidden instructions into the AI agent.",
+        "whyItMatters": "This vulnerability allows external attackers to compromise local AI models and manipulate AI agents without authentication.",
+        "affected": [
+          "NVIDIA NemoClaw",
+          "Ollama"
+        ],
+        "action": "Update affected components and restrict unauthenticated local access.",
+        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -1546,38 +1653,6 @@
       }
     },
     {
-      "title": "Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data",
-      "link": "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-25T06:12:35.000Z",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a maximum-severity security flaw impacting Oracle HTTP Server and Oracle WebLogic Server to its Known Exploited Vulnerabilities (KEV) catal",
-      "categories": [
-        "Vulnerability",
-        "Government"
-      ],
-      "tags": [
-        "Oracle"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CISA has added a maximum-severity security flaw impacting Oracle HTTP Server and Oracle WebLogic Server to its Known Exploited Vulnerabilities catalog. The vulnerability allows unauthenticated attackers to access critical data.",
-        "whyItMatters": "This flaw is actively exploited in the wild, posing an immediate risk of unauthorized data access for organizations using vulnerable Oracle servers.",
-        "affected": [
-          "Oracle HTTP Server",
-          "Oracle WebLogic Server"
-        ],
-        "action": "Apply the latest security updates provided by Oracle immediately.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "AI supply chain risk is showing up in developer workflows first",
       "link": "https://www.helpnetsecurity.com/2026/08/25/jaushin-lee-ai-zentera-systems-supply-chain-risk/",
       "source": "Help Net Security",
@@ -1911,36 +1986,6 @@
         ],
         "action": "Monitor legislative developments regarding age-verification requirements.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Hackers target WordPress sites in miniOrange auth bypass attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-08-24T19:26:32.000Z",
-      "summary": "Hackers are attempting to exploit two critical authentication bypass vulnerabilities in the miniOrange SAML 2.0 Single Sign On plugin for WordPress that can be used to forge SAML responses and log in as administrators. [",
-      "categories": [
-        "Vulnerability"
-      ],
-      "tags": [
-        "WordPress"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Hackers are actively targeting WordPress sites to exploit two critical authentication bypass vulnerabilities in the miniOrange SAML 2.0 Single Sign On plugin. These flaws allow attackers to forge SAML responses and successfully log in as site administrators.",
-        "whyItMatters": "This vulnerability allows complete administrative takeover of vulnerable WordPress sites, posing an immediate and severe security risk.",
-        "affected": [
-          "miniOrange SAML 2.0 Single Sign On plugin for WordPress"
-        ],
-        "action": "Update the miniOrange SAML 2.0 plugin immediately.",
-        "risk": "Critical",
         "relatedCves": [],
         "source": "ai"
       }
@@ -3477,32 +3522,6 @@
       }
     },
     {
-      "title": "Calling on Cyber Pros to Help Defend City Hall",
-      "link": "https://www.darkreading.com/cyber-risk/cyber-pros-help-city-hall",
-      "source": "Dark Reading",
-      "publishedAt": "2026-08-21T14:00:00.000Z",
-      "summary": "Government agencies with smaller budgets need support — and here's how you can help.",
-      "categories": [
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "This opinion or call-to-action piece discusses how cybersecurity professionals can assist underfunded government agencies. It encourages community involvement and expertise sharing to help defend municipal organizations like city halls.",
-        "whyItMatters": "Smaller government agencies often lack the resources to defend against sophisticated cyber threats, putting public infrastructure at risk.",
-        "affected": [],
-        "action": "Volunteer your cybersecurity expertise to local government agencies in need.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "No Crash Required: Verifying the Citrix NetScaler SAML Patch for CVE-2026-8452",
       "link": "https://bishopfox.com/blog/no-crash-required-verifying-the-citrix-netscaler-saml-patch-for-cve-2026-8452",
       "source": "Bishop Fox",
@@ -4252,35 +4271,6 @@
         "whyItMatters": "Organizations need modern exposure management frameworks to keep pace with rapidly evolving cyber threats.",
         "affected": [],
         "action": "Implement a continuous threat exposure management framework.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Using Microsoft Graph and Powershell to Mine for Information - Stale Accounts and Licenses, (Thu, Aug 20th)",
-      "link": "https://isc.sans.edu/diary/rss/33264",
-      "source": "SANS ISC",
-      "publishedAt": "2026-08-20T12:45:32.000Z",
-      "summary": "Microsoft Graph is a newer API that is meant to replace several others.&#;x26;#;xc2;&#;x26;#;xa0; OK, it&#;x26;#;39;s at version 2.3.9, so it&#;x26;#;39;s not all that new, but it&#;x26;#;39;s new enough that lots of fol",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "This article discusses using the Microsoft Graph API and PowerShell to mine information about stale accounts and licenses. It highlights how administrators can leverage this tool for better tenant management and security visibility.",
-        "whyItMatters": "Identifying stale accounts and unassigned licenses helps reduce the attack surface and optimize cloud costs.",
-        "affected": [
-          "Microsoft Graph API",
-          "PowerShell"
-        ],
-        "action": "Review your environment for stale accounts using Microsoft Graph.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
