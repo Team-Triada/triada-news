@@ -1,6 +1,41 @@
 {
-  "updatedAt": "2026-08-25T07:08:20.845Z",
+  "updatedAt": "2026-08-25T07:57:01.798Z",
   "items": [
+    {
+      "title": "CISA Warns of Exploited Oracle WebLogic Vulnerability",
+      "link": "https://www.securityweek.com/cisa-warns-of-exploited-oracle-weblogic-vulnerability/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-08-25T07:46:34.000Z",
+      "summary": "The vulnerability is tracked as CVE-2026-21962 and it has been widely exploited by threat actors against WebLogic servers.\nThe post CISA Warns of Exploited Oracle WebLogic Vulnerability appeared first on SecurityWeek.",
+      "categories": [
+        "Vulnerability",
+        "Government"
+      ],
+      "tags": [
+        "Oracle"
+      ],
+      "cves": [
+        "CVE-2026-21962"
+      ],
+      "kev": true,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "CISA has issued a warning regarding a critical Oracle WebLogic vulnerability tracked as CVE-2026-21962. This security flaw is currently being actively exploited by threat actors in the wild against target servers.",
+        "whyItMatters": "Active exploitation in the wild poses an immediate threat to organizations running vulnerable WebLogic servers, increasing the risk of unauthorized access and system compromise.",
+        "affected": [
+          "Oracle WebLogic"
+        ],
+        "action": "Apply the necessary security updates provided by Oracle immediately.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-21962"
+        ],
+        "source": "ai"
+      }
+    },
     {
       "title": "Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data",
       "link": "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html",
@@ -217,6 +252,35 @@
         "affected": [],
         "action": "Listen to the podcast for the latest daily security briefings.",
         "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6464-1 erlang - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00375.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-08-25T00:00:00.000Z",
+      "summary": "Multiple vulnerabilities were discovered in Erlang/OTP, a concurrent,\nreal-time, distributed functional language, which may result in denial of\nservice, information disclosure, authentication and certificate validation\nb",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple vulnerabilities have been discovered in Erlang/OTP that could potentially lead to severe security issues. These flaws may result in denial of service, information disclosure, and problems with authentication and certificate validation.",
+        "whyItMatters": "Unpatched systems running vulnerable versions of Erlang/OTP are exposed to risks such as service disruptions and unauthorized data access.",
+        "affected": [
+          "Erlang/OTP"
+        ],
+        "action": "Update Erlang/OTP to the latest patched version provided by your vendor.",
+        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -2110,32 +2174,6 @@
       }
     },
     {
-      "title": "Iran-Linked Hackers Shut Down UK Power Plant for Four Days",
-      "link": "https://www.securityweek.com/iran-linked-hackers-shut-down-uk-power-plant-for-four-days/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-08-24T09:22:09.000Z",
-      "summary": "The attack caused real-world operational disruption and raised concerns about the resilience of Britain’s distributed energy infrastructure and the potential for repeatable attacks.\nThe post Iran-Linked Hackers Shut Down",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Iran-linked hackers successfully shut down a UK power plant for four days, causing significant real-world operational disruption. The incident has raised serious concerns regarding the resilience and security of Britain's distributed energy infrastructure.",
-        "whyItMatters": "It demonstrates that nation-state actors can successfully breach and disrupt critical national infrastructure, highlighting vulnerabilities in the energy sector.",
-        "affected": [],
-        "action": "Review and strengthen cybersecurity defenses across critical energy infrastructure.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Wake-Up Call for CNI After Iranian Attack Shuts Down UK Power Plant",
       "link": "https://www.infosecurity-magazine.com/news/cni-iranian-attack-shuts-uk-power/",
       "source": "Infosecurity Magazine",
@@ -3537,35 +3575,6 @@
         ],
         "action": "Update openjdk-21 to the latest patched version.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6456-1 spip - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00367.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-08-21T00:00:00.000Z",
-      "summary": "A vulnerability was discovered in SPIP, a website engine for publishing,\nwhich could result in unauthenticated remote code execution.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6456-1",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A security vulnerability has been discovered in the SPIP website publishing engine. This flaw could potentially allow unauthenticated attackers to achieve remote code execution.",
-        "whyItMatters": "Unauthenticated remote code execution is a severe vulnerability that allows attackers to completely compromise affected servers without needing credentials.",
-        "affected": [
-          "SPIP"
-        ],
-        "action": "Apply the latest security updates provided by Debian.",
-        "risk": "Critical",
         "relatedCves": [],
         "source": "ai"
       }
