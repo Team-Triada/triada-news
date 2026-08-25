@@ -1,6 +1,65 @@
 {
-  "updatedAt": "2026-08-25T05:45:55.301Z",
+  "updatedAt": "2026-08-25T07:08:20.845Z",
   "items": [
+    {
+      "title": "Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data",
+      "link": "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-25T06:12:35.000Z",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a maximum-severity security flaw impacting Oracle HTTP Server and Oracle WebLogic Server to its Known Exploited Vulnerabilities (KEV) catal",
+      "categories": [
+        "Vulnerability",
+        "Government"
+      ],
+      "tags": [
+        "Oracle"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "CISA has added a maximum-severity security flaw impacting Oracle HTTP Server and Oracle WebLogic Server to its Known Exploited Vulnerabilities catalog. The vulnerability allows unauthenticated attackers to access critical data.",
+        "whyItMatters": "This flaw is actively exploited in the wild, posing an immediate risk of unauthorized data access for organizations using vulnerable Oracle servers.",
+        "affected": [
+          "Oracle HTTP Server",
+          "Oracle WebLogic Server"
+        ],
+        "action": "Apply the latest security updates provided by Oracle immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "AI supply chain risk is showing up in developer workflows first",
+      "link": "https://www.helpnetsecurity.com/2026/08/25/jaushin-lee-ai-zentera-systems-supply-chain-risk/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-08-25T06:00:50.000Z",
+      "summary": "In this Help Net Security interview, Dr. Jaushin Lee, CEO of Zentera Systems, discusses where AI supply chain risk shows up. He says most incidents still hit developer workflows and open-source package repositories, whil",
+      "categories": [
+        "AI Security",
+        "Open Source"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Dr. Jaushin Lee, CEO of Zentera Systems, discusses how AI supply chain risks primarily impact developer workflows and open-source package repositories. The interview highlights where organizations are first encountering these emerging AI-related security challenges.",
+        "whyItMatters": "It highlights that current AI supply chain vulnerabilities are predominantly targeting early-stage development environments and open-source repositories.",
+        "affected": [],
+        "action": "Monitor developer workflows and open-source dependencies for AI supply chain risks.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "TruffleHog AWS Analyze reduces remediation time on leaked AWS credentials",
       "link": "https://www.helpnetsecurity.com/2026/08/25/trufflehog-aws-analyze-leaked-credentials/",
@@ -1916,32 +1975,6 @@
       }
     },
     {
-      "title": "CISA’s logging guidance works beyond government",
-      "link": "https://www.helpnetsecurity.com/2026/08/24/cybersecurity-logging-guidelines-strategy/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-08-24T10:56:44.000Z",
-      "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) wants federal agencies to (re)shape their logging strategy around one question: when an attack hits, can you actually use the logs you’ve collected to catch ",
-      "categories": [
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CISA has released updated logging guidance designed to help organizations improve their event data collection strategies. The framework emphasizes actionable log utility so defenders can effectively detect and respond to active attacks.",
-        "whyItMatters": "Proper logging is essential for incident response, yet organizations often collect useless data that hinders timely threat detection.",
-        "affected": [],
-        "action": "Review your current logging strategy against CISA's updated guidance.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "CISA orders urgent patching of actively exploited Zimbra flaw",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-urgent-patching-of-actively-exploited-zimbra-flaw/",
       "source": "BleepingComputer",
@@ -2123,38 +2156,6 @@
         "whyItMatters": "This incident demonstrates that critical national infrastructure remains highly vulnerable to sophisticated foreign cyber-attacks with physical consequences.",
         "affected": [],
         "action": "Review and harden security controls for critical infrastructure and industrial control systems.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "UAT-10147 Uses AI to Scale Server Attacks, Deploys SPECTRE With EDR Bypass and Linux Rootkit",
-      "link": "https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-24T08:08:31.000Z",
-      "summary": "Cybersecurity researchers have disclosed details of a Chinese-speaking cybercrime group dubbed UAT-10147 that's targeting Windows and Linux web servers globally across the education, media, technology, and gaming sectors",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [
-        "Windows",
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Chinese-speaking threat actor UAT-10147 is leveraging artificial intelligence to scale global cyber attacks against Windows and Linux web servers. The campaign targets organizations in the education, media, technology, and gaming sectors by deploying the SPECTRE toolset, which includes EDR bypass capabilities and a Linux rootkit.",
-        "whyItMatters": "This campaign represents an advanced threat using AI automation and sophisticated evasion techniques to compromise critical enterprise infrastructure across multiple industries.",
-        "affected": [
-          "Windows web servers",
-          "Linux web servers"
-        ],
-        "action": "Monitor network traffic for suspicious AI-driven attack patterns and ensure EDR solutions are fully updated.",
         "risk": "Critical",
         "relatedCves": [],
         "source": "ai"
