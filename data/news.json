@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T22:44:03.461Z",
+  "updatedAt": "2026-08-25T23:35:52.042Z",
   "items": [
     {
       "title": "Boardroom Battles 2026: ASD’s Cyber Priorities & AI Risk",
@@ -423,6 +423,35 @@
       }
     },
     {
+      "title": "USN-8679-1: Vim vulnerability",
+      "link": "https://ubuntu.com/security/notices/USN-8679-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-25T19:29:14.000Z",
+      "summary": "It was discovered that Vim incorrectly handled certain tags files. An\nattacker could possibly use this issue to execute arbitrary code.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A vulnerability was discovered in Vim regarding how it improperly handles specific tags files. This flaw could potentially allow a malicious actor to achieve arbitrary code execution.",
+        "whyItMatters": "This vulnerability matters because successful exploitation could allow an attacker to execute arbitrary code on systems running vulnerable versions of Vim.",
+        "affected": [
+          "Vim"
+        ],
+        "action": "Update Vim to the latest patched version provided by your distributor.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "Employee benefits platform Paylogix says hackers stole financial and health data",
       "link": "https://therecord.media/paylogix-cyberattack-akira-ransomware",
       "source": "The Record",
@@ -758,35 +787,6 @@
       }
     },
     {
-      "title": "USN-8675-1: Perl vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8675-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-25T14:55:08.000Z",
-      "summary": "It was discovered that Perl incorrectly handled short source addresses\nin the Socket module. An attacker could possibly use this issue to\ntrigger an out-of-bounds heap read, resulting in information disclosure.\n(CVE-2026",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Perl incorrectly handled short source addresses in the Socket module, leading to a vulnerability. An attacker could exploit this issue to trigger an out-of-bounds heap read and cause information disclosure.",
-        "whyItMatters": "This vulnerability allows unauthorized attackers to potentially access sensitive information through heap data disclosure.",
-        "affected": [
-          "Perl Socket module"
-        ],
-        "action": "Update Perl to the patched version.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Is Cyber Facing an Affordability Crisis?",
       "link": "https://www.darkreading.com/cybersecurity-operations/is-cyber-facing-an-affordability-crisis-",
       "source": "Dark Reading",
@@ -1050,41 +1050,6 @@
       }
     },
     {
-      "title": "CVE-2026-45639 Windows Remote Desktop Protocol (RDP) Information Disclosure Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45639",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-25T14:00:00.000Z",
-      "summary": "Acknowledgement Updated",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [
-        "CVE-2026-45639"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "Microsoft has acknowledged a security issue tracked as CVE-2026-45639 affecting the Windows Remote Desktop Protocol (RDP). The vulnerability involves an information disclosure flaw within the protocol.",
-        "whyItMatters": "It matters because information disclosure vulnerabilities can allow attackers to gain sensitive data necessary for conducting further attacks against a network.",
-        "affected": [
-          "Windows Remote Desktop Protocol"
-        ],
-        "action": "Monitor vendor advisories for official patches and updates.",
-        "risk": "Medium",
-        "relatedCves": [
-          "CVE-2026-45639"
-        ],
-        "source": "ai"
-      }
-    },
-    {
       "title": "CVE-2026-62747 Windows Device Association Service Elevation of Privilege Vulnerability",
       "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62747",
       "source": "Microsoft MSRC",
@@ -1315,6 +1280,39 @@
         "risk": "News",
         "relatedCves": [
           "CVE-2026-59131"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-24301 Microsoft Copilot Information Disclosure Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24301",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-25T14:00:00.000Z",
+      "summary": "Acknowledgement Updated",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-24301"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Microsoft has released an acknowledgment regarding CVE-2026-24301, an information disclosure vulnerability affecting Microsoft Copilot. Further technical details and updates are expected from the vendor as the advisory develops.",
+        "whyItMatters": "Information disclosure vulnerabilities can expose sensitive data to unauthorized users, potentially leading to further compromise within enterprise environments.",
+        "affected": [
+          "Microsoft Copilot"
+        ],
+        "action": "Monitor vendor advisories for updates and patches regarding CVE-2026-24301.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-24301"
         ],
         "source": "ai"
       }
