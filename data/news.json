@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T21:43:13.809Z",
+  "updatedAt": "2026-08-25T22:44:03.461Z",
   "items": [
     {
       "title": "Boardroom Battles 2026: ASD’s Cyber Priorities & AI Risk",
@@ -23,6 +23,32 @@
         "affected": [],
         "action": "Review the updated ASD frontier AI guidance.",
         "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "LACMA data breach last year exposed social security and medical data",
+      "link": "https://www.bleepingcomputer.com/news/security/lacma-data-breach-last-year-exposed-social-security-and-medical-data/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-08-25T21:58:14.000Z",
+      "summary": "The Los Angeles County Museum of Art (LACMA) has announced that a breach last year exposed customer and employee information. [...]",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The Los Angeles County Museum of Art disclosed a data breach that occurred last year, exposing sensitive customer and employee information. The compromised data includes personal details such as social security numbers and medical data.",
+        "whyItMatters": "Exposure of highly sensitive personally identifiable information like social security and medical data creates severe risks of identity theft and financial fraud for affected individuals.",
+        "affected": [],
+        "action": "Monitor credit reports and personal accounts for suspicious activity if you are affiliated with LACMA.",
+        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -1024,6 +1050,41 @@
       }
     },
     {
+      "title": "CVE-2026-45639 Windows Remote Desktop Protocol (RDP) Information Disclosure Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45639",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-25T14:00:00.000Z",
+      "summary": "Acknowledgement Updated",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [
+        "CVE-2026-45639"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Microsoft has acknowledged a security issue tracked as CVE-2026-45639 affecting the Windows Remote Desktop Protocol (RDP). The vulnerability involves an information disclosure flaw within the protocol.",
+        "whyItMatters": "It matters because information disclosure vulnerabilities can allow attackers to gain sensitive data necessary for conducting further attacks against a network.",
+        "affected": [
+          "Windows Remote Desktop Protocol"
+        ],
+        "action": "Monitor vendor advisories for official patches and updates.",
+        "risk": "Medium",
+        "relatedCves": [
+          "CVE-2026-45639"
+        ],
+        "source": "ai"
+      }
+    },
+    {
       "title": "CVE-2026-62747 Windows Device Association Service Elevation of Privilege Vulnerability",
       "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62747",
       "source": "Microsoft MSRC",
@@ -1256,39 +1317,6 @@
           "CVE-2026-59131"
         ],
         "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-55137 Microsoft Excel Remote Code Execution Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-55137",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-25T14:00:00.000Z",
-      "summary": "Updated an acknowledgement. This is an informational change only.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-55137"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "Updated an acknowledgement. This is an informational change only.",
-        "whyItMatters": "Actively exploited or high-impact; treat as urgent.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Patch immediately.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-55137"
-        ],
-        "source": "heuristic"
       }
     },
     {
@@ -1661,35 +1689,6 @@
           "macOS"
         ],
         "action": "Avoid executing untrusted commands from terminal prompts found on unverified websites.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Hackers breached over 270 Zimbra servers in ongoing attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-breached-over-270-zimbra-servers-in-ongoing-attacks/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-08-25T12:04:02.000Z",
-      "summary": "Threat actors have already compromised over 270 Zimbra instances in remote code execution attacks targeting a high-severity Zimbra Collaboration Suite (ZCS) vulnerability. [...]",
-      "categories": [
-        "Vulnerability",
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Threat actors have successfully breached more than 270 Zimbra instances using remote code execution exploits. The attacks specifically target a high-severity vulnerability within the Zimbra Collaboration Suite.",
-        "whyItMatters": "This active exploitation campaign puts thousands of organizations using vulnerable Zimbra servers at immediate risk of data theft and system compromise.",
-        "affected": [
-          "Zimbra Collaboration Suite"
-        ],
-        "action": "Update Zimbra servers immediately to patch the high-severity vulnerability.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -3149,6 +3148,36 @@
       }
     },
     {
+      "title": "Malicious Firefox add-ons caught stealing cryptowallet seed phrases and browser credentials",
+      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/malicious-firefox-add-ons-stealing-cryptowallet-seed-phrases-browser-credentials",
+      "source": "Graham Cluley",
+      "publishedAt": "2026-08-24T15:00:02.000Z",
+      "summary": "Every time you add an extension or plugin to your browser, there's a risk that you might be doing more than managing your cryptocurrency wallet, generating passwords, taking notes, or tracking sports results. There's a c",
+      "categories": [
+        "News"
+      ],
+      "tags": [
+        "Firefox"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Malicious Firefox add-ons have been detected stealing cryptocurrency wallet seed phrases and browser credentials. These fraudulent extensions pose a significant security risk to users by compromising sensitive financial and personal data.",
+        "whyItMatters": "This threat directly targets users' financial assets and personal accounts through trusted browser environments.",
+        "affected": [
+          "Mozilla Firefox"
+        ],
+        "action": "Review and remove untrusted Firefox extensions immediately.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "VU#728712: Konami's Metal Gear Online 3 contains a heap-based buffer overflow",
       "link": "https://kb.cert.org/vuls/id/728712",
       "source": "CERT/CC",
@@ -3392,6 +3421,32 @@
           "Android"
         ],
         "action": "Remove unauthorized apps and monitor your device for suspicious activity.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Gunra ransomware: what you need to know",
+      "link": "https://www.fortra.com/blog/gunra-ransomware-what-you-need-know",
+      "source": "Graham Cluley",
+      "publishedAt": "2026-08-24T12:52:37.000Z",
+      "summary": "The ransomware gang Gunra has been creating havoc - exploiting unpatched VPNs and firewalls to steal data, encrypt systems, and extort victims across healthcare, finance, manufacturing, and more.\r\n\r\nRead more in my artic",
+      "categories": [
+        "Ransomware"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "high",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The Gunra ransomware gang is actively exploiting unpatched VPNs and firewalls to compromise organizations across multiple sectors. The group steals sensitive data, encrypts victim systems, and demands extortion payments.",
+        "whyItMatters": "This threat poses a severe operational and financial risk to organizations due to potential data theft and system outages.",
+        "affected": [],
+        "action": "Patch all corporate VPNs and firewalls immediately.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -4730,6 +4785,32 @@
       }
     },
     {
+      "title": "Smashing Security podcast #481: Never say this to a robot dog",
+      "link": "https://grahamcluley.com/smashing-security-podcast-481/",
+      "source": "Graham Cluley",
+      "publishedAt": "2026-08-19T23:10:23.000Z",
+      "summary": "At Black Hat this month, a group of security researchers took a $9,000 robot dog, plugged Google's AI into its brain, and jailbroke it by telling it - with a completely straight face - that it was a Pokemon. What followe",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Security researchers at Black Hat demonstrated how to jailbreak a robot dog by integrating Google's AI and convincing it that it was a Pokemon character. This playful experiment highlights the ease with which AI-driven physical systems can be manipulated through prompt injection.",
+        "whyItMatters": "It demonstrates how easily AI systems controlling physical robotics can be manipulated through prompt injection, posing potential real-world safety risks.",
+        "affected": [],
+        "action": "Review AI integration safety measures in physical robotics.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "VU#874418: RDK-B WebUI contains multiple vulnerabilities",
       "link": "https://kb.cert.org/vuls/id/874418",
       "source": "CERT/CC",
@@ -5117,6 +5198,32 @@
       }
     },
     {
+      "title": "Prison for data analyst who tried to extort $2.5 million from his employer",
+      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/prison-data-analyst-extort-employer",
+      "source": "Graham Cluley",
+      "publishedAt": "2026-08-19T07:26:50.000Z",
+      "summary": "When Cameron Curry discovered that his contract as a data analyst wasn't going to be renewed, he could have updated his LinkedIn profile. He could have started sending out his resume.\r\n\r\nBut what the 27-year-old from Cha",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Cameron Curry, a former data analyst, attempted to extort $2.5 million from his former employer after learning his contract would not be renewed. Following his actions, he was sentenced to prison for the extortion attempt.",
+        "whyItMatters": "This case highlights the insider threat risk posed by disgruntled employees with access to sensitive company data.",
+        "affected": [],
+        "action": "Monitor internal access controls and implement offboarding procedures to mitigate insider threats.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "Benchmaxxing: When the Benchmark Becomes the Target",
       "link": "https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/",
       "source": "CrowdStrike",
@@ -5305,6 +5412,32 @@
         "affected": [],
         "action": "Adopt risk-based vulnerability prioritization strategies instead of relying solely on traditional patch cycles.",
         "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "An “invisible” car? Researcher uses machine learning to hide vehicles from Flock cameras",
+      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/invisible-car-machine-learning-hide-vehicle-flock-cameras",
+      "source": "Graham Cluley",
+      "publishedAt": "2026-08-17T14:10:48.000Z",
+      "summary": "A cybersecurity expert has demonstrated how computer-generated patterns can successfully prevent surveillance cameras from detecting vehicles - such as the controversial AI-powered Flock licence plate readers that are be",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A cybersecurity researcher has demonstrated that computer-generated patterns can successfully prevent AI-powered surveillance cameras from detecting vehicles. This technique uses machine learning to render cars effectively invisible to automated license plate readers like those made by Flock.",
+        "whyItMatters": "This vulnerability undermines the reliability of automated surveillance and law enforcement systems that rely on computer vision for vehicle tracking.",
+        "affected": [],
+        "action": "Monitor computer vision systems for adversarial pattern vulnerabilities and update detection models.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "ai"
       }
@@ -5586,153 +5719,6 @@
         "whyItMatters": "It empowers users with better visibility into their digital privacy by demystifying complex data collection practices.",
         "affected": [],
         "action": "Explore privacy-tracking services to monitor data collection.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "APT group HoneyMyte upgrades CoolClient: the backdoor gets a kernel-level Windows rootkit",
-      "link": "https://securelist.com/honeymyte-coolclient-driver-rootkit/121028/",
-      "source": "Kaspersky Securelist",
-      "publishedAt": "2026-08-14T09:00:14.000Z",
-      "summary": "Our experts discovered a new CoolClient backdoor variant with a kernel-mode rootkit driver that hides malicious processes, files, and network connections from security tools and threat analysts.",
-      "categories": [
-        "Malware",
-        "Threat Intel"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The APT group HoneyMyte has upgraded its CoolClient backdoor with a new kernel-mode rootkit driver. This stealthy tool is designed to conceal malicious processes, files, and network connections from security tools and analysts.",
-        "whyItMatters": "This kernel-level rootkit significantly enhances the malware's stealth capabilities, allowing threat actors to maintain persistent and undetected access to compromised Windows systems.",
-        "affected": [
-          "CoolClient backdoor"
-        ],
-        "action": "Deploy advanced endpoint detection mechanisms capable of monitoring kernel-level activity.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "You’re Back In The Room (Citrix NetScaler Pre-Auth RCE CVE-2026-8452(?))",
-      "link": "https://labs.watchtowr.com/youre-back-in-the-room-citrix-netscaler-pre-auth-rce-cve-2026-8452/",
-      "source": "watchTowr Labs",
-      "publishedAt": "2026-08-14T07:08:20.000Z",
-      "summary": "Suddenly, you’re in a room. You look around - oh, you’re surrounded by other new starters at your new job. Yes, it’s Monday, and you’re being onboarded.\nYou know the drill - it’s the typical enterprise “please don’t be",
-      "categories": [
-        "Vulnerability"
-      ],
-      "tags": [
-        "Citrix"
-      ],
-      "cves": [
-        "CVE-2026-8452"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "This article appears to discuss a hypothetical or placeholder scenario involving Citrix NetScaler pre-authentication remote code execution with a speculative CVE identifier. The text is incomplete and focuses primarily on a fictional onboarding anecdote.",
-        "whyItMatters": "It does not provide actionable or verified security intelligence regarding a real vulnerability.",
-        "affected": [],
-        "action": "Ignore this placeholder article.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "注意喚起: MetabaseのSQLインジェクションの脆弱性（CVE-2026-72898）に関する注意喚起 (公開)",
-      "link": "https://www.jpcert.or.jp/at/2026/at260023.html",
-      "source": "JPCERT/CC",
-      "publishedAt": "2026-08-14T04:30:00.000Z",
-      "summary": "注意喚起: MetabaseのSQLインジェクションの脆弱性（CVE-2026-72898）に関する注意喚起  (公開)",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-72898"
-      ],
-      "kev": true,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "An advisory has been issued regarding a SQL injection vulnerability in Metabase tracked as CVE-2026-72898. Users are urged to take notice of this security flaw affecting the software.",
-        "whyItMatters": "SQL injection vulnerabilities can allow attackers to execute arbitrary database queries, potentially leading to unauthorized data access or system compromise.",
-        "affected": [
-          "Metabase"
-        ],
-        "action": "Update Metabase to the latest patched version immediately.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-72898"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Curiouser and Curiouser",
-      "link": "https://blog.talosintelligence.com/curiouser-and-curiouser/",
-      "source": "Talos Intelligence",
-      "publishedAt": "2026-08-13T18:00:18.000Z",
-      "summary": "In this edition of the Threat Source newsletter, William reflects on the “Make Hazel a Hacker” segment in Beers with Talos, and how cybersecurity is a field where questions can lead to multiple correct answers.",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "This edition of the Threat Source newsletter reflects on the Beers with Talos segment 'Make Hazel a Hacker'. It discusses how cybersecurity is a dynamic field where a single question often leads to multiple correct answers.",
-        "whyItMatters": "It highlights the nuanced and multi-faceted problem-solving nature inherent to the cybersecurity profession.",
-        "affected": [],
-        "action": "Read the newsletter for further insights.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Black Hat USA 2026: Will vulnerability discovery eventually decline in the AI era?",
-      "link": "https://www.welivesecurity.com/en/business-security/black-hat-usa-2026-vulnerability-discovery-decline-ai-era/",
-      "source": "WeLiveSecurity",
-      "publishedAt": "2026-08-13T14:30:00.000Z",
-      "summary": "And will today’s surge in AI-driven vulnerability discovery eventually make tomorrow’s software safer?",
-      "categories": [
-        "Vulnerability",
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "This article discusses the potential long-term impact of AI-driven vulnerability discovery on software security at Black Hat USA 2026. It questions whether the current surge in finding flaws will ultimately lead to the creation of safer software in the future.",
-        "whyItMatters": "It raises important strategic questions about how artificial intelligence will shape the future of software development and vulnerability management.",
-        "affected": [],
-        "action": "Monitor industry trends regarding AI-driven vulnerability discovery.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
