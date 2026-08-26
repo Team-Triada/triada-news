@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T10:50:58.971Z",
+  "updatedAt": "2026-08-26T11:44:49.024Z",
   "items": [
     {
       "title": "Boardroom Battles 2026: ASD’s Cyber Priorities & AI Risk",
@@ -24,6 +24,121 @@
         "action": "Review the updated ASD frontier AI guidance.",
         "risk": "News",
         "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CISA: Over 100 Internet-Exposed Water Systems Targeted in July Cyberattacks",
+      "link": "https://www.securityweek.com/cisa-over-100-internet-exposed-water-systems-targeted-in-july-cyberattacks/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-08-26T11:29:50.000Z",
+      "summary": "The agency has released guidance on reducing internet exposure in the wake of the recent Iran-linked hacker attacks.\nThe post CISA: Over 100 Internet-Exposed Water Systems Targeted in July Cyberattacks appeared first on ",
+      "categories": [
+        "Incident Response",
+        "Government"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "CISA reported that Iran-linked hackers targeted over 100 internet-exposed water systems in July cyberattacks. The agency has subsequently released guidance aimed at helping critical infrastructure reduce their internet exposure.",
+        "whyItMatters": "Foreign threat actors are actively targeting critical water infrastructure vulnerabilities, posing a direct threat to public health and safety.",
+        "affected": [],
+        "action": "Review CISA guidance and disconnect internet-exposed water systems immediately.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Hackers now exploit critical Gitea flaw in code injection attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-gitea-flaw-in-code-injection-attacks/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-08-26T11:07:48.000Z",
+      "summary": "Attackers are now exploiting a critical-severity vulnerability in the Gitea self-hosted Git service, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA). [...]",
+      "categories": [
+        "Vulnerability",
+        "Government"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Hackers are actively exploiting a critical vulnerability in the Gitea self-hosted Git service to conduct code injection attacks. CISA has added this flaw to its Known Exploited Vulnerabilities catalog.",
+        "whyItMatters": "Active exploitation of a critical code injection flaw in a widely used Git service poses an immediate risk of remote compromise for self-hosted instances.",
+        "affected": [
+          "Gitea"
+        ],
+        "action": "Update Gitea to the latest patched version immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "The MFA Identity Trap: When Authentication Creates a False Sense of Security",
+      "link": "https://www.securityweek.com/the-mfa-identity-trap-when-authentication-creates-a-false-sense-of-security/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-08-26T11:00:00.000Z",
+      "summary": "Organizations must distinguish identity verification, authentication and threat detection, or risk successfully authenticating the attackers they are trying to stop.\nThe post The MFA Identity Trap: When Authentication Cr",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Organizations must learn to distinguish between identity verification, authentication, and threat detection to prevent security breaches. Failing to do so risks successfully authenticating the very attackers they are trying to stop.",
+        "whyItMatters": "Relying solely on MFA without robust threat detection creates a false sense of security that allows attackers with stolen credentials to easily bypass defenses.",
+        "affected": [],
+        "action": "Implement comprehensive threat detection alongside MFA to monitor authentication attempts effectively.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Critical Gitea vulnerability now exploited in the wild (CVE-2026-60004)",
+      "link": "https://www.helpnetsecurity.com/2026/08/26/gitea-cve-2026-60004-exploited-in-the-wild/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-08-26T10:59:58.000Z",
+      "summary": "Attackers have begun exploiting CVE-2026-60004, a critical code injection vulnerability in the Gitea Git platform, CISA confirmed on Tuesday by adding the vulnerability to its Known Exploited Vulnerabilities (KEV) catalo",
+      "categories": [
+        "Vulnerability",
+        "Government"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-60004"
+      ],
+      "kev": true,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Attackers are actively exploiting a critical code injection vulnerability in the Gitea Git platform, known as CVE-2026-60004. CISA has officially added this security flaw to its Known Exploited Vulnerabilities catalog following confirmation of in-the-wild attacks.",
+        "whyItMatters": "Active exploitation of this critical flaw puts all vulnerable Gitea instances at immediate risk of remote code execution by malicious actors.",
+        "affected": [
+          "Gitea"
+        ],
+        "action": "Update Gitea to the latest patched version immediately.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-60004"
+        ],
         "source": "ai"
       }
     },
@@ -699,6 +814,39 @@
       }
     },
     {
+      "title": "USN-8681-1: OpenJDK 25 vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8681-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-26T01:40:39.000Z",
+      "summary": "It was discovered that the JSSE component of OpenJDK 25 did not correctly\nauthenticate users. A remote attacker could possibly use this issue to read or\nmodify sensitive data. (CVE-2026-46968)\n\nIt was discovered that the",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-46968"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "OpenJDK 25 contains vulnerabilities in its JSSE component that fail to correctly authenticate users. A remote attacker could potentially exploit these flaws to read or modify sensitive data.",
+        "whyItMatters": "Unauthenticated access to sensitive data via cryptographic flaws poses a severe risk to application integrity and confidentiality.",
+        "affected": [
+          "OpenJDK 25"
+        ],
+        "action": "Update OpenJDK 25 to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-46968"
+        ],
+        "source": "ai"
+      }
+    },
+    {
       "title": "USN-8659-4: Linux kernel (Oracle) vulnerability",
       "link": "https://ubuntu.com/security/notices/USN-8659-4",
       "source": "Canonical Ubuntu Security",
@@ -1218,35 +1366,6 @@
       }
     },
     {
-      "title": "USN-8679-1: Vim vulnerability",
-      "link": "https://ubuntu.com/security/notices/USN-8679-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-25T19:29:14.000Z",
-      "summary": "It was discovered that Vim incorrectly handled certain tags files. An\nattacker could possibly use this issue to execute arbitrary code.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A vulnerability was discovered in Vim regarding how it improperly handles specific tags files. This flaw could potentially allow a malicious actor to achieve arbitrary code execution.",
-        "whyItMatters": "This vulnerability matters because successful exploitation could allow an attacker to execute arbitrary code on systems running vulnerable versions of Vim.",
-        "affected": [
-          "Vim"
-        ],
-        "action": "Update Vim to the latest patched version provided by your distributor.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Employee benefits platform Paylogix says hackers stole financial and health data",
       "link": "https://therecord.media/paylogix-cyberattack-akira-ransomware",
       "source": "The Record",
@@ -1732,32 +1851,6 @@
       }
     },
     {
-      "title": "INTERPOL crackdown on West African crime rings uncovers troubling new trend",
-      "link": "https://www.helpnetsecurity.com/2026/08/25/interpol-jackal-iv-west-african-crime-groups-arrests/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-08-25T14:01:06.000Z",
-      "summary": "Police across 22 countries arrested 58 people and identified 263 suspects during an eight-month INTERPOL operation targeting West African organized crime groups. Suspects detained in an operation targeting West African c",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Law enforcement agencies across 22 countries arrested 58 people and identified 263 suspects during an eight-month INTERPOL operation. The targeted effort focused on dismantling West African organized crime rings and uncovered a troubling new trend in their criminal operations.",
-        "whyItMatters": "This international crackdown highlights the growing sophistication and global reach of West African organized crime networks.",
-        "affected": [],
-        "action": "Review global crime trends and law enforcement advisories.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Ukraine to give Britain access to battlefield data to train AI",
       "link": "https://therecord.media/ukraine-uk-ai-drone-data",
       "source": "The Record",
@@ -2118,64 +2211,6 @@
       }
     },
     {
-      "title": "WhatsApp adds stronger two-step verification, multiple passkeys",
-      "link": "https://www.bleepingcomputer.com/news/security/whatsapp-adds-stronger-two-step-verification-multiple-passkeys/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-08-25T13:00:00.000Z",
-      "summary": "WhatsApp has started rolling out several new account security features, including support for multiple passkeys and stronger two-step verification. [...]",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "WhatsApp is rolling out new account security features, including support for multiple passkeys. It also introduces stronger two-step verification mechanisms for users.",
-        "whyItMatters": "These enhancements provide stronger authentication options to better protect user accounts from unauthorized access.",
-        "affected": [
-          "WhatsApp"
-        ],
-        "action": "Enable passkeys and two-step verification in your WhatsApp account settings.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "WhatsApp Adds Multiple Passkeys and Stronger 2SV in Account Security Update",
-      "link": "https://www.securityweek.com/whatsapp-adds-multiple-passkeys-and-stronger-2sv-in-account-security-update/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-08-25T13:00:00.000Z",
-      "summary": "When Android users get a call from a non-contact, they will see more information about the caller, including their country.\nThe post WhatsApp Adds Multiple Passkeys and Stronger 2SV in Account Security Update appeared fi",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Android"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "WhatsApp has rolled out an account security update that introduces support for multiple passkeys and enhanced two-step verification. Additionally, Android users will now see more detailed information, such as the country of origin, when receiving calls from unknown numbers.",
-        "whyItMatters": "These features improve overall user privacy and account security against unauthorized access.",
-        "affected": [
-          "WhatsApp Android"
-        ],
-        "action": "Update WhatsApp to the latest version and configure passkeys or two-step verification.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Fake Recruiter Scams Target Corporate Credentials on Mobile",
       "link": "https://www.infosecurity-magazine.com/news/fake-recruiter-scams-corporate/",
       "source": "Infosecurity Magazine",
@@ -2222,32 +2257,6 @@
         "whyItMatters": "Proper identity hardening is crucial for preventing sophisticated cyber attacks that exploit weak authentication configurations.",
         "affected": [],
         "action": "Review and harden your organization identity and MFA policies.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Hands-On Cyber-Physical Systems Training Returns to ICS Cybersecurity Conference",
-      "link": "https://www.securityweek.com/hands-on-cyber-physical-systems-training-returns-to-ics-cybersecurity-conference/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-08-25T12:57:59.000Z",
-      "summary": "Hands-on Cyber Attack Methods course returns to SecurityWeek’s ICS Cybersecurity Conference, October 6–8 at the W Nashville.\nThe post Hands-On Cyber-Physical Systems Training Returns to ICS Cybersecurity Conference appea",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The Hands-On Cyber Attack Methods course is returning to SecurityWeek's ICS Cybersecurity Conference. The event is scheduled for October 6-8 at the W Nashville.",
-        "whyItMatters": "This training provides practical cyber-physical systems security education for professionals in critical infrastructure sectors.",
-        "affected": [],
-        "action": "Register for the conference if interested in the training.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
