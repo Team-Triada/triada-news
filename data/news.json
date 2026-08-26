@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T23:35:52.042Z",
+  "updatedAt": "2026-08-26T01:57:09.509Z",
   "items": [
     {
       "title": "Boardroom Battles 2026: ASD’s Cyber Priorities & AI Risk",
@@ -23,6 +23,97 @@
         "affected": [],
         "action": "Review the updated ASD frontier AI guidance.",
         "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8659-4: Linux kernel (Oracle) vulnerability",
+      "link": "https://ubuntu.com/security/notices/USN-8659-4",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-26T00:14:56.000Z",
+      "summary": "A security issue was discovered in the Linux kernel.\nAn attacker could possibly use this to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - Open vSwitch;",
+      "categories": [
+        "Vulnerability",
+        "Incident Response",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux",
+        "Oracle"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A security vulnerability has been discovered in the Linux kernel within the Open vSwitch subsystem. This update provides the necessary corrections to address the identified flaws.",
+        "whyItMatters": "Unpatched kernel vulnerabilities can allow malicious actors to compromise the entire affected system.",
+        "affected": [
+          "Linux kernel (Oracle)"
+        ],
+        "action": "Update the Linux kernel to the latest version provided by Oracle.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Weekly Report: GeoServerにSQLインジェクションの脆弱性",
+      "link": "https://www.jpcert.or.jp/wr/2026/wr260826.html#1",
+      "source": "JPCERT/CC",
+      "publishedAt": "2026-08-26T00:08:00.000Z",
+      "summary": "GeoServerにSQLインジェクションの脆弱性",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "A SQL injection vulnerability has been discovered in GeoServer. The security flaw could potentially allow attackers to execute arbitrary SQL commands through the affected software.",
+        "whyItMatters": "Unpatched SQL injection vulnerabilities can lead to unauthorized access, data theft, or complete compromise of the underlying database.",
+        "affected": [
+          "GeoServer"
+        ],
+        "action": "Update GeoServer to the latest patched version immediately.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Weekly Report: NECのUNIVERGE IX-R／IX-Vシリーズルータに重要な機能に対する認証の欠如の脆弱性",
+      "link": "https://www.jpcert.or.jp/wr/2026/wr260826.html#2",
+      "source": "JPCERT/CC",
+      "publishedAt": "2026-08-26T00:08:00.000Z",
+      "summary": "NECのUNIVERGE IX-R／IX-Vシリーズルータに重要な機能に対する認証の欠如の脆弱性",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "NEC has disclosed a vulnerability involving a lack of authentication for critical functions in its UNIVERGE IX-R and IX-V series routers. This security flaw could potentially allow unauthorized users to access or modify critical device settings.",
+        "whyItMatters": "Unauthenticated access to critical router functions allows attackers to compromise network infrastructure devices.",
+        "affected": [
+          "NEC UNIVERGE IX-R series routers",
+          "NEC UNIVERGE IX-V series routers"
+        ],
+        "action": "Check vendor advisories and apply available patches or mitigation steps immediately.",
+        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -362,6 +453,39 @@
       }
     },
     {
+      "title": "USN-8680-1: FFmpeg vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8680-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-08-25T20:01:39.000Z",
+      "summary": "Adrian Junge discovered that FFmpeg incorrectly handled certain subtitle\ndata. An attacker could possibly use this issue to cause a denial of\nservice or execute arbitrary code. (CVE-2026-70628)\n\nAdrian Junge discovered t",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-70628"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "FFmpeg incorrectly handled certain subtitle data, allowing an attacker to potentially cause a denial of service. The vulnerability was discovered by Adrian Junge and is tracked as CVE-2026-70628.",
+        "whyItMatters": "This vulnerability could allow malicious actors to execute arbitrary code or crash affected systems via crafted subtitle files.",
+        "affected": [
+          "FFmpeg"
+        ],
+        "action": "Update FFmpeg to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-70628"
+        ],
+        "source": "ai"
+      }
+    },
+    {
       "title": "Announcing: Aspire 13.5 has shipped",
       "link": "https://azure.microsoft.com/updates?id=569910",
       "source": "Azure Updates",
@@ -561,35 +685,6 @@
       }
     },
     {
-      "title": "USN-8678-1: OpenSSL vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8678-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-25T17:38:49.000Z",
-      "summary": "It was discovered that OpenSSL incorrectly handled the QUIC server incoming\nchannel queue. A remote attacker could possibly use this issue to cause\nOpenSSL to use excessive resources, leading to a denial of service. This",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A vulnerability was discovered in OpenSSL involving incorrect handling of the QUIC server incoming channel queue. This flaw allows a remote attacker to consume excessive resources and trigger a denial of service.",
-        "whyItMatters": "It matters because a remote attacker can exploit this flaw to disrupt services relying on OpenSSL for QUIC connections.",
-        "affected": [
-          "OpenSSL"
-        ],
-        "action": "Update OpenSSL to the latest patched version.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Water sector passes, government sector fails attempts to spot and halt simulated CISA attack",
       "link": "https://cyberscoop.com/cisa-red-team-report-government-water-cybersecurity/",
       "source": "CyberScoop",
@@ -611,38 +706,6 @@
         "affected": [],
         "action": "Review incident response protocols to ensure rapid detection and isolation capabilities.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8670-2: curl vulnerability",
-      "link": "https://ubuntu.com/security/notices/USN-8670-2",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-08-25T16:30:06.000Z",
-      "summary": "USN-8670-1 fixed a vulnerability in curl. This update provides the\ncorresponding update for Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, and Ubuntu\n22.04 LTS.\n\nOriginal advisory details:\n\n Joshua Rogers discovered that curl incor",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Ubuntu has released security updates for multiple versions of the operating system to address a vulnerability in the curl data transfer tool. This advisory follows an initial fix to provide corresponding patches for Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, and Ubuntu 22.04 LTS.",
-        "whyItMatters": "Unpatched curl vulnerabilities could potentially expose systems to security risks such as data leakage or remote attacks depending on the specific flaw.",
-        "affected": [
-          "Ubuntu 18.04 LTS",
-          "Ubuntu 20.04 LTS",
-          "Ubuntu 22.04 LTS",
-          "curl"
-        ],
-        "action": "Update curl to the latest available version for your Ubuntu distribution.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -2613,6 +2676,38 @@
       }
     },
     {
+      "title": "DSA-6466-1 linux - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00377.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-08-25T00:00:00.000Z",
+      "summary": "Several vulnerabilities have been discovered in the Linux kernel that\nmay lead to a privilege escalation, denial of service or information\nleaks.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6466-1",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory",
+        "Open Source"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Several vulnerabilities have been discovered in the Linux kernel that may lead to privilege escalation, denial of service, or information leaks. Debian has issued a security update to address these issues in the affected packages.",
+        "whyItMatters": "Unpatched kernel vulnerabilities can allow local attackers to escalate privileges, crash systems, or access sensitive information.",
+        "affected": [
+          "Linux kernel"
+        ],
+        "action": "Update the Linux kernel packages to the latest version immediately.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "DSA-6465-1 openssl - security update",
       "link": "https://lists.debian.org/debian-security-announce/2026/msg00376.html",
       "source": "Debian Security",
@@ -4123,35 +4218,6 @@
       }
     },
     {
-      "title": "DSA-6458-1 gst-plugins-bad1.0 - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00369.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-08-21T00:00:00.000Z",
-      "summary": "Multiple security vulnerabilities were discovered in plugins for\nthe GStreamer media framework and its codecs and demuxers, which\nmay result in denial of service or potentially the execution of\narbitrary code if a malfor",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Multiple security vulnerabilities were discovered in plugins for the GStreamer media framework, codecs, and demuxers. These flaws may result in a denial of service or potentially the execution of arbitrary code.",
-        "whyItMatters": "Unpatched media framework vulnerabilities can lead to system compromise or service disruption when processing untrusted media files.",
-        "affected": [
-          "gst-plugins-bad1.0"
-        ],
-        "action": "Update the gst-plugins-bad1.0 package to the latest security release.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Ongoing updates on Copy.fail and variants",
       "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-030-aws/",
       "source": "AWS Security Bulletins",
@@ -5269,62 +5335,6 @@
         "affected": [],
         "action": "Ensure you can independently verify any AI-generated output before delegating tasks.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Weekly Report: PostgreSQLに複数の脆弱性",
-      "link": "https://www.jpcert.or.jp/wr/2026/wr260819.html#1",
-      "source": "JPCERT/CC",
-      "publishedAt": "2026-08-19T00:08:00.000Z",
-      "summary": "PostgreSQLに複数の脆弱性",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "Multiple vulnerabilities have been reported in PostgreSQL. The advisory provides details regarding these security issues.",
-        "whyItMatters": "Unpatched vulnerabilities in database systems can potentially lead to unauthorized access or system compromise.",
-        "affected": [
-          "PostgreSQL"
-        ],
-        "action": "Check the official PostgreSQL advisories and apply the necessary updates.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Weekly Report: 複数のElastic製品に脆弱性",
-      "link": "https://www.jpcert.or.jp/wr/2026/wr260819.html#2",
-      "source": "JPCERT/CC",
-      "publishedAt": "2026-08-19T00:08:00.000Z",
-      "summary": "複数のElastic製品に脆弱性",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "Multiple Elastic products have been found to contain vulnerabilities. Users of affected Elastic software should review the security advisories and apply necessary updates.",
-        "whyItMatters": "Unpatched vulnerabilities in enterprise search and data analytics platforms can lead to unauthorized access or system compromise.",
-        "affected": [
-          "Elastic products"
-        ],
-        "action": "Check the vendor advisory and apply the latest security patches.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
