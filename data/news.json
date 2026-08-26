@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T04:54:33.895Z",
+  "updatedAt": "2026-08-26T05:50:14.895Z",
   "items": [
     {
       "title": "Boardroom Battles 2026: ASD’s Cyber Priorities & AI Risk",
@@ -22,6 +22,93 @@
         "whyItMatters": "It establishes official strategic guidance for organizations to address emerging artificial intelligence cybersecurity risks.",
         "affected": [],
         "action": "Review the updated ASD frontier AI guidance.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Production data in testing is still common, and Tricentis’ CISO wants it gone",
+      "link": "https://www.helpnetsecurity.com/2026/08/26/erika-dean-tricentis-production-data-in-testing/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-08-26T05:30:54.000Z",
+      "summary": "In this Help Net Security interview, Erika Dean, CISO at Tricentis, talks about keeping production data out of test environments and why she thinks the alternatives are good enough now. She explains how her team caught a",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "In a recent interview, Tricentis CISO Erika Dean discussed the ongoing industry challenge of using production data in testing environments. She argues that modern alternatives are now sufficient to eliminate this risky practice.",
+        "whyItMatters": "Using production data in insecure testing environments frequently leads to data breaches and unauthorized exposure of sensitive information.",
+        "affected": [],
+        "action": "Ensure test environments utilize synthetic or anonymized data instead of production data.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CISA Warns of Exploited Gitea Vulnerability",
+      "link": "https://www.securityweek.com/cisa-warns-of-exploited-gitea-vulnerability/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-08-26T05:17:28.000Z",
+      "summary": "CVE-2026-60004 is a remote code execution vulnerability patched by Gitea developers in late July with the release of version 1.27.1.\nThe post CISA Warns of Exploited Gitea Vulnerability appeared first on SecurityWeek.",
+      "categories": [
+        "Vulnerability",
+        "Government",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-60004"
+      ],
+      "kev": true,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "CISA has issued a warning regarding a remotely exploitable code execution vulnerability in Gitea. The security flaw was patched by developers in late July with the release of version 1.27.1.",
+        "whyItMatters": "This vulnerability is actively being exploited in the wild, posing an immediate risk to organizations running vulnerable Gitea instances.",
+        "affected": [
+          "Gitea prior to 1.27.1"
+        ],
+        "action": "Update Gitea to version 1.27.1 or later immediately.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-60004"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "AI vulnerability discovery scores the highest impact of 20 emerging risks",
+      "link": "https://www.helpnetsecurity.com/2026/08/26/ai-vulnerability-discovery-emerging-risks/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-08-26T05:00:52.000Z",
+      "summary": "Risk managers, auditors and senior executives at 316 companies spent April and May ranking 20 threats they have not yet felt. AI discovery of cyber vulnerabilities came back first, according to Gartner. Three months earl",
+      "categories": [
+        "Vulnerability",
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A recent Gartner survey of risk managers and executives across 316 companies ranked AI-driven vulnerability discovery as the highest-impact emerging threat. Participants evaluated 20 potential risks during April and May that their organizations have not yet experienced.",
+        "whyItMatters": "It highlights growing executive concern that artificial intelligence will be weaponized to discover and exploit network vulnerabilities faster than traditional defenses can adapt.",
+        "affected": [],
+        "action": "Monitor emerging AI-driven threat intelligence and assess your organization's vulnerability management posture.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -2515,32 +2602,6 @@
       }
     },
     {
-      "title": "ShinyHunters taunts ReliaQuest after its own employee falls for social engineering attack",
-      "link": "https://www.helpnetsecurity.com/2026/08/25/reliaquest-breach-social-engineering/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-08-25T09:24:16.000Z",
-      "summary": "Cybersecurity company ReliaQuest has confirmed that one of its own employees fell for a social engineering attack, handing attackers a password and a brief window into the company’s identity system. The admission came af",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Cybersecurity firm ReliaQuest confirmed that an employee fell victim to a social engineering attack, granting attackers access to a password and its identity system. The ShinyHunters threat group subsequently taunted the company over the security lapse.",
-        "whyItMatters": "This incident highlights how human error and social engineering can successfully compromise even prominent cybersecurity organizations, potentially exposing sensitive internal systems.",
-        "affected": [],
-        "action": "Conduct targeted phishing awareness training and strengthen identity verification protocols.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Crooks push Mac malware through fake OpenAI Codex ads",
       "link": "https://www.theregister.com/security/2026/08/25/crooks-push-mac-malware-through-fake-openai-codex-ads/5291899",
       "source": "The Register",
@@ -2593,32 +2654,6 @@
       }
     },
     {
-      "title": "Taiwan Charges 9 Over Illegal AI Server Exports to China, Including Nvidia and Super Micro Staff",
-      "link": "https://www.securityweek.com/taiwan-charges-9-over-illegal-ai-server-exports-to-china-including-nvidia-and-super-micro-staff/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-08-25T08:30:00.000Z",
-      "summary": "AI infrastructure, including advanced semiconductors mostly made in Taiwan, has become a key point of competition between the U.S. and China.\nThe post Taiwan Charges 9 Over Illegal AI Server Exports to China, Including N",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Taiwan has charged nine individuals, including staff from Nvidia and Super Micro, with illegally exporting AI servers to China. This case highlights ongoing concerns regarding the illicit transfer of advanced AI infrastructure and semiconductors amid strict U.S.-China technology competition.",
-        "whyItMatters": "It demonstrates how high-end AI hardware controls are being bypassed through insider involvement, threatening export compliance and national security.",
-        "affected": [],
-        "action": "Monitor export compliance investigations and review supply chain security controls.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "TikTok phishing: How to spot fake login and verification pages",
       "link": "https://www.malwarebytes.com/blog/threat-intel/2026/08/tiktok-phishing-how-to-spot-fake-login-and-verification-pages",
       "source": "Malwarebytes Labs",
@@ -2640,33 +2675,6 @@
         "affected": [],
         "action": "Avoid clicking unfamiliar links and always verify the official TikTok domain before entering credentials.",
         "risk": "Medium",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "AI supply chain risk is showing up in developer workflows first",
-      "link": "https://www.helpnetsecurity.com/2026/08/25/jaushin-lee-ai-zentera-systems-supply-chain-risk/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-08-25T06:00:50.000Z",
-      "summary": "In this Help Net Security interview, Dr. Jaushin Lee, CEO of Zentera Systems, discusses where AI supply chain risk shows up. He says most incidents still hit developer workflows and open-source package repositories, whil",
-      "categories": [
-        "AI Security",
-        "Open Source"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Dr. Jaushin Lee, CEO of Zentera Systems, discusses how AI supply chain risks primarily impact developer workflows and open-source package repositories. The interview highlights where organizations are first encountering these emerging AI-related security challenges.",
-        "whyItMatters": "It highlights that current AI supply chain vulnerabilities are predominantly targeting early-stage development environments and open-source repositories.",
-        "affected": [],
-        "action": "Monitor developer workflows and open-source dependencies for AI supply chain risks.",
-        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
