@@ -4,11 +4,12 @@ const isDev = process.env.NODE_ENV !== "production";
 
 const csp = [
   "default-src 'self'",
-  `script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ""}`,
+  `script-src 'self' 'unsafe-inline' https://pagead2.googlesyndication.com https://googleads.g.doubleclick.net${isDev ? " 'unsafe-eval'" : ""}`,
   "style-src 'self' 'unsafe-inline'",
-  "img-src 'self' data:",
+  "img-src 'self' data: https://pagead2.googlesyndication.com https://googleads.g.doubleclick.net",
   "font-src 'self'",
-  "connect-src 'self'",
+  "connect-src 'self' https://pagead2.googlesyndication.com https://googleads.g.doubleclick.net",
+  "frame-src https://googleads.g.doubleclick.net https://tpc.googlesyndication.com",
   "frame-ancestors 'none'",
   "base-uri 'self'",
   "form-action 'self'",
