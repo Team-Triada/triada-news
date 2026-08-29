@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T15:37:10.640Z",
+  "updatedAt": "2026-08-29T19:23:51.009Z",
   "items": [
     {
       "title": "[Virtual Event] What Every Enterprise Should Know About Securing Cloud Assets in the Age of AI",
@@ -54,6 +54,40 @@
       }
     },
     {
+      "title": "Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE",
+      "link": "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-29T16:25:03.000Z",
+      "summary": "Multiple critical security flaws have been disclosed in WordPress plugins and themes, including WPMU DEV Dashboard, Avada, TranslatePress, Pods, and GiveWP, that could lead to authentication bypass, account takeover, and",
+      "categories": [
+        "News"
+      ],
+      "tags": [
+        "WordPress"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple critical security flaws have been discovered in several WordPress plugins and themes, including WPMU DEV Dashboard and Avada. These vulnerabilities could potentially lead to site takeover, remote code execution, and authentication bypass.",
+        "whyItMatters": "Unpatched critical flaws in popular WordPress components expose millions of websites to complete compromise and unauthorized access by attackers.",
+        "affected": [
+          "WPMU DEV Dashboard",
+          "Avada",
+          "TranslatePress",
+          "Pods",
+          "GiveWP"
+        ],
+        "action": "Update the affected WordPress plugins and themes to their latest patched versions immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "Brave browser adds email aliases to help users evade tracking",
       "link": "https://www.bleepingcomputer.com/news/security/brave-browser-adds-email-aliases-to-help-users-evade-tracking/",
       "source": "BleepingComputer",
@@ -78,6 +112,41 @@
         "action": "Update to Brave version 1.94 to access the new email alias feature.",
         "risk": "News",
         "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-68821 Windows Package Manager Elevation of Privilege Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68821",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-08-29T14:00:00.000Z",
+      "summary": "Changes made to the security updates links and information.  This is an informational change only.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [
+        "CVE-2026-68821"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A security advisory has been released regarding CVE-2026-68821, an elevation of privilege vulnerability in the Windows Package Manager. The recent update to the advisory consists solely of informational changes to the security update links.",
+        "whyItMatters": "Understanding privilege escalation flaws in core Windows management tools is vital for maintaining system integrity and preventing unauthorized administrative access.",
+        "affected": [
+          "Windows Package Manager"
+        ],
+        "action": "Review the updated security advisory links for official guidance.",
+        "risk": "Medium",
+        "relatedCves": [
+          "CVE-2026-68821"
+        ],
         "source": "ai"
       }
     },
@@ -1103,39 +1172,6 @@
       }
     },
     {
-      "title": "CVE-2026-72984 Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-72984",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-08-28T14:00:00.000Z",
-      "summary": "Access of resource using incompatible type ('type confusion') in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-72984"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Access of resource using incompatible type ('type confusion') in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.",
-        "whyItMatters": "Actively exploited or high-impact; treat as urgent.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Patch immediately.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-72984"
-        ],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "ATF Confirms Cyber Incident After Ransomware Group Claims Attack",
       "link": "https://www.securityweek.com/atf-confirms-cyber-incident-after-ransomware-group-claims-attack/",
       "source": "SecurityWeek",
@@ -1389,34 +1425,6 @@
       "readTimeMin": 1,
       "aiSummary": {
         "summary": "Hasbro, one of the world's largest toy and game companies, has disclosed that attackers have accessed the personal and financial information of an undisclosed number of employees. [...]",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Key Reasons Why Identity Fabric Matters in 2026",
-      "link": "https://thehackernews.com/2026/08/key-reasons-why-identity-fabric-matters.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-28T11:30:00.000Z",
-      "summary": "An Identity Fabric knits fragmented identity systems into a coherent layer that observes how identities behave across applications, APIs, and infrastructure. As enterprise access spans more cloud services and automated w",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "An Identity Fabric knits fragmented identity systems into a coherent layer that observes how identities behave across applications, APIs, and infrastructure. As enterprise access spans more cloud services and automated w",
         "whyItMatters": "Background context; no immediate action expected.",
         "affected": [
           "Not specified"
