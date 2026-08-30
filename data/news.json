@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T22:38:59.159Z",
+  "updatedAt": "2026-08-30T01:14:02.782Z",
   "items": [
     {
       "title": "[Virtual Event] What Every Enterprise Should Know About Securing Cloud Assets in the Age of AI",
@@ -48,6 +48,37 @@
         "whyItMatters": "It highlights the growing industry focus on enterprise security and risk mitigation as artificial intelligence adoption accelerates.",
         "affected": [],
         "action": "Register for the virtual event if interested in enterprise AI security strategies.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Anthropic is cutting Claude Code's current weekly limits by 17%",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-08-29T23:11:51.000Z",
+      "summary": "Anthropic is permanently increasing Claude Code's standard weekly usage limits by 25% for Pro, Max, Team, and seat-based Enterprise plans, but it's not as good as it sounds. [...]",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Anthropic is permanently adjusting Claude Code usage limits across various subscription tiers. The reported change modifies weekly limits for Pro, Max, Team, and Enterprise plans.",
+        "whyItMatters": "This update directly impacts the workflow capacity and availability of an AI coding tool for subscribing professionals and organizations.",
+        "affected": [
+          "Claude Code Pro",
+          "Claude Code Max",
+          "Claude Code Team",
+          "Claude Code Enterprise"
+        ],
+        "action": "Review your subscription tier usage limits and adjust workflows accordingly.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -171,6 +202,38 @@
         "whyItMatters": "It highlights ongoing vulnerabilities in corporate security that put sensitive employee data at risk of exposure.",
         "affected": [],
         "action": "Monitor accounts for potential misuse and await further guidance from Hasbro.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6477-1 linux - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00388.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-08-29T00:00:00.000Z",
+      "summary": "Several vulnerabilities have been discovered in the Linux kernel that\nmay lead to a privilege escalation, denial of service or information\nleaks.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6477-1",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory",
+        "Open Source"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple vulnerabilities have been discovered in the Linux kernel. These security flaws could potentially result in privilege escalation, denial of service, or information leaks.",
+        "whyItMatters": "Unpatched Linux kernel vulnerabilities pose a significant threat to system security, potentially allowing attackers to compromise the entire operating system.",
+        "affected": [
+          "Linux kernel"
+        ],
+        "action": "Update the Linux kernel to the latest version provided by your vendor.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -1397,34 +1460,6 @@
       "readTimeMin": 1,
       "aiSummary": {
         "summary": "Security researcher Olivier Laflamme has disclosed two independent root remote code execution (RCE) chains affecting the Unitree G1 EDU, including a Bluetooth Low Energy (BLE) path that can reach root on the robot's Loco",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Toy-making giant Hasbro disclose data breach affecting employees",
-      "link": "https://www.bleepingcomputer.com/news/security/toy-making-giant-hasbro-disclose-data-breach-affecting-employees/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-08-28T11:46:57.000Z",
-      "summary": "Hasbro, one of the world's largest toy and game companies, has disclosed that attackers have accessed the personal and financial information of an undisclosed number of employees. [...]",
-      "categories": [
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Hasbro, one of the world's largest toy and game companies, has disclosed that attackers have accessed the personal and financial information of an undisclosed number of employees. [...]",
         "whyItMatters": "Background context; no immediate action expected.",
         "affected": [
           "Not specified"
@@ -3825,35 +3860,6 @@
       "readTimeMin": 1,
       "aiSummary": {
         "summary": "Several vulnerabilities were discovered in GIMP, the GNU Image\nManipulation Program, which could result in denial of service or\npotentially the execution of arbitrary code if malformed PSP, TIFF,\nDDS, PSD, SGI, FLI, FITS",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "DSA-6469-1 xrdp - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00380.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-08-27T00:00:00.000Z",
-      "summary": "Multiple vulnerabilities were discovered in xrdp, a Remote Desktop\nProtocol (RDP) server, which may result in denial of service,\ninformation disclosure, privilege escalation or the execution of\narbitrary code. Several of",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Multiple vulnerabilities were discovered in xrdp, a Remote Desktop\nProtocol (RDP) server, which may result in denial of service,\ninformation disclosure, privilege escalation or the execution of\narbitrary code. Several of",
         "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
         "affected": [
           "Not specified"
