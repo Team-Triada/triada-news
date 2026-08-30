@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T17:26:43.020Z",
+  "updatedAt": "2026-08-30T21:02:16.681Z",
   "items": [
     {
       "title": "[Virtual Event] What Every Enterprise Should Know About Securing Cloud Assets in the Age of AI",
@@ -258,6 +258,64 @@
         ],
         "action": "Upgrade to YARA-X version 1.20.0.",
         "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6479-1 roundcube - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00390.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-08-30T00:00:00.000Z",
+      "summary": "Multiple vulnerabilities were discovered in roundcube, a skinnable AJAX\nbased webmail solution for IMAP servers, which could result in\ncross-site scripting, SSRF bypass, information disclosure, privilege\nescalation, deni",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple vulnerabilities have been discovered in the Roundcube webmail solution. These security flaws could potentially lead to cross-site scripting, server-side request forgery bypass, information disclosure, privilege escalation, and denial of service.",
+        "whyItMatters": "Exploitation of these vulnerabilities could allow attackers to compromise webmail accounts, access sensitive information, or disrupt email services.",
+        "affected": [
+          "roundcube"
+        ],
+        "action": "Apply the security update provided by your vendor immediately.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6478-1 starlette - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00389.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-08-30T00:00:00.000Z",
+      "summary": "Several vulnerabilities were discovered in starlette, a lightweight ASGI\nframework/toolkit, which could result in bypass of authorization checks\nor denial of service.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-647",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Several vulnerabilities have been discovered in the starlette ASGI framework and toolkit. These security issues could potentially lead to the bypass of authorization checks or result in a denial of service.",
+        "whyItMatters": "Unpatched vulnerabilities in the starlette framework could allow attackers to bypass critical authorization controls or disrupt application availability.",
+        "affected": [
+          "starlette"
+        ],
+        "action": "Update the starlette package to the latest patched version.",
+        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -3835,64 +3893,6 @@
       "readTimeMin": 1,
       "aiSummary": {
         "summary": "A symlink traversal vulnerability was discovered in bubblewrap, a\nlow-level unprivileged sandboxing tool used by Flatpak and other\nprojects, which could result in sandbox escape by malicious/compromised\nFlatpak apps.\n\n\nh",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "DSA-6471-1 wireshark - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00382.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-08-27T00:00:00.000Z",
-      "summary": "Multiple vulnerabilities have been discocvered in Wireshark, a network\nprotocol analyzer which could result in denial of service or the\nexecution of arbitrary code.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6471-",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Multiple vulnerabilities have been discocvered in Wireshark, a network\nprotocol analyzer which could result in denial of service or the\nexecution of arbitrary code.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6471-",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "DSA-6470-1 gimp - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00381.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-08-27T00:00:00.000Z",
-      "summary": "Several vulnerabilities were discovered in GIMP, the GNU Image\nManipulation Program, which could result in denial of service or\npotentially the execution of arbitrary code if malformed PSP, TIFF,\nDDS, PSD, SGI, FLI, FITS",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several vulnerabilities were discovered in GIMP, the GNU Image\nManipulation Program, which could result in denial of service or\npotentially the execution of arbitrary code if malformed PSP, TIFF,\nDDS, PSD, SGI, FLI, FITS",
         "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
         "affected": [
           "Not specified"
