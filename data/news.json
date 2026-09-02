@@ -1,6 +1,300 @@
 {
-  "updatedAt": "2026-09-02T18:42:08.975Z",
+  "updatedAt": "2026-09-02T21:49:15.260Z",
   "items": [
+    {
+      "title": "USN-8661-4: Linux kernel vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8661-4",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-09-02T21:40:11.000Z",
+      "summary": "Siebe Devroe, Héloïse Gollier, and Mathy Vanhoef discovered that the WiFi\nimplementation in the Linux kernel did not properly handle aggregated\nframes in mesh networks, due to an incorrect fix for CVE-2020-24588. A\nphysi",
+      "categories": [
+        "Vulnerability",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [
+        "CVE-2020-24588"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Security researchers discovered that the Linux kernel's WiFi implementation improperly handles aggregated frames in mesh networks due to an incorrect fix for a previous vulnerability. This flaw exposes systems running affected kernels to potential network-based attacks.",
+        "whyItMatters": "It leaves Linux systems using mesh networks vulnerable to exploitation because a previous security fix was incomplete.",
+        "affected": [
+          "Linux kernel"
+        ],
+        "action": "Update your Linux kernel to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2020-24588"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Claude Mythos only model to complete full cyber kill chain, experts say",
+      "link": "https://www.theregister.com/security/2026/09/02/claude-mythos-only-model-to-complete-full-cyber-kill-chain-experts-say/5294071",
+      "source": "The Register",
+      "publishedAt": "2026-09-02T21:31:31.000Z",
+      "summary": "Cyber Weapon Index finds AI attacks 'imminent'",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "A recent assessment by the Cyber Weapon Index reveals that Anthropic's Claude Mythos is the only AI model capable of completing a full cyber kill chain. Experts warn that these findings indicate AI-driven cyberattacks are now imminent.",
+        "whyItMatters": "This capability signals a major escalation in automated threat potential, shifting the cyber risk landscape significantly.",
+        "affected": [],
+        "action": "Monitor developments in AI security and evaluate threat models against advanced autonomous attacks.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8714-1: Linux kernel vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8714-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-09-02T21:30:21.000Z",
+      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - OCFS2 file system;\n  - SCTP protocol",
+      "categories": [
+        "Vulnerability",
+        "Incident Response",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Several security vulnerabilities have been discovered in the Linux kernel affecting the OCFS2 file system and SCTP protocol subsystems. An attacker could potentially exploit these flaws to compromise the affected system.",
+        "whyItMatters": "Unpatched kernel vulnerabilities can allow local or remote attackers to compromise the entire operating system.",
+        "affected": [
+          "Linux kernel OCFS2 file system",
+          "Linux kernel SCTP protocol"
+        ],
+        "action": "Update the Linux kernel to the latest version provided by your vendor.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Jail time for Maine child in 764 marks turning point in federal law enforcement",
+      "link": "https://cyberscoop.com/maine-teenager-first-underage-detained-764/",
+      "source": "CyberScoop",
+      "publishedAt": "2026-09-02T21:03:43.000Z",
+      "summary": "Researcher tracking 764 said the first-of-its-kind case has a wider impact that will cause ripples across the landscape of violent extremist crime.\nThe post Jail time for Maine child in 764 marks turning point in federal",
+      "categories": [
+        "Government"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A Maine child associated with the violent extremist group 764 has received jail time in a first-of-its-kind federal case. Researchers tracking the group note that this prosecution marks a significant turning point in federal law enforcement against such online extremist crimes.",
+        "whyItMatters": "This landmark case establishes a precedent for federal prosecution of youth involved in violent online extremist networks like 764.",
+        "affected": [],
+        "action": "Monitor federal enforcement trends regarding violent online extremist groups.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Hackers exploit Sangoma Switchvox flaw to deploy reverse shells",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sangoma-switchvox-flaw-to-deploy-reverse-shells/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-09-02T21:00:13.000Z",
+      "summary": "Attackers are actively exploiting CVE-2026-9586, an unauthenticated SQL injection vulnerability in the Sangoma Switchvox VoIP platform that can lead to remote code execution. [...]",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-9586"
+      ],
+      "kev": true,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Threat actors are actively exploiting a critical unauthenticated SQL injection vulnerability in the Sangoma Switchvox VoIP platform. This security flaw allows remote attackers to execute arbitrary code and deploy reverse shells.",
+        "whyItMatters": "Unauthenticated remote code execution flaws in widely used enterprise communication platforms provide attackers with immediate access to internal networks and sensitive voice infrastructure.",
+        "affected": [
+          "Sangoma Switchvox"
+        ],
+        "action": "Apply the latest security patches provided by Sangoma immediately.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-9586"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "SonicWall SMA 1000 Zero-Days Enable Unauthenticated RCE",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/sonicwall-sma-1000-zero-days-unauthenticated-rce",
+      "source": "Dark Reading",
+      "publishedAt": "2026-09-02T20:43:59.000Z",
+      "summary": "The exploitation activity follows attacks earlier this summer on two other zero-day vulnerabilities in the vendor's edge devices.",
+      "categories": [
+        "Zero Day",
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "SonicWall SMA 1000 devices are facing active exploitation from unauthenticated zero-day vulnerabilities enabling remote code execution. This follows similar attacks earlier in the summer targeting other zero-day flaws in the vendor's edge products.",
+        "whyItMatters": "Unauthenticated remote code execution flaws allow attackers to gain complete control over affected edge devices without prior credentials.",
+        "affected": [
+          "SonicWall SMA 1000"
+        ],
+        "action": "Apply available security patches or mitigation steps immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "AI Gives Cybercriminals a Dangerous Time Advantage",
+      "link": "https://www.darkreading.com/threat-intelligence/ai-gives-cybercriminals-dangerous-time-advantage",
+      "source": "Dark Reading",
+      "publishedAt": "2026-09-02T19:46:31.000Z",
+      "summary": "Former cybercriminal Brett Johnson provides a look inside the mind of a threat actor and discusses where AI provides the most value for attackers.",
+      "categories": [
+        "Threat Intel",
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Former cybercriminal Brett Johnson discusses how artificial intelligence provides threat actors with a dangerous time advantage in carrying out attacks. The article offers a look inside the mindset of a cybercriminal and highlights the areas where AI is most useful for malicious activities.",
+        "whyItMatters": "It highlights how emerging technologies like AI are being weaponized by threat actors to accelerate and scale cyberattacks.",
+        "affected": [],
+        "action": "Stay informed on emerging AI-driven cybersecurity threats.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "OpenLeash Adds a Human Check to Risky AI Agent Actions",
+      "link": "https://www.securityweek.com/openleash-adds-a-human-check-to-risky-ai-agent-actions/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-09-02T19:30:00.000Z",
+      "summary": "The security tool intercepts potentially dangerous agent actions, blocking clear threats and requesting human approval when intent is uncertain.\nThe post OpenLeash Adds a Human Check to Risky AI Agent Actions appeared fi",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "OpenLeash is a new security tool designed to intercept potentially dangerous actions performed by AI agents. It automatically blocks clear threats and pauses operations to request human approval when agent intent is uncertain.",
+        "whyItMatters": "It provides a crucial security layer to prevent autonomous AI agents from executing unintended or malicious actions in production environments.",
+        "affected": [],
+        "action": "Evaluate OpenLeash for integration into your AI agent deployment pipeline to enforce human oversight.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "WordPress backup plugin flaw exposes millions of sites to takeover attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/wordpress-backup-plugin-flaw-exposes-millions-of-sites-to-takeover-attacks/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-09-02T19:28:46.000Z",
+      "summary": "An SQL injection vulnerability in the All-in-One WP Migration and Backup plugin for WordPress could allow unauthenticated attackers to execute remote code and take control of affected websites. [...]",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [
+        "WordPress"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "An SQL injection vulnerability in the All-in-One WP Migration and Backup plugin for WordPress exposes millions of sites to potential takeover attacks. Unauthenticated attackers can exploit this flaw to execute remote code and gain full control over affected websites.",
+        "whyItMatters": "This vulnerability affects millions of WordPress sites and allows unauthenticated attackers to achieve complete remote code execution and site takeover.",
+        "affected": [
+          "All-in-One WP Migration and Backup plugin for WordPress"
+        ],
+        "action": "Update the All-in-One WP Migration and Backup plugin to the latest patched version immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Russian national facing 20 years for malware campaign that infected 80,000 freelancers",
+      "link": "https://therecord.media/russian-national-facing-20-years-malware-campaign",
+      "source": "The Record",
+      "publishedAt": "2026-09-02T18:43:00.000Z",
+      "summary": "Searzhudin Tamirlanovich Aktulaev appeared in a San Francisco federal court on Monday after being arrested in Cyprus in May 2025 and extradited to the U.S. last week.",
+      "categories": [
+        "Malware",
+        "Threat Intel",
+        "Government"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Russian national Searzhudin Tamirlanovich Aktulaev appeared in a San Francisco federal court after being extradited from Cyprus for allegedly running a malware campaign. The attack targeted and infected approximately 80,000 freelancers.",
+        "whyItMatters": "It demonstrates international law enforcement cooperation in tracking down and prosecuting individuals behind widespread cybercriminal campaigns.",
+        "affected": [],
+        "action": "Review threat intelligence regarding freelancer-targeted malware campaigns.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "AI Agents Are Now Emailing Me with Their Security Concerns",
       "link": "https://www.schneier.com/blog/archives/2026/09/ai-agents-are-now-emailing-me-with-their-security-concerns.html",
@@ -50,6 +344,32 @@
         "affected": [],
         "action": "Monitor networks for autonomous AI threat behaviors and reinforce standard ransomware defenses.",
         "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Google, Anthropic, and OpenAI Unveil Cyber AI Models, Safeguards, and Access Programs",
+      "link": "https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-02T18:27:49.000Z",
+      "summary": "Google on Wednesday announced Gemini 3.8 Flash Cyber, which it described as its most capable cybersecurity model, and has made it available to a set of trusted defenders via a new initiative called the Fairwind Program.\n",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Google has announced Gemini 3.8 Flash Cyber, a new cybersecurity AI model designed for defenders. The technology is being rolled out to select users through the newly introduced Fairwind Program.",
+        "whyItMatters": "This release represents a significant advancement in AI-driven cybersecurity tools available to defenders, though such models also carry potential implications for offensive operations.",
+        "affected": [],
+        "action": "Monitor the rollout and availability of the Fairwind Program if interested in testing the new model.",
+        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
@@ -598,8 +918,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -627,8 +947,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "Monitor for indicators of compromise.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -655,8 +975,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -745,8 +1065,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [
           "CVE-2026-22891"
         ],
@@ -831,8 +1151,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [
           "CVE-2026-58650"
         ],
@@ -864,8 +1184,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Critical",
         "action": "Patch immediately.",
+        "risk": "Critical",
         "relatedCves": [
           "CVE-2026-59113"
         ],
@@ -897,8 +1217,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [
           "CVE-2026-47285"
         ],
@@ -930,8 +1250,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [
           "CVE-2026-65675"
         ],
@@ -963,8 +1283,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Critical",
         "action": "Patch immediately.",
+        "risk": "Critical",
         "relatedCves": [
           "CVE-2026-69320"
         ],
@@ -996,8 +1316,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [
           "CVE-2026-69278"
         ],
@@ -1029,8 +1349,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [
           "CVE-2026-69306"
         ],
@@ -1065,8 +1385,8 @@
         "affected": [
           "GitHub"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [
           "CVE-2026-70335"
         ],
@@ -1479,8 +1799,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Critical",
         "action": "Patch immediately.",
+        "risk": "Critical",
         "relatedCves": [
           "CVE-2026-9586",
           "CVE-2026-48710"
@@ -1946,36 +2266,6 @@
       }
     },
     {
-      "title": "GeoNetwork Fixes Unauthenticated RCE Chain Affecting Government Geoportal Backends",
-      "link": "https://thehackernews.com/2026/09/geonetwork-fixes-unauthenticated-rce.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-02T09:18:02.000Z",
-      "summary": "Two vulnerabilities in GeoNetwork can be chained to achieve unauthenticated remote code execution (RCE) on the open-source geospatial metadata catalog, which sits behind many government and agency geoportals.\n\nThe projec",
-      "categories": [
-        "Vulnerability",
-        "Government",
-        "Open Source"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Two vulnerabilities in GeoNetwork can be chained to achieve unauthenticated remote code execution on open-source geospatial metadata catalogs. These catalogs are frequently used behind government and agency geoportal backends.",
-        "whyItMatters": "This vulnerability allows unauthenticated attackers to execute arbitrary code on critical government and agency infrastructure.",
-        "affected": [
-          "GeoNetwork"
-        ],
-        "action": "Update GeoNetwork to the latest patched version immediately.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Chrome and Firefox Updates Patch Dozens of Vulnerabilities",
       "link": "https://www.securityweek.com/chrome-and-firefox-updates-patch-dozens-of-vulnerabilities/",
       "source": "SecurityWeek",
@@ -2117,32 +2407,6 @@
       }
     },
     {
-      "title": "23-Year-Old Sality P2P Botnet Disrupted",
-      "link": "https://www.securityweek.com/23-year-old-sality-p2p-botnet-disrupted/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-09-02T08:38:00.000Z",
-      "summary": "The shutdown operation involved peer list manipulation and Sality payload URL takedown.\nThe post 23-Year-Old Sality P2P Botnet Disrupted appeared first on SecurityWeek.",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Law enforcement and security researchers have successfully disrupted the 23-year-old Sality peer-to-peer botnet. The shutdown operation was executed using peer list manipulation and the takedown of Sality payload URLs.",
-        "whyItMatters": "This disruption neutralizes a remarkably resilient and long-standing cyber threat that has infected systems globally for over two decades.",
-        "affected": [],
-        "action": "Monitor network traffic for residual Sality botnet activity and ensure systems are updated.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "FulcrumSec Claims Responsibility for Manchester Airport Group Breach",
       "link": "https://www.infosecurity-magazine.com/news/fulcrumsec-manchester-airport/",
       "source": "Infosecurity Magazine",
@@ -2225,35 +2489,6 @@
       }
     },
     {
-      "title": "SonicWall warns of actively exploited SMA1000 zero-day flaws",
-      "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-actively-exploited-sma1000-zero-day-flaws/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-09-02T06:39:29.000Z",
-      "summary": "SonicWall warned customers that threat actors are chaining two new SMA1000 zero-day vulnerabilities in remote code execution attacks. [...]",
-      "categories": [
-        "Zero Day",
-        "Vulnerability"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "SonicWall has warned customers that threat actors are actively exploiting two new zero-day vulnerabilities in SMA1000 appliances to execute remote code. The flaws are being chained together in live attacks, posing an immediate threat to organizations using the affected devices.",
-        "whyItMatters": "Active exploitation of zero-day remote code execution flaws in perimeter security devices allows attackers to compromise corporate networks and potentially establish persistent access.",
-        "affected": [
-          "SonicWall SMA1000 series"
-        ],
-        "action": "Apply the latest vendor patches and security advisories immediately.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "CrowdStrike Extends Endpoint Security to Stop Software Supply Chain Attacks",
       "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-extends-endpoint-security-to-stop-supply-chain-attacks/",
       "source": "CrowdStrike",
@@ -2275,8 +2510,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -2303,8 +2538,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -2331,8 +2566,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -2472,6 +2707,32 @@
         "affected": [],
         "action": "Monitor network traffic for any residual Sality botnet activity.",
         "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
+      "link": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+      "source": "Krebs on Security",
+      "publishedAt": "2026-09-01T22:40:28.000Z",
+      "summary": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose l",
+      "categories": [
+        "Government"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A newly launched dark web identity theft service is currently offering digital scans of over 153 million driver's licenses from individuals in the United States and Canada. The FBI is actively investigating the platform following reports from affected citizens.",
+        "whyItMatters": "This massive leak of personal identification documents poses an unprecedented risk for widespread identity theft and targeted fraud.",
+        "affected": [],
+        "action": "Monitor personal credit reports and identity monitoring services for signs of fraudulent activity.",
+        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -2720,35 +2981,6 @@
       }
     },
     {
-      "title": "Hackers abuse Faronics Deploy admin tool to install ScreenConnect",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-faronics-deploy-admin-tool-to-install-screenconnect/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-09-01T20:53:23.000Z",
-      "summary": "Phishing actors are abusing the legitimate Faronics Deploy endpoint-management platform to gain remote administrative control over victim computers and install the ScreenConnect remote support software. [...]",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Phishing actors are abusing the legitimate Faronics Deploy endpoint-management platform to gain unauthorized administrative access over victim computers. Once inside, the attackers install ScreenConnect remote support software to maintain control.",
-        "whyItMatters": "This technique allows malicious actors to bypass traditional security controls by weaponizing trusted administrative tools for persistence.",
-        "affected": [
-          "Faronics Deploy",
-          "ScreenConnect"
-        ],
-        "action": "Monitor and audit endpoint management tool usage for unauthorized remote support software installations.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Critical Langflow Flaw Exploited as Attacks on AI Platform Rise",
       "link": "https://www.darkreading.com/vulnerabilities-threats/critical-langflow-flaw-exploited-attacks-rise",
       "source": "Dark Reading",
@@ -2808,37 +3040,6 @@
       }
     },
     {
-      "title": "China's 'Fire Ant' campaign used compromised Cisco routers as platform for more attacks",
-      "link": "https://therecord.media/router-hacks-fire-ant-group-china",
-      "source": "The Record",
-      "publishedAt": "2026-09-01T20:35:00.000Z",
-      "summary": "A hacking operation dubbed Fire Ant \"didn’t just compromise systems,\" according to researchers. \"It compromised the trust layer those systems depend on.\"",
-      "categories": [
-        "Threat Intel",
-        "Incident Response"
-      ],
-      "tags": [
-        "Cisco"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Researchers revealed that a Chinese hacking operation called Fire Ant compromised Cisco routers to use them as a launching pad for further attacks. The campaign went beyond traditional system compromises by undermining the trust layer that those networks depend on.",
-        "whyItMatters": "It demonstrates how sophisticated threat actors leverage core networking infrastructure to maintain persistent footholds and launch secondary attacks undetected.",
-        "affected": [
-          "Cisco routers"
-        ],
-        "action": "Audit network routing infrastructure for unauthorized access and indicators of compromise.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Tina Peters, through attorney, backs off formal role in Shasta County elections",
       "link": "https://cyberscoop.com/tina-peters-shasta-county-election-role/",
       "source": "CyberScoop",
@@ -2859,36 +3060,6 @@
         "whyItMatters": "This highlights ongoing controversies and local debates surrounding the security and reliability of electronic voting infrastructure.",
         "affected": [],
         "action": "Monitor local election security policies and vendor integrity.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Firefox helps iPhone users bypass ads on web sites while making money showing its own ads",
-      "link": "https://www.theregister.com/security/2026/09/01/firefox-helps-iphone-users-bypass-ads-on-web-sites-while-making-money-showing-its-own-ads/5293747",
-      "source": "The Register",
-      "publishedAt": "2026-09-01T20:17:31.000Z",
-      "summary": "Baked-in Firefox ad blocking on iOS begins rolling out slowly today, and is off by default",
-      "categories": [
-        "News"
-      ],
-      "tags": [
-        "Firefox"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Mozilla is rolling out a new baked-in ad-blocking feature for Firefox on iOS, which is currently turned off by default. While this helps users block external web advertisements, it also allows Mozilla to display its own ads.",
-        "whyItMatters": "This feature introduces a potential conflict of interest where a privacy-focused browser monetizes user traffic through its own advertising platform.",
-        "affected": [
-          "Firefox for iOS"
-        ],
-        "action": "Check your Firefox iOS settings to enable or disable the ad-blocking feature as desired.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -3201,35 +3372,6 @@
       }
     },
     {
-      "title": "USN-8709-1: ncurses vulnerability",
-      "link": "https://ubuntu.com/security/notices/USN-8709-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-09-01T15:24:11.000Z",
-      "summary": "It was discovered that ncurses incorrectly handled specially crafted\nterminfo database entries. A local attacker could possibly use this issue\nto cause applications using ncurses to crash, resulting in a denial of\nservic",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A vulnerability in ncurses was discovered where it incorrectly handles specially crafted terminfo database entries. A local attacker could exploit this issue to cause dependent applications to crash and result in a denial of service.",
-        "whyItMatters": "This vulnerability allows local attackers to disrupt application availability on affected systems.",
-        "affected": [
-          "ncurses"
-        ],
-        "action": "Update ncurses to the latest patched version.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Attackers Steal METR API Key and Burn $600,000 in AI Credits",
       "link": "https://www.infosecurity-magazine.com/news/attackers-steal-metr-api-key/",
       "source": "Infosecurity Magazine",
@@ -3277,32 +3419,6 @@
         "affected": [],
         "action": "Monitor the situation for official findings and further technical details.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "ClickFix Campaign Compromises 31 Orgs, Abuses Polygon Blockchain",
-      "link": "https://www.darkreading.com/endpoint-security/clickfix-campaign-comprises-31-orgs-abuses-polygon-blockchain",
-      "source": "Dark Reading",
-      "publishedAt": "2026-09-01T13:56:42.000Z",
-      "summary": "The campaign uses EtherHiding to dynamically update its command-and-control server, abusing the blockchain as an attacker-controlled address book.",
-      "categories": [
-        "Threat Intel"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A ClickFix cyberattack campaign has successfully compromised 31 organizations using a novel technique called EtherHiding. This method abuses the Polygon blockchain as a dynamic, attacker-controlled address book to continuously update its command-and-control infrastructure.",
-        "whyItMatters": "The use of blockchain technology for command-and-control updates allows attackers to bypass traditional domain-based security controls and maintain persistent access.",
-        "affected": [],
-        "action": "Monitor network traffic for unauthorized blockchain queries and implement robust endpoint detection to identify ClickFix social engineering tactics.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -3358,35 +3474,6 @@
         "affected": [],
         "action": "Audit current AI agent deployments to ensure strict boundary enforcement and monitoring.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8708-1: sudo-rs vulnerability",
-      "link": "https://ubuntu.com/security/notices/USN-8708-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-09-01T12:58:08.000Z",
-      "summary": "It was discovered that sudo-rs incorrectly handled time-of-check vs time-\nof-use conditions in sudoedit. A local attacker with permission to edit\nspecific files using sudoedit could use this issue to place files in\narbit",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A vulnerability was discovered in sudo-rs involving a time-of-check versus time-of-use flaw in sudoedit. This issue allows a local attacker with specific file editing permissions to improperly place files.",
-        "whyItMatters": "It allows local attackers to bypass intended file placement restrictions via sudoedit.",
-        "affected": [
-          "sudo-rs"
-        ],
-        "action": "Update sudo-rs to the latest patched version.",
-        "risk": "Medium",
         "relatedCves": [],
         "source": "ai"
       }
@@ -3654,34 +3741,6 @@
       }
     },
     {
-      "title": "The Collective Cyber Defense letter wrote your next vendor questionnaire",
-      "link": "https://cyberscoop.com/collective-cyber-defense-letter-vendor-questionnaire-op-ed/",
-      "source": "CyberScoop",
-      "publishedAt": "2026-09-01T10:00:00.000Z",
-      "summary": "More than 200 companies have now signed to an August 27 letter about improving cyber defenses in the age of AI. Buried in it are three metrics every one of them endorse under its own logo: coverage, containment speed, an",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "More than 200 companies have now signed to an August 27 letter about improving cyber defenses in the age of AI. Buried in it are three metrics every one of them endorse under its own logo: coverage, containment speed, an",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Rewiring Democracy Series on The Renovator",
       "link": "https://www.schneier.com/blog/archives/2026/09/rewiring-democracy-series-on-the-renovator.html",
       "source": "Schneier on Security",
@@ -3893,34 +3952,6 @@
           "OpenStack Keystone"
         ],
         "action": "Apply the latest security updates provided by your Debian distribution.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Anthropic Users Hit by Infostealer Attacks, Session Thefts",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-users-infostealer-attacks-session-thefts",
-      "source": "Dark Reading",
-      "publishedAt": "2026-08-31T21:08:46.000Z",
-      "summary": "A threat actor used a variety of infostealers to collect session information and access Claude accounts belonging to an unknown number of users.",
-      "categories": [
-        "Threat Intel"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A threat actor deployed multiple infostealer malware variants to harvest session data and compromise Claude accounts belonging to an unspecified number of Anthropic users. The attack focused on session theft to gain unauthorized access to the targeted accounts.",
-        "whyItMatters": "Compromised AI accounts can expose sensitive user data, proprietary prompts, and internal corporate workflows to malicious actors.",
-        "affected": [
-          "Anthropic Claude"
-        ],
-        "action": "Revoke active sessions and reset account credentials immediately.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -4837,6 +4868,32 @@
       }
     },
     {
+      "title": "Two Alleged ‘TeamPCP’ Hackers Arrested in Australia",
+      "link": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
+      "source": "Krebs on Security",
+      "publishedAt": "2026-08-27T11:04:15.000Z",
+      "summary": "Authorities in Australia have arrested two men believed to be members of TeamPCP, a prolific cybercrime and data extortion group blamed for perpetrating the longest running spree of software supply chain attacks ever.\r\n\r",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Australian authorities have arrested two men allegedly belonging to the TeamPCP cybercrime and data extortion group. The group is accused of carrying out the longest-running software supply chain attack spree in history.",
+        "whyItMatters": "The arrest disrupts a major cybercrime syndicate responsible for prolonged and widespread software supply chain compromises.",
+        "affected": [],
+        "action": "Monitor official law enforcement updates regarding the arrests.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "Threat landscape for industrial automation systems. Q2 2026",
       "link": "https://securelist.com/industrial-threat-report-q2-2026/121159/",
       "source": "Kaspersky Securelist",
@@ -5676,81 +5733,6 @@
         "relatedCves": [
           "CVE-2026-13762",
           "CVE-2026-13763"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-18830 - Issue with Amazon Bedrock AgentCore harness – Insufficient Input Validation",
-      "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-073-aws/",
-      "source": "AWS Security Bulletins",
-      "publishedAt": "2026-08-20T21:35:57.000Z",
-      "summary": "Bulletin ID: 2026-073-AWS\n Scope: AWS\n Content Type: Important (requires attention)\n Publication Date: 08/04/2026 10:00 AM PDT\n \nDescription:\n \nWe have identified CVE-2026-18830 in the Amazon Bedrock AgentCore harness In",
-      "categories": [
-        "Vulnerability",
-        "Cloud"
-      ],
-      "tags": [
-        "AWS"
-      ],
-      "cves": [
-        "CVE-2026-18830"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "AWS has issued a security bulletin regarding CVE-2026-18830, an insufficient input validation vulnerability in the Amazon Bedrock AgentCore harness. The issue requires attention from administrators managing affected AWS environments.",
-        "whyItMatters": "Insufficient input validation in core components like Amazon Bedrock AgentCore can potentially allow malicious actors to exploit the harness.",
-        "affected": [
-          "Amazon Bedrock AgentCore harness"
-        ],
-        "action": "Review the AWS security bulletin and apply necessary updates or mitigations.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-18830"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Issue with AWS-LC: an open-source, general-purpose cryptographic library (CVE-2026-3336, CVE-2026-3337, CVE-2026-3338)",
-      "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-005-aws/",
-      "source": "AWS Security Bulletins",
-      "publishedAt": "2026-08-20T21:35:57.000Z",
-      "summary": "Bulletin ID: 2026-005-AWS\n Scope: AWS\n Content Type: Important (requires attention)\n Publication Date: 2026/03/02 14:30 PM PST\n \nDescription:\n \nAWS-LC is an open-source, general-purpose cryptographic library. We identifi",
-      "categories": [
-        "Vulnerability",
-        "Cloud",
-        "Open Source"
-      ],
-      "tags": [
-        "AWS"
-      ],
-      "cves": [
-        "CVE-2026-3336",
-        "CVE-2026-3337",
-        "CVE-2026-3338"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "AWS has issued a security bulletin regarding vulnerabilities identified in AWS-LC, an open-source, general-purpose cryptographic library. The advisory covers three specific CVEs (CVE-2026-3336, CVE-2026-3337, and CVE-2026-3338) requiring attention.",
-        "whyItMatters": "Cryptographic library vulnerabilities can compromise the security and encryption mechanisms of systems relying on the affected software.",
-        "affected": [
-          "AWS-LC"
-        ],
-        "action": "Review the advisory and update AWS-LC to the latest patched version.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-3336",
-          "CVE-2026-3337",
-          "CVE-2026-3338"
         ],
         "source": "ai"
       }
