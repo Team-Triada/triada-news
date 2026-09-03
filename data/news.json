@@ -1,6 +1,34 @@
 {
-  "updatedAt": "2026-09-02T21:49:15.260Z",
+  "updatedAt": "2026-09-03T00:13:05.421Z",
   "items": [
+    {
+      "title": "Smashing Security podcast #483: This AI helps thieves steal your iPhone",
+      "link": "https://grahamcluley.com/smashing-security-podcast-483/",
+      "source": "Graham Cluley",
+      "publishedAt": "2026-09-02T23:10:47.000Z",
+      "summary": "You've had your iPhone stolen. A day later, you get a text from Apple saying they've found it, and a very helpful woman called Alice from Apple Support calls to walk you through recovering it. She's polite. She's profess",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [
+        "Apple"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A recent Smashing Security podcast episode discusses a scam where thieves use AI-generated voice calls and phishing texts masquerading as Apple Support to deceive stolen iPhone owners. The criminals use these sophisticated social engineering tactics to manipulate victims into revealing security credentials.",
+        "whyItMatters": "This highlights how attackers are leveraging AI voice technology to make social engineering attacks more convincing and harder to detect.",
+        "affected": [],
+        "action": "Remain vigilant against unsolicited recovery calls and texts regarding lost devices.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "USN-8661-4: Linux kernel vulnerabilities",
       "link": "https://ubuntu.com/security/notices/USN-8661-4",
@@ -30,6 +58,43 @@
           "Linux kernel"
         ],
         "action": "Update your Linux kernel to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2020-24588"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8715-1: Linux kernel (Oracle) vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8715-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-09-02T21:37:00.000Z",
+      "summary": "Siebe Devroe, Héloïse Gollier, and Mathy Vanhoef discovered that the WiFi\nimplementation in the Linux kernel did not properly handle aggregated\nframes in mesh networks, due to an incorrect fix for CVE-2020-24588. A\nphysi",
+      "categories": [
+        "Vulnerability",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux",
+        "Oracle"
+      ],
+      "cves": [
+        "CVE-2020-24588"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Researchers discovered that the WiFi implementation in the Oracle Linux kernel incorrectly handled aggregated frames in mesh networks due to an incomplete fix for a previous vulnerability. This flaw exposes systems to potential security risks within mesh network configurations.",
+        "whyItMatters": "It leaves Linux systems utilizing mesh networks vulnerable to exploitation due to an inadequate prior patch.",
+        "affected": [
+          "Linux kernel"
+        ],
+        "action": "Update the Linux kernel to the latest patched version.",
         "risk": "High",
         "relatedCves": [
           "CVE-2020-24588"
@@ -93,6 +158,34 @@
         ],
         "action": "Update the Linux kernel to the latest version provided by your vendor.",
         "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "AI’s Vulnerability Surge May Be More Manageable Than First Feared",
+      "link": "https://www.darkreading.com/application-security/ai-vulnerability-surge-manageable-than-first-feared",
+      "source": "Dark Reading",
+      "publishedAt": "2026-09-02T21:14:06.000Z",
+      "summary": "New research suggests the coming Vulnpocalypse may not be so overwhelming for enterprise security teams — if they have the right strategies.",
+      "categories": [
+        "Vulnerability",
+        "AI Security",
+        "Research"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Recent research indicates that the anticipated surge in AI-related vulnerabilities may be more manageable for enterprise security teams than previously feared. With the implementation of proper security strategies, organizations can effectively handle these emerging risks.",
+        "whyItMatters": "It reassures enterprise security teams that future AI vulnerability influxes can be mitigated with the right strategic planning.",
+        "affected": [],
+        "action": "Implement proactive security strategies to prepare for potential AI-related vulnerabilities.",
+        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
@@ -665,6 +758,40 @@
       }
     },
     {
+      "title": "Cisco Desk Phone 9800 Series, IP Phone 7800 and 8800 Series, and Video Phone 8875 with SIP Software Denial of Service Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-phone-dos-txMYNRzv?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Desk%20Phone%209800%20Series,%20IP%20Phone%207800%20and%208800%20Series,%20and%20Video%20Phone%208875%20with%20SIP%20Software%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
+      "source": "Cisco PSIRT",
+      "publishedAt": "2026-09-02T16:00:00.000Z",
+      "summary": "A vulnerability in Cisco Desk Phone 9800 Series, Cisco IP Phone 7800 and 8800 Series, and Cisco Video Phone 8875 that are running Cisco Session Initiation Protocol (SIP) Software could allow an unauthenticated, remote at",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Cisco"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A denial of service vulnerability exists in multiple Cisco IP desk and video phone series running SIP software. An unauthenticated remote attacker can exploit this flaw to disrupt phone services.",
+        "whyItMatters": "This vulnerability allows remote attackers to cause a denial of service on critical enterprise communication devices without requiring authentication.",
+        "affected": [
+          "Cisco Desk Phone 9800 Series",
+          "Cisco IP Phone 7800 Series",
+          "Cisco IP Phone 8800 Series",
+          "Cisco Video Phone 8875"
+        ],
+        "action": "Apply the latest security patches provided by Cisco.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "Cisco Secure Email Secure/Multipurpose Internet Mail Extensions Ciphertext Decryption Vulnerabilities",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-smime-disc-dzw4rEdY?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Email%20Secure/Multipurpose%20Internet%20Mail%20Extensions%20Ciphertext%20Decryption%20Vulnerabilities%26vs_k=1",
       "source": "Cisco PSIRT",
@@ -722,40 +849,6 @@
         ],
         "action": "Apply the vendor security patch or restrict access to TCP port 4321.",
         "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Cisco Desk Phone 9800 Series, IP Phone 7800 and 8800 Series, and Video Phone 8875 with SIP Software Denial of Service Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-phone-dos-txMYNRzv?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Desk%20Phone%209800%20Series,%20IP%20Phone%207800%20and%208800%20Series,%20and%20Video%20Phone%208875%20with%20SIP%20Software%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
-      "source": "Cisco PSIRT",
-      "publishedAt": "2026-09-02T16:00:00.000Z",
-      "summary": "A vulnerability in Cisco Desk Phone 9800 Series, Cisco IP Phone 7800 and 8800 Series, and Cisco Video Phone 8875 that are running Cisco Session Initiation Protocol (SIP) Software could allow an unauthenticated, remote at",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Cisco"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A denial of service vulnerability exists in multiple Cisco IP desk and video phone series running SIP software. An unauthenticated remote attacker can exploit this flaw to disrupt phone services.",
-        "whyItMatters": "This vulnerability allows remote attackers to cause a denial of service on critical enterprise communication devices without requiring authentication.",
-        "affected": [
-          "Cisco Desk Phone 9800 Series",
-          "Cisco IP Phone 7800 Series",
-          "Cisco IP Phone 8800 Series",
-          "Cisco Video Phone 8875"
-        ],
-        "action": "Apply the latest security patches provided by Cisco.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -2686,6 +2779,36 @@
       }
     },
     {
+      "title": "DSA-6481-1 firefox-esr - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00392.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-09-02T00:00:00.000Z",
+      "summary": "Multiple security issues have been found in the Mozilla Firefox web\nbrowser, which could potentially result in the execution of arbitrary\ncode, sandbox escape or privilege escalation.\n\n\nhttps://security-tracker.debian.or",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Firefox"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple security issues have been discovered in the Mozilla Firefox Extended Support Release (ESR) browser. These vulnerabilities could potentially allow attackers to execute arbitrary code, escape the sandbox, or escalate privileges.",
+        "whyItMatters": "Exploitation of these flaws could lead to complete system compromise or unauthorized access via the browser.",
+        "affected": [
+          "firefox-esr"
+        ],
+        "action": "Update firefox-esr to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "Cops, CrowdStrike disrupt Sality botnet by poisoning the network and diverting into sinkholes",
       "link": "https://www.theregister.com/cyber-crime/2026/09/02/cops-crowdstrike-disrupt-sality-botnet-by-poisoning-the-network-and-diverting-into-sinkholes/5293795",
       "source": "The Register",
@@ -3066,32 +3189,6 @@
       }
     },
     {
-      "title": "AI Model Evaluator METR Hit by Credential Theft, Probing",
-      "link": "https://www.darkreading.com/identity-access-management-security/ai-model-evaluator-metr-credential-theft-probing",
-      "source": "Dark Reading",
-      "publishedAt": "2026-09-01T20:13:09.000Z",
-      "summary": "In one attack, threat actors stole an API key that ultimately led to the consumption of $600,000 in public AI model credits for the security nonprofit.",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "AI model evaluator METR suffered a credential theft attack resulting in the theft of an API key. The attackers subsequently consumed $600,000 in public AI model credits belonging to the nonprofit.",
-        "whyItMatters": "This incident demonstrates how compromised API keys can lead to massive financial losses through unauthorized resource consumption.",
-        "affected": [],
-        "action": "Revoke compromised API keys and implement robust monitoring for abnormal resource usage.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "[Launched] Generally Available: Purchase order mapping available in Microsoft Marketplace",
       "link": "https://azure.microsoft.com/updates?id=569700",
       "source": "Azure Updates",
@@ -3338,35 +3435,6 @@
         ],
         "action": "Update the Ubuntu Advantage Tools package to the latest version.",
         "risk": "Medium",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8710-1: libevent vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8710-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-09-01T15:27:40.000Z",
-      "summary": "Alexis Challande discovered that libevent incorrectly handled certain\nempty output buffers. An attacker could possibly use this issue to\ntrigger a use-after-free, resulting in a denial of service or arbitrary\ncode execut",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Alexis Challande discovered that libevent incorrectly handled certain empty output buffers. An attacker could exploit this vulnerability to trigger a use-after-free, leading to a denial of service or arbitrary code execution.",
-        "whyItMatters": "This vulnerability allows attackers to potentially execute arbitrary code or cause a denial of service in applications using the affected library.",
-        "affected": [
-          "libevent"
-        ],
-        "action": "Update libevent to the latest patched version.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -5095,35 +5163,6 @@
       }
     },
     {
-      "title": "DSA-6473-1 libdbi-perl - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00384.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-08-27T00:00:00.000Z",
-      "summary": "Several vulnerabilities were discovered in libdbi-perl, a Perl framework\nthat provides a common interface to access various backend databases in\na uniform manner, which could result in denial of service, path\ntraversal, ",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several vulnerabilities were discovered in libdbi-perl, a Perl framework\nthat provides a common interface to access various backend databases in\na uniform manner, which could result in denial of service, path\ntraversal,",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Smashing Security podcast #482: This hacker leaked GTA 6 – and launched their own cryptocurrency",
       "link": "https://grahamcluley.com/smashing-security-podcast-482/",
       "source": "Graham Cluley",
@@ -5697,43 +5736,6 @@
         "action": "Monitor the AWS security bulletin for future updates.",
         "risk": "High",
         "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-13762 and CVE-2026-13763 - Issue with HTTP/2 multi-frame request body inspection in AWS WAF",
-      "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-048-aws/",
-      "source": "AWS Security Bulletins",
-      "publishedAt": "2026-08-20T21:35:57.000Z",
-      "summary": "Bulletin ID: 2026-048-AWS\n Scope: AWS\n Content Type: Important (requires attention)\n Publication Date: 06/29/2026 11:15 PM PDT\n \nDescription:\n \nAWS WAF is a web application firewall that monitors the HTTP(S) requests tha",
-      "categories": [
-        "Vulnerability",
-        "Cloud"
-      ],
-      "tags": [
-        "AWS"
-      ],
-      "cves": [
-        "CVE-2026-13762",
-        "CVE-2026-13763"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "AWS has issued a security bulletin regarding an issue with HTTP/2 multi-frame request body inspection in AWS WAF. This vulnerability affects how web application firewall rules analyze specific multi-frame HTTP/2 requests.",
-        "whyItMatters": "Flaws in web application firewalls can allow malicious HTTP/2 requests to bypass inspection and reach backend applications undetected.",
-        "affected": [
-          "AWS WAF"
-        ],
-        "action": "Review the AWS security bulletin and update WAF configurations as recommended.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-13762",
-          "CVE-2026-13763"
-        ],
         "source": "ai"
       }
     }
