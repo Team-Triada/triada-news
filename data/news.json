@@ -1,6 +1,526 @@
 {
-  "updatedAt": "2026-09-03T14:40:34.036Z",
+  "updatedAt": "2026-09-03T18:39:15.480Z",
   "items": [
+    {
+      "title": "HPE patches critical ArubaOS-CX remote code execution flaw",
+      "link": "https://www.bleepingcomputer.com/news/security/hpe-patches-critical-arubaos-cx-remote-code-execution-flaw/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-09-03T18:28:12.000Z",
+      "summary": "Hewlett Packard Enterprise (HPE) has patched a critical vulnerability in the ArubaOS-CX network operating system that could lead to remote code execution. [...]",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Hewlett Packard Enterprise has released patches for a critical remote code execution vulnerability affecting the ArubaOS-CX network operating system. The flaw could allow unauthorized attackers to execute arbitrary code on vulnerable network devices.",
+        "whyItMatters": "Unpatched remote code execution vulnerabilities in network operating systems allow attackers to gain complete control over critical enterprise infrastructure.",
+        "affected": [
+          "ArubaOS-CX"
+        ],
+        "action": "Update ArubaOS-CX to the latest patched version immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Prolific Microsoft 0-day hunter drops CrowdStrike Falcon exploit PoC",
+      "link": "https://www.theregister.com/security/2026/09/03/prolific-microsoft-0-day-hunter-drops-crowdstrike-falcon-exploit-poc/5294318",
+      "source": "The Register",
+      "publishedAt": "2026-09-03T18:08:22.000Z",
+      "summary": "A shared security 'Nightmare'",
+      "categories": [
+        "Vulnerability",
+        "Research"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "A security researcher has released a proof-of-concept exploit targeting the CrowdStrike Falcon platform. This follows the discovery of what is described as a zero-day vulnerability.",
+        "whyItMatters": "Public availability of this exploit increases the risk of malicious actors leveraging it against systems running the CrowdStrike software.",
+        "affected": [
+          "CrowdStrike Falcon"
+        ],
+        "action": "Apply available security patches and monitor for unusual activity.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "The story behind the intelligence",
+      "link": "https://blog.talosintelligence.com/the-story-behind-the-intelligence/",
+      "source": "Talos Intelligence",
+      "publishedAt": "2026-09-03T18:00:13.000Z",
+      "summary": "From engaging with cybercriminals to surviving a live Flamin’ Hot Cheetos taste test, Hazel reflects on the latest Beers with Talos with Azim, where they cover the full spectrum of what it takes to gather threat intel.",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "This podcast episode of Beers with Talos features a discussion with Hazel about the realities of gathering threat intelligence. The conversation covers engaging with cybercriminals and the various challenges involved in threat research.",
+        "whyItMatters": "It provides behind-the-scenes insights into the methodologies and experiences of professionals working in threat intelligence.",
+        "affected": [],
+        "action": "Listen to the podcast episode for insights on threat intelligence.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "[Launched] Generally Available: Azure Virtual Network Manager IPAM in additional Azure regions",
+      "link": "https://azure.microsoft.com/updates?id=570557",
+      "source": "Azure Updates",
+      "publishedAt": "2026-09-03T17:17:08.000Z",
+      "summary": "Azure\r\nVirtual Network Manager IP address management is now generally available in\r\nadditional regions: US Gov Virginia, US Gov Texas and US Gov Arizona, and China\r\nNorth 3 and China East 3. In complex\r\nnetwork environme",
+      "categories": [
+        "Cloud"
+      ],
+      "tags": [
+        "Azure"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft has made Azure Virtual Network Manager IP address management generally available in several new regions, including US Gov and China regions. This feature helps organizations better manage complex cloud network environments.",
+        "whyItMatters": "It expands the geographic availability of Azure's IPAM tool for enterprise network management.",
+        "affected": [
+          "Azure Virtual Network Manager IPAM"
+        ],
+        "action": "Review regional availability if you plan to deploy Azure IPAM.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "VU#889462: Casdoor authentication server is vulnerable to authorization bypass",
+      "link": "https://kb.cert.org/vuls/id/889462",
+      "source": "CERT/CC",
+      "publishedAt": "2026-09-03T17:03:30.139Z",
+      "summary": "Overview\nCasdoor is an open-source Access Management (IAM) platform used to manage web applications. An authorization bypass vulnerability affects Casdoor versions 3.115.0 and earlier. The vulnerability allows a non-glob",
+      "categories": [
+        "Vulnerability",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Casdoor versions 3.115.0 and earlier contain an authorization bypass vulnerability. This flaw affects the open-source Identity and Access Management platform's security controls.",
+        "whyItMatters": "This vulnerability allows unauthorized users to bypass authentication checks and potentially access sensitive resources or application functions.",
+        "affected": [
+          "Casdoor <= 3.115.0"
+        ],
+        "action": "Update Casdoor to a patched version once available.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "StreamRat Android malware spreads through Meta and TikTok ads",
+      "link": "https://www.malwarebytes.com/blog/news/2026/09/streamrat-android-malware-spreads-through-meta-and-tiktok-ads",
+      "source": "Malwarebytes Labs",
+      "publishedAt": "2026-09-03T16:04:24.000Z",
+      "summary": "Social media ads for a free streaming service exposed roughly 570,000 people to StreamRat, a banking Trojan that can take control of infected phones.",
+      "categories": [
+        "Malware",
+        "Incident Response"
+      ],
+      "tags": [
+        "Android"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Malicious social media advertisements promoting a free streaming service have exposed approximately 570,000 users to the StreamRat Android banking Trojan. This malware is capable of taking full remote control of infected mobile devices.",
+        "whyItMatters": "It actively compromises financial security and device integrity for hundreds of thousands of users via trusted social media ad platforms.",
+        "affected": [
+          "Android devices"
+        ],
+        "action": "Avoid downloading unverified streaming apps promoted through social media ads.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Critical Cisco Nexus 9000 Flaw Lets Unauthenticated Remote Attackers Run Code as Root",
+      "link": "https://thehackernews.com/2026/09/critical-cisco-nexus-9000-flaw-lets.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-03T15:52:07.000Z",
+      "summary": "Cisco has released patches to address a critical security flaw affecting 10 Silicon One-based Nexus 9000 switches that could allow an unauthenticated, remote attacker to execute code as root, alongside an IOS XR hardenin",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Cisco"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Cisco has released patches for a critical security flaw in certain Silicon One-based Nexus 9000 switches. This vulnerability allows unauthenticated, remote attackers to execute arbitrary code with root privileges.",
+        "whyItMatters": "It allows unauthenticated remote attackers to gain complete root control over critical networking infrastructure.",
+        "affected": [
+          "Cisco Nexus 9000 switches (Silicon One-based)"
+        ],
+        "action": "Apply the security patches provided by Cisco immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Manchester Airports Group Data on 8.8 Million People Leaked After Ransom Refusal",
+      "link": "https://www.securityweek.com/manchester-airports-group-data-on-8-8-million-people-leaked-after-ransom-refusal/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-09-03T15:35:19.000Z",
+      "summary": "Hacker group published roughly 550GB of data after MAG reportedly refused to pay a ransom demand; the group says it gained access via exposed admin keys.\nThe post Manchester Airports Group Data on 8.8 Million People Leak",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Manchester Airports Group suffered a massive data leak affecting 8.8 million people after hackers published 550GB of stolen information. The threat actors reportedly accessed the systems using exposed administrative keys following a refused ransom demand.",
+        "whyItMatters": "This incident exposes millions of individuals to potential identity theft and fraud due to compromised administrative access controls.",
+        "affected": [],
+        "action": "Audit administrative keys and secure access credentials immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "BraZetsu Malware Turns Compromised Windows Hosts Into Criminal Marketplace Inventory",
+      "link": "https://thehackernews.com/2026/09/brazetsu-malware-turns-compromised.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-03T15:26:47.000Z",
+      "summary": "Cybersecurity researchers have disclosed details of a sophisticated Python-based Windows malware framework called BraZetsu that fuels an underground marketplace commercializing access to compromised hosts.\n\n\"Unlike the s",
+      "categories": [
+        "Malware",
+        "Incident Response"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Researchers have discovered a sophisticated Python-based Windows malware framework called BraZetsu. The malware is used to compromise hosts and supply an underground criminal marketplace with unauthorized access.",
+        "whyItMatters": "It actively commercializes compromised Windows infrastructure, lowering the barrier of entry for further malicious activities.",
+        "affected": [
+          "Windows hosts"
+        ],
+        "action": "Monitor Windows endpoints for unauthorized Python-based activity and malicious framework indicators.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Pegasus Zero-Click Exploit Infects Serbian Student Activist's iPhone",
+      "link": "https://www.infosecurity-magazine.com/news/pegasus-zero-click-exploit/",
+      "source": "Infosecurity Magazine",
+      "publishedAt": "2026-09-03T15:25:00.000Z",
+      "summary": "Pegasus infected a Serbian student activist's iPhone through an iMessage zero-click exploit",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A zero-click exploit delivered via iMessage successfully infected the iPhone of a Serbian student activist with Pegasus spyware. This incident highlights the ongoing misuse of advanced surveillance tools against civil society figures.",
+        "whyItMatters": "It demonstrates that potent zero-click spyware continues to be actively deployed against activists, posing severe privacy and human rights risks.",
+        "affected": [
+          "Apple iPhone"
+        ],
+        "action": "Update iOS to the latest version and enable Lockdown Mode if at high risk.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Microsoft: KB5120998 mouse reset bug affects only non-English PCs",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-kb5120998-mouse-reset-bug-affects-only-non-english-pcs/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-09-03T15:22:33.000Z",
+      "summary": "Microsoft says a known issue that reverts mouse settings after installing the KB5120998 August 2026 preview update affects only non-English Windows 11 systems. [...]",
+      "categories": [
+        "News"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft confirmed that the KB5120998 August 2026 preview update causes a mouse settings reset bug affecting non-English Windows 11 systems. The issue only impacts specific localized operating system environments after installation of the preview update.",
+        "whyItMatters": "It disrupts user configurations by unexpectedly reverting personalized mouse settings on non-English Windows 11 systems.",
+        "affected": [
+          "Windows 11 (non-English systems running update KB5120998)"
+        ],
+        "action": "Avoid installing the KB5120998 preview update on non-English systems until a fix is released.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Capsule Security Launches ‘AI Circuit Breaker’ to Stop Rogue Agents",
+      "link": "https://www.securityweek.com/capsule-security-launches-ai-circuit-breaker-to-stop-rogue-agents/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-09-03T15:15:00.000Z",
+      "summary": "New models, trained using NVIDIA Nemotron 3 Ultra, aim to catch rogue agent behavior before it executes, without the latency of large-model review.\nThe post Capsule Security Launches ‘AI Circuit Breaker’ to Stop Rogue Ag",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Capsule Security has launched a new AI Circuit Breaker designed to detect and halt rogue agent behavior before execution. Trained using NVIDIA Nemotron 3 Ultra, the models operate without the latency typically associated with large-model reviews.",
+        "whyItMatters": "This technology provides real-time security oversight for AI agents, mitigating the risk of unauthorized or harmful actions without slowing down performance.",
+        "affected": [],
+        "action": "Monitor Capsule Security's offerings for potential integration into your AI deployment pipelines.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "OpenAI confirms ChatGPT is down ahead of 'Astra' model launch",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-ahead-of-astra-model-launch/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-09-03T15:13:29.000Z",
+      "summary": "ChatGPT and Codex are experiencing a major outage, with users reporting errors across nearly every major ChatGPT feature. [...]",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "OpenAI has confirmed that ChatGPT and Codex are experiencing a major outage affecting nearly all major features. The disruption coincides with the anticipated launch of the new Astra model.",
+        "whyItMatters": "This widespread service interruption halts critical AI workflows and developer tools for millions of active users.",
+        "affected": [
+          "ChatGPT",
+          "Codex"
+        ],
+        "action": "Check OpenAI status updates and wait for service restoration.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Anthropic confirms Claude is down, multiple models affected",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-multiple-models-affected/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-09-03T15:02:52.000Z",
+      "summary": "Claude is experiencing an outage, with users encountering elevated errors when sending requests to multiple Anthropic AI models. [...]",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Anthropic has confirmed that its Claude AI service is currently experiencing an outage affecting multiple models. Users attempting to send requests are encountering elevated error rates.",
+        "whyItMatters": "This service disruption prevents individuals and organizations relying on Claude from accessing critical AI capabilities.",
+        "affected": [
+          "Claude"
+        ],
+        "action": "Check Anthropic status updates for recovery information.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Drowning in CVEs and thirsty for answers? Try CTEM",
+      "link": "https://www.theregister.com/security/2026/09/03/sponsored-drowning-in-cves-and-thirsty-for-answers-try-ctem/5293906",
+      "source": "The Register",
+      "publishedAt": "2026-09-03T15:00:00.000Z",
+      "summary": "SPONSORED FEATURE: Boards want to know if they're less exposed than last quarter. Patching metrics aren't the solution",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "This sponsored feature discusses how corporate boards are increasingly demanding meaningful risk metrics rather than traditional patching statistics. It suggests adopting Continuous Threat Exposure Management (CTEM) to better navigate and prioritize vulnerabilities.",
+        "whyItMatters": "It highlights the limitations of standard patching metrics and advocates for strategic exposure management to satisfy board-level security inquiries.",
+        "affected": [],
+        "action": "Evaluate your organization's vulnerability management strategy.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Critical Elementor Pro flaw exploited to take over WordPress sites",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-flaw-exploited-to-take-over-wordpress-sites/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-09-03T14:52:20.000Z",
+      "summary": "A recently patched critical vulnerability (CVE-2026-32475) in the Elementor Pro plugin for WordPress is being exploited in attacks that deliver a webshell payload and execute arbitrary commands on the server. [...]",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "WordPress"
+      ],
+      "cves": [
+        "CVE-2026-32475"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A critical vulnerability in the Elementor Pro WordPress plugin is actively being exploited in the wild. Attackers are leveraging the flaw to deliver webshell payloads and execute arbitrary commands on compromised servers.",
+        "whyItMatters": "This flaw allows unauthenticated attackers to achieve complete remote code execution and full takeover of vulnerable WordPress sites.",
+        "affected": [
+          "Elementor Pro plugin for WordPress"
+        ],
+        "action": "Update the Elementor Pro plugin immediately.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-32475"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Thomson Reuters Court Software Breach May Have Exposed SSNs and Sealed Data",
+      "link": "https://thehackernews.com/2026/09/thomson-reuters-court-software-breach.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-03T14:39:05.000Z",
+      "summary": "Thomson Reuters disclosed on Wednesday that an unauthorized party obtained files from C-Track, the court case management platform sold by its West Publishing Corporation unit, in March 2026, affecting courts in 11 U.S. s",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Thomson Reuters disclosed that an unauthorized party breached its C-Track court case management platform in March 2026. The incident potentially exposed sensitive information, including Social Security numbers and sealed data, across courts in eleven U.S. states.",
+        "whyItMatters": "This breach compromises highly sensitive judicial and personal data, creating significant privacy and identity theft risks for individuals involved in affected court cases.",
+        "affected": [
+          "C-Track court case management platform"
+        ],
+        "action": "Review platform access logs and monitor impacted systems for unauthorized activity.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "AI 'Machine Speed' Cuts 2-Week Attack Down to 10 Hours",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/ai-machine-speed-2-week-attack-10-hours",
+      "source": "Dark Reading",
+      "publishedAt": "2026-09-03T14:38:49.000Z",
+      "summary": "The incident demonstrates how frontier AI agents can dramatically compress an attack timeline and coordinate a large-scale breach, according to researchers.",
+      "categories": [
+        "Incident Response",
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Researchers demonstrated that frontier AI agents can significantly compress the timeline of a large-scale breach. By operating at machine speed, these tools reduced a typical two-week attack down to just ten hours.",
+        "whyItMatters": "It demonstrates that artificial intelligence dramatically accelerates the speed and coordination of cyber attacks, leaving defenders with drastically less time to respond.",
+        "affected": [],
+        "action": "Monitor and secure AI integration points to defend against automated, high-speed threats.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Outsider Phishing Kit Survives Takedown With 700 New Pages",
       "link": "https://www.infosecurity-magazine.com/news/outsider-phishing-kit-survives/",
@@ -25,6 +545,106 @@
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-58641 .NET Elevation of Privilege Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58641",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-09-03T14:00:00.000Z",
+      "summary": "Added SkiaSharp 4.151.2 to the affected software table.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-58641"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "A .NET elevation of privilege vulnerability has been identified, designated as CVE-2026-58641. SkiaSharp version 4.151.2 has been added to the affected software table for this issue.",
+        "whyItMatters": "This vulnerability could allow attackers to elevate their privileges within an affected system.",
+        "affected": [
+          "SkiaSharp 4.151.2",
+          ".NET"
+        ],
+        "action": "Update SkiaSharp to a patched version once available.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-58641"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-58612 PowerShell Information Disclosure Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58612",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-09-03T14:00:00.000Z",
+      "summary": "Updated an acknowledgement. This is an informational change only.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-58612"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Microsoft has updated an acknowledgment for CVE-2026-58612, a PowerShell information disclosure vulnerability. This update is strictly informational and does not include technical details about a patch or exploit.",
+        "whyItMatters": "It tracks security metadata changes for a potential information disclosure vector in PowerShell.",
+        "affected": [
+          "PowerShell"
+        ],
+        "action": "Monitor vendor advisories for future updates regarding CVE-2026-58612.",
+        "risk": "News",
+        "relatedCves": [
+          "CVE-2026-58612"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-62815 Microsoft QUIC Remote Code Execution Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62815",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-09-03T14:00:00.000Z",
+      "summary": "Updated an acknowledgement. This is an informational change only.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-62815"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Updated an acknowledgement. This is an informational change only.",
+        "whyItMatters": "Actively exploited or high-impact; treat as urgent.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Critical",
+        "action": "Patch immediately.",
+        "relatedCves": [
+          "CVE-2026-62815"
+        ],
+        "source": "heuristic"
       }
     },
     {
@@ -131,6 +751,38 @@
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
+      }
+    },
+    {
+      "title": "Signature Optional - Analysis of CVE-2026-28323",
+      "link": "https://bishopfox.com/blog/signature-optional-analysis-of-cve-2026-28323",
+      "source": "Bishop Fox",
+      "publishedAt": "2026-09-03T13:00:00.000Z",
+      "summary": "SolarWinds Web Help Desk treated SAML signature verification as optional and skipped every other validation the spec requires. Bishop Fox confirmed the full exploit end to end: one forged POST request, no credentials, fu",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-28323"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "SolarWinds Web Help Desk treated SAML signature verification as optional and skipped every other validation the spec requires. Bishop Fox confirmed the full exploit end to end: one forged POST request, no credentials, fu",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [
+          "CVE-2026-28323"
+        ],
+        "source": "heuristic"
       }
     },
     {
@@ -501,6 +1153,238 @@
       }
     },
     {
+      "title": "Rockwell Automation 1756-ENBT Module",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-05",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-09-03T12:00:00.000Z",
+      "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could crash the module. The device requires a restart to recover.\nThe following versions of Rockwell Automation 1756-ENBT Module are affected:\n1756-ENBT mod",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could crash the module. The device requires a restart to recover.\nThe following versions of Rockwell Automation 1756-ENBT Module are affected:\n1756-ENBT mod",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Tycon Systems TPDIN-Monitor-WEB2 (Update A)",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-01",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-09-03T12:00:00.000Z",
+      "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could result in an attacker accessing sensitive credentials, disrupting connected infrastructure, or manipulating physical equipment, which could present",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could result in an attacker accessing sensitive credentials, disrupting connected infrastructure, or manipulating physical equipment, which could present",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Inductive Automation Ignition",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-06",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-09-03T12:00:00.000Z",
+      "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow any authenticated user to create projects.\nThe following versions of Inductive Automation Ignition are affected:\nIgnition <=8.1.53 (CVE-2026-773",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow any authenticated user to create projects.\nThe following versions of Inductive Automation Ignition are affected:\nIgnition <=8.1.53 (CVE-2026-773",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "OPCFoundation OPC UA LocalDiscoveryServer (LDS)",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-01",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-09-03T12:00:00.000Z",
+      "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to take control of a high-privilege terminal during installation and run arbitrary commands.\nThe following versions of OPCFoundation",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to take control of a high-privilege terminal during installation and run arbitrary commands.\nThe following versions of OPCFoundation",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Tycon Systems TPDIN-Monitor-WEB3",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-08",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-09-03T12:00:00.000Z",
+      "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow for an attacker to perform a man-in-the-middle (MitM) attack, cause a factory reset, wipe credentials, or retrieve sensitive information.\nThe",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow for an attacker to perform a man-in-the-middle (MitM) attack, cause a factory reset, wipe credentials, or retrieve sensitive information.\nThe",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Schneider Electric Easergy, EcoStruxture, PowerLogic, and Saitel Products (Update A)",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-07",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-09-03T12:00:00.000Z",
+      "summary": "View CSAF\nSummary\nSchneider Electric is aware of a vulnerability in the following products: The Easergy C5 is a scalable and interoperable bay controller, protection and merging unit for large and critical infrastructure",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "View CSAF\nSummary\nSchneider Electric is aware of a vulnerability in the following products: The Easergy C5 is a scalable and interoperable bay controller, protection and merging unit for large and critical infrastructure",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Rockwell Automation ControlFLASH",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-03",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-09-03T12:00:00.000Z",
+      "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could give an attacker the ability to run any commands or code of the attacker's choice on a target machine at the logged-in user's permission level.\nThe fo",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could give an attacker the ability to run any commands or code of the attacker's choice on a target machine at the logged-in user's permission level.\nThe fo",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Rockwell Automation ArmorStart LT",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-04",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-09-03T12:00:00.000Z",
+      "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could result in a loss of webserver availability or allow an attacker to inject malicious scripts that will be executed when other users access the affec",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could result in a loss of webserver availability or allow an attacker to inject malicious scripts that will be executed when other users access the affec",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
       "title": "US Becomes Top Target in RMM Phishing Campaign Spanning 46 Countries",
       "link": "https://thehackernews.com/2026/09/us-becomes-top-target-in-rmm-phishing.html",
       "source": "The Hacker News",
@@ -575,8 +1459,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -603,8 +1487,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -635,8 +1519,8 @@
         "affected": [
           "Apache"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -663,8 +1547,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -692,8 +1576,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "Monitor for indicators of compromise.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -720,8 +1604,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "Monitor for indicators of compromise.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -752,8 +1636,8 @@
         "affected": [
           "WordPress"
         ],
-        "risk": "Critical",
         "action": "Patch immediately.",
+        "risk": "Critical",
         "relatedCves": [
           "CVE-2026-19949"
         ],
@@ -782,8 +1666,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "Monitor for indicators of compromise.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -813,8 +1697,8 @@
         "affected": [
           "Cisco"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -841,8 +1725,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -931,38 +1815,6 @@
       }
     },
     {
-      "title": "Microsoft Teams, Outlook fail to launch on ARM-based Windows PCs",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-outlook-fail-to-launch-on-arm-based-windows-pcs/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-09-03T08:55:25.000Z",
-      "summary": "Microsoft is working to fix a known issue that causes crashes and launch failures for Microsoft Teams and New Outlook users after installing updates released since the August 2026 Patch Tuesday. [...]",
-      "categories": [
-        "News"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft is investigating a known issue causing launch failures and crashes in Microsoft Teams and New Outlook on ARM-based Windows PCs following recent updates. The problem impacts users who installed software updates released since the August 2026 Patch Tuesday.",
-        "whyItMatters": "This bug disrupts core communication tools for users of ARM-based Windows hardware, potentially impacting daily productivity and workflows.",
-        "affected": [
-          "Microsoft Teams",
-          "New Outlook",
-          "ARM-based Windows PCs"
-        ],
-        "action": "Monitor Microsoft channels for an official patch or workaround.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Your phone or computer may soon ask how old you are",
       "link": "https://www.malwarebytes.com/blog/privacy/2026/09/your-phone-or-computer-may-soon-ask-how-old-you-are",
       "source": "Malwarebytes Labs",
@@ -1013,8 +1865,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "Monitor for indicators of compromise.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1206,33 +2058,6 @@
       }
     },
     {
-      "title": "CISA Adds Seven Exploited Flaws as Attackers Deploy Reverse Shells and Crypto Miners",
-      "link": "https://thehackernews.com/2026/09/cisa-adds-seven-exploited-flaws-as.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-03T05:19:04.000Z",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added seven security flaws to its Known Exploited Vulnerabilities (KEV) catalog after they landed in attackers' crosshairs.\n\nThe vulnerabiliti",
-      "categories": [
-        "Vulnerability",
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CISA has added seven newly exploited security flaws to its Known Exploited Vulnerabilities catalog. These vulnerabilities are actively targeted by attackers deploying reverse shells and crypto miners.",
-        "whyItMatters": "Active exploitation of these flaws poses an immediate threat to organizations utilizing the affected systems.",
-        "affected": [],
-        "action": "Review the CISA KEV catalog and patch the newly added vulnerabilities immediately.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "When AI quietly breaks things, who pays?",
       "link": "https://www.helpnetsecurity.com/2026/09/03/david-halbreich-reed-smith-ai-insurance-coverage-gaps/",
       "source": "Help Net Security",
@@ -1419,38 +2244,6 @@
       }
     },
     {
-      "title": "Hackers exploit Sangoma Switchvox flaw to deploy reverse shells",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sangoma-switchvox-flaw-to-deploy-reverse-shells/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-09-02T21:00:13.000Z",
-      "summary": "Attackers are actively exploiting CVE-2026-9586, an unauthenticated SQL injection vulnerability in the Sangoma Switchvox VoIP platform that can lead to remote code execution. [...]",
-      "categories": [
-        "Vulnerability"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-9586"
-      ],
-      "kev": true,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Threat actors are actively exploiting a critical unauthenticated SQL injection vulnerability in the Sangoma Switchvox VoIP platform. This security flaw allows remote attackers to execute arbitrary code and deploy reverse shells.",
-        "whyItMatters": "Unauthenticated remote code execution flaws in widely used enterprise communication platforms provide attackers with immediate access to internal networks and sensitive voice infrastructure.",
-        "affected": [
-          "Sangoma Switchvox"
-        ],
-        "action": "Apply the latest security patches provided by Sangoma immediately.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-9586"
-        ],
-        "source": "ai"
-      }
-    },
-    {
       "title": "SonicWall SMA 1000 Zero-Days Enable Unauthenticated RCE",
       "link": "https://www.darkreading.com/vulnerabilities-threats/sonicwall-sma-1000-zero-days-unauthenticated-rce",
       "source": "Dark Reading",
@@ -1533,36 +2326,6 @@
       }
     },
     {
-      "title": "WordPress backup plugin flaw exposes millions of sites to takeover attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/wordpress-backup-plugin-flaw-exposes-millions-of-sites-to-takeover-attacks/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-09-02T19:28:46.000Z",
-      "summary": "An SQL injection vulnerability in the All-in-One WP Migration and Backup plugin for WordPress could allow unauthenticated attackers to execute remote code and take control of affected websites. [...]",
-      "categories": [
-        "Vulnerability"
-      ],
-      "tags": [
-        "WordPress"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "An SQL injection vulnerability in the All-in-One WP Migration and Backup plugin for WordPress exposes millions of sites to potential takeover attacks. Unauthenticated attackers can exploit this flaw to execute remote code and gain full control over affected websites.",
-        "whyItMatters": "This vulnerability affects millions of WordPress sites and allows unauthenticated attackers to achieve complete remote code execution and site takeover.",
-        "affected": [
-          "All-in-One WP Migration and Backup plugin for WordPress"
-        ],
-        "action": "Update the All-in-One WP Migration and Backup plugin to the latest patched version immediately.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Russian national facing 20 years for malware campaign that infected 80,000 freelancers",
       "link": "https://therecord.media/russian-national-facing-20-years-malware-campaign",
       "source": "The Record",
@@ -1639,32 +2402,6 @@
         "affected": [],
         "action": "Monitor networks for autonomous AI threat behaviors and reinforce standard ransomware defenses.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Google, Anthropic, and OpenAI Unveil Cyber AI Models, Safeguards, and Access Programs",
-      "link": "https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-02T18:27:49.000Z",
-      "summary": "Google on Wednesday announced Gemini 3.8 Flash Cyber, which it described as its most capable cybersecurity model, and has made it available to a set of trusted defenders via a new initiative called the Fairwind Program.\n",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Google has announced Gemini 3.8 Flash Cyber, a new cybersecurity AI model designed for defenders. The technology is being rolled out to select users through the newly introduced Fairwind Program.",
-        "whyItMatters": "This release represents a significant advancement in AI-driven cybersecurity tools available to defenders, though such models also carry potential implications for offensive operations.",
-        "affected": [],
-        "action": "Monitor the rollout and availability of the Fairwind Program if interested in testing the new model.",
-        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
@@ -1873,63 +2610,6 @@
       }
     },
     {
-      "title": "Fake Software Installers Disable Windows Update and Weaken Microsoft Defender",
-      "link": "https://thehackernews.com/2026/09/fake-software-installers-disable.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-02T16:41:06.000Z",
-      "summary": "An active malware campaign is using bogus software-download websites to impersonate trusted vendors and distribute malicious installers.\n\n\"The campaign has targeted users looking to download popular software and has resu",
-      "categories": [
-        "Malware",
-        "Threat Intel"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "An active malware campaign uses fake software-download websites impersonating trusted vendors to distribute malicious installers. These bogus installers disable Windows Update and weaken Microsoft Defender on targeted systems.",
-        "whyItMatters": "This campaign compromises core operating system defenses, leaving infected machines highly vulnerable to further exploitation and persistent malware infections.",
-        "affected": [],
-        "action": "Download software only from official vendor websites and verify file integrity.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "SonicWall's SMA1000 boxes under active attack again",
-      "link": "https://www.theregister.com/security/2026/09/02/sonicwalls-sma1000-boxes-under-active-attack-again/5293969",
-      "source": "The Register",
-      "publishedAt": "2026-09-02T16:05:00.000Z",
-      "summary": "Miscreants use chained zero days to pwn boxen as third-party SOCs say further attacks 'almost certain'",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "SonicWall SMA1000 appliances are currently facing active exploitation in the wild by threat actors using chained zero-day vulnerabilities. Third-party Security Operations Centers warn that additional attacks against these systems are almost certain.",
-        "whyItMatters": "Active exploitation of zero-day vulnerabilities in security appliances allows attackers to compromise enterprise networks and requires immediate defensive measures.",
-        "affected": [
-          "SonicWall SMA1000"
-        ],
-        "action": "Apply available security patches or disable affected SonicWall SMA1000 appliances immediately.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Cisco IOS XR Software Security Hardening Release: September 2026",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxr-qg64NcM?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20IOS%20XR%20Software%20Security%20Hardening%20Release:%20September%202026%26vs_k=1",
       "source": "Cisco PSIRT",
@@ -2082,64 +2762,6 @@
       }
     },
     {
-      "title": "Hackers exploit critical JFrog Artifactory flaw to forge admin tokens",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-jfrog-artifactory-flaw-to-forge-admin-tokens/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-09-02T15:47:08.000Z",
-      "summary": "A critical authentication bypass vulnerability (CVE-2026-82329) in JFrog Artifactory is being exploited in attacks to create tokens that provide administrative access. [...]",
-      "categories": [
-        "Vulnerability"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-82329"
-      ],
-      "kev": true,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Attackers are actively exploiting a critical authentication bypass vulnerability in JFrog Artifactory to forge administrative tokens. This flaw allows unauthorized actors to gain full administrative access to affected systems.",
-        "whyItMatters": "It allows attackers to completely compromise vulnerable Artifactory servers and gain unfettered administrative control.",
-        "affected": [
-          "JFrog Artifactory"
-        ],
-        "action": "Apply the latest security patches immediately.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-82329"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "UK Moves to Block High-Risk Tech Suppliers From Critical Infrastructure",
-      "link": "https://www.securityweek.com/uk-moves-to-block-high-risk-tech-suppliers-from-critical-infrastructure/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-09-02T15:45:08.000Z",
-      "summary": "Late amendments to the Cyber Security and Resilience Bill would give ministers new powers to restrict risky technology providers as supply chain attacks intensify.\nThe post UK Moves to Block High-Risk Tech Suppliers From",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The UK government has introduced late amendments to the Cyber Security and Resilience Bill to grant ministers new powers to restrict high-risk technology suppliers. This legislative move aims to counter intensifying supply chain attacks targeting critical national infrastructure.",
-        "whyItMatters": "It strengthens national security by allowing the government to proactively prevent potentially compromised technology providers from operating within critical infrastructure supply chains.",
-        "affected": [],
-        "action": "Monitor the progress of the Cyber Security and Resilience Bill and assess supply chain dependencies.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "New pro-Ukraine hacker group targets Russian companies with custom ransomware",
       "link": "https://therecord.media/new-pro-ukraine-hacker-group-custom-ransomware-russia",
       "source": "The Record",
@@ -2274,61 +2896,6 @@
         "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
-      }
-    },
-    {
-      "title": "Legacy Lenovo login opens 5,000 Dropbox accounts to attackers",
-      "link": "https://www.theregister.com/security/2026/09/02/legacy-lenovo-login-opens-5000-dropbox-accounts-to-attackers/5293924",
-      "source": "The Register",
-      "publishedAt": "2026-09-02T14:25:00.000Z",
-      "summary": "Cloud storage biz severs old integration and urges victims to reset credentials",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A legacy Lenovo login integration has exposed approximately 5,000 Dropbox accounts to potential attackers. In response, Dropbox has severed the old integration and urged affected victims to reset their credentials.",
-        "whyItMatters": "Vulnerable legacy integrations between major service providers can be exploited by threat actors to compromise user accounts and sensitive data without direct breaches of the core platform.",
-        "affected": [
-          "Lenovo legacy login integration",
-          "Dropbox"
-        ],
-        "action": "Reset your account credentials immediately.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Ransomware protection for MSPs: A 6-point checklist for faster recovery",
-      "link": "https://www.bleepingcomputer.com/news/security/ransomware-protection-for-msps-a-6-point-checklist-for-faster-recovery/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-09-02T14:02:12.000Z",
-      "summary": "Ransomware resilience requires more than backups or endpoint detection alone. Acronis outlines six capabilities MSPs should test across client environments, from reducing exposure and detecting attacks to preserving reco",
-      "categories": [
-        "Ransomware"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "high",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Acronis has released a six-point checklist designed to help Managed Service Providers improve ransomware resilience for their clients. The guide emphasizes testing capabilities across exposure reduction, attack detection, and recovery preservation.",
-        "whyItMatters": "MSPs are frequent targets for supply-chain attacks, making robust ransomware resilience critical for protecting numerous downstream clients.",
-        "affected": [],
-        "action": "Review the Acronis checklist and test your client environments against the six outlined capabilities.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
       }
     },
     {
@@ -2524,108 +3091,6 @@
       }
     },
     {
-      "title": "CVE-2026-69278 Visual Studio Code Security Feature Bypass Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69278",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-09-02T14:00:00.000Z",
-      "summary": "Affected software updated with new package information.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-69278"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "Affected software updated with new package information.",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [
-          "CVE-2026-69278"
-        ],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "CVE-2026-69306 Visual Studio Code Security Feature Bypass Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69306",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-09-02T14:00:00.000Z",
-      "summary": "Affected software updated with new package information.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-69306"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "Affected software updated with new package information.",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [
-          "CVE-2026-69306"
-        ],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "CVE-2026-70335 GitHub Copilot and Visual Studio Code Elevation of Privilege Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70335",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-09-02T14:00:00.000Z",
-      "summary": "Affected software updated with new package information.",
-      "categories": [
-        "Vulnerability",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "GitHub"
-      ],
-      "cves": [
-        "CVE-2026-70335"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "Affected software updated with new package information.",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "GitHub"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [
-          "CVE-2026-70335"
-        ],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Hackers expose donor data from Russian fundraisers for Ukrainians, political prisoners",
       "link": "https://therecord.media/hackers-russia-fundraisers-ukraine",
       "source": "The Record",
@@ -2675,101 +3140,6 @@
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
-      }
-    },
-    {
-      "title": "Rockwell Automation Patches Over a Dozen Vulnerabilities Across Products",
-      "link": "https://www.securityweek.com/rockwell-automation-patches-over-a-dozen-vulnerabilities-across-products/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-09-02T12:39:07.000Z",
-      "summary": "The industrial giant has released advisories for its RSLinx Classic, ArmorStart, ControlFLASH, FactoryTalk, and other products.\nThe post Rockwell Automation Patches Over a Dozen Vulnerabilities Across Products appeared f",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Rockwell Automation has released security advisories to address over a dozen vulnerabilities affecting multiple products, including RSLinx Classic, ArmorStart, ControlFLASH, and FactoryTalk. These patches aim to remediate potential security weaknesses discovered in the industrial automation systems.",
-        "whyItMatters": "Unpatched vulnerabilities in industrial automation software can expose critical infrastructure and manufacturing environments to unauthorized access or operational disruption.",
-        "affected": [
-          "RSLinx Classic",
-          "ArmorStart",
-          "ControlFLASH",
-          "FactoryTalk"
-        ],
-        "action": "Apply the latest security patches provided by Rockwell Automation.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Communicating Under Pressure: Best Practices for Service Providers",
-      "link": "https://www.cisa.gov/resources-tools/resources/communicating-under-pressure-best-practices-service-providers",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-09-02T12:00:00.000Z",
-      "summary": "Developed by CISA, the Federal Bureau of Investigation, and international partners, this guidance describes how organizations can plan and execute clear, timely, accurate, and audience-appropriate communications during I",
-      "categories": [
-        "Government",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CISA and the FBI, along with international partners, have released guidance for service providers on managing communications during pressure situations. The document outlines best practices for planning and executing clear, timely, and accurate messaging.",
-        "whyItMatters": "Effective communication during a cybersecurity incident helps maintain trust and ensures coordinated response efforts among stakeholders.",
-        "affected": [],
-        "action": "Review the newly released CISA guidance to improve your organization's incident communication strategy.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CISA Adds Seven Known Exploited Vulnerabilities to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/09/02/cisa-adds-seven-known-exploited-vulnerabilities-catalog",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-09-02T12:00:00.000Z",
-      "summary": "CISA has added seven new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  \nCVE-2026-9586 Sangoma Switchvox SQL Injection Vulnerability \nCVE-2026-48710 Klude",
-      "categories": [
-        "Vulnerability",
-        "Government",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-9586",
-        "CVE-2026-48710"
-      ],
-      "kev": true,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CISA has added seven new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  \nCVE-2026-9586 Sangoma Switchvox SQL Injection Vulnerability \nCVE-2026-48710 Klude",
-        "whyItMatters": "Actively exploited or high-impact; treat as urgent.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Patch immediately.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-9586",
-          "CVE-2026-48710"
-        ],
-        "source": "heuristic"
       }
     },
     {
@@ -2826,34 +3196,6 @@
         ],
         "action": "Review advisory for affected versions and patch on your normal cycle.",
         "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Nutex Health Says Patient Data Stolen, Hackers Threaten Leak",
-      "link": "https://www.infosecurity-magazine.com/news/nutex-patient-data-stolen/",
-      "source": "Infosecurity Magazine",
-      "publishedAt": "2026-09-02T10:45:00.000Z",
-      "summary": "The US healthcare provider confirmed that sensitive patient and employee data, alongside financial and business information, were exfiltrated by a third party",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The US healthcare provider confirmed that sensitive patient and employee data, alongside financial and business information, were exfiltrated by a third party",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -3441,32 +3783,6 @@
       }
     },
     {
-      "title": "Stronger Security Drives Ransomware Groups to Recruit From Within",
-      "link": "https://www.darkreading.com/cyber-risk/stronger-security-drives-ransomware-groups-to-recruit-from-within",
-      "source": "Dark Reading",
-      "publishedAt": "2026-09-01T21:03:19.000Z",
-      "summary": "Some security researchers have observed an uptick in insider-assisted ransomware attacks, but malicious insiders pose other threats that cost companies millions.",
-      "categories": [
-        "Ransomware"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "high",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Security researchers have observed an increase in ransomware groups recruiting malicious insiders to bypass stronger corporate security measures. These insider-assisted attacks and related threats continue to cost companies millions of dollars.",
-        "whyItMatters": "Insider threats bypass traditional perimeter defenses, making it much harder for organizations to prevent devastating ransomware attacks.",
-        "affected": [],
-        "action": "Implement robust insider threat detection and strict access controls.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Tina Peters, through attorney, backs off formal role in Shasta County elections",
       "link": "https://cyberscoop.com/tina-peters-shasta-county-election-role/",
       "source": "CyberScoop",
@@ -3493,32 +3809,6 @@
       }
     },
     {
-      "title": "[Launched] Generally Available: Purchase order mapping available in Microsoft Marketplace",
-      "link": "https://azure.microsoft.com/updates?id=569700",
-      "source": "Azure Updates",
-      "publishedAt": "2026-09-01T18:40:59.000Z",
-      "summary": "Align Microsoft Marketplace purchases to your business's accounting needs. Purchase order mapping helps allocate your Microsoft invoice, including Marketplace purchases, making it easier to reconcile your organization's ",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has generally released a new purchase order mapping feature for the Microsoft Marketplace. This functionality allows organizations to better align their Marketplace purchases and invoices with internal accounting needs.",
-        "whyItMatters": "This update streamlines invoice reconciliation for businesses using the Microsoft Marketplace, though it carries no security implications.",
-        "affected": [],
-        "action": "Review the new feature in the Microsoft Marketplace to determine if it benefits your accounting workflow.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "What’s the Scam?",
       "link": "https://www.schneier.com/blog/archives/2026/09/whats-the-scam.html",
       "source": "Schneier on Security",
@@ -3539,36 +3829,6 @@
         "whyItMatters": "It highlights standard email verification practices used to prevent spam and unauthorized address usage.",
         "affected": [],
         "action": "None required.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "[Launched] Generally Available: Azure Firewall auto-learn SNAT routes",
-      "link": "https://azure.microsoft.com/updates?id=570474",
-      "source": "Azure Updates",
-      "publishedAt": "2026-09-01T17:10:38.000Z",
-      "summary": "Azure Firewall’s auto-learn SNAT routes is now\r\ngenerally available, automatically learning registered and private destination\r\nprefixes periodically and applying them as No-SNAT ranges to preserve original\r\nsource IPs a",
-      "categories": [
-        "Cloud"
-      ],
-      "tags": [
-        "Azure"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has announced the general availability of Azure Firewall's auto-learn SNAT routes feature. This capability periodically learns registered and private destination prefixes to apply them as No-SNAT ranges, preserving original source IPs.",
-        "whyItMatters": "It simplifies firewall configuration and improves network visibility by automatically preserving original source IPs for private and registered destination traffic.",
-        "affected": [
-          "Azure Firewall"
-        ],
-        "action": "Review Azure Firewall documentation to implement auto-learn SNAT routes for your network architecture.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -3679,213 +3939,6 @@
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
-      }
-    },
-    {
-      "title": "TerminalFix looks like ClickFix, but delivers a very different payload",
-      "link": "https://www.malwarebytes.com/blog/news/2026/09/terminalfix-looks-like-clickfix-but-delivers-a-very-different-payload",
-      "source": "Malwarebytes Labs",
-      "publishedAt": "2026-09-01T12:13:18.000Z",
-      "summary": "The familiar ClickFix fake CAPTCHA trick has been adapted to deliver a payload that can give attackers access to the victim’s wider network.",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Threat actors have adapted the ClickFix fake CAPTCHA social engineering trick into a new variant called TerminalFix. This new technique delivers a payload designed to grant attackers unauthorized access to the victim's broader network.",
-        "whyItMatters": "It matters because this evolution of social engineering expands the threat from local device compromise to potential enterprise-wide network infiltration.",
-        "affected": [],
-        "action": "Train users to recognize fake CAPTCHA prompts and terminal execution tricks.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Rockwell Automation RSLinx Classic",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-01",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-09-01T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition on the affected product.\nThe following versions of Rockwell Automation RSLinx Classic are ",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Rockwell Automation RSLinx Classic contains vulnerabilities that could be successfully exploited by attackers. The exploitation of these flaws may result in a denial-of-service condition on the affected product.",
-        "whyItMatters": "This vulnerability poses an operational risk by potentially causing service disruptions in critical industrial automation environments.",
-        "affected": [
-          "Rockwell Automation RSLinx Classic"
-        ],
-        "action": "Check vendor advisories for available patches or mitigation steps.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Rockwell Automation Historian ME",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-06",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-09-01T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could crash the device being accessed; an out-of-bounds write condition may allow remote code execution.\nThe following versions of Rockwell Automation Hi",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could crash the device being accessed; an out-of-bounds write condition may allow remote code execution.\nThe following versions of Rockwell Automation Hi",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Rockwell Automation ControlLogix, CompactLogix, CompactLogix 5480, GuardLogix, Compact GuardLogix",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-05",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-09-01T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nThe following versions of Rockwell Automation ControlLogix, CompactLogix, CompactLogix 5480, GuardLogix, Compact GuardLogix are affected:\nControlLogix 5580 <34.015, <35.014, <36.013, <37.011 (CVE-2021-4",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "View CSAF\nSummary\nThe following versions of Rockwell Automation ControlLogix, CompactLogix, CompactLogix 5480, GuardLogix, Compact GuardLogix are affected:\nControlLogix 5580 <34.015, <35.014, <36.013, <37.011 (CVE-2021-4",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Rockwell Automation Logix Platform",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-03",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-09-01T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nThe following versions of Rockwell Automation Logix Platform are affected:\nControlLogix 5580 <=V33, V34.011-V34.014, V35.011-V35.013, V36.011-V36.012 (CVE-2026-9637, CVE-2026-9637, CVE-2026-9637, CVE-20",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-9637"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "View CSAF\nSummary\nThe following versions of Rockwell Automation Logix Platform are affected:\nControlLogix 5580 <=V33, V34.011-V34.014, V35.011-V35.013, V36.011-V36.012 (CVE-2026-9637, CVE-2026-9637, CVE-2026-9637, CVE-20",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [
-          "CVE-2026-9637"
-        ],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Rockwell Automation Redundancy Module Configuration Tool",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-02",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-09-01T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow for an attacker to escalate and execute processes with administrator privileges.\nThe following versions of Rockwell Automation Redundancy Mod",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow for an attacker to escalate and execute processes with administrator privileges.\nThe following versions of Rockwell Automation Redundancy Mod",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Rockwell Automation FactoryTalk Activation Manager",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-04",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-09-01T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nThe following versions of Rockwell Automation FactoryTalk Activation Manager are affected:\nFactoryTalk Activation Manager V5.02_and_below (CVE-2026-16675)\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 7.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-16675"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "View CSAF\nSummary\nThe following versions of Rockwell Automation FactoryTalk Activation Manager are affected:\nFactoryTalk Activation Manager V5.02_and_below (CVE-2026-16675)\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 7.",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [
-          "CVE-2026-16675"
-        ],
-        "source": "heuristic"
       }
     },
     {
@@ -5613,69 +5666,6 @@
         "action": "Review the Cisco security release notes and apply the latest hardening updates.",
         "risk": "Medium",
         "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "VU#756733: Calix GS7 XGS GS5239XG residential router contains missing authentication vulnerability",
-      "link": "https://kb.cert.org/vuls/id/756733",
-      "source": "CERT/CC",
-      "publishedAt": "2026-08-21T14:44:16.922Z",
-      "summary": "Overview\nThe Calix GS7 XGS GS5239XG router running firmware EXOS/6.6.47 contains a missing authentication vulnerability that exposes its UPnP (Universal Plug and Play) WANIPConnection service on the public WAN interface.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The Calix GS7 XGS GS5239XG residential router running firmware EXOS/6.6.47 contains a missing authentication vulnerability. This security flaw exposes the device's UPnP WANIPConnection service directly on the public WAN interface.",
-        "whyItMatters": "Exposing UPnP services on the public WAN without authentication allows unauthorized remote attackers to manipulate network settings and potentially compromise the router.",
-        "affected": [
-          "Calix GS7 XGS GS5239XG firmware EXOS/6.6.47"
-        ],
-        "action": "Disable UPnP on the WAN interface or update the router firmware.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "No Crash Required: Verifying the Citrix NetScaler SAML Patch for CVE-2026-8452",
-      "link": "https://bishopfox.com/blog/no-crash-required-verifying-the-citrix-netscaler-saml-patch-for-cve-2026-8452",
-      "source": "Bishop Fox",
-      "publishedAt": "2026-08-21T13:00:00.000Z",
-      "summary": "CVE-2026-8452 lets an unauthenticated attacker corrupt memory in Citrix NetScaler's SAML parser with a single request, potentially leading to remote code execution. Bishop Fox breaks down the patch, how to safely verify ",
-      "categories": [
-        "Vulnerability"
-      ],
-      "tags": [
-        "Citrix"
-      ],
-      "cves": [
-        "CVE-2026-8452"
-      ],
-      "kev": true,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CVE-2026-8452 is a vulnerability in Citrix NetScaler that allows unauthenticated attackers to corrupt memory in the SAML parser using a single request. Security researchers at Bishop Fox have analyzed the issued patch and discussed methods to safely verify it.",
-        "whyItMatters": "This flaw poses a severe risk of remote code execution by unauthenticated attackers against vulnerable enterprise infrastructure.",
-        "affected": [
-          "Citrix NetScaler"
-        ],
-        "action": "Apply the vendor patch immediately.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-8452"
-        ],
         "source": "ai"
       }
     }
