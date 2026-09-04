@@ -1,6 +1,188 @@
 {
-  "updatedAt": "2026-09-04T18:33:30.013Z",
+  "updatedAt": "2026-09-04T21:26:54.324Z",
   "items": [
+    {
+      "title": "European parliament members call for slowdown of Serbia’s EU entry over spyware use",
+      "link": "https://cyberscoop.com/eu-parliament-serbia-accession-spyware-demands/",
+      "source": "CyberScoop",
+      "publishedAt": "2026-09-04T21:02:39.000Z",
+      "summary": "The letter follows revelations about Serbian student activists being infected with Pegasus and NoviSpy, and coincides with other pressures on Belgrade.\nThe post European parliament members call for slowdown of Serbia’s E",
+      "categories": [
+        "Malware"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "European parliament members are urging a slowdown of Serbia's EU entry due to the government's use of spyware. This follows recent revelations that Serbian student activists were targeted and infected with Pegasus and NoviSpy malware.",
+        "whyItMatters": "It highlights the political and diplomatic consequences of state-sponsored spyware use against activists and dissidents.",
+        "affected": [],
+        "action": "Monitor political developments and spyware threats in the region.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Friday Squid Blogging: Squid on a Stick at the New York State Fair",
+      "link": "https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-squid-on-a-stick-at-the-new-york-state-fair.html",
+      "source": "Schneier on Security",
+      "publishedAt": "2026-09-04T21:01:35.000Z",
+      "summary": "Looks tasty.\nAs usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered.\nBlog moderation policy.",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A personal blog post features a short comment about squid on a stick at the New York State Fair. The author also invites readers to discuss uncovered cybersecurity news stories in the comments section.",
+        "whyItMatters": "This is a non-technical personal blog post containing no cybersecurity vulnerabilities or actionable security news.",
+        "affected": [],
+        "action": "Ignore this non-security post.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "ASCII smuggling isn't just an AI security risk",
+      "link": "https://www.theregister.com/security/2026/09/04/ascii-smuggling-isnt-just-an-ai-security-risk/5294595",
+      "source": "The Register",
+      "publishedAt": "2026-09-04T19:23:25.000Z",
+      "summary": "Phishers find a new use for invisible Unicode tag characters",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Phishers are increasingly leveraging invisible Unicode tag characters, a technique known as ASCII smuggling, beyond just AI security contexts. This method allows attackers to obscure malicious content within seemingly normal text to bypass traditional email security filters.",
+        "whyItMatters": "This evasion technique makes phishing attacks harder for both humans and automated security systems to detect, increasing the success rate of credential harvesting and malware delivery.",
+        "affected": [],
+        "action": "Update email security filters to detect and strip invisible Unicode tag characters.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-85781 - Unverified access point ownership in Amazon EFS CSI Driver",
+      "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-099-aws/",
+      "source": "AWS Security Bulletins",
+      "publishedAt": "2026-09-04T19:03:02.000Z",
+      "summary": "Bulletin ID: 2026-099-AWS\n Scope: AWS\n Content Type: Important (requires attention)\n Publication Date: 09/04/2026 11:45 AM PDT\n \nDescription:\n \nThe Amazon EFS CSI Driver is an open-source Kubernetes Container Storage Int",
+      "categories": [
+        "Vulnerability",
+        "Cloud",
+        "Open Source"
+      ],
+      "tags": [
+        "AWS",
+        "Kubernetes"
+      ],
+      "cves": [
+        "CVE-2026-85781"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A security vulnerability has been identified in the Amazon EFS CSI Driver involving unverified access point ownership. The issue is tracked as CVE-2026-85781 and has been rated as an important bulletin by AWS.",
+        "whyItMatters": "This vulnerability could potentially allow unauthorized access or manipulation of file systems within Kubernetes environments utilizing the affected CSI driver.",
+        "affected": [
+          "Amazon EFS CSI Driver"
+        ],
+        "action": "Update the Amazon EFS CSI Driver to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-85781"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8714-2: Linux kernel vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8714-2",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-09-04T17:55:21.000Z",
+      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - OCFS2 file system;\n  - SCTP protocol",
+      "categories": [
+        "Vulnerability",
+        "Incident Response",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple security vulnerabilities have been discovered in the Linux kernel that could allow an attacker to compromise the system. This update specifically addresses and corrects flaws within the OCFS2 file system and SCTP protocol subsystems.",
+        "whyItMatters": "Unpatched kernel vulnerabilities can allow local or remote attackers to fully compromise the affected system.",
+        "affected": [
+          "Linux kernel OCFS2 file system",
+          "Linux kernel SCTP protocol"
+        ],
+        "action": "Update the Linux kernel to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8725-1: Linux kernel vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8725-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-09-04T17:51:55.000Z",
+      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - NVIDIA Tegra memory controller drive",
+      "categories": [
+        "Vulnerability",
+        "Incident Response",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Security issues have been discovered in the Linux kernel that could allow an attacker to compromise the system. The updates specifically address flaws found within the NVIDIA Tegra memory controller driver.",
+        "whyItMatters": "Unpatched kernel vulnerabilities can allow attackers to fully compromise affected operating systems.",
+        "affected": [
+          "Linux kernel"
+        ],
+        "action": "Update the Linux kernel to the latest version provided by your vendor.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "The hidden work of modernizing Malwarebytes",
       "link": "https://www.malwarebytes.com/blog/inside-malwarebytes/2026/09/the-hidden-work-of-modernizing-malwarebytes",
@@ -1422,6 +1604,32 @@
       }
     },
     {
+      "title": "US offers $10 million for info on Iranian allegedly behind cyberattacks on critical infrastructure",
+      "link": "https://therecord.media/us-reward-amir-yaryab-iran-irgc-cyberattacks",
+      "source": "The Record",
+      "publishedAt": "2026-09-04T04:00:00.000Z",
+      "summary": "Amir Yaryab is the leader of the IRGC's cyber unit and oversees hacker groups such as the CyberAv3ngers, the State Department said in posting a reward for information about him.",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The US State Department is offering a reward of up to $10 million for information leading to Amir Yaryab, who allegedly leads an Iranian Islamic Revolutionary Guard Corps cyber unit. This unit oversees hacker groups like CyberAv3ngers that have targeted critical infrastructure.",
+        "whyItMatters": "It targets a key individual orchestrating state-sponsored cyberattacks against vital critical infrastructure.",
+        "affected": [],
+        "action": "Report any information regarding Amir Yaryab to the US State Department.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "Cisco searched for IOS XR bugs and found so many it rolled them into an update release",
       "link": "https://www.theregister.com/security/2026/09/04/cisco-searched-for-ios-xr-bugs-and-found-so-many-it-rolled-them-into-an-update-release/5294410",
       "source": "The Register",
@@ -1474,6 +1682,34 @@
         "affected": [],
         "action": "Listen to the podcast episode for the latest threat updates.",
         "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6483-1 thunderbird - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00394.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-09-04T00:00:00.000Z",
+      "summary": "Multiple security issues were discovered in Thunderbird, which could\nresult in the execution of arbitrary code or information disclosure.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6483-1",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple security issues have been discovered in the Thunderbird email client that could allow attackers to execute arbitrary code. Debian has released a security advisory to address these vulnerabilities.",
+        "whyItMatters": "Unpatched vulnerabilities in email clients can allow remote code execution or information disclosure if a user processes malicious content.",
+        "affected": [
+          "Thunderbird"
+        ],
+        "action": "Update Thunderbird to the latest version provided by your distributor.",
+        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -1716,32 +1952,6 @@
         "affected": [],
         "action": "Review the Dark Reading video for insights on recent threat group activity.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Large group of Serbian opposition, activist figures targeted with spyware",
-      "link": "https://therecord.media/serbia-spyware-pegasus-europe",
-      "source": "The Record",
-      "publishedAt": "2026-09-03T19:30:41.000Z",
-      "summary": "At least 14 Serbians have been targeted with advanced spyware since December, with victims including a member of Parliament, a local opposition politician and student protesters, according to digital forensic researchers",
-      "categories": [
-        "Malware"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "At least 14 prominent Serbian opposition figures, activists, and student protesters have been targeted with advanced spyware since December. Researchers discovered these cyberattacks aimed at political figures, highlighting a troubling trend of digital surveillance against dissent.",
-        "whyItMatters": "This targeted deployment of advanced spyware against political opponents and activists threatens democratic processes and fundamental human rights.",
-        "affected": [],
-        "action": "Investigate devices for signs of advanced spyware compromise and secure communications.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -2511,35 +2721,6 @@
       }
     },
     {
-      "title": "USN-8718-1: SSSD vulnerability",
-      "link": "https://ubuntu.com/security/notices/USN-8718-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-09-03T12:00:57.000Z",
-      "summary": "It was discovered that SSSD did not properly validate authentication token\nlengths when processing PAM responder requests. A local attacker could\npossibly use this issue to cause SSSD to crash, resulting in a denial of\ns",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A vulnerability was discovered in SSSD where it failed to properly validate authentication token lengths during PAM responder requests. A local attacker could exploit this flaw to crash the service, leading to a denial of service.",
-        "whyItMatters": "This vulnerability allows local attackers to disrupt system availability by crashing a critical authentication service.",
-        "affected": [
-          "SSSD"
-        ],
-        "action": "Update SSSD to the latest patched version provided by your vendor.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "'Breeze Comet' Tears Into Brazilian &amp; Global Financial Systems",
       "link": "https://www.darkreading.com/threat-intelligence/breeze-comet-brazilian-global-financial-systems",
       "source": "Dark Reading",
@@ -2821,35 +3002,6 @@
       }
     },
     {
-      "title": "USN-8716-1: FFmpeg vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8716-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-09-03T11:06:14.000Z",
-      "summary": "It was discovered that FFmpeg incorrectly handled certain crafted media\nfiles in the VobSub subtitle demuxer. An attacker could possibly use\nthis issue to cause a denial of service or execute arbitrary code.\n(CVE-2026-64",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "It was discovered that FFmpeg incorrectly handled certain crafted media\nfiles in the VobSub subtitle demuxer. An attacker could possibly use\nthis issue to cause a denial of service or execute arbitrary code.\n(CVE-2026-64",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Attackers Expose Ongoing AI Tool Use Targeting Organizations in Latin America",
       "link": "https://unit42.paloaltonetworks.com/ai-tool-use-targeting-latam-orgs/",
       "source": "Unit 42",
@@ -2982,32 +3134,6 @@
         "affected": [],
         "action": "Verify network systems for potential Sality botnet communication.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Terminated employee cost company hundreds of thousands of dollars because nobody revoked access",
-      "link": "https://www.theregister.com/security/2026/09/03/terminated-employee-cost-company-hundreds-of-thousands-of-dollars-because-nobody-revoked-access/5292763",
-      "source": "The Register",
-      "publishedAt": "2026-09-03T07:00:00.000Z",
-      "summary": "They had more access than the average Joe, and IT didn't track what needed to be cut off",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A disgruntled terminated employee caused hundreds of thousands of dollars in damages because their excessive system access was never revoked by IT. The incident highlights critical failures in offboarding procedures and privileged access management.",
-        "whyItMatters": "Unrevoked access for former employees poses a severe insider threat that can lead to catastrophic financial and operational damage.",
-        "affected": [],
-        "action": "Implement strict offboarding checklists and automated identity revocation processes immediately.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -3522,34 +3648,6 @@
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
-      }
-    },
-    {
-      "title": "Wyden seeks upgraded NSA security guidance on commercial VPN use",
-      "link": "https://cyberscoop.com/wyden-nsa-commercial-vpn-security-guidance/",
-      "source": "CyberScoop",
-      "publishedAt": "2026-09-02T15:00:00.000Z",
-      "summary": "it’s the latest in a sequence of letters to feds from Sen. Ron Wyden, D-Ore., on commercial VPNs.\nThe post Wyden seeks upgraded NSA security guidance on commercial VPN use appeared first on CyberScoop.",
-      "categories": [
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "it’s the latest in a sequence of letters to feds from Sen. Ron Wyden, D-Ore., on commercial VPNs.\nThe post Wyden seeks upgraded NSA security guidance on commercial VPN use appeared first on CyberScoop.",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
       }
     },
     {
@@ -4125,32 +4223,6 @@
         "whyItMatters": "It highlights standard email verification practices used to prevent spam and unauthorized address usage.",
         "affected": [],
         "action": "None required.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Leaked Russian Cyber-Operations Training Materials",
-      "link": "https://www.schneier.com/blog/archives/2026/09/leaked-russian-cyber-operations-training-materials.html",
-      "source": "Schneier on Security",
-      "publishedAt": "2026-09-01T16:29:10.000Z",
-      "summary": "This is interesting:\nThe records describe a force-generation mechanism for several General Staff components, including the GRU, Main Operational Directorate, and 8th Directorate, which is associated with protected commun",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Recently leaked training materials detail the force-generation mechanisms for several Russian General Staff components, including the GRU and the 8th Directorate. These documents offer rare insight into how Russian cyber-operations and protected communications units are structured and trained.",
-        "whyItMatters": "It provides valuable intelligence into the internal organization and operational preparation of Russian state-sponsored cyber actors.",
-        "affected": [],
-        "action": "Review the leaked details for threat intelligence insights.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -4820,8 +4892,8 @@
         "affected": [
           "AWS"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [
           "CVE-2026-81838"
         ],
@@ -5330,34 +5402,6 @@
       }
     },
     {
-      "title": "DSA-6475-1 suricata-update - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00386.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-08-27T00:00:00.000Z",
-      "summary": "Guillem Lefait discovered a path traversal attack in suricata-update,\na tool for updating Suricata rules, which allowed malformed rules to\noverwrite files on the system.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Guillem Lefait discovered a path traversal attack in suricata-update,\na tool for updating Suricata rules, which allowed malformed rules to\noverwrite files on the system.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Smashing Security podcast #482: This hacker leaked GTA 6 – and launched their own cryptocurrency",
       "link": "https://grahamcluley.com/smashing-security-podcast-482/",
       "source": "Graham Cluley",
@@ -5696,33 +5740,6 @@
         ],
         "action": "Apply available patches or avoid playing on untrusted online hosts.",
         "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "24th August – Threat Intelligence Report",
-      "link": "https://research.checkpoint.com/2026/24th-august-threat-intelligence-report/",
-      "source": "Check Point Research",
-      "publishedAt": "2026-08-24T14:07:53.000Z",
-      "summary": "For the latest discoveries in cyber research for the week of 24th August, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Latvia’s Road Traffic Safety Directorate (CSDD) has confirmed a breach ",
-      "categories": [
-        "Incident Response",
-        "Research"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Latvia's Road Traffic Safety Directorate (CSDD) has confirmed a recent cyber breach. Further details on the incident are available in the downloadable Threat Intelligence Bulletin.",
-        "whyItMatters": "It highlights an active breach against a government transportation agency, potentially exposing sensitive data.",
-        "affected": [],
-        "action": "Review the Threat Intelligence Bulletin for indicators of compromise.",
-        "risk": "Medium",
         "relatedCves": [],
         "source": "ai"
       }
