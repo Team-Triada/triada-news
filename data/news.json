@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T18:17:09.105Z",
+  "updatedAt": "2026-09-05T20:21:24.881Z",
   "items": [
     {
       "title": "Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials",
@@ -1817,6 +1817,34 @@
       }
     },
     {
+      "title": "DSA-6483-1 thunderbird - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00394.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-09-04T00:00:00.000Z",
+      "summary": "Multiple security issues were discovered in Thunderbird, which could\nresult in the execution of arbitrary code or information disclosure.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6483-1",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple security issues have been discovered in Debian's Thunderbird package. These vulnerabilities could potentially lead to the execution of arbitrary code or information disclosure.",
+        "whyItMatters": "Exploitation of these flaws could allow attackers to execute arbitrary code or compromise sensitive information on affected systems.",
+        "affected": [
+          "Thunderbird"
+        ],
+        "action": "Update Thunderbird to the latest security release.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "Chromium: CVE-2026-84325 Improper input validation in DataTransfer",
       "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-84325",
       "source": "Microsoft MSRC",
@@ -3205,6 +3233,34 @@
       }
     },
     {
+      "title": "DSA-6482-1 chromium - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00393.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "summary": "Security issues were discovered in Chromium which could result\nin the execution of arbitrary code, denial of service, or information\ndisclosure.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6482-1",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Security vulnerabilities have been discovered in the Chromium browser that could allow attackers to execute arbitrary code, cause a denial of service, or disclose sensitive information. Debian has released a security update to address these issues.",
+        "whyItMatters": "Unpatched vulnerabilities in web browsers like Chromium can lead to system compromise or data theft if users visit malicious websites.",
+        "affected": [
+          "Chromium"
+        ],
+        "action": "Update Chromium to the latest version provided by your distribution.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "Smashing Security podcast #483: This AI helps thieves steal your iPhone",
       "link": "https://grahamcluley.com/smashing-security-podcast-483/",
       "source": "Graham Cluley",
@@ -3976,6 +4032,36 @@
       }
     },
     {
+      "title": "DSA-6481-1 firefox-esr - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00392.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-09-02T00:00:00.000Z",
+      "summary": "Multiple security issues have been found in the Mozilla Firefox web\nbrowser, which could potentially result in the execution of arbitrary\ncode, sandbox escape or privilege escalation.\n\n\nhttps://security-tracker.debian.or",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Firefox"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple security issues have been discovered in the Mozilla Firefox web browser. These vulnerabilities could potentially lead to arbitrary code execution, sandbox escapes, or privilege escalation.",
+        "whyItMatters": "Unpatched browser vulnerabilities can be exploited by attackers to compromise user systems and gain elevated privileges.",
+        "affected": [
+          "firefox-esr"
+        ],
+        "action": "Update the firefox-esr package to the latest security release.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
       "link": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
       "source": "Krebs on Security",
@@ -4348,6 +4434,35 @@
       }
     },
     {
+      "title": "DSA-6480-1 keystone - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00391.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-09-01T00:00:00.000Z",
+      "summary": "Multiple vulnerabilities were discovered in Keystone, the OpenStack\nidentity service, which may result in authorisation bypass or\ninformation disclosure.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6480-1",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple vulnerabilities have been discovered in Keystone, the OpenStack identity service. These security flaws could potentially lead to authorization bypass or unauthorized information disclosure.",
+        "whyItMatters": "Unpatched authentication and authorization vulnerabilities in identity services like OpenStack Keystone can allow attackers to gain unauthorized access to sensitive cloud resources.",
+        "affected": [
+          "OpenStack Keystone"
+        ],
+        "action": "Apply the latest security updates provided by Debian.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "The Coding-Agent Trap: When a \"Free\" LLM Endpoint Is the Adversary, (Mon, Aug 31st)",
       "link": "https://isc.sans.edu/diary/rss/33298",
       "source": "SANS ISC",
@@ -4619,6 +4734,96 @@
         "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
+      }
+    },
+    {
+      "title": "DSA-6479-1 roundcube - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00390.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-08-30T00:00:00.000Z",
+      "summary": "Multiple vulnerabilities were discovered in roundcube, a skinnable AJAX\nbased webmail solution for IMAP servers, which could result in\ncross-site scripting, SSRF bypass, information disclosure, privilege\nescalation, deni",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple vulnerabilities have been discovered in the Roundcube webmail solution. These security flaws could potentially lead to cross-site scripting, server-side request forgery bypass, information disclosure, privilege escalation, and denial of service.",
+        "whyItMatters": "Exploitation of these vulnerabilities could allow attackers to compromise webmail accounts, access sensitive information, or disrupt email services.",
+        "affected": [
+          "roundcube"
+        ],
+        "action": "Update Roundcube to the latest security release provided by your vendor.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6478-1 starlette - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00389.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-08-30T00:00:00.000Z",
+      "summary": "Several vulnerabilities were discovered in starlette, a lightweight ASGI\nframework/toolkit, which could result in bypass of authorization checks\nor denial of service.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-647",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Several vulnerabilities have been discovered in the starlette ASGI framework and toolkit. These security issues could potentially lead to the bypass of authorization checks or result in a denial of service.",
+        "whyItMatters": "Exploiting these vulnerabilities could allow attackers to bypass critical authorization controls or disrupt service availability for applications using the framework.",
+        "affected": [
+          "starlette"
+        ],
+        "action": "Update the starlette package to the latest patched version provided by your distributor.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6477-1 linux - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00388.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-08-29T00:00:00.000Z",
+      "summary": "Several vulnerabilities have been discovered in the Linux kernel that\nmay lead to a privilege escalation, denial of service or information\nleaks.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6477-1",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory",
+        "Open Source"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Several vulnerabilities have been discovered in the Linux kernel. These security flaws may lead to privilege escalation, denial of service, or information leaks.",
+        "whyItMatters": "Unpatched Linux kernel vulnerabilities can allow attackers to compromise system integrity, availability, and confidentiality.",
+        "affected": [
+          "Linux kernel"
+        ],
+        "action": "Apply the latest security updates provided by your Linux distribution.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
       }
     },
     {
@@ -5157,6 +5362,34 @@
       }
     },
     {
+      "title": "DSA-6476-1 chromium - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00387.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-08-27T00:00:00.000Z",
+      "summary": "Security issues were discovered in Chromium which could result\nin the execution of arbitrary code, denial of service, or information\ndisclosure.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6476-1",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A security update has been released for Chromium to address multiple vulnerabilities. These issues could potentially lead to arbitrary code execution, denial of service, or information disclosure.",
+        "whyItMatters": "Unpatched browser vulnerabilities can be exploited by attackers to compromise user systems or leak sensitive data.",
+        "affected": [
+          "Chromium"
+        ],
+        "action": "Update Chromium to the latest version.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "Smashing Security podcast #482: This hacker leaked GTA 6 – and launched their own cryptocurrency",
       "link": "https://grahamcluley.com/smashing-security-podcast-482/",
       "source": "Graham Cluley",
@@ -5496,247 +5729,6 @@
         "action": "Apply available patches or avoid playing on untrusted online hosts.",
         "risk": "Critical",
         "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "24th August – Threat Intelligence Report",
-      "link": "https://research.checkpoint.com/2026/24th-august-threat-intelligence-report/",
-      "source": "Check Point Research",
-      "publishedAt": "2026-08-24T14:07:53.000Z",
-      "summary": "For the latest discoveries in cyber research for the week of 24th August, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Latvia’s Road Traffic Safety Directorate (CSDD) has confirmed a breach ",
-      "categories": [
-        "Incident Response",
-        "Research"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "For the latest discoveries in cyber research for the week of 24th August, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Latvia’s Road Traffic Safety Directorate (CSDD) has confirmed a breach ",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "risk": "News",
-        "action": "No action required; informational.",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Gunra ransomware: what you need to know",
-      "link": "https://www.fortra.com/blog/gunra-ransomware-what-you-need-know",
-      "source": "Graham Cluley",
-      "publishedAt": "2026-08-24T12:52:37.000Z",
-      "summary": "The ransomware gang Gunra has been creating havoc - exploiting unpatched VPNs and firewalls to steal data, encrypt systems, and extort victims across healthcare, finance, manufacturing, and more.\r\n\r\nRead more in my artic",
-      "categories": [
-        "Ransomware"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "high",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The Gunra ransomware gang is actively exploiting unpatched VPNs and firewalls to compromise organizations across multiple sectors. The group exfiltrates data, encrypts systems, and demands extortions from victims in industries such as healthcare, finance, and manufacturing.",
-        "whyItMatters": "Unpatched edge devices provide threat actors with a direct entry point for network-wide ransomware attacks and data theft.",
-        "affected": [],
-        "action": "Patch and update all VPNs and firewalls immediately.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Connecting the Dots: Securing the Overlooked Corners of the Software Development Lifecycle (SDLC) Supply Chain",
-      "link": "https://unit42.paloaltonetworks.com/sdlc-supply-chain/",
-      "source": "Unit 42",
-      "publishedAt": "2026-08-21T23:00:21.000Z",
-      "summary": "Attackers are targeting CI/CD pipelines and developer tools instead of application code, requiring total SDLC visibility and strict security controls\nThe post Connecting the Dots: Securing the Overlooked Corners of the S",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Cybersecurity threats are increasingly shifting away from application code to target CI/CD pipelines and developer tools. Securing these overlooked areas requires comprehensive visibility across the entire software development lifecycle and implementation of strict security controls.",
-        "whyItMatters": "Compromised CI/CD pipelines and developer tools allow attackers to bypass traditional application defenses and inject malicious code directly into production software.",
-        "affected": [],
-        "action": "Implement strict security controls and visibility across your CI/CD pipelines.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Cisco Crosswork Security Hardening Release: August 2026",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-crosswork-UzDTU9Vh?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Crosswork%20Security%20Hardening%20Release:%20August%202026%26vs_k=1",
-      "source": "Cisco PSIRT",
-      "publishedAt": "2026-08-21T16:54:40.000Z",
-      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Crosswork engineering team has conducted a comprehensive internal security review. This review resulted in a software hardening r",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Cisco"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Cisco has released a software hardening update for Cisco Crosswork following a comprehensive internal security review. The release aims to improve proactive security and product quality.",
-        "whyItMatters": "Proactive security updates help protect critical enterprise network management infrastructure from potential vulnerabilities.",
-        "affected": [
-          "Cisco Crosswork"
-        ],
-        "action": "Apply the latest Cisco Crosswork hardening release.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "VU#756733: Calix GS7 XGS GS5239XG residential router contains missing authentication vulnerability",
-      "link": "https://kb.cert.org/vuls/id/756733",
-      "source": "CERT/CC",
-      "publishedAt": "2026-08-21T14:44:16.922Z",
-      "summary": "Overview\nThe Calix GS7 XGS GS5239XG router running firmware EXOS/6.6.47 contains a missing authentication vulnerability that exposes its UPnP (Universal Plug and Play) WANIPConnection service on the public WAN interface.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A missing authentication vulnerability in the Calix GS7 XGS GS5239XG residential router exposes the UPnP WANIPConnection service on the public WAN interface. This flaw affects devices running firmware version EXOS/6.6.47.",
-        "whyItMatters": "Exposing UPnP services to the public WAN allows unauthorized remote attackers to map ports and potentially compromise the router and connected home network.",
-        "affected": [
-          "Calix GS7 XGS GS5239XG router EXOS/6.6.47"
-        ],
-        "action": "Update the router firmware or disable UPnP on the WAN interface immediately.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "No Crash Required: Verifying the Citrix NetScaler SAML Patch for CVE-2026-8452",
-      "link": "https://bishopfox.com/blog/no-crash-required-verifying-the-citrix-netscaler-saml-patch-for-cve-2026-8452",
-      "source": "Bishop Fox",
-      "publishedAt": "2026-08-21T13:00:00.000Z",
-      "summary": "CVE-2026-8452 lets an unauthenticated attacker corrupt memory in Citrix NetScaler's SAML parser with a single request, potentially leading to remote code execution. Bishop Fox breaks down the patch, how to safely verify ",
-      "categories": [
-        "Vulnerability"
-      ],
-      "tags": [
-        "Citrix"
-      ],
-      "cves": [
-        "CVE-2026-8452"
-      ],
-      "kev": true,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CVE-2026-8452 is a critical vulnerability in Citrix NetScaler that allows unauthenticated attackers to corrupt memory in the SAML parser using a single request. Security researchers from Bishop Fox have released an analysis detailing the patch and methods for safely verifying mitigation.",
-        "whyItMatters": "This flaw poses a severe risk because it could lead to remote code execution by unauthenticated attackers.",
-        "affected": [
-          "Citrix NetScaler"
-        ],
-        "action": "Apply the official patch and verify mitigation immediately.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-8452"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "The invisible passenger in your car",
-      "link": "https://securelist.com/android-head-unit-malware/121106/",
-      "source": "Kaspersky Securelist",
-      "publishedAt": "2026-08-21T08:00:29.000Z",
-      "summary": "Kaspersky expert has discovered new Android malware designed to serve ads and build a proxy botnet. It's delivered through legitimate software for DoFun head units.",
-      "categories": [
-        "Malware"
-      ],
-      "tags": [
-        "Android"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A Kaspersky expert discovered new Android malware delivered through legitimate software for DoFun car head units. This malicious software is designed to serve unwanted advertisements and construct a proxy botnet.",
-        "whyItMatters": "It compromises connected vehicle hardware, turning infected car head units into unwitting participants in a proxy botnet.",
-        "affected": [
-          "DoFun Android head units"
-        ],
-        "action": "Avoid downloading or updating DoFun head unit software from untrusted sources.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-13762 and CVE-2026-13763 - Issue with HTTP/2 multi-frame request body inspection in AWS WAF",
-      "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-048-aws/",
-      "source": "AWS Security Bulletins",
-      "publishedAt": "2026-08-20T21:35:57.000Z",
-      "summary": "Bulletin ID: 2026-048-AWS\n Scope: AWS\n Content Type: Important (requires attention)\n Publication Date: 06/29/2026 11:15 PM PDT\n \nDescription:\n \nAWS WAF is a web application firewall that monitors the HTTP(S) requests tha",
-      "categories": [
-        "Vulnerability",
-        "Cloud"
-      ],
-      "tags": [
-        "AWS"
-      ],
-      "cves": [
-        "CVE-2026-13762",
-        "CVE-2026-13763"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "AWS has issued a security bulletin regarding an issue with HTTP/2 multi-frame request body inspection in AWS WAF. This vulnerability affects web traffic monitoring and protection mechanisms provided by the service.",
-        "whyItMatters": "Flaws in web application firewalls can allow malicious HTTP/2 requests to bypass security inspection and reach backend applications.",
-        "affected": [
-          "AWS WAF"
-        ],
-        "action": "Review the AWS security bulletin and apply recommended mitigation steps.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-13762",
-          "CVE-2026-13763"
-        ],
         "source": "ai"
       }
     }
