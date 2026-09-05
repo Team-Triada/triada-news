@@ -1,6 +1,95 @@
 {
-  "updatedAt": "2026-09-05T12:41:28.068Z",
+  "updatedAt": "2026-09-05T16:03:11.229Z",
   "items": [
+    {
+      "title": "Over 5,400 hacked sites serve ClickFix payloads stored on the blockchain",
+      "link": "https://www.bleepingcomputer.com/news/security/over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-09-05T14:29:13.000Z",
+      "summary": "A massive cybercriminal operation is leveraging thousands of compromised small-business websites to deliver ClickFix payloads stored in smart contracts on the BNB Smart Chain (BSC). [...]",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A large-scale cybercriminal campaign has compromised over 5,400 small-business websites to distribute malicious ClickFix payloads. These payloads are uniquely stored within smart contracts on the BNB Smart Chain to evade traditional detection.",
+        "whyItMatters": "This decentralized hosting method makes the malicious payloads harder for security tools to takedown and block.",
+        "affected": [],
+        "action": "Monitor website integrity and block access to unauthorized smart contracts associated with the campaign.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Trezor Says ShipMonk Breach Exposed 67,000 U.S. Customers' Data It Said Was Deleted",
+      "link": "https://thehackernews.com/2026/09/trezor-says-shipmonk-breach-exposed.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-05T14:17:02.000Z",
+      "summary": "Hardware wallet manufacturer Trezor on Friday disclosed that another 67,000 customers from the U.S. have been impacted in a breach at its shipping provider ShipMonk.\n\nThe exposed information includes customer names, emai",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Hardware wallet manufacturer Trezor disclosed that a breach at its shipping provider, ShipMonk, has exposed the personal data of 67,000 U.S. customers. The compromised information includes customer names and email addresses.",
+        "whyItMatters": "This incident highlights the security risks associated with third-party vendors and the potential exposure of sensitive customer data despite supposed deletion policies.",
+        "affected": [
+          "ShipMonk",
+          "Trezor U.S. customer database"
+        ],
+        "action": "Monitor for targeted phishing attempts and verify account security.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Elementor Pro WordPress Plugin Vulnerability Exploited to Hack Sites",
+      "link": "https://www.securityweek.com/elementor-pro-wordpress-plugin-vulnerability-exploited-to-hack-sites/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-09-05T13:00:28.000Z",
+      "summary": "Tracked as CVE-2026-32475 (CVSS score of 9.8), the bug described as an arbitrary file upload issue in the function that handles form submissions.\nThe post Elementor Pro WordPress Plugin Vulnerability Exploited to Hack Si",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [
+        "WordPress"
+      ],
+      "cves": [
+        "CVE-2026-32475"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Tracked as CVE-2026-32475 (CVSS score of 9.8), the bug described as an arbitrary file upload issue in the function that handles form submissions.\nThe post Elementor Pro WordPress Plugin Vulnerability Exploited to Hack Si",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "WordPress"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [
+          "CVE-2026-32475"
+        ],
+        "source": "heuristic"
+      }
+    },
     {
       "title": "OpenAI admits it didn't disclose rogue AI wiki hijacking incident",
       "link": "https://www.bleepingcomputer.com/news/security/openai-admits-it-didnt-disclose-rogue-ai-wiki-hijacking-incident/",
@@ -1197,37 +1286,6 @@
       }
     },
     {
-      "title": "Google warns of new Chrome zero-day flaw exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-09-04T11:48:17.000Z",
-      "summary": "Google has updated the Chrome browser to address an actively exploited high-severity zero-day flaw in the V8 engine and 11 other vulnerabilities. [...]",
-      "categories": [
-        "Zero Day",
-        "Vulnerability"
-      ],
-      "tags": [
-        "Chrome"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Google has updated the Chrome browser to address an actively exploited high-severity zero-day flaw in the V8 engine and 11 other vulnerabilities. [...]",
-        "whyItMatters": "Actively exploited or high-impact; treat as urgent.",
-        "affected": [
-          "Chrome"
-        ],
-        "action": "Patch immediately.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "VMware Workstation and Fusion Updates Patch Critical Vulnerability",
       "link": "https://www.securityweek.com/vmware-workstation-and-fusion-updates-patch-critical-vulnerability/",
       "source": "SecurityWeek",
@@ -1250,38 +1308,6 @@
         "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
         "affected": [
           "VMware"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Google Patches 6th Chrome Zero-Day of 2026",
-      "link": "https://www.securityweek.com/google-patches-6th-chrome-zero-day-of-2026/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-09-04T11:31:52.000Z",
-      "summary": "Google’s Chrome 152 security update resolves 12 vulnerabilities, including a high-severity type confusion flaw in the V8 engine.\nThe post Google Patches 6th Chrome Zero-Day of 2026 appeared first on SecurityWeek.",
-      "categories": [
-        "Zero Day",
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Chrome"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Google’s Chrome 152 security update resolves 12 vulnerabilities, including a high-severity type confusion flaw in the V8 engine.\nThe post Google Patches 6th Chrome Zero-Day of 2026 appeared first on SecurityWeek.",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Chrome"
         ],
         "action": "Review advisory for affected versions and patch on your normal cycle.",
         "risk": "Medium",
@@ -1573,41 +1599,6 @@
         "action": "Update Plex Media Server and Plex Desktop to the latest versions immediately.",
         "risk": "High",
         "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Google Releases Chrome Update to Patch Actively Exploited V8 Zero-Day",
-      "link": "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-04T07:18:47.000Z",
-      "summary": "Google on Thursday released security updates to patch 12 vulnerabilities, including one that has come under active exploitation in the wild.\n\nThe high-severity vulnerability, tracked as CVE-2026-85046 (CVSS score: 8.8), ",
-      "categories": [
-        "Zero Day",
-        "Vulnerability"
-      ],
-      "tags": [
-        "Chrome"
-      ],
-      "cves": [
-        "CVE-2026-85046"
-      ],
-      "kev": true,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Google has released an urgent security update for the Chrome browser to address a total of 12 vulnerabilities. Among these is a high-severity V8 zero-day flaw that is currently being actively exploited in the wild.",
-        "whyItMatters": "Active exploitation of zero-day vulnerabilities in widely used browsers like Chrome poses an immediate risk of remote code execution or system compromise for end users.",
-        "affected": [
-          "Google Chrome"
-        ],
-        "action": "Update Google Chrome immediately to the latest patched version.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-85046"
-        ],
         "source": "ai"
       }
     },
