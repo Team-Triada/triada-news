@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T21:26:54.324Z",
+  "updatedAt": "2026-09-05T00:01:49.750Z",
   "items": [
     {
       "title": "European parliament members call for slowdown of Serbia’s EU entry over spyware use",
@@ -631,6 +631,41 @@
       }
     },
     {
+      "title": "CVE-2026-50376 Windows Remote Desktop Client Information Disclosure Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50376",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-09-04T14:00:00.000Z",
+      "summary": "Acknowledgment updated",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [
+        "CVE-2026-50376"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "A vulnerability tracked as CVE-2026-50376 has been identified as an information disclosure issue in the Windows Remote Desktop Client. Microsoft has recently updated the acknowledgments for this security flaw.",
+        "whyItMatters": "This vulnerability could potentially allow attackers to access sensitive information through the Remote Desktop Client.",
+        "affected": [
+          "Windows Remote Desktop Client"
+        ],
+        "action": "Check for updates and apply patches provided by Microsoft.",
+        "risk": "Medium",
+        "relatedCves": [
+          "CVE-2026-50376"
+        ],
+        "source": "ai"
+      }
+    },
+    {
       "title": "Russian data centers face new security requirements amid Ukraine's drone threats",
       "link": "https://therecord.media/russia-data-centers-ukraine-drone-threats",
       "source": "The Record",
@@ -863,6 +898,32 @@
         "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
+      }
+    },
+    {
+      "title": "Insurers Search for Answers to Rein in Rogue AI",
+      "link": "https://www.darkreading.com/cyber-risk/insurers-search-answers-rogue-ai",
+      "source": "Dark Reading",
+      "publishedAt": "2026-09-04T12:15:03.000Z",
+      "summary": "As incidents of unintended harm caused by rogue AI agents mount, CISOs and insurance firms are figuring out how to handle the fallout.",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Insurance firms and CISOs are currently struggling to figure out how to handle the fallout from incidents involving unintended harm caused by rogue AI agents. As these harmful incidents continue to mount, the insurance industry is actively searching for effective answers and risk management strategies.",
+        "whyItMatters": "This trend is important because the lack of established insurance frameworks and risk controls for rogue AI agents leaves organizations financially vulnerable to unpredictable artificial intelligence failures.",
+        "affected": [],
+        "action": "Assess your organization's exposure to rogue AI agent risks and review current insurance coverage.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
       }
     },
     {
@@ -1711,42 +1772,6 @@
         "action": "Update Thunderbird to the latest version provided by your distributor.",
         "risk": "High",
         "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Chromium: CVE-2026-84326 Uninitialized resource in V8",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-84326",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-09-03T23:58:26.000Z",
-      "summary": "This CVE was assigned by Chrome.  Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Chrome"
-      ],
-      "cves": [
-        "CVE-2026-84326"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Google has assigned CVE-2026-84326 to an uninitialized resource vulnerability in the V8 engine within Chromium. Downstream Chromium-based browsers like Microsoft Edge are impacted and must incorporate the latest fixes.",
-        "whyItMatters": "Uninitialized resource vulnerabilities in the core V8 JavaScript engine can potentially lead to memory corruption or arbitrary code execution if exploited.",
-        "affected": [
-          "Chromium",
-          "Microsoft Edge"
-        ],
-        "action": "Update Chromium and Microsoft Edge to the latest versions.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-84326"
-        ],
         "source": "ai"
       }
     },
@@ -3241,34 +3266,6 @@
         "whyItMatters": "This highlights how attackers are leveraging AI voice technology to make social engineering attacks more convincing and harder to detect.",
         "affected": [],
         "action": "Remain vigilant against unsolicited recovery calls and texts regarding lost devices.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "AI’s Vulnerability Surge May Be More Manageable Than First Feared",
-      "link": "https://www.darkreading.com/application-security/ai-vulnerability-surge-manageable-than-first-feared",
-      "source": "Dark Reading",
-      "publishedAt": "2026-09-02T21:14:06.000Z",
-      "summary": "New research suggests the coming Vulnpocalypse may not be so overwhelming for enterprise security teams — if they have the right strategies.",
-      "categories": [
-        "Vulnerability",
-        "AI Security",
-        "Research"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Recent research indicates that the anticipated surge in AI-related vulnerabilities may be more manageable for enterprise security teams than previously feared. With the implementation of proper security strategies, organizations can effectively handle these emerging risks.",
-        "whyItMatters": "It reassures enterprise security teams that future AI vulnerability influxes can be mitigated with the right strategic planning.",
-        "affected": [],
-        "action": "Implement proactive security strategies to prepare for potential AI-related vulnerabilities.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
