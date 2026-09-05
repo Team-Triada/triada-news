@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-09-05T20:21:24.881Z",
+  "updatedAt": "2026-09-05T22:53:01.106Z",
   "items": [
+    {
+      "title": "Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores",
+      "link": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-05T20:14:47.000Z",
+      "summary": "Attackers are exploiting a new unpatched vulnerability in Magento Open Source and Adobe Commerce that lets them run malicious code on an online store's server without logging in, Dutch e-commerce security company Sansec ",
+      "categories": [
+        "Zero Day",
+        "Malware",
+        "Vulnerability",
+        "Open Source"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Attackers are actively exploiting an unpatched zero-day vulnerability in Magento Open Source and Adobe Commerce. The flaw allows unauthorized remote attackers to execute malicious code and backdoor online store servers.",
+        "whyItMatters": "This vulnerability poses an immediate threat to e-commerce stores because it can be exploited without authentication and lacks an official vendor patch.",
+        "affected": [
+          "Magento Open Source",
+          "Adobe Commerce"
+        ],
+        "action": "Monitor server logs for unauthorized access and implement web application firewall rules to block exploit attempts.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials",
       "link": "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html",
@@ -773,36 +805,6 @@
         ],
         "action": "Apply the latest PostgreSQL security updates immediately.",
         "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "New Ted Backdoor Hides Inside Victims' Own HAProxy Builds to Intercept Web Traffic",
-      "link": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-04T14:51:13.000Z",
-      "summary": "A previously undocumented Linux toolkit has been found compiled directly into the trojanized HAProxy load balancers of two South Korean organizations, where it intercepted web traffic and served altered pages to selected",
-      "categories": [
-        "Malware"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A previously undocumented Linux toolkit named Ted Backdoor was discovered embedded within trojanized HAProxy load balancers at two South Korean organizations. This backdoor intercepts web traffic and serves altered pages to selected targets.",
-        "whyItMatters": "It demonstrates a sophisticated supply chain attack technique where attackers compromise core infrastructure components like load balancers to silently manipulate web traffic.",
-        "affected": [
-          "HAProxy (trojanized builds)"
-        ],
-        "action": "Audit load balancer binaries for unauthorized modifications.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
