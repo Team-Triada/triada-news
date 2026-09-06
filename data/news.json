@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T22:53:01.106Z",
+  "updatedAt": "2026-09-06T00:54:20.940Z",
   "items": [
     {
       "title": "Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores",
@@ -290,6 +290,34 @@
         "affected": [],
         "action": "Review the Numbat tool if interested in AI agent observability.",
         "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6484-1 chromium - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00395.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-09-05T00:00:00.000Z",
+      "summary": "Security issues were discovered in Chromium which could result\nin the execution of arbitrary code, denial of service, or information\ndisclosure.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6484-1",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple security vulnerabilities have been discovered in the Chromium browser. These issues could potentially allow attackers to execute arbitrary code, cause a denial of service, or disclose sensitive information.",
+        "whyItMatters": "Unpatched browser vulnerabilities can be exploited by attackers to compromise user systems or leak sensitive data via malicious web content.",
+        "affected": [
+          "Chromium"
+        ],
+        "action": "Update Chromium to the latest version provided by your distributor.",
+        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -5361,34 +5389,6 @@
         "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
-      }
-    },
-    {
-      "title": "DSA-6476-1 chromium - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00387.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-08-27T00:00:00.000Z",
-      "summary": "Security issues were discovered in Chromium which could result\nin the execution of arbitrary code, denial of service, or information\ndisclosure.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6476-1",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A security update has been released for Chromium to address multiple vulnerabilities. These issues could potentially lead to arbitrary code execution, denial of service, or information disclosure.",
-        "whyItMatters": "Unpatched browser vulnerabilities can be exploited by attackers to compromise user systems or leak sensitive data.",
-        "affected": [
-          "Chromium"
-        ],
-        "action": "Update Chromium to the latest version.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
       }
     },
     {
