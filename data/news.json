@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T10:51:57.283Z",
+  "updatedAt": "2026-09-06T14:08:57.786Z",
   "items": [
     {
       "title": "Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication",
@@ -82,6 +82,35 @@
           "Claude"
         ],
         "action": "Scan devices for infostealer malware and reset compromised login sessions.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6485-1 tryton-server - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00396.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-09-06T00:00:00.000Z",
+      "summary": "Two security vulnerabilities were discovered in the server of the Tryton\napplication platform, which could lead to arbitrary command execution\nvia malformed email/report templates.\n\n\nhttps://security-tracker.debian.org/t",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Two security vulnerabilities have been discovered in the Tryton application platform server. These flaws could potentially lead to arbitrary command execution through malformed email or report templates.",
+        "whyItMatters": "Arbitrary command execution allows attackers to run unauthorized commands on the underlying system, posing a severe threat to server integrity.",
+        "affected": [
+          "tryton-server"
+        ],
+        "action": "Update the tryton-server package to the latest secure version.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -4824,38 +4853,6 @@
           "starlette"
         ],
         "action": "Update the starlette package to the latest patched version provided by your distributor.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6477-1 linux - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00388.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-08-29T00:00:00.000Z",
-      "summary": "Several vulnerabilities have been discovered in the Linux kernel that\nmay lead to a privilege escalation, denial of service or information\nleaks.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6477-1",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory",
-        "Open Source"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several vulnerabilities have been discovered in the Linux kernel. These security flaws may lead to privilege escalation, denial of service, or information leaks.",
-        "whyItMatters": "Unpatched Linux kernel vulnerabilities can allow attackers to compromise system integrity, availability, and confidentiality.",
-        "affected": [
-          "Linux kernel"
-        ],
-        "action": "Apply the latest security updates provided by your Linux distribution.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
