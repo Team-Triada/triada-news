@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T19:08:28.479Z",
+  "updatedAt": "2026-09-06T21:18:34.043Z",
   "items": [
     {
       "title": "Attackers conceal phishing lures using invisible Unicode characters",
@@ -108,6 +108,34 @@
           "Claude"
         ],
         "action": "Scan devices for infostealer malware and reset compromised login sessions.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6486-1 libde265 - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00397.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-09-06T00:00:00.000Z",
+      "summary": "Two security issues were discovered in libde265, an implementation of\nthe H.265 video codec which may result in denial of service or\npotentially the execution of arbitrary code if a malformed media file\nis processed.\n\n\nh",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Two security issues have been discovered in libde265, an H.265 video codec implementation. Processing a malformed media file may result in a denial of service or the potential execution of arbitrary code.",
+        "whyItMatters": "Unvalidated media processing can allow attackers to crash applications or execute malicious code via crafted video files.",
+        "affected": [
+          "libde265"
+        ],
+        "action": "Update libde265 to the latest patched version.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -4820,35 +4848,6 @@
           "roundcube"
         ],
         "action": "Update Roundcube to the latest security release provided by your vendor.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6478-1 starlette - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00389.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-08-30T00:00:00.000Z",
-      "summary": "Several vulnerabilities were discovered in starlette, a lightweight ASGI\nframework/toolkit, which could result in bypass of authorization checks\nor denial of service.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-647",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several vulnerabilities have been discovered in the starlette ASGI framework and toolkit. These security issues could potentially lead to the bypass of authorization checks or result in a denial of service.",
-        "whyItMatters": "Exploiting these vulnerabilities could allow attackers to bypass critical authorization controls or disrupt service availability for applications using the framework.",
-        "affected": [
-          "starlette"
-        ],
-        "action": "Update the starlette package to the latest patched version provided by your distributor.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
