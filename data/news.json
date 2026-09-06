@@ -1,6 +1,92 @@
 {
-  "updatedAt": "2026-09-06T05:54:59.840Z",
+  "updatedAt": "2026-09-06T10:51:57.283Z",
   "items": [
+    {
+      "title": "Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication",
+      "link": "https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-06T09:32:38.000Z",
+      "summary": "Attackers are exploiting MikroTik routers with their Secure Shell (SSH) remote-access service, which is reachable from the internet, to gain full administrative control without authentication, according to CERT Polska's ",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Attackers are actively exploiting internet-exposed SSH services on MikroTik routers to gain unauthorized administrative control. CERT Polska reports that these attacks allow complete device takeover without requiring authentication.",
+        "whyItMatters": "This vulnerability grants attackers full administrative access to critical network infrastructure, enabling widespread network compromise.",
+        "affected": [
+          "MikroTik Routers"
+        ],
+        "action": "Disable internet-exposed SSH access on all MikroTik routers immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner",
+      "link": "https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-06T08:34:20.000Z",
+      "summary": "Elastic Security Labs has documented four previously unreported programs associated with REVSTEALER, an emerging Windows information stealer, that remain on an infected machine after the stealer deletes itself.\n\nOne of t",
+      "categories": [
+        "News"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Elastic Security Labs has discovered four new malware modules linked to the REVSTEALER information stealer that persist on compromised Windows systems. These modules are designed to disable Windows Update and Windows Defender in order to run a cryptocurrency miner.",
+        "whyItMatters": "This activity allows malicious actors to maintain persistent control over infected hosts and evade standard security defenses while generating illicit cryptocurrency.",
+        "affected": [
+          "Windows"
+        ],
+        "action": "Ensure endpoint protection is updated and monitor for unauthorized disabling of security controls.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Week in review: Claude accounts compromised through infostealer, Patch Tuesday forecast",
+      "link": "https://www.helpnetsecurity.com/2026/09/06/week-in-review-claude-accounts-compromised-through-infostealer-patch-tuesday-forecast/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-09-06T08:00:56.000Z",
+      "summary": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: Anthropic locks out Claude users after infostealers hijack login sessions Anthropic has started locking users out of their",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Anthropic has begun locking out Claude users after infostealer malware successfully hijacked active login sessions. This incident highlights the growing threat of infostealers targeting enterprise and consumer AI accounts.",
+        "whyItMatters": "Compromised AI accounts can expose sensitive proprietary data and user conversations to unauthorized parties.",
+        "affected": [
+          "Claude"
+        ],
+        "action": "Scan devices for infostealer malware and reset compromised login sessions.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores",
       "link": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html",
@@ -724,32 +810,6 @@
       }
     },
     {
-      "title": "Phishing Campaign Sends Millions of Emails Using Invisible Unicode to Evade Filters",
-      "link": "https://thehackernews.com/2026/09/phishing-campaign-sends-millions-of.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-04T15:57:15.000Z",
-      "summary": "Microsoft is alerting of a \"high-volume phishing campaign\" that's using invisible Unicode tag characters to bypass email filters.\n\n\"Instead of using these characters to hide instructions from people while exposing them t",
-      "categories": [
-        "Threat Intel"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has warned about a high-volume phishing campaign that uses invisible Unicode tag characters to bypass standard email filters. This technique allows malicious actors to successfully deliver millions of phishing emails directly to user inboxes.",
-        "whyItMatters": "This evasion technique significantly increases the risk of successful phishing attacks by rendering traditional security filters ineffective against hidden malicious content.",
-        "affected": [],
-        "action": "Update email security filters to detect and strip invisible Unicode characters.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "US, Britain to coordinate on scam center takedowns",
       "link": "https://therecord.media/scam-compounds-coordination-us-uk-memorandum",
       "source": "The Record",
@@ -806,34 +866,6 @@
         "relatedCves": [
           "CVE-2026-19490"
         ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "PostgreSQL Fixes 12-Year-Old Logical Decoding Flaw Enabling Replication-Role Code Execution",
-      "link": "https://thehackernews.com/2026/09/postgresql-fixes-12-year-old-logical.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-04T15:20:19.000Z",
-      "summary": "PostgreSQL has released updates to address a security flaw that allows an account with the REPLICATION attribute to run arbitrary code as the operating-system user running the database server.\n\nThe flaw, tracked as CVE-2",
-      "categories": [
-        "Vulnerability"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "PostgreSQL has released security updates to address a 12-year-old logical decoding vulnerability. The flaw allows accounts with the REPLICATION attribute to execute arbitrary code as the operating-system user running the database server.",
-        "whyItMatters": "It enables privileged attackers with replication access to achieve remote code execution on the underlying database server.",
-        "affected": [
-          "PostgreSQL"
-        ],
-        "action": "Apply the latest PostgreSQL security updates immediately.",
-        "risk": "Critical",
-        "relatedCves": [],
         "source": "ai"
       }
     },
@@ -1731,33 +1763,6 @@
         "whyItMatters": "This funding significantly lowers the barrier to entry for resource-constrained critical infrastructure sectors to adopt advanced AI-driven cybersecurity defenses.",
         "affected": [],
         "action": "Check if your organization qualifies for the Daybreak subsidy and apply for access.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Most of the bugs Claude Mythos found have never been checked by a human",
-      "link": "https://www.helpnetsecurity.com/2026/09/04/echo-claude-mythos-vulnerability-findings/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-09-04T04:30:25.000Z",
-      "summary": "Anthropic pointed Claude Mythos Preview at 281 open-source projects and collected 23,019 candidate vulnerabilities. External security firms reviewed 1,900 of them. Maintainers received 1,596 reports and acknowledged 1,45",
-      "categories": [
-        "Vulnerability",
-        "Open Source"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Anthropic used its Claude Mythos Preview AI to scan 281 open-source projects, generating over 23,000 candidate vulnerabilities. External firms and maintainers reviewed a fraction of these findings, acknowledging over 1,400 bugs that had never been checked by humans.",
-        "whyItMatters": "This demonstrates the massive scale at which AI can autonomously discover software vulnerabilities, posing both unprecedented opportunities for proactive defense and overwhelming volume challenges for maintainers.",
-        "affected": [],
-        "action": "Prepare maintainer triage workflows for potential AI-generated vulnerability reports.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
