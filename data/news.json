@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T18:35:10.599Z",
+  "updatedAt": "2026-09-09T21:42:18.609Z",
   "items": [
     {
       "title": "Chromium: CVE-2026-85046 Type confusion in V8",
@@ -34,6 +34,524 @@
         "relatedCves": [
           "CVE-2026-85046"
         ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "AdaptHealth confirms 4.1 million people exposed in July cyberattack",
+      "link": "https://www.bleepingcomputer.com/news/security/adapthealth-confirms-41-million-people-exposed-in-july-cyberattack/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-09-09T21:30:36.000Z",
+      "summary": "Healthcare company AdaptHealth has confirmed that data of 4.1 million people was exposed in a cyberattack discovered in July that was attributed to the ShinyHunters threat group. [...]",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Healthcare company AdaptHealth confirmed that a July cyberattack attributed to the ShinyHunters threat group exposed the personal data of 4.1 million individuals. The incident highlights ongoing vulnerabilities within healthcare sector organizations targeted by prominent cybercrime groups.",
+        "whyItMatters": "The exposure of sensitive health and personal data for millions of individuals creates severe risks for identity theft and targeted fraud.",
+        "affected": [],
+        "action": "Monitor accounts for suspicious activity and review credit reports.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-19311- Missing Authorization in OpenSearch Alerting Plugin",
+      "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-078-aws/",
+      "source": "AWS Security Bulletins",
+      "publishedAt": "2026-09-09T21:30:11.000Z",
+      "summary": "Bulletin ID: 2026-078-AWS\n Scope: AWS\n Content Type: Important (requires attention)\n Publication Date: 08/12/2026 11:30 AM PDT\n \nDescription:\n \nOpenSearch is a community-driven, open-source search and analytics suite. We",
+      "categories": [
+        "Vulnerability",
+        "Cloud",
+        "Open Source"
+      ],
+      "tags": [
+        "AWS"
+      ],
+      "cves": [
+        "CVE-2026-19311"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "AWS has issued a security bulletin regarding CVE-2026-19311, a missing authorization vulnerability in the OpenSearch Alerting plugin. This flaw affects the open-source search and analytics suite, though full details remain limited in the advisory.",
+        "whyItMatters": "Missing authorization vulnerabilities can allow unauthorized users to perform privileged actions within the alerting plugin.",
+        "affected": [
+          "OpenSearch Alerting Plugin"
+        ],
+        "action": "Review the AWS security bulletin and apply available updates for the OpenSearch Alerting plugin.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-19311"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-18830 - Issue with Amazon Bedrock AgentCore harness – Insufficient Input Validation",
+      "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-073-aws/",
+      "source": "AWS Security Bulletins",
+      "publishedAt": "2026-09-09T21:30:11.000Z",
+      "summary": "Bulletin ID: 2026-073-AWS\n Scope: AWS\n Content Type: Important (requires attention)\n Publication Date: 08/04/2026 10:00 AM PDT\n \nDescription:\n \nWe have identified CVE-2026-18830 in the Amazon Bedrock AgentCore harness In",
+      "categories": [
+        "Vulnerability",
+        "Cloud"
+      ],
+      "tags": [
+        "AWS"
+      ],
+      "cves": [
+        "CVE-2026-18830"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Amazon has published a security bulletin regarding CVE-2026-18830, which involves an insufficient input validation issue within the Amazon Bedrock AgentCore harness. The vulnerability requires user attention to mitigate potential risks associated with improperly validated inputs.",
+        "whyItMatters": "Unvalidated input vulnerabilities in AI agent infrastructure like Amazon Bedrock can potentially lead to injection attacks or unintended behavior.",
+        "affected": [
+          "Amazon Bedrock AgentCore harness"
+        ],
+        "action": "Review the AWS security bulletin and apply available updates or mitigations.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-18830"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-85012 - OS command injection in the Amazon CodeCatalyst blueprints SDK",
+      "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-095-aws/",
+      "source": "AWS Security Bulletins",
+      "publishedAt": "2026-09-09T21:30:11.000Z",
+      "summary": "Bulletin ID: 2026-095-AWS\n Scope: AWS\n Content Type: Important (requires attention)\n Publication Date: 09/03/2026 10:00 AM PDT\n \nDescription:\n \nAmazon CodeCatalyst blueprints are reusable project templates that generate ",
+      "categories": [
+        "Vulnerability",
+        "Cloud"
+      ],
+      "tags": [
+        "AWS"
+      ],
+      "cves": [
+        "CVE-2026-85012"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "AWS has issued a security bulletin regarding CVE-2026-85012, which involves an OS command injection vulnerability in the Amazon CodeCatalyst blueprints SDK. The flaw affects reusable project templates used to generate application structures within the service.",
+        "whyItMatters": "This vulnerability could allow attackers to execute arbitrary OS commands through vulnerable blueprints, potentially compromising developer environments and project integrity.",
+        "affected": [
+          "Amazon CodeCatalyst blueprints SDK"
+        ],
+        "action": "Review the AWS security bulletin and update the affected SDK components.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-85012"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Issue with FreeRTOS-Kernel - CVE-2026-77234, CVE-2026-77235, CVE-2026-77236, CVE-2026-77237",
+      "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-086-aws/",
+      "source": "AWS Security Bulletins",
+      "publishedAt": "2026-09-09T21:30:11.000Z",
+      "summary": "Bulletin ID: 2026-086-AWS\n Scope: AWS\n Content Type: Important (requires attention)\n Publication Date: 08/21/2026 10:30 AM PDT\n \nDescription:\n \nFreeRTOS-Kernel is a real-time operating system kernel for microcontrollers ",
+      "categories": [
+        "Vulnerability",
+        "Cloud"
+      ],
+      "tags": [
+        "AWS"
+      ],
+      "cves": [
+        "CVE-2026-77234",
+        "CVE-2026-77235",
+        "CVE-2026-77236",
+        "CVE-2026-77237"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "AWS published a security bulletin addressing multiple vulnerabilities in the FreeRTOS-Kernel real-time operating system. The affected versions and specific technical details remain unspecified in the initial advisory.",
+        "whyItMatters": "Unresolved vulnerabilities in the FreeRTOS-Kernel could potentially expose microcontroller-based devices to security compromises.",
+        "affected": [
+          "FreeRTOS-Kernel"
+        ],
+        "action": "Review the official AWS bulletin for patching guidance.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-77234",
+          "CVE-2026-77235",
+          "CVE-2026-77236",
+          "CVE-2026-77237"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-18428 - OpenSearch SQL Plugin - Async Query Validation Bypass",
+      "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-081-aws/",
+      "source": "AWS Security Bulletins",
+      "publishedAt": "2026-09-09T21:30:11.000Z",
+      "summary": "Bulletin ID: 2026-081-AWS\n Scope: AWS\n Content Type: Important (requires attention)\n Publication Date: 08/13/2026 10:30 AM PDT\n \nDescription:\n \nOpenSearch SQL plugin is a plugin that enables SQL and PPL query capabilitie",
+      "categories": [
+        "Vulnerability",
+        "Cloud"
+      ],
+      "tags": [
+        "AWS"
+      ],
+      "cves": [
+        "CVE-2026-18428"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A security vulnerability designated as CVE-2026-18428 has been discovered in the OpenSearch SQL plugin. The issue involves an asynchronous query validation bypass affecting the software.",
+        "whyItMatters": "This vulnerability could allow attackers to bypass query validation checks in the OpenSearch SQL plugin, potentially leading to unauthorized data access or manipulation.",
+        "affected": [
+          "OpenSearch SQL Plugin"
+        ],
+        "action": "Review the AWS security bulletin and apply available patches or updates.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-18428"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-84851- Uncontrolled recursion in the Ion reader in Amazon Ion-C before 1.1.6",
+      "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-094-aws/",
+      "source": "AWS Security Bulletins",
+      "publishedAt": "2026-09-09T21:30:11.000Z",
+      "summary": "Bulletin ID: 2026-094-AWS\n Scope: AWS\n Content Type: Important (requires attention)\n Publication Date: 09/02/2026 13:30 AM PDT\n \nDescription:\n \nAmazon Ion-C (ion-c) is the C implementation of the Amazon Ion data serializ",
+      "categories": [
+        "Vulnerability",
+        "Cloud"
+      ],
+      "tags": [
+        "AWS"
+      ],
+      "cves": [
+        "CVE-2026-84851"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A security vulnerability involving uncontrolled recursion has been identified in the Ion reader component of Amazon Ion-C. This issue affects versions of the software prior to 1.1.6.",
+        "whyItMatters": "Uncontrolled recursion can lead to denial of service conditions by crashing the application through stack exhaustion.",
+        "affected": [
+          "Amazon Ion-C before 1.1.6"
+        ],
+        "action": "Upgrade Amazon Ion-C to version 1.1.6 or later.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-84851"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-19111 - Insecure direct object reference in Strands Agents Tools memory tools",
+      "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-077-aws/",
+      "source": "AWS Security Bulletins",
+      "publishedAt": "2026-09-09T21:30:11.000Z",
+      "summary": "Bulletin ID: 2026-077-AWS\n Scope: AWS\n Content Type: Important (requires attention)\n Publication Date: 08/06/2026 11:00 AM PDT\n \nDescription:\n \nStrands Agents is an open-source SDK for building AI agents. The strands-age",
+      "categories": [
+        "Vulnerability",
+        "Cloud",
+        "AI Security",
+        "Open Source"
+      ],
+      "tags": [
+        "AWS"
+      ],
+      "cves": [
+        "CVE-2026-19111"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A security vulnerability has been identified in the Strands Agents Tools memory tools involving an insecure direct object reference. The issue affects the open-source SDK used for building AI agents.",
+        "whyItMatters": "This vulnerability could allow unauthorized access to sensitive data handled by the AI agent's memory tools.",
+        "affected": [
+          "Strands Agents SDK"
+        ],
+        "action": "Update the Strands Agents SDK to the latest secure version.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-19111"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CISA head says agency must change quickly to prevent the 'worst that could happen'",
+      "link": "https://therecord.media/cisa-hiring-nick-andersen-warning",
+      "source": "The Record",
+      "publishedAt": "2026-09-09T21:25:00.000Z",
+      "summary": "CISA's cybersecurity, infrastructure security and emergency communications divisions are among the priorities as the agency fills vacancies created at the beginning of the Trump administration, acting director Nick Ander",
+      "categories": [
+        "Government"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Acting CISA director Nick Ander stated that the agency must quickly undergo changes to prevent severe national security failures. The agency is currently prioritizing filling key leadership vacancies created at the beginning of the Trump administration.",
+        "whyItMatters": "This reorganization is critical for maintaining national cybersecurity defenses and infrastructure resilience during a leadership transition.",
+        "affected": [],
+        "action": "Monitor CISA leadership updates and policy changes.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Mythos Vulnerability Firehose Hits a Human Bottleneck",
+      "link": "https://www.darkreading.com/application-security/mythos-vulnerability-firehose-hits-human-bottleneck",
+      "source": "Dark Reading",
+      "publishedAt": "2026-09-09T21:19:55.000Z",
+      "summary": "An analysis of Project Glasswing findings shows only a fraction have reached disclosure, and an even smaller number have been fixed.",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "An analysis of Project Glasswing findings reveals that only a fraction of discovered vulnerabilities have reached public disclosure. Furthermore, an even smaller number of these security flaws have been fixed.",
+        "whyItMatters": "This bottleneck highlights significant delays in addressing and disclosing critical security findings, leaving systems exposed for longer periods.",
+        "affected": [],
+        "action": "Monitor Project Glasswing updates for future vulnerability disclosures and patches.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Chinese espionage groups swarm to exploit triple-link chain of zero-days",
+      "link": "https://cyberscoop.com/china-espionage-groups-exploit-chain-zero-days/",
+      "source": "CyberScoop",
+      "publishedAt": "2026-09-09T21:17:32.000Z",
+      "summary": "Multiple China-aligned threat groups exploited the defects quickly to target various organizations. Proofpoint said the activity is ongoing and expects it to widen.\nThe post Chinese espionage groups swarm to exploit trip",
+      "categories": [
+        "Vulnerability",
+        "Threat Intel"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple China-aligned espionage groups are rapidly exploiting a chain of three zero-day vulnerabilities to target various organizations. Security firm Proofpoint reports that this malicious activity is currently ongoing and is expected to expand further.",
+        "whyItMatters": "Active exploitation of multiple zero-day vulnerabilities by sophisticated nation-state actors poses an immediate and severe risk to targeted organizations.",
+        "affected": [],
+        "action": "Monitor vendor advisories and apply emergency security patches immediately as they become available.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Skullcandy Dime 3 earbuds expose users to Bluetooth hijacking",
+      "link": "https://www.bleepingcomputer.com/news/security/skullcandy-dime-3-earbuds-expose-users-to-bluetooth-hijacking/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-09-09T21:02:14.000Z",
+      "summary": "The Carnegie Mellon University CERT Coordination Center (CERT/CC) is warning that Skullcandy Dime 3 wireless earbuds accept Bluetooth pairing requests from nearby unpaired devices without requiring user interaction. [...",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The CERT/CC has issued a warning regarding Skullcandy Dime 3 wireless earbuds. These devices accept Bluetooth pairing requests from nearby unpaired devices without requiring user interaction.",
+        "whyItMatters": "This vulnerability allows unauthorized nearby users to hijack the earbuds' Bluetooth connection.",
+        "affected": [
+          "Skullcandy Dime 3"
+        ],
+        "action": "Avoid using the earbuds in untrusted public environments until a fix is available.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "US disrupts Xinbi Guarantee marketplace fueling the cyber scam economy",
+      "link": "https://therecord.media/us-disrupts-xinbi-guarantee-marketplace-cybercrime",
+      "source": "The Record",
+      "publishedAt": "2026-09-09T19:54:00.000Z",
+      "summary": "The U.S. government also carried out a seizure of $52.8 million from 52 wallets connected to the platform.",
+      "categories": [
+        "Government"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The U.S. government has disrupted the Xinbi Guarantee marketplace, a platform associated with the cyber scam economy. Additionally, authorities seized $52.8 million from 52 cryptocurrency wallets linked to the illicit platform.",
+        "whyItMatters": "This disruption severely impacts the financial infrastructure supporting large-scale cyber scams and money laundering operations.",
+        "affected": [],
+        "action": "Monitor related cryptocurrency networks for retaliatory illicit financial movements.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "US Government Accuses Chinese AI Firms of Distilling Frontier Models",
+      "link": "https://www.darkreading.com/application-security/us-government-chinese-ai-firms-distilling-frontier-models",
+      "source": "Dark Reading",
+      "publishedAt": "2026-09-09T19:47:50.000Z",
+      "summary": "US agencies claim Chinese companies covertly extracted billions of tokens from OpenAI, Anthropic, Google Gemini, and SpaceX's Grok to reduce development costs.",
+      "categories": [
+        "AI Security",
+        "Government"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "US government agencies have accused Chinese AI firms of covertly extracting billions of tokens from major American AI models including OpenAI, Anthropic, Google Gemini, and Grok. This unauthorized data distillation was reportedly performed to reduce the development costs of the Chinese companies' own models.",
+        "whyItMatters": "This activity undermines intellectual property rights and strategic technological advantages of leading US artificial intelligence companies.",
+        "affected": [],
+        "action": "Monitor developments regarding AI intellectual property protection.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "FTC rescinds policy requiring health apps to notify customers after a breach",
+      "link": "https://cyberscoop.com/ftc-rescinds-health-app-data-breach-policy/",
+      "source": "CyberScoop",
+      "publishedAt": "2026-09-09T19:18:32.000Z",
+      "summary": "The policy, passed under the Biden administration, forced health apps to disclose when users’ personal health records were exposed in a breach or shared without authorization.\nThe post FTC rescinds policy requiring healt",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The Federal Trade Commission has rescinded a policy enacted under the Biden administration that required health apps to notify users of data breaches or unauthorized sharing. This rule previously forced non-HIPAA-compliant health applications to disclose when personal health records were exposed.",
+        "whyItMatters": "It removes a key regulatory protection that held health app developers accountable for user privacy and transparency following data exposures.",
+        "affected": [],
+        "action": "Monitor health app privacy policies closely regarding data sharing practices.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Lawmakers call on Treasury to sanction hackers-for-hire",
+      "link": "https://cyberscoop.com/us-lawmakers-treasury-sanctions-india-hack-for-hire/",
+      "source": "CyberScoop",
+      "publishedAt": "2026-09-09T18:43:58.000Z",
+      "summary": "The groups have allegedly targeted American citizens and companies, including the wife of GOP Senate candidate Mike Rogers, a former representative running in a Michigan swing race. \nThe post Lawmakers call on Treasury t",
+      "categories": [
+        "Government"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Lawmakers are urging the Treasury Department to impose sanctions on hire-to-hack groups targeting American citizens and businesses. The alleged victims include the wife of GOP Senate candidate and former Representative Mike Rogers during a Michigan swing race.",
+        "whyItMatters": "Sanctioning these mercenary hacking groups is crucial for deterring state-sponsored and commercial cyber espionage against US political figures and corporate entities.",
+        "affected": [],
+        "action": "Monitor the Treasury Department for any newly issued sanctions against identified mercenary hacking groups.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "U.S. Disrupts Xinbi Guarantee Scam Marketplace, Freezes $52.8 Million in Crypto",
+      "link": "https://thehackernews.com/2026/09/us-disrupts-xinbi-guarantee-scam.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-09T18:26:05.000Z",
+      "summary": "The U.S. Department of Justice (DoJ) on Wednesday announced coordinated actions aimed at an illicit online marketplace called Xinbi Guarantee that offered scam services, including seizing Telegram channels used to run th",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The U.S. Department of Justice has disrupted the illicit online marketplace Xinbi Guarantee, which offered various scam services. Authorities also seized associated Telegram channels and froze $52.8 million in cryptocurrency.",
+        "whyItMatters": "This action disrupts a major financial hub for online scams and recovers millions of dollars for victims.",
+        "affected": [],
+        "action": "Avoid interacting with illicit cryptocurrency guarantee marketplaces.",
+        "risk": "News",
+        "relatedCves": [],
         "source": "ai"
       }
     },
@@ -88,6 +606,36 @@
         ],
         "action": "Upgrade Proxmox VE to a currently supported version immediately.",
         "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8716-2: FFmpeg vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8716-2",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-09-09T17:27:15.000Z",
+      "summary": "USN-8716-1 fixed several vulnerabilities in FFmpeg. This update provides\nthe corresponding fix for Ubuntu 26.04 LTS.\n\nOriginal advisory details:\n\n It was discovered that FFmpeg incorrectly handled certain crafted media\n ",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Ubuntu has released a security update, USN-8716-2, to address multiple vulnerabilities in FFmpeg for Ubuntu 26.04 LTS. This follows the initial fixes provided in advisory USN-8716-1 for handling crafted media files.",
+        "whyItMatters": "Unpatched media processing vulnerabilities in FFmpeg can potentially lead to crashes or arbitrary code execution when processing malicious files.",
+        "affected": [
+          "Ubuntu 26.04 LTS",
+          "FFmpeg"
+        ],
+        "action": "Update FFmpeg to the latest version provided by Ubuntu.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "ai"
       }
@@ -223,6 +771,39 @@
         "affected": [],
         "action": "Implement robust rate limiting and behavioral monitoring to detect and block unauthorized automated data extraction.",
         "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week",
+      "link": "https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-09T16:34:05.000Z",
+      "summary": "Multiple espionage-motivated threat activity clusters have been found deploying a previously undocumented exploit kit called BlueMoon that chains together multiple vulnerabilities in Microsoft Windows and Google Chrome.\n",
+      "categories": [
+        "Vulnerability",
+        "Threat Intel"
+      ],
+      "tags": [
+        "Windows",
+        "Chrome"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Four espionage groups were discovered deploying a previously undocumented exploit kit called BlueMoon within a single week. The kit chains together multiple vulnerabilities affecting Microsoft Windows and Google Chrome.",
+        "whyItMatters": "It highlights a concerning convergence of advanced threat actors leveraging the same sophisticated zero-day or undisclosed exploit chain for espionage.",
+        "affected": [
+          "Microsoft Windows",
+          "Google Chrome"
+        ],
+        "action": "Update Google Chrome and Microsoft Windows to the latest patched versions immediately.",
+        "risk": "Critical",
         "relatedCves": [],
         "source": "ai"
       }
@@ -436,32 +1017,6 @@
       }
     },
     {
-      "title": "FBI puts its cyber strategy on paper",
-      "link": "https://therecord.media/fbi-releases-first-public-cybersecurity-strategy",
-      "source": "The Record",
-      "publishedAt": "2026-09-09T15:37:00.000Z",
-      "summary": "The first public cybersecurity strategy issued by the FBI \"directs our teams, our field offices, our global presence\" to align their efforts on countering malicious hackers and cybercrime groups, senior official Brett Le",
-      "categories": [
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The FBI has released its first public cybersecurity strategy to align the efforts of its teams, field offices, and global presence. The initiative focuses on countering malicious hackers and cybercrime groups.",
-        "whyItMatters": "It outlines the federal government's formalized operational priorities and unified approach for combating global cyber threats.",
-        "affected": [],
-        "action": "Review the published FBI cybersecurity strategy for organizational awareness.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Veradigm warns of patient data breach after ransomware gang claims attack",
       "link": "https://www.bleepingcomputer.com/news/security/veradigm-discloses-patient-data-breach-after-gentlemen-gang-claims-attack/",
       "source": "BleepingComputer",
@@ -591,8 +1146,8 @@
         "affected": [
           "Android"
         ],
-        "risk": "News",
         "action": "Monitor for indicators of compromise.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -619,8 +1174,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -652,8 +1207,8 @@
           "Fortinet",
           "Chrome"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -716,6 +1271,36 @@
       }
     },
     {
+      "title": "USN-8675-2: Perl vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8675-2",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-09-09T14:10:59.000Z",
+      "summary": "USN-8675-1 fixed vulnerabilities in Perl. This update provides the\ncorresponding fix for Perl on Ubuntu 26.04 LTS.\n\nOriginal advisory details:\n\n It was discovered that Perl incorrectly handled short source addresses\n in ",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Ubuntu has released an update to fix Perl vulnerabilities originally addressed in USN-8675-1. This new update specifically provides the corresponding security fix for Perl on Ubuntu 26.04 LTS.",
+        "whyItMatters": "Unpatched vulnerabilities in core utilities like Perl can potentially expose systems to exploitation depending on how short source addresses are handled.",
+        "affected": [
+          "Ubuntu 26.04 LTS",
+          "Perl"
+        ],
+        "action": "Update your Perl package to the latest version provided by Ubuntu.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "MFA's Weakest Link: Account Recovery Is the New Attack Path",
       "link": "https://www.bleepingcomputer.com/news/security/mfas-weakest-link-account-recovery-is-the-new-attack-path/",
       "source": "BleepingComputer",
@@ -739,6 +1324,252 @@
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-69777 Windows DHCP Client Elevation of Privilege Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69777",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-09-09T14:00:00.000Z",
+      "summary": "Updated an acknowledgement. This is an informational change only.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [
+        "CVE-2026-69777"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Updated an acknowledgement. This is an informational change only.",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Windows"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [
+          "CVE-2026-69777"
+        ],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "CVE-2026-69508 Windows MIDI Service Module Elevation of Privileges Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69508",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-09-09T14:00:00.000Z",
+      "summary": "Updated an acknowledgement. This is an informational change only.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [
+        "CVE-2026-69508"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Updated an acknowledgement. This is an informational change only.",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Windows"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [
+          "CVE-2026-69508"
+        ],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "CVE-2026-68877 Windows Storage Spaces Controller Remote Code Execution Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68877",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-09-09T14:00:00.000Z",
+      "summary": "Updated an acknowledgement. This is an informational change only.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [
+        "CVE-2026-68877"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Updated an acknowledgement. This is an informational change only.",
+        "whyItMatters": "Actively exploited or high-impact; treat as urgent.",
+        "affected": [
+          "Windows"
+        ],
+        "risk": "Critical",
+        "action": "Patch immediately.",
+        "relatedCves": [
+          "CVE-2026-68877"
+        ],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "CVE-2026-69334 Windows Volume Manager Extension Driver Remote Code Execution Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69334",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-09-09T14:00:00.000Z",
+      "summary": "Updated an acknowledgement. This is an informational change only.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [
+        "CVE-2026-69334"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Updated an acknowledgement. This is an informational change only.",
+        "whyItMatters": "Actively exploited or high-impact; treat as urgent.",
+        "affected": [
+          "Windows"
+        ],
+        "risk": "Critical",
+        "action": "Patch immediately.",
+        "relatedCves": [
+          "CVE-2026-69334"
+        ],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "CVE-2026-69492 Windows Partition Management Driver Elevation of Privilege Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69492",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-09-09T14:00:00.000Z",
+      "summary": "Updated an acknowledgement. This is an informational change only.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [
+        "CVE-2026-69492"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Updated an acknowledgement. This is an informational change only.",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Windows"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [
+          "CVE-2026-69492"
+        ],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "CVE-2026-73024 Windows Services for NFS ONCRPC XDR Driver Elevation of Privilege Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-73024",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-09-09T14:00:00.000Z",
+      "summary": "Updated an acknowledgement. This is an informational change only.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [
+        "CVE-2026-73024"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Updated an acknowledgement. This is an informational change only.",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Windows"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [
+          "CVE-2026-73024"
+        ],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "CVE-2026-45499 Azure OpenAI Elevation of Privilege Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45499",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-09-09T14:00:00.000Z",
+      "summary": "Updated an acknowledgement. This is an informational change only.",
+      "categories": [
+        "Vulnerability",
+        "Cloud",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Azure"
+      ],
+      "cves": [
+        "CVE-2026-45499"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Updated an acknowledgement. This is an informational change only.",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Azure"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [
+          "CVE-2026-45499"
+        ],
+        "source": "heuristic"
       }
     },
     {
@@ -928,32 +1759,6 @@
       }
     },
     {
-      "title": "Ukraine prosecutor general steps down amid scam call center bribery probe",
-      "link": "https://therecord.media/ukraine-prosecutor-general-scam-center",
-      "source": "The Record",
-      "publishedAt": "2026-09-09T12:15:00.000Z",
-      "summary": "Ukraine’s prosecutor general, Ruslan Kravchenko, resigned this week over allegations that officials in his office took bribes to shield scam call centers from law enforcement.",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Ukraine's prosecutor general, Ruslan Kravchenko, resigned following allegations that officials in his office accepted bribes to protect scam call centers. The investigation highlights ongoing corruption issues related to illicit telemarketing operations in the region.",
-        "whyItMatters": "It exposes internal corruption within law enforcement agencies that allows large-scale cyber-enabled fraud operations to evade prosecution.",
-        "affected": [],
-        "action": "Monitor developments regarding the corruption probe.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "$245 million in stolen crypto funded racketeering crew’s lavish lifestyle",
       "link": "https://www.helpnetsecurity.com/2026/09/09/singapore-man-pleads-guilty-245-million-crypto-theft/",
       "source": "Help Net Security",
@@ -1003,6 +1808,42 @@
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
+      }
+    },
+    {
+      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/09/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-09-09T12:00:00.000Z",
+      "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  \nCVE-2025-25249 Fortinet Multiple Products Heap-based Buffer Overflow Vulnerability",
+      "categories": [
+        "Vulnerability",
+        "Government",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Fortinet"
+      ],
+      "cves": [
+        "CVE-2025-25249"
+      ],
+      "kev": true,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  \nCVE-2025-25249 Fortinet Multiple Products Heap-based Buffer Overflow Vulnerability",
+        "whyItMatters": "Actively exploited or high-impact; treat as urgent.",
+        "affected": [
+          "Fortinet"
+        ],
+        "risk": "Critical",
+        "action": "Patch immediately.",
+        "relatedCves": [
+          "CVE-2025-25249"
+        ],
+        "source": "heuristic"
       }
     },
     {
@@ -1420,7 +2261,7 @@
       "cves": [
         "CVE-2026-87491"
       ],
-      "kev": false,
+      "kev": true,
       "poc": false,
       "severity": "critical",
       "breaking": true,
@@ -1547,35 +2388,6 @@
       }
     },
     {
-      "title": "New cPanel Flaw Lets a Hosting Account With Mail Privileges Run Code as Root",
-      "link": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-09T08:19:32.000Z",
-      "summary": "cPanel has patched a flaw that it says lets a single hosting account take control of an entire server. An authenticated account holder with mail-related privileges can create files of their choosing on the server through",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "cPanel has patched a critical vulnerability that allows authenticated hosting account holders with mail privileges to create arbitrary files on the server. This flaw could enable an attacker to escalate privileges and take complete control of the underlying server.",
-        "whyItMatters": "It allows low-privileged hosting account users to achieve root execution, compromising the security of the entire shared hosting server.",
-        "affected": [
-          "cPanel"
-        ],
-        "action": "Update cPanel to the latest patched version immediately.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "SAP Patches Maximum Severity “Overpass” Flaw",
       "link": "https://www.infosecurity-magazine.com/news/sap-patches-maximum-severity/",
       "source": "Infosecurity Magazine",
@@ -1607,37 +2419,6 @@
       }
     },
     {
-      "title": "F5 BIG-IP APM Malware Injects a PHP Web Shell Into Memory, Evading Disk Scans",
-      "link": "https://thehackernews.com/2026/09/f5-big-ip-apm-malware-injects-php-web.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-09T07:36:49.000Z",
-      "summary": "Malware linked to break-ins at F5 BIG-IP Access Policy Manager appliances hides a PHP web shell in memory instead of in a file on disk, Sophos said in an analysis published on September 7.\n\nWhen Apache loads any of the t",
-      "categories": [
-        "Malware",
-        "Open Source"
-      ],
-      "tags": [
-        "Apache"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Malware targeting F5 BIG-IP Access Policy Manager appliances hides a PHP web shell directly in memory rather than writing a file to disk. This in-memory technique allows the malicious payload to evade traditional disk-based security scans.",
-        "whyItMatters": "This technique allows attackers to maintain persistent access on critical edge devices while bypassing conventional endpoint detection mechanisms.",
-        "affected": [
-          "F5 BIG-IP Access Policy Manager"
-        ],
-        "action": "Investigate F5 BIG-IP APM appliances for in-memory anomalies and review security logs.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "New Microsoft Defender 'ShieldCrash' zero-day grants SYSTEM access",
       "link": "https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldcrash-zero-day-grants-system-access/",
       "source": "BleepingComputer",
@@ -1661,38 +2442,6 @@
           "Microsoft Defender"
         ],
         "action": "Monitor Microsoft security advisories and apply official mitigations or patches as soon as they become available.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Google warns of new Chrome zero-day bug exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/google-patches-seventh-chrome-zero-day-exploited-in-attacks-this-year/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-09-09T06:25:48.000Z",
-      "summary": "Google has patched 230 vulnerabilities on Tuesday, including another actively exploited Chrome zero-day bug, the seventh such vulnerability patched since the start of the year. [...]",
-      "categories": [
-        "Zero Day",
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Chrome"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Google has patched 230 vulnerabilities, including a new actively exploited Chrome zero-day bug. This marks the seventh such vulnerability that Google has addressed in the browser since the beginning of the year.",
-        "whyItMatters": "Actively exploited zero-day vulnerabilities pose an immediate threat to users because attackers are already using them in real-world attacks before a fix is available.",
-        "affected": [
-          "Google Chrome"
-        ],
-        "action": "Update Google Chrome to the latest patched version immediately.",
         "risk": "Critical",
         "relatedCves": [],
         "source": "ai"
@@ -1774,36 +2523,6 @@
         "whyItMatters": "Staying informed on daily threat intelligence helps security professionals proactively defend against newly emerging attacks.",
         "affected": [],
         "action": "Listen to the podcast for the latest daily threat briefings.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Microsoft adds age-awareness APIs that can tell if users are children, teens, or adults",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-age-awareness-apis-that-can-tell-if-users-are-children-teens-or-adults/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-09-09T01:16:27.000Z",
-      "summary": "Microsoft is adding new age-awareness APIs to Windows 11 that will allow apps to determine whether someone is a child, teenager, or adult without exposing their exact date of birth. [...]",
-      "categories": [
-        "News"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft is introducing new age-awareness APIs to Windows 11 that allow applications to categorize users as children, teens, or adults. These APIs protect privacy by sharing age brackets instead of the exact date of birth.",
-        "whyItMatters": "This feature provides developers with a privacy-preserving way to enforce age-appropriate content and parental controls.",
-        "affected": [
-          "Windows 11"
-        ],
-        "action": "Monitor Microsoft documentation for API availability and implementation guidelines.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -2193,32 +2912,6 @@
       }
     },
     {
-      "title": "CIA’s Michael Ellis says cyber intelligence is changing how the agency operates",
-      "link": "https://cyberscoop.com/cia-cyber-operations-operation-absolute-resolve-michael-ellis-billington-cybersecurity/",
-      "source": "CyberScoop",
-      "publishedAt": "2026-09-08T19:49:14.000Z",
-      "summary": "The deputy director cited Operation Absolute Resolve as evidence that cyber teams have become central to CIA missions.\nThe post CIA’s Michael Ellis says cyber intelligence is changing how the agency operates appeared fir",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CIA Deputy Director Michael Ellis highlighted how cyber intelligence is fundamentally transforming the agency's operational strategies. He cited Operation Absolute Resolve as a primary example of cyber teams becoming central to modern CIA missions.",
-        "whyItMatters": "This statement signals an institutional shift within the CIA toward prioritizing cyber operations in intelligence-gathering and national security missions.",
-        "affected": [],
-        "action": "Monitor evolving intelligence community strategies regarding cyber operations.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "September 2026 Microsoft Patch Tuesday, (Tue, Sep 8th)",
       "link": "https://isc.sans.edu/diary/rss/33320",
       "source": "SANS ISC",
@@ -2274,32 +2967,6 @@
         ],
         "action": "Update ImageMagick to the latest patched version provided by your distribution.",
         "risk": "Medium",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Why federal cyber defense demands an offense-driven mindset",
-      "link": "https://cyberscoop.com/offense-driven-federal-cyber-defense/",
-      "source": "CyberScoop",
-      "publishedAt": "2026-09-08T18:30:00.000Z",
-      "summary": "Static checklists and annual penetration tests leave agencies with dangerous blind spots. True resilience requires moving from reactive attestation to continuous, automated validation.\nThe post Why federal cyber defense ",
-      "categories": [
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Federal cyber defense requires shifting from static checklists and annual penetration tests to continuous, automated validation. This proactive, offense-driven mindset helps agencies eliminate dangerous blind spots.",
-        "whyItMatters": "Moving to continuous validation is essential for federal agencies to achieve true cyber resilience against evolving threats.",
-        "affected": [],
-        "action": "Adopt continuous and automated security validation.",
-        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
@@ -2817,243 +3484,6 @@
       }
     },
     {
-      "title": "CVE-2026-62706 Microsoft Windows Media Foundation Remote Code Execution Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62706",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-09-08T14:00:00.000Z",
-      "summary": "Out-of-bounds read in Microsoft Windows Media Foundation allows an unauthorized attacker to execute code over a network.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [
-        "CVE-2026-62706"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Out-of-bounds read in Microsoft Windows Media Foundation allows an unauthorized attacker to execute code over a network.",
-        "whyItMatters": "Actively exploited or high-impact; treat as urgent.",
-        "affected": [
-          "Windows"
-        ],
-        "action": "Patch immediately.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-62706"
-        ],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "CVE-2026-62694 Windows Installer Elevation of Privilege Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62694",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-09-08T14:00:00.000Z",
-      "summary": "Use after free in Windows Installer allows an authorized attacker to elevate privileges locally.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [
-        "CVE-2026-62694"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Use after free in Windows Installer allows an authorized attacker to elevate privileges locally.",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Windows"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [
-          "CVE-2026-62694"
-        ],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "CVE-2026-62744 Microsoft Windows Media Foundation Remote Code Execution Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62744",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-09-08T14:00:00.000Z",
-      "summary": "Heap-based buffer overflow in Microsoft Windows Media Foundation allows an unauthorized attacker to execute code over a network.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [
-        "CVE-2026-62744"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Heap-based buffer overflow in Microsoft Windows Media Foundation allows an unauthorized attacker to execute code over a network.",
-        "whyItMatters": "Actively exploited or high-impact; treat as urgent.",
-        "affected": [
-          "Windows"
-        ],
-        "action": "Patch immediately.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-62744"
-        ],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "CVE-2026-66304 Skype for Business Information Disclosure Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-66304",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-09-08T14:00:00.000Z",
-      "summary": "Server-side request forgery (ssrf) in Skype for Business allows an unauthorized attacker to disclose information over a network.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-66304"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Server-side request forgery (ssrf) in Skype for Business allows an unauthorized attacker to disclose information over a network.",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [
-          "CVE-2026-66304"
-        ],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "CVE-2026-66302 Skype for Business Remote Code Execution Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-66302",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-09-08T14:00:00.000Z",
-      "summary": "External control of file name or path in Skype for Business allows an unauthorized attacker to execute code over a network.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-66302"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "External control of file name or path in Skype for Business allows an unauthorized attacker to execute code over a network.",
-        "whyItMatters": "Actively exploited or high-impact; treat as urgent.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Patch immediately.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-66302"
-        ],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "CVE-2026-66306 Skype for Business Information Disclosure Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-66306",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-09-08T14:00:00.000Z",
-      "summary": "Generation of error message containing sensitive information in Skype for Business allows an unauthorized attacker to disclose information over a network.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-66306"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Generation of error message containing sensitive information in Skype for Business allows an unauthorized attacker to disclose information over a network.",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [
-          "CVE-2026-66306"
-        ],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "CVE-2026-66308 Skype for Business and Lync Denial of Service Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-66308",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-09-08T14:00:00.000Z",
-      "summary": "Out-of-bounds read in Skype for Business allows an authorized attacker to deny service over a network.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-66308"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Out-of-bounds read in Skype for Business allows an authorized attacker to deny service over a network.",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [
-          "CVE-2026-66308"
-        ],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "BigBear phishing crew nets thousands of Microsoft 365 credentials",
       "link": "https://www.theregister.com/security/2026/09/08/bigbear-phishing-crew-nets-thousands-of-microsoft-365-credentials/5294944",
       "source": "The Register",
@@ -3222,33 +3652,6 @@
       }
     },
     {
-      "title": "China-Based Artificial Intelligence Companies Conducting Industrial-Scale Distillation Campaigns Against U.S. AI Companies",
-      "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-09-08T12:00:00.000Z",
-      "summary": "Executive summary\nChina-based artificial intelligence (AI) companies are conducting systematic extraction of proprietary functionalities and capabilities of U.S. AI companies’ models through industrial-scale knowledge di",
-      "categories": [
-        "AI Security",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "China-based artificial intelligence companies are conducting systematic extraction of proprietary functionalities from U.S. AI models through industrial-scale knowledge distillation. This campaign targets the core capabilities and proprietary assets of U.S. technology firms.",
-        "whyItMatters": "It threatens the intellectual property, competitive edge, and national security of U.S. artificial intelligence leadership.",
-        "affected": [],
-        "action": "Implement robust monitoring and security controls to detect and prevent model extraction attempts.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/09/08/cisa-adds-four-known-exploited-vulnerabilities-catalog",
       "source": "CISA Advisories",
@@ -3284,32 +3687,30 @@
       }
     },
     {
-      "title": "USN-8735-1: HSQLDB vulnerability",
-      "link": "https://ubuntu.com/security/notices/USN-8735-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-09-08T11:51:18.000Z",
-      "summary": "It was discovered that HSQLDB incorrectly handled specially crafted\ndatabase files. An attacker could possibly use this issue to overwrite\narbitrary files.",
+      "title": "China-Based Artificial Intelligence Companies Conducting Industrial-Scale Distillation Campaigns Against U.S. AI Companies",
+      "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-09-08T12:00:00.000Z",
+      "summary": "Executive summary\nChina-based artificial intelligence (AI) companies are conducting systematic extraction of proprietary functionalities and capabilities of U.S. AI companies’ models through industrial-scale knowledge di",
       "categories": [
-        "Vulnerability",
+        "AI Security",
         "Vendor Advisory"
       ],
       "tags": [],
       "cves": [],
       "kev": false,
       "poc": false,
-      "severity": "medium",
+      "severity": "news",
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "It was discovered that HSQLDB incorrectly handled specially crafted\ndatabase files. An attacker could possibly use this issue to overwrite\narbitrary files.",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
+        "summary": "China-based artificial intelligence companies are conducting systematic extraction of proprietary functionalities from U.S. AI models through industrial-scale knowledge distillation. This campaign targets the core capabilities and proprietary assets of U.S. technology firms.",
+        "whyItMatters": "It threatens the intellectual property, competitive edge, and national security of U.S. artificial intelligence leadership.",
+        "affected": [],
+        "action": "Implement robust monitoring and security controls to detect and prevent model extraction attempts.",
+        "risk": "High",
         "relatedCves": [],
-        "source": "heuristic"
+        "source": "ai"
       }
     },
     {
@@ -3425,32 +3826,6 @@
         "whyItMatters": "This technique allows attackers to leverage legitimate Google infrastructure to evade detection while stealing cryptocurrency.",
         "affected": [],
         "action": "Monitor network traffic for unauthorized use of the Google Visualization API and Google Sheets for C2 communication.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "In most cities, nobody owns the whole network",
-      "link": "https://cyberscoop.com/water-utility-cybersecurity-network-segmentation-op-ed/",
-      "source": "CyberScoop",
-      "publishedAt": "2026-09-08T10:00:00.000Z",
-      "summary": "July’s intrusions reached water controllers that sat on a cellular link no city network scan would find. Naming an owner and paying for the fix are decisions a utility can make this fiscal year, out of money it already a",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Recent cyber intrusions compromised water controllers connected via hidden cellular links that bypassed standard municipal network scans. Utilities must identify ownership and fund security fixes using existing budgets this fiscal year.",
-        "whyItMatters": "Hidden cellular connections on critical water infrastructure create blind spots that evade standard municipal network security scans and expose cities to unauthorized intrusions.",
-        "affected": [],
-        "action": "Audit all cellular links connected to water controllers to identify ownership and secure vulnerabilities.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -3972,36 +4347,6 @@
       }
     },
     {
-      "title": "USN-8734-1: PHP vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8734-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-09-07T13:56:38.000Z",
-      "summary": "It was discovered that PHP incorrectly handled Apache map decoding in SOAP\nservers with a typemap configured. A remote attacker could use this issue\nto cause a NULL pointer dereference, resulting in a denial of service.\n",
-      "categories": [
-        "Vulnerability",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Apache"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A vulnerability was discovered in PHP where incorrect Apache map decoding in SOAP servers with a typemap configured can be exploited. A remote attacker could trigger a NULL pointer dereference to cause a denial of service.",
-        "whyItMatters": "This flaw allows remote attackers to disrupt service availability by crashing vulnerable PHP SOAP servers.",
-        "affected": [],
-        "action": "Update PHP to the latest patched version.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "LG TV flaws could let attackers listen in, even in standby mode",
       "link": "https://www.malwarebytes.com/blog/privacy/2026/09/lg-tv-flaws-could-let-attackers-listen-in-even-in-standby-mode",
       "source": "Malwarebytes Labs",
@@ -4459,61 +4804,6 @@
       }
     },
     {
-      "title": "Companies Have 6 Months to Prepare for Automated Attacks",
-      "link": "https://www.darkreading.com/cybersecurity-operations/companies-six-months-prepare-automated-attacks",
-      "source": "Dark Reading",
-      "publishedAt": "2026-09-04T15:57:31.000Z",
-      "summary": "Frontier AI models have already demonstrated they can autonomously — and in some cases, inadvertently — conduct end-to-end compromises, but the situation will become more urgent very soon.",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Frontier AI models are now capable of conducting autonomous, end-to-end cyber compromises without human intervention. Security experts warn that companies have only six months to prepare for a surge in these automated attacks.",
-        "whyItMatters": "It matters because the rapid advancement of autonomous AI attack capabilities will drastically lower the barrier to entry for complex cyber threats.",
-        "affected": [],
-        "action": "Accelerate automated defense strategies and AI threat modeling immediately.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "AI Is Ending the Era of Hidden Vulnerabilities — Are Vendors Ready?",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/ai-ending-era-hidden-vulnerabilities-are-vendors-ready",
-      "source": "Dark Reading",
-      "publishedAt": "2026-09-04T13:00:00.000Z",
-      "summary": "A tidal wave of bug reports is overwhelming software vendors, exposing secure-by-design failures and creating disclosure bottlenecks.",
-      "categories": [
-        "Vulnerability",
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A tidal wave of bug reports is overwhelming software vendors, exposing secure-by-design failures and creating disclosure bottlenecks.",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/09/04/cisa-adds-one-known-exploited-vulnerability-catalog",
       "source": "CISA Advisories",
@@ -4892,59 +5182,30 @@
       }
     },
     {
-      "title": "IXON VPN Client",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-02",
+      "title": "Preparing for the Post-Quantum Era: A Call to Action",
+      "link": "https://www.cisa.gov/resources-tools/resources/preparing-post-quantum-era-call-action",
       "source": "CISA Advisories",
       "publishedAt": "2026-09-03T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to perform remote code execution on the computer running the client with elevated privileges.\nThe following versions of IXON VPN Cli",
+      "summary": "CISA and the Group of Seven (G7) Cyber Security Working Group released Preparing for the Post-Quantum Era: A Call to Action highlighting the urgent need for organizations and governments to begin transitioning to post-qu",
       "categories": [
-        "Vulnerability",
+        "Government",
         "Vendor Advisory"
       ],
       "tags": [],
       "cves": [],
       "kev": false,
       "poc": false,
-      "severity": "medium",
+      "severity": "news",
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "A remote code execution vulnerability exists in the IXON VPN Client that could allow attackers to execute arbitrary code with elevated privileges. Successful exploitation compromises the host computer running the affected software.",
-        "whyItMatters": "It allows unauthenticated attackers to gain elevated control over vulnerable systems via remote code execution.",
-        "affected": [
-          "IXON VPN Client"
-        ],
-        "action": "Update to the latest patched version immediately.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Schneider Electric Easergy, EcoStruxture, PowerLogic, and Saitel Products (Update A)",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-07",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-09-03T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nSchneider Electric is aware of a vulnerability in the following products: The Easergy C5 is a scalable and interoperable bay controller, protection and merging unit for large and critical infrastructure",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "View CSAF\nSummary\nSchneider Electric is aware of a vulnerability in the following products: The Easergy C5 is a scalable and interoperable bay controller, protection and merging unit for large and critical infrastructure",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "summary": "CISA and the Group of Seven (G7) Cyber Security Working Group released Preparing for the Post-Quantum Era: A Call to Action highlighting the urgent need for organizations and governments to begin transitioning to post-qu",
+        "whyItMatters": "Background context; no immediate action expected.",
         "affected": [
           "Not specified"
         ],
+        "risk": "News",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -5528,208 +5789,6 @@
       "readTimeMin": 1,
       "aiSummary": {
         "summary": "CrowdStrike Extends Endpoint Security to Stop Software Supply Chain Attacks",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "CrowdStrike Announces Agentic Identity Provider",
-      "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-agentic-identity-provider/",
-      "source": "CrowdStrike",
-      "publishedAt": "2026-09-02T04:00:00.000Z",
-      "summary": "CrowdStrike Announces Agentic Identity Provider",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "CrowdStrike Announces Agentic Identity Provider",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
-      "link": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
-      "source": "Krebs on Security",
-      "publishedAt": "2026-09-01T22:40:28.000Z",
-      "summary": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose l",
-      "categories": [
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A newly launched dark web identity theft service is currently offering digital scans of over 153 million driver's licenses from individuals in the United States and Canada. The FBI is actively investigating the platform following reports from affected citizens.",
-        "whyItMatters": "This massive leak of personal identification documents poses an unprecedented risk for widespread identity theft and targeted fraud.",
-        "affected": [],
-        "action": "Monitor personal credit reports and identity monitoring services for signs of fraudulent activity.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "[Launched] Generally Available: Microsoft Defender for Cloud support for Azure Container Apps (Serverless Containers Posture)",
-      "link": "https://azure.microsoft.com/updates?id=570282",
-      "source": "Azure Updates",
-      "publishedAt": "2026-09-01T22:34:43.000Z",
-      "summary": "Customers can now bring Azure Container Apps environments into Microsoft Defender for Cloud’s Serverless Containers Posture experience, helping security teams extend posture management across more of their container esta",
-      "categories": [
-        "Cloud"
-      ],
-      "tags": [
-        "Azure"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has announced general availability for Defender for Cloud support for Azure Container Apps. This feature extends serverless containers posture management to help security teams secure more of their container estate.",
-        "whyItMatters": "It improves cloud visibility and security posture management for organizations utilizing Azure serverless container environments.",
-        "affected": [
-          "Azure Container Apps",
-          "Microsoft Defender for Cloud"
-        ],
-        "action": "Enable Defender for Cloud support on your Azure Container Apps environments.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "[Launched] Generally Available: Windows Server 2025 on AKS",
-      "link": "https://azure.microsoft.com/updates?id=570090",
-      "source": "Azure Updates",
-      "publishedAt": "2026-09-01T22:31:50.000Z",
-      "summary": "Organizations running Windows-based workloads on Azure Kubernetes Service (AKS) face increasing pressure to modernize as support timelines for older Windows Server versions approach retirement. To help customers prepare,",
-      "categories": [
-        "Cloud"
-      ],
-      "tags": [
-        "Windows",
-        "Azure",
-        "Kubernetes"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Organizations running Windows-based workloads on Azure Kubernetes Service (AKS) face increasing pressure to modernize as support timelines for older Windows Server versions approach retirement. To help customers prepare,",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Windows",
-          "Azure",
-          "Kubernetes"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "VU#456290: Hugging Face Transformers library writes remote code to disk prior to consent check",
-      "link": "https://kb.cert.org/vuls/id/456290",
-      "source": "CERT/CC",
-      "publishedAt": "2026-09-01T13:35:43.290Z",
-      "summary": "Overview\nA vulnerability in the Hugging Face Transformers library (versions 4.49.0 through 5.8.1) allows remote, attacker‑controlled Python files to be written to the local disk without user authorization. The library pe",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A vulnerability in the Hugging Face Transformers library allows remote Python files to be written to the local disk without user consent. This issue affects library versions 4.49.0 through 5.8.1.",
-        "whyItMatters": "It enables attackers to store unauthorized files on a victim's system, potentially leading to further exploitation.",
-        "affected": [
-          "Hugging Face Transformers library 4.49.0 through 5.8.1"
-        ],
-        "action": "Update the Hugging Face Transformers library to a patched version beyond 5.8.1.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Mirage Kitten targeting aviation and FinTech sectors across the Middle East and Africa with a new malware set",
-      "link": "https://securelist.com/mirage-kitten-new-backdoors-noderabbit-pollcat/121244/",
-      "source": "Kaspersky Securelist",
-      "publishedAt": "2026-09-01T07:00:26.000Z",
-      "summary": "Kaspersky researchers have discovered new Mirage Kitten attacks using previously undocumented malware families: NodeRabbit in Node.js and PollCat in JavaScript.",
-      "categories": [
-        "Malware"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Kaspersky researchers have discovered new attacks by the Mirage Kitten threat group targeting aviation and FinTech sectors across the Middle East and Africa. The campaign utilizes previously undocumented malware families, specifically NodeRabbit developed in Node.js and PollCat in JavaScript.",
-        "whyItMatters": "This campaign introduces new, undocumented malware tools that pose a significant espionage and operational risk to critical sectors like aviation and finance in the Middle East and Africa.",
-        "affected": [],
-        "action": "Monitor network traffic for indicators of compromise related to NodeRabbit and PollCat malware.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CrowdStrike Falcon Guardian Defines the Next Generation of AI Security",
-      "link": "https://www.crowdstrike.com/en-us/blog/falcon-guardian-defines-next-generation-of-ai-security/",
-      "source": "CrowdStrike",
-      "publishedAt": "2026-09-01T04:00:00.000Z",
-      "summary": "CrowdStrike Falcon Guardian Defines the Next Generation of AI Security ",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CrowdStrike Falcon Guardian Defines the Next Generation of AI Security",
         "whyItMatters": "Background context; no immediate action expected.",
         "affected": [
           "Not specified"
