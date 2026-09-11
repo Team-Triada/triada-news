@@ -1,6 +1,63 @@
 {
-  "updatedAt": "2026-09-10T21:37:32.349Z",
+  "updatedAt": "2026-09-11T00:07:58.105Z",
   "items": [
+    {
+      "title": "Latest Anthropic horror story chills with tales of kamikaze drone swarms and bioweapons research",
+      "link": "https://www.theregister.com/ai-and-ml/2026/09/10/latest-anthropic-horror-story-chills-with-tales-of-kamikaze-drone-swarms-and-bioweapons-research/5295702",
+      "source": "The Register",
+      "publishedAt": "2026-09-10T22:38:35.000Z",
+      "summary": "Everyone from ShinyHunters to Russian freelancers is in on the illicit model fun",
+      "categories": [
+        "Research"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Recent reports highlight growing concerns over the potential misuse of advanced AI models like those from Anthropic. These alarming scenarios reportedly involve dangerous applications such as kamikaze drone swarms and bioweapons research.",
+        "whyItMatters": "It underscores the severe national security and safety risks associated with the malicious exploitation of cutting-edge artificial intelligence technologies.",
+        "affected": [],
+        "action": "Monitor AI safety developments and maintain strict access controls on sensitive research models.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "New Android malware encrypts files, steals data, and harasses victims",
+      "link": "https://www.bleepingcomputer.com/news/security/new-android-malware-encrypts-files-steals-data-and-harasses-victims/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-09-10T21:40:43.000Z",
+      "summary": "A new Android malware strain called Mantax Otax combines ransomware and spyware capabilities to encrypt files, steal sensitive data, and spam and harass victims. [...]",
+      "categories": [
+        "Ransomware",
+        "Malware"
+      ],
+      "tags": [
+        "Android"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "high",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A new Android malware strain named Mantax Otax combines ransomware and spyware capabilities. It targets victims by encrypting their files, stealing sensitive data, and engaging in harassment.",
+        "whyItMatters": "This hybrid malware increases user risk by simultaneously compromising data privacy and holding device files for ransom.",
+        "affected": [
+          "Android devices"
+        ],
+        "action": "Avoid downloading unknown Android applications and maintain regular backups of mobile data.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Treasury urges banks to file cyber scam reports, noting nearly $13 billion in losses since 2023",
       "link": "https://therecord.media/treasury-urges-banks-report-cyber-scams",
@@ -220,6 +277,38 @@
         "whyItMatters": "This trend democratizes advanced cyberattack capabilities, allowing minor actors to threaten global security previously reserved for nation-states.",
         "affected": [],
         "action": "Monitor AI-driven threat vectors and enhance defensive security controls.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8571-2: Apache HTTP Server regression",
+      "link": "https://ubuntu.com/security/notices/USN-8571-2",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-09-10T19:36:17.000Z",
+      "summary": "USN-8571-1 fixed vulnerabilities in Apache HTTP Server. That fix was\nincomplete due to a missing library symbol, resulting in a regression\nthat could cause Apache HTTP Server to fail to start when HTTP/2\nproxying was ena",
+      "categories": [
+        "Vulnerability",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Apache"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A recent security update for the Apache HTTP Server introduced an incomplete fix due to a missing library symbol. This regression causes the server to fail to start when HTTP/2 proxying is enabled.",
+        "whyItMatters": "This regression can lead to unexpected denial of service by preventing the Apache HTTP Server from booting up properly after applying security updates.",
+        "affected": [
+          "Apache HTTP Server"
+        ],
+        "action": "Apply the corrected update once available to resolve the startup failure.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -1018,32 +1107,6 @@
       }
     },
     {
-      "title": "The Top 4 Threats We Found by Investigating Every Alert for a Quarter",
-      "link": "https://www.bleepingcomputer.com/news/security/the-top-4-threats-we-found-by-investigating-every-alert-for-a-quarter/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-09-10T14:00:10.000Z",
-      "summary": "Identity was the target in roughly half of all confirmed malicious activity. Prophet Security breaks down the four main attack patterns seen across customer environments between May and July 2026, and explains why some a",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Prophet Security analyzed a quarter's worth of security alerts to identify the top four prevailing threat patterns. Their findings reveal that identity-based attacks accounted for approximately half of all confirmed malicious activity between May and July 2026.",
-        "whyItMatters": "Understanding primary attack vectors helps organizations prioritize defenses against identity-based compromises, which currently drive half of all major threats.",
-        "affected": [],
-        "action": "Review identity and access management controls to mitigate prevalent identity-based threats.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "CISA Updates Insider Threat Guide With New Mitigation Advice",
       "link": "https://www.infosecurity-magazine.com/news/cisa-updates-insider-threat-guide/",
       "source": "Infosecurity Magazine",
@@ -1315,6 +1378,39 @@
         "action": "Avoid downloading unverified applications and maintain updated mobile security software.",
         "risk": "High",
         "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Mind the Config: Detecting and Weaponizing NetScaler CVE-2026-19490",
+      "link": "https://bishopfox.com/blog/mind-the-config-detecting-and-weaponizing-netscaler-cve-2026-19490",
+      "source": "Bishop Fox",
+      "publishedAt": "2026-09-10T13:00:00.000Z",
+      "summary": "A single unauthenticated request bypasses authentication on NetScaler Gateway and AAA virtual servers. Whether that means a dead-end session, a proxy into the internal network, or root on the appliance depends entirely o",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-19490"
+      ],
+      "kev": true,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A recently disclosed vulnerability, tracked as CVE-2026-19490, allows a single unauthenticated request to bypass authentication on NetScaler Gateway and AAA virtual servers. Depending on the configuration, this flaw can lead to unauthorized proxy access or root-level control over the appliance.",
+        "whyItMatters": "It allows unauthenticated attackers to potentially achieve full root compromise or internal network access through a single request.",
+        "affected": [
+          "NetScaler Gateway",
+          "AAA virtual servers"
+        ],
+        "action": "Review appliance configurations and apply available security patches immediately.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-19490"
+        ],
         "source": "ai"
       }
     },
@@ -2085,35 +2181,6 @@
       }
     },
     {
-      "title": "USN-8742-1: Netty vulnerability",
-      "link": "https://ubuntu.com/security/notices/USN-8742-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-09-10T09:01:53.000Z",
-      "summary": "It was discovered that Netty incorrectly validates the bailiwick of NS\nrecords. An attacker could possibly use this issue to facilitate DNS\ncache poisoning attacks.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Netty was found to incorrectly validate the bailiwick of NS records. This flaw could potentially be exploited by an attacker to facilitate DNS cache poisoning attacks.",
-        "whyItMatters": "It matters because a DNS cache poisoning attack can redirect users to malicious websites, compromising the confidentiality and integrity of network traffic.",
-        "affected": [
-          "Netty"
-        ],
-        "action": "Update Netty to the latest patched version.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Anthropic Reveals Yet Another Cybersecurity Incident",
       "link": "https://www.infosecurity-magazine.com/news/anthropic-another-cybersecurity/",
       "source": "Infosecurity Magazine",
@@ -2333,6 +2400,34 @@
         "affected": [],
         "action": "Evaluate honeytoken solutions to monitor for unauthorized developer credential access.",
         "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6492-1 ruby-rack - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00403.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "summary": "Multiple security issues were found in Rack, an interface for developing\nweb applications in Ruby, which could result in denial of service,\ninformation disclosure, spoofing or bypass of access restrictions.\n\n\nhttps://sec",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple security issues have been discovered in Ruby Rack, an interface for developing web applications in Ruby. These vulnerabilities can potentially lead to denial of service, information disclosure, spoofing, or the bypass of access restrictions.",
+        "whyItMatters": "Unpatched vulnerabilities in web application interfaces like Rack can expose applications to various attacks, compromising service availability and data security.",
+        "affected": [
+          "ruby-rack"
+        ],
+        "action": "Apply the security update provided by your distributor.",
+        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -3473,35 +3568,6 @@
         "whyItMatters": "This technique introduces sophisticated in-browser threats that can directly lead to financial theft via everyday web interactions.",
         "affected": [],
         "action": "Avoid interacting with suspicious browser prompts or scripts.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "WeChat worm could pwn a friend before they even answered the call",
-      "link": "https://www.theregister.com/security/2026/09/09/wechat-worm-could-pwn-a-friend-before-they-even-answered-the-call/5295234",
-      "source": "The Register",
-      "publishedAt": "2026-09-09T12:45:00.000Z",
-      "summary": "Calif says AI helped turn a VoIP memory bug into cross-platform RCE before Tencent shut it down",
-      "categories": [
-        "Malware",
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Researchers demonstrated that an AI assistant helped develop a cross-platform remote code execution exploit targeting a VoIP memory bug in WeChat. Tencent successfully patched and shut down the vulnerability before widespread exploitation occurred.",
-        "whyItMatters": "This highlights the growing threat of artificial intelligence being used to rapidly accelerate the discovery and weaponization of complex software vulnerabilities.",
-        "affected": [
-          "WeChat"
-        ],
-        "action": "Update WeChat to the latest patched version.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -5245,34 +5311,6 @@
       }
     },
     {
-      "title": "DSA-6484-1 chromium - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00395.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-09-05T00:00:00.000Z",
-      "summary": "Security issues were discovered in Chromium which could result\nin the execution of arbitrary code, denial of service, or information\ndisclosure.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6484-1",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Security issues were discovered in Chromium which could result\nin the execution of arbitrary code, denial of service, or information\ndisclosure.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6484-1",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Friday Squid Blogging: Squid on a Stick at the New York State Fair",
       "link": "https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-squid-on-a-stick-at-the-new-york-state-fair.html",
       "source": "Schneier on Security",
@@ -5799,40 +5837,6 @@
           "Cisco Secure Email"
         ],
         "action": "Check vendor advisories and apply available software updates or patches.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Cisco Desk Phone 9800 Series, IP Phone 7800 and 8800 Series, and Video Phone 8875 with SIP Software Denial of Service Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-phone-dos-txMYNRzv?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Desk%20Phone%209800%20Series,%20IP%20Phone%207800%20and%208800%20Series,%20and%20Video%20Phone%208875%20with%20SIP%20Software%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
-      "source": "Cisco PSIRT",
-      "publishedAt": "2026-09-02T16:00:00.000Z",
-      "summary": "A vulnerability in Cisco Desk Phone 9800 Series, Cisco IP Phone 7800 and 8800 Series, and Cisco Video Phone 8875 that are running Cisco Session Initiation Protocol (SIP) Software could allow an unauthenticated, remote at",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Cisco"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A denial of service vulnerability exists in multiple Cisco IP desk and video phone series running SIP software. An unauthenticated remote attacker can exploit this flaw to disrupt phone services.",
-        "whyItMatters": "This vulnerability allows remote attackers to cause a denial of service on critical enterprise communication devices without requiring authentication.",
-        "affected": [
-          "Cisco Desk Phone 9800 Series",
-          "Cisco IP Phone 7800 Series",
-          "Cisco IP Phone 8800 Series",
-          "Cisco Video Phone 8875"
-        ],
-        "action": "Apply the latest security patches provided by Cisco.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
