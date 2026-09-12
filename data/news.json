@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T21:44:29.023Z",
+  "updatedAt": "2026-09-12T00:15:34.344Z",
   "items": [
     {
       "title": "Google Doc Sidebar Sends Mac and Windows Users Down Different Paths to Malware",
@@ -979,6 +979,39 @@
       }
     },
     {
+      "title": "CVE-2026-85892 Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-85892",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-09-11T14:00:00.000Z",
+      "summary": "Concurrent execution using shared resource with improper synchronization ('race condition') in Microsoft Edge (Chromium-based) allows an authorized attacker to elevate privileges locally.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-85892"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "An elevation of privilege vulnerability has been identified in Microsoft Edge (Chromium-based). The flaw stems from a race condition caused by concurrent execution using a shared resource with improper synchronization.",
+        "whyItMatters": "An authorized local attacker can exploit this vulnerability to elevate their privileges on the affected system.",
+        "affected": [
+          "Microsoft Edge (Chromium-based)"
+        ],
+        "action": "Apply the latest security updates provided by Microsoft for Edge.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-85892"
+        ],
+        "source": "ai"
+      }
+    },
+    {
       "title": "CVE-2026-69461 Windows NTFS Remote Code Execution Vulnerability",
       "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69461",
       "source": "Microsoft MSRC",
@@ -1182,41 +1215,6 @@
         "risk": "Critical",
         "relatedCves": [
           "CVE-2026-71336"
-        ],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "CVE-2026-77499 Windows DHCP Server Denial of Service Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-77499",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-09-11T14:00:00.000Z",
-      "summary": "Updated an acknowledgement. This is an informational change only.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [
-        "CVE-2026-77499"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "Updated an acknowledgement. This is an informational change only.",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Windows"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [
-          "CVE-2026-77499"
         ],
         "source": "heuristic"
       }
@@ -2229,6 +2227,64 @@
           "Android devices"
         ],
         "action": "Avoid downloading unverified banking applications and monitor Android Work Profile configurations.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6495-1 spip - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00406.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-09-11T00:00:00.000Z",
+      "summary": "Several vulnerabilities were discovered in SPIP, a website engine for\npublishing, which could result in unauthenticated remote code execution.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6495-1",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Debian has issued a security advisory (DSA-6495-1) for SPIP, addressing multiple vulnerabilities in the website publishing engine. These flaws could potentially allow unauthenticated remote code execution on affected systems.",
+        "whyItMatters": "Unauthenticated remote code execution is a severe vulnerability that allows attackers to take complete control of a target server without needing credentials.",
+        "affected": [
+          "SPIP"
+        ],
+        "action": "Update SPIP to the latest patched version immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6494-1 kamailio - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00405.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-09-11T00:00:00.000Z",
+      "summary": "Multiple security vulnerabilities were discovered in the Kamailio SIP\nserver, which could result in denial of service.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6494-1",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple security vulnerabilities have been discovered in the Kamailio SIP server. These flaws could potentially be exploited to cause a denial of service.",
+        "whyItMatters": "Unpatched denial of service vulnerabilities in SIP servers can lead to critical communication outages for voice and messaging infrastructure.",
+        "affected": [
+          "Kamailio SIP server"
+        ],
+        "action": "Apply the security update provided by your distribution.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -5697,67 +5753,6 @@
       "readTimeMin": 1,
       "aiSummary": {
         "summary": "It was discovered that missing input sanitising in the JBIG2 decoder\nlibrary could result in denial of service.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6488-1",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "DSA-6487-1 strongswan - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00398.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-09-07T00:00:00.000Z",
-      "summary": "Multiple vulnerabilities were found in strongSwan, an IKE/IPsec suite.\n\nCVE-2026-78123\n\n    An undefined memory access vulnerability in the openssl plugin when\n    handling PKCS#7 containers, that can result in a crash.\n",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-78123"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Multiple vulnerabilities were found in strongSwan, an IKE/IPsec suite.\n\nCVE-2026-78123\n\n    An undefined memory access vulnerability in the openssl plugin when\n    handling PKCS#7 containers, that can result in a crash.",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [
-          "CVE-2026-78123"
-        ],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "DSA-6486-1 libde265 - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00397.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-09-06T00:00:00.000Z",
-      "summary": "Two security issues were discovered in libde265, an implementation of\nthe H.265 video codec which may result in denial of service or\npotentially the execution of arbitrary code if a malformed media file\nis processed.\n\n\nh",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Two security issues were discovered in libde265, an implementation of\nthe H.265 video codec which may result in denial of service or\npotentially the execution of arbitrary code if a malformed media file\nis processed.\n\n\nh",
         "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
         "affected": [
           "Not specified"
