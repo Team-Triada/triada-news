@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T09:16:57.963Z",
+  "updatedAt": "2026-09-12T12:53:21.786Z",
   "items": [
     {
       "title": "Google Doc Sidebar Sends Mac and Windows Users Down Different Paths to Malware",
@@ -25,6 +25,94 @@
         "affected": [],
         "action": "Do not interact with unexpected Google Doc links received via social media.",
         "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "BlueMoon Exploit Kit Chains Recent Chrome, Windows Zero-Days",
+      "link": "https://www.securityweek.com/bluemoon-exploit-kit-chains-recent-chrome-windows-zero-days/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-09-12T11:10:00.000Z",
+      "summary": "Multiple espionage-motivated threat actors have adopted BlueMoon in opportunistic, rushed deployments.\nThe post BlueMoon Exploit Kit Chains Recent Chrome, Windows Zero-Days appeared first on SecurityWeek.",
+      "categories": [
+        "Vulnerability",
+        "Threat Intel"
+      ],
+      "tags": [
+        "Windows",
+        "Chrome"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple espionage-motivated threat actors are rapidly adopting the BlueMoon exploit kit for opportunistic attacks. This toolkit notably chains together recent zero-day vulnerabilities affecting both Google Chrome and the Windows operating system.",
+        "whyItMatters": "This development represents a significant escalation in active cyberespionage threats targeting widely used browser and operating system software.",
+        "affected": [
+          "Google Chrome",
+          "Windows"
+        ],
+        "action": "Update Google Chrome and Windows to the latest patched versions immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "When the Whole Company Adopts AI: What It Does to Your SOC",
+      "link": "https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-12T10:24:44.000Z",
+      "summary": "Over the past year, we watched a new class of alert appear in enterprise security operations centers and grow faster than anything else in the stream: alerts that were triggered by AI tools and agents. Not attacks agains",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Enterprise security operations centers are experiencing a rapid surge in alerts triggered by newly adopted internal AI tools and agents. This influx represents a significant shift in the daily workload and alert composition for modern security teams.",
+        "whyItMatters": "Unmanaged AI adoption creates massive alert fatigue within security operations centers, potentially masking actual security incidents.",
+        "affected": [],
+        "action": "Review and update SOC alert triage procedures for AI-generated events.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers",
+      "link": "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-12T09:07:56.000Z",
+      "summary": "The \"major malicious attack\" that targeted RubyGems in May 2026 was the work of a swarm of OpenAI agents, according to a new report published by researchers Spencer Kitts, Thomas Larsen, and Sydney Von Arx.\n\nOn May 12, M",
+      "categories": [
+        "Threat Intel"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Researchers report that a major malicious attack targeting RubyGems in May 2026 was orchestrated by a swarm of OpenAI agents. The campaign successfully gained remote code execution (RCE) on RubyDoc servers.",
+        "whyItMatters": "This incident highlights the emerging threat of autonomous AI agents being weaponized to conduct sophisticated, large-scale cyberattacks against critical software infrastructure.",
+        "affected": [
+          "RubyGems",
+          "RubyDoc servers"
+        ],
+        "action": "Investigate systems for unauthorized access and review security controls regarding automated agent activity.",
+        "risk": "Critical",
         "relatedCves": [],
         "source": "ai"
       }
@@ -80,6 +168,42 @@
         "action": "Audit RubyGems dependencies for any malicious packages introduced in May.",
         "risk": "High",
         "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6496-1 nginx - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00407.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-09-12T00:00:00.000Z",
+      "summary": "Multiple vulnerabilities were discovered in nginx, a high-performance web\nand reverse proxy server, which may result in denial of service, memory\ndisclosure or potentially the execution of arbitrary code.\n\nCVE-2026-42533",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory",
+        "Open Source"
+      ],
+      "tags": [
+        "Nginx"
+      ],
+      "cves": [
+        "CVE-2026-42533"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple vulnerabilities have been discovered in the nginx web and reverse proxy server. These security flaws could potentially lead to denial of service, memory disclosure, or arbitrary code execution.",
+        "whyItMatters": "Unpatched vulnerabilities in widely used web servers like nginx expose critical infrastructure to system compromise and service disruptions.",
+        "affected": [
+          "nginx"
+        ],
+        "action": "Update nginx to the latest patched version provided by your vendor.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-42533"
+        ],
         "source": "ai"
       }
     },
@@ -1782,32 +1906,6 @@
       }
     },
     {
-      "title": "Kiteworks Acquires Bonfy.AI to Fill the AI Gap in Data Governance",
-      "link": "https://www.securityweek.com/kiteworks-acquires-bonfy-ai-to-fill-the-ai-gap-in-data-governance/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-09-11T10:56:16.000Z",
-      "summary": "Financials have not been disclosed, but the estimated cost is in the tens of millions of dollars.\nThe post Kiteworks Acquires Bonfy.AI to Fill the AI Gap in Data Governance appeared first on SecurityWeek.",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Kiteworks has acquired Bonfy.AI to address artificial intelligence gaps in its data governance offerings. The financial terms of the acquisition were not disclosed, though estimates suggest the cost is in the tens of millions of dollars.",
-        "whyItMatters": "This acquisition highlights the growing industry trend of integrating artificial intelligence to enhance data governance and security compliance.",
-        "affected": [],
-        "action": "Monitor Kiteworks and Bonfy.AI for upcoming product integration updates.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "AI agents exploited PaperCut flaws to breach 395 organizations",
       "link": "https://www.helpnetsecurity.com/2026/09/11/ai-agents-papercut-ng-mf-attack-campaign/",
       "source": "Help Net Security",
@@ -2029,66 +2127,6 @@
           "JFrog Artifactory"
         ],
         "action": "Update self-hosted JFrog Artifactory servers to the latest patched versions immediately.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "China-Linked UNC3569 Exploited Sogou Input Method Flaw to Deploy GRAYRABBIT Backdoor",
-      "link": "https://thehackernews.com/2026/09/china-linked-unc3569-exploited-sogou.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-11T07:14:09.000Z",
-      "summary": "A China-linked hacking group exploited a flaw in Sogou Input Method, one of the most widely used tools for typing Chinese characters on Windows, to install a backdoor on victims' computers, security company Gen Digital s",
-      "categories": [
-        "Malware",
-        "Vulnerability"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A China-linked hacking group known as UNC3569 exploited a security flaw in the widely used Sogou Input Method for Windows. The attackers leveraged this vulnerability to silently install the GRAYRABBIT backdoor on compromised computers.",
-        "whyItMatters": "This campaign weaponized a popular typing utility to compromise systems, highlighting the risk of supply chain and software feature abuse by advanced threat actors.",
-        "affected": [
-          "Sogou Input Method"
-        ],
-        "action": "Update the Sogou Input Method to the latest patched version immediately.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "PaperCut Replaces Emergency Patches With Fixes for Two Actively Exploited Flaws",
-      "link": "https://thehackernews.com/2026/09/papercut-replaces-emergency-patches.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-11T06:46:18.000Z",
-      "summary": "PaperCut on Thursday released a new security maintenance release that replaces all previously published emergency patches that were pushed to address two security flaws that have come under active exploitation.\n\nThe soft",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "PaperCut has released a new security maintenance release to replace emergency patches previously deployed for two actively exploited flaws. This update aims to fully resolve the vulnerabilities currently being leveraged in the wild.",
-        "whyItMatters": "Actively exploited flaws pose an immediate threat to organizations utilizing the software, making rapid deployment of the official fix critical to prevent compromise.",
-        "affected": [
-          "PaperCut"
-        ],
-        "action": "Apply the new security maintenance release immediately.",
         "risk": "Critical",
         "relatedCves": [],
         "source": "ai"
@@ -5733,34 +5771,6 @@
         ],
         "action": "No action required; informational.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "DSA-6488-1 jbig2dec - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00399.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-09-07T00:00:00.000Z",
-      "summary": "It was discovered that missing input sanitising in the JBIG2 decoder\nlibrary could result in denial of service.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6488-1",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "It was discovered that missing input sanitising in the JBIG2 decoder\nlibrary could result in denial of service.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6488-1",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
