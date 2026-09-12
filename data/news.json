@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T16:17:32.370Z",
+  "updatedAt": "2026-09-12T19:18:15.570Z",
   "items": [
     {
       "title": "Google Doc Sidebar Sends Mac and Windows Users Down Different Paths to Malware",
@@ -25,6 +25,37 @@
         "affected": [],
         "action": "Do not interact with unexpected Google Doc links received via social media.",
         "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
+      "link": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-12T15:54:45.000Z",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added five security flaws impacting JFrog Artifactory, ConnectWise ScreenConnect, and MikroTik RouterOS to its Known Exploited Vulnerabilities (KEV) ca",
+      "categories": [
+        "Vulnerability",
+        "Government"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "CISA has added five actively exploited security flaws impacting JFrog Artifactory, ConnectWise ScreenConnect, and MikroTik RouterOS to its Known Exploited Vulnerabilities catalog. These vulnerabilities are currently being actively targeted in the wild.",
+        "whyItMatters": "Active exploitation of these flaws poses an immediate threat to organizations using the affected software and hardware.",
+        "affected": [
+          "JFrog Artifactory",
+          "ConnectWise ScreenConnect",
+          "MikroTik RouterOS"
+        ],
+        "action": "Review the CISA KEV catalog and apply the necessary patches immediately.",
+        "risk": "Critical",
         "relatedCves": [],
         "source": "ai"
       }
@@ -2106,34 +2137,6 @@
         "affected": [],
         "action": "Implement the new Mitigation Worklet Pipeline to reduce endpoint exposure.",
         "risk": "Medium",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Attackers Chain JFrog Artifactory Flaws to Gain Admin Control and Plant Backdoors",
-      "link": "https://thehackernews.com/2026/09/attackers-chain-jfrog-artifactory-flaws.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-11T07:31:05.000Z",
-      "summary": "Attackers have chained two flaws in JFrog Artifactory, the repository that software build pipelines pull from, to take administrator control of self-hosted servers and plant backdoors, cloud security company Wiz said in ",
-      "categories": [
-        "Cloud"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Attackers have successfully chained two distinct vulnerabilities in JFrog Artifactory to gain full administrator control over self-hosted servers. This sophisticated exploit enables malicious actors to plant backdoors directly within the software build pipeline repository.",
-        "whyItMatters": "Because Artifactory is a core component of software build pipelines, compromising it allows attackers to inject malicious code into software supply chains at the source.",
-        "affected": [
-          "JFrog Artifactory"
-        ],
-        "action": "Update self-hosted JFrog Artifactory servers to the latest patched versions immediately.",
-        "risk": "Critical",
         "relatedCves": [],
         "source": "ai"
       }
