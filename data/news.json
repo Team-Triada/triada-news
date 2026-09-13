@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T14:22:11.035Z",
+  "updatedAt": "2026-09-13T18:10:28.696Z",
   "items": [
     {
       "title": "Google Doc Sidebar Sends Mac and Windows Users Down Different Paths to Malware",
@@ -26,6 +26,42 @@
         "action": "Do not interact with unexpected Google Doc links received via social media.",
         "risk": "High",
         "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Hackers exploit Tencent app flaw to deploy GrayRabbit malware",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-09-13T14:26:32.000Z",
+      "summary": "Threat actors linked to a China-aligned espionage group are exploiting a critical vulnerability (CVE-2026-51990) in Tencent's Sogou Input Method for Windows to deploy the GrayRabbit backdoor. [...]",
+      "categories": [
+        "Malware",
+        "Vulnerability",
+        "Threat Intel"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [
+        "CVE-2026-51990"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Threat actors linked to a China-aligned espionage group are actively exploiting a critical vulnerability in Tencent's Sogou Input Method for Windows. This flaw allows attackers to deploy the GrayRabbit backdoor and conduct cyber espionage operations.",
+        "whyItMatters": "It threatens Windows systems globally by leveraging a trusted application to execute unauthenticated malware.",
+        "affected": [
+          "Tencent Sogou Input Method for Windows"
+        ],
+        "action": "Update Tencent Sogou Input Method for Windows immediately.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-51990"
+        ],
         "source": "ai"
       }
     },
@@ -2080,37 +2116,6 @@
         ],
         "action": "Patch PaperCut software immediately.",
         "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Microsoft fixes Teams, Outlook launch failures on ARM Windows PCs",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-teams-outlook-launch-failures-on-arm-windows-pcs/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-09-11T09:39:37.000Z",
-      "summary": "Microsoft has fixed a bug that prevented Teams and Outlook from launching on ARM-based Windows devices after installing updates released since the August 2026 Patch Tuesday. [...]",
-      "categories": [
-        "News"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has resolved a bug that prevented Teams and Outlook from launching on ARM-based Windows devices. The issue was triggered by updates released since the August 2026 Patch Tuesday.",
-        "whyItMatters": "Users of ARM-based Windows PCs were unable to launch critical productivity applications like Teams and Outlook following recent updates.",
-        "affected": [
-          "Microsoft Teams on ARM Windows",
-          "Microsoft Outlook on ARM Windows"
-        ],
-        "action": "Install the latest updates provided by Microsoft to restore application functionality.",
-        "risk": "Medium",
         "relatedCves": [],
         "source": "ai"
       }
