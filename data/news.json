@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T01:26:23.223Z",
+  "updatedAt": "2026-09-15T07:42:04.941Z",
   "items": [
     {
       "title": "Google Doc Sidebar Sends Mac and Windows Users Down Different Paths to Malware",
@@ -25,6 +25,343 @@
         "affected": [],
         "action": "Do not interact with unexpected Google Doc links received via social media.",
         "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Cisco patches Secure Email Gateway zero-day exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/new-cisco-secure-email-zero-day-exploited-to-execute-commands-as-root/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-09-15T07:31:09.000Z",
+      "summary": "Cisco warned customers to patch a critical Secure Email Gateway zero-day security flaw that threat actors have been exploiting in attacks. [...]",
+      "categories": [
+        "Zero Day",
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Cisco"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Cisco has issued an urgent warning and patches for a critical zero-day vulnerability in its Secure Email Gateway. Active exploitation of this security flaw by threat actors has been detected in the wild.",
+        "whyItMatters": "This vulnerability allows attackers to compromise email gateway appliances, which are critical perimeter defenses for enterprise networks.",
+        "affected": [
+          "Cisco Secure Email Gateway"
+        ],
+        "action": "Apply the available security patches immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "注意喚起: Cisco Secure Email GatewayにおけるSQLインジェクションの脆弱性（CVE-2026-76461）に関する注意喚起 (公開)",
+      "link": "https://www.jpcert.or.jp/at/2026/at260027.html",
+      "source": "JPCERT/CC",
+      "publishedAt": "2026-09-15T06:42:00.000Z",
+      "summary": "注意喚起: Cisco Secure Email GatewayにおけるSQLインジェクションの脆弱性（CVE-2026-76461）に関する注意喚起  (公開)",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Cisco"
+      ],
+      "cves": [
+        "CVE-2026-76461"
+      ],
+      "kev": true,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "An advisory has been issued regarding a SQL injection vulnerability in Cisco Secure Email Gateway. The issue is tracked under CVE-2026-76461.",
+        "whyItMatters": "SQL injection vulnerabilities can allow attackers to manipulate database queries and potentially compromise the affected system.",
+        "affected": [
+          "Cisco Secure Email Gateway"
+        ],
+        "action": "Apply the official security updates provided by Cisco.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-76461"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Cisco Secure Email Gateway Flaw Exploited in the Wild, Enables Root Command Execution",
+      "link": "https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-15T06:11:11.000Z",
+      "summary": "Cisco has warned that a new critical vulnerability impacting AsyncOS Software for Cisco Secure Email Gateway has come under active exploitation in the wild.\n\nThe vulnerability, tracked as CVE-2026-76461, carries a CVSS s",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [
+        "Cisco"
+      ],
+      "cves": [
+        "CVE-2026-76461"
+      ],
+      "kev": true,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Cisco has issued a warning regarding a critical vulnerability in AsyncOS Software for Cisco Secure Email Gateway that is currently being exploited in the wild. The flaw enables root command execution on affected systems.",
+        "whyItMatters": "It allows unauthenticated attackers to achieve complete system compromise through root command execution.",
+        "affected": [
+          "Cisco Secure Email Gateway (AsyncOS Software)"
+        ],
+        "action": "Apply the vendor security updates immediately.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-76461"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE",
+      "link": "https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-15T05:31:05.000Z",
+      "summary": "A Chinese threat actor has been attributed to a spear-phishing campaign that exploits recently patched security flaws in Google Chrome and Microsoft Windows to deliver a malicious JavaScript backdoor called GRIMWEDGE.\n\nV",
+      "categories": [
+        "Zero Day",
+        "Malware",
+        "Vulnerability",
+        "Threat Intel",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Windows",
+        "Chrome"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A China-linked threat actor has targeted users with a spear-phishing campaign leveraging zero-day vulnerabilities in Google Chrome and Microsoft Windows. The attacks successfully delivered a malicious JavaScript backdoor known as GRIMWEDGE.",
+        "whyItMatters": "This campaign demonstrates advanced threat actors rapidly weaponizing browser and operating system zero-day flaws to deploy persistent backdoors via spear-phishing.",
+        "affected": [
+          "Google Chrome",
+          "Microsoft Windows"
+        ],
+        "action": "Apply the latest security patches for Google Chrome and Microsoft Windows immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Product showcase: mSecure makes one vault do more than remember passwords",
+      "link": "https://www.helpnetsecurity.com/2026/09/15/product-showcase-msecure-password-manager/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-09-15T05:30:02.000Z",
+      "summary": "mSecure is a password manager and data vault for storing credentials and other sensitive information. It is available for iOS, Android, macOS, and Windows, with data synchronization across supported devices. The app uses",
+      "categories": [
+        "News"
+      ],
+      "tags": [
+        "Windows",
+        "macOS",
+        "Android"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "This article is a product showcase highlighting the features of mSecure, a password manager and data vault application. It notes that the app allows users to securely store credentials and sensitive information across iOS, Android, macOS, and Windows devices.",
+        "whyItMatters": "This is a promotional review of a commercial software product rather than a cybersecurity threat or vulnerability disclosure.",
+        "affected": [
+          "mSecure iOS",
+          "mSecure Android",
+          "mSecure macOS",
+          "mSecure Windows"
+        ],
+        "action": "Ignore this promotional article.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Root RCE Zero-Day in Cisco Secure Email Gateway Under Active Exploitation",
+      "link": "https://www.securityweek.com/root-rce-zero-day-in-cisco-secure-email-gateway-under-active-exploitation/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-09-15T05:18:51.000Z",
+      "summary": "An unauthenticated attacker can exploit CVE-2026-76461 to execute arbitrary commands on the underlying OS with root privileges.\nThe post Root RCE Zero-Day in Cisco Secure Email Gateway Under Active Exploitation appeared ",
+      "categories": [
+        "Zero Day",
+        "Vulnerability"
+      ],
+      "tags": [
+        "Cisco"
+      ],
+      "cves": [
+        "CVE-2026-76461"
+      ],
+      "kev": true,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "An unauthenticated zero-day vulnerability, tracked as CVE-2026-76461, has been discovered in the Cisco Secure Email Gateway. This flaw allows attackers to execute arbitrary commands with root privileges on the underlying operating system.",
+        "whyItMatters": "This vulnerability is under active exploitation, posing an immediate and critical risk of full system compromise for affected networks.",
+        "affected": [
+          "Cisco Secure Email Gateway"
+        ],
+        "action": "Apply available security patches or mitigation steps immediately.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-76461"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Your employees are already using AI tools you never approved",
+      "link": "https://www.helpnetsecurity.com/2026/09/15/onetrust-enterprise-ai-governance-trends-report/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-09-15T05:00:19.000Z",
+      "summary": "Seventy-four percent of respondents report departmental or scaled AI adoption at their organizations, including within individual teams or departments, across business functions, and as part of processes and operations, ",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Seventy-four percent of surveyed organizations report that employees are utilizing unapproved artificial intelligence tools across various departments and business processes. This widespread shadow AI adoption occurs without official oversight or security vetting from IT departments.",
+        "whyItMatters": "Unapproved AI usage introduces significant security risks regarding data leakage, compliance violations, and lack of visibility into corporate data handling.",
+        "affected": [],
+        "action": "Implement a discovery process to identify shadow AI usage and establish clear policies for safe tool adoption.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "The latest AI doomsayer is China’s intelligence boss",
+      "link": "https://www.theregister.com/ai-and-ml/2026/09/15/the-latest-ai-doomsayer-is-chinas-intelligence-boss/5296451",
+      "source": "The Register",
+      "publishedAt": "2026-09-15T04:56:09.000Z",
+      "summary": "Beijing’s response is to ‘firmly grasp technological sovereignty’ and broad regulations",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "China's intelligence chief has emerged as a new voice warning about the risks associated with artificial intelligence. In response, Beijing is focusing on securing technological sovereignty and implementing broad regulatory measures.",
+        "whyItMatters": "It highlights how geopolitical competition and national security concerns are increasingly shaping global artificial intelligence governance and regulation.",
+        "affected": [],
+        "action": "Monitor geopolitical developments regarding artificial intelligence regulations.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Most chief audit executives can’t tell you what AI is worth yet",
+      "link": "https://www.helpnetsecurity.com/2026/09/15/gartner-ai-in-internal-audit/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-09-15T04:30:42.000Z",
+      "summary": "Auditors are using AI in their daily work, and their departments have mostly left them to figure it out alone. 93% of audit leaders and auditors report some level of AI use, while 15% say their department has deployed fo",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Most audit professionals are utilizing artificial intelligence in their daily work while largely lacking formal departmental guidance or deployment. Consequently, chief audit executives are struggling to determine and measure the true value of these tools.",
+        "whyItMatters": "Unregulated and unmeasured AI usage in critical auditing processes can introduce unseen operational and compliance risks.",
+        "affected": [],
+        "action": "Establish formal departmental policies and value-tracking frameworks for AI usage.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "ISC Stormcast For Tuesday, September 15th, 2026 (Tue, Sep 15th)",
+      "link": "https://isc.sans.edu/diary/rss/33338",
+      "source": "SANS ISC",
+      "publishedAt": "2026-09-15T02:25:12.000Z",
+      "summary": "ISC Stormcast For Tuesday, September 15th, 2026 https://isc.sans.edu/podcastdetail/10094, (Tue, Sep 15th)",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "This SANS Internet Storm Center podcast episode provides a daily cybersecurity threat briefing and analysis for September 15th, 2026. The episode covers current operational security developments and ongoing internet storm observations.",
+        "whyItMatters": "Staying informed about daily threat intelligence helps security professionals anticipate emerging vulnerabilities and attack trends.",
+        "affected": [],
+        "action": "Listen to the podcast episode for the latest threat briefings.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Supreme Court denies Trump request to allow USPS mail ballot changes",
+      "link": "https://cyberscoop.com/supreme-court-denies-trump-usps-mail-ballot-changes/",
+      "source": "CyberScoop",
+      "publishedAt": "2026-09-15T02:15:47.000Z",
+      "summary": "One justice said the attempt to change the rules ahead of the 2026 elections would be \"arbitrary and capricious” and violated the Administrative Procedures Act.\nThe post Supreme Court denies Trump request to allow USPS m",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The Supreme Court has rejected a request by Trump to permit changes to USPS mail ballots for the 2026 elections. A justice stated that the attempt was arbitrary, capricious, and violated the Administrative Procedures Act.",
+        "whyItMatters": "This news involves legal rulings on election rules and postal voting procedures rather than a cybersecurity threat or software vulnerability.",
+        "affected": [],
+        "action": "Monitor legal developments regarding election and mail-in voting regulations.",
+        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
@@ -1590,34 +1927,6 @@
       }
     },
     {
-      "title": "Dataminr uses agentic AI to predict and verify security threats",
-      "link": "https://www.helpnetsecurity.com/2026/09/14/dataminr-uses-agentic-ai-to-predict-and-verify-security-threats/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-09-14T13:25:25.000Z",
-      "summary": "Dataminr has announced Dataminr Advanced for Corporate Security, delivering agentic AI capabilities that give corporate security teams the confidence to protect their people, sites, and operations before risk escalates. ",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Dataminr has announced Dataminr Advanced for Corporate Security, delivering agentic AI capabilities that give corporate security teams the confidence to protect their people, sites, and operations before risk escalates.",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "USN-8757-1: cgit vulnerability",
       "link": "https://ubuntu.com/security/notices/USN-8757-1",
       "source": "Canonical Ubuntu Security",
@@ -1875,32 +2184,6 @@
       }
     },
     {
-      "title": "ENISA launched the CRA Single Reporting Platform for actively exploited vulnerabilities",
-      "link": "https://www.helpnetsecurity.com/2026/09/14/enisa-cra-single-reporting-platform/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-09-14T12:23:42.000Z",
-      "summary": "The EU Agency for Cybersecurity switched on the Cyber Resilience Act‘s Single Reporting Platform on 11 September 2026, the same day the law’s reporting obligations started binding manufacturers. ENISA built the tool and ",
-      "categories": [
-        "Vulnerability"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "ENISA launched the Cyber Resilience Act Single Reporting Platform on September 11, 2026. This release coincides with the exact date that the law's new reporting obligations became binding for manufacturers.",
-        "whyItMatters": "It provides a centralized mechanism for manufacturers to comply with mandatory EU cybersecurity vulnerability reporting obligations.",
-        "affected": [],
-        "action": "Review the new reporting platform guidelines to ensure compliance.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "14th September – Threat Intelligence Report",
       "link": "https://research.checkpoint.com/2026/14th-september-threat-intelligence-report/",
       "source": "Check Point Research",
@@ -1921,34 +2204,6 @@
         "whyItMatters": "Data breaches at identity verification providers expose sensitive personal information that can be leveraged for identity theft and subsequent fraud.",
         "affected": [],
         "action": "Review the full threat intelligence bulletin for specific details and mitigation advice.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Webinar: How malicious OAuth apps can lead to Google Workspace breaches",
-      "link": "https://www.bleepingcomputer.com/news/security/webinar-how-malicious-oauth-apps-can-lead-to-google-workspace-breaches/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-09-14T12:15:23.000Z",
-      "summary": "Attackers can combine social engineering with malicious OAuth applications to gain access to Google Workspace data without relying solely on stolen passwords. This webinar examines two attacks to show how these breaches ",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Attackers are combining social engineering with malicious OAuth applications to compromise Google Workspace data. The technique allows unauthorized access without requiring traditional stolen passwords.",
-        "whyItMatters": "It highlights a sophisticated attack vector that bypasses standard credential-based security controls in enterprise environments.",
-        "affected": [
-          "Google Workspace"
-        ],
-        "action": "Audit and restrict third-party OAuth application permissions within your organization.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -2015,33 +2270,6 @@
         "relatedCves": [
           "CVE-2026-76461"
         ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "AI Changed the Exposure Problem. Validation Needs to Change With It.",
-      "link": "https://thehackernews.com/2026/09/ai-changed-exposure-problem-validation.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-14T11:58:00.000Z",
-      "summary": "There's a lot of noise around AI and cybersecurity right now. What’s actually important is far simpler, if often lost in the hubbub. Vulnerability discovery is getting faster and happening at a much greater scale, while ",
-      "categories": [
-        "Vulnerability",
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "AI is accelerating the speed and scale of vulnerability discovery in cybersecurity. This shift means traditional security validation methods must evolve to keep pace with AI-driven exposures.",
-        "whyItMatters": "Faster vulnerability discovery increases the exposure window for organizations, requiring modernized validation to prevent exploitation.",
-        "affected": [],
-        "action": "Modernize vulnerability validation processes to keep pace with AI-driven discovery.",
-        "risk": "News",
-        "relatedCves": [],
         "source": "ai"
       }
     },
@@ -2186,32 +2414,6 @@
         ],
         "action": "Install the security update tomorrow.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Airrived adds Agentic Observability to track AI agent actions and risks",
-      "link": "https://www.helpnetsecurity.com/2026/09/14/airrived-agentic-observability-expansion/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-09-14T10:51:32.000Z",
-      "summary": "Airrived will reveal Agentic Observability, a major expansion of its enterprise Agentic OS built to give organizations end-to-end visibility into how AI agents behave, from the moment enterprise data enters the platform,",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Airrived is expanding its enterprise Agentic OS with a new Agentic Observability feature. This tool is designed to provide organizations with end-to-end visibility into AI agent behavior and associated risks from data ingestion.",
-        "whyItMatters": "It matters because as enterprises adopt AI agents, tracking their actions and managing risks is critical for security and compliance.",
-        "affected": [],
-        "action": "Evaluate the new observability tools for your AI agent deployments.",
-        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
@@ -2363,35 +2565,6 @@
       }
     },
     {
-      "title": "Three JFrog Artifactory Flaws Exploited for Backdoor Deployment",
-      "link": "https://www.securityweek.com/three-jfrog-artifactory-flaws-exploited-for-backdoor-deployment/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-09-14T09:27:29.000Z",
-      "summary": "The vulnerabilities can allow attackers to bypass authentication and elevate their privileges to administrator.\nThe post Three JFrog Artifactory Flaws Exploited for Backdoor Deployment appeared first on SecurityWeek.",
-      "categories": [
-        "Malware",
-        "Vulnerability"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Three vulnerabilities in JFrog Artifactory are being actively exploited by attackers in the wild. These flaws allow unauthorized individuals to bypass authentication mechanisms and escalate their privileges to administrator status.",
-        "whyItMatters": "This is critical because attackers can leverage administrative privileges and bypassed authentication to successfully deploy backdoors into victim environments.",
-        "affected": [
-          "JFrog Artifactory"
-        ],
-        "action": "Apply the latest security patches provided by JFrog immediately.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "UK.gov begins killing off passwords for 23 million users",
       "link": "https://www.theregister.com/security/2026/09/14/ukgov-begins-killing-off-passwords-for-23-million-users/5296088",
       "source": "The Register",
@@ -2443,34 +2616,6 @@
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
-      }
-    },
-    {
-      "title": "Malicious Twitch Browser Extension Leaks OAuth Tokens From Nearly 31,000 Users",
-      "link": "https://thehackernews.com/2026/09/malicious-twitch-browser-extension.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-14T07:24:39.000Z",
-      "summary": "A malicious cross-store Twitch browser extension has leaked OAuth tokens associated with nearly 31,000 users to proxy servers operated by a Russian commercial bot service.\n\nThe extension, named \"Twitch Enhanced Viewer | ",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A malicious cross-store Twitch browser extension has leaked OAuth tokens associated with nearly 31,000 users to proxy servers operated by a Russian commercial bot service.\n\nThe extension, named \"Twitch Enhanced Viewer |",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
       }
     },
     {
@@ -3356,32 +3501,6 @@
       }
     },
     {
-      "title": "Ukrainian lawyer's second career as a Conti coder earns him 4 years behind bars",
-      "link": "https://www.theregister.com/cyber-crime/2026/09/11/ukrainian-lawyers-second-career-as-a-conti-coder-earns-him-4-years-behind-bars/5295841",
-      "source": "The Register",
-      "publishedAt": "2026-09-11T12:15:00.000Z",
-      "summary": "Swapping legal work for malware development ended in extradition and a guilty plea",
-      "categories": [
-        "Malware"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A Ukrainian lawyer who transitioned into malware development for the Conti ransomware group has been sentenced to four years in prison following his extradition and guilty plea. This case highlights the legal consequences faced by cybercriminals involved with prominent ransomware syndicates.",
-        "whyItMatters": "It demonstrates international law enforcement's reach in prosecuting and sentencing individuals contributing to major ransomware operations like Conti.",
-        "affected": [],
-        "action": "Read the full report for details on the prosecution.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Android malware creates a hidden copy of your banking app",
       "link": "https://www.malwarebytes.com/blog/mobile/2026/09/android-malware-creates-a-hidden-copy-of-your-banking-app",
       "source": "Malwarebytes Labs",
@@ -3993,32 +4112,6 @@
         "affected": [],
         "action": "Update LLM safety filters to detect semantic prompt obfuscation techniques.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Governments ‘buying time’ in race between innovation, security, national cyber director says",
-      "link": "https://cyberscoop.com/national-cyber-director-ai-cybersecurity-threats/",
-      "source": "CyberScoop",
-      "publishedAt": "2026-09-10T13:53:55.000Z",
-      "summary": "Sean Cairncross also said AI has shown long-standing issues in cyber rather than creating new ones.\nThe post Governments ‘buying time’ in race between innovation, security, national cyber director says appeared first on ",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Governments are currently buying time in the ongoing race between technological innovation and cybersecurity, according to the national cyber director. Additionally, the official noted that artificial intelligence has primarily highlighted long-standing cybersecurity issues rather than generating entirely new ones.",
-        "whyItMatters": "This perspective from leadership highlights systemic cybersecurity challenges and the temporary nature of current governmental defense strategies.",
-        "affected": [],
-        "action": "Monitor ongoing national cybersecurity policy developments and AI-related risk assessments.",
-        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
@@ -5150,32 +5243,6 @@
       }
     },
     {
-      "title": "ISC Stormcast For Wednesday, September 9th, 2026 (Wed, Sep 9th)",
-      "link": "https://isc.sans.edu/diary/rss/33322",
-      "source": "SANS ISC",
-      "publishedAt": "2026-09-09T02:00:02.000Z",
-      "summary": "ISC Stormcast For Wednesday, September 9th, 2026 https://isc.sans.edu/podcastdetail/10086, (Wed, Sep 9th)",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "This podcast episode from the Internet Storm Center provides daily cybersecurity threat briefings and analysis. It covers current vulnerabilities, active exploit trends, and general operational security advice for the day.",
-        "whyItMatters": "Staying informed on daily threat intelligence helps security professionals proactively defend against newly emerging attacks.",
-        "affected": [],
-        "action": "Listen to the podcast for the latest daily threat briefings.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Weekly Report: n8nに複数の脆弱性",
       "link": "https://www.jpcert.or.jp/wr/2026/wr260909.html#1",
       "source": "JPCERT/CC",
@@ -5843,35 +5910,6 @@
       "readTimeMin": 1,
       "aiSummary": {
         "summary": "CVSSv3 Score:\n \n 2.8\n\n\n An URL redirection to untrusted site ('open redirect') [CWE-601] vulnerability in FortiSIEM may allow an authenticated attacker to cause a redirection to any website via specially crafted HTTP req",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Unauthenticated Control of NAT Rules Leading to Exposure of Sensitive Information",
-      "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-166",
-      "source": "Fortinet PSIRT",
-      "publishedAt": "2026-09-08T07:00:00.000Z",
-      "summary": "CVSSv3 Score:\n \n 8.9\n\n\n An improper access control vulnerability [CWE-284] in FortiSandbox, FortiSandbox Cloud and FortiSandbox PaaS WEB UI may allow an unauthenticated attacker to access sensitive information via crafte",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CVSSv3 Score:\n \n 8.9\n\n\n An improper access control vulnerability [CWE-284] in FortiSandbox, FortiSandbox Cloud and FortiSandbox PaaS WEB UI may allow an unauthenticated attacker to access sensitive information via crafte",
         "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
         "affected": [
           "Not specified"
