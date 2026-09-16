@@ -1,6 +1,64 @@
 {
-  "updatedAt": "2026-09-15T21:18:25.783Z",
+  "updatedAt": "2026-09-16T00:16:35.317Z",
   "items": [
+    {
+      "title": "The vulnpocalypse rains iBugs down on Apple with record-setting number of patches",
+      "link": "https://www.theregister.com/security/2026/09/15/the-vulnpocalypse-rains-ibugs-down-on-apple-with-record-setting-number-of-patches/5296679",
+      "source": "The Register",
+      "publishedAt": "2026-09-15T21:38:31.000Z",
+      "summary": "September Patch Tuesday part 2?",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Apple"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Apple has released a record-setting number of patches to address numerous vulnerabilities. The updates follow a heavy patch cycle described as a vulnpocalypse.",
+        "whyItMatters": "Installing these patches is essential to protect Apple devices from potential exploitation of the newly addressed bugs.",
+        "affected": [],
+        "action": "Update Apple devices immediately.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Acronis warns of actively exploited flaw in its cPanel backup plugin",
+      "link": "https://www.bleepingcomputer.com/news/security/acronis-warns-of-actively-exploited-flaw-in-its-cpanel-backup-plugin/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-09-15T21:37:35.000Z",
+      "summary": "Acronis disclosed a high-severity Linux local privilege escalation vulnerability in its backup plugin for cPanel, WebHost Manager (WHM), and Plesk that may be exploited in the wild. [...]",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Acronis has disclosed a high-severity local privilege escalation vulnerability in its backup plugin for cPanel, WebHost Manager, and Plesk. The flaw is reportedly being actively exploited in the wild.",
+        "whyItMatters": "Attackers can exploit this actively targeted vulnerability to escalate privileges on vulnerable Linux servers.",
+        "affected": [
+          "Acronis backup plugin for cPanel, WebHost Manager (WHM), and Plesk"
+        ],
+        "action": "Update the Acronis backup plugin immediately to patch the vulnerability.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Cisco Integrated Management Controller Argument Injection Vulnerabilities",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cimc-arg-inject-upSHdMfU?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Integrated%20Management%20Controller%20Argument%20Injection%20Vulnerabilities%26vs_k=1",
@@ -2496,34 +2554,6 @@
       }
     },
     {
-      "title": "Microsoft confirms KB5002914 Excel update breaks copy and paste",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-kb5002914-security-update-breaks-excel-copy-and-paste/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-09-15T08:40:20.000Z",
-      "summary": "Microsoft has confirmed that copy and paste may silently fail for some Excel users after installing the September 2026 KB5002914 security update. [...]",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has confirmed that copy and paste may silently fail for some Excel users after installing the September 2026 KB5002914 security update. [...]",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Microsoft Releases Emergency Patch to Fix RDS Vulnerability",
       "link": "https://www.infosecurity-magazine.com/news/microsoft-releases-emergency-patch/",
       "source": "Infosecurity Magazine",
@@ -2728,6 +2758,35 @@
       }
     },
     {
+      "title": "DSA-6499-1 cjose - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00410.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-09-15T00:00:00.000Z",
+      "summary": "Two vulnerabilities were discovered in cjose, a C library implementing\nthe JOSE standard, which could result in denial of service, execution of\narbitrary code or plain text recovery in specific setups.\n\n\nhttps://security",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Two vulnerabilities have been discovered in the cjose C library that implement the JOSE standard. These flaws could potentially lead to denial of service, remote code execution, or plain text recovery under specific configurations.",
+        "whyItMatters": "Unpatched vulnerabilities in core cryptographic libraries like cjose can allow attackers to compromise systems through arbitrary code execution or plaintext exposure.",
+        "affected": [
+          "cjose"
+        ],
+        "action": "Apply the latest security update for cjose provided by your vendor.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "HBO Max Reddit account compromised to serve ClickFix attacks",
       "link": "https://www.theregister.com/cyber-crime/2026/09/14/hbo-max-reddit-account-compromised-to-serve-clickfix-attacks/5296408",
       "source": "The Register",
@@ -2903,34 +2962,6 @@
           "Apple Operating Systems"
         ],
         "action": "Update all Apple operating systems to the latest version immediately.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "New hardware device can RAM into encrypted memory, expose your data",
-      "link": "https://www.theregister.com/security/2026/09/14/new-hardware-device-can-ram-into-encrypted-memory-expose-your-data/5296377",
-      "source": "The Register",
-      "publishedAt": "2026-09-14T18:31:33.000Z",
-      "summary": "Attackers would need physical access to the server to pull off the DDR5 trick",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Researchers have demonstrated a new hardware-based attack technique targeting DDR5 memory to bypass encryption and expose sensitive data. This method requires attackers to have direct physical access to the target server to execute the exploit successfully.",
-        "whyItMatters": "It demonstrates a physical attack vector capable of compromising encrypted memory on modern DDR5 hardware, posing a severe risk for compromised or inadequately guarded data centers.",
-        "affected": [
-          "DDR5 memory hardware"
-        ],
-        "action": "Ensure physical security controls for all servers utilizing DDR5 memory to prevent unauthorized access.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -5369,35 +5400,6 @@
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6491-1 slurm-wlm - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00402.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-09-09T00:00:00.000Z",
-      "summary": "Several vulnerabilities were discovered in the Slurm Workload Manager, a\ncluster resource management and job scheduling system, which may result\nin privilege escalation, SQL injection in the accounting database,\ndeletion",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several vulnerabilities were discovered in the Slurm Workload Manager, a\ncluster resource management and job scheduling system, which may result\nin privilege escalation, SQL injection in the accounting database,\ndeletion",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
       }
     },
     {
