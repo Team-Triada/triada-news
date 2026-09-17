@@ -1,6 +1,60 @@
 {
-  "updatedAt": "2026-09-16T22:10:26.973Z",
+  "updatedAt": "2026-09-17T00:28:39.729Z",
   "items": [
+    {
+      "title": "Smashing Security podcast #485: These researchers got drunk to hack an LG TV",
+      "link": "https://grahamcluley.com/smashing-security-podcast-485/",
+      "source": "Graham Cluley",
+      "publishedAt": "2026-09-16T23:07:19.000Z",
+      "summary": "Researchers wanted to test if LG's smart TVs come with any security risks - but their lawyers noticed a snag: the terms and conditions would forbid it. So they came up with a solution. They got plastered before setting u",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Researchers sought to test LG smart TVs for security vulnerabilities but faced legal restrictions in the terms and conditions. To bypass these limitations, they consumed alcohol before beginning their investigation.",
+        "whyItMatters": "It highlights how restrictive terms of service can hinder independent security research into consumer electronics.",
+        "affected": [
+          "LG smart TVs"
+        ],
+        "action": "Review smart TV privacy and security settings.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "AI agents can modify themselves without humans telling them to do so",
+      "link": "https://www.theregister.com/security/2026/09/16/ai-agents-can-modify-themselves-without-humans-telling-them-to-do-so/5296991",
+      "source": "The Register",
+      "publishedAt": "2026-09-16T22:10:24.000Z",
+      "summary": "This is a test - it is only a test",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "This article is a test message regarding the self-modification capabilities of AI agents. No actual cybersecurity incident or vulnerability was reported.",
+        "whyItMatters": "It does not matter as the content is purely a test placeholder.",
+        "affected": [],
+        "action": "Ignore this test message.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "AI Security Spending Jumps as Fear Outpaces Proof of Value",
       "link": "https://www.darkreading.com/cybersecurity-operations/ai-security-spending-jumps-fear-outpaces-proof-value",
@@ -2561,6 +2615,121 @@
       }
     },
     {
+      "title": "DSA-6503-1 thunderbird - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00415.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "summary": "Multiple security issues were discovered in Thunderbird, which could\nresult in the execution of arbitrary code.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6503-1",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple security issues have been discovered in the Thunderbird email client. These vulnerabilities could potentially allow an attacker to execute arbitrary code on the affected system.",
+        "whyItMatters": "Unpatched remote code execution vulnerabilities in email clients pose a severe threat to user data and system integrity.",
+        "affected": [
+          "Thunderbird"
+        ],
+        "action": "Update Thunderbird to the latest security release provided by Debian.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6502-1 mkvtoolnix - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00414.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "summary": "A buffer overflow was found in the ODML parser of MKVToolNix, a set of\ncommand-line tools (and GUI) to work with Matroska files, which could\npotentially result in the execution of arbitrary code when processing\nmalformed",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A buffer overflow vulnerability has been discovered in the ODML parser of MKVToolNix. Processing malformed Matroska files could potentially lead to the execution of arbitrary code.",
+        "whyItMatters": "An attacker could exploit this flaw to execute arbitrary code on systems processing untrusted Matroska files.",
+        "affected": [
+          "mkvtoolnix"
+        ],
+        "action": "Update mkvtoolnix to the latest security release.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6501-1 firefox-esr - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00413.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "summary": "Multiple security issues have been found in the Mozilla Firefox web\nbrowser, which could potentially result in the execution of arbitrary\ncode, information disclosure or privilege escalation.\n\n\nhttps://security-tracker.d",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Firefox"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple security issues have been identified in the Mozilla Firefox ESR web browser. These vulnerabilities could potentially lead to arbitrary code execution, information disclosure, or privilege escalation.",
+        "whyItMatters": "Unpatched browser vulnerabilities can be exploited by attackers to compromise user systems and sensitive data.",
+        "affected": [
+          "firefox-esr"
+        ],
+        "action": "Update firefox-esr to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6500-1 tor - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00412.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "summary": "Multiple security vulnerabilities were discovered in Tor, a connection-\nbased low-latency anonymous communication system, would could result\nin denial of service.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6500-1",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple security vulnerabilities have been discovered in the Tor anonymous communication system. These flaws could potentially be exploited to cause a denial of service.",
+        "whyItMatters": "Unpatched denial of service vulnerabilities in Tor can disrupt anonymous communication and undermine network availability.",
+        "affected": [
+          "Tor"
+        ],
+        "action": "Update the Tor package to the latest security release.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "DSA-6496-2 nginx - regression update",
       "link": "https://lists.debian.org/debian-security-announce/2026/msg00411.html",
       "source": "Debian Security",
@@ -2725,36 +2894,6 @@
         "affected": [],
         "action": "Attend the Black Hat USA 2026 session or review the presentation materials when available.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Iranian spies hit Windows machines with Chosen Brick data-stealing malware",
-      "link": "https://www.theregister.com/security/2026/09/15/iranian-spies-hit-windows-machines-with-chosen-brick-data-stealing-malware/5296646",
-      "source": "The Register",
-      "publishedAt": "2026-09-15T18:01:57.000Z",
-      "summary": "'Enemies of the regime' on notice",
-      "categories": [
-        "Malware"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "Iranian threat actors are targeting Windows machines with a new data-stealing malware known as Chosen Brick. The campaign appears aimed at individuals and entities deemed enemies of the regime.",
-        "whyItMatters": "This campaign highlights the ongoing use of bespoke spyware by state-sponsored actors to target political dissidents and adversaries.",
-        "affected": [
-          "Microsoft Windows"
-        ],
-        "action": "Monitor endpoints for anomalous data exfiltration and investigate indicators of compromise associated with Chosen Brick malware.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -4372,42 +4511,6 @@
       }
     },
     {
-      "title": "DSA-6496-1 nginx - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00407.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-09-12T00:00:00.000Z",
-      "summary": "Multiple vulnerabilities were discovered in nginx, a high-performance web\nand reverse proxy server, which may result in denial of service, memory\ndisclosure or potentially the execution of arbitrary code.\n\nCVE-2026-42533",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory",
-        "Open Source"
-      ],
-      "tags": [
-        "Nginx"
-      ],
-      "cves": [
-        "CVE-2026-42533"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Multiple vulnerabilities have been discovered in the nginx web and reverse proxy server. These security flaws could potentially lead to denial of service, memory disclosure, or arbitrary code execution.",
-        "whyItMatters": "Unpatched vulnerabilities in widely used web servers like nginx expose critical infrastructure to system compromise and service disruptions.",
-        "affected": [
-          "nginx"
-        ],
-        "action": "Update nginx to the latest patched version provided by your vendor.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-42533"
-        ],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Friday Squid Blogging: Rotting Squid on a Beached California Boat",
       "link": "https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-rotting-squid-on-a-beached-california-boat.html",
       "source": "Schneier on Security",
@@ -4767,93 +4870,6 @@
         "affected": [],
         "action": "Listen to the podcast for the latest daily threat intelligence updates.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6495-1 spip - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00406.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-09-11T00:00:00.000Z",
-      "summary": "Several vulnerabilities were discovered in SPIP, a website engine for\npublishing, which could result in unauthenticated remote code execution.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6495-1",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Debian has issued a security advisory (DSA-6495-1) for SPIP, addressing multiple vulnerabilities in the website publishing engine. These flaws could potentially allow unauthenticated remote code execution on affected systems.",
-        "whyItMatters": "Unauthenticated remote code execution is a severe vulnerability that allows attackers to take complete control of a target server without needing credentials.",
-        "affected": [
-          "SPIP"
-        ],
-        "action": "Update SPIP to the latest patched version immediately.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6494-1 kamailio - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00405.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-09-11T00:00:00.000Z",
-      "summary": "Multiple security vulnerabilities were discovered in the Kamailio SIP\nserver, which could result in denial of service.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6494-1",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Multiple security vulnerabilities have been discovered in the Kamailio SIP server. These flaws could potentially be exploited to cause a denial of service.",
-        "whyItMatters": "Unpatched denial of service vulnerabilities in SIP servers can lead to critical communication outages for voice and messaging infrastructure.",
-        "affected": [
-          "Kamailio SIP server"
-        ],
-        "action": "Apply the security update provided by your distribution.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6493-1 libevent - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00404.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-09-11T00:00:00.000Z",
-      "summary": "Several vulnerabilities were discovered in libevent, an asynchronous event\nnotification library.\n\nThe HTTP implementation (evhttp) handled Transfer-Encoding and\nContent-Length headers, chunked-encoding line terminators, ",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several vulnerabilities were discovered in libevent, an asynchronous event notification library. The issues affect the HTTP implementation (evhttp) handling of headers and encodings.",
-        "whyItMatters": "Unpatched vulnerabilities in foundational libraries like libevent can expose dependent applications to remote exploitation or denial of service.",
-        "affected": [
-          "libevent"
-        ],
-        "action": "Update libevent to the latest patched version provided by your distributor.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -5807,34 +5823,6 @@
         "risk": "Medium",
         "relatedCves": [],
         "source": "ai"
-      }
-    },
-    {
-      "title": "VU#718077: UEFI Shell module embedded in SPI Flash can be used to bypass Secure Boot",
-      "link": "https://kb.cert.org/vuls/id/718077",
-      "source": "CERT/CC",
-      "publishedAt": "2026-09-08T15:05:58.342Z",
-      "summary": "Overview\nThe UEFI Shell program may expose raw memory access capabilities that, if present in platform firmware for debugging or advanced support use cases, could be abused to undermine UEFI Secure Boot protections. When",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Overview\nThe UEFI Shell program may expose raw memory access capabilities that, if present in platform firmware for debugging or advanced support use cases, could be abused to undermine UEFI Secure Boot protections. When",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
       }
     }
   ]
