@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T20:20:50.895Z",
+  "updatedAt": "2026-09-17T23:34:30.335Z",
   "items": [
     {
       "title": "[Virtual Event] Cybersecurity Outlook 2027",
@@ -22,6 +22,239 @@
         "whyItMatters": "It offers visibility into future cybersecurity outlooks and industry predictions.",
         "affected": [],
         "action": "Register for the virtual event if interested in future cybersecurity outlooks.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "AI coding agents' 0-click RCE flaw could hand attackers keys to the kingdom",
+      "link": "https://www.theregister.com/security/2026/09/17/ai-coding-agents-0-click-rce-flaw-could-hand-attackers-keys-to-the-kingdom/5297335",
+      "source": "The Register",
+      "publishedAt": "2026-09-17T22:42:29.000Z",
+      "summary": "Plugin4Shell attack affects all the major coding agents, researchers say",
+      "categories": [
+        "Vulnerability",
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Researchers have discovered a zero-click remote code execution vulnerability named Plugin4Shell affecting all major AI coding agents. This flaw could allow malicious actors to completely compromise affected development environments and systems.",
+        "whyItMatters": "It grants attackers complete control over developer systems simply by exploiting the widely used AI coding agents.",
+        "affected": [],
+        "action": "Update all AI coding agents immediately once patches are available.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8779-2: Bubblewrap regression",
+      "link": "https://ubuntu.com/security/notices/USN-8779-2",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-09-17T22:20:14.000Z",
+      "summary": "USN-8779-1 fixed vulnerabilities in Bubblewrap. Unfortunately, the fix for\nCVE-2026-87766 introduced a regression in symlink resolution, preventing\ncertain Flatpak applications from launching. This update reverts that fi",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-87766"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A recent security update for Bubblewrap introduced a regression in symlink resolution that prevents certain Flatpak applications from launching. This advisory announces a new update that reverts the problematic fix.",
+        "whyItMatters": "The regression broke core functionality for users running affected Flatpak applications.",
+        "affected": [
+          "Bubblewrap",
+          "Flatpak"
+        ],
+        "action": "Apply the latest Bubblewrap update to restore application functionality.",
+        "risk": "Medium",
+        "relatedCves": [
+          "CVE-2026-87766"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Inside the Modern SOC: Defending the Cross-Environment Pivot",
+      "link": "https://unit42.paloaltonetworks.com/soc-cross-environment-pivot/",
+      "source": "Unit 42",
+      "publishedAt": "2026-09-17T22:00:33.000Z",
+      "summary": "Cross-environment attacks demand a new approach to security operations. Learn how Unit 42 Managed XSIAM helps SOC teams investigate complete attack paths.\nThe post Inside the Modern SOC: Defending the Cross-Environment P",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "This article discusses the challenges of cross-environment attacks and how modern Security Operations Centers must adapt. It highlights Unit 42 Managed XSIAM as a solution for investigating complete attack paths.",
+        "whyItMatters": "Security teams need advanced tools to effectively investigate and defend against complex multi-environment cyber threats.",
+        "affected": [],
+        "action": "Review the Unit 42 Managed XSIAM offering to improve cross-environment threat visibility.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "New RatHat Android malware uses AI to automate device control",
+      "link": "https://www.bleepingcomputer.com/news/security/new-rathat-android-malware-uses-ai-to-automate-device-control/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-09-17T21:50:26.000Z",
+      "summary": "A new Android malware called RatHat has been discovered, targeting users with an AI-powered subsystem that helps operators remotely navigate compromised devices. [...]",
+      "categories": [
+        "Malware",
+        "Incident Response",
+        "AI Security"
+      ],
+      "tags": [
+        "Android"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A new Android malware named RatHat has been discovered targeting mobile users. It features an AI-powered subsystem that helps operators remotely navigate compromised devices.",
+        "whyItMatters": "This malware lowers the technical barrier for attackers by using artificial intelligence to automate device control and navigation.",
+        "affected": [
+          "Android devices"
+        ],
+        "action": "Ensure your Android device is updated and avoid downloading apps from untrusted sources.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CISA Ditches Weekly Vulnerability Roundups for Risk-Based Focus",
+      "link": "https://www.darkreading.com/cyber-risk/cisa-ditches-weekly-vuln-roundups-risk-based-focus",
+      "source": "Dark Reading",
+      "publishedAt": "2026-09-17T21:23:50.000Z",
+      "summary": "The move is consistent with the agency's advice on the need for organizations to prioritize the vulnerabilities that actually matter.",
+      "categories": [
+        "Vulnerability",
+        "Government"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "CISA has discontinued its traditional weekly vulnerability roundups in favor of a new risk-based prioritization approach. This shift aligns with the agency's ongoing guidance for organizations to focus remediation efforts on vulnerabilities that pose actual exploitation risks.",
+        "whyItMatters": "It changes how the cybersecurity community receives and processes official vulnerability guidance from CISA.",
+        "affected": [],
+        "action": "Adopt risk-based prioritization models for vulnerability management.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Cisco IOS XR Software Security Hardening Release: September 2026",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxr-qg64NcM?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20IOS%20XR%20Software%20Security%20Hardening%20Release:%20September%202026%26vs_k=1",
+      "source": "Cisco PSIRT",
+      "publishedAt": "2026-09-17T21:13:28.000Z",
+      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco IOS XR Software engineering team has conducted a comprehensive internal security review. This review resulted in software hardeni",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Cisco"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Cisco has released a security hardening update for its IOS XR Software following an internal engineering review. The update aims to improve overall proactive security and product quality.",
+        "whyItMatters": "Security hardening updates are essential for fortifying network infrastructure against potential future exploits and unauthorized access.",
+        "affected": [
+          "Cisco IOS XR Software"
+        ],
+        "action": "Apply the latest Cisco IOS XR software hardening updates.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Cisco alerts customers to second actively exploited zero-day in as many days",
+      "link": "https://cyberscoop.com/cisco-ise-zero-day-cve-2026-76460/",
+      "source": "CyberScoop",
+      "publishedAt": "2026-09-17T21:03:42.000Z",
+      "summary": "The latest zero-day has a maximum-severity rating and affects Cisco Identity Services Engine, a product hit with three actively exploited vulnerabilities since June 2025.\nThe post Cisco alerts customers to second activel",
+      "categories": [
+        "Zero Day",
+        "Vulnerability"
+      ],
+      "tags": [
+        "Cisco"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Cisco has issued an alert regarding a second actively exploited zero-day vulnerability with a maximum-severity rating. This flaw affects the Cisco Identity Services Engine, marking the third actively exploited vulnerability for the product since June 2025.",
+        "whyItMatters": "Active exploitation of a maximum-severity zero-day in an identity services product poses a severe risk of unauthorized access and enterprise compromise.",
+        "affected": [
+          "Cisco Identity Services Engine"
+        ],
+        "action": "Apply the latest security patches provided by Cisco immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "European Commission set to push social media restrictions, safety requirements into law",
+      "link": "https://therecord.media/european-commission-set-to-push-social-media-kids-restrictions-into-law",
+      "source": "The Record",
+      "publishedAt": "2026-09-17T20:36:00.000Z",
+      "summary": "The proposal, known as the EU KIDS Act, would block social media platforms from offering accounts to children younger than 13 and establish a bloc-wide minimum age of 15 for account creation.",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The European Commission is proposing the EU KIDS Act to establish strict age restrictions and safety requirements for social media platforms. The legislation would block platforms from offering accounts to children under 13 and set a minimum age of 15 for independent account creation.",
+        "whyItMatters": "This regulation will force social media companies to implement stringent age verification and parental consent mechanisms across the European Union.",
+        "affected": [],
+        "action": "Monitor regulatory developments for compliance requirements.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -359,6 +592,95 @@
       }
     },
     {
+      "title": "China’s FamousSparrow hackers target Latin America with new backdoor",
+      "link": "https://therecord.media/china-hackers-latin-america-espionage",
+      "source": "The Record",
+      "publishedAt": "2026-09-17T16:30:00.000Z",
+      "summary": "Alleged Chinese hackers are breaking into government agencies across Latin America using a new backdoor that researchers are calling “SparroWocky.”",
+      "categories": [
+        "Malware",
+        "Government"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Chinese threat group FamousSparrow is targeting government agencies across Latin America using a previously unseen backdoor called SparroWocky. The campaign highlights ongoing espionage efforts by the threat actor against public sector targets.",
+        "whyItMatters": "It demonstrates the continued expansion and persistence of state-sponsored cyber espionage campaigns targeting government infrastructure in Latin America.",
+        "affected": [],
+        "action": "Monitor network traffic for indicators of compromise associated with the SparroWocky backdoor.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8780-1: libsoup vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8780-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-09-17T16:27:25.000Z",
+      "summary": "It was discovered that libsoup incorrectly handled certain URLs when\nusing an HTTP proxy. A remote attacker could possibly use this issue to\ninject arbitrary HTTP headers. (CVE-2026-1467)\n\nIt was discovered that libsoup ",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-1467"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Ubuntu Security Notice USN-8780-1 addresses vulnerabilities in libsoup where incorrect URL handling when using an HTTP proxy could allow a remote attacker to inject arbitrary HTTP headers. The advisory corresponds to CVE-2026-1467.",
+        "whyItMatters": "This vulnerability could allow malicious actors to perform HTTP header injection attacks, potentially compromising data integrity or application security.",
+        "affected": [
+          "libsoup"
+        ],
+        "action": "Update libsoup to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-1467"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8779-1: Bubblewrap vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8779-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-09-17T15:50:32.000Z",
+      "summary": "It was discovered that Bubblewrap incorrectly handled certain temporary\ndirectories. A local attacker could possibly use this issue to cause a\ndenial of service or execute arbitrary code. This issue only affected\nUbuntu ",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Bubblewrap contains vulnerabilities related to the incorrect handling of temporary directories. A local attacker could exploit these flaws to cause a denial of service or execute arbitrary code on the system.",
+        "whyItMatters": "This vulnerability allows local users to potentially execute arbitrary code or disrupt system services.",
+        "affected": [
+          "Ubuntu"
+        ],
+        "action": "Update Bubblewrap to the latest patched version provided by Ubuntu.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "OpenAI Says Its Models Searched GitHub for Leaked API Keys During Training",
       "link": "https://www.securityweek.com/openai-says-its-models-hunted-github-for-leaked-api-keys-during-training/",
       "source": "SecurityWeek",
@@ -659,150 +981,18 @@
       }
     },
     {
-      "title": "CVE-2026-69671 Microsoft Office Word Remote Code Execution Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69671",
+      "title": "CVE-2026-55946 Microsoft Copilot Information Disclosure Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-55946",
       "source": "Microsoft MSRC",
       "publishedAt": "2026-09-17T14:00:00.000Z",
-      "summary": "Microsoft is announcing the availability of the security updates for Microsoft Office for Mac. Customers running affected Mac software should install the update for their product to be protected from this vulnerability. ",
+      "summary": "Improper neutralization of special elements used in a command ('command injection') in Microsoft Copilot allows an unauthorized attacker to disclose information over a network.",
       "categories": [
         "Vulnerability",
         "Vendor Advisory"
       ],
       "tags": [],
       "cves": [
-        "CVE-2026-69671"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has released security updates to address a remote code execution vulnerability in Microsoft Office for Mac, designated as CVE-2026-69671. Users running the affected software must install the latest updates to secure their systems.",
-        "whyItMatters": "This vulnerability allows attackers to execute arbitrary code remotely, posing a significant threat to the security of affected Mac systems.",
-        "affected": [
-          "Microsoft Office for Mac"
-        ],
-        "action": "Install the security updates for Microsoft Office for Mac immediately.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-69671"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-69678 Microsoft Office PowerPoint Remote Code Execution Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69678",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-09-17T14:00:00.000Z",
-      "summary": "Microsoft is announcing the availability of the security updates for Microsoft Office for Mac. Customers running affected Mac software should install the update for their product to be protected from this vulnerability. ",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-69678"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has released security updates to address a remote code execution vulnerability in Microsoft Office for Mac. Users running the affected software are advised to apply the patch to maintain system security.",
-        "whyItMatters": "This vulnerability could allow attackers to execute arbitrary code remotely on vulnerable macOS systems running Microsoft Office.",
-        "affected": [
-          "Microsoft Office for Mac"
-        ],
-        "action": "Install the security update for your Microsoft Office for Mac product immediately.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-69678"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-69686 Microsoft Office Word Remote Code Execution Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69686",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-09-17T14:00:00.000Z",
-      "summary": "Microsoft is announcing the availability of the security updates for Microsoft Office for Mac. Customers running affected Mac software should install the update for their product to be protected from this vulnerability. ",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-69686"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has released security updates to address a remote code execution vulnerability affecting Microsoft Office for Mac, designated as CVE-2026-69686. Users running the vulnerable software must install the latest patches to secure their systems.",
-        "whyItMatters": "This vulnerability allows attackers to execute arbitrary code remotely, potentially leading to a full system compromise of affected Mac computers.",
-        "affected": [
-          "Microsoft Office for Mac"
-        ],
-        "action": "Install the available security updates for Microsoft Office for Mac immediately.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-69686"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-69722 Microsoft Office Word Remote Code Execution Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69722",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-09-17T14:00:00.000Z",
-      "summary": "Microsoft is announcing the availability of the security updates for Microsoft Office for Mac. Customers running affected Mac software should install the update for their product to be protected from this vulnerability. ",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-69722"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has released security updates to address a remote code execution vulnerability in Microsoft Office for Mac, designated as CVE-2026-69722. Users running the affected software must apply the latest patches to secure their systems.",
-        "whyItMatters": "This vulnerability allows attackers to execute arbitrary code remotely, posing a severe threat to macOS users running vulnerable versions of Microsoft Office.",
-        "affected": [
-          "Microsoft Office for Mac"
-        ],
-        "action": "Install the security update for your Microsoft Office product immediately.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-69722"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-69734 Microsoft Office Word Information Disclosure Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69734",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-09-17T14:00:00.000Z",
-      "summary": "Microsoft is announcing the availability of the security updates for Microsoft Office for Mac. Customers running affected Mac software should install the update for their product to be protected from this vulnerability. ",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-69734"
+        "CVE-2026-55946"
       ],
       "kev": false,
       "poc": false,
@@ -810,65 +1000,174 @@
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "Microsoft has released security updates to address CVE-2026-69734, an information disclosure vulnerability affecting Microsoft Office for Mac. Users are advised to apply these updates to secure their systems.",
-        "whyItMatters": "Unpatched information disclosure vulnerabilities can allow attackers to access sensitive data stored within Microsoft Office documents on compromised systems.",
+        "summary": "An information disclosure vulnerability identified as CVE-2026-55946 affects Microsoft Copilot. The flaw stems from improper neutralization of special elements used in a command, allowing unauthorized attackers to expose network data.",
+        "whyItMatters": "This vulnerability could allow unauthorized remote attackers to compromise sensitive information through the network.",
         "affected": [
-          "Microsoft Office for Mac"
+          "Microsoft Copilot"
         ],
-        "action": "Install the latest security updates for Microsoft Office for Mac.",
+        "action": "Apply the latest security updates provided by Microsoft.",
         "risk": "High",
         "relatedCves": [
-          "CVE-2026-69734"
+          "CVE-2026-55946"
         ],
         "source": "ai"
       }
     },
     {
-      "title": "CVE-2026-69724 Microsoft Office SharePoint Remote Code Execution Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69724",
+      "title": "CVE-2026-70009 Azure Arc Elevation of Privilege Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70009",
       "source": "Microsoft MSRC",
       "publishedAt": "2026-09-17T14:00:00.000Z",
-      "summary": "Updated an acknowledgement. This is an informational change only.",
+      "summary": "Improper limitation of a pathname to a restricted directory ('path traversal') in Azure Arc allows an unauthorized attacker to elevate privileges over a network.",
+      "categories": [
+        "Vulnerability",
+        "Cloud",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Azure"
+      ],
+      "cves": [
+        "CVE-2026-70009"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A path traversal vulnerability, tracked as CVE-2026-70009, has been identified in Azure Arc. This flaw enables unauthorized attackers to elevate their privileges over a network.",
+        "whyItMatters": "It matters because it allows unauthorized network attackers to escalate their privileges within affected systems, potentially leading to full compromise.",
+        "affected": [
+          "Azure Arc"
+        ],
+        "action": "Apply the latest security updates provided by Microsoft.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-70009"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-69865 Microsoft Container Registry Elevation of Privilege Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69865",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-09-17T14:00:00.000Z",
+      "summary": "Authorization bypass through user-controlled key in Microsoft Container Registry allows an unauthorized attacker to elevate privileges over a network.",
       "categories": [
         "Vulnerability",
         "Vendor Advisory"
       ],
       "tags": [],
       "cves": [
-        "CVE-2026-69724"
+        "CVE-2026-69865"
       ],
       "kev": false,
       "poc": false,
-      "severity": "critical",
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A vulnerability tracked as CVE-2026-69865 affects the Microsoft Container Registry. It involves an authorization bypass through a user-controlled key that enables network-based privilege escalation.",
+        "whyItMatters": "This flaw allows unauthorized attackers to gain elevated privileges over the network, potentially compromising the entire container environment.",
+        "affected": [
+          "Microsoft Container Registry"
+        ],
+        "action": "Apply the latest security updates provided by Microsoft.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-69865"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-77903 Microsoft Dataverse Elevation of Privilege Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-77903",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-09-17T14:00:00.000Z",
+      "summary": "Authentication bypass by spoofing in Microsoft Dataverse allows an unauthorized attacker to elevate privileges over a network.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-77903"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "An authentication bypass vulnerability involving spoofing has been identified in Microsoft Dataverse. This flaw allows unauthorized attackers to execute elevation of privilege attacks over a network.",
+        "whyItMatters": "It allows remote, unauthorized attackers to gain elevated privileges, potentially compromising the entire Dataverse environment.",
+        "affected": [
+          "Microsoft Dataverse"
+        ],
+        "action": "Apply the latest security updates provided by Microsoft.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-77903"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-69399 Azure Arc Elevation of Privilege Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69399",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-09-17T14:00:00.000Z",
+      "summary": "Information published.",
+      "categories": [
+        "Vulnerability",
+        "Cloud",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Azure"
+      ],
+      "cves": [
+        "CVE-2026-69399"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
       "breaking": false,
       "readTimeMin": 2,
       "aiSummary": {
-        "summary": "Microsoft has updated an acknowledgement for CVE-2026-69724, a remote code execution vulnerability affecting Microsoft Office SharePoint. This update is informational only and contains no functional changes to the software.",
-        "whyItMatters": "It tracks a critical vulnerability type in a widely used enterprise collaboration platform.",
+        "summary": "An elevation of privilege vulnerability has been published regarding Azure Arc, identified as CVE-2026-69399. Further details regarding the nature of the exploit and remediation are currently limited.",
+        "whyItMatters": "Elevation of privilege flaws can allow unauthorized attackers to gain higher-level permissions on affected systems.",
         "affected": [
-          "Microsoft Office SharePoint"
+          "Azure Arc"
         ],
-        "action": "Review the updated advisory for any changes in guidance.",
+        "action": "Monitor vendor advisories for official patches and updates.",
         "risk": "High",
         "relatedCves": [
-          "CVE-2026-69724"
+          "CVE-2026-69399"
         ],
         "source": "ai"
       }
     },
     {
-      "title": "CVE-2026-69719 Microsoft Office Word Information Disclosure Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69719",
+      "title": "CVE-2026-68791 Azure Machine Learning Information Disclosure Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68791",
       "source": "Microsoft MSRC",
       "publishedAt": "2026-09-17T14:00:00.000Z",
-      "summary": "Microsoft is announcing the availability of the security updates for Microsoft Office for Mac. Customers running affected Mac software should install the update for their product to be protected from this vulnerability. ",
+      "summary": "Incorrect authorization in Azure Machine Learning allows an unauthorized attacker to disclose information over a network.",
       "categories": [
         "Vulnerability",
+        "Cloud",
+        "AI Security",
         "Vendor Advisory"
       ],
-      "tags": [],
+      "tags": [
+        "Azure"
+      ],
       "cves": [
-        "CVE-2026-69719"
+        "CVE-2026-68791"
       ],
       "kev": false,
       "poc": false,
@@ -876,32 +1175,32 @@
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "Microsoft has released security updates to address an information disclosure vulnerability in Microsoft Office for Mac, tracked as CVE-2026-69719. Users running the affected software must install the latest patches to secure their systems.",
-        "whyItMatters": "Unpatched information disclosure flaws can allow attackers to access sensitive user data without authorization.",
+        "summary": "An incorrect authorization vulnerability exists in Azure Machine Learning, identified as CVE-2026-68791. This flaw permits an unauthorized remote attacker to disclose sensitive information over the network.",
+        "whyItMatters": "It allows unauthorized remote attackers to access sensitive information without authentication.",
         "affected": [
-          "Microsoft Office for Mac"
+          "Azure Machine Learning"
         ],
-        "action": "Install the security update for your Microsoft Office for Mac product immediately.",
+        "action": "Apply the latest security updates provided by Microsoft.",
         "risk": "High",
         "relatedCves": [
-          "CVE-2026-69719"
+          "CVE-2026-68791"
         ],
         "source": "ai"
       }
     },
     {
-      "title": "CVE-2026-69739 Microsoft Office Information Disclosure Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69739",
+      "title": "CVE-2026-85885 Microsoft 365 Copilot Elevation of Privilege Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-85885",
       "source": "Microsoft MSRC",
       "publishedAt": "2026-09-17T14:00:00.000Z",
-      "summary": "Microsoft is announcing the availability of the security updates for Microsoft Office for Mac. Customers running affected Mac software should install the update for their product to be protected from this vulnerability. ",
+      "summary": "Improper neutralization of special elements used in a command ('command injection') in M365 Copilot allows an authorized attacker to elevate privileges over a network.",
       "categories": [
         "Vulnerability",
         "Vendor Advisory"
       ],
       "tags": [],
       "cves": [
-        "CVE-2026-69739"
+        "CVE-2026-85885"
       ],
       "kev": false,
       "poc": false,
@@ -909,15 +1208,51 @@
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "Microsoft has released security updates to address an information disclosure vulnerability, designated as CVE-2026-69739, affecting Microsoft Office for Mac. Users are advised to apply the latest patches to ensure their systems remain secure.",
-        "whyItMatters": "Unpatched information disclosure vulnerabilities can allow attackers to access sensitive data stored within the affected applications.",
+        "summary": "A command injection vulnerability has been identified in Microsoft 365 Copilot, designated as CVE-2026-85885. This flaw allows an authorized attacker to achieve privilege escalation over a network.",
+        "whyItMatters": "It allows authenticated attackers to elevate their privileges within the network, potentially leading to unauthorized access and control.",
         "affected": [
-          "Microsoft Office for Mac"
+          "Microsoft 365 Copilot"
         ],
-        "action": "Install the security update for Microsoft Office for Mac immediately.",
-        "risk": "Medium",
+        "action": "Apply the latest security updates provided by Microsoft.",
+        "risk": "High",
         "relatedCves": [
-          "CVE-2026-69739"
+          "CVE-2026-85885"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-83944 Azure Logic Apps Elevation of Privilege Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-83944",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-09-17T14:00:00.000Z",
+      "summary": "Improper access control in Azure Logic Apps allows an unauthorized attacker to elevate privileges over a network.",
+      "categories": [
+        "Vulnerability",
+        "Cloud",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Azure"
+      ],
+      "cves": [
+        "CVE-2026-83944"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "An improper access control vulnerability has been identified in Azure Logic Apps. This flaw allows an unauthorized attacker to execute elevation of privilege attacks over a network.",
+        "whyItMatters": "It allows unauthorized attackers to escalate their privileges within Azure Logic Apps, potentially compromising cloud environments.",
+        "affected": [
+          "Azure Logic Apps"
+        ],
+        "action": "Apply the latest security updates provided by Microsoft.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-83944"
         ],
         "source": "ai"
       }
@@ -952,6 +1287,32 @@
       }
     },
     {
+      "title": "Hackers claim breach of Russian election systems days before parliamentary vote",
+      "link": "https://therecord.media/russia-election-hackers-breach",
+      "source": "The Record",
+      "publishedAt": "2026-09-17T13:45:00.000Z",
+      "summary": "An anonymous hacking group claimed to have broken into computer systems connected to Russia’s election infrastructure just days before the country begins voting for a new parliament.",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "An anonymous hacking group claims to have breached computer systems connected to Russia's election infrastructure. The alleged incident occurred just days before the country begins voting for a new parliament.",
+        "whyItMatters": "This incident raises significant concerns regarding the integrity and security of democratic electoral processes against cyber threats.",
+        "affected": [],
+        "action": "Monitor official reports and verify election system integrity measures.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "Authorities seize popular, long-running DDoS-for-hire service domains",
       "link": "https://cyberscoop.com/fbi-seizes-nightmarestresser-ddos-for-hire-domains/",
       "source": "CyberScoop",
@@ -975,6 +1336,34 @@
         ],
         "action": "No action required; informational.",
         "risk": "News",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Congress eyes new support for Cyber Command after recent suicide deaths",
+      "link": "https://therecord.media/congress-eyes-support-for-cyber-command-suicide-deaths",
+      "source": "The Record",
+      "publishedAt": "2026-09-17T13:32:00.000Z",
+      "summary": "Congressional sources say they view the deaths of U.S. Cyber Command personnel as an inflection point, especially as the Pentagon’s appetite for cyber capabilities grows following successful contributions to high-profile",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Congressional sources say they view the deaths of U.S. Cyber Command personnel as an inflection point, especially as the Pentagon’s appetite for cyber capabilities grows following successful contributions to high-profile",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1180,6 +1569,34 @@
         ],
         "action": "Monitor for indicators of compromise.",
         "risk": "News",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "MikroTrick: Inside the RouterOS Takeover Chain",
+      "link": "https://bishopfox.com/blog/mikrotrick-inside-the-routeros-takeover-chain",
+      "source": "Bishop Fox",
+      "publishedAt": "2026-09-17T13:00:00.000Z",
+      "summary": "Attackers were exploiting MikroTik routers before fixes went public. Bishop Fox reproduced the full unauthenticated takeover chain, found persistence artifacts on real compromised devices, and breaks down what defenders ",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Attackers were exploiting MikroTik routers before fixes went public. Bishop Fox reproduced the full unauthenticated takeover chain, found persistence artifacts on real compromised devices, and breaks down what defenders ",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1391,6 +1808,34 @@
       }
     },
     {
+      "title": "Israeli contractor BlackCore trained Angolan officials in online influence operations",
+      "link": "https://therecord.media/angola-israel-influence-operations-blackcore",
+      "source": "The Record",
+      "publishedAt": "2026-09-17T12:15:00.000Z",
+      "summary": "An Israeli influence-for-hire company trained Angolan government officials to run online influence operations, including by creating fake social media personas and media outlets,  researchers found.",
+      "categories": [
+        "Government"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "An Israeli influence-for-hire company trained Angolan government officials to run online influence operations, including by creating fake social media personas and media outlets,  researchers found.",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
       "title": "Cyber Essentials Has Record Year but Takeup Remains Low",
       "link": "https://www.infosecurity-magazine.com/news/cyber-essentials-has-record-year/",
       "source": "Infosecurity Magazine",
@@ -1468,8 +1913,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1497,8 +1942,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1530,8 +1975,8 @@
         "affected": [
           "Android"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [
           "CVE-2026-86520"
         ],
@@ -1561,8 +2006,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1590,8 +2035,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1619,8 +2064,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1648,8 +2093,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -2354,37 +2799,6 @@
       }
     },
     {
-      "title": "Cisco warns of max severity ISE zero-day exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-identity-service-engine-zero-day-exploited-in-attacks/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-09-17T07:20:54.000Z",
-      "summary": "Cisco has released security updates to address a maximum-severity Identity Services Engine vulnerability that attackers are actively exploiting in the wild. [...]",
-      "categories": [
-        "Zero Day",
-        "Vulnerability"
-      ],
-      "tags": [
-        "Cisco"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Cisco has issued security updates for a maximum-severity Identity Services Engine zero-day vulnerability currently being exploited in active attacks. Administrators are urged to apply the latest patches immediately to protect their network environments.",
-        "whyItMatters": "Active exploitation of a maximum-severity zero-day vulnerability poses an immediate threat to the confidentiality and integrity of enterprise networks.",
-        "affected": [
-          "Cisco Identity Services Engine (ISE)"
-        ],
-        "action": "Apply the security updates immediately.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Cisco Warns of New Zero-Day ISE Auth Bypass (CVSS 10.0) Exploited in Active Attacks",
       "link": "https://thehackernews.com/2026/09/cisco-warns-of-new-zero-day-ise-auth.html",
       "source": "The Hacker News",
@@ -2476,6 +2890,66 @@
       }
     },
     {
+      "title": "DSA-6505-1 bind9 - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00417.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-09-17T00:00:00.000Z",
+      "summary": "Several vulnerabilities were discovered in BIND, a DNS server implementation,\nwhich may result in denial of service or cache poisoning.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6505-1",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Several vulnerabilities were discovered in BIND, a DNS server implementation,\nwhich may result in denial of service or cache poisoning.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6505-1",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "DSA-6504-1 libapache2-mod-auth-openidc - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00416.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-09-17T00:00:00.000Z",
+      "summary": "It was discovered that incorrect state cookie parsing in\nmod_auth_openidc, an OpenID Certified authentication and authorisation\nmodule for the Apache HTTP server that implements the OpenID Connect\nRelying Party functiona",
+      "categories": [
+        "Vendor Advisory",
+        "Open Source"
+      ],
+      "tags": [
+        "Apache"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "It was discovered that incorrect state cookie parsing in\nmod_auth_openidc, an OpenID Certified authentication and authorisation\nmodule for the Apache HTTP server that implements the OpenID Connect\nRelying Party functiona",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Apache"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
       "title": "Smashing Security podcast #485: These researchers got drunk to hack an LG TV",
       "link": "https://grahamcluley.com/smashing-security-podcast-485/",
       "source": "Graham Cluley",
@@ -2550,33 +3024,6 @@
         "whyItMatters": "Organizations are funneling significant financial resources into unproven AI security tools driven by fear rather than empirical evidence of effectiveness.",
         "affected": [],
         "action": "Evaluate the actual security value of AI investments before increasing spending.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CISA decides weekly vulnerability bulletin isn't necessary anymore",
-      "link": "https://www.theregister.com/security/2026/09/16/cisa-decides-weekly-vulnerability-bulletin-isnt-necessary-anymore/5296968",
-      "source": "The Register",
-      "publishedAt": "2026-09-16T20:33:48.000Z",
-      "summary": "Agency's shift from static CVSS scores to risk-based prioritization sends the old format packing September 28",
-      "categories": [
-        "Vulnerability",
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CISA has discontinued its long-running weekly vulnerability bulletin, concluding that the static format is no longer necessary. The agency is shifting its focus toward modern, risk-based prioritization methods for addressing cybersecurity threats.",
-        "whyItMatters": "This change marks a shift in how federal agencies communicate vulnerability intelligence, moving away from traditional static scoring toward dynamic risk assessment.",
-        "affected": [],
-        "action": "Update your vulnerability management sources to rely on CISA's newer risk-based prioritization feeds instead of the discontinued weekly bulletin.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -3026,37 +3473,6 @@
       }
     },
     {
-      "title": "Cisco Secure Firewall Management Center Software Java Deserialization Remote Code Execution Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-javarce-y2NypXwk?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Management%20Center%20Software%20Java%20Deserialization%20Remote%20Code%20Execution%20Vulnerability%26vs_k=1",
-      "source": "Cisco PSIRT",
-      "publishedAt": "2026-09-16T16:00:00.000Z",
-      "summary": "A vulnerability in the External Database Access feature of Cisco Secure Firewall Management Center (FMC) Software could allow an unauthenticated, remote attacker to execute arbitrary commands as root on an affected devic",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Cisco"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A critical remote code execution vulnerability exists in the External Database Access feature of Cisco Secure Firewall Management Center Software due to insecure Java deserialization. An unauthenticated, remote attacker can exploit this flaw to execute arbitrary commands with root privileges.",
-        "whyItMatters": "This vulnerability allows complete remote system takeover by unauthenticated attackers with root access.",
-        "affected": [
-          "Cisco Secure Firewall Management Center Software"
-        ],
-        "action": "Apply the official security updates provided by Cisco immediately.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "VU#212479: Sentry Seer vulnerability allows attacker-controlled input to be executed in a privileged environment",
       "link": "https://kb.cert.org/vuls/id/212479",
       "source": "CERT/CC",
@@ -3141,35 +3557,6 @@
         "risk": "Medium",
         "relatedCves": [],
         "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8736-2: Perl vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8736-2",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-09-16T14:37:44.000Z",
-      "summary": "USN-8736-1 fixed vulnerabilities in Perl. This update provides the\ncorresponding fix for Perl on Ubuntu 24.04 LTS.\n\nOriginal advisory details:\n\nIt was discovered that Perl incorrectly handled certain large inputs during\n",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "USN-8736-1 fixed vulnerabilities in Perl. This update provides the\ncorresponding fix for Perl on Ubuntu 24.04 LTS.\n\nOriginal advisory details:\n\nIt was discovered that Perl incorrectly handled certain large inputs during",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
       }
     },
     {
@@ -3282,35 +3669,6 @@
         "affected": [],
         "action": "Review and implement the newly issued NIST and CISA cloud identity token guidance.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8773-1: GNU Guix vulnerability",
-      "link": "https://ubuntu.com/security/notices/USN-8773-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-09-16T11:33:38.000Z",
-      "summary": "It was discovered that GNU Guix incorrectly made build outputs accessible\nto local users before their file metadata was finalized. A local attacker\ncould possibly use this issue to gain elevated privileges.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "GNU Guix contained a vulnerability where build outputs were made accessible to local users before file metadata was finalized. A local attacker could potentially exploit this flaw to gain elevated privileges on the system.",
-        "whyItMatters": "This vulnerability allows local users to potentially achieve privilege escalation.",
-        "affected": [
-          "GNU Guix"
-        ],
-        "action": "Update GNU Guix to the latest patched version.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -3457,35 +3815,6 @@
         ],
         "action": "Monitor for indicators of compromise.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "USN-8772-1: AOM vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8772-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-09-16T09:29:07.000Z",
-      "summary": "It was discovered that AOM incorrectly handled the first-pass statistics\nbuffer in Look-Ahead Processing (LAP) mode. An attacker could possibly use\nthis issue to cause a heap buffer overflow, leading to a denial of servi",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "It was discovered that AOM incorrectly handled the first-pass statistics\nbuffer in Look-Ahead Processing (LAP) mode. An attacker could possibly use\nthis issue to cause a heap buffer overflow, leading to a denial of servi",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -3884,66 +4213,6 @@
         "affected": [],
         "action": "Monitor updates regarding the CDM program's evolution.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Black Hat USA 2026 | The 'Breaking' News: The OpenAI–Hugging Face Incident",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/bhusa26huggingfacetalk",
-      "source": "Dark Reading",
-      "publishedAt": "2026-09-15T19:27:19.000Z",
-      "summary": "The 'Breaking' News: The OpenAI–Hugging Face Incident - A Technical Reconstruction and Its Implications for AI\nAt this Black Hat USA 2026 talk, OpenAI security engineers and researchers will reconstruct the OpenAI-Huggin",
-      "categories": [
-        "Incident Response",
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "OpenAI security engineers and researchers will present a technical reconstruction of the OpenAI-Hugging Face incident at Black Hat USA 2026. The talk will analyze the security event and discuss its broader implications for artificial intelligence systems.",
-        "whyItMatters": "It provides critical insider insights into a significant security incident involving major AI platforms, helping the industry improve future AI infrastructure defenses.",
-        "affected": [],
-        "action": "Attend the Black Hat USA 2026 session or review the presentation materials when available.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Cisco warns customers of actively exploited zero-day in email gateways",
-      "link": "https://cyberscoop.com/cisco-secure-email-gateway-zero-day-exploited/",
-      "source": "CyberScoop",
-      "publishedAt": "2026-09-15T15:44:41.000Z",
-      "summary": "The company confirmed the defect was exploited before it was disclosed and patched, but it did not describe the nature of the attacks or the scope of impact across its customer base. \nThe post Cisco warns customers of ac",
-      "categories": [
-        "Zero Day",
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Cisco"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Cisco has issued a warning to customers regarding an actively exploited zero-day vulnerability affecting its email gateway products. The company confirmed the defect was utilized in attacks prior to disclosure and patching, though specific attack details remain undisclosed.",
-        "whyItMatters": "This vulnerability is critical because it is a zero-day flaw actively targeted by threat actors before a patch was available, posing an immediate risk to email security infrastructure.",
-        "affected": [
-          "Cisco Email Security Appliance",
-          "Cisco Secure Email Gateway"
-        ],
-        "action": "Apply the available security patches immediately.",
-        "risk": "Critical",
         "relatedCves": [],
         "source": "ai"
       }
@@ -4717,64 +4986,6 @@
         "affected": [],
         "action": "Listen to the podcast for daily threat updates.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6498-1 network-manager-l2tp - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00409.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-09-14T00:00:00.000Z",
-      "summary": "Andres Berbescu discovered two vulnerabilities in the L2TP connection\nplugin for Network Manager which allowed a local user with permissions\nto create/activate personal VPN connections to escalate their privileges\nto roo",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Two vulnerabilities were discovered in the L2TP connection plugin for Network Manager. These flaws allow a local user with permissions to create or activate personal VPN connections to escalate their privileges to root.",
-        "whyItMatters": "This vulnerability allows local attackers to achieve root privilege escalation on vulnerable systems.",
-        "affected": [
-          "network-manager-l2tp"
-        ],
-        "action": "Update the network-manager-l2tp package to the latest patched version.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6497-1 xorg-server - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00408.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-09-12T00:00:00.000Z",
-      "summary": "Several vulnerabilities were discovered in the Xorg X server, which may\nresult in privilege escalation if the X server is running privileged.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6497-1",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several vulnerabilities have been discovered in the Xorg X server. These flaws may lead to privilege escalation if the X server is running with elevated privileges.",
-        "whyItMatters": "Unpatched vulnerabilities in the X server can allow attackers to gain unauthorized elevated privileges on affected systems.",
-        "affected": [
-          "xorg-server"
-        ],
-        "action": "Apply the security update provided by your distribution.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -5612,205 +5823,6 @@
         "risk": "Critical",
         "relatedCves": [],
         "source": "ai"
-      }
-    },
-    {
-      "title": "Cisco Secure Firewall Management Center Software Authentication Bypass Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-onprem-fmc-authbypass-5JPp45V2?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Management%20Center%20Software%20Authentication%20Bypass%20Vulnerability%26vs_k=1",
-      "source": "Cisco PSIRT",
-      "publishedAt": "2026-09-09T16:00:43.000Z",
-      "summary": "A vulnerability in the web interface of Cisco Secure Firewall Management Center (FMC) Software could allow an unauthenticated, remote attacker to bypass authentication and execute script files on an affected device to ob",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Cisco"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A vulnerability in the web interface of Cisco Secure Firewall Management Center Software allows unauthenticated, remote attackers to bypass authentication. An attacker can exploit this flaw to execute script files on an affected device.",
-        "whyItMatters": "It exposes critical network infrastructure management tools to complete remote compromise without requiring credentials.",
-        "affected": [
-          "Cisco Secure Firewall Management Center Software"
-        ],
-        "action": "Apply the official security updates provided by Cisco immediately.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Cisco Advance Notification for Publication of September 16, 2026, Security Advisories",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-jfxK98ZP?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20September%2016,%202026,%20Security%20Advisories%26vs_k=1",
-      "source": "Cisco PSIRT",
-      "publishedAt": "2026-09-09T16:00:00.000Z",
-      "summary": "On September 16, 2026, the Cisco Product Security Incident Response Team (PSIRT) will publish advisories to disclose security vulnerability information along with fixed software releases for the following Cisco products:",
-      "categories": [
-        "Vulnerability",
-        "Incident Response",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Cisco"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Cisco has issued an advance notification regarding upcoming security advisories scheduled for release on September 16, 2026. These advisories will disclose vulnerability details and provide fixed software releases for various Cisco products.",
-        "whyItMatters": "Advance notifications allow organizations to prepare for upcoming software updates and security patches before vulnerability details are publicly disclosed.",
-        "affected": [],
-        "action": "Monitor Cisco's security advisories for updates on September 16, 2026.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Credentialed Pre-Port Discovery: Don't Probe the Host, Ask it",
-      "link": "https://www.rapid7.com/blog/post/pt-credentialed-pre-port-discovery-asking-host",
-      "source": "Rapid7",
-      "publishedAt": "2026-09-09T15:16:34.000Z",
-      "summary": "If your scan engine already holds credentials for a host, it can ask that host which ports are open instead of probing for them.\nEvery scan begins with the same question: which ports on this host are open? Everything aft",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Traditional vulnerability scanners probe hosts to discover open ports, but credentialed pre-port discovery allows scanners with existing credentials to simply ask the host directly. This approach changes how initial port discovery can be performed during security assessments.",
-        "whyItMatters": "It offers a more efficient method for discovering open ports on authenticated hosts without triggering traditional network probing detections.",
-        "affected": [],
-        "action": "Evaluate your vulnerability scanning methodology to utilize credentialed port discovery where applicable.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Untracked Nightmares: The Threats Hiding Behind Commodity Infrastructure",
-      "link": "https://unit42.paloaltonetworks.com/ppi-network-malware-campaign-analysis/",
-      "source": "Unit 42",
-      "publishedAt": "2026-09-09T10:00:55.000Z",
-      "summary": "An investigation into how cybercriminals used YouTube gaming lures and SEO poisoning to deliver multi-payload malware to enterprise networks.\nThe post Untracked Nightmares: The Threats Hiding Behind Commodity Infrastruct",
-      "categories": [
-        "Malware"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "An investigation into how cybercriminals used YouTube gaming lures and SEO poisoning to deliver multi-payload malware to enterprise networks.\nThe post Untracked Nightmares: The Threats Hiding Behind Commodity Infrastruct",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "risk": "News",
-        "action": "Monitor for indicators of compromise.",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Safe word: What is it and why do you need one?",
-      "link": "https://www.welivesecurity.com/en/cybersecurity/safe-word-what-why-need-one/",
-      "source": "WeLiveSecurity",
-      "publishedAt": "2026-09-09T09:00:00.000Z",
-      "summary": "AI scams are now hyper-realistic. But there’s one simple way to see through them.",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "AI scams are now hyper-realistic. But there’s one simple way to see through them.",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "risk": "News",
-        "action": "No action required; informational.",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "CRPx0 ransomware: what you need to know",
-      "link": "https://www.fortra.com/blog/crpx0-ransomware-what-you-need-know",
-      "source": "Graham Cluley",
-      "publishedAt": "2026-09-09T08:42:55.000Z",
-      "summary": "CRPx0 is a cybercrime operation that started off operating a scam before pivoting into a fully-blown ransomware and cryptocurrency business.\r\n\r\nRead more in my article on the Fortra blog.",
-      "categories": [
-        "Ransomware"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "high",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CRPx0 is a cybercrime operation that started off operating a scam before pivoting into a fully-blown ransomware and cryptocurrency business.\r\n\r\nRead more in my article on the Fortra blog.",
-        "whyItMatters": "Significant risk to affected systems; prioritize review.",
-        "affected": [
-          "Not specified"
-        ],
-        "risk": "High",
-        "action": "Monitor for indicators of compromise.",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "注意喚起: Adobe AcrobatおよびReaderの脆弱性（APSB26-141）に関する注意喚起 (公開)",
-      "link": "https://www.jpcert.or.jp/at/2026/at260026.html",
-      "source": "JPCERT/CC",
-      "publishedAt": "2026-09-09T02:20:00.000Z",
-      "summary": "注意喚起: Adobe AcrobatおよびReaderの脆弱性（APSB26-141）に関する注意喚起  (公開)",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "注意喚起: Adobe AcrobatおよびReaderの脆弱性（APSB26-141）に関する注意喚起  (公開)",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "risk": "News",
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "relatedCves": [],
-        "source": "heuristic"
       }
     }
   ]
