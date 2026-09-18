@@ -51,6 +51,7 @@ const FEEDS = [
   { name: "CrowdStrike", url: "https://www.crowdstrike.com/blog/feed/" },
   { name: "Huntress", url: "https://www.huntress.com/blog/rss.xml" },
   { name: "Rapid7", url: "https://blog.rapid7.com/rss/" },
+  { name: "Hacktron AI", url: "https://www.hacktron.ai/rss.xml" },
 ];
 
 const OUT_PATH = path.join(process.cwd(), "data", "news.json");
