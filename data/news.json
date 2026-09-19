@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T18:00:09.579Z",
+  "updatedAt": "2026-09-19T20:36:50.608Z",
   "items": [
     {
       "title": "[Virtual Event] Cybersecurity Outlook 2027",
@@ -426,6 +426,35 @@
           "Linux kernel"
         ],
         "action": "Update the Linux kernel to the latest patched versions immediately.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6507-1 unbound - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00419.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-09-19T00:00:00.000Z",
+      "summary": "Multiple security vulnerabilities were discovered in Unbound, a validating,\nrecursive, caching DNS resolver, which could result in denial of service,\ncache poisoning, DNS cookie bypass or potentially the execution of\narb",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple security vulnerabilities were discovered in the Unbound DNS resolver. These flaws could potentially lead to denial of service, cache poisoning, DNS cookie bypass, or arbitrary code execution.",
+        "whyItMatters": "Unbound is a widely used DNS resolver, and these vulnerabilities could allow attackers to disrupt network services or compromise system integrity.",
+        "affected": [
+          "Unbound"
+        ],
+        "action": "Apply the latest security updates provided by your vendor.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -4672,42 +4701,6 @@
         "action": "Update the Tor package to the latest security release.",
         "risk": "High",
         "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6496-2 nginx - regression update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00411.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-09-16T00:00:00.000Z",
-      "summary": "The update for nginx released as DSA 6496-1 caused a regression in the\nnginx-dev package: the backported fix for CVE-2026-42533 declared two\nprivate header files, which are not shipped in nginx-dev, as\ndependencies of th",
-      "categories": [
-        "Vulnerability",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Nginx"
-      ],
-      "cves": [
-        "CVE-2026-42533"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A recent Debian security update for nginx (DSA 6496-1) introduced a regression affecting the nginx-dev package. This occurred because the backported fix for CVE-2026-42533 incorrectly declared two unshipped private header files as package dependencies.",
-        "whyItMatters": "This regression can break package dependency resolution and development workflows for users relying on the nginx-dev package.",
-        "affected": [
-          "nginx-dev"
-        ],
-        "action": "Apply the updated nginx package regression fix.",
-        "risk": "Medium",
-        "relatedCves": [
-          "CVE-2026-42533"
-        ],
         "source": "ai"
       }
     },
