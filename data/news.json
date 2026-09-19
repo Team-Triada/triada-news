@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T10:54:22.102Z",
+  "updatedAt": "2026-09-19T14:23:24.370Z",
   "items": [
     {
       "title": "[Virtual Event] Cybersecurity Outlook 2027",
@@ -23,6 +23,145 @@
         "affected": [],
         "action": "Register for the virtual event if interested in future cybersecurity outlooks.",
         "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "North Korean WaterPlum hackers infected 30,000 devices worldwide",
+      "link": "https://www.bleepingcomputer.com/news/security/north-korean-waterplum-hackers-infected-30-000-devices-worldwide/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-09-19T14:05:15.000Z",
+      "summary": "A joint law enforcement advisory warns that the North Korean hacking group WaterPlum compromised at least 30,000 devices worldwide from December 2025 through July 2026 and transferred more than $10.7 million in stolen cr",
+      "categories": [
+        "Incident Response",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A joint law enforcement advisory revealed that the North Korean hacking group WaterPlum compromised at least 30,000 devices worldwide between December 2025 and July 2026. During this campaign, the threat actors successfully transferred more than $10.7 million in stolen cryptocurrency.",
+        "whyItMatters": "This massive global campaign demonstrates the ongoing financial threat posed by state-sponsored North Korean cybercrime operations.",
+        "affected": [],
+        "action": "Review network logs and security controls for signs of WaterPlum activity.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "ShinyHunters hacks Clop leak site, threatens to extort ransomware gang",
+      "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-09-19T13:48:32.000Z",
+      "summary": "The ShinyHunters extortion gang breached the Clop (aka Cl0p) ransomware operation's data leak site, defacing the Tor site and allegedly stealing server data and the private keys for its onion service. [...]",
+      "categories": [
+        "Ransomware",
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "high",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The ShinyHunters extortion gang successfully breached the Clop ransomware operation's data leak site on the Tor network. During the attack, they defaced the site and allegedly stole server data along with the private keys for its onion service.",
+        "whyItMatters": "This unprecedented cybercriminal-on-cybercriminal attack disrupts a major ransomware operation and creates uncertainty regarding the security of stolen victim data.",
+        "affected": [],
+        "action": "Monitor threat intelligence feeds for shifts in extortion tactics and leaked data.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Calling viral AI actress Tilly Norwood? Agree to a face scan first",
+      "link": "https://www.bleepingcomputer.com/news/security/calling-viral-ai-actress-tilly-norwood-agree-to-a-face-scan-first/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-09-19T11:38:20.000Z",
+      "summary": "AI actress Tilly Norwood went viral after glitching into Chinese on Piers Morgan Uncensored last night. Her \"Talking Tilly\" video call service face-scans every caller for an 18+ age check, senses callers' moods during ca",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The viral AI actress Tilly Norwood has launched a 'Talking Tilly' video call service that requires users to undergo a face scan for age verification. Additionally, the service analyzes callers' moods during the interaction, raising privacy concerns regarding biometric data collection.",
+        "whyItMatters": "Mandatory biometric face-scanning for casual video services creates significant privacy and data security risks regarding the collection and storage of sensitive user information.",
+        "affected": [],
+        "action": "Avoid using the service if you are uncomfortable with biometric data collection.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
+      "link": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-19T10:01:10.000Z",
+      "summary": "Three researchers at the security firm Hacktron used Anthropic's Claude Opus 5 to chain two flaws and take over the ChatGPT and Codex accounts of several OpenAI employees, then reach an internal OpenAI code repository.\n\n",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Security researchers at Hacktron utilized Anthropic's Claude Opus 5 AI to successfully chain two vulnerabilities, enabling them to hijack ChatGPT and Codex accounts belonging to OpenAI staff. The attack chain ultimately granted the researchers unauthorized access to an internal OpenAI code repository.",
+        "whyItMatters": "This incident demonstrates how advanced AI models can be leveraged to discover and chain complex vulnerabilities, posing a severe threat to internal enterprise security.",
+        "affected": [
+          "OpenAI ChatGPT",
+          "OpenAI Codex",
+          "OpenAI internal code repository"
+        ],
+        "action": "Audit access controls and investigate the chained vulnerabilities exploited in the employee accounts.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE",
+      "link": "https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-19T09:31:17.000Z",
+      "summary": "SolarWinds has released security updates to address a high-severity flaw in Access Rights Manager (ARM) that, if successfully exploited, could lead to an unauthenticated remote code execution vulnerability.\n\nThe vulnerab",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "SolarWinds has released security updates to fix a high-severity vulnerability in Access Rights Manager. If successfully exploited, this flaw could allow unauthenticated attackers to achieve remote code execution.",
+        "whyItMatters": "This vulnerability allows unauthenticated attackers to execute remote code, posing a severe threat to enterprise networks using the affected software.",
+        "affected": [
+          "SolarWinds Access Rights Manager"
+        ],
+        "action": "Apply the latest security updates provided by SolarWinds immediately.",
+        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -1002,38 +1141,6 @@
       }
     },
     {
-      "title": "Transparent Tribe Deploys New Rust Backdoor Using Private GitHub Repositories for C2",
-      "link": "https://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-18T15:24:16.000Z",
-      "summary": "The Pakistan-aligned threat group tracked as Transparent Tribe (aka APT36 and Earth Karkaddan) has been attributed to a fresh set of cyber attacks targeting government and defense entities in India and Afghanistan.\n\nThe ",
-      "categories": [
-        "Malware",
-        "Government",
-        "Open Source"
-      ],
-      "tags": [
-        "GitHub"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The Pakistan-aligned threat group tracked as Transparent Tribe (aka APT36 and Earth Karkaddan) has been attributed to a fresh set of cyber attacks targeting government and defense entities in India and Afghanistan.\n\nThe",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "GitHub"
-        ],
-        "action": "Monitor for indicators of compromise.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Fake LastPass Authenticator GitHub repos push new Rapuncel infostealer",
       "link": "https://www.bleepingcomputer.com/news/security/fake-lastpass-authenticator-github-repos-push-new-rapuncel-infostealer/",
       "source": "BleepingComputer",
@@ -1349,43 +1456,6 @@
       }
     },
     {
-      "title": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
-      "link": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-18T12:47:04.000Z",
-      "summary": "Microsoft has released fixes for a maximum-severity security flaw in Azure AI Foundry that could be exploited to achieve privilege escalation. No customer action is required.\n\nThe vulnerability, tracked as CVE-2026-85889",
-      "categories": [
-        "Vulnerability",
-        "Cloud",
-        "AI Security",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Azure"
-      ],
-      "cves": [
-        "CVE-2026-85889"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has released patches for a maximum-severity privilege escalation vulnerability in Azure AI Foundry. The critical security flaw is tracked as CVE-2026-85889.",
-        "whyItMatters": "This CVSS 10.0 vulnerability allowed unauthorized privilege escalation in a major cloud AI platform, posing significant security risks.",
-        "affected": [
-          "Azure AI Foundry"
-        ],
-        "action": "Verify no further action is required since Microsoft has applied fixes automatically.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-85889"
-        ],
-        "source": "ai"
-      }
-    },
-    {
       "title": "AI-Built Exploit and Sign-In Flaw Opened Path to Internal OpenAI Code",
       "link": "https://www.securityweek.com/ai-built-exploit-and-sign-in-flaw-opened-path-to-internal-openai-code/",
       "source": "SecurityWeek",
@@ -1411,32 +1481,6 @@
         ],
         "action": "Review authentication and sign-in mechanisms to prevent AI-assisted exploitation.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Microsoft fixes bug behind ‘Defender Antivirus is turned off’ alerts",
-      "link": "https://www.bleepingcomputer.com/news/security/microsoft-fixes-bug-behind-defender-antivirus-is-turned-off-alerts/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-09-18T12:16:32.000Z",
-      "summary": "Microsoft has resolved a known issue that causes incorrect alerts warning that Defender Antivirus was turned off after installing recent updates. [...]",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has resolved a known issue that caused incorrect alerts warning that Defender Antivirus was turned off following recent updates. The bug generated false alarms for users, but has now been fixed.",
-        "whyItMatters": "False security alerts can cause user panic and lead to unnecessary troubleshooting or desensitize users to actual security warnings.",
-        "affected": [],
-        "action": "Ensure your systems are updated to receive the fix from Microsoft.",
-        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
@@ -1768,34 +1812,6 @@
         "whyItMatters": "This incident demonstrates how a single compromised API key can be leveraged to execute a massive supply chain attack impacting hundreds of thousands of downstream sites.",
         "affected": [],
         "action": "Audit API keys and review integration security controls immediately.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "New Check Point flaw lets hackers execute code with root privileges",
-      "link": "https://www.bleepingcomputer.com/news/security/check-point-warns-critical-flaw-lets-hackers-execute-code-as-root/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-09-18T09:34:33.000Z",
-      "summary": "Check Point Software has released security updates to address a critical vulnerability that can let attackers execute code with root privileges on management systems. [...]",
-      "categories": [
-        "Vulnerability"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Check Point Software has released security updates to fix a critical vulnerability affecting its management systems. This flaw allows unauthenticated attackers to execute arbitrary code with root privileges.",
-        "whyItMatters": "An attacker with root access can completely compromise the affected management systems, leading to severe data breaches and full network control.",
-        "affected": [
-          "Check Point management systems"
-        ],
-        "action": "Apply the latest security updates provided by Check Point immediately.",
         "risk": "Critical",
         "relatedCves": [],
         "source": "ai"
@@ -2272,34 +2288,6 @@
         "whyItMatters": "This scam poses an immediate financial threat to consumers by tricking them into directly handing over their credit card and banking information.",
         "affected": [],
         "action": "Do not click on links in parcel delivery text messages or provide personal and financial information.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Microsoft fixes broken copy and paste for Excel 2016 users",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-broken-copy-and-paste-for-excel-2016-users/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-09-18T07:35:31.000Z",
-      "summary": "Microsoft has fixed a known issue that causes copy-and-paste failures for some Excel users after installing the September 2026 KB5002914 security update. [...]",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has resolved a known issue affecting Excel 2016 users where copy-and-paste functionality failed following the installation of the September 2026 security update KB5002914. Users experiencing this glitch can now apply the official fix provided by Microsoft to restore normal spreadsheet operations.",
-        "whyItMatters": "This bug disrupted core productivity workflows for Excel 2016 users who installed the recent security patch.",
-        "affected": [
-          "Excel 2016"
-        ],
-        "action": "Install the latest Microsoft update to fix the copy-and-paste failure.",
         "risk": "Medium",
         "relatedCves": [],
         "source": "ai"
