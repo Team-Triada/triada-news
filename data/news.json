@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T05:50:38.942Z",
+  "updatedAt": "2026-09-19T10:54:22.102Z",
   "items": [
     {
       "title": "[Virtual Event] Cybersecurity Outlook 2027",
@@ -23,6 +23,130 @@
         "affected": [],
         "action": "Register for the virtual event if interested in future cybersecurity outlooks.",
         "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in the Wild",
+      "link": "https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-19T08:18:54.000Z",
+      "summary": "A critical vulnerability impacting Orkes Conductor is being actively exploited in the wild, according to Fortinet.\n\nThe vulnerability in question is CVE-2026-58138 (CVSS v3.1 score: 9.8/CVSS v4 score: 9.3), which relates",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [
+        "Fortinet"
+      ],
+      "cves": [
+        "CVE-2026-58138"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A critical pre-authentication remote code execution vulnerability in the Orkes Conductor workflow platform is currently being exploited in the wild. Fortinet reports that the flaw, tracked as CVE-2026-58138, carries a maximum CVSS v3.1 severity score of 9.8.",
+        "whyItMatters": "This vulnerability allows attackers to achieve unauthenticated remote code execution on affected systems, posing an immediate and severe threat to environments running the platform.",
+        "affected": [
+          "Orkes Conductor"
+        ],
+        "action": "Apply available security patches or mitigation steps immediately.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-58138"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up",
+      "link": "https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-19T07:51:34.000Z",
+      "summary": "Google's Gemini model has become the latest artificial intelligence (AI) system to access the internet and break into other companies during a cybersecurity evaluation. The development was first reported by The Wall Stre",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Google's Gemini AI model accidentally accessed the internet and breached real company systems during a cybersecurity evaluation due to a domain mix-up. The incident highlights the potential risks of autonomous AI agents interacting with live networks.",
+        "whyItMatters": "It demonstrates that autonomous AI systems can pose unintended security risks to external organizations when misdirected during testing.",
+        "affected": [
+          "Google Gemini"
+        ],
+        "action": "Implement strict isolation controls and domain verification for AI security evaluations.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CrowdSec Says TanStack npm Attack Led to Copy of 170 Private GitHub Repositories",
+      "link": "https://thehackernews.com/2026/09/crowdsec-says-tanstack-npm-attack-led.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-19T07:14:54.000Z",
+      "summary": "An attacker copied about 170 of CrowdSec's private GitHub repositories on May 22 using the account of an employee who had just left, CrowdSec said on September 18.\n\nThe French security company had kept his GitHub access ",
+      "categories": [
+        "Open Source"
+      ],
+      "tags": [
+        "GitHub"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "CrowdSec disclosed that a recently departed employee's compromised GitHub account was used by an attacker to copy about 170 private repositories on May 22. The security incident occurred due to the delayed revocation of the former employee's GitHub access.",
+        "whyItMatters": "Delayed offboarding and failure to revoke access for departed employees can lead to unauthorized data exfiltration of sensitive proprietary code.",
+        "affected": [
+          "CrowdSec private GitHub repositories"
+        ],
+        "action": "Revoke access for terminated or departing employees immediately.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CISA Flags Three Linux Kernel Vulnerabilities Exploited in the Wild",
+      "link": "https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-19T06:24:10.000Z",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added three security flaws impacting the Linux kernel to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitatio",
+      "categories": [
+        "Vulnerability",
+        "Government",
+        "Open Source"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "CISA has added three security flaws impacting the Linux kernel to its Known Exploited Vulnerabilities catalog. The agency noted that there is evidence of active exploitation for these vulnerabilities.",
+        "whyItMatters": "Active exploitation in the wild means attackers are actively targeting these Linux kernel flaws, posing an immediate risk to vulnerable systems.",
+        "affected": [
+          "Linux kernel"
+        ],
+        "action": "Update the Linux kernel to the latest patched versions immediately.",
+        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -1449,61 +1573,6 @@
       }
     },
     {
-      "title": "An Abandoned CDN Domain Was Re-Registered. Thousands of Sites Still Call It.",
-      "link": "https://thehackernews.com/2026/09/an-abandoned-cdn-domain-was-re.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-18T11:01:16.000Z",
-      "summary": "In July 2025, someone registered a domain that used to belong to a content delivery network.  The CDN had been wound down years earlier, and the domain it served assets from was allowed to expire. What it had not lost we",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "An abandoned content delivery network domain was re-registered by an unknown party years after the original service wound down. Thousands of websites still attempt to load assets from this expired domain.",
-        "whyItMatters": "This orphaned domain creates a massive supply chain risk, allowing whoever controls the domain to potentially serve malicious content to thousands of dependent websites.",
-        "affected": [],
-        "action": "Audit website dependencies to remove or replace references to defunct CDNs and domains.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Plugin4Shell Lets Repository Owners Swap Pinned Plugin Code Across Four AI Coding Agents",
-      "link": "https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-18T11:01:01.000Z",
-      "summary": "A flaw in four widely used AI coding agents lets someone who controls a plugin's code repository swap the plugin an agent installs for a malicious one, even when the agent locked that plugin to a specific reviewed versio",
-      "categories": [
-        "Vulnerability",
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A newly disclosed vulnerability called Plugin4Shell affects four popular AI coding agents. It allows malicious repository owners to swap pinned and reviewed plugin versions with harmful code during installation.",
-        "whyItMatters": "This flaw undermines the security trust model of AI coding agents by bypassing version pinning controls to deliver malicious code.",
-        "affected": [
-          "AI coding agents"
-        ],
-        "action": "Update affected AI coding agents and carefully vet third-party plugin repositories.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Microsoft Patches 18 Vulnerabilities in AI, Cloud Products",
       "link": "https://www.securityweek.com/microsoft-patches-18-vulnerabilities-in-ai-cloud-products/",
       "source": "SecurityWeek",
@@ -1532,38 +1601,6 @@
           "AI-branded products"
         ],
         "action": "Apply the latest security patches from Microsoft immediately.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage",
-      "link": "https://thehackernews.com/2026/09/weaselbiscuit-stealer-spreads-via-13.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-18T10:40:06.000Z",
-      "summary": "Cybersecurity researchers have discovered a cluster of 13 npm packages that have been found to deliver a previously undocumented JavaScript stealer codenamed WeaselBiscuit.\n\nThe new malware family, per OpenSourceMalware,",
-      "categories": [
-        "Malware",
-        "Open Source"
-      ],
-      "tags": [
-        "Chrome"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Cybersecurity researchers have discovered a cluster of 13 malicious npm packages delivering a previously undocumented JavaScript stealer named WeaselBiscuit. This malware is designed to harvest sensitive data specifically from Chrome extension storage.",
-        "whyItMatters": "It poses a direct threat to users and developers by compromising sensitive data stored within Chrome extensions through compromised open-source packages.",
-        "affected": [
-          "npm packages (13 specific packages)",
-          "Chrome extensions"
-        ],
-        "action": "Audit and remove any unauthorized or suspicious npm packages from your development environment.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -1760,37 +1797,6 @@
         ],
         "action": "Apply the latest security updates provided by Check Point immediately.",
         "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer",
-      "link": "https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-18T09:18:03.000Z",
-      "summary": "A financially motivated threat actor has been linked to the development and distribution of a JavaScript (JS)-based information stealer known as PhantomRaven via the npm package registry.\n\n\"The developer likely wrote the",
-      "categories": [
-        "Threat Intel",
-        "AI Security",
-        "Open Source",
-        "Bug Bounty"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A financially motivated threat actor distributed a JavaScript-based information stealer called PhantomRaven through the npm package registry. The attacker likely used large language models to help build the malicious package.",
-        "whyItMatters": "It demonstrates how threat actors are leveraging artificial intelligence tools to scale and accelerate the creation of malicious software for supply chain attacks.",
-        "affected": [
-          "PhantomRaven npm package"
-        ],
-        "action": "Audit npm dependencies to ensure no malicious PhantomRaven packages are present.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
