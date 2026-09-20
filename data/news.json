@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T18:45:22.606Z",
+  "updatedAt": "2026-09-20T21:30:34.042Z",
   "items": [
     {
       "title": "[Virtual Event] Cybersecurity Outlook 2027",
@@ -114,6 +114,35 @@
         ],
         "action": "Apply the latest security patches provided by Cisco immediately.",
         "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6509-1 gimp - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00421.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-09-20T00:00:00.000Z",
+      "summary": "Several vulnerabilities were discovered in GIMP, the GNU Image\nManipulation Program, which could result in denial of service\nor potentially the execution of arbitrary code if malformed\nPSD, light effects filter, ICO, PIX",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple vulnerabilities have been discovered in the GNU Image Manipulation Program (GIMP). Processing malformed files such as PSD, ICO, PIX, or using the light effects filter could lead to a denial of service or arbitrary code execution.",
+        "whyItMatters": "An attacker could exploit these flaws to crash the application or execute arbitrary code on the victim's system through a malicious image file.",
+        "affected": [
+          "GIMP"
+        ],
+        "action": "Update GIMP to the latest security release provided by your vendor.",
+        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -4675,36 +4704,6 @@
           "mkvtoolnix"
         ],
         "action": "Update mkvtoolnix to the latest security release.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6501-1 firefox-esr - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00413.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-09-16T00:00:00.000Z",
-      "summary": "Multiple security issues have been found in the Mozilla Firefox web\nbrowser, which could potentially result in the execution of arbitrary\ncode, information disclosure or privilege escalation.\n\n\nhttps://security-tracker.d",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Firefox"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Multiple security issues have been identified in the Mozilla Firefox ESR web browser. These vulnerabilities could potentially lead to arbitrary code execution, information disclosure, or privilege escalation.",
-        "whyItMatters": "Unpatched browser vulnerabilities can be exploited by attackers to compromise user systems and sensitive data.",
-        "affected": [
-          "firefox-esr"
-        ],
-        "action": "Update firefox-esr to the latest patched version.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
