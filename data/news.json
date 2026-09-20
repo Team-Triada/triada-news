@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T11:18:01.265Z",
+  "updatedAt": "2026-09-20T16:01:41.538Z",
   "items": [
     {
       "title": "[Virtual Event] Cybersecurity Outlook 2027",
@@ -23,6 +23,64 @@
         "affected": [],
         "action": "Register for the virtual event if interested in future cybersecurity outlooks.",
         "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Malicious npm packages evade install-script defenses at runtime",
+      "link": "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-09-20T14:11:21.000Z",
+      "summary": "An ongoing npm malware campaign involving the 'indexed-btree' package shows how threat actors bypass supply chain defenses by hiding malicious code in a package's normal runtime behavior rather than in installation scrip",
+      "categories": [
+        "Malware",
+        "Threat Intel",
+        "Open Source"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "An ongoing malware campaign on the npm registry, centered around the 'indexed-btree' package, successfully bypasses standard supply chain defenses. Threat actors achieve this by concealing malicious payloads within the normal runtime behavior of the software rather than relying on traditional installation scripts.",
+        "whyItMatters": "This technique circumvents common security controls that primarily monitor installation scripts for malicious activity, leaving applications vulnerable during standard execution.",
+        "affected": [
+          "indexed-btree"
+        ],
+        "action": "Audit dependencies for unauthorized or suspicious packages like indexed-btree.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Researchers escape OpenAI Codex sandbox to run commands on host",
+      "link": "https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-09-20T12:00:00.000Z",
+      "summary": "Researchers escaped OpenAI's Codex sandbox two ways, one running commands on a developer's machine from its most locked-down mode. OpenAI has patched both. [...]",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Security researchers successfully escaped OpenAI's Codex sandbox using two distinct methods, including one that executed commands on a developer's machine from the most restricted mode. OpenAI has since applied patches to resolve both vulnerabilities.",
+        "whyItMatters": "Sandbox escapes in AI coding tools pose severe risks by allowing untrusted generated code to execute arbitrary commands on host systems.",
+        "affected": [
+          "OpenAI Codex sandbox"
+        ],
+        "action": "Ensure all OpenAI Codex environments and related systems are updated to the latest patched versions.",
+        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -1431,34 +1489,6 @@
       }
     },
     {
-      "title": "Secure enterprise sharing with access reviews for Microsoft 365",
-      "link": "https://www.bleepingcomputer.com/news/security/secure-enterprise-sharing-with-access-reviews-for-microsoft-365/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-09-18T14:00:10.000Z",
-      "summary": "Microsoft 365 makes sharing files easy, but access can remain long after its original purpose has ended, leaving organizations with little visibility into who can still reach sensitive data. tenfold Software explains how",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft 365 facilitates easy file sharing, but lingering access permissions often leave organizations without visibility into sensitive data exposure. tenfold Software provides insights on managing secure enterprise sharing through access reviews.",
-        "whyItMatters": "Unmonitored file sharing permissions in Microsoft 365 create significant security blind spots and increase the risk of unauthorized data access.",
-        "affected": [
-          "Microsoft 365"
-        ],
-        "action": "Implement regular access reviews for shared files in Microsoft 365.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "CVE-2026-88097 Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability",
       "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-88097",
       "source": "Microsoft MSRC",
@@ -1488,34 +1518,6 @@
         "relatedCves": [
           "CVE-2026-88097"
         ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Microsoft Teams will let admins block custom file extensions",
-      "link": "https://www.bleepingcomputer.com/news/security/microsoft-teams-will-let-admins-block-custom-file-extensions/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-09-18T13:58:40.000Z",
-      "summary": "Microsoft Teams will soon let administrators tweak the list of file extensions commonly associated with security threats to meet their company's security requirements. [...]",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft Teams is introducing a new administrative feature that allows organizations to customize the list of blocked file extensions. This capability enables IT administrators to align the platform's file-sharing restrictions with their specific internal security policies.",
-        "whyItMatters": "It gives organizations granular control over file-sharing risks by letting them block custom file extensions commonly associated with security threats in Microsoft Teams.",
-        "affected": [
-          "Microsoft Teams"
-        ],
-        "action": "Configure custom blocked file extensions in the Microsoft Teams admin center once available.",
-        "risk": "News",
-        "relatedCves": [],
         "source": "ai"
       }
     },
