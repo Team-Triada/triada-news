@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T01:05:04.867Z",
+  "updatedAt": "2026-09-20T06:12:05.450Z",
   "items": [
     {
       "title": "[Virtual Event] Cybersecurity Outlook 2027",
@@ -426,6 +426,34 @@
           "Linux kernel"
         ],
         "action": "Update the Linux kernel to the latest patched versions immediately.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6508-1 chromium - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00420.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-09-19T00:00:00.000Z",
+      "summary": "Security issues were discovered in Chromium which could result\nin the execution of arbitrary code, denial of service, or information\ndisclosure.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6508-1",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple security issues have been discovered in the Chromium browser. These vulnerabilities could potentially lead to arbitrary code execution, denial of service, or information disclosure.",
+        "whyItMatters": "Unpatched browser vulnerabilities can be exploited by attackers to compromise user systems or leak sensitive information.",
+        "affected": [
+          "Chromium"
+        ],
+        "action": "Update Chromium to the latest security release.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -4670,35 +4698,6 @@
           "firefox-esr"
         ],
         "action": "Update firefox-esr to the latest patched version.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6500-1 tor - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00412.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-09-16T00:00:00.000Z",
-      "summary": "Multiple security vulnerabilities were discovered in Tor, a connection-\nbased low-latency anonymous communication system, would could result\nin denial of service.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6500-1",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Multiple security vulnerabilities have been discovered in the Tor anonymous communication system. These flaws could potentially be exploited to cause a denial of service.",
-        "whyItMatters": "Unpatched denial of service vulnerabilities in Tor can disrupt anonymous communication and undermine network availability.",
-        "affected": [
-          "Tor"
-        ],
-        "action": "Update the Tor package to the latest security release.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
