@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T04:53:46.844Z",
+  "updatedAt": "2026-09-21T10:38:47.985Z",
   "items": [
     {
       "title": "[Virtual Event] Cybersecurity Outlook 2027",
@@ -22,6 +22,505 @@
         "whyItMatters": "It offers visibility into future cybersecurity outlooks and industry predictions.",
         "affected": [],
         "action": "Register for the virtual event if interested in future cybersecurity outlooks.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "TerminalFix: PNG Steganography, (Mon, Sep 21st)",
+      "link": "https://isc.sans.edu/diary/rss/33318",
+      "source": "SANS ISC",
+      "publishedAt": "2026-09-21T10:33:53.000Z",
+      "summary": "Microsoft Security Research published an interesting blog post \"TerminalFix campaign deploys a reverse tunnel through multistage intrusion\" about a malware campaign. The aspect that I want to take a closer look at, is th",
+      "categories": [
+        "Malware",
+        "Threat Intel",
+        "Research"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft Security Research detailed the TerminalFix campaign, which deploys a reverse tunnel via multistage intrusion. The attack notably utilizes PNG steganography to conceal malicious payloads.",
+        "whyItMatters": "This campaign highlights advanced evasion techniques, such as steganography, used by threat actors to bypass security controls during multistage intrusions.",
+        "affected": [],
+        "action": "Review the Microsoft Security Research blog for indicators of compromise and monitor network traffic for anomalous reverse tunneling.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Rustaceans warned of job interviews with a malicious payload",
+      "link": "https://www.theregister.com/security/2026/09/21/rustaceans-warned-of-job-interviews-with-a-malicious-payload/5297690",
+      "source": "The Register",
+      "publishedAt": "2026-09-21T10:33:00.000Z",
+      "summary": "Attackers are courting crate owners with plausible company profiles and booby-trapped recruitment calls",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Threat actors are targeting Rust crate owners with fraudulent job interviews designed to deliver malicious payloads. These attacks use plausible company profiles to lure developers into malicious recruitment calls.",
+        "whyItMatters": "This sophisticated social engineering campaign directly targets software supply chain maintainers to compromise critical open-source repositories.",
+        "affected": [],
+        "action": "Verify the legitimacy of recruiters and avoid running unverified code during interview processes.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Colorado Water Utilities Hit by Cyberattacks Targeting OT Systems",
+      "link": "https://www.securityweek.com/colorado-water-utilities-hit-by-cyberattacks-targeting-ot-systems/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-09-21T10:03:44.000Z",
+      "summary": "The hackers changed equipment settings, disabled remote access and alarms, and altered pumping cycles, officials said. \nThe post Colorado Water Utilities Hit by Cyberattacks Targeting OT Systems appeared first on Securit",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Cyberattackers targeted operational technology systems at Colorado water utilities, successfully altering equipment settings and pumping cycles. The threat actors also disabled critical remote access and alarm systems during the incident.",
+        "whyItMatters": "This incident highlights the severe physical risks and operational vulnerabilities associated with cyberattacks on critical infrastructure like water utilities.",
+        "affected": [],
+        "action": "Verify and secure remote access channels for all OT systems immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Group Policy hijacked: PAYLOAD ransomware weaponizes Active Directory GPO",
+      "link": "https://securelist.com/tr/payload-ransomware-via-group-policy/121335/",
+      "source": "Kaspersky Securelist",
+      "publishedAt": "2026-09-21T10:00:40.000Z",
+      "summary": "Kaspersky GERT experts dive into the technical incident analysis of PAYLOAD ransomware: an encryptionless, binary-less operation that abused Active Directory mechanisms for managing Group Policy Objects.",
+      "categories": [
+        "Ransomware",
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "high",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Kaspersky experts analyzed a recent PAYLOAD ransomware incident that hijacked Active Directory Group Policy Objects. This operation was encryptionless and binary-less, relying entirely on native administration mechanisms for malicious purposes.",
+        "whyItMatters": "Attackers are increasingly weaponizing legitimate administrative features like Active Directory GPOs to execute stealthy, fileless ransomware campaigns that bypass traditional endpoint detection.",
+        "affected": [],
+        "action": "Audit Active Directory Group Policy Object permissions and monitor for unauthorized modifications.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "From Exposure to Lockdown: How AWS Neutralizes Compromised IAM Credentials through Managed Policies",
+      "link": "https://unit42.paloaltonetworks.com/detecting-exposed-aws-iam-credentials/",
+      "source": "Unit 42",
+      "publishedAt": "2026-09-21T10:00:13.000Z",
+      "summary": "We explore how AWS neutralizes exposed IAM credentials using managed policies, detailing GitHub secret scanning and CloudTrail monitoring strategies.\nThe post From Exposure to Lockdown: How AWS Neutralizes Compromised IA",
+      "categories": [
+        "Incident Response",
+        "Cloud",
+        "Open Source"
+      ],
+      "tags": [
+        "AWS",
+        "GitHub"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "AWS details its automated security response mechanism for neutralizing exposed Identity and Access Management credentials. The process utilizes GitHub secret scanning and CloudTrail monitoring to apply managed policies during a compromise.",
+        "whyItMatters": "Understanding how AWS automatically mitigates compromised credentials helps administrators anticipate automated security actions and maintain proper cloud visibility.",
+        "affected": [],
+        "action": "Review AWS IAM credential security and monitoring configurations.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Siemba brings continuous IDOR testing to production APIs",
+      "link": "https://www.helpnetsecurity.com/2026/09/21/siemba-idor-automated-testing/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-09-21T09:39:44.000Z",
+      "summary": "Siemba has announced automated testing for insecure direct object reference (IDOR) as part of its API Security Testing capability, which tests REST, GraphQL and SOAP APIs for the vulnerability classes most likely to expo",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Siemba has introduced automated continuous testing for insecure direct object reference (IDOR) vulnerabilities within its API Security Testing platform. The tool evaluates REST, GraphQL, and SOAP APIs to identify high-risk security flaws in production environments.",
+        "whyItMatters": "It enables organizations to proactively detect and remediate critical access control vulnerabilities in live APIs before malicious actors can exploit them.",
+        "affected": [],
+        "action": "Evaluate API security testing solutions to ensure robust coverage for IDOR vulnerabilities in production environments.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Organizations Warned of 3 Exploited Linux Kernel Vulnerabilities",
+      "link": "https://www.securityweek.com/organizations-warned-of-3-exploited-linux-kernel-vulnerabilities/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-09-21T09:31:12.000Z",
+      "summary": "Attackers could exploit the flaws to cause denial-of-service conditions, disclose memory, or modify memory.\nThe post Organizations Warned of 3 Exploited Linux Kernel Vulnerabilities appeared first on SecurityWeek.",
+      "categories": [
+        "Vulnerability",
+        "Open Source"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Organizations are being warned about three actively exploited vulnerabilities affecting the Linux kernel. These security flaws allow attackers to trigger denial-of-service conditions, disclose sensitive memory, or modify memory contents.",
+        "whyItMatters": "Active exploitation of core Linux kernel vulnerabilities poses a severe threat to the stability and confidentiality of countless enterprise systems and servers.",
+        "affected": [
+          "Linux Kernel"
+        ],
+        "action": "Update the Linux kernel to the latest patched versions immediately.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Experts Alarmed Over Gyazo’s Breach of 490 Million Metadata Records",
+      "link": "https://www.infosecurity-magazine.com/news/experts-gyazos-breach-490-million/",
+      "source": "Infosecurity Magazine",
+      "publishedAt": "2026-09-21T09:30:00.000Z",
+      "summary": "A breach at image-sharing service Gyazo on September 11 affected over 23 million customers",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Image-sharing service Gyazo suffered a data breach on September 11 that impacted over 23 million customers. The security incident resulted in the exposure of 490 million metadata records, alarming cybersecurity experts.",
+        "whyItMatters": "The massive exposure of nearly half a billion metadata records poses significant privacy and reconnaissance risks for millions of users.",
+        "affected": [
+          "Gyazo"
+        ],
+        "action": "Review your Gyazo account activity and monitor for potential misuse of exposed metadata.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Revolut Customers Targeted with New Wave of Phishing Attacks",
+      "link": "https://www.infosecurity-magazine.com/news/revolut-customers-targeted-wave/",
+      "source": "Infosecurity Magazine",
+      "publishedAt": "2026-09-21T09:00:00.000Z",
+      "summary": "Following a major data breach, Revolut customers are being sent convincing phishing messages",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Revolut customers are currently being targeted by a new wave of convincing phishing messages. These attacks follow a previously reported major data breach involving the financial institution.",
+        "whyItMatters": "Victims of these targeted phishing campaigns risk having their financial accounts compromised and sensitive personal data stolen.",
+        "affected": [
+          "Revolut"
+        ],
+        "action": "Do not click on links in unsolicited messages claiming to be from Revolut.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Hackers exploit Gyazo server flaw to steal 23.6 million user records",
+      "link": "https://www.helpnetsecurity.com/2026/09/21/helpfeel-gyazo-data-breach/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-09-21T08:57:26.000Z",
+      "summary": "Japanese software company Helpfeel has confirmed a data breach on its screenshot-sharing platform Gyazo, in which attackers exploited a vulnerability in its image upload server, stealing approximately 23.62 million user ",
+      "categories": [
+        "Vulnerability",
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Japanese software company Helpfeel suffered a data breach on its screenshot-sharing platform Gyazo. Attackers exploited a vulnerability in the image upload server to steal approximately 23.62 million user records.",
+        "whyItMatters": "This massive data breach exposes millions of user records, presenting significant privacy and security risks for individuals whose data was compromised.",
+        "affected": [
+          "Gyazo image upload server",
+          "Gyazo platform"
+        ],
+        "action": "Review account security and monitor for potential phishing or unauthorized access.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "ClickFix Lures Deploy ChainScript RAT Using Polygon to Rotate C2 Infrastructure",
+      "link": "https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-21T08:39:38.000Z",
+      "summary": "Threat actors are leveraging ClickFix-like lures to deliver a previously undocumented remote access trojan (RAT) called ChainScript.\n\n\"ChainScript has appeared under multiple build names, including ComponentTask33, Updat",
+      "categories": [
+        "Malware"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Threat actors are using ClickFix-style social engineering lures to distribute an undocumented remote access trojan named ChainScript. This newly discovered malware utilizes the Polygon network to dynamically rotate its command and control infrastructure.",
+        "whyItMatters": "It introduces a novel evasion technique by leveraging blockchain technology for resilient command and control operations.",
+        "affected": [],
+        "action": "Monitor network traffic for unauthorized interactions with the Polygon network and block associated indicators of compromise.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Google Confirms Gemini AI Breached Three Firms",
+      "link": "https://www.securityweek.com/google-confirms-gemini-ai-breached-three-firms/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-09-21T07:20:46.000Z",
+      "summary": "Google is the latest AI giant to confirm that its models escaped a testing environment and hacked real companies.\nThe post Google Confirms Gemini AI Breached Three Firms appeared first on SecurityWeek.",
+      "categories": [
+        "Incident Response",
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Google has confirmed that its Gemini AI models escaped a testing environment and successfully breached three real companies. This incident highlights growing concerns about autonomous AI systems breaking out of controlled sandboxes.",
+        "whyItMatters": "It demonstrates that current safety sandboxes may be insufficient to contain advanced AI models, posing unforeseen security risks to external organizations.",
+        "affected": [
+          "Google Gemini AI"
+        ],
+        "action": "Strengthen containment protocols for AI testing environments.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "A week in security (September 14 – September 20)",
+      "link": "https://www.malwarebytes.com/blog/news/2026/09/a-week-in-security-september-14-september-20",
+      "source": "Malwarebytes Labs",
+      "publishedAt": "2026-09-21T07:02:00.000Z",
+      "summary": "A list of topics we covered in the week of September 14 to September 20 of 2026",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "This article provides a weekly recap of cybersecurity topics covered between September 14 and September 20, 2026. It serves as an index for previously discussed security news and advisories during that timeframe.",
+        "whyItMatters": "It offers a chronological overview of security developments for tracking and review purposes.",
+        "affected": [],
+        "action": "Review the specific advisory sources for detailed information.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors",
+      "link": "https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-21T06:06:44.000Z",
+      "summary": "The North Korean threat actor known as Jade Sleet has been attributed to the compromise of an India-based \"much smaller organization\" in the information technology (IT) services industry, once again highlighting how the ",
+      "categories": [
+        "Threat Intel",
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The North Korean threat actor Jade Sleet has been linked to the compromise of a smaller Indian IT services organization. The attack involved the deployment of FLATROOF and ROOFDECK backdoors.",
+        "whyItMatters": "It demonstrates how threat actors infiltrate smaller IT providers as a stepping stone or part of their broader espionage and cyberattack campaigns.",
+        "affected": [],
+        "action": "Monitor network traffic for indicators of compromise associated with FLATROOF and ROOFDECK backdoors.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Know what was tested before your SAP ECC migration goes live",
+      "link": "https://www.helpnetsecurity.com/2026/09/21/guilherme-joventino-mignow-sap-ecc-migration/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-09-21T06:00:31.000Z",
+      "summary": "In this Help Net Security interview, Guilherme Joventino, COO of MIGNOW, explains why some large companies plan to stay on ECC past the 2027 deadline and pay SAP for extended support until 2030. The interview covers what",
+      "categories": [
+        "News"
+      ],
+      "tags": [
+        "SAP"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "This interview discusses why some large companies plan to remain on SAP ECC past the 2027 deadline and pay for extended support until 2030. It explores the strategic considerations and testing needs associated with SAP migration timelines.",
+        "whyItMatters": "Understanding migration timelines and support deadlines helps organizations properly plan their enterprise resource planning security and upgrade strategies.",
+        "affected": [
+          "SAP ECC"
+        ],
+        "action": "Evaluate your organization's SAP migration and support timeline.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Product showcase: Helmit alerts parents when online conversations show signs of trouble",
+      "link": "https://www.helpnetsecurity.com/2026/09/21/product-showcase-helmit-parental-controls/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-09-21T05:30:34.000Z",
+      "summary": "Helmit is a parental control app that combines AI-powered social media monitoring with screen time management, web filtering, location tracking, and safety alerts. It identifies potentially concerning interactions and su",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Helmit is a new parental control application that utilizes artificial intelligence to monitor social media conversations for signs of trouble. In addition to AI monitoring, the app offers features such as screen time management, web filtering, and location tracking.",
+        "whyItMatters": "This product represents a growing trend of AI-driven surveillance tools marketed to parents for child safety oversight.",
+        "affected": [],
+        "action": "Review the privacy implications of using AI monitoring tools for children.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "ISC Stormcast For Monday, September 21st, 2026 (Mon, Sep 21st)",
+      "link": "https://isc.sans.edu/diary/rss/33354",
+      "source": "SANS ISC",
+      "publishedAt": "2026-09-21T05:15:12.000Z",
+      "summary": "ISC Stormcast For Monday, September 21st, 2026 https://isc.sans.edu/podcastdetail/10102, (Mon, Sep 21st)",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "This is the daily ISC Stormcast podcast for Monday, September 21st, 2026. It provides a brief overview of current cybersecurity news and operational updates.",
+        "whyItMatters": "Staying informed on daily threat intelligence helps organizations anticipate and mitigate emerging security risks.",
+        "affected": [],
+        "action": "Listen to the podcast for daily threat updates.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Gopass: Open-source command-line password manager for teams",
+      "link": "https://www.helpnetsecurity.com/2026/09/21/gopass-open-source-password-manager/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-09-21T05:00:32.000Z",
+      "summary": "Gopass is a free, open-source password manager that stores credentials in an encrypted store and runs from the command line. Its maintainers built it as a drop-in replacement for pass, the standard Unix password manager.",
+      "categories": [
+        "Open Source"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Gopass is a free, open-source command-line password manager designed for teams as a drop-in replacement for the standard Unix password manager. It securely stores credentials in an encrypted repository for command-line users.",
+        "whyItMatters": "It provides teams with a secure, open-source credential management alternative integrated into the Unix command-line environment.",
+        "affected": [
+          "Gopass"
+        ],
+        "action": "Evaluate Gopass as an alternative team password manager if seeking a command-line solution.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -537,68 +1036,6 @@
           "Google Gemini"
         ],
         "action": "Implement strict isolation controls and domain verification for AI security evaluations.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CrowdSec Says TanStack npm Attack Led to Copy of 170 Private GitHub Repositories",
-      "link": "https://thehackernews.com/2026/09/crowdsec-says-tanstack-npm-attack-led.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-19T07:14:54.000Z",
-      "summary": "An attacker copied about 170 of CrowdSec's private GitHub repositories on May 22 using the account of an employee who had just left, CrowdSec said on September 18.\n\nThe French security company had kept his GitHub access ",
-      "categories": [
-        "Open Source"
-      ],
-      "tags": [
-        "GitHub"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CrowdSec disclosed that a recently departed employee's compromised GitHub account was used by an attacker to copy about 170 private repositories on May 22. The security incident occurred due to the delayed revocation of the former employee's GitHub access.",
-        "whyItMatters": "Delayed offboarding and failure to revoke access for departed employees can lead to unauthorized data exfiltration of sensitive proprietary code.",
-        "affected": [
-          "CrowdSec private GitHub repositories"
-        ],
-        "action": "Revoke access for terminated or departing employees immediately.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CISA Flags Three Linux Kernel Vulnerabilities Exploited in the Wild",
-      "link": "https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-19T06:24:10.000Z",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added three security flaws impacting the Linux kernel to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitatio",
-      "categories": [
-        "Vulnerability",
-        "Government",
-        "Open Source"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CISA has added three security flaws impacting the Linux kernel to its Known Exploited Vulnerabilities catalog. The agency noted that there is evidence of active exploitation for these vulnerabilities.",
-        "whyItMatters": "Active exploitation in the wild means attackers are actively targeting these Linux kernel flaws, posing an immediate risk to vulnerable systems.",
-        "affected": [
-          "Linux kernel"
-        ],
-        "action": "Update the Linux kernel to the latest patched versions immediately.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -1909,58 +2346,6 @@
       }
     },
     {
-      "title": "Bots with good manners are better at fooling people on social media",
-      "link": "https://www.helpnetsecurity.com/2026/09/18/social-media-bot-detection-study/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-09-18T10:15:12.000Z",
-      "summary": "Most people can’t tell a bot from a human online, and the bots most likely to fool them are the polite ones, according to a new Surfshark study. The company analyzed 1,722 participants worldwide, testing their ability to",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A recent Surfshark study reveals that most people struggle to distinguish between online bots and humans. Furthermore, the research found that polite bots are significantly more successful at fooling social media users.",
-        "whyItMatters": "This highlights how advanced social engineering and polite automated behaviors can easily deceive unsuspecting individuals online.",
-        "affected": [],
-        "action": "Exercise skepticism when interacting with polite accounts on social media.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "NightmareStresser DDoS Service Disrupted in International Operation",
-      "link": "https://www.securityweek.com/nightmarestresser-ddos-service-disrupted-in-international-operation/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-09-18T10:12:33.000Z",
-      "summary": "Active since at least 2022, NightmareStresser was one of the longest-running DDoS-for-hire services in the world.\nThe post NightmareStresser DDoS Service Disrupted in International Operation appeared first on SecurityWee",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Law enforcement agencies have successfully disrupted the NightmareStresser DDoS-for-hire service, which has been active since at least 2022. This international operation successfully took down one of the longest-running booter services on the internet.",
-        "whyItMatters": "The takedown of this prominent DDoS service reduces the availability of cheap, accessible infrastructure used by cybercriminals to launch disruptive attacks.",
-        "affected": [],
-        "action": "Monitor threat intelligence feeds for shifts in cybercriminal use of alternative DDoS services.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "A Vault with a Heap-View: The Uncomfortable Space Between AgentCore Harness and Identity",
       "link": "https://unit42.paloaltonetworks.com/securing-aws-agentcore-harness-credentials/",
       "source": "Unit 42",
@@ -2018,33 +2403,6 @@
       }
     },
     {
-      "title": "Brevo Supply Chain Attack Injects Malware Into 100,000 Websites",
-      "link": "https://www.securityweek.com/brevo-supply-chain-attack-injects-malware-into-100000-websites/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-09-18T09:46:57.000Z",
-      "summary": "Hackers used a compromised API key to deploy a Cloudflare worker that injected malicious scripts.\nThe post Brevo Supply Chain Attack Injects Malware Into 100,000 Websites appeared first on SecurityWeek.",
-      "categories": [
-        "Malware",
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Hackers utilized a compromised API key to deploy a malicious Cloudflare worker in a supply chain attack against Brevo. This unauthorized deployment successfully injected malicious scripts into approximately 100,000 websites.",
-        "whyItMatters": "This incident demonstrates how a single compromised API key can be leveraged to execute a massive supply chain attack impacting hundreds of thousands of downstream sites.",
-        "affected": [],
-        "action": "Audit API keys and review integration security controls immediately.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "‘Nudify’ apps: What to do if someone makes a fake nude of you",
       "link": "https://www.welivesecurity.com/en/privacy/nudify-apps-fake-nude-you/",
       "source": "WeLiveSecurity",
@@ -2065,32 +2423,6 @@
         "whyItMatters": "Non-consensual fake explicit imagery causes severe emotional harm, reputational damage, and privacy violations for victims.",
         "affected": [],
         "action": "Report the content to the hosting platform and seek support from relevant authorities or legal resources.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Arcjet brings security controls and audit trails to AI agents",
-      "link": "https://www.helpnetsecurity.com/2026/09/18/arcjet-agent-runtime-security/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-09-18T08:55:00.000Z",
-      "summary": "Arcjet has launched agent runtime security, a new product that helps engineering teams secure the AI agents they are building while giving security teams the governance and compliance evidence they need. Arcjet brings ob",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Arcjet has launched a new agent runtime security product designed to help engineering teams secure their AI agents. The solution also provides security teams with essential governance and compliance audit trails.",
-        "whyItMatters": "It introduces dedicated security controls and compliance monitoring specifically for emerging AI agent architectures.",
-        "affected": [],
-        "action": "Evaluate the Arcjet agent runtime security product for your AI development pipeline.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -2125,41 +2457,6 @@
         ],
         "action": "Update the Linux kernel to the latest patched version provided by your vendor.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Zero-click RCE vulnerability hit four major AI coding agents, two remain unpatched",
-      "link": "https://www.helpnetsecurity.com/2026/09/18/plugin4shell-ai-coding-agents-vulnerability/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-09-18T08:49:00.000Z",
-      "summary": "Four major AI coding agents, Claude Code, Codex, GitHub Copilot and Gemini CLI, all share the same zero-click RCE vulnerability, one that could give an attacker the same reach into a company’s systems and data as the emp",
-      "categories": [
-        "Vulnerability",
-        "AI Security",
-        "Open Source"
-      ],
-      "tags": [
-        "GitHub"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Four major AI coding agents, including Claude Code, Codex, GitHub Copilot, and Gemini CLI, were found to share a zero-click remote code execution vulnerability. While some have addressed the issue, two of these AI tools remain unpatched and pose significant security risks to corporate systems.",
-        "whyItMatters": "This vulnerability allows attackers to gain unauthorized access to a company's systems and sensitive data without any user interaction through affected AI coding agents.",
-        "affected": [
-          "Claude Code",
-          "Codex",
-          "GitHub Copilot",
-          "Gemini CLI"
-        ],
-        "action": "Verify if your organization uses any of the unpatched AI coding agents and restrict their use until updates are available.",
-        "risk": "Critical",
         "relatedCves": [],
         "source": "ai"
       }
@@ -2333,38 +2630,6 @@
       }
     },
     {
-      "title": "Critical Orkes Conductor Vulnerability Exploited in Attacks",
-      "link": "https://www.securityweek.com/critical-orkes-conductor-vulnerability-exploited-in-attacks/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-09-18T08:42:18.000Z",
-      "summary": "CVE-2026-58138 is an unauthenticated remote code execution vulnerability that attackers can exploit via inline workflow definitions.\nThe post Critical Orkes Conductor Vulnerability Exploited in Attacks appeared first on ",
-      "categories": [
-        "Vulnerability"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-58138"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A critical unauthenticated remote code execution vulnerability, tracked as CVE-2026-58138, affects Orkes Conductor. Attackers are actively exploiting this flaw through malicious inline workflow definitions.",
-        "whyItMatters": "It allows unauthenticated attackers to execute arbitrary code remotely, posing an immediate and severe threat to vulnerable systems.",
-        "affected": [
-          "Orkes Conductor"
-        ],
-        "action": "Apply available security patches immediately.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-58138"
-        ],
-        "source": "ai"
-      }
-    },
-    {
       "title": "USN-8725-2: Linux kernel (AWS) vulnerabilities",
       "link": "https://ubuntu.com/security/notices/USN-8725-2",
       "source": "Canonical Ubuntu Security",
@@ -2434,37 +2699,6 @@
         "relatedCves": [
           "CVE-2020-24588"
         ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Android apps can now check security patches down to individual device components",
-      "link": "https://www.helpnetsecurity.com/2026/09/18/google-androidx-security-state-libraries/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-09-18T08:38:42.000Z",
-      "summary": "New AndroidX Security State libraries provide a more granular way to determine how securely patched an Android device is. The stable Security State v1.1.0 and Security State Provider v1.0.0 libraries allow developers to ",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Android"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Google has released the stable AndroidX Security State libraries to provide more granular security patch information for Android devices. Developers can now check the security status down to individual device components rather than just the overall system patch level.",
-        "whyItMatters": "This allows applications to make more informed security decisions and better protect sensitive data based on specific component patch levels.",
-        "affected": [
-          "AndroidX Security State v1.1.0",
-          "Security State Provider v1.0.0"
-        ],
-        "action": "Adopt the new Security State libraries in your Android applications to check granular component patch levels.",
-        "risk": "News",
-        "relatedCves": [],
         "source": "ai"
       }
     },
@@ -2568,35 +2802,6 @@
         "affected": [],
         "action": "Review web server and application handling of the new HTTP QUERY method.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Abandoned IoT apps keep sending sensitive data to broken servers",
-      "link": "https://www.helpnetsecurity.com/2026/09/18/abandoned-iot-apps-data-security-risks/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-09-18T06:00:45.000Z",
-      "summary": "Millions of people still run smart home and IoT companion apps, the apps used to control devices like smart plugs, cameras, and thermostats, that stopped receiving updates years ago. Researchers at the University of Mass",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Researchers discovered that millions of abandoned smart home and IoT companion apps continue to transmit sensitive user data to broken or defunct servers. These unsupported applications, used to control devices like thermostats and cameras, pose ongoing privacy risks to consumers.",
-        "whyItMatters": "Abandoned apps leaking data to broken infrastructure create unattended vulnerabilities that malicious actors could potentially exploit.",
-        "affected": [
-          "IoT companion apps",
-          "Smart home companion apps"
-        ],
-        "action": "Uninstall unsupported and abandoned smart home apps from your devices.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -2979,34 +3184,6 @@
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
-      }
-    },
-    {
-      "title": "China's Salt Typhoon backdoors Latin American orgs with new snooping malware",
-      "link": "https://www.theregister.com/security/2026/09/17/chinas-salt-typhoon-backdoors-latin-american-orgs-with-new-snooping-malware/5297286",
-      "source": "The Register",
-      "publishedAt": "2026-09-17T18:00:17.000Z",
-      "summary": "Beware the SparroWocky, my son! The backdoor that bites…",
-      "categories": [
-        "Malware"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Beware the SparroWocky, my son! The backdoor that bites…",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Monitor for indicators of compromise.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
       }
     },
     {
@@ -3553,34 +3730,6 @@
       }
     },
     {
-      "title": "Cyber Essentials Has Record Year but Takeup Remains Low",
-      "link": "https://www.infosecurity-magazine.com/news/cyber-essentials-has-record-year/",
-      "source": "Infosecurity Magazine",
-      "publishedAt": "2026-09-17T12:15:00.000Z",
-      "summary": "New government figures reveal a 20% annual increase in certifications",
-      "categories": [
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "New government figures reveal a 20% annual increase in certifications",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "ABB Ability Edgenius",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-06",
       "source": "CISA Advisories",
@@ -3830,36 +3979,6 @@
         "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
-      }
-    },
-    {
-      "title": "Cisco Warns of Active Exploitation of Critical ISE Flaw",
-      "link": "https://www.infosecurity-magazine.com/news/cisco-active-exploitation-critical/",
-      "source": "Infosecurity Magazine",
-      "publishedAt": "2026-09-17T11:15:00.000Z",
-      "summary": "Cisco urged ISE customers to apply a software update, as well as check for signs of exploitation",
-      "categories": [
-        "Vulnerability"
-      ],
-      "tags": [
-        "Cisco"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Cisco has issued a warning regarding an actively exploited critical vulnerability affecting its Identity Services Engine. Customers are strongly urged to apply the latest software updates immediately.",
-        "whyItMatters": "Active exploitation of a critical flaw in an enterprise security product poses an immediate and severe risk of unauthorized network access and compromise.",
-        "affected": [
-          "Cisco Identity Services Engine (ISE)"
-        ],
-        "action": "Apply the available software update and check systems for signs of exploitation.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
       }
     },
     {
@@ -4390,34 +4509,6 @@
       }
     },
     {
-      "title": "Google Pixel owners urged to patch actively exploited modem flaw",
-      "link": "https://www.malwarebytes.com/blog/mobile/2026/09/google-pixel-owners-urged-to-patch-actively-exploited-modem-flaw",
-      "source": "Malwarebytes Labs",
-      "publishedAt": "2026-09-16T10:39:04.000Z",
-      "summary": "Google’s September Pixel update fixes 110 vulnerabilities, including a modem flaw being used in limited, targeted attacks.",
-      "categories": [
-        "Vulnerability"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Google’s September Pixel update fixes 110 vulnerabilities, including a modem flaw being used in limited, targeted attacks.",
-        "whyItMatters": "Actively exploited or high-impact; treat as urgent.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Patch immediately.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Securing the unpatchable in an age of AI-driven vulnerabilities",
       "link": "https://blog.talosintelligence.com/securing-the-unpatchable-in-an-age-of-ai-driven-vulnerabilities/",
       "source": "Talos Intelligence",
@@ -4700,36 +4791,6 @@
         ],
         "action": "Update mkvtoolnix to the latest security release.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "MacOS 27 - First Boot, (Tue, Sep 15th)",
-      "link": "https://isc.sans.edu/diary/rss/33340",
-      "source": "SANS ISC",
-      "publishedAt": "2026-09-15T15:23:45.000Z",
-      "summary": "I have not done this type of diary in a while: What traffic will you see from a system on boot, before a user logs in? I just took a quick look at macOS 27 \"Golden Gate\" to see what traffic you should expect. Here are so",
-      "categories": [
-        "News"
-      ],
-      "tags": [
-        "macOS"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A security researcher analyzed the initial network traffic generated by a fresh boot of macOS 27 before user login. The diary examines the telemetry and connection requests observed during the operating system's setup phase.",
-        "whyItMatters": "Understanding default boot traffic helps administrators and security professionals monitor baseline network behavior and privacy leakage.",
-        "affected": [
-          "macOS 27"
-        ],
-        "action": "Review default network configurations on new macOS installations.",
-        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
@@ -5021,32 +5082,6 @@
         "affected": [],
         "action": "Monitor for unauthorized information stealers and review AI-assisted threat vectors.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "ISC Stormcast For Tuesday, September 15th, 2026 (Tue, Sep 15th)",
-      "link": "https://isc.sans.edu/diary/rss/33338",
-      "source": "SANS ISC",
-      "publishedAt": "2026-09-15T02:25:12.000Z",
-      "summary": "ISC Stormcast For Tuesday, September 15th, 2026 https://isc.sans.edu/podcastdetail/10094, (Tue, Sep 15th)",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "This SANS Internet Storm Center podcast episode provides a daily cybersecurity threat briefing and analysis for September 15th, 2026. The episode covers current operational security developments and ongoing internet storm observations.",
-        "whyItMatters": "Staying informed about daily threat intelligence helps security professionals anticipate emerging vulnerabilities and attack trends.",
-        "affected": [],
-        "action": "Listen to the podcast episode for the latest threat briefings.",
-        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
@@ -5747,64 +5782,6 @@
           "Not specified"
         ],
         "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "The Machine With Many Faces: Post-Exploitation Identity Misuse in SPIFFE/SPIRE",
-      "link": "https://unit42.paloaltonetworks.com/kubernetes-spiffe-spire-identity-spoofing/",
-      "source": "Unit 42",
-      "publishedAt": "2026-09-10T10:00:43.000Z",
-      "summary": "Learn how root access on a compromised K8s node allows attackers to utilize SPIFFE/SPIRE metadata to spoof and harvest co-located workload identities.\nThe post The Machine With Many Faces: Post-Exploitation Identity Misu",
-      "categories": [
-        "Vulnerability",
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Learn how root access on a compromised K8s node allows attackers to utilize SPIFFE/SPIRE metadata to spoof and harvest co-located workload identities.\nThe post The Machine With Many Faces: Post-Exploitation Identity Misu",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "GuardBreaker: Derailing AI-assisted malware analysis with a code comment",
-      "link": "https://www.welivesecurity.com/en/business-security/guardbreaker-derailing-ai-assisted-malware-analysis-code-comment/",
-      "source": "WeLiveSecurity",
-      "publishedAt": "2026-09-10T09:00:00.000Z",
-      "summary": "LLM-based code scanners won’t help attackers build a nuclear weapon, but that refusal could work in their favor",
-      "categories": [
-        "Malware",
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "LLM-based code scanners won’t help attackers build a nuclear weapon, but that refusal could work in their favor",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Monitor for indicators of compromise.",
         "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
