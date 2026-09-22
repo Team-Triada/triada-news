@@ -1,6 +1,585 @@
 {
-  "updatedAt": "2026-09-22T15:00:29.107Z",
+  "updatedAt": "2026-09-22T18:53:32.049Z",
   "items": [
+    {
+      "title": "VU#738147: Vendor-signed UEFI Shell applications allow Secure Boot bypass",
+      "link": "https://kb.cert.org/vuls/id/738147",
+      "source": "CERT/CC",
+      "publishedAt": "2026-09-22T18:13:12.712Z",
+      "summary": "Overview\nVendor-signed UEFI Shell applications may allow an attacker to bypass Secure Boot protections by abusing commands such as mm (Memory Modify). On systems that trust the affected vendor’s certificate or include th",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Vendor-signed UEFI Shell applications contain a vulnerability that allows attackers to bypass Secure Boot protections. This bypass is achieved by abusing specific commands like mm (Memory Modify) on systems trusting the affected vendor's certificate.",
+        "whyItMatters": "An attacker can exploit this flaw to execute arbitrary code and compromise the fundamental boot integrity of trusted systems.",
+        "affected": [],
+        "action": "Check for vendor advisories and revoke trust in vulnerable signed UEFI Shell applications.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "New ClosedQuorum Windows malware uses AI for attack decisions",
+      "link": "https://www.bleepingcomputer.com/news/security/new-closedquorum-windows-malware-uses-ai-for-attack-decisions/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-09-22T18:04:39.000Z",
+      "summary": "A new Windows malware named ClosedQuorum uses Google Gemini, DeepSeek, Qwen, and Mistral AI models to autonomously determine the actions to take during post-compromise stages of an attack. [...]",
+      "categories": [
+        "Malware",
+        "Incident Response",
+        "AI Security"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A new Windows malware named ClosedQuorum utilizes various prominent AI models to autonomously determine post-compromise attack actions. This integration of artificial intelligence allows the malware to make dynamic decisions during the later stages of an intrusion.",
+        "whyItMatters": "It demonstrates a concerning evolution in threat actor capabilities by using commercially available AI models to automate and optimize attack decisions.",
+        "affected": [],
+        "action": "Monitor for anomalous AI API usage and implement robust endpoint detection to identify automated post-compromise behavior.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "BigCommerce Data Stolen via Ribon Apps Hack",
+      "link": "https://www.securityweek.com/bigcommerce-data-stolen-via-ribon-apps-hack/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-09-22T17:58:00.000Z",
+      "summary": "The attackers used a compromised BigCommerce application key held by Ribon to access customer data.\nThe post BigCommerce Data Stolen via Ribon Apps Hack appeared first on SecurityWeek.",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Attackers utilized a compromised BigCommerce application key belonging to Ribon to gain unauthorized access to customer data. This security breach highlights supply chain vulnerabilities involving third-party application keys.",
+        "whyItMatters": "It demonstrates how third-party integrations can be exploited to compromise sensitive customer data on major e-commerce platforms.",
+        "affected": [
+          "BigCommerce",
+          "Ribon Apps"
+        ],
+        "action": "Audit and rotate third-party application keys and review integration permissions.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "The Truth about GET and HTTP Standards, (Tue, Sep 22nd)",
+      "link": "https://isc.sans.edu/diary/rss/33358",
+      "source": "SANS ISC",
+      "publishedAt": "2026-09-22T17:56:20.000Z",
+      "summary": "On Friday, Xavier talked about the newly introduced HTTP Query method. This new method was introduced to allow \"GET\" requests that include a body. The main reason for this was that GET requests typically do not contain a",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A recent discussion focuses on the newly introduced HTTP Query method, which allows GET requests to include a body. This addresses the traditional limitation where GET requests typically do not contain a body.",
+        "whyItMatters": "It introduces a new standard for HTTP requests that developers and security professionals need to understand.",
+        "affected": [],
+        "action": "Review the new HTTP Query method specifications.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Shai-Hulud Attack Nips Cyber-Firm CrowdSec's GitHub Data",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/shai-hulud-attack-cyber-firm-crowdsec-github-data",
+      "source": "Dark Reading",
+      "publishedAt": "2026-09-22T17:32:49.000Z",
+      "summary": "Threat actors stole 170 private repositories using an OAuth token stolen from a former employee's computer through the TanStack npm supply chain attack.",
+      "categories": [
+        "Open Source"
+      ],
+      "tags": [
+        "GitHub"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Threat actors stole 170 private repositories from cybersecurity firm CrowdSec using an OAuth token. The token was compromised from a former employee's computer via the TanStack npm supply chain attack.",
+        "whyItMatters": "This incident demonstrates how supply chain attacks can compromise former employee credentials to breach sensitive enterprise codebases.",
+        "affected": [
+          "CrowdSec private repositories",
+          "TanStack npm packages"
+        ],
+        "action": "Revoke and rotate all compromised OAuth tokens and review supply chain dependencies.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "ShinyHunters claims FBI hack: 'This is NOT financially motivated'",
+      "link": "https://www.theregister.com/security/2026/09/22/shinyhunters-claims-fbi-hack-this-is-not-financially-motivated/5298385",
+      "source": "The Register",
+      "publishedAt": "2026-09-22T17:24:13.000Z",
+      "summary": "This time it's personal",
+      "categories": [
+        "Government"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "The notorious hacking group ShinyHunters has claimed responsibility for breaching the FBI, stating the attack was not motivated by financial gain. The brief announcement was accompanied by the provocative statement that this time the action is personal.",
+        "whyItMatters": "A successful cyberattack against the FBI by a prominent threat actor represents a massive security breach with potential implications for national security and law enforcement operations.",
+        "affected": [],
+        "action": "Monitor official federal advisories for updates on the alleged breach.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Reducing shadow IT visibility gaps with Wazuh",
+      "link": "https://www.bleepingcomputer.com/news/security/reducing-shadow-it-visibility-gaps-with-wazuh/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-09-22T17:17:41.000Z",
+      "summary": "Shadow IT can leave security teams unaware of unmanaged endpoints, unauthorized software, and other assets that fall outside existing monitoring. Wazuh explains how endpoint inventory, agentless monitoring, and centraliz",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Shadow IT creates significant security blind spots by introducing unmanaged endpoints and unauthorized software outside of standard monitoring. The article discusses how Wazuh helps organizations mitigate these visibility gaps through endpoint inventory and agentless monitoring techniques.",
+        "whyItMatters": "Unmonitored shadow IT assets provide blind spots that attackers can easily exploit to compromise organizational security.",
+        "affected": [],
+        "action": "Implement asset discovery tools to identify and monitor shadow IT across the network.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Amid Ongoing Rogue Incidents, Debate Over AI Safety Gets Real",
+      "link": "https://www.darkreading.com/cyber-risk/rogue-incidents-debate-ai-safety-gets-real",
+      "source": "Dark Reading",
+      "publishedAt": "2026-09-22T17:12:26.000Z",
+      "summary": "As more reports of misalignment incidents underscore AI risks, large AI labs, regular businesses, and even nations are searching for better ways to keep control and be secure.",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Recent reports of AI misalignment and rogue incidents are driving labs, businesses, and nations to seek better security and control measures. This growing concern highlights the urgent need for enhanced safety protocols in artificial intelligence development.",
+        "whyItMatters": "As AI integration deepens, unmanaged misalignment risks threaten organizational security and public safety on a national scale.",
+        "affected": [],
+        "action": "Review and strengthen internal AI safety and control policies.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Microsoft Takes Down EvilTokens Device-Code Phishing Service Tied to 12,000 Inbox Compromises",
+      "link": "https://thehackernews.com/2026/09/microsoft-takes-down-eviltokens-device.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-22T17:03:31.000Z",
+      "summary": "Microsoft on Tuesday announced the takedown of the EvilTokens device code phishing service that it said used artificial intelligence (AI) \"at every step of the attack chain.\"\n\nThe action, carried out with authorization f",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft has successfully taken down the EvilTokens device-code phishing service, which utilized artificial intelligence at every stage of the attack chain. This operation disrupted malicious activities responsible for compromising approximately 12,000 email inboxes.",
+        "whyItMatters": "It removes a sophisticated AI-driven phishing operation that successfully compromised thousands of user accounts.",
+        "affected": [],
+        "action": "Review email accounts for unauthorized access and enforce phishing-resistant multi-factor authentication.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials",
+      "link": "https://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-22T16:41:12.000Z",
+      "summary": "A critical vulnerability in Bifrost, an open-source AI gateway that routes requests to more than 20 LLM providers, allows an unauthenticated attacker to run arbitrary commands on the gateway server with a single HTTP req",
+      "categories": [
+        "Vulnerability",
+        "AI Security",
+        "Open Source"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A critical vulnerability in the open-source Bifrost AI gateway allows unauthenticated attackers to execute arbitrary commands on the server using a single HTTP request. This flaw exposes systems routing traffic to over 20 LLM providers to severe remote code execution risks.",
+        "whyItMatters": "It allows complete system compromise by unauthorized remote actors without requiring any credentials.",
+        "affected": [
+          "Bifrost AI gateway"
+        ],
+        "action": "Update Bifrost to the latest patched version immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "NightmareEclipse's latest zero-day leaves Microsoft Defender stuck in the past",
+      "link": "https://www.theregister.com/security/2026/09/22/nightmareeclipses-latest-zero-day-leaves-microsoft-defender-stuck-in-the-past/5298320",
+      "source": "The Register",
+      "publishedAt": "2026-09-22T16:36:00.000Z",
+      "summary": "BigDiskBuster leaves Microsoft's antivirus running but unable to install updates",
+      "categories": [
+        "Zero Day"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "NightmareEclipse's latest zero-day vulnerability, named BigDiskBuster, prevents Microsoft Defender from installing crucial updates. Although the antivirus continues to run, the system is left vulnerable due to its inability to update signature definitions.",
+        "whyItMatters": "It leaves endpoints exposed to emerging threats by disabling the core security update mechanism.",
+        "affected": [
+          "Microsoft Defender"
+        ],
+        "action": "Monitor vendor advisories and apply patches as soon as they are released.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Check Point warns of Management Server zero-day exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/check-point-patches-management-server-zero-day-exploited-in-attacks/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-09-22T16:32:47.000Z",
+      "summary": "Check Point Software released emergency hotfixes to address a critical Security Management Server vulnerability that could let attackers run arbitrary scripts. [...]",
+      "categories": [
+        "Zero Day",
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Check Point has released emergency hotfixes for a critical zero-day vulnerability in its Security Management Server. The flaw allows attackers to execute arbitrary scripts in active attacks.",
+        "whyItMatters": "Unauthenticated execution of arbitrary scripts on a management server can grant attackers full administrative control over enterprise security infrastructure.",
+        "affected": [
+          "Check Point Security Management Server"
+        ],
+        "action": "Apply the emergency hotfixes provided by Check Point immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Researcher Drops BigDiskBuster Zero-Day PoC That Blocks Microsoft Defender Updates",
+      "link": "https://thehackernews.com/2026/09/researcher-drops-bigdiskbuster-zero-day.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-22T16:14:04.000Z",
+      "summary": "A zero-day proof-of-concept tool that stops Microsoft Defender from installing platform and signature updates by filling all available disk space was published on GitHub on September 19.\n\nThe tool, called BigDiskBuster, ",
+      "categories": [
+        "Zero Day",
+        "Research",
+        "Open Source"
+      ],
+      "tags": [
+        "GitHub"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": true,
+      "severity": "high",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A zero-day proof-of-concept tool named BigDiskBuster was published on GitHub, which prevents Microsoft Defender from installing updates by exhausting all available disk space. The tool highlights a novel denial-of-service vector against endpoint protection mechanisms.",
+        "whyItMatters": "It leaves systems vulnerable to secondary infections by successfully disabling critical antivirus updates.",
+        "affected": [
+          "Microsoft Defender"
+        ],
+        "action": "Monitor available disk space and restrict execution of unauthorized storage-exhaustion scripts.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Z.ai says sorry for slurping up your code, open sources ZCode",
+      "link": "https://www.theregister.com/security/2026/09/22/zai-says-sorry-for-slurping-up-your-code-open-sources-zcode/5298300",
+      "source": "The Register",
+      "publishedAt": "2026-09-22T15:59:00.000Z",
+      "summary": "China’s AI darling goes on the defense after engineer highlighted Grok-esque security flaws",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Chinese AI startup Z.ai apologized after an engineer highlighted security flaws similar to those found in Grok, which allowed unauthorized data access. In response to the backlash, the company has decided to open source its ZCode technology.",
+        "whyItMatters": "This incident highlights ongoing privacy and security vulnerabilities in AI development platforms that could expose proprietary source code.",
+        "affected": [],
+        "action": "Monitor Z.ai tools for further security updates and review internal usage policies.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Two arrested in UK after Microsoft takedown of ‘Eviltokens’ AI-chatbot for cybercriminals",
+      "link": "https://therecord.media/two-arrested-in-uk-after-microsoft-takedown-eviltokens",
+      "source": "The Record",
+      "publishedAt": "2026-09-22T15:51:00.000Z",
+      "summary": "Available on Telegram for a $1,500 initiation fee and a recurring monthly $500 subscription, EvilTokens provided cybercriminals with artificial intelligence tools enabling them to compromise accounts, analyze breached in",
+      "categories": [
+        "Incident Response",
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Two individuals were arrested in the UK following a coordinated Microsoft takedown of the 'Eviltokens' service. The platform operated via Telegram as a paid subscription providing cybercriminals with AI tools to compromise accounts and analyze breaches.",
+        "whyItMatters": "This disruption curtails a significant AI-powered toolset that lowered the technical barrier for cybercriminals to execute account takeover attacks.",
+        "affected": [],
+        "action": "Monitor user accounts for suspicious authentication activity associated with AI-driven phishing techniques.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Citing China, President Trump doubles down on hands-off approach to AI regulation",
+      "link": "https://cyberscoop.com/trump-hands-off-ai-regulation-china-race/",
+      "source": "CyberScoop",
+      "publishedAt": "2026-09-22T15:16:35.000Z",
+      "summary": "Following a series of chaotic agentic hacks, Trump and administration officials have consistently expressed fears of Chinese AI dominance in pushing for fewer regulations.\nThe post Citing China, President Trump doubles d",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "President Trump and administration officials are advocating for reduced artificial intelligence regulations to prevent Chinese dominance. This regulatory stance follows a recent series of chaotic agentic hacks.",
+        "whyItMatters": "A lack of regulatory oversight could exacerbate security risks associated with autonomous AI agents.",
+        "affected": [],
+        "action": "Monitor evolving AI regulatory policies and associated security guidelines.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Some cheap smart glasses are a security disaster",
+      "link": "https://www.malwarebytes.com/blog/news/2026/09/some-cheap-smart-glasses-are-a-security-disaster",
+      "source": "Malwarebytes Labs",
+      "publishedAt": "2026-09-22T15:04:25.000Z",
+      "summary": "Tests found that some cheap smart glasses can be hijacked over Bluetooth, exposing their owners’ photos, videos, and personal data.",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Security tests revealed that certain budget-friendly smart glasses suffer from severe Bluetooth vulnerabilities that allow attackers to hijack the devices. This flaw exposes sensitive user data, including personal photos and videos.",
+        "whyItMatters": "It demonstrates how cheap Internet of Things (IoT) devices often bypass rigorous security standards, putting users at high risk of private data exposure.",
+        "affected": [],
+        "action": "Avoid using untrusted budget smart glasses until patched.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "EvilTokens PhaaS disrupted after compromising 12,000 Microsoft accounts",
+      "link": "https://www.bleepingcomputer.com/news/security/eviltokens-phaas-disrupted-after-compromising-12-000-microsoft-accounts/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-09-22T15:00:00.000Z",
+      "summary": "The EvilTokens platform that compromised more than 12,000 Microsoft accounts at over 10,000 organizations has been disrupted in an effort led by Microsoft's Digital Crimes Unit (DCU). [...]",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft's Digital Crimes Unit has disrupted the EvilTokens PhaaS platform, which successfully compromised over 12,000 Microsoft accounts across more than 10,000 organizations. The service facilitated advanced phishing attacks specifically designed to bypass multi-factor authentication.",
+        "whyItMatters": "This takedown neutralizes a major phishing-as-a-service operation that posed a widespread threat to enterprise Microsoft accounts.",
+        "affected": [
+          "Microsoft accounts"
+        ],
+        "action": "Review Microsoft account security logs and enforce phishing-resistant MFA.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Microsoft and partners disrupt EvilTokens, a comprehensive cybercrime service for financial fraud",
+      "link": "https://cyberscoop.com/microsoft-eviltokens-cybercrime-service-takedown/",
+      "source": "CyberScoop",
+      "publishedAt": "2026-09-22T15:00:00.000Z",
+      "summary": "The popular phishing-as-a-service platform used AI throughout the attack chain, allowing cybercriminals to steal tokens for account takeover and business email compromise.\nThe post Microsoft and partners disrupt EvilToke",
+      "categories": [
+        "Incident Response",
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft and its partners have successfully disrupted EvilTokens, a popular phishing-as-a-service platform utilized by cybercriminals. The illicit service leveraged artificial intelligence across the attack chain to steal authentication tokens for financial fraud and business email compromise.",
+        "whyItMatters": "This disruption neutralizes a sophisticated tool that lowered the barrier for threat actors to execute large-scale account takeover attacks.",
+        "affected": [],
+        "action": "Monitor accounts for unauthorized access and review token-based authentication security.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "UK cops arrest 2 EvilTokens suspects, Microsoft seizes 50 phishing kit websites",
+      "link": "https://www.theregister.com/security/2026/09/22/uk-cops-arrest-2-eviltokens-suspects-microsoft-seizes-50-phishing-kit-websites/5298317",
+      "source": "The Register",
+      "publishedAt": "2026-09-22T15:00:00.000Z",
+      "summary": "Used by crims to compromise 12K+ email inboxes across 10K+ global orgs",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Law enforcement arrested two suspects allegedly connected to the EvilTokens phishing-as-a-service operation, while Microsoft seized 50 associated phishing websites. The criminal infrastructure has been used to compromise over 12,000 email inboxes across more than 10,000 global organizations.",
+        "whyItMatters": "This takedown disrupts a major adversary-in-the-middle phishing service that successfully targeted thousands of global organizations.",
+        "affected": [],
+        "action": "Monitor organizational email environments for signs of compromise related to session hijacking.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Who signed off on that AI agent? Nobody? Thought so.",
+      "link": "https://www.theregister.com/security/2026/09/22/sponsored/5297693",
+      "source": "The Register",
+      "publishedAt": "2026-09-22T15:00:00.000Z",
+      "summary": "SPONSORED FEATURE: AI agents may be unpredictable. Who they are, what they can do, and who owns them shouldn’t be.",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "SPONSORED FEATURE: AI agents may be unpredictable. Who they are, what they can do, and who owns them shouldn’t be.",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
     {
       "title": "Cyera Raises $400 Million at $12+ Billion Valuation",
       "link": "https://www.securityweek.com/cyera-raises-400-million-at-12-billion-valuation/",
@@ -23,8 +602,66 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "USN-8804-1: OpenSSH vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8804-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-09-22T14:24:54.000Z",
+      "summary": "Florian Kohnhäuser discovered that OpenSSH incorrectly handled shell\nmetacharacters in certain usernames. An attacker could possibly use this\nissue to execute arbitrary commands when certain non-default\nconfigurations we",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Florian Kohnhäuser discovered that OpenSSH incorrectly handled shell\nmetacharacters in certain usernames. An attacker could possibly use this\nissue to execute arbitrary commands when certain non-default\nconfigurations we",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "USN-8803-1: Sudo vulnerability",
+      "link": "https://ubuntu.com/security/notices/USN-8803-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-09-22T14:15:17.000Z",
+      "summary": "Guannan Wang, Zhanpeng Liu, and Guancheng Li discovered that Sudo failed to\napply intercept policy checks when commands were executed under certain\ncircumstances. A local attacker permitted to run specific commands could",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Guannan Wang, Zhanpeng Liu, and Guancheng Li discovered that Sudo failed to\napply intercept policy checks when commands were executed under certain\ncircumstances. A local attacker permitted to run specific commands could",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -51,8 +688,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -83,8 +720,8 @@
         "affected": [
           "Cisco"
         ],
-        "risk": "News",
         "action": "Monitor for indicators of compromise.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -106,13 +743,13 @@
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "Three domains / web portals belonging to Dutch academic publishing company Elsevier have been redirecting users to a page branded “LAPSUS$ GROUP, Chapter II,” carrying a signed statement that taunted the FBI and counted ",
+        "summary": "Three domains / web portals belonging to Dutch academic publishing company Elsevier have been redirecting users to a page branded “LAPSUS$ GROUP, Chapter II,” carrying a signed statement that taunted the FBI and counted",
         "whyItMatters": "Background context; no immediate action expected.",
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -139,8 +776,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -174,8 +811,8 @@
           "Linux",
           "Oracle"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -209,8 +846,8 @@
           "Linux",
           "Azure"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -305,8 +942,8 @@
         "affected": [
           "Linux"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -335,14 +972,14 @@
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - Bluetooth drivers;\n  - GPU drivers;\n",
+        "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - Bluetooth drivers;\n  - GPU drivers;",
         "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
         "affected": [
           "Linux",
           "Azure"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -369,8 +1006,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -398,8 +1035,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -426,8 +1063,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -458,8 +1095,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "High",
         "action": "Review and assess impact on your environment.",
+        "risk": "High",
         "relatedCves": [
           "CVE-2026-86296"
         ],
@@ -488,8 +1125,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -518,8 +1155,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Critical",
         "action": "Patch immediately.",
+        "risk": "Critical",
         "relatedCves": [
           "CVE-2026-93952"
         ],
@@ -548,8 +1185,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -577,8 +1214,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -605,8 +1242,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -633,8 +1270,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -661,8 +1298,240 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Siemens Industrial Edge Management",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-06",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-09-22T12:00:00.000Z",
+      "summary": "View CSAF\nSummary\nIndustrial Edge Management contains an authentication bypass vulnerability that could allow an unauthenticated remote attacker to perform full account takeover by resetting user credentials without comp",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "View CSAF\nSummary\nIndustrial Edge Management contains an authentication bypass vulnerability that could allow an unauthenticated remote attacker to perform full account takeover by resetting user credentials without comp",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "OpenPLC Runtime v3",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-09",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-09-22T12:00:00.000Z",
+      "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to hijack session cookies and issue state-changing requests as an operator which would allow the attacker to control the programmabl",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to hijack session cookies and issue state-changing requests as an operator which would allow the attacker to control the programmabl",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "lwIP (Lightweight IP)",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-02",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-09-22T12:00:00.000Z",
+      "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could result in a system crash, a DoS, or memory corruption, which could lead to code execution on the victim system.\nThe following versions of lwIP (Lightw",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could result in a system crash, a DoS, or memory corruption, which could lead to code execution on the victim system.\nThe following versions of lwIP (Lightw",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Siemens WTV676 and WTV776",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-08",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-09-22T12:00:00.000Z",
+      "summary": "View CSAF\nSummary\nThe products listed below contain a denial of service vulnerability that could allow an attacker to force the devices into protection mode under certain conditions. This disables remote connectivity fun",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "View CSAF\nSummary\nThe products listed below contain a denial of service vulnerability that could allow an attacker to force the devices into protection mode under certain conditions. This disables remote connectivity fun",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Siemens SIPLUS and SIMATIC Products",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-04",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-09-22T12:00:00.000Z",
+      "summary": "View CSAF\nSummary\nMultiple Siemens products are vulnerable to the \"Copy Fail\" vulnerability. Siemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is pre",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "View CSAF\nSummary\nMultiple Siemens products are vulnerable to the \"Copy Fail\" vulnerability. Siemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is pre",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Siemens Desigo CC family",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-05",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-09-22T12:00:00.000Z",
+      "summary": "View CSAF\nSummary\nA Client Code Execution (CCE) vulnerability has been identified in Desigo CC, potentially allowing malicious actors to execute arbitrary code on client devices through specially crafted graphics documen",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "View CSAF\nSummary\nA Client Code Execution (CCE) vulnerability has been identified in Desigo CC, potentially allowing malicious actors to execute arbitrary code on client devices through specially crafted graphics documen",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Siemens SIMOVE Fleetmanager and SIPLANT",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-07",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-09-22T12:00:00.000Z",
+      "summary": "View CSAF\nSummary\nSIMOVE Fleetmanager and SIPLANT contain a path traversal vulnerability that could allow an attacker to access files outside of intended scope. Siemens has released new versions for the affected products",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "View CSAF\nSummary\nSIMOVE Fleetmanager and SIPLANT contain a path traversal vulnerability that could allow an attacker to access files outside of intended scope. Siemens has released new versions for the affected products",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Siemens Siveillance Control",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-03",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-09-22T12:00:00.000Z",
+      "summary": "View CSAF\nSummary\nA vulnerability has been identified in the Open Interface Services (OIS) web module affecting Siveillance Control and Siveillance Control Pro (versions OIS 3.x.y and OIS 4.x.y) . This vulnerability allo",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "View CSAF\nSummary\nA vulnerability has been identified in the Open Interface Services (OIS) web module affecting Siveillance Control and Siveillance Control Pro (versions OIS 3.x.y and OIS 4.x.y) . This vulnerability allo",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -690,8 +1559,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -718,8 +1587,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -750,8 +1619,8 @@
         "affected": [
           "Linux"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -779,8 +1648,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "Monitor for indicators of compromise.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -802,50 +1671,14 @@
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "A SharePoint Server vulnerability that Microsoft initially classified as a spoofing flaw with a CVSS score of 6.5 actually enables authenticated remote code execution, according to full technical details published today ",
+        "summary": "A SharePoint Server vulnerability that Microsoft initially classified as a spoofing flaw with a CVSS score of 6.5 actually enables authenticated remote code execution, according to full technical details published today",
         "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "USN-8661-5: Linux kernel (Raspberry Pi) vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8661-5",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-09-22T11:17:20.000Z",
-      "summary": "Siebe Devroe, Héloïse Gollier, and Mathy Vanhoef discovered that the WiFi\nimplementation in the Linux kernel did not properly handle aggregated\nframes in mesh networks, due to an incorrect fix for CVE-2020-24588. A\nphysi",
-      "categories": [
-        "Vulnerability",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [
-        "CVE-2020-24588"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Siebe Devroe, Héloïse Gollier, and Mathy Vanhoef discovered that the WiFi\nimplementation in the Linux kernel did not properly handle aggregated\nframes in mesh networks, due to an incorrect fix for CVE-2020-24588. A\nphysi",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Linux"
-        ],
-        "risk": "Medium",
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "relatedCves": [
-          "CVE-2020-24588"
-        ],
         "source": "heuristic"
       }
     },
@@ -871,41 +1704,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "USN-8760-2: Linux kernel (NVIDIA) vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8760-2",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-09-22T11:02:06.000Z",
-      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - User-space API (UAPI);\n  - Kernel bu",
-      "categories": [
-        "Vulnerability",
-        "Incident Response",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - User-space API (UAPI);\n  - Kernel bu",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Linux"
-        ],
-        "risk": "Medium",
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -934,8 +1734,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "Monitor for indicators of compromise.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -966,8 +1766,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Critical",
         "action": "Patch immediately.",
+        "risk": "Critical",
         "relatedCves": [
           "CVE-2026-7273"
         ],
@@ -996,8 +1796,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1024,8 +1824,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1055,8 +1855,8 @@
         "affected": [
           "WordPress"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1086,8 +1886,8 @@
         "affected": [
           "Cisco"
         ],
-        "risk": "News",
         "action": "Monitor for indicators of compromise.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1116,8 +1916,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "Monitor for indicators of compromise.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1139,13 +1939,13 @@
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "SpyCloud’s study found 1,787 of the approximately 10,000 U.S. organizations had it, including one infected device that saved logins for 167 utility metering tenants.\nThe post Another worry for water systems: infostealer ",
+        "summary": "SpyCloud’s study found 1,787 of the approximately 10,000 U.S. organizations had it, including one infected device that saved logins for 167 utility metering tenants.\nThe post Another worry for water systems: infostealer",
         "whyItMatters": "Background context; no immediate action expected.",
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1175,8 +1975,8 @@
         "affected": [
           "Windows"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1204,36 +2004,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Malicious npm Package indexed-btree Hid Its Loader in Runtime Code Before Removal",
-      "link": "https://thehackernews.com/2026/09/malicious-npm-package-indexed-btree-hid.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-22T09:38:18.000Z",
-      "summary": "A malicious npm package named \"indexed-btree\" has been observed hiding its malicious behavior within application code rather than using lifecycle scripts, indicating that threat actors are likely shifting tactics in resp",
-      "categories": [
-        "Open Source"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A malicious npm package named \"indexed-btree\" has been observed hiding its malicious behavior within application code rather than using lifecycle scripts, indicating that threat actors are likely shifting tactics in resp",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
         "risk": "News",
-        "action": "No action required; informational.",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1347,63 +2119,6 @@
       }
     },
     {
-      "title": "SideCopy Broadens India Targeting to Academia With ReverseRAT Spear-Phishing",
-      "link": "https://thehackernews.com/2026/09/sidecopy-broadens-india-targeting-to.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-22T07:52:03.000Z",
-      "summary": "The threat actor known as SideCopy has been observed using spear-phishing lures to target academic institutions in India, expanding their strategic focus beyond government entities.\n\n\"SideCopy campaign operations typical",
-      "categories": [
-        "Threat Intel",
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The SideCopy threat actor is utilizing spear-phishing lures and the ReverseRAT malware to target academic institutions in India. This activity marks an expansion of their strategic targeting, which previously focused primarily on government entities.",
-        "whyItMatters": "This campaign highlights the evolving tactics of state-sponsored threat actors as they broaden their espionage targets to include the educational sector.",
-        "affected": [],
-        "action": "Implement strict email filtering and user awareness training to detect spear-phishing attempts.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor",
-      "link": "https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-22T06:33:57.000Z",
-      "summary": "Malware already running on a Mac can quietly take over Meta's Muse assistant and use the broad access its owner granted the app, security researcher Patrick Wardle has shown in a proof-of-concept released on September 21",
-      "categories": [
-        "Malware",
-        "AI Security",
-        "Research"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": true,
-      "severity": "high",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Security researcher Patrick Wardle demonstrated a proof-of-concept showing how malware on a Mac can hijack Meta's Muse AI assistant. The attack exploits broad user-granted permissions to turn the assistant into a functional backdoor.",
-        "whyItMatters": "It demonstrates how attackers can weaponize trusted AI assistants and their broad system permissions using existing malware.",
-        "affected": [
-          "Meta Muse"
-        ],
-        "action": "Review and restrict permissions granted to AI assistants on your device.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "A cheap fake base station can still track 5G subscribers",
       "link": "https://www.helpnetsecurity.com/2026/09/22/5g-subscriber-tracking-research/",
       "source": "Help Net Security",
@@ -1450,33 +2165,6 @@
         "whyItMatters": "Staying informed on daily threat intelligence briefings helps security professionals track emerging vulnerabilities and active exploits.",
         "affected": [],
         "action": "Listen to the podcast episode for detailed daily threat briefings.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "US Proposes AI Incident Alert System in Talks With China, Bessent Says",
-      "link": "https://www.securityweek.com/us-proposes-ai-incident-alert-system-in-talks-with-china-bessent-says/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-09-22T02:01:24.000Z",
-      "summary": "Trump has resisted calls to slow down AI development, saying that would help China catch up to U.S. companies.\nThe post US Proposes AI Incident Alert System in Talks With China, Bessent Says appeared first on SecurityWee",
-      "categories": [
-        "Incident Response",
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The United States has proposed an AI incident alert system during discussions with China. This diplomatic engagement aims to address artificial intelligence safety and risk management between the two nations.",
-        "whyItMatters": "Establishing communication channels for AI incidents between global superpowers is crucial for preventing unexpected escalations or technological crises.",
-        "affected": [],
-        "action": "Monitor ongoing diplomatic developments regarding artificial intelligence safety agreements.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -1531,8 +2219,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1585,66 +2273,6 @@
         "affected": [],
         "action": "Implement strict rate limits and monitoring on AI agent resource consumption.",
         "risk": "Medium",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "BigCommerce alerts merchants of data breach linked to Ribon apps",
-      "link": "https://www.bleepingcomputer.com/news/security/bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-apps/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-09-21T21:18:49.000Z",
-      "summary": "Ecommerce platform BigCommerce has alerted multiple merchants to data breaches after attackers compromised credentials for third-party Ribon applications and used them to inject malicious scripts into online stores. [...",
-      "categories": [
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "BigCommerce notified multiple merchants of data breaches after attackers compromised credentials for third-party Ribon applications. The threat actors used these stolen credentials to inject malicious scripts directly into online stores.",
-        "whyItMatters": "Compromised third-party application credentials can be leveraged to execute supply chain attacks and inject malicious code into multiple e-commerce stores.",
-        "affected": [
-          "BigCommerce (Ribon apps)"
-        ],
-        "action": "Review third-party application access and check e-commerce stores for unauthorized script injections.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CISA alerts of active exploitation of three Linux kernel flaws",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-09-21T20:12:17.000Z",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that hackers are exploiting three Linux kernel vulnerabilities, one of them rated critical. [...]",
-      "categories": [
-        "Vulnerability",
-        "Government",
-        "Open Source"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CISA has issued a warning regarding the active exploitation of three Linux kernel vulnerabilities by hackers. One of the targeted flaws has been rated as critical.",
-        "whyItMatters": "Active exploitation by threat actors significantly increases the risk of system compromise and unauthorized access for organizations running vulnerable Linux kernels.",
-        "affected": [
-          "Linux kernel"
-        ],
-        "action": "Update the Linux kernel to the latest patched versions immediately.",
-        "risk": "Critical",
         "relatedCves": [],
         "source": "ai"
       }
@@ -1808,67 +2436,6 @@
           "Azure Sphere OS 26.09"
         ],
         "action": "Ensure internet-connected Azure Sphere devices receive the automatic OS update.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "WordPress Click2Shell flaw lets hackers execute PHP on the server",
-      "link": "https://www.bleepingcomputer.com/news/security/wordpress-click2shell-flaw-lets-hackers-execute-php-on-the-server/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-09-21T18:23:11.000Z",
-      "summary": "Technical details and a proof-of-concept exploit have been published for a new WordPress cross-site request forgery (CSRF) vulnerability dubbed 'Click2Shell' that affects the platform's Core component. [...]",
-      "categories": [
-        "Vulnerability",
-        "Research"
-      ],
-      "tags": [
-        "WordPress"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": true,
-      "severity": "high",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A newly disclosed cross-site request forgery vulnerability dubbed 'Click2Shell' affects the WordPress Core component. Technical details and a proof-of-concept exploit have been published, allowing attackers to execute PHP on the server.",
-        "whyItMatters": "This flaw allows unauthenticated remote code execution via CSRF, putting vulnerable WordPress sites at immediate risk of full compromise.",
-        "affected": [
-          "WordPress Core"
-        ],
-        "action": "Update WordPress to the latest patched version immediately.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Microsoft to retire Microsoft 365 Companion apps in December",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-retire-microsoft-365-companion-apps-in-december/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-09-21T17:54:49.000Z",
-      "summary": "Microsoft will retire the Calendar, People, and Files Microsoft 365 companion apps on December 16 and has asked admins to remove them from managed devices. [...]",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft is retiring the Calendar, People, and Files Microsoft 365 companion apps on December 16. Administrators have been asked to remove these applications from all managed devices.",
-        "whyItMatters": "Organizations must remove the deprecated apps to maintain proper device management and security hygiene.",
-        "affected": [
-          "Microsoft 365 Calendar app",
-          "Microsoft 365 People app",
-          "Microsoft 365 Files app"
-        ],
-        "action": "Remove the deprecated apps from managed devices.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -2177,34 +2744,6 @@
       }
     },
     {
-      "title": "Cyberattack hits University of Munich, potentially exposing student financial data",
-      "link": "https://therecord.media/cyberattack-hits-university-of-munich-potentially-exposing-data",
-      "source": "The Record",
-      "publishedAt": "2026-09-21T14:01:00.000Z",
-      "summary": "The university, commonly known as LMU Munich, said Saturday that an attacker accessed enrollment data stored on one of its IT systems.",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "LMU Munich suffered a cyberattack where an unauthorized actor accessed enrollment data stored on one of its IT systems. The compromised information potentially includes student financial data.",
-        "whyItMatters": "This incident poses a significant privacy and financial risk to students due to the potential exposure of sensitive personal and financial records.",
-        "affected": [
-          "LMU Munich enrollment IT systems"
-        ],
-        "action": "Monitor accounts for suspicious activity and follow university security guidance.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "CVE-2026-68825 Windows Bind Filter Driver Elevation of Privilege Vulnerability",
       "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68825",
       "source": "Microsoft MSRC",
@@ -2496,68 +3035,6 @@
       }
     },
     {
-      "title": "Clop gets a taste of its own medicine after ShinyHunters hijack leak site",
-      "link": "https://www.theregister.com/cyber-crime/2026/09/21/clop-gets-a-taste-of-its-own-medicine-after-shinyhunters-hijack-leak-site/5297702",
-      "source": "The Register",
-      "publishedAt": "2026-09-21T12:46:00.000Z",
-      "summary": "Rival crew demands eight figures and threatens to expose companies that paid to keep quiet",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Rival crew demands eight figures and threatens to expose companies that paid to keep quiet",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/09/21/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-09-21T12:00:00.000Z",
-      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-7273 Zyxel GS1900 Series Switches Stack-Based Buffer Overflow Vulnerability\nTh",
-      "categories": [
-        "Vulnerability",
-        "Government",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-7273"
-      ],
-      "kev": true,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CISA has added a new vulnerability affecting Zyxel GS1900 Series Switches to its Known Exploited Vulnerabilities Catalog. The flaw is identified as a stack-based buffer overflow actively being exploited in the wild.",
-        "whyItMatters": "Active exploitation of this vulnerability in Zyxel switches poses an immediate risk of remote code execution or system compromise for organizations using the affected hardware.",
-        "affected": [
-          "Zyxel GS1900 Series Switches"
-        ],
-        "action": "Apply the latest security updates provided by Zyxel immediately.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-7273"
-        ],
-        "source": "ai"
-      }
-    },
-    {
       "title": "One does not simply defend agentically",
       "link": "https://www.ncsc.gov.uk/blogs/one-does-not-simply-defend-agentically",
       "source": "NCSC UK",
@@ -2609,32 +3086,6 @@
         "whyItMatters": "This campaign highlights advanced evasion techniques, such as steganography, used by threat actors to bypass security controls during multistage intrusions.",
         "affected": [],
         "action": "Review the Microsoft Security Research blog for indicators of compromise and monitor network traffic for anomalous reverse tunneling.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Rustaceans warned of job interviews with a malicious payload",
-      "link": "https://www.theregister.com/security/2026/09/21/rustaceans-warned-of-job-interviews-with-a-malicious-payload/5297690",
-      "source": "The Register",
-      "publishedAt": "2026-09-21T10:33:00.000Z",
-      "summary": "Attackers are courting crate owners with plausible company profiles and booby-trapped recruitment calls",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Threat actors are targeting Rust crate owners with fraudulent job interviews designed to deliver malicious payloads. These attacks use plausible company profiles to lure developers into malicious recruitment calls.",
-        "whyItMatters": "This sophisticated social engineering campaign directly targets software supply chain maintainers to compromise critical open-source repositories.",
-        "affected": [],
-        "action": "Verify the legitimacy of recruiters and avoid running unverified code during interview processes.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -2748,8 +3199,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -2867,32 +3318,6 @@
         ],
         "action": "Update GIMP to the latest security release provided by your vendor.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Agentic security is the billion-dollar challenge for some clever startup to solve",
-      "link": "https://www.theregister.com/security/2026/09/19/agentic-security-is-the-billion-dollar-challenge-for-some-clever-startup-to-solve/5297546",
-      "source": "The Register",
-      "publishedAt": "2026-09-19T14:25:00.000Z",
-      "summary": "High time to stop kicking the security can down the road, investor tells The Reg",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "An industry investor emphasizes that agentic security represents a major upcoming challenge that requires innovative startup solutions. The commentary highlights the urgency of addressing these security issues rather than delaying them.",
-        "whyItMatters": "It highlights a critical emerging market gap and investment opportunity in securing autonomous AI agents.",
-        "affected": [],
-        "action": "Monitor emerging developments in agentic security solutions.",
-        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
@@ -3027,67 +3452,6 @@
         "whyItMatters": "This guilty plea marks a significant law enforcement milestone against the notorious Scattered Spider threat group, demonstrating accountability for high-profile cybercriminal activities.",
         "affected": [],
         "action": "Review threat intelligence regarding Scattered Spider tactics.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Cisco Zero-Day Highlights API Endpoint Authentication Issues",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/cisco-zero-day-api-endpoint-authentication-issues",
-      "source": "Dark Reading",
-      "publishedAt": "2026-09-18T19:26:47.000Z",
-      "summary": "The authentication bypass flaw CVE-2026-76460 impacts Cisco's Identity Services Engine (ISE) and received a maximum 10 out of 10 CVSS score.",
-      "categories": [
-        "Zero Day",
-        "Vulnerability"
-      ],
-      "tags": [
-        "Cisco"
-      ],
-      "cves": [
-        "CVE-2026-76460"
-      ],
-      "kev": true,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Cisco has patched a critical zero-day authentication bypass flaw, tracked as CVE-2026-76460, affecting the Identity Services Engine. The vulnerability received a maximum CVSS score of 10 due to API endpoint authentication issues.",
-        "whyItMatters": "It allows unauthenticated attackers to completely bypass security controls on a core enterprise identity management platform with maximum severity.",
-        "affected": [
-          "Cisco Identity Services Engine (ISE)"
-        ],
-        "action": "Apply the official security updates provided by Cisco immediately.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-76460"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "EY Survey Finds Autonomous AI Implementation Outpaces Oversight",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/ey-survey-autonomous-ai-implementation-outpaces-oversight",
-      "source": "Dark Reading",
-      "publishedAt": "2026-09-18T19:23:48.000Z",
-      "summary": "A new survey of senior AI execs shows that while organizations are rapidly deploying AI and autonomous systems, their process and controls are not keeping pace.",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A recent survey of senior AI executives reveals that organizations are rapidly deploying autonomous artificial intelligence systems without keeping pace in processes and oversight. This disparity highlights a growing gap between technological implementation and governance within modern enterprises.",
-        "whyItMatters": "Unchecked deployment of autonomous AI without adequate controls increases organizational exposure to unintended security risks, compliance failures, and operational disruptions.",
-        "affected": [],
-        "action": "Implement robust governance and oversight controls for all autonomous AI deployments.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -3264,58 +3628,6 @@
         "affected": [],
         "action": "Ensure all software decoders and affected systems are updated to the latest patched versions.",
         "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Researchers used Claude to hack OpenAI employees' ChatGPT accounts",
-      "link": "https://www.theregister.com/security/2026/09/18/researchers-used-claude-to-hack-openai-employees-chatgpt-accounts/5297517",
-      "source": "The Register",
-      "publishedAt": "2026-09-18T17:16:00.000Z",
-      "summary": "Agentic exploits for the win (again)",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "Researchers successfully used the Claude AI model to exploit agentic vulnerabilities and compromise OpenAI employee ChatGPT accounts. This demonstration highlights the growing capability of AI systems to autonomously execute cyberattacks.",
-        "whyItMatters": "It demonstrates how advanced AI models can be weaponized to autonomously discover and execute exploits against high-profile targets.",
-        "affected": [],
-        "action": "Review and secure agentic AI integrations against autonomous exploitation.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "North Korea's fake job interviews infected 30,000 devices",
-      "link": "https://www.theregister.com/security/2026/09/18/north-koreas-fake-job-interviews-infected-30000-devices/5297461",
-      "source": "The Register",
-      "publishedAt": "2026-09-18T16:53:00.000Z",
-      "summary": "WaterPlum recruiters used bogus coding tests to backdoor jobseekers and raid more than 7,000 crypto wallets",
-      "categories": [
-        "Malware"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "North Korean threat actors known as WaterPlum conducted fake job interviews involving bogus coding tests. This malicious campaign successfully infected 30,000 devices and compromised over 7,000 cryptocurrency wallets.",
-        "whyItMatters": "This campaign demonstrates how state-sponsored threat actors weaponize the hiring process to infiltrate systems and steal significant amounts of cryptocurrency.",
-        "affected": [],
-        "action": "Verify the legitimacy of prospective employers and avoid running untrusted code from interview assessments.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -3540,37 +3852,6 @@
       }
     },
     {
-      "title": "New Android malware uses AI to steal bank logins and PINs",
-      "link": "https://www.malwarebytes.com/blog/news/2026/09/new-android-malware-uses-ai-to-steal-bank-logins-and-pins",
-      "source": "Malwarebytes Labs",
-      "publishedAt": "2026-09-18T15:37:04.000Z",
-      "summary": "RatHat can navigate infected phones while stealing bank logins, authentication codes, and screen-lock PINs.",
-      "categories": [
-        "Malware",
-        "AI Security"
-      ],
-      "tags": [
-        "Android"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "RatHat can navigate infected phones while stealing bank logins, authentication codes, and screen-lock PINs.",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Android"
-        ],
-        "action": "Monitor for indicators of compromise.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "From Fork to Framework: What Modifying Apollo Taught Us About Agent Invasion",
       "link": "https://bishopfox.com/blog/from-fork-to-framework-what-modifying-apollo-taught-us-about-agent-invasion",
       "source": "Bishop Fox",
@@ -3593,82 +3874,6 @@
         "action": "Review the Bishop Fox post to understand the challenges of C2 agent modification.",
         "risk": "News",
         "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/09/18/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-09-18T12:00:00.000Z",
-      "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2025-39964 Linux Kernel Race Condition Vulnerability\nCVE-2026-53266 Linux Kernel ",
-      "categories": [
-        "Vulnerability",
-        "Government",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [
-        "CVE-2025-39964",
-        "CVE-2026-53266"
-      ],
-      "kev": true,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CISA has added two Linux kernel vulnerabilities, CVE-2025-39964 and CVE-2026-53266, to its Known Exploited Vulnerabilities Catalog. These additions are based on evidence of active exploitation in the wild.",
-        "whyItMatters": "Active exploitation of kernel-level vulnerabilities poses a severe risk of system compromise and privilege escalation.",
-        "affected": [
-          "Linux Kernel"
-        ],
-        "action": "Apply the latest security updates provided by your Linux distribution.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2025-39964",
-          "CVE-2026-53266"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/09/18/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-09-18T12:00:00.000Z",
-      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2025-39682 Linux Kernel Improper Check for Unusual or Exceptional Conditions Vulner",
-      "categories": [
-        "Vulnerability",
-        "Government",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [
-        "CVE-2025-39682"
-      ],
-      "kev": true,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CISA has added a new Linux kernel vulnerability to its Known Exploited Vulnerabilities Catalog following evidence of active exploitation. The flaw involves an improper check for unusual or exceptional conditions.",
-        "whyItMatters": "Active exploitation in the wild means attackers are actively targeting this vulnerability, increasing the risk of system compromise.",
-        "affected": [
-          "Linux Kernel"
-        ],
-        "action": "Update the Linux kernel to the latest patched version immediately.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2025-39682"
-        ],
         "source": "ai"
       }
     },
@@ -3894,32 +4099,6 @@
       }
     },
     {
-      "title": "The AI hacking apocalypse is not inevitable",
-      "link": "https://cyberscoop.com/ai-agent-hacking-apocalypse-cybersecurity/",
-      "source": "CyberScoop",
-      "publishedAt": "2026-09-17T19:18:07.000Z",
-      "summary": "While large language models present real risks to society, experts say they can be tested and largely controlled using well-worn cybersecurity and policy choices.\nThe post The AI hacking apocalypse is not inevitable appe",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Experts suggest that large language model risks can be tested and controlled using established cybersecurity and policy measures. Despite societal concerns, an inevitable AI hacking apocalypse is not expected.",
-        "whyItMatters": "It provides a reassuring perspective on mitigating artificial intelligence security risks through traditional defense strategies.",
-        "affected": [],
-        "action": "Maintain standard cybersecurity and policy controls for AI systems.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Should you care about an “AI slowdown?”",
       "link": "https://blog.talosintelligence.com/should-you-care-about-an-ai-slowdown/",
       "source": "Talos Intelligence",
@@ -4115,34 +4294,6 @@
       }
     },
     {
-      "title": "Authorities seize popular, long-running DDoS-for-hire service domains",
-      "link": "https://cyberscoop.com/fbi-seizes-nightmarestresser-ddos-for-hire-domains/",
-      "source": "CyberScoop",
-      "publishedAt": "2026-09-17T13:37:23.000Z",
-      "summary": "Cybercriminals used NightmareStresser to launch hundreds of thousands of DDoS attacks since at least 2022. Threat actors behind the operation claimed links to Russia.\nThe post Authorities seize popular, long-running DDoS",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Cybercriminals used NightmareStresser to launch hundreds of thousands of DDoS attacks since at least 2022. Threat actors behind the operation claimed links to Russia.\nThe post Authorities seize popular, long-running DDoS",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "The Odyssey and trojans again: MovieReaper attacks users in multiple countries via compromised torrents",
       "link": "https://securelist.com/moviereaper-malware-torrent-odyssey-solana/121344/",
       "source": "Kaspersky Securelist",
@@ -4224,158 +4375,6 @@
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
-      }
-    },
-    {
-      "title": "Schneider Electric Modicon M340 Controller and Communication Modules",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-04",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-09-17T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nSchneider Electric is aware of a vulnerability in its Modicon M340 https://www.se.com/ww/en/product-range/1468-modicon-m340-pac/, BMXNOR0200H https://www.se.com/us/en/product/BMXNOR0200H/communication-m",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Schneider Electric has identified a security vulnerability affecting its Modicon M340 controller and BMXNOR0200H communication modules. Details regarding the exact nature of the flaw are currently limited in the advisory.",
-        "whyItMatters": "Vulnerabilities in industrial controllers can allow unauthorized access or disruption to critical operational technology environments.",
-        "affected": [
-          "Modicon M340",
-          "BMXNOR0200H"
-        ],
-        "action": "Review the official Schneider Electric CSAF advisory for remediation steps.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "ABB Ability Edgenius",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-06",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-09-17T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nABB is aware of public reports of a vulnerability CVE‑2026‑31431 (Copy Fail) in the product versions listed as affected in the advisory. An update is available that resolves a publicly reported vulnerab",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "View CSAF\nSummary\nABB is aware of public reports of a vulnerability CVE‑2026‑31431 (Copy Fail) in the product versions listed as affected in the advisory. An update is available that resolves a publicly reported vulnerab",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Bransys ELD",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-01",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-09-17T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow unauthorized access to telemetry data and firmware.\nThe following versions of Bransys ELD are affected:\nAndroid <11.00.00 (CVE-2026-86520, CV",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Android"
-      ],
-      "cves": [
-        "CVE-2026-86520"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow unauthorized access to telemetry data and firmware.\nThe following versions of Bransys ELD are affected:\nAndroid <11.00.00 (CVE-2026-86520, CV",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Android"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [
-          "CVE-2026-86520"
-        ],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Schneider Electric PowerChute Serial Shutdown",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-07",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-09-17T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nSchneider Electric is aware of vulnerabilities in its PowerChute Serial Shutdown product. The PowerChute Serial Shutdown product is a UPS management software enabling graceful system shutdown and energy",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "View CSAF\nSummary\nSchneider Electric is aware of vulnerabilities in its PowerChute Serial Shutdown product. The PowerChute Serial Shutdown product is a UPS management software enabling graceful system shutdown and energy",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Schneider Electric NetBotz 5 750/755",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-05",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-09-17T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nSchneider Electric is aware of multiple vulnerabilities in its NetBotz 5 – 750/755 products.The NetBotz 5 – 750/755 products are security and environmental monitors providing temperature, humidity, leak",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "View CSAF\nSummary\nSchneider Electric is aware of multiple vulnerabilities in its NetBotz 5 – 750/755 products.The NetBotz 5 – 750/755 products are security and environmental monitors providing temperature, humidity, leak",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
       }
     },
     {
@@ -4703,32 +4702,6 @@
           "LG smart TVs"
         ],
         "action": "Review smart TV privacy and security settings.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Scans Targeting Hospitality Applications, (Wed, Sep 16th)",
-      "link": "https://isc.sans.edu/diary/rss/33344",
-      "source": "SANS ISC",
-      "publishedAt": "2026-09-16T18:44:04.000Z",
-      "summary": "Earlier today, I noted an odd request showing up in our \"First Seen\" report:",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Scans targeting hospitality applications were recently detected in internet traffic logs. The activity appeared as an unusual request captured in a security monitoring report.",
-        "whyItMatters": "Unidentified scanning activity against hospitality applications often indicates reconnaissance by threat actors looking for vulnerable entry points.",
-        "affected": [],
-        "action": "Monitor network logs for suspicious requests targeting hospitality applications.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -5790,41 +5763,6 @@
           "CVE-2026-82329"
         ],
         "source": "heuristic"
-      }
-    },
-    {
-      "title": "CVE-2026-89049 - Server-side request forgery in the Session Manager port forwarding functionality in AWS Systems Manager Agent",
-      "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-107-aws/",
-      "source": "AWS Security Bulletins",
-      "publishedAt": "2026-09-10T18:44:24.000Z",
-      "summary": "Bulletin ID: 2026-107-AWS\n Scope: AWS\n Content Type: Important (requires attention)\n Publication Date: 09/10/2026 11:30 AM PDT\n \nDescription:\n \nAWS Systems Manager Agent (SSM Agent) is software that runs on managed nodes",
-      "categories": [
-        "Vulnerability",
-        "Cloud"
-      ],
-      "tags": [
-        "AWS"
-      ],
-      "cves": [
-        "CVE-2026-89049"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A server-side request forgery vulnerability has been discovered in the Session Manager port forwarding functionality of the AWS Systems Manager Agent. This flaw affects the SSM Agent running on managed nodes within AWS environments.",
-        "whyItMatters": "It could allow attackers to leverage vulnerable agents to perform unauthorized requests from the server-side context.",
-        "affected": [
-          "AWS Systems Manager Agent"
-        ],
-        "action": "Update the AWS Systems Manager Agent to the latest patched version.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-89049"
-        ],
-        "source": "ai"
       }
     }
   ]
