@@ -1,6 +1,113 @@
 {
-  "updatedAt": "2026-09-21T21:04:05.224Z",
+  "updatedAt": "2026-09-22T00:04:40.812Z",
   "items": [
+    {
+      "title": "21st September – Threat Intelligence Report",
+      "link": "https://research.checkpoint.com/2026/21st-september-threat-intelligence-report/",
+      "source": "Check Point Research",
+      "publishedAt": "2026-09-21T23:13:07.000Z",
+      "summary": "For the latest discoveries in cyber research for the week of 21st Setpember, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Japan’s Digital Agency, which operates the Government Solution Servi",
+      "categories": [
+        "Research",
+        "Government"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "This threat intelligence report summarizes recent discoveries in cybersecurity research for the week of September 21st. It highlights top attacks and breaches, including an incident involving Japan's Digital Agency.",
+        "whyItMatters": "Staying informed about ongoing government breaches and threat intelligence helps organizations prepare for similar sophisticated attacks.",
+        "affected": [],
+        "action": "Download and review the full threat intelligence bulletin.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Anthropic-linked CVEs pile up, attackers mostly shrug",
+      "link": "https://www.theregister.com/security/2026/09/21/anthropic-linked-cves-pile-up-attackers-mostly-shrug/5298018",
+      "source": "The Register",
+      "publishedAt": "2026-09-21T22:32:51.000Z",
+      "summary": "Of 225 flaws found by Glasswing and tracked by VulnCheck researcher, just one has confirmed exploitation in the wild",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Researchers from Glasswing and VulnCheck identified 225 security flaws linked to Anthropic ecosystems. However, despite the large number of discovered vulnerabilities, only one has been confirmed as actively exploited in the wild.",
+        "whyItMatters": "It demonstrates that the sheer volume of discovered vulnerabilities does not always correlate with widespread active exploitation by threat actors.",
+        "affected": [],
+        "action": "Monitor vendor advisories and apply available patches for any identified Anthropic-related vulnerabilities.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "How AI Agents Can Trigger Runaway Costs for Enterprises",
+      "link": "https://www.darkreading.com/application-security/how-ai-agents-can-trigger-runaway-costs",
+      "source": "Dark Reading",
+      "publishedAt": "2026-09-21T21:39:59.000Z",
+      "summary": "Unbounded consumption is an issue that OWASP currently ranks sixth in its Top 10 for LLM Applications, and it could be an extremely costly one.",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Unbounded consumption by AI agents is ranked sixth in the OWASP Top 10 for LLM Applications. This security vulnerability can lead to runaway operational costs for enterprises utilizing these technologies.",
+        "whyItMatters": "Unchecked AI agent consumption can result in severe and unexpected financial losses for businesses.",
+        "affected": [],
+        "action": "Implement strict rate limits and monitoring on AI agent resource consumption.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "BigCommerce alerts merchants of data breach linked to Ribon apps",
+      "link": "https://www.bleepingcomputer.com/news/security/bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-apps/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-09-21T21:18:49.000Z",
+      "summary": "Ecommerce platform BigCommerce has alerted multiple merchants to data breaches after attackers compromised credentials for third-party Ribon applications and used them to inject malicious scripts into online stores. [...",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "BigCommerce notified multiple merchants of data breaches after attackers compromised credentials for third-party Ribon applications. The threat actors used these stolen credentials to inject malicious scripts directly into online stores.",
+        "whyItMatters": "Compromised third-party application credentials can be leveraged to execute supply chain attacks and inject malicious code into multiple e-commerce stores.",
+        "affected": [
+          "BigCommerce (Ribon apps)"
+        ],
+        "action": "Review third-party application access and check e-commerce stores for unauthorized script injections.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "CISA alerts of active exploitation of three Linux kernel flaws",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws/",
@@ -198,6 +305,41 @@
       }
     },
     {
+      "title": "USN-8798-1: GStreamer Good Plugins vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8798-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-09-21T18:32:49.000Z",
+      "summary": "It was discovered that GStreamer Good Plugins incorrectly parsed certain\nMRF files. A remote attacker could possibly use this issue to execute\narbitrary code. (CVE-2026-18295, CVE-2026-18296)\n\nIt was discovered that GStr",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-18295",
+        "CVE-2026-18296"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "GStreamer Good Plugins contain vulnerabilities that incorrectly parse certain MRF files. A remote attacker could potentially exploit these flaws to execute arbitrary code.",
+        "whyItMatters": "Remote code execution vulnerabilities pose a severe threat to system security by allowing attackers to run unauthorized code.",
+        "affected": [
+          "GStreamer Good Plugins"
+        ],
+        "action": "Update GStreamer Good Plugins to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-18295",
+          "CVE-2026-18296"
+        ],
+        "source": "ai"
+      }
+    },
+    {
       "title": "WordPress Click2Shell flaw lets hackers execute PHP on the server",
       "link": "https://www.bleepingcomputer.com/news/security/wordpress-click2shell-flaw-lets-hackers-execute-php-on-the-server/",
       "source": "BleepingComputer",
@@ -224,6 +366,35 @@
         ],
         "action": "Update WordPress to the latest patched version immediately.",
         "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8797-1: GStreamer Base Plugins vulnerability",
+      "link": "https://ubuntu.com/security/notices/USN-8797-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-09-21T18:05:39.000Z",
+      "summary": "It was discovered that GStreamer Base Plugins incorrectly handled certain\nOGG media files. A remote attacker could possibly use this issue to\nexecute arbitrary code if it opened a specially crafted file.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A vulnerability in GStreamer Base Plugins involves incorrect handling of certain OGG media files. This flaw could allow a remote attacker to execute arbitrary code by tricking a user into opening a specially crafted file.",
+        "whyItMatters": "Unvalidated media parsing can lead to remote code execution, compromising the entire host system.",
+        "affected": [
+          "GStreamer Base Plugins"
+        ],
+        "action": "Update GStreamer Base Plugins to the latest patched version.",
+        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -1452,75 +1623,6 @@
       }
     },
     {
-      "title": "USN-8761-3: Linux kernel (Azure) vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8761-3",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-09-21T13:04:28.000Z",
-      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - ARM32 architecture;\n  - ARM64 archit",
-      "categories": [
-        "Vulnerability",
-        "Incident Response",
-        "Cloud",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux",
-        "Azure"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - ARM32 architecture;\n  - ARM64 archit",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Linux",
-          "Azure"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "USN-8730-4: Linux kernel vulnerability",
-      "link": "https://ubuntu.com/security/notices/USN-8730-4",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-09-21T13:04:26.000Z",
-      "summary": "A security issue was discovered in the Linux kernel.\nAn attacker could possibly use this to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - IPv6 networking;\n  - Netfilter;",
-      "categories": [
-        "Vulnerability",
-        "Incident Response",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A security issue was discovered in the Linux kernel.\nAn attacker could possibly use this to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - IPv6 networking;\n  - Netfilter;",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Linux"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "LinkedIn wins court order blocking mass scraping of user data",
       "link": "https://therecord.media/linkedin-wins-court-order-blocking-mass-scraping",
       "source": "The Record",
@@ -1804,36 +1906,6 @@
         "whyItMatters": "Background context; no immediate action expected.",
         "affected": [
           "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Microsoft: September updates break File History backup feature",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-file-history-backup-feature/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-09-21T11:45:54.000Z",
-      "summary": "Microsoft warned that the built-in File History backup feature in Windows may stop working on some systems after installing the September 2026 security updates. [...]",
-      "categories": [
-        "News"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft warned that the built-in File History backup feature in Windows may stop working on some systems after installing the September 2026 security updates. [...]",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Windows"
         ],
         "action": "No action required; informational.",
         "risk": "News",
@@ -2881,33 +2953,6 @@
       }
     },
     {
-      "title": "FBI: Fake cop and government impersonation scams cost victims $1.6B",
-      "link": "https://www.theregister.com/cyber-crime/2026/09/18/fbi-fake-cop-and-government-impersonation-scams-cost-victims-16b/5297499",
-      "source": "The Register",
-      "publishedAt": "2026-09-18T16:19:27.000Z",
-      "summary": "AI, fake uniforms, and mock offices help crooks sell the con",
-      "categories": [
-        "AI Security",
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The FBI reports that scams involving individuals impersonating police officers and government officials have cost victims a staggering $1.6 billion. Fraudsters are increasingly utilizing advanced tactics such as artificial intelligence, counterfeit uniforms, and mock offices to deceive targets.",
-        "whyItMatters": "This massive financial loss highlights the growing sophistication of social engineering and impersonation scams enabled by modern technology.",
-        "affected": [],
-        "action": "Verify the identity of any official before sharing personal information or sending money.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software Logging Denial of Service Vulnerability",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asa-ftd-logging-dos-ZXXNesfN?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Adaptive%20Security%20Appliance%20and%20Secure%20Firewall%20Threat%20Defense%20Software%20Logging%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
       "source": "Cisco PSIRT",
@@ -3450,32 +3495,6 @@
       }
     },
     {
-      "title": "AI Agent Breaches Spanish Organization, Modifies Personal Data",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-breaches-spanish-organization-personal-data",
-      "source": "Dark Reading",
-      "publishedAt": "2026-09-18T07:00:00.000Z",
-      "summary": "AI-driven cyberattacks used to be exotic. Soon, it'll be odd if threat actors aren't using agents to do all of their bidding.",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "An AI agent successfully breached a Spanish organization and modified personal data. This incident highlights the growing shift toward AI-driven cyberattacks.",
-        "whyItMatters": "It demonstrates the real-world operational capability of autonomous AI agents in executing malicious cyberattacks and tampering with sensitive data.",
-        "affected": [],
-        "action": "Monitor organizational systems for unauthorized AI-driven activities and review data integrity controls.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "HTTP QUERY Method: The Grey Zone Between GET And POST., (Fri, Sep 18th)",
       "link": "https://isc.sans.edu/diary/rss/33352",
       "source": "SANS ISC",
@@ -3981,8 +4000,8 @@
         "affected": [
           "Android"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [
           "CVE-2026-86520"
         ],
@@ -5735,39 +5754,6 @@
         "action": "Read the full report on operational security failures in cybercrime.",
         "risk": "News",
         "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Mind the Config: Detecting and Weaponizing NetScaler CVE-2026-19490",
-      "link": "https://bishopfox.com/blog/mind-the-config-detecting-and-weaponizing-netscaler-cve-2026-19490",
-      "source": "Bishop Fox",
-      "publishedAt": "2026-09-10T13:00:00.000Z",
-      "summary": "A single unauthenticated request bypasses authentication on NetScaler Gateway and AAA virtual servers. Whether that means a dead-end session, a proxy into the internal network, or root on the appliance depends entirely o",
-      "categories": [
-        "Vulnerability"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-19490"
-      ],
-      "kev": true,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A recently disclosed vulnerability, tracked as CVE-2026-19490, allows a single unauthenticated request to bypass authentication on NetScaler Gateway and AAA virtual servers. Depending on the configuration, this flaw can lead to unauthorized proxy access or root-level control over the appliance.",
-        "whyItMatters": "It allows unauthenticated attackers to potentially achieve full root compromise or internal network access through a single request.",
-        "affected": [
-          "NetScaler Gateway",
-          "AAA virtual servers"
-        ],
-        "action": "Review appliance configurations and apply available security patches immediately.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-19490"
-        ],
         "source": "ai"
       }
     }
