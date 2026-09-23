@@ -1,6 +1,207 @@
 {
-  "updatedAt": "2026-09-23T20:20:28.221Z",
+  "updatedAt": "2026-09-23T23:40:36.228Z",
   "items": [
+    {
+      "title": "Is This A Joke? In The Auth Header? (F5 BIG-IP UnAuth Heap-Overflow to RCE CVE-2026-94127)",
+      "link": "https://labs.watchtowr.com/is-this-a-joke-in-the-auth-header-f5-big-ip-unauth-heap-overflow-to-rce-cve-2026-94127/",
+      "source": "watchTowr Labs",
+      "publishedAt": "2026-09-23T23:19:19.000Z",
+      "summary": "Well, well, well, well, well, well, well, well, well, well, well, well, well, well, well. We're back. Sorry.\n\nWe've been watching the onslaught of vulnerabilities flood the internet. Every man, dog, and their grandmas (a",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-94127"
+      ],
+      "kev": true,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "An article discusses a newly disclosed unauthenticated heap-overflow vulnerability in F5 BIG-IP that leads to remote code execution. The vulnerability is reportedly triggered via the authorization header.",
+        "whyItMatters": "It describes a critical remote code execution vulnerability in enterprise infrastructure that could allow complete system takeover by unauthenticated attackers.",
+        "affected": [
+          "F5 BIG-IP"
+        ],
+        "action": "Patch the F5 BIG-IP software immediately.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-94127"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Smashing Security podcast #486: Vibe-coded shops, and hackable Flock cameras",
+      "link": "https://grahamcluley.com/smashing-security-podcast-486/",
+      "source": "Graham Cluley",
+      "publishedAt": "2026-09-23T23:15:05.000Z",
+      "summary": "A store in Auckland vibe-coded itself a new website. Within hours, its inventory had somehow expanded to include a pair of crusty socks, an $850 banana, and all of New Zealand's national parks. What could possibly have g",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "An Auckland store used AI vibe-coding to rapidly generate a new website, which quickly suffered from bizarre inventory glitches. The satirical or flawed rollout resulted in unintended items like a banana and national parks appearing for sale.",
+        "whyItMatters": "It highlights the unpredictable and potentially insecure nature of relying entirely on AI-generated code for production systems.",
+        "affected": [],
+        "action": "Avoid using unverified AI-generated code for production websites without rigorous security and logic review.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Placeholder domain used in dev docs now serves ClickFix attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/placeholder-domain-used-in-dev-docs-now-serves-clickfix-attacks/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-09-23T22:46:01.000Z",
+      "summary": "The \"third-party.com\" domain, commonly used as a placeholder in developer documentation and code examples, is serving a fake Cloudflare verification page that attempts to trick Windows users into executing PowerShell com",
+      "categories": [
+        "News"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The third-party.com domain, frequently used as a placeholder in developer documentation, is now being exploited to serve fake Cloudflare verification pages. These fraudulent pages trick Windows users into executing malicious PowerShell commands as part of ClickFix attacks.",
+        "whyItMatters": "This poses a severe risk because users and automated systems often copy code examples containing this placeholder domain, exposing them to social engineering and malware execution.",
+        "affected": [],
+        "action": "Avoid visiting or trusting the third-party.com domain in code examples and monitor for unauthorized PowerShell execution.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Americans’ views on data centers have turned more negative",
+      "link": "https://www.helpnetsecurity.com/2026/09/24/americans-views-on-data-centers/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-09-23T22:15:08.000Z",
+      "summary": "American attitudes toward data centers have turned noticeably more negative over the course of 2026, according to a new Pew Research Center survey. 54% of U.S. adults now say data centers are mostly bad for the environme",
+      "categories": [
+        "Research"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A recent Pew Research Center survey indicates that American public opinion regarding data centers has become increasingly negative through 2026. Specifically, 54 percent of U.S. adults now believe that data centers are mostly harmful to the environment.",
+        "whyItMatters": "Shifting public perception can influence future regulatory policies, zoning laws, and community opposition toward the expansion of critical digital infrastructure.",
+        "affected": [],
+        "action": "Monitor community relations and public perception trends regarding data center operations.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "New RemControl Android banking malware targets users in Europe and Canada",
+      "link": "https://www.bleepingcomputer.com/news/security/new-remcontrol-android-banking-malware-targets-users-in-europe-and-canada/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-09-23T21:25:13.000Z",
+      "summary": "A new Android malware-as-a-service (MaaS) platform called RemControl is targeting users through malvertising campaigns that impersonate the TVTap IPTV application. [...]",
+      "categories": [
+        "Malware"
+      ],
+      "tags": [
+        "Android"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A new Android malware-as-a-service platform named RemControl is actively targeting users in Europe and Canada. The threat actors are distributing the malware through malvertising campaigns that impersonate the TVTap IPTV application.",
+        "whyItMatters": "It introduces a new malware distribution channel capable of compromising mobile banking users across multiple regions through deceptive app impersonation.",
+        "affected": [
+          "TVTap IPTV application (impersonated)",
+          "Android devices"
+        ],
+        "action": "Avoid downloading unverified applications from malvertising ads and stick to official app stores.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "EDR Evasion Stack Helps Process Injection Slip Past Defenses",
+      "link": "https://www.darkreading.com/endpoint-security/edr-evasion-stack-helps-process-injection-slip-past-defenses",
+      "source": "Dark Reading",
+      "publishedAt": "2026-09-23T21:03:01.000Z",
+      "summary": "A process parameter-poisoning technique evades EDR by injecting code into process initialization structures without using the Windows APIs that EDR tools typically watch out for.",
+      "categories": [
+        "News"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A newly detailed process parameter-poisoning technique evades Endpoint Detection and Response systems. It achieves this by injecting code into process initialization structures while bypassing standard monitored Windows APIs.",
+        "whyItMatters": "This technique allows attackers to slip malicious code past security defenses without triggering typical EDR alerts.",
+        "affected": [],
+        "action": "Update EDR detection rules to monitor process initialization structures.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "GitLab Email Addresses Can Be Weaponized for Supply Chain Attacks",
+      "link": "https://www.darkreading.com/application-security/gitlab-email-addresses-supply-chain-attacks",
+      "source": "Dark Reading",
+      "publishedAt": "2026-09-23T20:53:38.000Z",
+      "summary": "Incoming email addresses automatically assigned to each user on the platform contain highly privileged access tokens that attackers can use.",
+      "categories": [
+        "Open Source"
+      ],
+      "tags": [
+        "GitLab"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "GitLab automatically assigns incoming email addresses to users that contain highly privileged access tokens. Attackers can potentially weaponize these exposed addresses to conduct supply chain attacks.",
+        "whyItMatters": "Exposed high-privilege access tokens within automated user email addresses allow unauthorized actors to compromise software supply chains.",
+        "affected": [
+          "GitLab"
+        ],
+        "action": "Review and secure GitLab user email settings and associated access tokens.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "UK regulator to investigate Pornhub parent company for alleged age verification failings",
       "link": "https://therecord.media/uk-regulator-to-investigate-pornhub-parent-company-privacy",
@@ -167,6 +368,39 @@
       }
     },
     {
+      "title": "USN-8287-2: XDG Desktop Portal regression",
+      "link": "https://ubuntu.com/security/notices/USN-8287-2",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-09-23T18:40:07.000Z",
+      "summary": "USN-8287-1 fixed a vulnerability in XDG Desktop Portal. Unfortunately the\nfix for CVE-2026-40354 was incomplete and introduced a regression when\ntrashing files. This update fixes the problem and provides the\ncorrespondin",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-40354"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A previous security update for XDG Desktop Portal contained an incomplete fix for CVE-2026-40354. This latest update resolves the resulting regression issue that interfered with trashing files.",
+        "whyItMatters": "Incomplete vulnerability fixes can introduce regressions that impact system functionality and leave systems in an unstable state.",
+        "affected": [
+          "XDG Desktop Portal"
+        ],
+        "action": "Update the XDG Desktop Portal package to the latest version.",
+        "risk": "Medium",
+        "relatedCves": [
+          "CVE-2026-40354"
+        ],
+        "source": "ai"
+      }
+    },
+    {
       "title": "Hackers start exploiting critical WordPress flaw for code execution",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-start-exploiting-critical-wordpress-flaw-for-code-execution/",
       "source": "BleepingComputer",
@@ -197,6 +431,35 @@
         "relatedCves": [
           "CVE-2026-87902"
         ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8809-1: libgit2 vulnerability",
+      "link": "https://ubuntu.com/security/notices/USN-8809-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-09-23T18:29:41.000Z",
+      "summary": "Kazuma Matsumoto and Isabel Mill discovered that libgit2 incorrectly\nhandled certain repository URLs when using the SSH transport. A remote\nattacker could possibly use this issue to execute arbitrary commands.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A vulnerability was discovered in libgit2 regarding how it handles specific repository URLs during SSH transport. This flaw could potentially allow a remote attacker to execute arbitrary commands on the affected system.",
+        "whyItMatters": "Remote command execution vulnerabilities in core libraries like libgit2 pose a significant risk to development workflows and dependent software security.",
+        "affected": [
+          "libgit2"
+        ],
+        "action": "Update libgit2 to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [],
         "source": "ai"
       }
     },
@@ -961,6 +1224,39 @@
       }
     },
     {
+      "title": "CVE-2026-70125 Microsoft Outlook Remote Code Execution Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70125",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-09-23T14:00:00.000Z",
+      "summary": "Information published. This CVE was addressed by updates that were released in September 2026, but the CVE was inadvertently omitted from the September 2026 Security Updates. This is an informational change only. Custome",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-70125"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft addressed a remote code execution vulnerability in Outlook through updates released in September 2026. However, the CVE identifier was inadvertently omitted from the original security update publications.",
+        "whyItMatters": "This is an informational change to update documentation and does not introduce a new security risk.",
+        "affected": [
+          "Microsoft Outlook"
+        ],
+        "action": "Ensure all September 2026 security updates for Microsoft Outlook are applied.",
+        "risk": "News",
+        "relatedCves": [
+          "CVE-2026-70125"
+        ],
+        "source": "ai"
+      }
+    },
+    {
       "title": "HTTP/3 in Burp Suite - it’s time to find a bigger wordlist",
       "link": "https://portswigger.net/research/http3-in-burp-suite",
       "source": "PortSwigger Research",
@@ -1266,34 +1562,6 @@
       }
     },
     {
-      "title": "Fake Claude Max giveaway tricks users into handing over their Google account credentials",
-      "link": "https://www.helpnetsecurity.com/2026/09/23/fake-claude-max-giveaway-phishing/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-09-23T13:03:15.000Z",
-      "summary": "A fake Claude Max giveaway uses a spoofed Google sign-in window to steal users’ login credentials, Malwarebytes researchers have found. “Browser-in-the-browser” is not a new technique. Researchers have documented it sinc",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A fake Claude Max giveaway uses a spoofed Google sign-in window to steal users’ login credentials, Malwarebytes researchers have found. “Browser-in-the-browser” is not a new technique. Researchers have documented it sinc",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "OAuth Token Theft Through Microsoft's Front Door | Huntress",
       "link": "https://www.huntress.com/blog/stealing-oauth-tokens-through-microsofts-front-door",
       "source": "Huntress",
@@ -1571,8 +1839,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1714,36 +1982,6 @@
         "affected": [],
         "action": "Review organization phishing defenses and threat intelligence feeds.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Microsoft: September Windows updates break Always On VPN connections",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-windows-updates-break-always-on-vpn-connections/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-09-23T11:18:13.000Z",
-      "summary": "Microsoft warned that the September 2026 security updates may also break Always On VPN connections on some Windows 11 systems. [...]",
-      "categories": [
-        "News"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has warned that the September 2026 security updates may disrupt Always On VPN connections on certain Windows 11 systems. The issue affects network connectivity for users relying on this specific enterprise virtual private network feature after applying the patch.",
-        "whyItMatters": "This bug can cause unexpected downtime and disrupt remote worker connectivity for organizations relying on Windows 11 Always On VPN.",
-        "affected": [
-          "Windows 11"
-        ],
-        "action": "Pause the September 2026 update rollout until a fix is available or review Microsoft advisory workarounds.",
-        "risk": "Medium",
         "relatedCves": [],
         "source": "ai"
       }
@@ -2178,34 +2416,6 @@
       }
     },
     {
-      "title": "Ryuk ransomware member sentenced to 24 months in prison",
-      "link": "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-sentenced-to-24-months-in-prison/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-09-23T08:20:05.000Z",
-      "summary": "An Armenian man was sentenced to 24 months in prison and 3 years of supervised release for hacking U.S. companies and encrypting their systems in Ryuk ransomware attacks. [...]",
-      "categories": [
-        "Ransomware"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "high",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "An Armenian man was sentenced to 24 months in prison and 3 years of supervised release for hacking U.S. companies and encrypting their systems in Ryuk ransomware attacks. [...]",
-        "whyItMatters": "Significant risk to affected systems; prioritize review.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Monitor for indicators of compromise.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Why security belongs in the network",
       "link": "https://www.theregister.com/security/2026/09/23/sponsored-why-security-belongs-in-the-network/5296790",
       "source": "The Register",
@@ -2307,8 +2517,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -2708,32 +2918,6 @@
       }
     },
     {
-      "title": "Amid Ongoing Rogue Incidents, Debate Over AI Safety Gets Real",
-      "link": "https://www.darkreading.com/cyber-risk/rogue-incidents-debate-ai-safety-gets-real",
-      "source": "Dark Reading",
-      "publishedAt": "2026-09-22T17:12:26.000Z",
-      "summary": "As more reports of misalignment incidents underscore AI risks, large AI labs, regular businesses, and even nations are searching for better ways to keep control and be secure.",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Recent reports of AI misalignment and rogue incidents are driving labs, businesses, and nations to seek better security and control measures. This growing concern highlights the urgent need for enhanced safety protocols in artificial intelligence development.",
-        "whyItMatters": "As AI integration deepens, unmanaged misalignment risks threaten organizational security and public safety on a national scale.",
-        "affected": [],
-        "action": "Review and strengthen internal AI safety and control policies.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "NightmareEclipse's latest zero-day leaves Microsoft Defender stuck in the past",
       "link": "https://www.theregister.com/security/2026/09/22/nightmareeclipses-latest-zero-day-leaves-microsoft-defender-stuck-in-the-past/5298320",
       "source": "The Register",
@@ -2929,39 +3113,6 @@
       }
     },
     {
-      "title": "CVE-2026-57099 ASP.NET Core Denial of Service Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-57099",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-09-22T14:00:00.000Z",
-      "summary": "Updated an acknowledgement. This is an informational change only.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-57099"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "Microsoft has released an informational update regarding CVE-2026-57099, an ASP.NET Core Denial of Service vulnerability. The update only contains a revised acknowledgement without changing the technical details of the advisory.",
-        "whyItMatters": "It is important to track security advisories for ASP.NET Core to maintain awareness of potential denial of service risks in web applications.",
-        "affected": [
-          "ASP.NET Core"
-        ],
-        "action": "Review the updated advisory for any changes to acknowledgement details.",
-        "risk": "Medium",
-        "relatedCves": [
-          "CVE-2026-57099"
-        ],
-        "source": "ai"
-      }
-    },
-    {
       "title": "[object Object]",
       "link": "https://www.huntress.com/blog/ai-attackers-machine-speed-huntress-athena",
       "source": "Huntress",
@@ -2990,76 +3141,6 @@
       }
     },
     {
-      "title": "USN-8802-1: Linux kernel (Oracle) vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8802-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-09-22T13:20:05.000Z",
-      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - ARM32 architecture;\n  - ARM64 archit",
-      "categories": [
-        "Vulnerability",
-        "Incident Response",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux",
-        "Oracle"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - ARM32 architecture;\n  - ARM64 archit",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Linux",
-          "Oracle"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "USN-8728-2: Linux kernel (Azure) vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8728-2",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-09-22T13:19:49.000Z",
-      "summary": "It was discovered that some Arm processors could complete a broadcast\ntranslation lookaside buffer (TLB) invalidation before memory writes made\nthrough the invalidated translation were globally observed. A local\nattacker",
-      "categories": [
-        "Vulnerability",
-        "Cloud",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux",
-        "Azure"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "It was discovered that some Arm processors could complete a broadcast\ntranslation lookaside buffer (TLB) invalidation before memory writes made\nthrough the invalidated translation were globally observed. A local\nattacker",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Linux",
-          "Azure"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "AI Incident Response Readiness Lags Behind AI Adoption, ISACA Finds",
       "link": "https://www.infosecurity-magazine.com/news/orgs-lack-ai-incident-response/",
       "source": "Infosecurity Magazine",
@@ -3078,34 +3159,6 @@
       "readTimeMin": 1,
       "aiSummary": {
         "summary": "A new report by ISACA found that 71% of orgs have not run AI incident response exercises as teams face rising pressure",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "More Than a Third of Industrial Orgs See Cybersecurity Risk as a Top Obstacle to Growth, Study Finds",
-      "link": "https://www.darkreading.com/cyber-risk/third-industrial-orgs-see-cybersecurity-risk-top-obstacle",
-      "source": "Dark Reading",
-      "publishedAt": "2026-09-22T12:00:00.000Z",
-      "summary": "Industrial companies are increasing cybersecurity investment as connected operations, AI adoption, and IT/OT convergence expand operational risk.",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Industrial companies are increasing cybersecurity investment as connected operations, AI adoption, and IT/OT convergence expand operational risk.",
         "whyItMatters": "Background context; no immediate action expected.",
         "affected": [
           "Not specified"
@@ -5668,58 +5721,6 @@
         "relatedCves": [
           "CVE-2026-85706"
         ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Unmasking Cloud Identities: From Behavioral Clustering to Automated Detection",
-      "link": "https://unit42.paloaltonetworks.com/behavioral-clustering-map-to-cloud-identities/",
-      "source": "Unit 42",
-      "publishedAt": "2026-09-14T10:00:01.000Z",
-      "summary": "We designed a behavioral clustering model to map cloud identity roles from audit logs, enabling continuous threat detection using standard SQL queries.\nThe post Unmasking Cloud Identities: From Behavioral Clustering to A",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Researchers designed a behavioral clustering model to map cloud identity roles from audit logs. This approach enables continuous threat detection using standard SQL queries.",
-        "whyItMatters": "It improves the ability to detect and monitor anomalous cloud identity behavior using existing infrastructure.",
-        "affected": [],
-        "action": "Review cloud audit logs and consider implementing behavioral clustering for identity monitoring.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Hacking OpenAI",
-      "link": "https://www.hacktron.ai/blog/hacking-openai",
-      "source": "Hacktron AI",
-      "publishedAt": "2026-09-13T00:00:00.000Z",
-      "summary": "A heap overflow and SSO misconfiguration to compromise OpenAI internal repositories",
-      "categories": [
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "A security vulnerability involving a heap overflow and a single sign-on misconfiguration was discovered affecting OpenAI. This flaw could potentially be exploited to compromise internal OpenAI repositories.",
-        "whyItMatters": "It demonstrates how configuration errors and memory corruption vulnerabilities can be chained to compromise sensitive internal infrastructure of a major AI developer.",
-        "affected": [],
-        "action": "Review SSO configurations and apply necessary memory safety patches.",
-        "risk": "High",
-        "relatedCves": [],
         "source": "ai"
       }
     }
