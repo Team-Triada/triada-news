@@ -1,6 +1,319 @@
 {
-  "updatedAt": "2026-09-24T19:10:45.431Z",
+  "updatedAt": "2026-09-24T22:22:59.557Z",
   "items": [
+    {
+      "title": "House and Senate members propose legislation for CISA to step up cyber defenses for biotech",
+      "link": "https://cyberscoop.com/biotech-critical-infrastructure-cybersecurity-legislation/",
+      "source": "CyberScoop",
+      "publishedAt": "2026-09-24T21:23:40.000Z",
+      "summary": "Biotechnology doesn’t have its own critical infrastructure designation, so the bipartisan group of lawmakers wants to make sure it’s protected like it.\nThe post House and Senate members propose legislation for CISA to st",
+      "categories": [
+        "Government"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Bipartisan members of the House and Senate have proposed new legislation to direct CISA to enhance cybersecurity defenses for the biotechnology sector. The initiative aims to provide robust protection similar to designated critical infrastructure, as biotech currently lacks that formal classification.",
+        "whyItMatters": "This legislation aims to close critical security gaps in a vital industry that currently lacks formal critical infrastructure protections.",
+        "affected": [],
+        "action": "Monitor the progress of the proposed biotechnology cybersecurity legislation.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "'Salesbleed' Exploits Salesforce Agents to Enable Slack Phishing",
+      "link": "https://www.darkreading.com/application-security/salesbleed-exploits-salesforce-agents-slack-phishing",
+      "source": "Dark Reading",
+      "publishedAt": "2026-09-24T21:04:03.000Z",
+      "summary": "Agentic AI can smuggle arbitrary instructions from the Web, across multiple apps, into trusted internal communications channels.",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Researchers have revealed 'Salesbleed', an exploit leveraging Salesforce agents to smuggle arbitrary instructions from the web into Slack channels. This vulnerability enables attackers to conduct sophisticated phishing attacks across trusted internal communication platforms using agentic AI.",
+        "whyItMatters": "It demonstrates how autonomous AI agents can be manipulated to bridge external web threats directly into secure internal enterprise communication channels.",
+        "affected": [
+          "Salesforce Agents",
+          "Slack"
+        ],
+        "action": "Audit and restrict permissions for AI agents interacting with internal messaging platforms.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "MacSync malware uses public iCloud calendars to deliver new payloads",
+      "link": "https://www.bleepingcomputer.com/news/security/macsync-malware-uses-public-icloud-calendars-to-deliver-new-payloads/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-09-24T20:53:35.000Z",
+      "summary": "A new variant of the MacSync malware targeting macOS systems now uses public iCloud calendar events to deliver new native payloads. [...]",
+      "categories": [
+        "Malware"
+      ],
+      "tags": [
+        "macOS"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A new variant of the MacSync malware targeting macOS systems now utilizes public iCloud calendar events to deliver secondary payloads. This technique allows the threat actors to dynamically distribute malicious code while blending in with legitimate cloud traffic.",
+        "whyItMatters": "Attackers are leveraging legitimate cloud services like iCloud to bypass traditional network defenses and deliver secondary payloads to compromised macOS systems.",
+        "affected": [
+          "macOS"
+        ],
+        "action": "Monitor system endpoints for unusual outbound connections to iCloud calendar services.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Autonomous AI Hacks Raise Thorny Questions of Legal Accountability",
+      "link": "https://www.securityweek.com/autonomous-ai-hacks-raise-thorny-questions-of-legal-accountability/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-09-24T20:35:21.000Z",
+      "summary": "The prospect of legal accountability is unclear. Lawsuits are a possibility, but some legal experts believe any criminal investigations would face an extremely high burden.\nThe post Autonomous AI Hacks Raise Thorny Quest",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Recent discussions highlight the legal uncertainties surrounding autonomous AI hacks and the potential liability they introduce. Experts suggest that while civil lawsuits are possible, pursuing criminal investigations would face an extremely high burden of proof.",
+        "whyItMatters": "It highlights a significant regulatory and legal gray area regarding who is held responsible when autonomous AI systems commit cyberattacks.",
+        "affected": [],
+        "action": "Monitor legal developments surrounding autonomous AI liability.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "SectopRAT Returns, Hiding Inside a Legitimate Application",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/sectoprat-returns-hiding-inside-legitimate-application",
+      "source": "Dark Reading",
+      "publishedAt": "2026-09-24T20:32:50.000Z",
+      "summary": "The latest activity from the remote access Trojan (RAT) shows why organizations should monitor the behavior of applications rather than blindly trusting them, experts say.",
+      "categories": [
+        "Malware"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The SectopRAT remote access Trojan has been observed returning in recent campaigns by concealing itself inside a legitimate application. This activity highlights the persistence of threat actors in leveraging trusted software to bypass traditional security controls.",
+        "whyItMatters": "It demonstrates how attackers use trusted applications to bypass security controls, emphasizing the need to monitor application behavior rather than relying on trust alone.",
+        "affected": [],
+        "action": "Monitor application behavior rather than relying on application reputation.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Digital forensics firm with US federal contracts covered up ties to Russia, DOJ alleges",
+      "link": "https://therecord.media/russia-forensics-technology-doj",
+      "source": "The Record",
+      "publishedAt": "2026-09-24T20:30:00.000Z",
+      "summary": "Two executives at a data extraction and digital forensics company that sold several U.S. agencies its software were arrested for allegedly lying about the fact that its technology is made in Russia.",
+      "categories": [
+        "Government"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Two executives at a digital forensics firm with U.S. federal contracts were arrested for allegedly lying about their software being manufactured in Russia. The Department of Justice claims the company actively covered up its ties to Russia while selling products to multiple U.S. agencies.",
+        "whyItMatters": "Concealing foreign adversary ties in software sold to federal agencies creates severe supply chain vulnerabilities and national security risks.",
+        "affected": [],
+        "action": "Audit software supply chains for undisclosed foreign dependencies.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Lawmakers introduce bill for voluntary telecom cyber rules after Salt Typhoon hacks",
+      "link": "https://therecord.media/lawmakers-introduce-bill-for-voluntary-telecom-cyber-rules",
+      "source": "The Record",
+      "publishedAt": "2026-09-24T20:15:00.000Z",
+      "summary": "U.S. Sens. Mark Warner (D-VA) and Ted Cruz (R-TX) introduced the Telecommunications Cybersecurity and Resilience Act on Thursday, arguing that the new effort was necessary in light of the Salt Typhoon attacks which saw C",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "U.S. Senators Mark Warner and Ted Cruz introduced the Telecommunications Cybersecurity and Resilience Act in response to recent Salt Typhoon cyberattacks. The bill aims to establish voluntary cybersecurity rules for the telecommunications sector to improve overall resilience against foreign threats.",
+        "whyItMatters": "This legislation addresses significant national security vulnerabilities exposed by foreign state-sponsored hacks on critical telecommunications infrastructure.",
+        "affected": [],
+        "action": "Monitor the progress of the Telecommunications Cybersecurity and Resilience Act.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8820-1: curl vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8820-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-09-24T20:13:19.000Z",
+      "summary": "Eunsoo Kim discovered that curl incorrectly handled SASL negotiation for\nLDAP authentication in certain circumstances. A machine-in-the-middle\nattacker could possibly use this issue to bypass peer validation. This\nissue ",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Eunsoo Kim discovered that curl incorrectly handled SASL negotiation for\nLDAP authentication in certain circumstances. A machine-in-the-middle\nattacker could possibly use this issue to bypass peer validation. This\nissue ",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "New Carbonato malware uses AI agents to hijack exposed Docker hosts",
+      "link": "https://www.bleepingcomputer.com/news/security/new-carbonato-malware-uses-ai-agents-to-hijack-exposed-docker-hosts/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-09-24T20:10:48.000Z",
+      "summary": "A new botnet malware called Carbonato is targeting insecure hosts running Docker daemons to install the Hermes Agent AI framework and take control. [...]",
+      "categories": [
+        "Malware",
+        "Incident Response",
+        "AI Security"
+      ],
+      "tags": [
+        "Docker"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A new botnet malware called Carbonato is targeting insecure Docker hosts to install the Hermes Agent AI framework. This allows threat actors to hijack exposed Docker daemons and gain full control over the affected systems.",
+        "whyItMatters": "It represents a novel threat vector where attackers leverage artificial intelligence frameworks to weaponize and automate the exploitation of misconfigured cloud infrastructure.",
+        "affected": [
+          "Docker"
+        ],
+        "action": "Secure and restrict external access to Docker daemon ports immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "VU#234131: ViewSonic vCast media streaming service allows unauthenticated screen exfiltration and device compromise",
+      "link": "https://kb.cert.org/vuls/id/234131",
+      "source": "CERT/CC",
+      "publishedAt": "2026-09-24T19:27:42.401Z",
+      "summary": "Overview\nViewSonic vCast software, which is included in ViewBoard smartboard devices, contains multiple vulnerabilities that an attacker can chained to achieve full device compromise.\nDescription\nViewSonic ViewBoards are",
+      "categories": [
+        "Vulnerability",
+        "Incident Response",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "ViewSonic vCast software, included in ViewBoard smartboard devices, contains multiple vulnerabilities that can be chained by attackers to achieve full device compromise. These flaws allow for unauthenticated screen exfiltration and unauthorized access.",
+        "whyItMatters": "Exploitation of these vulnerabilities could allow attackers to compromise smartboard devices and exfiltrate sensitive screen data in enterprise or educational environments.",
+        "affected": [
+          "ViewSonic vCast",
+          "ViewSonic ViewBoard"
+        ],
+        "action": "Apply the latest security updates provided by ViewSonic.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8821-1: OpenStack Swift vulnerability",
+      "link": "https://ubuntu.com/security/notices/USN-8821-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-09-24T19:18:41.000Z",
+      "summary": "It was discovered that OpenStack Swift incorrectly handled truncated\naws-chunked PUT request bodies in its s3api middleware. An authenticated\nattacker could possibly use this issue to cause OpenStack Swift to use\nexcessi",
+      "categories": [
+        "Vulnerability",
+        "Cloud",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "AWS"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A vulnerability was discovered in OpenStack Swift where its s3api middleware incorrectly handles truncated aws-chunked PUT request bodies. An authenticated attacker could potentially exploit this issue to cause excessive resource consumption.",
+        "whyItMatters": "It matters because an authenticated attacker could cause denial of service conditions by forcing the system to consume excessive resources.",
+        "affected": [
+          "OpenStack Swift"
+        ],
+        "action": "Update OpenStack Swift to the latest patched version.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Salesforce Agentforce vulns allowed 0-click CRM data theft, anonymous phishing",
       "link": "https://www.theregister.com/security/2026/09/24/salesforce-agentforce-vulns-allowed-0-click-crm-data-theft-anonymous-phishing/5298958",
@@ -25,6 +338,32 @@
         ],
         "action": "Check for vendor patches and review Salesforce security advisories.",
         "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Rydox cybercriminal marketplace operator pleads guilty following co-conspirator brothers’s deportation",
+      "link": "https://therecord.media/rydox-criminal-marketplace-operator-pleads-guilty",
+      "source": "The Record",
+      "publishedAt": "2026-09-24T18:57:00.000Z",
+      "summary": "Ardit Kutleshi, 28, was extradited from his home country of Kosovo last year after prosecutors accused him and his older brother of running Rydox — an illicit platform used by cybercriminals to sell stolen personal infor",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Ardit Kutleshi, the 28-year-old operator of the Rydox cybercriminal marketplace, has pleaded guilty following his extradition from Kosovo. He and his brother allegedly ran the illicit platform, which was used by cybercriminals to buy and sell stolen personal information.",
+        "whyItMatters": "The guilty plea of a major cybercriminal marketplace operator disrupts illicit trade networks and demonstrates international cooperation in prosecuting cybercrime.",
+        "affected": [],
+        "action": "Monitor dark web intelligence for shifts in stolen data marketplaces.",
+        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
@@ -633,13 +972,13 @@
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "This installment of the Reporters' Notebook video series discusses the impact of AI agents breaching Hugging Face, Fairlife's ransomware attack, and Iranian-linked threat actors compromising a dozen US water systems. It ",
+        "summary": "This installment of the Reporters' Notebook video series discusses the impact of AI agents breaching Hugging Face, Fairlife's ransomware attack, and Iranian-linked threat actors compromising a dozen US water systems. It",
         "whyItMatters": "Significant risk to affected systems; prioritize review.",
         "affected": [
           "Not specified"
         ],
-        "risk": "High",
         "action": "Monitor for indicators of compromise.",
+        "risk": "High",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -696,8 +1035,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -811,12 +1150,47 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [
           "CVE-2026-69681"
         ],
         "source": "heuristic"
+      }
+    },
+    {
+      "title": "CVE-2026-69732 Windows Link Layer Topology Discovery Protocol Remote Code Execution Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69732",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-09-24T14:00:00.000Z",
+      "summary": "Updated an acknowledgement. This is an informational change only.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [
+        "CVE-2026-69732"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft has updated an acknowledgement regarding CVE-2026-69732, a remote code execution vulnerability in the Windows Link Layer Topology Discovery Protocol. This update represents an informational change only with no immediate technical details provided.",
+        "whyItMatters": "Remote code execution flaws in core Windows networking protocols pose significant risks if exploited by attackers on the local network.",
+        "affected": [
+          "Windows Link Layer Topology Discovery Protocol"
+        ],
+        "action": "Monitor Microsoft security advisories for further updates and patching guidance.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-69732"
+        ],
+        "source": "ai"
       }
     },
     {
@@ -846,12 +1220,45 @@
         "affected": [
           "Windows"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [
           "CVE-2026-71337"
         ],
         "source": "heuristic"
+      }
+    },
+    {
+      "title": "CVE-2026-69282 Microsoft Office SharePoint Remote Code Execution Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69282",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-09-24T14:00:00.000Z",
+      "summary": "Updated an acknowledgement. This is an informational change only.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-69282"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Microsoft has updated an acknowledgment for CVE-2026-69282, a remote code execution vulnerability affecting Microsoft Office SharePoint. This update represents an informational change only with no functional modifications to the software.",
+        "whyItMatters": "Staying informed about vulnerability metadata updates helps organizations track security disclosures and assess potential risks.",
+        "affected": [
+          "Microsoft Office SharePoint"
+        ],
+        "action": "Review the updated Microsoft security advisory for details.",
+        "risk": "Medium",
+        "relatedCves": [
+          "CVE-2026-69282"
+        ],
+        "source": "ai"
       }
     },
     {
@@ -879,12 +1286,47 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [
           "CVE-2026-81357"
         ],
         "source": "heuristic"
+      }
+    },
+    {
+      "title": "CVE-2026-68894 Windows Error Reporting Elevation of Privilege Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68894",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-09-24T14:00:00.000Z",
+      "summary": "Updated an acknowledgement. This is an informational change only.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [
+        "CVE-2026-68894"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Microsoft has updated an acknowledgment for CVE-2026-68894, a Windows Error Reporting elevation of privilege vulnerability. This update is strictly informational with no functional changes to the software.",
+        "whyItMatters": "It is important for tracking administrative advisories, though no technical changes or exploits are detailed in this update.",
+        "affected": [
+          "Windows Error Reporting"
+        ],
+        "action": "No action is required as this is an informational update only.",
+        "risk": "News",
+        "relatedCves": [
+          "CVE-2026-68894"
+        ],
+        "source": "ai"
       }
     },
     {
@@ -914,113 +1356,10 @@
         "affected": [
           "Windows"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [
           "CVE-2026-69637"
-        ],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "CVE-2026-69803 Windows DHCP Server Information Disclosure Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69803",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-09-24T14:00:00.000Z",
-      "summary": "Updated an acknowledgement. This is an informational change only.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [
-        "CVE-2026-69803"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "Updated an acknowledgement. This is an informational change only.",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Windows"
-        ],
-        "risk": "Medium",
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "relatedCves": [
-          "CVE-2026-69803"
-        ],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "CVE-2026-69590 Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69590",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-09-24T14:00:00.000Z",
-      "summary": "Updated an acknowledgement. This is an informational change only.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [
-        "CVE-2026-69590"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Updated an acknowledgement. This is an informational change only.",
-        "whyItMatters": "Actively exploited or high-impact; treat as urgent.",
-        "affected": [
-          "Windows"
-        ],
-        "risk": "Critical",
-        "action": "Patch immediately.",
-        "relatedCves": [
-          "CVE-2026-69590"
-        ],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "CVE-2026-81951 Microsoft Excel Remote Code Execution Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-81951",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-09-24T14:00:00.000Z",
-      "summary": "Updated an acknowledgement. This is an informational change only.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-81951"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "Updated an acknowledgement. This is an informational change only.",
-        "whyItMatters": "Actively exploited or high-impact; treat as urgent.",
-        "affected": [
-          "Not specified"
-        ],
-        "risk": "Critical",
-        "action": "Patch immediately.",
-        "relatedCves": [
-          "CVE-2026-81951"
         ],
         "source": "heuristic"
       }
@@ -1047,8 +1386,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1272,10 +1611,38 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
+      }
+    },
+    {
+      "title": "Unified Code, Unified Risks: Uncovering Vulnerabilities in .NET MAUI Applications",
+      "link": "https://bishopfox.com/blog/unified-code-unified-risks-uncovering-vulnerabilities-net-maui-applications",
+      "source": "Bishop Fox",
+      "publishedAt": "2026-09-24T13:00:00.000Z",
+      "summary": ".NET MAUI lets developers write once and ship to both platforms. From an attacker's perspective, that means reverse-engineer once and break everywhere. This post walks through extracting readable assemblies from MAUI app",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": ".NET MAUI allows developers to create cross-platform applications using a unified codebase, which also enables attackers to analyze and reverse-engineer the app once to find widespread flaws. A recent security analysis demonstrates how to extract readable assemblies from these applications to uncover potential vulnerabilities.",
+        "whyItMatters": "Unified codebases in MAUI mean that a single reverse-engineering effort can expose vulnerabilities across applications deployed on multiple platforms.",
+        "affected": [
+          ".NET MAUI applications"
+        ],
+        "action": "Obfuscate your .NET MAUI assemblies and protect sensitive logic before deployment.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
       }
     },
     {
@@ -1301,8 +1668,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1448,13 +1815,13 @@
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "It was discovered that Expat did not correctly handle certain integer\narithmetic. An attacker could possibly use this issue to cause a denial of\nservice. \n(CVE-2026-56406, CVE-2026-56407, CVE-2026-56409, CVE-2026-56410, ",
+        "summary": "It was discovered that Expat did not correctly handle certain integer\narithmetic. An attacker could possibly use this issue to cause a denial of\nservice. \n(CVE-2026-56406, CVE-2026-56407, CVE-2026-56409, CVE-2026-56410,",
         "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [
           "CVE-2026-56406",
           "CVE-2026-56407",
@@ -1567,34 +1934,6 @@
       "readTimeMin": 1,
       "aiSummary": {
         "summary": "Cloud Range has announced the official launch of its AI Validation Range and Cloud Range AI Readiness Framework. They give organizations a structured way to test AI models and agents in realistic environments, validate t",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "OpenAI agent breached Australian government health website, Albanese says",
-      "link": "https://therecord.media/openai-australia-health-breach",
-      "source": "The Record",
-      "publishedAt": "2026-09-24T12:30:00.000Z",
-      "summary": "An OpenAI agent gained “unauthorized access” to “non-public files” from an Australian government health website in June, Prime Minister Anthony Albanese said.",
-      "categories": [
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "An OpenAI agent gained “unauthorized access” to “non-public files” from an Australian government health website in June, Prime Minister Anthony Albanese said.",
         "whyItMatters": "Background context; no immediate action expected.",
         "affected": [
           "Not specified"
@@ -1723,6 +2062,35 @@
       }
     },
     {
+      "title": "Eufy Omni C20, Omni X10 Pro",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-267-02",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-09-24T12:00:00.000Z",
+      "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to run system level commands or execute arbitrary code.\nThe following versions of Eufy Omni C20, Omni X10 Pro are affected:\nOmni ",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to run system level commands or execute arbitrary code.\nThe following versions of Eufy Omni C20, Omni X10 Pro are affected:\nOmni",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Not specified"
+        ],
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
       "title": "Botslab G980H Dashcams",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-267-01",
       "source": "CISA Advisories",
@@ -1740,13 +2108,13 @@
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to bypass authentication controls, gain unauthorized access to sensitive data and privileged device functionality, modify device ",
+        "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to bypass authentication controls, gain unauthorized access to sensitive data and privileged device functionality, modify device",
         "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1773,39 +2141,46 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
     },
     {
-      "title": "Eufy Omni C20, Omni X10 Pro",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-267-02",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/09/24/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "source": "CISA Advisories",
       "publishedAt": "2026-09-24T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to run system level commands or execute arbitrary code.\nThe following versions of Eufy Omni C20, Omni X10 Pro are affected:\nOmni ",
+      "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-5430 WSO2 Multiple Products Path Traversal Vulnerability\nCVE-2026-71362 Adob",
       "categories": [
         "Vulnerability",
+        "Government",
         "Vendor Advisory"
       ],
       "tags": [],
-      "cves": [],
-      "kev": false,
+      "cves": [
+        "CVE-2026-5430",
+        "CVE-2026-71362"
+      ],
+      "kev": true,
       "poc": false,
-      "severity": "medium",
-      "breaking": false,
+      "severity": "critical",
+      "breaking": true,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to run system level commands or execute arbitrary code.\nThe following versions of Eufy Omni C20, Omni X10 Pro are affected:\nOmni ",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities Catalog following evidence of active exploitation in the wild. The newly listed security flaws include a path traversal vulnerability in WSO2 multiple products and an unspecified vulnerability.",
+        "whyItMatters": "Active exploitation of cataloged vulnerabilities means malicious actors are actively targeting these flaws, increasing the urgency for organizations to secure their systems.",
         "affected": [
-          "Not specified"
+          "WSO2 Multiple Products"
         ],
-        "risk": "Medium",
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "relatedCves": [],
-        "source": "heuristic"
+        "action": "Review the CISA KEV catalog and apply necessary security updates immediately.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-5430",
+          "CVE-2026-71362"
+        ],
+        "source": "ai"
       }
     },
     {
@@ -1888,35 +2263,6 @@
         ],
         "action": "No action required; informational.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "USN-8812-1: GDAL vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8812-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-09-24T11:38:56.000Z",
-      "summary": "It was discovered that GDAL incorrectly handled certain netCDF files. An\nattacker could possibly use this issue to execute arbitrary code. This issue\nonly affected Ubuntu 22.04 LTS, Ubuntu 24.04 LTS, and Ubuntu 26.04 LTS",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "It was discovered that GDAL incorrectly handled certain netCDF files. An\nattacker could possibly use this issue to execute arbitrary code. This issue\nonly affected Ubuntu 22.04 LTS, Ubuntu 24.04 LTS, and Ubuntu 26.04 LTS",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "risk": "Medium",
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -2277,34 +2623,6 @@
       }
     },
     {
-      "title": "Astrana Health Data Breach Impacts Private, Confidential Information",
-      "link": "https://www.securityweek.com/astrana-health-data-breach-impacts-private-confidential-information/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-09-24T09:56:04.000Z",
-      "summary": "Hackers impersonated the company’s personnel and contacted its employees to gain access to Astrana Health’s servers.\nThe post Astrana Health Data Breach Impacts Private, Confidential Information appeared first on Securit",
-      "categories": [
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Hackers gained unauthorized access to Astrana Health's servers by impersonating company personnel and contacting employees. The security incident resulted in a data breach that impacted private and confidential information.",
-        "whyItMatters": "Social engineering attacks targeting internal employees remain an effective entry point for threat actors to compromise sensitive health data.",
-        "affected": [
-          "Astrana Health servers"
-        ],
-        "action": "Verify employee identities strictly before granting server access and reinforce social engineering awareness training.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "OpenAI hacked Australian Medicare govt site, probed data providers",
       "link": "https://www.bleepingcomputer.com/news/security/openai-hacked-australian-medicare-govt-site-probed-data-providers/",
       "source": "BleepingComputer",
@@ -2466,40 +2784,10 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
-      }
-    },
-    {
-      "title": "Microsoft fixes bug that broke Windows File History backup feature",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-backup-feature-broken-by-september-updates/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-09-24T08:14:47.000Z",
-      "summary": "Microsoft has fixed a known issue that breaks the built-in File History backup feature on some Windows systems after installing the September 2026 security updates. [...]",
-      "categories": [
-        "News"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has resolved a known issue that broke the built-in File History backup feature on certain Windows systems after installing the September 2026 security updates. The bug prevented affected users from successfully backing up their data until the fix was applied.",
-        "whyItMatters": "Unresolved backup failures can leave users without recovery options in the event of data loss or system failure.",
-        "affected": [
-          "Windows File History"
-        ],
-        "action": "Install the latest Windows updates to restore File History functionality.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "ai"
       }
     },
     {
@@ -2615,8 +2903,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -2645,35 +2933,6 @@
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8811-1: urllib3 vulnerability",
-      "link": "https://ubuntu.com/security/notices/USN-8811-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-09-24T01:39:52.000Z",
-      "summary": "It was discovered that urllib3 did not correctly strip sensitive HTTP\nheaders during cross-origin redirects. An attacker could possibly use this\nissue to leak sensitive information.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "It was discovered that urllib3 did not correctly strip sensitive HTTP\nheaders during cross-origin redirects. An attacker could possibly use this\nissue to leak sensitive information.",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
       }
     },
     {
@@ -2726,10 +2985,39 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
+      }
+    },
+    {
+      "title": "DSA-6512-1 libreoffice - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00424.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-09-24T00:00:00.000Z",
+      "summary": "Multiple security vulnerabilities were discovered in LibreOffice, which\ncould result in denial of service, information disclosure or potentially\nthe execution of arbitrary code if malformed document files are opened.\n\n\nh",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple security vulnerabilities have been discovered in LibreOffice. Opening malformed document files could lead to a denial of service, information disclosure, or potential arbitrary code execution.",
+        "whyItMatters": "Attackers can exploit these flaws through malicious documents to compromise user systems or disrupt operations.",
+        "affected": [
+          "LibreOffice"
+        ],
+        "action": "Update LibreOffice to the latest patched version provided by your vendor.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
       }
     },
     {
@@ -2791,34 +3079,6 @@
       }
     },
     {
-      "title": "Placeholder domain used in dev docs now serves ClickFix attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/placeholder-domain-used-in-dev-docs-now-serves-clickfix-attacks/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-09-23T22:46:01.000Z",
-      "summary": "The \"third-party.com\" domain, commonly used as a placeholder in developer documentation and code examples, is serving a fake Cloudflare verification page that attempts to trick Windows users into executing PowerShell com",
-      "categories": [
-        "News"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The third-party.com domain, frequently used as a placeholder in developer documentation, is now being exploited to serve fake Cloudflare verification pages. These fraudulent pages trick Windows users into executing malicious PowerShell commands as part of ClickFix attacks.",
-        "whyItMatters": "This poses a severe risk because users and automated systems often copy code examples containing this placeholder domain, exposing them to social engineering and malware execution.",
-        "affected": [],
-        "action": "Avoid visiting or trusting the third-party.com domain in code examples and monitor for unauthorized PowerShell execution.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "SASE Converges Network &amp; Security Into One Cloud Solution",
       "link": "https://www.darkreading.com/cloud-security/sase-converges-network-security-one-cloud",
       "source": "Dark Reading",
@@ -2875,64 +3135,6 @@
       }
     },
     {
-      "title": "GitLab Email Addresses Can Be Weaponized for Supply Chain Attacks",
-      "link": "https://www.darkreading.com/application-security/gitlab-email-addresses-supply-chain-attacks",
-      "source": "Dark Reading",
-      "publishedAt": "2026-09-23T20:53:38.000Z",
-      "summary": "Incoming email addresses automatically assigned to each user on the platform contain highly privileged access tokens that attackers can use.",
-      "categories": [
-        "Open Source"
-      ],
-      "tags": [
-        "GitLab"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "GitLab automatically assigns incoming email addresses to users that contain highly privileged access tokens. Attackers can potentially weaponize these exposed addresses to conduct supply chain attacks.",
-        "whyItMatters": "Exposed high-privilege access tokens within automated user email addresses allow unauthorized actors to compromise software supply chains.",
-        "affected": [
-          "GitLab"
-        ],
-        "action": "Review and secure GitLab user email settings and associated access tokens.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "UK regulator to investigate Pornhub parent company for alleged age verification failings",
-      "link": "https://therecord.media/uk-regulator-to-investigate-pornhub-parent-company-privacy",
-      "source": "The Record",
-      "publishedAt": "2026-09-23T20:07:00.000Z",
-      "summary": "In May, Pornhub began using a new age assurance process to verify some users’ ages, according to an Ofcom press release. The new method relies on signals from Apple that suggest under 18s in the UK “may have completed Ap",
-      "categories": [
-        "News"
-      ],
-      "tags": [
-        "Apple"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The UK's Ofcom is investigating Pornhub's parent company over alleged failings in its new age verification process. The system, introduced in May, relies on age-related signals from Apple devices.",
-        "whyItMatters": "Regulatory scrutiny over age verification compliance impacts how adult platforms handle user privacy and legal mandates.",
-        "affected": [],
-        "action": "Monitor regulatory developments regarding age verification compliance.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Watchdog finds most agencies failed to meet CISA cloud security orders, heightening risk of attack",
       "link": "https://cyberscoop.com/dhs-ig-report-federal-agencies-fail-cisa-cloud-security-directives/",
       "source": "CyberScoop",
@@ -2955,32 +3157,6 @@
         "affected": [],
         "action": "Empower CISA with enforcement mechanisms to ensure federal agencies comply with security directives.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "No evidence of successful foreign meddling in 2024 election, spy agencies found",
-      "link": "https://therecord.media/trump-harris-election-meddling-russia",
-      "source": "The Record",
-      "publishedAt": "2026-09-23T19:30:00.000Z",
-      "summary": "U.S. intelligence officials found no evidence that any foreign adversary successfully interfered in the 2024 presidential election, according to sources familiar with the findings of a classified assessment.",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "U.S. intelligence officials have concluded in a classified assessment that no foreign adversaries successfully interfered in the 2024 presidential election. Sources familiar with the findings confirmed that there was no evidence of successful foreign meddling.",
-        "whyItMatters": "It provides official assurance regarding the integrity and security of the 2024 U.S. presidential election against foreign threats.",
-        "affected": [],
-        "action": "Monitor official government reports for further updates.",
-        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
@@ -3089,8 +3265,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Critical",
         "action": "Patch immediately.",
+        "risk": "Critical",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -3119,32 +3295,6 @@
         ],
         "action": "Upgrade Cinnamon Kotaemon to a patched version beyond v0.12.0 once available.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Ryuk ransomware operator sentenced to 2 years in prison",
-      "link": "https://cyberscoop.com/ryuk-ransomware-operator-karen-vardanyan-sentenced/",
-      "source": "CyberScoop",
-      "publishedAt": "2026-09-23T17:10:19.000Z",
-      "summary": "The Armenian national was extradited from Ukraine to the United States last year and pleaded guilty to cybercrimes in July.\nThe post Ryuk ransomware operator sentenced to 2 years in prison appeared first on CyberScoop.",
-      "categories": [
-        "Ransomware"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "high",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "An Armenian national involved in operating the Ryuk ransomware has been sentenced to two years in prison by a U.S. court. The individual was previously extradited from Ukraine and pleaded guilty to cybercrimes earlier this year.",
-        "whyItMatters": "This case highlights international law enforcement cooperation in holding cybercriminals accountable for ransomware attacks.",
-        "affected": [],
-        "action": "Review organizational ransomware preparedness and offline backup strategies.",
-        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
@@ -3206,32 +3356,6 @@
           ".NET 9"
         ],
         "action": "Upgrade your applications to .NET 10 before November 10, 2026.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "UAE, Saudi Arabia Face Onslaught of Increasingly Complex Cyberattacks",
-      "link": "https://www.darkreading.com/threat-intelligence/uae-saudi-arabia-face-onslaught-of-increasingly-sophisticated-automated-cyberattacks",
-      "source": "Dark Reading",
-      "publishedAt": "2026-09-23T16:01:00.000Z",
-      "summary": "The United Arab Emirates and Kingdom of Saudi Arabia together absorbed 50% of all cyberattacks recorded across the Gulf region in the first half of 2026.",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The United Arab Emirates and Saudi Arabia absorbed half of all cyberattacks recorded in the Gulf region during the first half of 2026. These nations are facing an onslaught of increasingly complex cyberthreat operations.",
-        "whyItMatters": "It highlights a significant concentration of sophisticated cyber threats targeting critical infrastructure and organizations in the Gulf region.",
-        "affected": [],
-        "action": "Enhance regional cybersecurity defenses and threat monitoring.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -3752,6 +3876,175 @@
       }
     },
     {
+      "title": "Issue with FreeRTOS-Plus-TCP - MAC Address Validation Bypass and ICMP Echo Reply Integer Underflow",
+      "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-021-aws/",
+      "source": "AWS Security Bulletins",
+      "publishedAt": "2026-09-22T19:49:51.000Z",
+      "summary": "Issue with FreeRTOS-Plus-TCP - MAC Address Validation Bypass and ICMP Echo Reply Integer Underflow",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A security advisory has been released for FreeRTOS-Plus-TCP detailing two distinct vulnerabilities. These flaws involve a MAC address validation bypass and an integer underflow in ICMP Echo Reply handling.",
+        "whyItMatters": "These vulnerabilities could potentially allow attackers to bypass network security controls or cause denial of service conditions on embedded systems.",
+        "affected": [
+          "FreeRTOS-Plus-TCP"
+        ],
+        "action": "Review the advisory and apply available patches for FreeRTOS-Plus-TCP.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Issue with Amazon SageMaker Python SDK - Model artifact integrity verification issues (CVE-2026-8596 &amp; CVE-2026-8597)",
+      "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-031-aws/",
+      "source": "AWS Security Bulletins",
+      "publishedAt": "2026-09-22T19:49:29.000Z",
+      "summary": "Issue with Amazon SageMaker Python SDK - Model artifact integrity verification issues (CVE-2026-8596 &amp; CVE-2026-8597)",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-8596",
+        "CVE-2026-8597"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Two model artifact integrity verification issues have been identified in the Amazon SageMaker Python SDK. These vulnerabilities are tracked under CVE-2026-8596 and CVE-2026-8597.",
+        "whyItMatters": "Flaws in model artifact integrity verification can allow attackers to tamper with machine learning models, leading to compromised deployments.",
+        "affected": [
+          "Amazon SageMaker Python SDK"
+        ],
+        "action": "Update the Amazon SageMaker Python SDK to the latest secure version.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-8596",
+          "CVE-2026-8597"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-13762 and CVE-2026-13763 - Issue with HTTP/2 multi-frame request body inspection in AWS WAF",
+      "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-048-aws/",
+      "source": "AWS Security Bulletins",
+      "publishedAt": "2026-09-22T19:49:10.000Z",
+      "summary": "CVE-2026-13762 and CVE-2026-13763 - Issue with HTTP/2 multi-frame request body inspection in AWS WAF",
+      "categories": [
+        "Vulnerability",
+        "Cloud"
+      ],
+      "tags": [
+        "AWS"
+      ],
+      "cves": [
+        "CVE-2026-13762",
+        "CVE-2026-13763"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "CVE-2026-13762 and CVE-2026-13763 - Issue with HTTP/2 multi-frame request body inspection in AWS WAF",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "AWS"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [
+          "CVE-2026-13762",
+          "CVE-2026-13763"
+        ],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "CVE-2026-16756 - Allocation of resources without limits in the default aws-smithy-http-server serve() path allows unauthenticated Slowloris denial of service",
+      "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-064-aws/",
+      "source": "AWS Security Bulletins",
+      "publishedAt": "2026-09-22T19:48:46.000Z",
+      "summary": "CVE-2026-16756 - Allocation of resources without limits in the default aws-smithy-http-server serve() path allows unauthenticated Slowloris denial of service",
+      "categories": [
+        "Vulnerability",
+        "Cloud"
+      ],
+      "tags": [
+        "AWS"
+      ],
+      "cves": [
+        "CVE-2026-16756"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "CVE-2026-16756 - Allocation of resources without limits in the default aws-smithy-http-server serve() path allows unauthenticated Slowloris denial of service",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "AWS"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [
+          "CVE-2026-16756"
+        ],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Incomplete fix for CVE-2025-4318 code injection in Amazon &commat;aws-amplify/codegen-ui-react",
+      "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-066-aws/",
+      "source": "AWS Security Bulletins",
+      "publishedAt": "2026-09-22T19:48:45.000Z",
+      "summary": "Incomplete fix for CVE-2025-4318 code injection in Amazon &commat;aws-amplify/codegen-ui-react",
+      "categories": [
+        "Vulnerability",
+        "Cloud"
+      ],
+      "tags": [
+        "AWS"
+      ],
+      "cves": [
+        "CVE-2025-4318"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Incomplete fix for CVE-2025-4318 code injection in Amazon &commat;aws-amplify/codegen-ui-react",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "AWS"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [
+          "CVE-2025-4318"
+        ],
+        "source": "heuristic"
+      }
+    },
+    {
       "title": "Retirement: Support for Node.js 22 ends on April 30, 2027",
       "link": "https://azure.microsoft.com/updates?id=572771",
       "source": "Azure Updates",
@@ -3947,35 +4240,6 @@
       }
     },
     {
-      "title": "Siemens Desigo CC family",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-05",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-09-22T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nA Client Code Execution (CCE) vulnerability has been identified in Desigo CC, potentially allowing malicious actors to execute arbitrary code on client devices through specially crafted graphics documen",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A Client Code Execution vulnerability has been identified in the Siemens Desigo CC family. This flaw could potentially allow malicious actors to execute arbitrary code on client devices via specially crafted graphics documents.",
-        "whyItMatters": "Attackers could leverage this vulnerability to execute arbitrary code on vulnerable client devices, compromising system integrity and security.",
-        "affected": [
-          "Siemens Desigo CC"
-        ],
-        "action": "Check the CSAF advisory from Siemens and apply the recommended security updates.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Siemens WTV676 and WTV776",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-08",
       "source": "CISA Advisories",
@@ -4028,8 +4292,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -5314,37 +5578,6 @@
       }
     },
     {
-      "title": "DSA-6504-1 libapache2-mod-auth-openidc - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00416.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-09-17T00:00:00.000Z",
-      "summary": "It was discovered that incorrect state cookie parsing in\nmod_auth_openidc, an OpenID Certified authentication and authorisation\nmodule for the Apache HTTP server that implements the OpenID Connect\nRelying Party functiona",
-      "categories": [
-        "Vendor Advisory",
-        "Open Source"
-      ],
-      "tags": [
-        "Apache"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "It was discovered that incorrect state cookie parsing in\nmod_auth_openidc, an OpenID Certified authentication and authorisation\nmodule for the Apache HTTP server that implements the OpenID Connect\nRelying Party functiona",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Apache"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Smashing Security podcast #485: These researchers got drunk to hack an LG TV",
       "link": "https://grahamcluley.com/smashing-security-podcast-485/",
       "source": "Graham Cluley",
@@ -5575,213 +5808,6 @@
         ],
         "action": "Monitor for indicators of compromise.",
         "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Atomic macOS (AMOS) Stealer Activity",
-      "link": "https://unit42.paloaltonetworks.com/atomic-macos-amos-stealer-activity/",
-      "source": "Unit 42",
-      "publishedAt": "2026-09-16T10:00:06.000Z",
-      "summary": "Modern macOS malware uses deceptive setup guides to steal credentials and sensitive user data. Learn how to identify and block these threats.\nThe post Atomic macOS (AMOS) Stealer Activity appeared first on Unit 42.",
-      "categories": [
-        "Malware"
-      ],
-      "tags": [
-        "macOS"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Modern macOS malware uses deceptive setup guides to steal credentials and sensitive user data. Learn how to identify and block these threats.\nThe post Atomic macOS (AMOS) Stealer Activity appeared first on Unit 42.",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "macOS"
-        ],
-        "action": "Monitor for indicators of compromise.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Cyberthreats are moving faster than SMBs: Readiness must accelerate",
-      "link": "https://www.welivesecurity.com/en/business-security/cyberthreats-moving-faster-smbs-readiness-must-accelerate/",
-      "source": "WeLiveSecurity",
-      "publishedAt": "2026-09-16T09:00:00.000Z",
-      "summary": "As AI adoption expands the attack surface and adds to the security workload, businesses need automation backed by experts",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "As AI adoption expands the attack surface and adds to the security workload, businesses need automation backed by experts",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "CrowdStrike Accelerates Real-Time Data Classification with On-Device AI",
-      "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-accelerates-real-time-data-classification-with-on-device-ai/",
-      "source": "CrowdStrike",
-      "publishedAt": "2026-09-16T05:00:00.000Z",
-      "summary": "CrowdStrike Accelerates Real-Time Data Classification with On-Device AI",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "CrowdStrike has announced the acceleration of its real-time data classification capabilities utilizing on-device artificial intelligence. This new approach aims to enhance data visibility and security directly at the endpoint.",
-        "whyItMatters": "It improves organizational data protection by enabling faster and more efficient classification of sensitive information without relying heavily on cloud processing.",
-        "affected": [],
-        "action": "Review the new CrowdStrike feature documentation to understand its impact on your endpoint environment.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Weekly Report: a-blog cmsにパストラバーサルの脆弱性",
-      "link": "https://www.jpcert.or.jp/wr/2026/wr260916.html#1",
-      "source": "JPCERT/CC",
-      "publishedAt": "2026-09-16T00:06:00.000Z",
-      "summary": "a-blog cmsにパストラバーサルの脆弱性",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "A path traversal vulnerability has been reported in the a-blog cms content management system. This security flaw could potentially allow attackers to access unauthorized files on the server.",
-        "whyItMatters": "Path traversal flaws can lead to the exposure of sensitive system files and potential remote compromise if exploited.",
-        "affected": [
-          "a-blog cms"
-        ],
-        "action": "Check vendor advisories and apply the latest security updates for a-blog cms.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Weekly Report: AWS Systems Manager Agentにサーバーサイドリクエストフォージェリの脆弱性",
-      "link": "https://www.jpcert.or.jp/wr/2026/wr260916.html#2",
-      "source": "JPCERT/CC",
-      "publishedAt": "2026-09-16T00:06:00.000Z",
-      "summary": "AWS Systems Manager Agentにサーバーサイドリクエストフォージェリの脆弱性",
-      "categories": [
-        "Cloud",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "AWS"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "A vulnerability involving Server-Side Request Forgery has been discovered in the AWS Systems Manager Agent. This flaw could potentially allow attackers to manipulate server requests through the affected component.",
-        "whyItMatters": "It exposes AWS infrastructure components to unauthorized request manipulation, potentially leading to internal resource access.",
-        "affected": [
-          "AWS Systems Manager Agent"
-        ],
-        "action": "Update the AWS Systems Manager Agent to the latest patched version.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-76461: Critical Cisco Secure Email Gateway Vulnerability Exploited in the Wild",
-      "link": "https://www.rapid7.com/blog/post/etr-cve-2026-76461-critical-cisco-secure-email-gateway-vulnerability-exploited-in-the-wild",
-      "source": "Rapid7",
-      "publishedAt": "2026-09-15T12:22:50.000Z",
-      "summary": "Overview\nOn September 14, 2026, Cisco published a security advisory for CVE-2026-76461, a critical SQL injection vulnerability affecting Cisco AsyncOS Software for Cisco Secure Email Gateway. The vulnerability has a repo",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Cisco"
-      ],
-      "cves": [
-        "CVE-2026-76461"
-      ],
-      "kev": true,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Cisco has published a security advisory for CVE-2026-76461, a critical SQL injection vulnerability in Cisco AsyncOS Software for Cisco Secure Email Gateway. The flaw is currently being exploited in the wild.",
-        "whyItMatters": "This critical vulnerability poses an immediate severe risk as active exploitation in the wild allows attackers to compromise vulnerable email gateways.",
-        "affected": [
-          "Cisco AsyncOS Software for Cisco Secure Email Gateway"
-        ],
-        "action": "Apply the official security updates provided by Cisco immediately.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-76461"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "UK and allies expose spyware used by Iranian state actors to target dissidents, activists and journalists",
-      "link": "https://www.ncsc.gov.uk/news/uk-allies-expose-spyware-iranian-state-actors-target-dissidents-activists-journalists",
-      "source": "NCSC UK",
-      "publishedAt": "2026-09-15T12:00:00.000Z",
-      "summary": "UK and allies provide advice to help organisations and individuals at risk detect and counter the threat from CHOSEN BRICK malware.",
-      "categories": [
-        "Malware",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "UK and allies provide advice to help organisations and individuals at risk detect and counter the threat from CHOSEN BRICK malware.",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Monitor for indicators of compromise.",
-        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
