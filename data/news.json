@@ -1,6 +1,33 @@
 {
-  "updatedAt": "2026-09-24T22:22:59.557Z",
+  "updatedAt": "2026-09-25T01:27:48.676Z",
   "items": [
+    {
+      "title": "Crook used three open source agents to break into a Fortune 500 hospitality company, a major US airline and 25+ other orgs",
+      "link": "https://www.theregister.com/security/2026/09/25/crook-used-three-open-source-agents-to-break-into-a-fortune-500-hospitality-company-a-major-us-airline-and-25-other-orgs/5299012",
+      "source": "The Register",
+      "publishedAt": "2026-09-24T23:32:15.000Z",
+      "summary": "Operator’s AI bill averaged just $25 per completed scan",
+      "categories": [
+        "AI Security",
+        "Open Source"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A threat actor successfully breached a Fortune 500 hospitality company, a major US airline, and over 25 other organizations using three open-source AI agents. The attacker achieved these widespread compromises while maintaining an average cost of only $25 per completed scan.",
+        "whyItMatters": "This incident demonstrates that low-cost, automated AI tools are effectively lowering the technical barrier for sophisticated cyber attacks against major enterprises.",
+        "affected": [],
+        "action": "Monitor AI agent usage and reinforce perimeter defenses against automated scanning.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "House and Senate members propose legislation for CISA to step up cyber defenses for biotech",
       "link": "https://cyberscoop.com/biotech-critical-infrastructure-cybersecurity-legislation/",
@@ -208,13 +235,13 @@
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "Eunsoo Kim discovered that curl incorrectly handled SASL negotiation for\nLDAP authentication in certain circumstances. A machine-in-the-middle\nattacker could possibly use this issue to bypass peer validation. This\nissue ",
+        "summary": "Eunsoo Kim discovered that curl incorrectly handled SASL negotiation for\nLDAP authentication in certain circumstances. A machine-in-the-middle\nattacker could possibly use this issue to bypass peer validation. This\nissue",
         "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -3243,35 +3270,6 @@
       }
     },
     {
-      "title": "Someone's attacking a critical 0-day RCE in F5 BIG-IP APM",
-      "link": "https://www.theregister.com/security/2026/09/23/someones-attacking-a-critical-0-day-rce-in-f5-big-ip-apm/5298659",
-      "source": "The Register",
-      "publishedAt": "2026-09-23T18:09:28.000Z",
-      "summary": "Good news: there's a patch. Bad news: both CISA and F5 warn that it's under active exploitation",
-      "categories": [
-        "Vulnerability",
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Good news: there's a patch. Bad news: both CISA and F5 warn that it's under active exploitation",
-        "whyItMatters": "Actively exploited or high-impact; treat as urgent.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Patch immediately.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "VU#754548: Cinnamon's Kotaemon contains improper authorization checks in Kotaemon multi‑user chat handlers",
       "link": "https://kb.cert.org/vuls/id/754548",
       "source": "CERT/CC",
@@ -3965,8 +3963,8 @@
         "affected": [
           "AWS"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [
           "CVE-2026-13762",
           "CVE-2026-13763"
@@ -4001,8 +3999,8 @@
         "affected": [
           "AWS"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [
           "CVE-2026-16756"
         ],
@@ -4036,8 +4034,8 @@
         "affected": [
           "AWS"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [
           "CVE-2025-4318"
         ],
