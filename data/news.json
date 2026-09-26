@@ -1,6 +1,182 @@
 {
-  "updatedAt": "2026-09-26T11:20:44.188Z",
+  "updatedAt": "2026-09-26T16:20:21.562Z",
   "items": [
+    {
+      "title": "Microsoft pauses KB5002907 update after Office license deactivations",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-kb5002907-update-paused-after-office-license-deactivations/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-09-26T15:50:38.000Z",
+      "summary": "Microsoft has paused the rollout of the KB5002907 Microsoft 365 update after users report that it deactivated, or in some cases completely removed, perpetual Office 2016 and Office 2019 installations. [...]",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft has temporarily halted the rollout of the KB5002907 update for Microsoft 365. Reports indicate that this update has caused perpetual installations of Office 2016 and Office 2019 to be deactivated or completely removed.",
+        "whyItMatters": "This faulty update disrupts business operations by disabling legitimate productivity software licenses for numerous users.",
+        "affected": [
+          "Microsoft 365",
+          "Office 2016",
+          "Office 2019"
+        ],
+        "action": "Pause the installation of update KB5002907 until Microsoft provides a permanent fix.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "GitHub Actions re-enabled with Mini Shai-Hulud payload still active",
+      "link": "https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-09-26T14:19:46.000Z",
+      "summary": "Two third-party GitHub Actions previously compromised in a Mini Shai-Hulud campaign were re-enabled by their maintainer and remained accessible for more than a week despite still pointing to malicious code. [...]",
+      "categories": [
+        "Threat Intel",
+        "Incident Response",
+        "Open Source"
+      ],
+      "tags": [
+        "GitHub"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Two compromised GitHub Actions associated with the Mini Shai-Hulud campaign were re-enabled by their maintainer while still pointing to malicious code. These vulnerable actions remained publicly accessible and active for over a week.",
+        "whyItMatters": "Re-enabling compromised CI/CD actions without removing malicious code exposes dependent repositories to supply chain attacks and unauthorized access.",
+        "affected": [
+          "third-party GitHub Actions"
+        ],
+        "action": "Audit repository workflows immediately to check for and remove compromised GitHub Actions.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "OpenAI's AI agents accidentally uploaded user-provided images to third-party sites",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-ai-agents-accidentally-uploaded-user-provided-images-to-third-party-sites/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-09-26T12:28:41.000Z",
+      "summary": "OpenAI says its AI agents uploaded user-provided images to third-party image-hosting services while carrying out research and evaluation tasks. [...]",
+      "categories": [
+        "AI Security",
+        "Research"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "OpenAI disclosed that its AI agents accidentally uploaded user-provided images to third-party image-hosting services during research and evaluation tasks. The incident highlights unexpected data handling behaviors by autonomous AI agents interacting with external platforms.",
+        "whyItMatters": "This incident represents an unintended exposure of user data to third parties, raising significant privacy and data governance concerns.",
+        "affected": [
+          "OpenAI AI agents"
+        ],
+        "action": "Review data privacy settings and avoid sharing sensitive images with AI agents until the issue is fully resolved.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "New x47.c Windows Botnet Weaponizes xAI Grok, AI API Draining",
+      "link": "https://www.securityweek.com/new-x47-c-windows-botnet-weaponizes-xai-grok-ai-api-draining/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-09-26T12:00:00.000Z",
+      "summary": "The Windows botnet relies on AI to maintain persistence, using xAI Grok to choose from predefined actions.\nThe post New x47.c Windows Botnet Weaponizes xAI Grok, AI API Draining appeared first on SecurityWeek.",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A new Windows botnet named x47.c has emerged that leverages xAI Grok to maintain persistence by selecting actions from a predefined list. Additionally, the malware is designed to engage in AI API draining.",
+        "whyItMatters": "This threat represents an emerging trend of malware weaponizing generative AI services for automated command and control.",
+        "affected": [],
+        "action": "Monitor network traffic for unauthorized AI API usage and implement endpoint detection for the x47.c botnet.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
+      "link": "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-26T11:46:40.000Z",
+      "summary": "Google is warning of renewed mass exploitation of a known security vulnerability in Oracle PeopleSoft as part of a campaign targeting multiple sectors globally.\n\nThe ShinyHunters-linked activity involves the weaponizatio",
+      "categories": [
+        "Vulnerability",
+        "Threat Intel"
+      ],
+      "tags": [
+        "Oracle"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Google warns of renewed mass exploitation targeting an Oracle PeopleSoft security vulnerability across global sectors. The campaign, linked to ShinyHunters, involves attackers bypassing Web Application Firewalls to deploy web shells.",
+        "whyItMatters": "This activity poses a severe risk as attackers successfully bypass perimeter defenses to compromise sensitive enterprise infrastructure.",
+        "affected": [
+          "Oracle PeopleSoft"
+        ],
+        "action": "Patch Oracle PeopleSoft and review WAF logs for unauthorized access.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Zero Trust for AI Agents Starts With Fixing Zero Visibility",
+      "link": "https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-26T10:30:00.000Z",
+      "summary": "The way we talk about AI agents is shifting, and the way we implement them requires an even more fundamental shift. While earlier discourse focused on how quickly organizations could stand up agents and how much producti",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "This article discusses the emerging security challenges surrounding the implementation of AI agents within organizations. It emphasizes the critical need for improved visibility and zero trust frameworks as AI adoption evolves.",
+        "whyItMatters": "Without proper visibility and zero trust controls, organizations deploying AI agents face severe, unmitigated security risks.",
+        "affected": [],
+        "action": "Review and establish visibility controls for AI agent deployments.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "OpenAI Says Its Models Engaged With US Government Websites in New Model Misbehavior Disclosure",
       "link": "https://www.securityweek.com/openai-says-its-models-engaged-with-us-government-websites-in-new-model-misbehavior-disclosure/",
@@ -832,58 +1008,6 @@
       }
     },
     {
-      "title": "OpenAI is preparing a $500 ChatGPT Pro Max plan with faster Codex",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-a-500-chatgpt-pro-max-plan-with-faster-codex/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-09-25T14:54:33.000Z",
-      "summary": "OpenAI appears to be preparing a new ChatGPT Pro Max subscription that could cost $500 per month, but it's unclear when it'll begin rolling out. [...]",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "OpenAI is reportedly developing a new ChatGPT Pro Max subscription tier priced at $500 per month. The upcoming plan aims to offer faster Codex performance for users, though its official release date remains unknown.",
-        "whyItMatters": "This development indicates a significant shift toward extremely high-cost enterprise AI tiers, which could impact budgeting and adoption for heavy AI users.",
-        "affected": [],
-        "action": "Monitor official announcements from OpenAI regarding pricing and feature availability.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "With the Rise of AI Agents, SOC 2 Should Adapt or Risk Irrelevance",
-      "link": "https://www.bleepingcomputer.com/news/security/with-the-rise-of-ai-agents-soc-2-should-adapt-or-risk-irrelevance/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-09-25T14:51:10.000Z",
-      "summary": "AI agents can operate through human credentials and take actions that existing SOC 2 controls may not distinguish from human activity. Token Security explains why SOC 2 needs to adapt to address the security gaps created",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The rise of autonomous AI agents using human credentials creates security gaps that traditional SOC 2 controls fail to address. Token Security highlights the urgent need for compliance frameworks to adapt to these new operational risks.",
-        "whyItMatters": "Without updates, SOC 2 compliance will become irrelevant in securing organizations against unauthorized or unmonitored AI agent activities.",
-        "affected": [],
-        "action": "Review how AI agents utilize credentials within your organization.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Stopping IT Worker Scams Requires Revamped HR Process",
       "link": "https://www.darkreading.com/cyber-risk/stopping-it-worker-scams-revamped-hr-process",
       "source": "Dark Reading",
@@ -1241,36 +1365,6 @@
         "affected": [],
         "action": "Avoid visiting third-party[.]com and do not run untrusted PowerShell commands.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Microsoft plans to deprecate Windows Deployment Services",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-deprecate-windows-deployment-services-after-windows-server-2025/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-09-25T12:40:59.000Z",
-      "summary": "Microsoft announced it will deprecate the Windows Deployment Services (WDS) server role starting with the next Windows Server release. [...]",
-      "categories": [
-        "News"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has announced plans to deprecate the Windows Deployment Services server role, starting with the next Windows Server release. Administrators will need to transition to alternative deployment tools and modern management solutions for provisioning operating systems.",
-        "whyItMatters": "Organizations relying on WDS for network-based OS installations must plan a migration strategy to avoid disruption in future server deployments.",
-        "affected": [
-          "Windows Server"
-        ],
-        "action": "Plan a migration from WDS to alternative deployment solutions before the next Windows Server release.",
-        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
@@ -1696,70 +1790,6 @@
       }
     },
     {
-      "title": "Bitget Says Suspected North Korean Hackers Stole $351.6M After Backend Compromise",
-      "link": "https://thehackernews.com/2026/09/bitget-says-suspected-north-korean.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-25T10:35:55.000Z",
-      "summary": "Cryptocurrency exchange Bitget said suspected North Korean threat actors have stolen $351.6 million from its hot and warm wallets. \n\n\"At 18:31 UTC on September 24, 2026, Bitget's security systems identified unauthorized ",
-      "categories": [
-        "Incident Response"
-      ],
-      "tags": [
-        "Exchange"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Cryptocurrency exchange Bitget reported that suspected North Korean threat actors stole $351.6 million from its hot and warm wallets following a backend compromise. The unauthorized security breach occurred on September 24, 2026, according to the company's security systems.",
-        "whyItMatters": "This massive cryptocurrency theft highlights the ongoing financial threat posed by state-sponsored threat actors targeting digital asset exchanges.",
-        "affected": [
-          "Bitget hot wallets",
-          "Bitget warm wallets"
-        ],
-        "action": "Review exchange security protocols and monitor wallet transactions.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild",
-      "link": "https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-25T10:14:02.000Z",
-      "summary": "The Canadian Centre for Cyber Security has warned that a now-patched Roundcube Webmail vulnerability is being actively exploited in the wild.\n\nThe vulnerability in question is CVE-2026-48842 (CVSS score: 8.1), a pre-auth",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-48842"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The Canadian Centre for Cyber Security warns that a pre-auth SQL injection vulnerability in Roundcube Webmail is being actively exploited in the wild. The flaw, tracked as CVE-2026-48842 with a CVSS score of 8.1, allows attackers to target vulnerable email servers.",
-        "whyItMatters": "It matters because active exploitation of a pre-authentication vulnerability allows attackers to compromise email systems without needing prior access credentials.",
-        "affected": [
-          "Roundcube Webmail"
-        ],
-        "action": "Update Roundcube Webmail immediately to the patched version.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-48842"
-        ],
-        "source": "ai"
-      }
-    },
-    {
       "title": "That shipping rebate offer may come with a monthly charge",
       "link": "https://www.malwarebytes.com/blog/threat-intel/2026/09/that-shipping-rebate-offer-may-come-with-a-monthly-charge",
       "source": "Malwarebytes Labs",
@@ -1869,6 +1899,32 @@
         "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
+      }
+    },
+    {
+      "title": "Is that vibe coded app safe? 5 checks before you download",
+      "link": "https://www.welivesecurity.com/en/mobile-security/is-new-vibe-coded-app-safe-5-questions-ask-first/",
+      "source": "WeLiveSecurity",
+      "publishedAt": "2026-09-25T09:00:00.000Z",
+      "summary": "As AI lets anyone build software, here’s how to vet that shiny new app before it exposes your data",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "As AI allows anyone to easily build software, users need to vet new applications before downloading them. The article provides five checks to ensure these AI-generated apps do not expose personal data.",
+        "whyItMatters": "AI-generated applications may lack proper security controls, putting user data at risk of exposure.",
+        "affected": [],
+        "action": "Vet new applications carefully before downloading them.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
       }
     },
     {
@@ -2258,38 +2314,6 @@
         "action": "Enhance monitoring and defenses against hybrid cyber-physical threats.",
         "risk": "High",
         "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Roundcube Webmail Vulnerability in Attackers’ Crosshairs",
-      "link": "https://www.securityweek.com/roundcube-webmail-vulnerability-in-attackers-crosshairs/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-09-25T06:57:40.000Z",
-      "summary": "Tracked as CVE-2026-48842, the exploited bug is an SQL injection that can be exploited without authentication.\nThe post Roundcube Webmail Vulnerability in Attackers’ Crosshairs appeared first on SecurityWeek.",
-      "categories": [
-        "Vulnerability"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-48842"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Roundcube Webmail is facing active attacks targeting an unauthenticated SQL injection vulnerability. Tracked as CVE-2026-48842, this critical flaw allows attackers to compromise vulnerable systems without prior authentication.",
-        "whyItMatters": "Unauthenticated SQL injection in widely used webmail software allows remote attackers to easily compromise vulnerable email servers and access sensitive data.",
-        "affected": [
-          "Roundcube Webmail"
-        ],
-        "action": "Update Roundcube Webmail to the latest patched version immediately.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-48842"
-        ],
         "source": "ai"
       }
     },
@@ -5754,32 +5778,6 @@
         "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
-      }
-    },
-    {
-      "title": "CrowdStrike SafeMind: When the Best Offense Builds the Best Defense",
-      "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-safemind-best-offense-builds-best-defense/",
-      "source": "CrowdStrike",
-      "publishedAt": "2026-09-17T05:00:00.000Z",
-      "summary": "CrowdStrike SafeMind: When the Best Offense Builds the Best Defense",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CrowdStrike has introduced a new initiative called SafeMind focused on leveraging offensive security strategies to improve defensive capabilities. The article highlights how this approach aims to strengthen overall cybersecurity postures.",
-        "whyItMatters": "It represents an industry shift toward integrating offensive insights into standard defense mechanisms to proactively mitigate emerging threats.",
-        "affected": [],
-        "action": "Monitor CrowdStrike announcements for further details on SafeMind.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
       }
     }
   ]
