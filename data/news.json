@@ -1,6 +1,119 @@
 {
-  "updatedAt": "2026-09-26T16:20:21.562Z",
+  "updatedAt": "2026-09-26T19:49:47.907Z",
   "items": [
+    {
+      "title": "ShinyHunters uses WAF bypass trick in Oracle PeopleSoft attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-09-26T19:03:34.000Z",
+      "summary": "The ShinyHunters extortion gang is using a URL-encoding trick to bypass web application firewall rules that mitigate the Oracle PeopleSoft CVE-2026-35273 flaw, allowing the threat actors to resume widespread exploitation",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [
+        "Oracle"
+      ],
+      "cves": [
+        "CVE-2026-35273"
+      ],
+      "kev": true,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The ShinyHunters extortion gang is using a URL-encoding trick to bypass web application firewall rules. This technique allows the threat actors to resume widespread exploitation of the Oracle PeopleSoft flaw.",
+        "whyItMatters": "This bypass technique leaves previously secured systems vulnerable to ongoing extortion and unauthorized access.",
+        "affected": [
+          "Oracle PeopleSoft"
+        ],
+        "action": "Update firewall rules to block URL-encoding bypass attempts for Oracle PeopleSoft.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-35273"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials",
+      "link": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-26T18:22:52.000Z",
+      "summary": "The Psychedelic Stealer malware distributed via compromised Ukrainian websites using ClickFix-style Cloudflare verification checks is part of a wider malware-as-a-service (MaaS) platform called Lunex.\n\nThe new findings c",
+      "categories": [
+        "Malware",
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A new malware-as-a-service platform called Lunex distributes the Psychedelic Stealer through compromised Ukrainian websites utilizing ClickFix-style Cloudflare verification checks. The stealer abuses an AMD driver to disable security monitoring and steal sensitive browser credentials.",
+        "whyItMatters": "This threat bypasses endpoint protection by exploiting legitimate driver components to disable security monitoring mechanisms.",
+        "affected": [],
+        "action": "Block known malicious domains and monitor for unauthorized AMD driver abuses.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "China and US Agree to Establish AI Safety Channel and Continue Trade and Military Talks",
+      "link": "https://www.securityweek.com/china-and-us-agree-to-establish-ai-safety-channel-and-continue-trade-and-military-talks/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-09-26T18:09:28.000Z",
+      "summary": "The US and China agreed to set up a communication mechanism for artificial intelligence-related incidents.\nThe post China and US Agree to Establish AI Safety Channel and Continue Trade and Military Talks appeared first o",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The United States and China have agreed to establish a communication mechanism to address artificial intelligence-related incidents. This diplomatic development also involves the continuation of broader trade and military talks between the two nations.",
+        "whyItMatters": "This agreement provides a crucial communication channel between global superpowers to manage potential risks and incidents involving artificial intelligence.",
+        "affected": [],
+        "action": "Monitor bilateral AI developments.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Claude Opus 5.5 uses 95% fewer em dashes, but its answers are getting longer",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-opus-55-uses-95-percent-fewer-em-dashes-but-its-answers-are-getting-longer/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-09-26T16:26:58.000Z",
+      "summary": "Anthropic's Claude Opus 5.5 appears to be changing how it writes, with new analysis showing fewer obvious AI writing patterns, shorter sentences, and simpler wording compared with Opus 5. [...]",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Anthropic's Claude Opus 5.5 has been updated to feature fewer obvious AI writing patterns, including a 95 percent reduction in em dashes. Additionally, the model's responses are reportedly becoming longer and utilizing simpler wording compared to its predecessor.",
+        "whyItMatters": "It highlights shifts in generative AI behavior and writing styles that impact how users interact with and perceive AI-generated content.",
+        "affected": [],
+        "action": "Monitor updates to AI writing styles.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Microsoft pauses KB5002907 update after Office license deactivations",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-kb5002907-update-paused-after-office-license-deactivations/",
@@ -286,6 +399,92 @@
           "Kiteworks"
         ],
         "action": "Shut down affected systems immediately for the recommended nine-hour window.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6519-1 swift - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00432.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-09-26T00:00:00.000Z",
+      "summary": "A vulnerability was discovered in the Swift tempurl middleware, which\ncould result in information disclosure.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6519-1",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A security vulnerability has been discovered in the Swift tempurl middleware. This flaw could potentially result in unauthorized information disclosure.",
+        "whyItMatters": "It matters because attackers could exploit this vulnerability to gain access to sensitive information stored within the affected systems.",
+        "affected": [
+          "Swift tempurl middleware"
+        ],
+        "action": "Apply the latest security update provided by your distribution.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6518-1 incus - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00431.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-09-26T00:00:00.000Z",
+      "summary": "Multiple security issues were discovered in Incus, a system container\nand virtual machine manager, which could result in a bypass of\nsecurity/authorisation restrictions, guest to host privilege escalation\nor information ",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple security issues were discovered in the Incus system container and virtual machine manager. These vulnerabilities could lead to a bypass of security and authorization restrictions, as well as guest-to-host privilege escalation.",
+        "whyItMatters": "This vulnerability matters because it allows untrusted guests to potentially escape their boundaries and compromise the host system.",
+        "affected": [
+          "Incus"
+        ],
+        "action": "Update Incus to the latest security release.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6517-1 nodejs - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00430.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-09-26T00:00:00.000Z",
+      "summary": "Multiple vulnerabilities were discovered in Node.js, which could result\nin denial of service, permission model bypass, incorrect certificate\nvalidation or information disclosure.\n\n\nhttps://security-tracker.debian.org/tra",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple vulnerabilities have been discovered in Node.js that can lead to security issues. These flaws could result in denial of service, permission model bypass, incorrect certificate validation, or information disclosure.",
+        "whyItMatters": "Unpatched Node.js environments are vulnerable to exploits that can compromise application integrity, confidentiality, and availability.",
+        "affected": [
+          "Node.js"
+        ],
+        "action": "Update Node.js to the latest security release provided by your vendor.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -729,39 +928,6 @@
       }
     },
     {
-      "title": "CISA warns of Sharepoint, WSO2, Adobe Commerce flaws exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-sharepoint-wso2-adobe-commerce-flaws-exploited-in-attacks/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-09-25T17:24:20.000Z",
-      "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) warns that hackers are exploiting a critical authentication bypass vulnerability (CVE-2026-5430) affecting multiple products from enterprise software provider W",
-      "categories": [
-        "Vulnerability",
-        "Government"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-5430"
-      ],
-      "kev": true,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CISA has issued a warning regarding multiple active exploitation campaigns targeting vulnerabilities in enterprise software. The attacks specifically leverage a critical authentication bypass flaw tracked as CVE-2026-5430 affecting WSO2 products, alongside issues in SharePoint and Adobe Commerce.",
-        "whyItMatters": "Active exploitation of critical authentication bypass flaws poses an immediate threat to enterprise networks and data security.",
-        "affected": [
-          "WSO2 products"
-        ],
-        "action": "Apply the latest security patches immediately.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-5430"
-        ],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Bitget blames North Korea for $387.5M crypto wallet raid",
       "link": "https://www.theregister.com/cyber-crime/2026/09/25/bitget-blames-north-korea-for-3875m-crypto-wallet-raid/5299218",
       "source": "The Register",
@@ -814,32 +980,6 @@
         ],
         "action": "Update Readwise Reader for Android to a patched version once available.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Anthropic rolls out up to $250 in free Claude Code credits, but only for cloud sessions",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-rolls-out-up-to-250-in-free-claude-code-credits-but-only-for-cloud-sessions/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-09-25T16:00:00.000Z",
-      "summary": "Anthropic now allows you to run Claude Code via cloud sessions without signing up for the research preview, and it's offering up to $250 in free usage credits, so more users can give it a try. [...]",
-      "categories": [
-        "Research"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Anthropic is offering up to $250 in free usage credits for running Claude Code through cloud sessions. This initiative removes the need for a research preview sign-up, allowing a broader audience to test the tool.",
-        "whyItMatters": "This promotion lowers the barrier to entry for developers exploring Anthropic's AI-assisted coding environment.",
-        "affected": [],
-        "action": "Evaluate the Claude Code tool using the provided cloud credits if interested.",
-        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
@@ -1704,32 +1844,6 @@
       }
     },
     {
-      "title": "The SOC Doesn't Need to Start Over with Every Alert",
-      "link": "https://thehackernews.com/2026/09/the-soc-doesnt-need-to-start-over-with.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-25T11:30:00.000Z",
-      "summary": "Security leaders keep debating whether AI will produce an entirely new class of cyberattack. The nearer change is quieter and already visible: AI has made a failed attack cheap to retry.\n\nThe routine version looks like t",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Security leaders are debating the impact of artificial intelligence on cyberattacks, focusing on how it makes failed attacks cheaper to retry. This shift is already changing the threat landscape for security operations centers.",
-        "whyItMatters": "It changes the threat landscape by making persistent, automated attacks much cheaper and easier for adversaries to execute at scale.",
-        "affected": [],
-        "action": "Monitor evolving AI-driven attack patterns and adjust SOC alert triage strategies.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "On Anthropic’s AI Misuse Report",
       "link": "https://www.schneier.com/blog/archives/2026/09/on-anthropics-ai-misuse-report.html",
       "source": "Schneier on Security",
@@ -1841,34 +1955,6 @@
         ],
         "action": "Monitor for indicators of compromise.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "‘SalesBleed’ Flaws in Salesforce Agentforce Enabled Zero-Click Data Exfiltration",
-      "link": "https://www.securityweek.com/salesbleed-flaws-in-salesforce-agentforce-enabled-zero-click-data-exfiltration/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-09-25T09:27:51.000Z",
-      "summary": "Three vulnerabilities in Salesforce Agentforce allowed hackers to hijack trusted agents, steal data, and launch phishing attacks.\nThe post ‘SalesBleed’ Flaws in Salesforce Agentforce Enabled Zero-Click Data Exfiltration ",
-      "categories": [
-        "Vulnerability"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Three vulnerabilities in Salesforce Agentforce allowed hackers to hijack trusted agents, steal data, and launch phishing attacks.\nThe post ‘SalesBleed’ Flaws in Salesforce Agentforce Enabled Zero-Click Data Exfiltration",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -3871,35 +3957,6 @@
       }
     },
     {
-      "title": "DSA-6512-1 libreoffice - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00424.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-09-24T00:00:00.000Z",
-      "summary": "Multiple security vulnerabilities were discovered in LibreOffice, which\ncould result in denial of service, information disclosure or potentially\nthe execution of arbitrary code if malformed document files are opened.\n\n\nh",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Multiple security vulnerabilities have been discovered in LibreOffice. Opening malformed document files could lead to a denial of service, information disclosure, or potential arbitrary code execution.",
-        "whyItMatters": "Attackers can exploit these flaws through malicious documents to compromise user systems or disrupt operations.",
-        "affected": [
-          "LibreOffice"
-        ],
-        "action": "Update LibreOffice to the latest patched version provided by your vendor.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Is This A Joke? In The Auth Header? (F5 BIG-IP UnAuth Heap-Overflow to RCE CVE-2026-94127)",
       "link": "https://labs.watchtowr.com/is-this-a-joke-in-the-auth-header-f5-big-ip-unauth-heap-overflow-to-rce-cve-2026-94127/",
       "source": "watchTowr Labs",
@@ -4355,63 +4412,6 @@
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6511-1 znc - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00423.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-09-23T00:00:00.000Z",
-      "summary": "Two security vulnerabilities were discovered in the ZNC IRC bouncer,\nwhich could result in denial of service.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6511-1",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Two security vulnerabilities have been discovered in the ZNC IRC bouncer. These flaws could potentially be exploited to cause a denial of service.",
-        "whyItMatters": "Unpatched denial of service vulnerabilities can disrupt critical IRC communication infrastructure.",
-        "affected": [
-          "ZNC IRC bouncer"
-        ],
-        "action": "Update ZNC to the latest secure version provided by your vendor.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6510-1 xdg-dbus-proxy - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00422.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-09-23T00:00:00.000Z",
-      "summary": "It was discovered that an incorrect implementation of message\nfiltering in xdg-dbus-proxy allows an attacker to bypass the intended\nmessage filtering on the D-Bus session bus by setting a reply serial\nnumber on non-reply",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "It was discovered that an incorrect implementation of message\nfiltering in xdg-dbus-proxy allows an attacker to bypass the intended\nmessage filtering on the D-Bus session bus by setting a reply serial\nnumber on non-reply",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
       }
     },
     {
