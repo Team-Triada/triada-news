@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T18:20:55.832Z",
+  "updatedAt": "2026-09-27T22:07:21.927Z",
   "items": [
     {
       "title": "Citrix confirms two NetScaler RCE zero-days exploited in attacks",
@@ -125,6 +125,90 @@
       }
     },
     {
+      "title": "Critical Zero-Day Vulnerabilities Exploited in Citrix NetScaler ADC, Gateway",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/09/27/critical-zero-day-vulnerabilities-exploited-citrix-netscaler-adc-gateway",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-09-27T12:00:00.000Z",
+      "summary": "CISA is amplifying Citrix’s disclosure of eight new vulnerabilities affecting Citrix NetScaler ADC and Citrix NetScaler Gateway products: CVE-2026-88771, CVE-2026-88772, CVE-2026-88773, CVE-2026-88774, CVE-2026-88775, CV",
+      "categories": [
+        "Zero Day",
+        "Vulnerability",
+        "Government",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Citrix"
+      ],
+      "cves": [
+        "CVE-2026-88771",
+        "CVE-2026-88772",
+        "CVE-2026-88773",
+        "CVE-2026-88774",
+        "CVE-2026-88775"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "CISA is amplifying Citrix's disclosure of eight new zero-day vulnerabilities affecting Citrix NetScaler ADC and Citrix NetScaler Gateway products. These critical flaws are reportedly being actively exploited in the wild.",
+        "whyItMatters": "Active exploitation of zero-day vulnerabilities in enterprise gateway products poses an immediate risk of unauthorized network access and compromise.",
+        "affected": [
+          "Citrix NetScaler ADC",
+          "Citrix NetScaler Gateway"
+        ],
+        "action": "Apply the latest security updates provided by Citrix immediately.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-88771",
+          "CVE-2026-88772",
+          "CVE-2026-88773",
+          "CVE-2026-88774",
+          "CVE-2026-88775"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/09/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-09-27T12:00:00.000Z",
+      "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-88771 Citrix NetScaler Improper Input Validation Vulnerability\nCVE-2026-8877",
+      "categories": [
+        "Vulnerability",
+        "Government",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Citrix"
+      ],
+      "cves": [
+        "CVE-2026-88771",
+        "CVE-2026-8877"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "CISA has added two vulnerabilities to its Known Exploited Vulnerabilities Catalog following evidence of active exploitation in the wild. The newly listed flaws include an improper input validation vulnerability affecting Citrix NetScaler.",
+        "whyItMatters": "Active exploitation of these vulnerabilities poses an immediate threat to organizations utilizing the affected software.",
+        "affected": [
+          "Citrix NetScaler"
+        ],
+        "action": "Review the CISA KEV catalog and apply necessary patches immediately.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-88771",
+          "CVE-2026-8877"
+        ],
+        "source": "ai"
+      }
+    },
+    {
       "title": "Microsoft SharePoint Flaw CVE-2026-65660 Now Exploited in Attacks",
       "link": "https://www.securityweek.com/microsoft-sharepoint-flaw-cve-2026-65660-now-exploited-in-attacks/",
       "source": "SecurityWeek",
@@ -215,6 +299,64 @@
         ],
         "action": "Monitor vendor advisories and apply emergency mitigations or patches for Citrix NetScaler appliances immediately.",
         "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6521-1 ruby-oj - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00434.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-09-27T00:00:00.000Z",
+      "summary": "Multiple security vulnerabilities were discovered in Oj, a fast JSON\nparser and serializer for Ruby, which could result in denial of service\nor memory disclosure.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6521-1",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple security vulnerabilities have been discovered in the ruby-oj fast JSON parser and serializer for Ruby. These flaws could potentially lead to a denial of service or unauthorized memory disclosure.",
+        "whyItMatters": "Unpatched JSON parsers can leave Ruby applications vulnerable to crashes and sensitive data exposure.",
+        "affected": [
+          "ruby-oj"
+        ],
+        "action": "Update the ruby-oj package to the latest security release.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6520-1 lemonldap-ng - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00433.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-09-27T00:00:00.000Z",
+      "summary": "Multiple security vulnerabilities were discovered in the Lemonldap::NG\nweb SSO system, which could result in a bypass of access controls,\nauthorisation bypass in setups using PKCE or information disclosure.\n\n\nhttps://sec",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple security vulnerabilities were discovered in the Lemonldap::NG web SSO system. These flaws could result in access control bypasses, authorization bypasses in setups using PKCE, or information disclosure.",
+        "whyItMatters": "This vulnerability could allow attackers to bypass security controls and access unauthorized resources or sensitive information.",
+        "affected": [
+          "Lemonldap::NG"
+        ],
+        "action": "Apply the security update provided by the vendor.",
+        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -810,6 +952,32 @@
         "whyItMatters": "This item is purely informational about a local educational event and has no cybersecurity relevance.",
         "affected": [],
         "action": "Ignore this article as it is not security-related.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "How the CISO CFO Relationship is a Key to Cybersecurity Success",
+      "link": "https://www.darkreading.com/cyber-risk/how-to-manage-ciso-cfo-relationship-cybersecurity-success",
+      "source": "Dark Reading",
+      "publishedAt": "2026-09-25T20:28:10.000Z",
+      "summary": "Building a financial bridge: Organizations where CISOs and CFOs align on cybersecurity strategy to protect assets, manage risk and enable business growth are better prepared to face today's threat landscape.",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "This article discusses the importance of alignment between Chief Information Security Officers and Chief Financial Officers in cybersecurity strategy. It highlights how this partnership helps organizations protect assets, manage risk, and support business growth.",
+        "whyItMatters": "Strong collaboration between financial and security leadership ensures better resource allocation and preparedness against modern threats.",
+        "affected": [],
+        "action": "Align cybersecurity strategy with financial planning.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -2609,67 +2777,6 @@
       }
     },
     {
-      "title": "DSA-6513-1 chromium - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00426.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-09-25T00:00:00.000Z",
-      "summary": "Security issues were discovered in Chromium which could result\nin the execution of arbitrary code, denial of service, or information\ndisclosure.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6513-1",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Security vulnerabilities have been discovered in the Chromium browser that could potentially lead to arbitrary code execution, denial of service, or information disclosure. Debian has released a security update (DSA-6513-1) to address these flaws.",
-        "whyItMatters": "Unpatched Chromium vulnerabilities can be exploited by attackers to compromise system security, execute unauthorized code, or access sensitive data.",
-        "affected": [
-          "Chromium"
-        ],
-        "action": "Update Chromium to the latest version provided by your distribution.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6416-2 jq - regression update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00425.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-09-25T00:00:00.000Z",
-      "summary": "The update for jq released as DSA-6416-1 introduced a regression in the\nloading of modules. The fix for CVE-2026-44777 registered each library\nbefore its own dependencies, so a module reached only through another\nmodule ",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-44777"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The update for jq released as DSA-6416-1 introduced a regression in the\nloading of modules. The fix for CVE-2026-44777 registered each library\nbefore its own dependencies, so a module reached only through another\nmodule",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [
-          "CVE-2026-44777"
-        ],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Crook used three open source agents to break into a Fortune 500 hospitality company, a major US airline and 25+ other orgs",
       "link": "https://www.theregister.com/security/2026/09/25/crook-used-three-open-source-agents-to-break-into-a-fortune-500-hospitality-company-a-major-us-airline-and-25-other-orgs/5299012",
       "source": "The Register",
@@ -3217,34 +3324,6 @@
         ],
         "action": "Monitor for indicators of compromise.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "How to Build A SASE Framework for Modern Cybersecurity",
-      "link": "https://www.darkreading.com/cloud-security/how-to-build-sase-framework",
-      "source": "Dark Reading",
-      "publishedAt": "2026-09-24T14:02:43.000Z",
-      "summary": "Keeping edge computing safe requires organizations to fundamentally rethink security governance. Here is a path forward: a step-by-step guide to building a SASE framework.",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Keeping edge computing safe requires organizations to fundamentally rethink security governance. Here is a path forward: a step-by-step guide to building a SASE framework.",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -4287,35 +4366,6 @@
       }
     },
     {
-      "title": "Considerations for Critical Infrastructure Operators Working With Third-Party ICS Integrators",
-      "link": "https://www.cisa.gov/resources-tools/resources/considerations-critical-infrastructure-operators-working-third-party-ics-integrators",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-09-23T12:00:00.000Z",
-      "summary": "Introduction\nThe Federal Bureau of Investigation (FBI) and Cybersecurity and Infrastructure Security Agency (CISA)—hereafter referred to as the “authoring agencies”—have published this fact sheet to highlight considerati",
-      "categories": [
-        "Government",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Introduction\nThe Federal Bureau of Investigation (FBI) and Cybersecurity and Infrastructure Security Agency (CISA)—hereafter referred to as the “authoring agencies”—have published this fact sheet to highlight considerati",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Rogue RMM Abuse: How Attackers Exploit Remote Access Tools",
       "link": "https://www.huntress.com/blog/rogue-rmm-abuse-phishing-persistent-access",
       "source": "Huntress",
@@ -4786,36 +4836,6 @@
         "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
-      }
-    },
-    {
-      "title": "Siemens WTV676 and WTV776",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-08",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-09-22T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nThe products listed below contain a denial of service vulnerability that could allow an attacker to force the devices into protection mode under certain conditions. This disables remote connectivity fun",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Siemens WTV676 and WTV776 devices contain a denial of service vulnerability that can force them into protection mode. This condition effectively disables remote connectivity functions for the affected products.",
-        "whyItMatters": "An attacker could exploit this vulnerability to disrupt remote management and monitoring capabilities of the affected Siemens devices.",
-        "affected": [
-          "Siemens WTV676",
-          "Siemens WTV776"
-        ],
-        "action": "Review the vendor CSAF advisory and apply available updates or mitigations.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
       }
     },
     {
