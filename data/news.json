@@ -1,6 +1,99 @@
 {
-  "updatedAt": "2026-09-27T13:55:16.663Z",
+  "updatedAt": "2026-09-27T18:20:55.832Z",
   "items": [
+    {
+      "title": "Citrix confirms two NetScaler RCE zero-days exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-09-27T16:02:37.000Z",
+      "summary": "Citrix has confirmed that two critical NetScaler remote code execution vulnerabilities, tracked as CVE-2026-88771 and CVE-2026-88772, are being exploited in attacks and that it has released security updates to fix the fl",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [
+        "Citrix"
+      ],
+      "cves": [
+        "CVE-2026-88771",
+        "CVE-2026-88772"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Citrix has confirmed that two critical remote code execution zero-day vulnerabilities in NetScaler are actively being exploited in the wild. The company has released security updates to address these severe security flaws.",
+        "whyItMatters": "Active exploitation of critical remote code execution zero-days in enterprise gateway products poses an immediate risk of system compromise.",
+        "affected": [
+          "Citrix NetScaler"
+        ],
+        "action": "Apply the available security updates immediately.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-88771",
+          "CVE-2026-88772"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Wireshark 4.6.9 Released, (Sun, Sep 27th)",
+      "link": "https://isc.sans.edu/diary/rss/33372",
+      "source": "SANS ISC",
+      "publishedAt": "2026-09-27T15:04:49.000Z",
+      "summary": "Wireshark release 4.6.9 fixes 19 vulnerabilities and 16 bugs.",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Wireshark has released version 4.6.9 to address multiple software issues. The update specifically fixes 19 vulnerabilities and resolves 16 bugs.",
+        "whyItMatters": "Addressing 19 vulnerabilities is crucial to prevent potential security exploits and ensure network analysis tool stability.",
+        "affected": [
+          "Wireshark 4.6.9"
+        ],
+        "action": "Update Wireshark to version 4.6.9 immediately.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Cloudflare fixes Containers cross-tenant flaw exposing customer data",
+      "link": "https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-09-27T14:13:31.000Z",
+      "summary": "Cloudflare has fixed a vulnerability in Containers and Sandboxes that allowed customers with a Workers Paid account to recover residual data from other customers' containers on the same physical host. [...]",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Cloudflare patched a cross-tenant vulnerability in its Containers and Sandboxes service affecting Workers Paid account holders. The security flaw could have allowed malicious users to recover residual data from other customers' containers located on the same physical host.",
+        "whyItMatters": "This vulnerability compromised tenant isolation in a shared cloud environment, potentially exposing sensitive customer data to unauthorized parties.",
+        "affected": [
+          "Cloudflare Containers and Sandboxes",
+          "Cloudflare Workers Paid"
+        ],
+        "action": "Ensure your Cloudflare Workers and container environments are updated and review access logs for suspicious activity.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Anthropic turns Claude into an AI marketplace with 2,000+ plugins and connectors",
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-turns-claude-into-an-ai-marketplace-with-2-000-plus-plugins-and-connectors/",
@@ -671,34 +764,6 @@
       }
     },
     {
-      "title": "Kiteworks urges 6-hour server shutdown over potential zero-day attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/kiteworks-urges-6-hour-server-shutdown-over-potential-zero-day-attacks/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-09-25T21:41:07.000Z",
-      "summary": "Secure file-sharing software company Kiteworks is urging customers worldwide to temporarily shut down their servers on Saturday for a six-hour window after receiving threat intelligence warning of a potentially imminent ",
-      "categories": [
-        "Zero Day"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Kiteworks is urging its customers worldwide to temporarily shut down their servers for a six-hour window. This emergency action follows threat intelligence warning of a potentially imminent zero-day attack.",
-        "whyItMatters": "Unmitigated zero-day attacks against secure file-sharing software can lead to widespread data breaches and unauthorized access to sensitive corporate files.",
-        "affected": [
-          "Kiteworks secure file-sharing software"
-        ],
-        "action": "Shut down affected servers for the requested six-hour window.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Army soldier sentenced for spree of attacks on AT&T, Snowflake and other major companies",
       "link": "https://cyberscoop.com/cameron-wagenius-att-snowflake-attacks-sentenced/",
       "source": "CyberScoop",
@@ -746,36 +811,6 @@
         "affected": [],
         "action": "Ignore this article as it is not security-related.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw",
-      "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-09-25T20:57:55.000Z",
-      "summary": "The Clop ransomware gang has moved its data leak site to a new Tor address after confirming its previous server was compromised and defaced through an unpatched Grav CMS flaw that BleepingComputer has learned is an unaut",
-      "categories": [
-        "Ransomware",
-        "Vulnerability",
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "high",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The Clop ransomware gang was forced to move its data leak site to a new Tor address after its previous server was compromised. The attackers breached the site by exploiting an unpatched path traversal vulnerability in Grav CMS.",
-        "whyItMatters": "This incident demonstrates that even cybercrime groups are susceptible to unpatched vulnerabilities and server compromises.",
-        "affected": [
-          "Grav CMS"
-        ],
-        "action": "Update Grav CMS to the latest patched version.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -5479,32 +5514,6 @@
         "affected": [],
         "action": "Focus on maintaining core security basics.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "LausivLoader analysis, or how to pass data between malware stages, (Thu, Sep 17th)",
-      "link": "https://isc.sans.edu/diary/rss/33348",
-      "source": "SANS ISC",
-      "publishedAt": "2026-09-17T15:06:44.000Z",
-      "summary": "At the end of August, a malspam message was caught in the quarantine of a mail gateway operated by one of my customers. The message was not especially remarkable â€“ it asked the recipient to review some attached require",
-      "categories": [
-        "Malware"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A malicious spam message containing an attachment linked to LausivLoader was intercepted by a mail gateway in late August. The analysis focuses on how this malware passes data between its various execution stages.",
-        "whyItMatters": "Understanding multi-stage malware loaders like LausivLoader helps security professionals identify and intercept earlier phases of cyber attacks.",
-        "affected": [],
-        "action": "Block malicious email attachments associated with LausivLoader.",
-        "risk": "Medium",
         "relatedCves": [],
         "source": "ai"
       }
