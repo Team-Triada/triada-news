@@ -1,6 +1,69 @@
 {
-  "updatedAt": "2026-09-27T08:05:29.085Z",
+  "updatedAt": "2026-09-27T13:55:16.663Z",
   "items": [
+    {
+      "title": "Anthropic turns Claude into an AI marketplace with 2,000+ plugins and connectors",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-turns-claude-into-an-ai-marketplace-with-2-000-plus-plugins-and-connectors/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-09-27T13:38:40.000Z",
+      "summary": "Anthropic has just announced a new Claude Marketplace, and it brings all AI-related tools into one place, including plugins, connectors, agents, and more. [...]",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Anthropic has launched the Claude Marketplace, a centralized platform offering over 2,000 plugins, connectors, and AI agents. This new marketplace integrates various third-party tools directly into the Claude ecosystem to expand its functionality.",
+        "whyItMatters": "Integrating a large volume of third-party plugins and connectors significantly expands the attack surface and potential supply chain risks for enterprise users.",
+        "affected": [
+          "Claude Marketplace",
+          "Claude AI plugins",
+          "Claude AI connectors"
+        ],
+        "action": "Review security policies before enabling third-party marketplace plugins in production environments.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Microsoft SharePoint Flaw CVE-2026-65660 Now Exploited in Attacks",
+      "link": "https://www.securityweek.com/microsoft-sharepoint-flaw-cve-2026-65660-now-exploited-in-attacks/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-09-27T09:23:09.000Z",
+      "summary": "CISA added CVE-2026-65660 to its KEV catalog, giving federal agencies a patching deadline of September 28.\nThe post Microsoft SharePoint Flaw CVE-2026-65660 Now Exploited in Attacks appeared first on SecurityWeek.",
+      "categories": [
+        "Vulnerability",
+        "Government"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-65660"
+      ],
+      "kev": true,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "CISA has added the Microsoft SharePoint vulnerability CVE-2026-65660 to its Known Exploited Vulnerabilities catalog. Federal agencies are required to apply patches for this actively exploited flaw by September 28.",
+        "whyItMatters": "This vulnerability is actively being exploited in the wild, posing an immediate threat to organizations running vulnerable software.",
+        "affected": [
+          "Microsoft SharePoint"
+        ],
+        "action": "Patch Microsoft SharePoint immediately.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-65660"
+        ],
+        "source": "ai"
+      }
+    },
     {
       "title": "Week in review: Gyazo breach exposes 23.6M user data, TASK#STOMP steals documents",
       "link": "https://www.helpnetsecurity.com/2026/09/27/week-in-review-gyazo-breach-exposes-23-6m-user-data-taskstomp-steals-documents/",
@@ -847,36 +910,6 @@
         "affected": [],
         "action": "Monitor official statements from law enforcement regarding the validity of the claim.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Elementor WordPress flaw lets attackers create admin accounts",
-      "link": "https://www.bleepingcomputer.com/news/security/elementor-wordpress-flaw-lets-attackers-create-admin-accounts/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-09-25T18:13:33.000Z",
-      "summary": "A cross-site request forgery (CSRF) vulnerability in the Elementor plugin for WordPress could allow an unauthenticated attacker to create administrator accounts. [...]",
-      "categories": [
-        "Vulnerability"
-      ],
-      "tags": [
-        "WordPress"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A cross-site request forgery vulnerability in the Elementor plugin for WordPress allows unauthenticated attackers to create new administrator accounts. Exploiting this flaw gives malicious actors full administrative control over affected WordPress sites.",
-        "whyItMatters": "This vulnerability is critical because it allows unauthenticated attackers to gain complete control of vulnerable WordPress websites via CSRF.",
-        "affected": [
-          "Elementor WordPress plugin"
-        ],
-        "action": "Update the Elementor plugin to the latest patched version immediately.",
-        "risk": "Critical",
         "relatedCves": [],
         "source": "ai"
       }
@@ -1897,40 +1930,6 @@
         "affected": [],
         "action": "Review the summary of Anthropic's AI misuse report to understand emerging threat patterns.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Windows, Linux, Android File Notification Systems Leak User Activity",
-      "link": "https://www.securityweek.com/windows-linux-android-file-notification-systems-leak-user-activity/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-09-25T10:53:32.000Z",
-      "summary": "Researchers show that file-change notification systems can leak keystroke timing, browsing activity, and WhatsApp media events.\nThe post Windows, Linux, Android File Notification Systems Leak User Activity appeared first",
-      "categories": [
-        "News"
-      ],
-      "tags": [
-        "Windows",
-        "Linux",
-        "Android"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Researchers have discovered that file-change notification systems in Windows, Linux, and Android can inadvertently leak sensitive user activity. This side-channel vulnerability exposes details such as keystroke timing, browsing habits, and WhatsApp media events.",
-        "whyItMatters": "This vulnerability allows malicious actors to infer private user actions and sensitive data simply by monitoring file system notifications.",
-        "affected": [
-          "Windows",
-          "Linux",
-          "Android"
-        ],
-        "action": "Monitor vendor advisories for security patches addressing file notification side-channel leaks.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
