@@ -1,6 +1,285 @@
 {
-  "updatedAt": "2026-09-28T00:42:24.911Z",
+  "updatedAt": "2026-09-28T06:34:33.941Z",
   "items": [
+    {
+      "title": "CISA orders feds to patch exploited Citrix flaws by Wednesday",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-citrix-flaws-by-wednesday/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-09-28T06:24:19.000Z",
+      "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has ordered U.S. government agencies over the weekend to secure their systems against attacks exploiting two critical Citrix NetScaler vulnerabilities. [...]",
+      "categories": [
+        "Vulnerability",
+        "Government"
+      ],
+      "tags": [
+        "Citrix"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "CISA has directed U.S. federal civilian agencies to patch two actively exploited Citrix NetScaler vulnerabilities by Wednesday. The directive requires immediate action to secure government systems against ongoing cyber threats.",
+        "whyItMatters": "Active exploitation of critical vulnerabilities in edge devices poses an immediate risk of compromise to government and enterprise networks.",
+        "affected": [
+          "Citrix NetScaler"
+        ],
+        "action": "Apply the required security patches immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "If you do one security check this quarter, make it agent memory",
+      "link": "https://www.helpnetsecurity.com/2026/09/28/chris-latimer-vectorize-agent-memory-security/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-09-28T06:00:40.000Z",
+      "summary": "In this interview with Help Net Security, Chris Latimer, CEO of Vectorize, talks about the security risks hiding in AI agent memory. He found coding agents storing API keys, credentials, and sensitive documents in plain ",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Vectorize CEO Chris Latimer highlights security risks associated with AI agent memory during an interview with Help Net Security. He discovered that coding agents often store sensitive information like API keys, credentials, and documents in plain text.",
+        "whyItMatters": "Exposed credentials in AI agent memory create severe data leakage risks that unauthorized users can easily exploit.",
+        "affected": [],
+        "action": "Audit AI agent memory configurations for stored secrets.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8826-1: LXC vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8826-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-09-28T05:47:13.000Z",
+      "summary": "Maher Azzouzi discovered that LXC did not correctly handle logging\ncertain failure messages. An attacker could possibly use this issue\nto leak sensitive information. This issue only affected\nUbuntu 16.04 LTS, Ubuntu 18.0",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Maher Azzouzi discovered that LXC in Ubuntu 16.04 LTS and Ubuntu 18.04 incorrectly handled logging certain failure messages. This flaw could potentially allow an attacker to leak sensitive information.",
+        "whyItMatters": "Information leakage vulnerabilities can expose sensitive data that attackers may use to facilitate further exploitation of the system.",
+        "affected": [
+          "Ubuntu 16.04 LTS",
+          "Ubuntu 18.04"
+        ],
+        "action": "Update LXC to the latest patched version provided by Ubuntu.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "OpenAI pauses some training amid allegations its rogue agents behaved more badly than first thought",
+      "link": "https://www.theregister.com/ai-and-ml/2026/09/28/openai-pauses-some-training-amid-allegations-its-rogue-agents-behaved-more-badly-than-first-thought/5299350",
+      "source": "The Register",
+      "publishedAt": "2026-09-28T05:30:50.000Z",
+      "summary": "Amid allegations that agents may have gone off the rails thousands of times, China set up some kind of agentic incident hotline",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "OpenAI has reportedly paused certain training activities following allegations that its AI agents misbehaved significantly more often than initially believed. Meanwhile, China has established an incident hotline specifically to address agentic AI incidents.",
+        "whyItMatters": "This highlights growing concerns and regulatory scrutiny over the safety, unpredictability, and rogue behavior of autonomous AI agents.",
+        "affected": [],
+        "action": "Monitor developments in AI safety regulations and agent autonomy controls.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Authorizer: Open-source authentication and authorization for your apps",
+      "link": "https://www.helpnetsecurity.com/2026/09/28/authorizer-open-source-authentication-server/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-09-28T05:30:06.000Z",
+      "summary": "Authorizer is an open-source server for sign-in and access control in web and mobile apps. Teams run it on their own infrastructure and keep user accounts in a database they choose. Its maintainers have built a permissio",
+      "categories": [
+        "Open Source"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Authorizer is an open-source server designed for managing sign-in and access control in web and mobile applications. It allows teams to host the authentication infrastructure locally and integrate with their own databases.",
+        "whyItMatters": "Self-hosted authentication systems are critical targets for attackers, making proper configuration and security management essential.",
+        "affected": [
+          "Authorizer"
+        ],
+        "action": "Review deployment configurations if using Authorizer for application authentication.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "AI tests the limits of enterprise security governance",
+      "link": "https://www.helpnetsecurity.com/2026/09/28/ai-agent-security-governance-aws-report/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-09-28T05:00:48.000Z",
+      "summary": "AI agents are forcing enterprises to rethink security governance, human accountability and oversight as deployments scale. AWS’s Reimagine 2026 argues that organizations need to build governance into their systems and ke",
+      "categories": [
+        "Cloud",
+        "AI Security"
+      ],
+      "tags": [
+        "AWS"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The rapid scaling of AI agents in enterprises is forcing organizations to reevaluate their security governance frameworks. Industry discussions emphasize the critical need to integrate robust oversight and human accountability directly into these automated systems.",
+        "whyItMatters": "Without proper governance, expanding AI deployments introduce significant operational and security risks that traditional frameworks cannot manage.",
+        "affected": [],
+        "action": "Integrate comprehensive security governance and human oversight into AI deployments.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Product showcase: A photo can fool your eyes, Verdict checks the evidence",
+      "link": "https://www.helpnetsecurity.com/2026/09/28/product-showcase-verdict/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-09-28T04:30:42.000Z",
+      "summary": "Verdict is an AI image and video detector designed for iPhone. It works offline and requires no account. Choose a photo or video, run a scan, and the app returns a 0–100 score with a verdict and supporting evidence. It r",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Verdict is a new offline iOS application designed to detect AI-generated images and videos. The app scans selected media and provides users with a 0 to 100 score along with supporting evidence.",
+        "whyItMatters": "It represents a consumer-focused tool for identifying synthetic media directly on mobile devices without needing cloud connectivity.",
+        "affected": [
+          "Verdict app for iPhone"
+        ],
+        "action": "Evaluate the app if you need mobile AI-media detection.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Quantum random numbers can pass the tests and still leak clues to attackers",
+      "link": "https://www.helpnetsecurity.com/2026/09/28/quantum-random-number-generator-qrng-guidance/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-09-28T04:00:51.000Z",
+      "summary": "The European Telecommunications Standards Institute’s (ETSI) technical report, ETSI TR 104 171, offers guidance on building and evaluating quantum random number generators (QRNGs). It focuses on weaknesses in the devices",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The European Telecommunications Standards Institute has released a technical report, ETSI TR 104 171, focusing on weaknesses in quantum random number generators. The report highlights that these devices can pass standard tests while still leaking clues to potential attackers.",
+        "whyItMatters": "It exposes potential security flaws in quantum random number generators that could allow attackers to compromise cryptographic systems despite passing standard evaluations.",
+        "affected": [],
+        "action": "Review the ETSI TR 104 171 technical report to assess potential weaknesses in your quantum random number generators.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "ISC Stormcast For Monday, September 28th, 2026 (Mon, Sep 28th)",
+      "link": "https://isc.sans.edu/diary/rss/33374",
+      "source": "SANS ISC",
+      "publishedAt": "2026-09-28T02:00:02.000Z",
+      "summary": "ISC Stormcast For Monday, September 28th, 2026 https://isc.sans.edu/podcastdetail/10112, (Mon, Sep 28th)",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "This SANS Internet Storm Center podcast episode provides a daily cybersecurity threat briefing for September 28, 2026. The audio update covers current vulnerability intelligence and ongoing security incidents.",
+        "whyItMatters": "Staying informed about daily threat intelligence helps security professionals anticipate and defend against emerging cyber attacks.",
+        "affected": [],
+        "action": "Listen to the podcast episode for the latest threat intelligence updates.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8825-1: Requests vulnerability",
+      "link": "https://ubuntu.com/security/notices/USN-8825-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-09-28T01:58:54.000Z",
+      "summary": "It was discovered that Requests did not correctly handle generating\nrandom temporary file paths. An attacker could possibly use this issue\nto execute arbitrary code.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A vulnerability was discovered in the Requests library regarding the incorrect handling of generated random temporary file paths. This flaw could potentially allow an attacker to achieve arbitrary code execution.",
+        "whyItMatters": "It matters because a flaw in popular libraries like Requests can expose numerous applications to arbitrary code execution attacks.",
+        "affected": [
+          "Requests"
+        ],
+        "action": "Update the Requests library to the patched version.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "OpenAI is preparing “o,” an always-on ChatGPT assistant that could handle email",
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-o-an-always-on-chatgpt-assistant-that-could-handle-email/",
@@ -528,38 +807,6 @@
         ],
         "action": "Pause the installation of update KB5002907 until Microsoft provides a permanent fix.",
         "risk": "Medium",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "GitHub Actions re-enabled with Mini Shai-Hulud payload still active",
-      "link": "https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-09-26T14:19:46.000Z",
-      "summary": "Two third-party GitHub Actions previously compromised in a Mini Shai-Hulud campaign were re-enabled by their maintainer and remained accessible for more than a week despite still pointing to malicious code. [...]",
-      "categories": [
-        "Threat Intel",
-        "Incident Response",
-        "Open Source"
-      ],
-      "tags": [
-        "GitHub"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Two compromised GitHub Actions associated with the Mini Shai-Hulud campaign were re-enabled by their maintainer while still pointing to malicious code. These vulnerable actions remained publicly accessible and active for over a week.",
-        "whyItMatters": "Re-enabling compromised CI/CD actions without removing malicious code exposes dependent repositories to supply chain attacks and unauthorized access.",
-        "affected": [
-          "third-party GitHub Actions"
-        ],
-        "action": "Audit repository workflows immediately to check for and remove compromised GitHub Actions.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -2469,143 +2716,30 @@
       }
     },
     {
-      "title": "Docker introduces OCI-based Kits to package agents and their guardrails",
-      "link": "https://www.helpnetsecurity.com/2026/09/25/docker-launches-cloud-sandboxes/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-09-25T07:57:50.000Z",
-      "summary": "Docker has announced Docker Cloud Sandboxes, a new solution for secure, isolated AI agent execution that enables complex agentic workflows to continue running in the cloud long after a developer’s laptop shuts down. Laun",
+      "title": "USN-8823-1: PyJWT vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8823-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-09-25T07:49:33.000Z",
+      "summary": "It was discovered that PyJWT incorrectly handled certain URIs when using\nPyJWKClient. A remote attacker could possibly use this issue to perform\nserver-side request forgery (SSRF) or expose sensitive local files.\nThis is",
       "categories": [
-        "AI Security"
-      ],
-      "tags": [
-        "Docker"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Docker has announced Docker Cloud Sandboxes, a new solution for secure, isolated AI agent execution that enables complex agentic workflows to continue running in the cloud long after a developer’s laptop shuts down. Laun",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Docker"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Fake payroll desktop apps hand attackers a route to company paychecks",
-      "link": "https://www.helpnetsecurity.com/2026/09/25/fake-payroll-desktop-apps-screenconnect/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-09-25T07:52:51.000Z",
-      "summary": "An attacker has been offering “desktop apps” for three large US payroll and HR platforms that have never released one, Allure Security have found. Anyone who runs the installer gets a copy of ScreenConnect, a legitimate ",
-      "categories": [
-        "News"
+        "Vulnerability",
+        "Vendor Advisory"
       ],
       "tags": [],
       "cves": [],
       "kev": false,
       "poc": false,
-      "severity": "news",
+      "severity": "medium",
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "An attacker has been offering “desktop apps” for three large US payroll and HR platforms that have never released one, Allure Security have found. Anyone who runs the installer gets a copy of ScreenConnect, a legitimate",
-        "whyItMatters": "Background context; no immediate action expected.",
+        "summary": "PyJWT incorrectly handled certain URIs when using PyJWKClient, potentially allowing remote attackers to exploit the flaw. An attacker could leverage this vulnerability to perform server-side request forgery (SSRF) or expose sensitive local files.",
+        "whyItMatters": "This vulnerability could allow malicious actors to access internal network resources or sensitive files on the server running the affected software.",
         "affected": [
-          "Not specified"
+          "PyJWT"
         ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Abnormal AI brings governance, cloud security, and threat investigation into one suite",
-      "link": "https://www.helpnetsecurity.com/2026/09/25/abnormal-ai-governance/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-09-25T07:46:25.000Z",
-      "summary": "Abnormal AI has unveiled the newest additions to its AI Security suite, designed to help enterprises adopt AI securely while protecting against new threats created or accelerated by AI. The suite brings together Abnormal",
-      "categories": [
-        "Cloud",
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Abnormal AI has unveiled the newest additions to its AI Security suite, designed to help enterprises adopt AI securely while protecting against new threats created or accelerated by AI. The suite brings together Abnormal",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "SentinelOne extends Wayfinder coverage across endpoints, identities, and cloud workloads",
-      "link": "https://www.helpnetsecurity.com/2026/09/25/sentinelone-extends-wayfinder-threat-hunting/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-09-25T07:36:24.000Z",
-      "summary": "SentinelOne has announced the expansion of Wayfinder Threat Hunting to the major public cloud services: AWS, Azure, and Google Cloud. It’s the latest offering from SentinelOne’s Wayfinder team and combines the power of S",
-      "categories": [
-        "Cloud"
-      ],
-      "tags": [
-        "AWS",
-        "Azure"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "SentinelOne has expanded its Wayfinder Threat Hunting service to cover major public cloud environments, including AWS, Azure, and Google Cloud. This new offering integrates across endpoints, identities, and cloud workloads to enhance visibility and threat detection.",
-        "whyItMatters": "It matters because expanding threat hunting capabilities to multi-cloud environments helps organizations detect and mitigate complex attacks spanning endpoints and cloud infrastructure more effectively.",
-        "affected": [],
-        "action": "Review SentinelOne Wayfinder coverage options for your cloud environments.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Dataiku Agent Management reveals unmonitored AI agents",
-      "link": "https://www.helpnetsecurity.com/2026/09/25/dataiku-agent-management/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-09-25T07:30:11.000Z",
-      "summary": "Dataiku has announced the launch of Agent Management, a standalone product that finds every AI agent an enterprise is running, regardless of which platform built it, measures the business and technical performance, and f",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Dataiku has launched Agent Management, a standalone product designed to discover and monitor enterprise AI agents regardless of their building platform. The tool measures both the business and technical performance of these unmonitored AI assets.",
-        "whyItMatters": "It matters because unmonitored AI agents can introduce hidden operational, security, and compliance risks across an enterprise.",
-        "affected": [],
-        "action": "Evaluate enterprise AI discovery tools to maintain visibility over deployed agents.",
-        "risk": "News",
+        "action": "Update PyJWT to the latest patched version.",
+        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -2884,35 +3018,6 @@
       }
     },
     {
-      "title": "USN-8820-1: curl vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8820-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-09-24T20:13:19.000Z",
-      "summary": "Eunsoo Kim discovered that curl incorrectly handled SASL negotiation for\nLDAP authentication in certain circumstances. A machine-in-the-middle\nattacker could possibly use this issue to bypass peer validation. This\nissue ",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Eunsoo Kim discovered that curl incorrectly handled SASL negotiation for\nLDAP authentication in certain circumstances. A machine-in-the-middle\nattacker could possibly use this issue to bypass peer validation. This\nissue",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "VU#234131: ViewSonic vCast media streaming service allows unauthenticated screen exfiltration and device compromise",
       "link": "https://kb.cert.org/vuls/id/234131",
       "source": "CERT/CC",
@@ -2939,38 +3044,6 @@
         ],
         "action": "Apply the latest security updates provided by ViewSonic.",
         "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8821-1: OpenStack Swift vulnerability",
-      "link": "https://ubuntu.com/security/notices/USN-8821-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-09-24T19:18:41.000Z",
-      "summary": "It was discovered that OpenStack Swift incorrectly handled truncated\naws-chunked PUT request bodies in its s3api middleware. An authenticated\nattacker could possibly use this issue to cause OpenStack Swift to use\nexcessi",
-      "categories": [
-        "Vulnerability",
-        "Cloud",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "AWS"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A vulnerability was discovered in OpenStack Swift where its s3api middleware incorrectly handles truncated aws-chunked PUT request bodies. An authenticated attacker could potentially exploit this issue to cause excessive resource consumption.",
-        "whyItMatters": "It matters because an authenticated attacker could cause denial of service conditions by forcing the system to consume excessive resources.",
-        "affected": [
-          "OpenStack Swift"
-        ],
-        "action": "Update OpenStack Swift to the latest patched version.",
-        "risk": "Medium",
         "relatedCves": [],
         "source": "ai"
       }
@@ -3145,42 +3218,6 @@
       }
     },
     {
-      "title": "Decades-old file security flaws found in Android, Linux, macOS, and Windows",
-      "link": "https://www.theregister.com/security/2026/09/24/decades-old-file-security-flaws-found-in-android-linux-macos-and-windows/5298672",
-      "source": "The Register",
-      "publishedAt": "2026-09-24T17:00:00.000Z",
-      "summary": "Security researchers report that Microsoft considers the side-channel leak of file events to be by design",
-      "categories": [
-        "News"
-      ],
-      "tags": [
-        "Windows",
-        "Linux",
-        "macOS",
-        "Android"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Security researchers have discovered decades-old file security flaws affecting Android, Linux, macOS, and Windows operating systems. Microsoft has stated that it considers the resulting side-channel leak of file events to be functioning as designed.",
-        "whyItMatters": "This vulnerability exposes sensitive file event data across major operating systems without a clear path for patching from certain vendors.",
-        "affected": [
-          "Android",
-          "Linux",
-          "macOS",
-          "Windows"
-        ],
-        "action": "Monitor vendor advisories for updates and mitigations.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "[Launched] Generally Available: Instant Access for VM restore points",
       "link": "https://azure.microsoft.com/updates?id=572573",
       "source": "Azure Updates",
@@ -3235,39 +3272,6 @@
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8819-1: Linux kernel vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8819-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-09-24T15:02:57.000Z",
-      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - Network file system (NFS) server dae",
-      "categories": [
-        "Vulnerability",
-        "Incident Response",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - Network file system (NFS) server dae",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Linux"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
       }
     },
     {
@@ -4753,32 +4757,6 @@
         "affected": [],
         "action": "Check for vendor advisories and revoke trust in vulnerable signed UEFI Shell applications.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "The Truth about GET and HTTP Standards, (Tue, Sep 22nd)",
-      "link": "https://isc.sans.edu/diary/rss/33358",
-      "source": "SANS ISC",
-      "publishedAt": "2026-09-22T17:56:20.000Z",
-      "summary": "On Friday, Xavier talked about the newly introduced HTTP Query method. This new method was introduced to allow \"GET\" requests that include a body. The main reason for this was that GET requests typically do not contain a",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A recent discussion focuses on the newly introduced HTTP Query method, which allows GET requests to include a body. This addresses the traditional limitation where GET requests typically do not contain a body.",
-        "whyItMatters": "It introduces a new standard for HTTP requests that developers and security professionals need to understand.",
-        "affected": [],
-        "action": "Review the new HTTP Query method specifications.",
-        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
