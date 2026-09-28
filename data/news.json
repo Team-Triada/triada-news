@@ -1,6 +1,34 @@
 {
-  "updatedAt": "2026-09-27T22:07:21.927Z",
+  "updatedAt": "2026-09-28T00:42:24.911Z",
   "items": [
+    {
+      "title": "OpenAI is preparing “o,” an always-on ChatGPT assistant that could handle email",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-o-an-always-on-chatgpt-assistant-that-could-handle-email/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-09-27T23:40:39.000Z",
+      "summary": "OpenAI is testing a new always-on assistant called \"o\", and references to the unannounced feature briefly showed up on the company's website. [...]",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "OpenAI is reportedly testing a new always-on ChatGPT assistant temporarily referenced on their website as \"o\". This upcoming assistant is designed to handle tasks such as managing email.",
+        "whyItMatters": "Always-on AI assistants with access to sensitive communication channels like email represent a significant expansion of potential attack surfaces and privacy risks.",
+        "affected": [
+          "ChatGPT"
+        ],
+        "action": "Monitor official OpenAI announcements regarding the release and security controls of the new assistant.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Citrix confirms two NetScaler RCE zero-days exploited in attacks",
       "link": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
@@ -17,10 +45,10 @@
         "CVE-2026-88771",
         "CVE-2026-88772"
       ],
-      "kev": false,
+      "kev": true,
       "poc": false,
       "severity": "critical",
-      "breaking": false,
+      "breaking": true,
       "readTimeMin": 1,
       "aiSummary": {
         "summary": "Citrix has confirmed that two critical remote code execution zero-day vulnerabilities in NetScaler are actively being exploited in the wild. The company has released security updates to address these severe security flaws.",
@@ -146,7 +174,7 @@
         "CVE-2026-88774",
         "CVE-2026-88775"
       ],
-      "kev": false,
+      "kev": true,
       "poc": false,
       "severity": "critical",
       "breaking": true,
@@ -188,7 +216,7 @@
         "CVE-2026-88771",
         "CVE-2026-8877"
       ],
-      "kev": false,
+      "kev": true,
       "poc": false,
       "severity": "critical",
       "breaking": true,
@@ -532,35 +560,6 @@
         ],
         "action": "Audit repository workflows immediately to check for and remove compromised GitHub Actions.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "OpenAI's AI agents accidentally uploaded user-provided images to third-party sites",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-ai-agents-accidentally-uploaded-user-provided-images-to-third-party-sites/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-09-26T12:28:41.000Z",
-      "summary": "OpenAI says its AI agents uploaded user-provided images to third-party image-hosting services while carrying out research and evaluation tasks. [...]",
-      "categories": [
-        "AI Security",
-        "Research"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "OpenAI disclosed that its AI agents accidentally uploaded user-provided images to third-party image-hosting services during research and evaluation tasks. The incident highlights unexpected data handling behaviors by autonomous AI agents interacting with external platforms.",
-        "whyItMatters": "This incident represents an unintended exposure of user data to third parties, raising significant privacy and data governance concerns.",
-        "affected": [
-          "OpenAI AI agents"
-        ],
-        "action": "Review data privacy settings and avoid sharing sensitive images with AI agents until the issue is fully resolved.",
-        "risk": "Medium",
         "relatedCves": [],
         "source": "ai"
       }
