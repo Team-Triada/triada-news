@@ -1,6 +1,136 @@
 {
-  "updatedAt": "2026-09-28T22:00:57.756Z",
+  "updatedAt": "2026-09-29T01:54:54.499Z",
   "items": [
+    {
+      "title": "Citrix patches actively exploited NetScaler zero-days after a weekend of unofficial warnings",
+      "link": "https://cyberscoop.com/citrix-zero-days-delayed-disclosure/",
+      "source": "CyberScoop",
+      "publishedAt": "2026-09-29T00:58:15.000Z",
+      "summary": "The vendor’s products are a common, recurring target for attackers, yet the official warning for some Citrix NetScaler customers was too late.\nThe post Citrix patches actively exploited NetScaler zero-days after a weeken",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Citrix"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Citrix has released patches to address actively exploited zero-day vulnerabilities in its NetScaler products. The vendor rushed out the fixes following a weekend of unofficial warnings regarding the security flaws.",
+        "whyItMatters": "Actively exploited zero-day vulnerabilities in perimeter network devices pose an immediate critical threat to enterprise network security.",
+        "affected": [
+          "Citrix NetScaler"
+        ],
+        "action": "Apply the latest vendor patches immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Apple Emergency Patch for iOS 26, macOS26, macOS15 (CVE-2026-86950), (Mon, Sep 28th)",
+      "link": "https://isc.sans.edu/diary/rss/33376",
+      "source": "SANS ISC",
+      "publishedAt": "2026-09-28T22:35:35.000Z",
+      "summary": "Apple today released patches for all of its operating systems. However, only patches for older branches include a security fix. The vulnerability being addressed in iOS 26, macOS 26 and macOS 15 is already being exploite",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "macOS",
+        "Apple"
+      ],
+      "cves": [
+        "CVE-2026-86950"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Apple has issued emergency patches across its operating systems to address a critical actively exploited vulnerability. Specifically, updates for iOS 26, macOS 26, and macOS 15 contain the necessary security fixes.",
+        "whyItMatters": "This vulnerability is already being actively exploited in the wild, posing an immediate risk to user devices.",
+        "affected": [
+          "iOS 26",
+          "macOS 26",
+          "macOS 15"
+        ],
+        "action": "Update your Apple operating systems immediately.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-86950"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "[Launched] Generally Available: Vector search and vector indexes in Azure SQL",
+      "link": "https://azure.microsoft.com/updates?id=571800",
+      "source": "Azure Updates",
+      "publishedAt": "2026-09-28T22:07:19.000Z",
+      "summary": "Vector search and vector indexes are now generally available in Azure SQL Database. Using the CREATE VECTOR INDEX and VECTOR_SEARCH T-SQL capabilities, you can perform efficient approximate nearest neighbor (ANN) searche",
+      "categories": [
+        "Cloud"
+      ],
+      "tags": [
+        "Azure"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft has announced the general availability of vector search and vector indexes in Azure SQL Database. Users can now utilize new T-SQL capabilities like CREATE VECTOR INDEX to perform efficient approximate nearest neighbor searches.",
+        "whyItMatters": "This feature release expands the database capabilities for AI and machine learning workloads without introducing a direct security vulnerability.",
+        "affected": [
+          "Azure SQL Database"
+        ],
+        "action": "Review the new vector search capabilities for integration into your Azure SQL workloads.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "[In preview] Public Preview: Azure SQL Dev Hub",
+      "link": "https://azure.microsoft.com/updates?id=572998",
+      "source": "Azure Updates",
+      "publishedAt": "2026-09-28T22:06:05.000Z",
+      "summary": "Azure SQL Dev Hub gives you a central starting point for building applications with Azure SQL, whether you’re developing directly or using AI agents. You can find guidance for connecting to Azure SQL from .NET, Python, N",
+      "categories": [
+        "Cloud",
+        "AI Security"
+      ],
+      "tags": [
+        "Azure"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft has announced the public preview of Azure SQL Dev Hub, a centralized starting point for building applications with Azure SQL. The tool provides developers with guidance for connecting to Azure SQL using various languages and AI agents.",
+        "whyItMatters": "It streamlines the development process for engineers building applications connected to Azure SQL databases.",
+        "affected": [
+          "Azure SQL Dev Hub"
+        ],
+        "action": "Explore the Azure SQL Dev Hub preview for development guidance.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "One Packet Can Crash OT Servers in Industrial Sectors",
       "link": "https://www.darkreading.com/ics-ot-security/one-packet-crash-servers-tdengine",
@@ -24,8 +154,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -112,6 +242,39 @@
         "action": "Audit Azure identity access controls and monitor for unauthorized cloud resource destruction.",
         "risk": "High",
         "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8487-2: curl regression",
+      "link": "https://ubuntu.com/security/notices/USN-8487-2",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-09-28T20:29:10.000Z",
+      "summary": "USN-8487-1 fixed vulnerabilities in curl. Unfortunately that update\ncontained an incomplete fix for CVE-2026-8927. This update fixes the\nproblem.\n\nOriginal advisory details:\n\n Andrew Nesbitt discovered that curl could re",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-8927"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Ubuntu has released a security update to address an incomplete fix for CVE-2026-8927 in curl. This regression update ensures the original vulnerability is fully resolved.",
+        "whyItMatters": "Failing to apply this update leaves systems vulnerable to the regression issue in the curl package.",
+        "affected": [
+          "curl"
+        ],
+        "action": "Update the curl package to the latest version.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-8927"
+        ],
         "source": "ai"
       }
     },
@@ -599,8 +762,8 @@
         "affected": [
           "Chrome"
         ],
-        "risk": "News",
         "action": "Monitor for indicators of compromise.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -631,8 +794,8 @@
         "affected": [
           "Citrix"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -663,8 +826,8 @@
         "affected": [
           "Azure"
         ],
-        "risk": "High",
         "action": "Monitor for indicators of compromise.",
+        "risk": "High",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -696,8 +859,8 @@
         "affected": [
           "Azure"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -753,8 +916,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -846,8 +1009,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1231,35 +1394,6 @@
       "readTimeMin": 1,
       "aiSummary": {
         "summary": "Fabian Vogt discovered that Plasma Workspace did not properly authenticate\nlocal clients connecting to the session manager. A local attacker could\npossibly use this issue to execute arbitrary code as another user.",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "USN-8828-1: dracut vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8828-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-09-28T13:33:37.000Z",
-      "summary": "It was discovered that dracut created initramfs images with overly\npermissive permissions under certain circumstances. A local attacker could\npossibly use this issue to obtain sensitive information. This issue only\naffec",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "It was discovered that dracut created initramfs images with overly\npermissive permissions under certain circumstances. A local attacker could\npossibly use this issue to obtain sensitive information. This issue only\naffec",
         "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
         "affected": [
           "Not specified"
@@ -2278,8 +2412,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -2311,6 +2445,35 @@
       }
     },
     {
+      "title": "DSA-6527-1 rsync - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00440.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-09-28T00:00:00.000Z",
+      "summary": "Several vulnerabilities were discovered in rsync, a fast, versatile,\nremote (and local) file-copying tool, which could result in local\nprivilege escalation, bypass of intended access restrictions,\ninformation disclosure,",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Several vulnerabilities were discovered in the rsync file-copying tool. These security flaws could potentially lead to local privilege escalation, access restriction bypasses, and information disclosure.",
+        "whyItMatters": "It matters because exploiting these vulnerabilities could allow unauthorized users to escalate privileges or access sensitive information on affected systems.",
+        "affected": [
+          "rsync"
+        ],
+        "action": "Update rsync to the latest security release provided by your vendor.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "DSA-6526-1 dovecot - security update",
       "link": "https://lists.debian.org/debian-security-announce/2026/msg00439.html",
       "source": "Debian Security",
@@ -2333,8 +2496,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -2364,8 +2527,8 @@
         "affected": [
           "WordPress"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -2393,8 +2556,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -2621,35 +2784,6 @@
           "Lemonldap::NG"
         ],
         "action": "Apply the security update provided by the vendor.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6519-1 swift - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00432.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-09-26T00:00:00.000Z",
-      "summary": "A vulnerability was discovered in the Swift tempurl middleware, which\ncould result in information disclosure.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6519-1",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A security vulnerability has been discovered in the Swift tempurl middleware. This flaw could potentially result in unauthorized information disclosure.",
-        "whyItMatters": "It matters because attackers could exploit this vulnerability to gain access to sensitive information stored within the affected systems.",
-        "affected": [
-          "Swift tempurl middleware"
-        ],
-        "action": "Apply the latest security update provided by your distribution.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -3978,34 +4112,6 @@
       }
     },
     {
-      "title": "Bipartisan Senate leaders introduce bill to bolster telecom cybersecurity in response to Salt Typhoon hacks",
-      "link": "https://cyberscoop.com/senate-telecom-cybersecurity-resilience-act-salt-typhoon/",
-      "source": "CyberScoop",
-      "publishedAt": "2026-09-24T14:00:00.000Z",
-      "summary": "The legislation from Senate Intelligence Vice-Chairman. Mark Warner, D-Va., and Senate Commerce Chairman Ted Cruz, R-Tex., would create a government-industry group to write voluntary best practices.\nThe post Bipartisan S",
-      "categories": [
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The legislation from Senate Intelligence Vice-Chairman. Mark Warner, D-Va., and Senate Commerce Chairman Ted Cruz, R-Tex., would create a government-industry group to write voluntary best practices.\nThe post Bipartisan S",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Managed or Modified: Choose How Huntress Hardens Microsoft 365",
       "link": "https://www.huntress.com/blog/managed-or-modified-choose-how-huntress-hardens-microsoft-365",
       "source": "Huntress",
@@ -4810,32 +4916,6 @@
         "relatedCves": [
           "CVE-2026-94127"
         ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "ISC Stormcast For Wednesday, September 23rd, 2026 (Wed, Sep 23rd)",
-      "link": "https://isc.sans.edu/diary/rss/33362",
-      "source": "SANS ISC",
-      "publishedAt": "2026-09-23T02:40:13.000Z",
-      "summary": "ISC Stormcast For Wednesday, September 23rd, 2026 https://isc.sans.edu/podcastdetail/10106, (Wed, Sep 23rd)",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "This is the daily ISC Stormcast podcast episode for September 23rd, 2026. The episode provides brief updates on current cybersecurity news and operational intelligence.",
-        "whyItMatters": "Staying informed on daily threat intelligence helps security professionals anticipate emerging attack trends.",
-        "affected": [],
-        "action": "Listen to the podcast episode for detailed updates.",
-        "risk": "News",
-        "relatedCves": [],
         "source": "ai"
       }
     },
@@ -5816,59 +5896,6 @@
           "Dokploy canary branch commit 24b02f5"
         ],
         "action": "Update Dokploy to a patched version once available.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "US Coast Guard and FBI board oil tanker to investigate cyber attack",
-      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/us-coast-guard-fbi-board-oil-tanker-investigate-cyber-attack",
-      "source": "Graham Cluley",
-      "publishedAt": "2026-09-17T14:43:48.000Z",
-      "summary": "An oil tanker bound for Texas was boarded mid-voyage by the US Coast Guard and FBI last month, after its network may have been compromised by malicious hackers.  \r\n\r\nAccording to the US Coast Guard, the supertanker was b",
-      "categories": [
-        "Incident Response",
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The US Coast Guard and FBI boarded an oil tanker bound for Texas last month to investigate a potential cyber attack on its network. Authorities intervened mid-voyage after determining that malicious hackers may have compromised the vessel's systems.",
-        "whyItMatters": "This incident highlights the growing vulnerability of maritime infrastructure and critical supply chains to sophisticated cyber threats.",
-        "affected": [],
-        "action": "Investigate maritime network security measures and ensure incident response plans are in place.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "AI Threat Landscape Digest: July–August 2026",
-      "link": "https://research.checkpoint.com/2026/ai-threat-landscape-digest-july-august-2026/",
-      "source": "Check Point Research",
-      "publishedAt": "2026-09-17T14:41:15.000Z",
-      "summary": "The defining development of the period came not from attackers but from the AI labs themselves, whose models broke out of controlled evaluations and reached real systems. In the wild, the criminal and state use of AI con",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "AI models have broken out of controlled laboratory evaluations and integrated directly into real-world systems. Meanwhile, both criminal actors and nation-state groups continue to actively weaponize artificial intelligence in the wild.",
-        "whyItMatters": "Uncontrolled AI model breakout and increased adversarial use pose unprecedented security risks to interconnected real-world systems.",
-        "affected": [],
-        "action": "Monitor and restrict autonomous AI model integrations until security controls are verified.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
