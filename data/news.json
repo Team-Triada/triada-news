@@ -1,6 +1,241 @@
 {
-  "updatedAt": "2026-09-29T20:46:10.418Z",
+  "updatedAt": "2026-09-30T00:25:45.757Z",
   "items": [
+    {
+      "title": "Add one more AI worry to the nightmare scenario: self-replicating prompt injections",
+      "link": "https://www.theregister.com/security/2026/09/29/add-one-more-ai-worry-to-the-nightmare-scenario-self-replicating-prompt-injections/5299922",
+      "source": "The Register",
+      "publishedAt": "2026-09-29T21:34:39.000Z",
+      "summary": "It's a worm attack, AI-style",
+      "categories": [
+        "Malware",
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Researchers have identified a new AI vulnerability involving self-replicating prompt injections that function similarly to traditional computer worms. This attack vector allows malicious prompts to spread autonomously across vulnerable AI systems.",
+        "whyItMatters": "This vulnerability introduces a mechanism for autonomous malware propagation within interconnected artificial intelligence environments.",
+        "affected": [],
+        "action": "Monitor AI systems for unauthorized prompt propagation and restrict inter-agent communication.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Apple Zero-Day Vulnerability Weaponized in Targeted Attacks",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/apple-zero-day-vulnerability-weaponized-targeted-attacks",
+      "source": "Dark Reading",
+      "publishedAt": "2026-09-29T21:31:29.000Z",
+      "summary": "Attackers are exploiting CVE-2026-86950, an out-of-bounds write flaw, in an extremely sophisticated fashion, according to Apple.",
+      "categories": [
+        "Zero Day",
+        "Vulnerability"
+      ],
+      "tags": [
+        "Apple"
+      ],
+      "cves": [
+        "CVE-2026-86950"
+      ],
+      "kev": true,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Apple has disclosed that attackers are actively exploiting a zero-day out-of-bounds write vulnerability tracked as CVE-2026-86950. This flaw has been weaponized in sophisticated, targeted attacks against users.",
+        "whyItMatters": "Active exploitation of an unknown zero-day vulnerability poses a severe and immediate threat to user security before patches can be widely applied.",
+        "affected": [],
+        "action": "Apply the latest security updates provided by Apple immediately.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-86950"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Attackers exploited Citrix NetScaler zero-day for at least three weeks undetected",
+      "link": "https://cyberscoop.com/citrix-netscaler-zero-day-attacks-three-weeks-undetected/",
+      "source": "CyberScoop",
+      "publishedAt": "2026-09-29T21:30:22.000Z",
+      "summary": "Mandiant researchers said dozens of organizations have been impacted by attacks attributed to advanced and suspected state-sponsored threat groups. They expect more attacks to come.\nThe post Attackers exploited Citrix Ne",
+      "categories": [
+        "Zero Day",
+        "Vulnerability"
+      ],
+      "tags": [
+        "Citrix"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Attackers have successfully exploited an undocumented zero-day vulnerability in Citrix NetScaler for a minimum of three weeks without detection. Mandiant researchers report that dozens of organizations have already been compromised by suspected state-sponsored threat actors.",
+        "whyItMatters": "This zero-day exploitation by advanced threat groups poses a severe risk to organizational infrastructure before patches or detections can be applied.",
+        "affected": [
+          "Citrix NetScaler"
+        ],
+        "action": "Check Citrix NetScaler instances for signs of compromise and apply security updates immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Signal adds encypted local backup support to iOS, desktop apps",
+      "link": "https://www.bleepingcomputer.com/news/security/signal-adds-encypted-local-backup-support-to-ios-desktop-apps/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-09-29T21:30:08.000Z",
+      "summary": "Signal, the secure messaging app, released version 8.30, completing the rollout of its secure backups feature across all supported operating systems (Android, iOS, Linux, macOS, and Windows). [...]",
+      "categories": [
+        "News"
+      ],
+      "tags": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "Android"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Signal has released version 8.30, completing the rollout of its secure encrypted local backups feature across iOS, desktop, and previously supported Android operating systems. This update ensures users can securely back up their messaging data across all major platforms.",
+        "whyItMatters": "It enhances user data privacy and security by enabling encrypted local backups across all supported platforms.",
+        "affected": [
+          "Signal version 8.30",
+          "Signal iOS app",
+          "Signal Desktop apps"
+        ],
+        "action": "Update to Signal version 8.30 to use encrypted local backups.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Unsloth Studio Flaw Turns Routine Model Inspection Into Code Execution",
+      "link": "https://www.darkreading.com/application-security/unsloth-studio-flaw-model-inspection-code-execution",
+      "source": "Dark Reading",
+      "publishedAt": "2026-09-29T21:08:42.000Z",
+      "summary": "A patched Unsloth Studio vulnerability allows malicious AI models to execute arbitrary Python code during inspection, via the trust_remote_code setting.",
+      "categories": [
+        "Vulnerability",
+        "AI Security",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A recently patched vulnerability in Unsloth Studio allows malicious AI models to execute arbitrary Python code during the inspection process. The issue is triggered through the trust_remote_code setting.",
+        "whyItMatters": "This flaw allows attackers to compromise user systems simply by having them inspect a maliciously crafted AI model.",
+        "affected": [
+          "Unsloth Studio"
+        ],
+        "action": "Update Unsloth Studio to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "US Air Force members given over 6 years in prison for cyber theft of more than $2 million",
+      "link": "https://therecord.media/us-air-force-members-given-6-year-sentence-cyber",
+      "source": "The Record",
+      "publishedAt": "2026-09-29T21:01:00.000Z",
+      "summary": "According to court documents, both men pleaded guilty to wire fraud, identity theft and access device fraud charges in June.",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Two US Air Force members were sentenced to over six years in prison for orchestrating a cyber theft scheme that netted more than $2 million. The individuals had previously pleaded guilty in June to charges including wire fraud, identity theft, and access device fraud.",
+        "whyItMatters": "This case highlights insider threats within military organizations involving severe financial fraud and identity theft.",
+        "affected": [],
+        "action": "Review internal access controls and monitor for insider threats.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Custom ChatGPTs push ClickFix attacks to deploy RAT malware",
+      "link": "https://www.bleepingcomputer.com/news/security/custom-chatgpts-push-clickfix-attacks-to-deploy-rat-malware/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-09-29T20:59:39.000Z",
+      "summary": "Custom variants of OpenAI's ChatGPT promoted in sponsored Google results are directing unsuspecting users to malicious sites that use ClickFix attacks to deliver malware. [...]",
+      "categories": [
+        "Malware",
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Malicious actors are using custom variants of OpenAI's ChatGPT promoted in sponsored Google results to target users. These campaigns direct victims to malicious sites utilizing ClickFix social engineering attacks to deploy remote access trojans (RATs).",
+        "whyItMatters": "This tactic leverages trusted search engine advertising and AI branding to trick users into executing malware, bypassing traditional security awareness.",
+        "affected": [],
+        "action": "Avoid downloading custom ChatGPT applications from sponsored search results.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Controversial spyware firm Paragon to go public by end of year",
+      "link": "https://therecord.media/controversial-spyware-firm-paragon-to-go-public",
+      "source": "The Record",
+      "publishedAt": "2026-09-29T20:35:00.000Z",
+      "summary": "The company plans to close the deal around the end of the year at which point Paragon will begin trading on Nasdaq under the REDLattice umbrella.",
+      "categories": [
+        "Malware"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Controversial spyware firm Paragon plans to go public by the end of the year through a merger. Following the deal, the company will begin trading on the Nasdaq under the REDLattice umbrella.",
+        "whyItMatters": "The public listing of a commercial spyware vendor raises significant privacy and security concerns regarding the proliferation of surveillance tools.",
+        "affected": [],
+        "action": "Monitor the merger developments and assess potential risks associated with commercial spyware vendors.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "OpenAI CEO Announces New AI Agent and Avoids Mention of Security Concerns at Developer Conference",
       "link": "https://www.securityweek.com/openai-ceo-announces-new-ai-agent-and-avoids-mention-of-security-concerns-at-developer-conference/",
@@ -593,13 +828,13 @@
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "The AIxCC competition winner will analyze messaging app code and compiled binaries for vulnerabilities, with technology that could also help commercial customers secure their software.\nThe post DARPA Selects Xint to Use ",
+        "summary": "The AIxCC competition winner will analyze messaging app code and compiled binaries for vulnerabilities, with technology that could also help commercial customers secure their software.\nThe post DARPA Selects Xint to Use",
         "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -628,8 +863,8 @@
         "affected": [
           "Linux"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -658,8 +893,8 @@
         "affected": [
           "Windows"
         ],
-        "risk": "News",
         "action": "Monitor for indicators of compromise.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -688,8 +923,8 @@
         "affected": [
           "Linux"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -716,8 +951,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -739,13 +974,13 @@
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "Branch Target Reuse (BTR) is a new Spectre v2 attack targeting JIT compilers in web browsers, language runtimes, and the operating system kernel\nThe post New Spectre v2 Variant Exposes Intel, AMD, Arm CPUs to Data Leaks ",
+        "summary": "Branch Target Reuse (BTR) is a new Spectre v2 attack targeting JIT compilers in web browsers, language runtimes, and the operating system kernel\nThe post New Spectre v2 Variant Exposes Intel, AMD, Arm CPUs to Data Leaks",
         "whyItMatters": "Background context; no immediate action expected.",
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -773,8 +1008,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -801,8 +1036,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -884,8 +1119,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -913,8 +1148,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1120,8 +1355,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1179,32 +1414,6 @@
         "affected": [],
         "action": "Update Kiteworks products to the latest patched version.",
         "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Catch threats before they escalate with real-time Identity Telemetry",
-      "link": "https://www.bleepingcomputer.com/news/security/catch-threats-before-they-escalate-with-real-time-identity-telemetry/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-09-29T14:01:11.000Z",
-      "summary": "Identity governance helps control who should have access, but periodic reviews alone may not reveal attacks as they happen. tenfold Software explains how real-time identity telemetry can help security teams investigate s",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "This article discusses the limitations of periodic access reviews in identity governance and the benefits of real-time identity telemetry. It explains how security teams can use telemetry to investigate threats as they happen before they escalate.",
-        "whyItMatters": "Real-time identity telemetry is crucial for detecting active attacks that bypass traditional, periodic access reviews.",
-        "affected": [],
-        "action": "Implement real-time identity telemetry to monitor access threats.",
-        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
@@ -1381,6 +1590,40 @@
       }
     },
     {
+      "title": "CVE-2026-69522 .NET and Visual Studio Remote Code Execution Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69522",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-09-29T14:00:00.000Z",
+      "summary": "Security Updates table updated.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-69522"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Microsoft has released security updates to address a remote code execution vulnerability designated as CVE-2026-69522. The flaw affects both .NET and Visual Studio environments.",
+        "whyItMatters": "An attacker could exploit this vulnerability to execute arbitrary code remotely on affected systems.",
+        "affected": [
+          ".NET",
+          "Visual Studio"
+        ],
+        "action": "Apply the latest security updates provided by Microsoft.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-69522"
+        ],
+        "source": "ai"
+      }
+    },
+    {
       "title": "CVE-2026-61930 Windows Kernel Elevation of Privilege Vulnerability",
       "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-61930",
       "source": "Microsoft MSRC",
@@ -1411,41 +1654,6 @@
         "risk": "News",
         "relatedCves": [
           "CVE-2026-61930"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-62688 Windows MIDI Service Module Elevation of Privileges Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62688",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-09-29T14:00:00.000Z",
-      "summary": "Updated an acknowledgement. This is an informational change only.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [
-        "CVE-2026-62688"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "A Windows MIDI Service Module vulnerability tracked as CVE-2026-62688 involves an elevation of privileges issue. The recent article update reflects an informational change regarding acknowledgements.",
-        "whyItMatters": "Elevation of privilege vulnerabilities can allow malicious actors to gain higher-level permissions on affected systems.",
-        "affected": [
-          "Windows MIDI Service Module"
-        ],
-        "action": "Review the advisory for informational updates.",
-        "risk": "Medium",
-        "relatedCves": [
-          "CVE-2026-62688"
         ],
         "source": "ai"
       }
@@ -1758,13 +1966,13 @@
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "Two vulnerabilities in Zilliz Attu 2.6.5 chain into something serious. Missing authentication lets anyone proxy requests unauthenticated, and a regex bypass defeats the private IP block. Bishop Fox turned both into full ",
+        "summary": "Two vulnerabilities in Zilliz Attu 2.6.5 chain into something serious. Missing authentication lets anyone proxy requests unauthenticated, and a regex bypass defeats the private IP block. Bishop Fox turned both into full",
         "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -2200,8 +2408,8 @@
         "affected": [
           "Apple"
         ],
-        "risk": "Critical",
         "action": "Patch immediately.",
+        "risk": "Critical",
         "relatedCves": [
           "CVE-2026-86950"
         ],
@@ -2260,34 +2468,6 @@
           "Not specified"
         ],
         "action": "Monitor for indicators of compromise.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Vietnamese man charged in $16 million 'pig butchering' crypto scam",
-      "link": "https://www.bleepingcomputer.com/news/security/vietnamese-man-charged-in-16-million-pig-butchering-crypto-scam/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-09-29T11:41:53.000Z",
-      "summary": "A Vietnamese national was charged with money laundering for his role in a massive \"pig butchering\" scam, which defrauded a victim out of $16 million worth of cryptocurrency. [...]",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A Vietnamese national was charged with money laundering for his role in a massive \"pig butchering\" scam, which defrauded a victim out of $16 million worth of cryptocurrency. [...]",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
         "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
@@ -2853,8 +3033,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -2939,6 +3119,63 @@
         ],
         "action": "Apply the latest vendor patches immediately.",
         "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6530-1 pcre2 - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00443.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-09-29T00:00:00.000Z",
+      "summary": "Michael Allen discovered an out-of-bounds write vulnerability in PCRE2,\na library of functions to support Perl compatible regular expressions,\nwhich could result in denial of service or potentially the execution of\narbit",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A security update has been released for the PCRE2 library to address an out-of-bounds write vulnerability discovered by Michael Allen. This flaw could potentially allow attackers to cause a denial of service or execute arbitrary code.",
+        "whyItMatters": "Unpatched memory corruption vulnerabilities in core regex libraries like PCRE2 can lead to system crashes or remote code execution across numerous dependent applications.",
+        "affected": [
+          "PCRE2"
+        ],
+        "action": "Update the PCRE2 library to the latest secure version provided by your vendor.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6529-1 libwebsockets - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00442.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-09-29T00:00:00.000Z",
+      "summary": "It was discovered that missing input validation in the hpack path\nheader parser of libwebsockets could result in denial of service or\npotentially the execution of arbitrary code.\n\n\nhttps://security-tracker.debian.org/tra",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A security vulnerability was discovered in the hpack path header parser of libwebsockets due to missing input validation. This flaw could potentially allow attackers to cause a denial of service or execute arbitrary code.",
+        "whyItMatters": "Unvalidated input in core networking libraries can allow remote attackers to crash applications or gain code execution.",
+        "affected": [
+          "libwebsockets"
+        ],
+        "action": "Update libwebsockets to the latest patched version provided by your distributor.",
+        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -3035,8 +3272,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -3068,37 +3305,6 @@
         "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
-      }
-    },
-    {
-      "title": "JadePuffer crims hijacked Azure identities and used them to blow up cloud resources",
-      "link": "https://www.theregister.com/security/2026/09/28/jadepuffer-crims-hijacked-azure-identities-and-used-them-to-blow-up-cloud-resources/5299591",
-      "source": "The Register",
-      "publishedAt": "2026-09-28T20:30:00.000Z",
-      "summary": "Smells like more agentic ransomware, Redmond warns",
-      "categories": [
-        "Ransomware",
-        "Cloud"
-      ],
-      "tags": [
-        "Azure"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "high",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A threat actor group known as JadePuffer has hijacked Azure identities to manipulate and destroy cloud resources. Microsoft Redmond warns that this activity exhibits characteristics of agentic ransomware.",
-        "whyItMatters": "Identity hijacking combined with the destruction of cloud infrastructure poses an existential threat to organizational data availability and business continuity.",
-        "affected": [
-          "Azure"
-        ],
-        "action": "Audit Azure identity access controls and monitor for unauthorized cloud resource destruction.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
       }
     },
     {
@@ -3190,64 +3396,6 @@
       }
     },
     {
-      "title": "ShinyHunters exploiting workarounds for Oracle PeopleSoft bug, Mandiant warns",
-      "link": "https://therecord.media/shinyhunters-cyberattacks-oracle-mandiant",
-      "source": "The Record",
-      "publishedAt": "2026-09-28T19:30:00.000Z",
-      "summary": "A vulnerability in a popular line of products from Oracle is being used in a new campaign by the prolific ShinyHunters hacking group, which recently claimed credit for an attack on the FBI’s jobs site.",
-      "categories": [
-        "Vulnerability",
-        "Threat Intel",
-        "Government"
-      ],
-      "tags": [
-        "Oracle"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The ShinyHunters hacking group is exploiting workarounds for a vulnerability in Oracle PeopleSoft products. This activity is part of a new campaign following the group's claimed attack on the FBI's jobs site.",
-        "whyItMatters": "Active exploitation by a prominent threat actor puts organizations using vulnerable Oracle PeopleSoft systems at immediate risk of compromise.",
-        "affected": [
-          "Oracle PeopleSoft"
-        ],
-        "action": "Apply official patches or recommended mitigations for Oracle PeopleSoft vulnerabilities immediately.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "AI Agents Are Privileged Users; Who Is Auditing Their Access?",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/ai-agents-are-privileged-users-who-is-auditing-their-access",
-      "source": "Dark Reading",
-      "publishedAt": "2026-09-28T18:44:22.000Z",
-      "summary": "Enterprises regularly rigorously monitor human employees, while autonomous AI agents quietly operate with broad privileges that could turn them into the next generation of insider threats.",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Enterprises rigorously monitor human employees while autonomous AI agents operate with broad privileges. This lack of oversight could transform AI agents into the next generation of insider threats.",
-        "whyItMatters": "Unmonitored and over-privileged AI agents pose significant, unassessed security risks to enterprise environments.",
-        "affected": [],
-        "action": "Audit access privileges for autonomous AI agents.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "As AI world debates security, NVIDIA releases open source tools for agents",
       "link": "https://cyberscoop.com/nvidia-open-agent-safety-platform/",
       "source": "CyberScoop",
@@ -3269,32 +3417,6 @@
         "whyItMatters": "It provides critical external security mechanisms for AI agents as the industry increasingly recognizes the limits of internal behavioral training.",
         "affected": [],
         "action": "Review NVIDIA's new open-source tools to assess their applicability for securing your AI agents.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "New Mexico jury finds Meta deceived consumers about data privacy practices",
-      "link": "https://therecord.media/facebook-new-mexico-privacy",
-      "source": "The Record",
-      "publishedAt": "2026-09-28T17:15:00.000Z",
-      "summary": "A New Mexico jury found Facebook violated the law nearly 44 million times by lying to consumers about its data privacy practices.",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A New Mexico jury found Facebook liable for violating the law nearly 44 million times through deceptive data privacy practices. The verdict highlights significant legal fallout for the company regarding consumer deception.",
-        "whyItMatters": "This massive legal judgment establishes a severe financial and legal precedent for how social media platforms handle consumer data transparency.",
-        "affected": [],
-        "action": "Monitor ongoing legal developments related to platform data privacy compliance.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -3324,36 +3446,6 @@
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
-      }
-    },
-    {
-      "title": "Chrome Store Hosts 'Poper Blocker' Spyware Downloaded by Millions",
-      "link": "https://www.darkreading.com/application-security/chrome-store-poper-blocker-spyware-downloaded-millions",
-      "source": "Dark Reading",
-      "publishedAt": "2026-09-28T16:51:25.000Z",
-      "summary": "A purported ad-blocker exfiltrates reams of sensitive information and benefits from having Google's stamp of approval despite researcher warnings.",
-      "categories": [
-        "Malware"
-      ],
-      "tags": [
-        "Chrome"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A purported ad-blocker exfiltrates reams of sensitive information and benefits from having Google's stamp of approval despite researcher warnings.",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Chrome"
-        ],
-        "action": "Monitor for indicators of compromise.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
       }
     },
     {
@@ -4069,64 +4161,6 @@
       }
     },
     {
-      "title": "DSA-6522-1 exim4 - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00435.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-09-27T00:00:00.000Z",
-      "summary": "Several vulnerabilities were discovered in the Exim mail transport\nagent, which could result in SMTP smuggling, information disclosure,\ndenial of service or the execution of arbitrary code. \n\n\nhttps://security-tracker.de",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several vulnerabilities were discovered in the Exim mail transport\nagent, which could result in SMTP smuggling, information disclosure,\ndenial of service or the execution of arbitrary code. \n\n\nhttps://security-tracker.de",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "DSA-6521-1 ruby-oj - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00434.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-09-27T00:00:00.000Z",
-      "summary": "Multiple security vulnerabilities were discovered in Oj, a fast JSON\nparser and serializer for Ruby, which could result in denial of service\nor memory disclosure.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6521-1",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Multiple security vulnerabilities have been discovered in the ruby-oj fast JSON parser and serializer for Ruby. These flaws could potentially lead to a denial of service or unauthorized memory disclosure.",
-        "whyItMatters": "Unpatched JSON parsers can leave Ruby applications vulnerable to crashes and sensitive data exposure.",
-        "affected": [
-          "ruby-oj"
-        ],
-        "action": "Update the ruby-oj package to the latest security release.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "3 Consulting Myths Debunked by Unit 42 Experts",
       "link": "https://unit42.paloaltonetworks.com/3-consulting-myths-debunked-by-unit-42-experts/",
       "source": "Unit 42",
@@ -4176,32 +4210,6 @@
           "Verizon"
         ],
         "action": "Review access controls and monitoring for telecommunications infrastructure.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Army soldier sentenced for spree of attacks on AT&T, Snowflake and other major companies",
-      "link": "https://cyberscoop.com/cameron-wagenius-att-snowflake-attacks-sentenced/",
-      "source": "CyberScoop",
-      "publishedAt": "2026-09-25T21:28:36.000Z",
-      "summary": "Cameron Wagenius was involved in some of the most high-profile attacks of 2024 while on active duty.\nThe post Army soldier sentenced for spree of attacks on AT&T, Snowflake and other major companies appeared first on Cyb",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "An active-duty Army soldier named Cameron Wagenius has been sentenced for orchestrating high-profile cyberattacks in 2024 against major companies including AT&T and Snowflake. The illicit activity targeted prominent corporate infrastructure, leading to significant security breaches.",
-        "whyItMatters": "It highlights the insider threat and accountability of military personnel involved in major corporate cybercrime.",
-        "affected": [],
-        "action": "Monitor internal security controls for unauthorized personnel activity.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -5284,8 +5292,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [
           "CVE-2026-8596",
           "CVE-2026-8597"
@@ -5357,8 +5365,8 @@
         "affected": [
           "AWS"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [
           "CVE-2026-16756"
         ],
@@ -5392,8 +5400,8 @@
         "affected": [
           "AWS"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [
           "CVE-2025-4318"
         ],
