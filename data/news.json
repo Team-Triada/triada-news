@@ -1,20 +1,76 @@
 {
-  "updatedAt": "2026-10-01T08:53:26.649Z",
+  "updatedAt": "2026-10-01T15:15:37.105Z",
   "items": [
     {
-      "title": "Cisco Patches Exploited Catalyst SD-WAN Zero-Day Vulnerability",
-      "link": "https://www.securityweek.com/cisco-patches-exploited-catalyst-sd-wan-zero-day-vulnerability/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-10-01T08:26:03.000Z",
-      "summary": "The flaw could allow remote, unauthenticated attackers to access vulnerable appliances with administrative privileges.\nThe post Cisco Patches Exploited Catalyst SD-WAN Zero-Day Vulnerability appeared first on SecurityWee",
+      "title": "Microsoft catches hackers exploiting Zimbra bug before disclosure",
+      "link": "https://www.theregister.com/security/2026/10/01/microsoft-catches-hackers-exploiting-zimbra-bug-before-disclosure/5300543",
+      "source": "The Register",
+      "publishedAt": "2026-10-01T14:44:00.000Z",
+      "summary": "Attackers were probing the mail server flaw weeks before it had a CVE to its name",
       "categories": [
-        "Zero Day",
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft discovered malicious actors exploiting a Zimbra mail server vulnerability weeks before the flaw was officially assigned a CVE. The attackers used these probes to target organizations before a public disclosure or patch was available.",
+        "whyItMatters": "Zero-day exploitation prior to public disclosure leaves organizations defenseless against incoming attacks before patches can even be developed.",
+        "affected": [
+          "Zimbra mail server"
+        ],
+        "action": "Apply the latest security updates and patches for your Zimbra mail server immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "WordPress Backdoor Rebuilds Itself After Cleanup Using Files, Database, and Shared Memory",
+      "link": "https://thehackernews.com/2026/10/wordpress-backdoor-rebuilds-itself.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-10-01T14:37:35.000Z",
+      "summary": "Cybersecurity researchers have shed light on a WordPress compromise in which threat actors deployed multiple persistence mechanisms to ensure that the final payload kept returning without having to infect the site again.",
+      "categories": [
+        "Malware",
+        "Incident Response"
+      ],
+      "tags": [
+        "WordPress"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Cybersecurity researchers have discovered a sophisticated WordPress compromise that uses multiple persistence mechanisms. The malware ensures the payload continuously returns by leveraging files, the database, and shared memory.",
+        "whyItMatters": "This multi-layered persistence makes the backdoor extremely difficult to remove completely using standard cleanup procedures.",
+        "affected": [
+          "WordPress"
+        ],
+        "action": "Investigate all site files, the database, and shared memory for hidden persistence mechanisms.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "VU#553437: InsydeH2O IHISI SMM is vulnerable to unsafe memory write operations",
+      "link": "https://kb.cert.org/vuls/id/553437",
+      "source": "CERT/CC",
+      "publishedAt": "2026-10-01T14:33:19.418Z",
+      "summary": "Overview\nAn Out-of-bounds Write vulnerability in the InsydeH2O IHISI software used by HP PC BIOS can allow a local attacker with OS kernel privileges to perform arbitrary physical memory writes, including writes to Syste",
+      "categories": [
         "Vulnerability",
         "Vendor Advisory"
       ],
-      "tags": [
-        "Cisco"
-      ],
+      "tags": [],
       "cves": [],
       "kev": false,
       "poc": false,
@@ -22,23 +78,512 @@
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "Cisco has released patches for a zero-day vulnerability affecting its Catalyst SD-WAN appliances. This flaw allows remote, unauthenticated attackers to gain administrative access to vulnerable systems.",
-        "whyItMatters": "Active exploitation of this zero-day by attackers poses an immediate risk of complete system compromise for organizations using unpatched devices.",
+        "summary": "An out-of-bounds write vulnerability exists in the InsydeH2O IHISI software used by HP PC BIOS. This flaw allows a local attacker with OS kernel privileges to execute arbitrary physical memory writes.",
+        "whyItMatters": "It could allow a privileged local attacker to compromise system security by performing arbitrary physical memory writes.",
         "affected": [
-          "Cisco Catalyst SD-WAN"
+          "InsydeH2O IHISI software",
+          "HP PC BIOS"
         ],
-        "action": "Apply the official security patches provided by Cisco immediately.",
+        "action": "Apply the appropriate BIOS updates provided by the vendor.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Hacker Conversations: Rob Juncker, a Knock at the Door and a Moral Compass",
+      "link": "https://www.securityweek.com/hacker-conversations-rob-juncker-a-knock-at-the-door-and-a-moral-compass/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-10-01T14:30:00.000Z",
+      "summary": "Rob Juncker is chief product and technology officer at Mimecast. Is he a hacker? “Unequivocally yes,” he says.\nThe post Hacker Conversations: Rob Juncker, a Knock at the Door and a Moral Compass appeared first on Securit",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "This article is a profile of Rob Juncker, the chief product and technology officer at Mimecast, who self-identifies as a hacker. It explores his perspective on hacking, ethics, and his career in cybersecurity.",
+        "whyItMatters": "It offers insight into the mindset and leadership of a key executive at a major cybersecurity firm.",
+        "affected": [],
+        "action": "Read the article for informational purposes.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Enterprises Struggle to Prepare for AI and Quantum Threats, PwC Says",
+      "link": "https://www.securityweek.com/enterprises-struggle-to-prepare-for-ai-and-quantum-threats-pwc-says/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-10-01T14:30:00.000Z",
+      "summary": "PwC’s survey found that only 22% of leaders would use fully autonomous AI for cyber defense, while just 21% are implementing quantum-resistant security measures.\nThe post Enterprises Struggle to Prepare for AI and Quantu",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A recent PwC survey reveals that only 22% of business leaders are willing to use fully autonomous AI for cyber defense. Additionally, a mere 21% of organizations are currently implementing quantum-resistant security measures.",
+        "whyItMatters": "Low preparedness for emerging AI and quantum threats leaves enterprises vulnerable to advanced future cyber attacks.",
+        "affected": [],
+        "action": "Assess your organization's readiness for AI-driven and quantum threats.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Police dismantle KillSec ransomware gang allegedly led by 16-year-old",
+      "link": "https://www.bleepingcomputer.com/news/security/police-dismantle-killsec-ransomware-gang-allegedly-led-by-16-year-old/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-10-01T14:25:14.000Z",
+      "summary": "An international law enforcement operation dubbed \"Operation KillSwitch\" seized the KillSec ransomware gang's data leak site and servers, led to three arrests, and identified a 16-year-old as the group's alleged administ",
+      "categories": [
+        "Ransomware",
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "high",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Law enforcement agencies worldwide successfully dismantled the KillSec ransomware gang during Operation KillSwitch by seizing their servers and data leak site. The operation resulted in three arrests and identified a 16-year-old as the primary administrator of the cybercriminal group.",
+        "whyItMatters": "This disruption halts a notable ransomware threat and demonstrates international cooperation in targeting juvenile and adult cybercriminals alike.",
+        "affected": [],
+        "action": "Maintain robust offline backups and standard ransomware mitigation protocols.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Police Shut Down KillSec Ransomware, Identify Alleged Teen Leader",
+      "link": "https://www.securityweek.com/police-shut-down-killsec-ransomware-identify-alleged-teen-leader/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-10-01T14:17:07.000Z",
+      "summary": "Police took control of KillSec’s leak site and secured at least 110 terabytes of data stolen from victims.\nThe post Police Shut Down KillSec Ransomware, Identify Alleged Teen Leader appeared first on SecurityWeek.",
+      "categories": [
+        "Ransomware"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "high",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Law enforcement agencies have successfully seized control of the KillSec ransomware leak site. During the operation, authorities secured at least 110 terabytes of data that had been stolen from various victims.",
+        "whyItMatters": "This takedown disrupts an active ransomware operation and recovers a massive volume of compromised victim data.",
+        "affected": [],
+        "action": "Monitor official law enforcement updates regarding the KillSec ransomware disruption.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Critical Cisco Catalyst SD-WAN Zero-Day Under Active Exploitation",
+      "link": "https://www.infosecurity-magazine.com/news/critical-cisco-catalyst-sdwan/",
+      "source": "Infosecurity Magazine",
+      "publishedAt": "2026-10-01T14:17:00.000Z",
+      "summary": "Vulnerability in Cisco Catalyst SD-WAN Manager allows an unauthenticated, remote attacker to access systems with admin privileges",
+      "categories": [
+        "Zero Day",
+        "Vulnerability"
+      ],
+      "tags": [
+        "Cisco"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A critical zero-day vulnerability in Cisco Catalyst SD-WAN Manager is currently under active exploitation. The flaw allows unauthenticated remote attackers to gain administrative access to affected systems.",
+        "whyItMatters": "It poses a severe risk because attackers can exploit it remotely without authentication to fully compromise enterprise network management infrastructure.",
+        "affected": [
+          "Cisco Catalyst SD-WAN Manager"
+        ],
+        "action": "Apply available patches or security mitigations from Cisco immediately.",
         "risk": "Critical",
         "relatedCves": [],
         "source": "ai"
       }
     },
     {
-      "title": "Google Launches Gemini 4 Argon With Guardrail-Free Access for Vetted Defenders",
-      "link": "https://www.securityweek.com/google-launches-gemini-4-argon-with-guardrail-free-access-for-vetted-defenders/",
+      "title": "AI policy circles targeted in China-linked phishing operation",
+      "link": "https://cyberscoop.com/china-cyber-espionage-ta419-phishing-us-ai-policy-experts/",
+      "source": "CyberScoop",
+      "publishedAt": "2026-10-01T14:06:19.000Z",
+      "summary": "Cybersecurity firm Proofpoint said TA419 impersonated officials and AI industry figures in an effort to gain access to cloud accounts held by U.S. think tank, university and legal-sector experts.\nThe post AI policy circl",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Cybersecurity firm Proofpoint has identified a China-linked threat group known as TA419 conducting phishing attacks against artificial intelligence policy experts. The campaign impersonates officials and industry figures to compromise cloud accounts belonging to U.S. think tanks, universities, and legal sector professionals.",
+        "whyItMatters": "This targeted espionage campaign threatens the security of critical intellectual property and strategic insights within the U.S. artificial intelligence policy sector.",
+        "affected": [],
+        "action": "Monitor and audit cloud account access for suspicious authentication attempts from untrusted sources.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Shadow AI explained: The work shortcut that could leak your company’s secrets",
+      "link": "https://www.malwarebytes.com/blog/ai/2026/10/shadow-ai-explained-the-work-shortcut-that-could-leak-your-companys-secrets",
+      "source": "Malwarebytes Labs",
+      "publishedAt": "2026-10-01T14:05:37.000Z",
+      "summary": "An AI shortcut can send confidential work data beyond your company’s control. Here’s how to get the benefits without taking unnecessary risks.",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Shadow AI refers to employees using unauthorized artificial intelligence tools for work tasks, which can accidentally leak confidential company data. Organizations must find ways to balance the productivity benefits of these tools while managing the associated security risks.",
+        "whyItMatters": "It matters because unauthorized AI usage can lead to severe data breaches and loss of intellectual property outside of corporate security oversight.",
+        "affected": [],
+        "action": "Establish clear enterprise guidelines and approved alternatives for AI tool usage.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "MI5 warns UK academics their research may have helped Chinese spies",
+      "link": "https://www.theregister.com/security/2026/10/01/mi5-warns-uk-academics-their-research-may-have-helped-chinese-spies/5300502",
+      "source": "The Register",
+      "publishedAt": "2026-10-01T14:04:00.000Z",
+      "summary": "Institutions told to trace who is really financing their work or risk falling foul of national security law",
+      "categories": [
+        "Research"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "MI5 has warned UK academics that their research may have inadvertently aided Chinese spies. Institutions have been advised to thoroughly trace the true financing of their work to avoid violating national security laws.",
+        "whyItMatters": "This warning highlights how foreign intelligence services are exploiting academic research for espionage, posing a direct threat to national security.",
+        "affected": [],
+        "action": "Trace the true financing and backers of all academic research projects.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "The Day-One Hole in Zero Trust Architecture",
+      "link": "https://www.bleepingcomputer.com/news/security/the-day-one-hole-in-zero-trust-architecture/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-10-01T14:01:11.000Z",
+      "summary": "Zero Trust can verify users once they are established, but onboarding creates a gap where organizations must decide who to trust before strong authentication exists. Specops explains why identity verification should begi",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Zero Trust architecture creates a security gap during the initial user onboarding phase before strong authentication is established. Organizations face challenges in verifying identity and determining who to trust during this critical window.",
+        "whyItMatters": "This onboarding vulnerability undermines the core principles of Zero Trust by allowing unverified entities initial access.",
+        "affected": [],
+        "action": "Implement strict identity verification procedures during user onboarding.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "China-Linked Hackers Impersonate AI Experts to Target US Policy Insiders",
+      "link": "https://www.infosecurity-magazine.com/news/ta419-impersonates-ai-experts-us/",
+      "source": "Infosecurity Magazine",
+      "publishedAt": "2026-10-01T14:00:00.000Z",
+      "summary": "TA419 posed as AI policymakers and economists to phish US AI policy experts' Microsoft 365 accounts",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "China-linked threat actor TA419 is impersonating artificial intelligence experts and policymakers to conduct phishing attacks. These campaigns target the Microsoft 365 accounts of U.S. policy insiders.",
+        "whyItMatters": "This sophisticated social engineering campaign threatens the security of sensitive U.S. AI policy discussions and government-adjacent networks.",
+        "affected": [
+          "Microsoft 365"
+        ],
+        "action": "Verify the identity of contacts before sharing credentials or sensitive information.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "16-year-old suspected leader of KillSec ransomware group arrested",
+      "link": "https://www.helpnetsecurity.com/2026/10/01/killsec-ransomware-16-year-old-main-operator-arrested/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-10-01T13:59:02.000Z",
+      "summary": "A 16-year-old is suspected of being the main operator of KillSec, a ransomware group that Eurojust says is responsible for almost 1,000 attacks worldwide. Seizure notice (Source: Eurojust) According to Eurojust, KillSec ",
+      "categories": [
+        "Ransomware"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "high",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Law enforcement has arrested a 16-year-old suspected of leading the KillSec ransomware group. Eurojust reports that the group is responsible for nearly 1,000 cyberattacks globally.",
+        "whyItMatters": "The takedown of a prolific ransomware group leader highlights ongoing international law enforcement efforts against global cybercrime syndicates.",
+        "affected": [],
+        "action": "Review organizational ransomware defenses and threat intelligence.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DeepKeep’s AI Lens flags coding agent data leaks and routes destructive commands for approval",
+      "link": "https://www.helpnetsecurity.com/2026/10/01/deepkeeps-ai-lens-flags-coding-agent-data-leaks-and-routes-destructive-commands-for-approval/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-10-01T13:57:07.000Z",
+      "summary": "DeepKeep has announced AI Lens for Developers, a new extension to the company’s AI usage control and runtime protection modules to secure software developers and their coding agents that can write, modify, and execute co",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "DeepKeep has announced the AI Lens for Developers extension to secure software developers and their coding agents. The tool flags coding agent data leaks and routes destructive commands for human approval.",
+        "whyItMatters": "It helps prevent unauthorized data exposure and accidental execution of harmful commands by automated coding agents.",
+        "affected": [
+          "DeepKeep AI Lens for Developers"
+        ],
+        "action": "Evaluate the DeepKeep AI Lens extension for your development environment.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Kiteworks patches max severity code injection vulnerability",
+      "link": "https://www.bleepingcomputer.com/news/security/kiteworks-patches-max-severity-email-protection-gateway-code-injection-vulnerability/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-10-01T13:51:08.000Z",
+      "summary": "Secure file-sharing software company Kiteworks has released security updates to address 126 vulnerabilities, including a max-severity flaw affecting its Email Protection Gateway (EPG) security solution. [...]",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Kiteworks has released security updates to address 126 vulnerabilities in its software. The most severe issue is a max-severity code injection vulnerability affecting the Email Protection Gateway (EPG) solution.",
+        "whyItMatters": "This critical flaw could allow attackers to execute arbitrary code, potentially compromising sensitive communications and file-sharing infrastructure.",
+        "affected": [
+          "Kiteworks Email Protection Gateway (EPG)"
+        ],
+        "action": "Update Kiteworks products to the latest patched versions immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Exabeam brings AI-assisted security investigations to data that must stay on-premises",
+      "link": "https://www.helpnetsecurity.com/2026/10/01/exabeam-agentic-soc/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-10-01T13:50:04.000Z",
+      "summary": "Exabeam has introduced a new wave of capabilities that bring the Agentic SOC to life in the cloud and on-premises environments, combining AI-driven investigation, execution, and governance. Analyst workflows alone can’t ",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Exabeam has announced new AI-assisted security investigation capabilities designed for both cloud and on-premises environments. The features aim to enhance analyst workflows through AI-driven execution and governance.",
+        "whyItMatters": "It introduces advanced AI automation to on-premises data security environments, which traditionally lack such capabilities.",
+        "affected": [],
+        "action": "Review the new Exabeam capabilities for your deployment environment.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "RadarFirst helps teams investigate AI bias, data exposure and unintended actions",
+      "link": "https://www.helpnetsecurity.com/2026/10/01/radarfirst-ai-incident-management/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-10-01T13:39:15.000Z",
+      "summary": "RadarFirst has announced the general availability of Radar AI Incident Management, a purpose-built solution that helps organizations investigate, manage, and document AI-related incidents. As organizations deploy AI acro",
+      "categories": [
+        "Incident Response",
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "RadarFirst has announced the general availability of Radar AI Incident Management to help organizations investigate and document AI-related incidents. The new solution addresses emerging challenges such as AI bias, data exposure, and unintended actions.",
+        "whyItMatters": "It matters because organizations deploying AI need structured tools to manage and mitigate compliance and security risks associated with artificial intelligence.",
+        "affected": [],
+        "action": "Evaluate the new incident management solution if your organization is deploying AI technologies.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CISO thought he had a 'r3@lg00dp@$$w0rd' but forgot to patch",
+      "link": "https://www.theregister.com/security/2026/10/01/ciso-thought-he-had-a-r3lg00dpw0rd-but-forgot-to-patch/5300314",
+      "source": "The Register",
+      "publishedAt": "2026-10-01T13:32:00.000Z",
+      "summary": "Replacing letters with symbols still doesn’t make it good.",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "An article highlights a CISO who believed a complex password with symbol substitutions was sufficient, neglecting the critical importance of software patching. The piece emphasizes that clever passwords do not compensate for unpatched vulnerabilities.",
+        "whyItMatters": "It serves as a reminder that strong passwords alone are insufficient security if underlying software vulnerabilities remain unpatched.",
+        "affected": [],
+        "action": "Ensure all software and systems are regularly patched alongside maintaining strong passwords.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CloudSyncD MacOS Backdoor Hides Behind Fake Zoom Installer",
+      "link": "https://www.infosecurity-magazine.com/news/cloudsyncd-macos-backdoor-fake/",
+      "source": "Infosecurity Magazine",
+      "publishedAt": "2026-10-01T13:30:00.000Z",
+      "summary": "CloudSyncD uses a fake Zoom installer to phish Mac passwords and launch a two-stage backdoor",
+      "categories": [
+        "Malware"
+      ],
+      "tags": [
+        "macOS"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Threat actors are distributing a malicious macOS backdoor named CloudSyncD disguised as a fake Zoom installer. This campaign uses the fraudulent installer to steal Mac user passwords and deploy a two-stage backdoor.",
+        "whyItMatters": "This threat matters because it targets macOS users with credential theft and persistent backdoor access disguised as legitimate collaboration software.",
+        "affected": [
+          "Zoom installer for macOS"
+        ],
+        "action": "Avoid downloading Zoom installers from unofficial sources and verify software authenticity.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Sophos uses agentic AI to show businesses which security fixes deserve funding",
+      "link": "https://www.helpnetsecurity.com/2026/10/01/sophos-ciso-advantage/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-10-01T13:25:12.000Z",
+      "summary": "Sophos has launched Sophos CISO Advantage, an agentic AI-enabled solution that connects security operations to security strategy. The solution gives organizations a picture of their cyber risk, a prioritized plan to redu",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Sophos has launched Sophos CISO Advantage, an agentic AI-enabled solution that connects security operations to security strategy. The solution gives organizations a picture of their cyber risk, a prioritized plan to redu",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "AI Has Changed Attack Speed, Not Security Fundamentals",
+      "link": "https://www.securityweek.com/ai-has-changed-attack-speed-not-security-fundamentals/",
       "source": "SecurityWeek",
-      "publishedAt": "2026-10-01T07:52:26.000Z",
-      "summary": "The company says its new frontier AI model found a critical vulnerability in software used by hospitals worldwide.\nThe post Google Launches Gemini 4 Argon With Guardrail-Free Access for Vetted Defenders appeared first on",
+      "publishedAt": "2026-10-01T13:15:00.000Z",
+      "summary": "As AI accelerates vulnerability discovery and exploitation, so-called virtual patching still comes down to defense-in-depth and strong application security fundamentals.\nThe post AI Has Changed Attack Speed, Not Security",
       "categories": [
         "Vulnerability",
         "AI Security"
@@ -51,13 +596,907 @@
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "Google has launched Gemini 4 Argon, a new frontier AI model that provides guardrail-free access to vetted defenders. The company reported that this model successfully found a critical vulnerability in hospital software worldwide.",
-        "whyItMatters": "This development highlights the dual-use nature of advanced AI models in identifying critical software vulnerabilities without traditional safety restrictions.",
-        "affected": [],
-        "action": "Monitor updates regarding Gemini 4 Argon and its availability for defenders.",
-        "risk": "News",
+        "summary": "As AI accelerates vulnerability discovery and exploitation, so-called virtual patching still comes down to defense-in-depth and strong application security fundamentals.\nThe post AI Has Changed Attack Speed, Not Security",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
         "relatedCves": [],
-        "source": "ai"
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "AI agent used Zammad zero-days to breach Dutch vulnerability disclosure non-profit",
+      "link": "https://www.helpnetsecurity.com/2026/10/01/divd-agentic-ai-attack-breach/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-10-01T13:13:14.000Z",
+      "summary": "An agentic AI-powered attack that hit the Dutch Institute for Vulnerability Disclosure (DIVD) on September 21 exploited two zero-day vulnerabilities in Zammad, an open-source helpdesk and customer support ticketing syste",
+      "categories": [
+        "Zero Day",
+        "Vulnerability",
+        "Incident Response",
+        "AI Security",
+        "Open Source"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "An agentic AI-powered attack that hit the Dutch Institute for Vulnerability Disclosure (DIVD) on September 21 exploited two zero-day vulnerabilities in Zammad, an open-source helpdesk and customer support ticketing syste",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Legit Security extends automated fixes to vulnerable open-source dependencies",
+      "link": "https://www.helpnetsecurity.com/2026/10/01/legit-security-agentic-remediation-expansion/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-10-01T13:04:31.000Z",
+      "summary": "Legit Security has announced an expansion of its Agentic Remediation capability to cover vulnerabilities found in open-source dependencies, not just first-party code, enabling development teams to move from vulnerability",
+      "categories": [
+        "Vulnerability",
+        "Open Source"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Legit Security has announced an expansion of its Agentic Remediation capability to cover vulnerabilities found in open-source dependencies, not just first-party code, enabling development teams to move from vulnerability",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Warlock Ransomware Hits Large Spanish, Portuguese Orgs",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/warlock-ransomware-spanish-portuguese",
+      "source": "Dark Reading",
+      "publishedAt": "2026-10-01T13:00:00.000Z",
+      "summary": "A year-old Chinese threat actor looks like a cybercrime gang, acts like a state-associated APT, and attacks organizations in unexpected places.",
+      "categories": [
+        "Ransomware",
+        "Threat Intel"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "high",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A year-old Chinese threat actor looks like a cybercrime gang, acts like a state-associated APT, and attacks organizations in unexpected places.",
+        "whyItMatters": "Significant risk to affected systems; prioritize review.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "High",
+        "action": "Monitor for indicators of compromise.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Huntress Tragic Quadrant: Top Cyber Threats Wrecking Businesses",
+      "link": "https://www.huntress.com/blog/huntress-tragic-quadrant-cyber-threats",
+      "source": "Huntress",
+      "publishedAt": "2026-10-01T13:00:00.000Z",
+      "summary": "The Huntress Tragic Quadrant ranks the cyber threats hitting businesses most, from RMM abuse to AiTM, ClickFix, using real SOC data.",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The Huntress Tragic Quadrant ranks the cyber threats hitting businesses most, from RMM abuse to AiTM, ClickFix, using real SOC data.",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "How AI Is Changing the Roles Required in the Security Operations Center",
+      "link": "https://www.rapid7.com/blog/post/ai-changing-security-operations-center-roles-soc",
+      "source": "Rapid7",
+      "publishedAt": "2026-10-01T13:00:00.000Z",
+      "summary": "As AI takes on more of the enrichment, correlation, and initial assessment inside the SOC, roles, skills, and KPIs still require deliberate redesign. Security leaders need to decide where automation is dependable, where ",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "As AI takes on more of the enrichment, correlation, and initial assessment inside the SOC, roles, skills, and KPIs still require deliberate redesign. Security leaders need to decide where automation is dependable, where ",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Zimbra Vulnerability Exploited in the Wild Prior to Public Disclosure",
+      "link": "https://www.securityweek.com/zimbra-vulnerability-exploited-in-the-wild-prior-to-public-disclosure/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-10-01T12:55:57.000Z",
+      "summary": "Under certain conditions, CVE-2026-73570 can be exploited via specially crafted emails without user interaction.\nThe post Zimbra Vulnerability Exploited in the Wild Prior to Public Disclosure appeared first on SecurityWe",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-73570"
+      ],
+      "kev": true,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Under certain conditions, CVE-2026-73570 can be exploited via specially crafted emails without user interaction.\nThe post Zimbra Vulnerability Exploited in the Wild Prior to Public Disclosure appeared first on SecurityWe",
+        "whyItMatters": "Actively exploited or high-impact; treat as urgent.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Critical",
+        "action": "Patch immediately.",
+        "relatedCves": [
+          "CVE-2026-73570"
+        ],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "USN-8862-1: libXpm vulnerability",
+      "link": "https://ubuntu.com/security/notices/USN-8862-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-10-01T12:51:01.000Z",
+      "summary": "It was discovered that libXpm did not correctly handle XPM images with\nzero-dimension values. A local attacker could possibly use this issue to\ncause libXpm to use excessive resources, leading to a denial of service.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "It was discovered that libXpm did not correctly handle XPM images with\nzero-dimension values. A local attacker could possibly use this issue to\ncause libXpm to use excessive resources, leading to a denial of service.",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Cyberattack on major Polish invoicing platform exposes customer data",
+      "link": "https://therecord.media/poland-cyberattack-invoice-software",
+      "source": "The Record",
+      "publishedAt": "2026-10-01T12:30:00.000Z",
+      "summary": "One of Poland’s major online invoicing platforms suffered a data breach that may have exposed information belonging to its users, their customers and business partners.",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "One of Poland’s major online invoicing platforms suffered a data breach that may have exposed information belonging to its users, their customers and business partners.",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Pentagon breach exposes personal data of more than 3 million people",
+      "link": "https://www.helpnetsecurity.com/2026/10/01/pentagon-dmdc-data-breach-3-million-people/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-10-01T12:21:03.000Z",
+      "summary": "The Pentagon’s Defense Manpower Data Center (DMDC) is notifying millions of people that hackers gained access to their personal data. The breach affects 2.76 million living individuals, a group that can include current a",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The Pentagon’s Defense Manpower Data Center (DMDC) is notifying millions of people that hackers gained access to their personal data. The breach affects 2.76 million living individuals, a group that can include current a",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "USN-8861-1: OpenSSL vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8861-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-10-01T12:02:00.000Z",
+      "summary": "It was discovered that OpenSSL had an inefficient algorithm in its QUIC\nstream reassembly implementation. A remote attacker could possibly use this\nissue to cause OpenSSL to use excessive CPU resources, leading to a deni",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "It was discovered that OpenSSL had an inefficient algorithm in its QUIC\nstream reassembly implementation. A remote attacker could possibly use this\nissue to cause OpenSSL to use excessive CPU resources, leading to a deni",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "How Financial Services Companies Can Modernize Their Software Supply Chain",
+      "link": "https://thehackernews.com/2026/10/how-financial-services-companies-can.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-10-01T11:45:00.000Z",
+      "summary": "Every security leader at a bank, insurer, or asset manager has had a version of this conversation: Security wants to eliminate a class of vulnerabilities. Engineering explains what it would take to upgrade the platform w",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Every security leader at a bank, insurer, or asset manager has had a version of this conversation: Security wants to eliminate a class of vulnerabilities. Engineering explains what it would take to upgrade the platform w",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Kevin Mandia’s Armadin Raises $255 Million at $2.5 Billion Valuation",
+      "link": "https://www.securityweek.com/kevin-mandias-armadin-raises-255-million-at-2-5-billion-valuation/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-10-01T11:40:51.000Z",
+      "summary": "The Series B brings the AI-powered offensive security startup’s total funding to roughly $445 million only seven months after its public launch.\nThe post Kevin Mandia’s Armadin Raises $255 Million at $2.5 Billion Valuati",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The Series B brings the AI-powered offensive security startup’s total funding to roughly $445 million only seven months after its public launch.\nThe post Kevin Mandia’s Armadin Raises $255 Million at $2.5 Billion Valuati",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "England's schools are getting better at mopping up cyber incidents",
+      "link": "https://www.theregister.com/security/2026/10/01/englands-schools-are-getting-better-at-mopping-up-cyber-incidents/5300465",
+      "source": "The Register",
+      "publishedAt": "2026-10-01T11:40:13.000Z",
+      "summary": "Two-thirds report immediate recovery, although teachers remain divided over whose job security is",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Two-thirds report immediate recovery, although teachers remain divided over whose job security is",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "USN-8860-1: OpenStack Designate vulnerability",
+      "link": "https://ubuntu.com/security/notices/USN-8860-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-10-01T11:17:31.000Z",
+      "summary": "It was discovered that OpenStack Designate did not properly validate\noverlapping zones under certain circumstances. An authenticated user could\npossibly use this issue to redirect DNS traffic to attacker-controlled\nsyste",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "It was discovered that OpenStack Designate did not properly validate\noverlapping zones under certain circumstances. An authenticated user could\npossibly use this issue to redirect DNS traffic to attacker-controlled\nsyste",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Microsoft enables Windows settings backup by default for orgs",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-enables-windows-settings-backup-by-default-for-orgs/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-10-01T11:14:28.000Z",
+      "summary": "Microsoft announced that Windows settings backup and restore is now enabled by default on all Microsoft Entra-joined or Microsoft Entra hybrid-joined enterprise systems upgraded to Windows 11 26H2. [...]",
+      "categories": [
+        "News"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft announced that Windows settings backup and restore is now enabled by default on all Microsoft Entra-joined or Microsoft Entra hybrid-joined enterprise systems upgraded to Windows 11 26H2. [...]",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Windows"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Connected Cars Are a Surveillance Platform",
+      "link": "https://www.schneier.com/blog/archives/2026/10/connected-cars-are-a-surveillance-platform.html",
+      "source": "Schneier on Security",
+      "publishedAt": "2026-10-01T11:06:14.000Z",
+      "summary": "Researchers at Northeastern University, in collaboration with Consumer Reports, evaluated how much modern cars spy in their drivers:\nTo determine this, CR dug through thousands of pages of automakers’ privacy policies an",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Researchers at Northeastern University, in collaboration with Consumer Reports, evaluated how much modern cars spy in their drivers:\nTo determine this, CR dug through thousands of pages of automakers’ privacy policies an",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "FBI tells ShinyHunters members to turn themselves in, after arrest of alleged leader",
+      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/fbi-shinyhunters-turn-themselves-in-arrest-leader",
+      "source": "Graham Cluley",
+      "publishedAt": "2026-10-01T10:53:38.000Z",
+      "summary": "The FBI has a very simple message for the ShinyHunters gang: give yourselves up.\r\n\r\nOn Tuesday, FBI cyber division assistant director Brett Leatherman released a video, thanking the Dutch police for arresting a 24-year-o",
+      "categories": [
+        "Government"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The FBI has a very simple message for the ShinyHunters gang: give yourselves up.\r\n\r\nOn Tuesday, FBI cyber division assistant director Brett Leatherman released a video, thanking the Dutch police for arresting a 24-year-o",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "ShinyHunters suspect arrested, and is now investigated over alleged murder plots",
+      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/shinyhunters-suspect-arrested-now-investigated-alleged-murder-plots",
+      "source": "Graham Cluley",
+      "publishedAt": "2026-10-01T10:52:03.000Z",
+      "summary": "An alleged key figure in the ShinyHunters cybercrime group has been arrested in the Netherlands, and - in a sinister twist - the 24-year-old suspect is also being investigated for attempting to arrange two murders.\r\n\r\nRe",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "An alleged key figure in the ShinyHunters cybercrime group has been arrested in the Netherlands, and - in a sinister twist - the 24-year-old suspect is also being investigated for attempting to arrange two murders.\r\n\r\nRe",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Malwarebytes earns another Top Product award in independent testing",
+      "link": "https://www.malwarebytes.com/blog/product/2026/10/malwarebytes-earns-another-top-product-award-in-independent-testing",
+      "source": "Malwarebytes Labs",
+      "publishedAt": "2026-10-01T10:51:52.000Z",
+      "summary": "Three independent labs, three standout results: a perfect score, top certification, and every threat stopped before it ran.",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Three independent labs, three standout results: a perfect score, top certification, and every threat stopped before it ran.",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Treasury Blacklists Most-Wanted ATM Malware Developer and His Network",
+      "link": "https://www.securityweek.com/treasury-blacklists-most-wanted-atm-malware-developer-and-his-network/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-10-01T10:51:39.000Z",
+      "summary": "The US government continues its crackdown on Tren de Aragua over its ATM jackpotting scheme.\nThe post Treasury Blacklists Most-Wanted ATM Malware Developer and His Network appeared first on SecurityWeek.",
+      "categories": [
+        "Malware",
+        "Government"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The US government continues its crackdown on Tren de Aragua over its ATM jackpotting scheme.\nThe post Treasury Blacklists Most-Wanted ATM Malware Developer and His Network appeared first on SecurityWeek.",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "News",
+        "action": "Monitor for indicators of compromise.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Pentagon breach exposes Social Security numbers and military records of millions",
+      "link": "https://www.malwarebytes.com/blog/privacy/2026/10/pentagon-breach-exposes-social-security-numbers-and-military-records-of-millions",
+      "source": "Malwarebytes Labs",
+      "publishedAt": "2026-10-01T10:48:58.000Z",
+      "summary": "Social Security numbers and other personal details of military personnel and their families were exposed in a months-long Pentagon breach.",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Social Security numbers and other personal details of military personnel and their families were exposed in a months-long Pentagon breach.",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "USN-8857-1: KCoreAddons vulnerability",
+      "link": "https://ubuntu.com/security/notices/USN-8857-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-10-01T10:48:57.000Z",
+      "summary": "It was discovered that KCoreAddons incorrectly handled shell argument\nquoting in KShell::quoteArgs. The parsing did not adequately handle shell\nmetacharacters, which could lead to a shell escape. An attacker could\npossib",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "It was discovered that KCoreAddons incorrectly handled shell argument\nquoting in KShell::quoteArgs. The parsing did not adequately handle shell\nmetacharacters, which could lead to a shell escape. An attacker could\npossib",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Zammad Zero-Days Exploited in AI-Powered DIVD Hack",
+      "link": "https://www.securityweek.com/zammad-zero-days-exploited-in-ai-powered-divd-hack/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-10-01T10:42:49.000Z",
+      "summary": "The flaws were chained to hijack sessions, achieve remote code execution, and elevate privileges to root.\nThe post Zammad Zero-Days Exploited in AI-Powered DIVD Hack appeared first on SecurityWeek.",
+      "categories": [
+        "Vulnerability",
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The flaws were chained to hijack sessions, achieve remote code execution, and elevate privileges to root.\nThe post Zammad Zero-Days Exploited in AI-Powered DIVD Hack appeared first on SecurityWeek.",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "OpenAI Disrupts Reasoning Extraction Campaign Linked to Moonshot AI Associates",
+      "link": "https://thehackernews.com/2026/10/openai-disrupts-reasoning-extraction.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-10-01T10:42:36.000Z",
+      "summary": "OpenAI on Wednesday said it identified and disrupted a coordinated distillation campaign that was designed to illicitly extract protected reasoning from its artificial intelligence (AI) models.\n\nA \"core cluster of the ac",
+      "categories": [
+        "Threat Intel",
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "OpenAI on Wednesday said it identified and disrupted a coordinated distillation campaign that was designed to illicitly extract protected reasoning from its artificial intelligence (AI) models.\n\nA \"core cluster of the ac",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "UK privacy watchdog starts over with new board and Manchester HQ",
+      "link": "https://www.theregister.com/security/2026/10/01/uk-privacy-watchdog-starts-over-with-new-board-and-manchester-hq/5300439",
+      "source": "The Register",
+      "publishedAt": "2026-10-01T10:42:00.000Z",
+      "summary": "The Information Commission replaces the Information Commissioner, putting statutory powers under collective control",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The Information Commission replaces the Information Commissioner, putting statutory powers under collective control",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "CISA Adds Exploited Cisco Catalyst SD-WAN Manager Auth Bypass to KEV",
+      "link": "https://thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-10-01T10:33:16.000Z",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical authentication bypass flaw impacting Cisco Catalyst SD-WAN Manager to its Known Exploited Vulnerabilities (KEV), following re",
+      "categories": [
+        "Vulnerability",
+        "Government"
+      ],
+      "tags": [
+        "Cisco"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical authentication bypass flaw impacting Cisco Catalyst SD-WAN Manager to its Known Exploited Vulnerabilities (KEV), following re",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Cisco"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "The Fine Art of Frustrating the Adversary",
+      "link": "https://blog.talosintelligence.com/the-fine-art-of-frustrating-the-adversary/",
+      "source": "Talos Intelligence",
+      "publishedAt": "2026-10-01T10:00:05.000Z",
+      "summary": "What really frustrates an adversary? Eight Cisco Talos researchers share practical ways to make their next move slower and riskier. From deception and behavioral detection to breaking attack dependencies and resisting ma",
+      "categories": [
+        "News"
+      ],
+      "tags": [
+        "Cisco"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "What really frustrates an adversary? Eight Cisco Talos researchers share practical ways to make their next move slower and riskier. From deception and behavioral detection to breaking attack dependencies and resisting ma",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Cisco"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Hackers stole Pentagon personnel records of over 3 million people",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-pentagon-human-resources-management-system-steal-data-of-nearly-3-million-people/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-10-01T09:44:28.000Z",
+      "summary": "The Pentagon's Defense Manpower Data Center (DMDC) is notifying millions of military service members that hackers stole their data after breaching the Pentagon's human resources management system in October 2025. [...]",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The Pentagon's Defense Manpower Data Center (DMDC) is notifying millions of military service members that hackers stole their data after breaching the Pentagon's human resources management system in October 2025. [...]",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "AI Threats Top Cybersecurity Preparedness Gap, PwC Finds",
+      "link": "https://www.infosecurity-magazine.com/news/mitigating-adversarial-ai-top/",
+      "source": "Infosecurity Magazine",
+      "publishedAt": "2026-10-01T09:30:00.000Z",
+      "summary": "PwC finds global security leaders are most concerned about attacks on AI systems",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "PwC finds global security leaders are most concerned about attacks on AI systems",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Fewer women than ever in UK's 'old boys' club' cyber industry",
+      "link": "https://www.theregister.com/security/2026/10/01/fewer-women-than-ever-in-uks-old-boys-club-cyber-industry/5300064",
+      "source": "The Register",
+      "publishedAt": "2026-10-01T09:15:00.000Z",
+      "summary": "Younger workers often overlooked for senior roles due to historical issues and fears they’ll get pregnant, says survey",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Younger workers often overlooked for senior roles due to historical issues and fears they’ll get pregnant, says survey",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Losing gamblers pushed to bet more by DraftKings’ AI, report says",
+      "link": "https://www.malwarebytes.com/blog/ai/2026/10/losing-gamblers-pushed-to-bet-more-by-draftkings-ai-report-says",
+      "source": "Malwarebytes Labs",
+      "publishedAt": "2026-10-01T08:53:06.000Z",
+      "summary": "Betting site DraftKings has been accused of using AI to target gamblers likely to lose more after receiving promotions. The company disputes the findings.",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Betting site DraftKings has been accused of using AI to target gamblers likely to lose more after receiving promotions. The company disputes the findings.",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
       }
     },
     {
@@ -81,32 +1520,6 @@
         "whyItMatters": "The deployment of advanced AI models and upcoming guardrail-free versions to security defenders introduces potential dual-use risks regarding offensive and defensive cyber capabilities.",
         "affected": [],
         "action": "Monitor updates regarding the rollout and governance of the new AI model.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Sentinel Envelope Plus adds software protection without source code changes",
-      "link": "https://www.helpnetsecurity.com/2026/10/01/thales-sentinel-envelope-plus/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-10-01T07:38:00.000Z",
-      "summary": "Thales has announced Sentinel Envelope Plus, a new addition to its Sentinel Envelope software protection solution that significantly hardens compiled applications against AI-assisted reverse engineering, automated zero-d",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Thales has announced Sentinel Envelope Plus, a new product designed to harden compiled applications against AI-assisted reverse engineering and automated threats. The solution provides software protection without requiring any source code changes from developers.",
-        "whyItMatters": "It introduces advanced security measures to protect compiled software against modern AI-driven attacks.",
-        "affected": [],
-        "action": "Evaluate Sentinel Envelope Plus for software protection needs.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -163,34 +1576,6 @@
         ],
         "action": "Monitor official MetaMask channels for updates and security guidance.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "BlackFog adds prompt protection and governance for agentic AI",
-      "link": "https://www.helpnetsecurity.com/2026/10/01/blackfog-adx-vision-2-0/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-10-01T07:25:53.000Z",
-      "summary": "BlackFog has announced the launch of ADX Vision 2.0, expanding its AI security capabilities to help organizations govern and control the use of generative and agentic AI across the enterprise. As employees move from simp",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "BlackFog has announced the release of ADX Vision 2.0 to help organizations govern and control generative and agentic AI use across the enterprise. The updated platform introduces new prompt protection capabilities to secure emerging AI workflows.",
-        "whyItMatters": "It matters because the enterprise adoption of agentic AI introduces new security risks regarding prompt manipulation and data governance that require specialized controls.",
-        "affected": [
-          "ADX Vision 2.0"
-        ],
-        "action": "Evaluate ADX Vision 2.0 for enterprise AI governance and prompt protection needs.",
-        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
@@ -257,33 +1642,6 @@
       }
     },
     {
-      "title": "Many expect AI in the SOC to make entry jobs harder to get",
-      "link": "https://www.helpnetsecurity.com/2026/10/01/ai-soc-entry-jobs/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-10-01T05:30:08.000Z",
-      "summary": "A junior analyst in a security operations center, or SOC, has usually learned the job the slow way. You work the same phishing lure dozens of times, chase the same familiar malware pattern and write up the same case note",
-      "categories": [
-        "Malware",
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Artificial intelligence tools in security operations centers are expected to automate routine tasks traditionally handled by junior analysts. This shift raises concerns about how entry-level professionals will gain necessary experience and secure employment in the field.",
-        "whyItMatters": "It highlights potential shifts in cybersecurity workforce development and hiring practices as automation increases.",
-        "affected": [],
-        "action": "Monitor industry trends regarding AI adoption and workforce impact.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Bitget Confirms Third-Party Zero-Day Behind $387.5 Million Cryptocurrency Theft",
       "link": "https://thehackernews.com/2026/10/bitget-confirms-third-party-zero-day.html",
       "source": "The Hacker News",
@@ -339,170 +1697,6 @@
       }
     },
     {
-      "title": "The vulnerabilities AI finds are the ones attackers want",
-      "link": "https://www.helpnetsecurity.com/2026/10/01/google-ai-discovered-vulnerabilities-remote-code-execution/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-10-01T05:00:35.000Z",
-      "summary": "Attackers exploited a flaw found by an AI research agent within four days of its public disclosure, and they are exploiting more vulnerabilities overall, according to new research by Google Threat Intelligence Group (GTI",
-      "categories": [
-        "Vulnerability",
-        "AI Security",
-        "Research"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Google Threat Intelligence Group reported that attackers began exploiting a flaw discovered by an AI research agent within four days of its public disclosure. Furthermore, research indicates that malicious actors are increasingly exploiting more vulnerabilities overall.",
-        "whyItMatters": "This trend demonstrates that attackers are rapidly weaponizing vulnerabilities discovered by automated AI tools, significantly shortening the window organizations have to apply security patches.",
-        "affected": [],
-        "action": "Monitor threat intelligence updates and patch disclosed vulnerabilities immediately.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Citrix NetScaler Post-Exploitation Payload Creates Superuser, Maps Web Shell to CSS-Like URLs",
-      "link": "https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-01T04:35:34.000Z",
-      "summary": "Threat actors have been observed exploiting a critical pre-authentication command injection vulnerability in Citrix NetScaler ADC and NetScaler Gateway to drop web shells and attempt theft of configuration data.\n\nLevelBl",
-      "categories": [
-        "Vulnerability"
-      ],
-      "tags": [
-        "Citrix"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Threat actors are exploiting a critical pre-authentication command injection vulnerability in Citrix NetScaler ADC and Gateway products. The attacks involve dropping web shells, creating superuser accounts, and attempting to steal configuration data.",
-        "whyItMatters": "This vulnerability allows unauthenticated attackers to gain full administrative control over compromised NetScaler appliances.",
-        "affected": [
-          "Citrix NetScaler ADC",
-          "Citrix NetScaler Gateway"
-        ],
-        "action": "Apply the latest security patches provided by Citrix immediately.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Employment scam victims tripled at financial firms in 21 countries",
-      "link": "https://www.helpnetsecurity.com/2026/10/01/employment-scam-victims-research/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-10-01T04:30:35.000Z",
-      "summary": "Reported victims of employment scams more than tripled over the past 12 months at more than 370 banks and other financial institutions in 21 countries. The 258% rise outran every other scam type, while total reported sca",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Reported victims of employment scams more than tripled over the past 12 months across hundreds of financial institutions in 21 countries. This 258% increase outpaced all other types of reported scams.",
-        "whyItMatters": "The dramatic surge in employment scams targets financial sector personnel, increasing the risk of credential theft, insider threats, and financial fraud.",
-        "affected": [],
-        "action": "Train employees to recognize and report fraudulent employment recruitment schemes.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Google says Gemini 4 Argon can find and patch critical software flaws",
-      "link": "https://www.helpnetsecurity.com/2026/10/01/google-gemini-4-argon/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-10-01T04:00:41.000Z",
-      "summary": "Google announced Gemini 4 Argon, its new frontier AI model, and is rolling it out to a set of trusted cyber defenders through its Fairwind Program. Google says the model can locate critical software vulnerabilities, vali",
-      "categories": [
-        "Vulnerability",
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Google announced the launch of Gemini 4 Argon, a new frontier AI model designed to assist with cybersecurity defense. The model is currently being rolled out to select defenders via the Fairwind Program to help locate and patch critical software vulnerabilities.",
-        "whyItMatters": "This technology represents a significant shift in automated vulnerability discovery and remediation, potentially empowering defenders to secure systems much faster.",
-        "affected": [],
-        "action": "Monitor updates regarding the Fairwind Program and Gemini 4 Argon availability.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Product showcase: Proton Drive end-to-end encrypted cloud storage",
-      "link": "https://www.helpnetsecurity.com/2026/10/01/product-showcase-proton-drive/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-10-01T03:48:10.000Z",
-      "summary": "Proton Drive is an end-to-end encrypted cloud storage service for storing, synchronizing, backing up, and sharing files. It also includes Proton Docs and Proton Sheets, allowing users to create and collaborate on documen",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Proton Drive is a secure cloud storage service featuring end-to-end encryption for file storage, synchronization, and backups. It also incorporates collaborative tools like Proton Docs and Proton Sheets.",
-        "whyItMatters": "This is a promotional product showcase rather than a security vulnerability advisory.",
-        "affected": [],
-        "action": "Review the product features if interested in encrypted cloud storage.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Google’s SynthID Bio can watermark AI-designed protein binders without breaking them",
-      "link": "https://www.helpnetsecurity.com/2026/10/01/synthid-bio-watermark/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-10-01T03:31:14.000Z",
-      "summary": "Google DeepMind has built SynthID Bio, a watermark for AI-designed proteins, and shown in wet-lab tests on protein binders that it leaves their function intact. The method hides a signature in the amino acid sequence of ",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Google DeepMind has developed SynthID Bio, a new watermarking technology designed to embed invisible signatures into the amino acid sequences of AI-designed proteins. Wet-lab tests on protein binders demonstrated that this watermarking process successfully hides the signature without disrupting the proteins' biological functions.",
-        "whyItMatters": "This technology is crucial for tracking and verifying AI-generated biological materials to prevent misuse or unintended proliferation of engineered pathogens.",
-        "affected": [],
-        "action": "Monitor developments in AI biosecurity watermarking standards.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "ISC Stormcast For Thursday, October 1st, 2026 (Thu, Oct 1st)",
       "link": "https://isc.sans.edu/diary/rss/33386",
       "source": "SANS ISC",
@@ -523,32 +1717,6 @@
         "whyItMatters": "Staying informed on daily threat intelligence and advisories helps security professionals track emerging risks and vulnerabilities.",
         "affected": [],
         "action": "Listen to the podcast episode for the latest threat updates.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "FTC is Investigating OpenAI and Anthropic Over Possible risks to Consumers",
-      "link": "https://www.securityweek.com/ftc-is-investigating-openai-and-anthropic-over-possible-risks-to-consumers/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-09-30T23:43:51.000Z",
-      "summary": "An FTC spokesperson confirmed the investigation but declined further comment.\nThe post FTC is Investigating OpenAI and Anthropic Over Possible risks to Consumers appeared first on SecurityWeek.",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The Federal Trade Commission has confirmed an ongoing investigation into major artificial intelligence developers OpenAI and Anthropic. The inquiry focuses on potential risks these companies and their consumer-facing products may pose to the public.",
-        "whyItMatters": "Regulatory scrutiny on leading AI developers highlights growing government oversight regarding consumer safety and the societal impacts of emerging technologies.",
-        "affected": [],
-        "action": "Monitor regulatory developments regarding AI compliance.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -981,37 +2149,6 @@
       }
     },
     {
-      "title": "Over 543,000 valid credentials exposed in public GitHub repositories",
-      "link": "https://www.bleepingcomputer.com/news/security/over-543-000-valid-credentials-exposed-in-public-github-repositories/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-09-30T18:08:34.000Z",
-      "summary": "More than 543,000 credentials exposed in public GitHub repositories were still valid in July despite the platform's security measures to prevent accidental leaks of sensitive data. [...]",
-      "categories": [
-        "Incident Response",
-        "Open Source"
-      ],
-      "tags": [
-        "GitHub"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Over 543,000 valid credentials were discovered exposed in public GitHub repositories in July, highlighting ongoing risks from accidental secret leaks. Despite platform security measures, these active keys and tokens remain accessible to malicious actors.",
-        "whyItMatters": "Exposed credentials allow attackers to easily gain unauthorized access to corporate networks, cloud resources, and sensitive systems.",
-        "affected": [
-          "GitHub public repositories"
-        ],
-        "action": "Audit public repositories immediately and revoke any exposed credentials or API keys.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Defender Exclusion Abuse: How Attackers Hide Malware from MDAV",
       "link": "https://www.huntress.com/blog/you-can-run-but-you-cant-hide-defender-exclusions",
       "source": "Huntress",
@@ -1134,36 +2271,6 @@
       }
     },
     {
-      "title": "Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets",
-      "link": "https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-30T16:46:29.000Z",
-      "summary": "Threat actors have weaponized a now-patched security flaw in Zimbra Collaboration Suite (ZCS) to deploy web shells and access mailbox data, according to findings from the Microsoft Security Research team.\n\nThe attack exp",
-      "categories": [
-        "Vulnerability",
-        "Research",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Threat actors are actively exploiting a patched security vulnerability in the Zimbra Collaboration Suite to deploy malicious web shells and harvest mailbox data. Microsoft Security Research discovered these attacks, which allow unauthorized access to sensitive authentication secrets.",
-        "whyItMatters": "This vulnerability allows attackers to compromise email servers, leading to unauthorized access to sensitive communications and potential further network infiltration.",
-        "affected": [
-          "Zimbra Collaboration Suite"
-        ],
-        "action": "Apply the latest security patches provided by Zimbra immediately.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "USN-8858-1: Authen::SASL vulnerability",
       "link": "https://ubuntu.com/security/notices/USN-8858-1",
       "source": "Canonical Ubuntu Security",
@@ -1217,35 +2324,6 @@
         ],
         "action": "Update ImageMagick to the latest patched version provided by Ubuntu.",
         "risk": "Medium",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Attackers Abuse MSP360 to Deploy ScreenConnect in Dual-RMM Phishing Attacks",
-      "link": "https://thehackernews.com/2026/09/attackers-abuse-msp360-to-deploy.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-30T16:32:59.000Z",
-      "summary": "Microsoft has warned of phishing campaigns distributing an installer for the MSP360 Remote Monitoring and Management (RMM) software under the guise of meeting invitations, PDF-themed lures, software update prompts, and o",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has issued a warning regarding ongoing phishing campaigns that trick users into installing MSP360 Remote Monitoring and Management software disguised as common lures like meeting invites and software updates. Attackers are leveraging this setup to subsequently deploy ScreenConnect in dual-RMM attacks.",
-        "whyItMatters": "Threat actors are increasingly abusing legitimate RMM administrative tools like MSP360 and ScreenConnect to establish persistent, stealthy access and bypass traditional security controls.",
-        "affected": [
-          "MSP360 RMM",
-          "ScreenConnect"
-        ],
-        "action": "Monitor and audit unauthorized RMM installations and remain vigilant against phishing lures.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -1340,64 +2418,6 @@
       }
     },
     {
-      "title": "USN-8845-1: GVfs vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8845-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-09-30T15:54:56.000Z",
-      "summary": "Keith Linneman discovered that GVfs did not properly validate data\nreceived from SFTP servers. An attacker could possibly use this issue to\ncause a heap buffer overflow, resulting in arbitrary code execution or a\ndenial ",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A vulnerability in GVfs related to improper data validation from SFTP servers was discovered by Keith Linneman. An attacker could exploit this flaw to cause a heap buffer overflow, leading to arbitrary code execution or a denial of service.",
-        "whyItMatters": "This flaw allows remote SFTP servers to execute arbitrary code or crash systems via a heap buffer overflow.",
-        "affected": [
-          "GVfs"
-        ],
-        "action": "Update GVfs to the latest patched version.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CISA warns of critical pre-auth RCE flaw in MikroTik RouterOS",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-pre-auth-rce-flaw-in-mikrotik-routeros/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-09-30T15:49:29.000Z",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of a new critical vulnerability in MikroTik RouterOS that could lead to remote code execution or cause a denial-of-service condition. [...]",
-      "categories": [
-        "Vulnerability",
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CISA has issued a warning regarding a critical pre-authentication vulnerability in MikroTik RouterOS. This flaw can potentially be exploited by attackers to achieve remote code execution or trigger a denial-of-service condition.",
-        "whyItMatters": "It allows unauthenticated remote attackers to compromise critical network routing infrastructure.",
-        "affected": [
-          "MikroTik RouterOS"
-        ],
-        "action": "Update MikroTik RouterOS immediately to the latest patched version.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Hackers steal protective order and foster care records from Arizona courts",
       "link": "https://www.malwarebytes.com/blog/data-breaches/2026/09/hackers-steal-protective-order-and-foster-care-records-from-arizona-courts",
       "source": "Malwarebytes Labs",
@@ -1420,42 +2440,6 @@
         "action": "Investigate the breach and notify affected individuals immediately.",
         "risk": "High",
         "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Cisco Warns of Attackers Exploiting Critical Authentication Bypass in SD-WAN Manager",
-      "link": "https://thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-30T15:24:54.000Z",
-      "summary": "Attackers are exploiting a new critical zero-day flaw in Cisco Catalyst SD-WAN Manager, the system companies use to manage their Cisco SD-WAN networks, Cisco said in an advisory on September 30.\n\nThe flaw, CVE-2026-76504",
-      "categories": [
-        "Zero Day",
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Cisco"
-      ],
-      "cves": [
-        "CVE-2026-76504"
-      ],
-      "kev": true,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Cisco has issued an advisory warning that attackers are actively exploiting a critical zero-day authentication bypass vulnerability in its Catalyst SD-WAN Manager. The flaw, tracked as CVE-2026-76504, affects systems used by companies to manage their Cisco SD-WAN networks.",
-        "whyItMatters": "Active exploitation of a critical authentication bypass in enterprise network management software allows unauthorized attackers to potentially compromise entire corporate SD-WAN infrastructures.",
-        "affected": [
-          "Cisco Catalyst SD-WAN Manager"
-        ],
-        "action": "Review Cisco's advisory and apply available patches or mitigations immediately.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-76504"
-        ],
         "source": "ai"
       }
     },
@@ -1522,41 +2506,6 @@
       }
     },
     {
-      "title": "Cisco warns of new SD-WAN zero-day exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-sd-wan-authentication-bypass-zero-day-exploited-in-attacks/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-09-30T14:46:40.000Z",
-      "summary": "Cisco released security updates to address a critical zero-day in the Catalyst SD-WAN Manager (tracked as CVE-2026-76504) that attackers are actively exploiting to escalate to admin privileges. [...]",
-      "categories": [
-        "Zero Day",
-        "Vulnerability"
-      ],
-      "tags": [
-        "Cisco"
-      ],
-      "cves": [
-        "CVE-2026-76504"
-      ],
-      "kev": true,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Cisco has released security updates to fix a critical zero-day vulnerability in its Catalyst SD-WAN Manager. Threat actors are actively exploiting this flaw in the wild to escalate privileges to administrator level.",
-        "whyItMatters": "Active exploitation of a zero-day privilege escalation flaw in enterprise networking equipment poses an immediate risk of complete system compromise.",
-        "affected": [
-          "Cisco Catalyst SD-WAN Manager"
-        ],
-        "action": "Apply the latest security updates provided by Cisco immediately.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-76504"
-        ],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Higher education is under siege, and fragmented security is making it harder to respond",
       "link": "https://www.rapid7.com/blog/post/it-higher-education-under-siege-fragmented-security",
       "source": "Rapid7",
@@ -1579,196 +2528,6 @@
           "Not specified"
         ],
         "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Google: AI Is Changing the Pace and Profile of Vulnerability Discovery",
-      "link": "https://www.securityweek.com/google-ai-is-changing-the-pace-and-profile-of-vulnerability-discovery/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-09-30T14:05:58.000Z",
-      "summary": "Google’s analysis found that AI-discovered vulnerabilities are more likely to enable remote code execution.\nThe post Google: AI Is Changing the Pace and Profile of Vulnerability Discovery appeared first on SecurityWeek.",
-      "categories": [
-        "Vulnerability",
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Google’s analysis found that AI-discovered vulnerabilities are more likely to enable remote code execution.\nThe post Google: AI Is Changing the Pace and Profile of Vulnerability Discovery appeared first on SecurityWeek.",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "USN-8816-3: Linux kernel (Oracle) vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8816-3",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-09-30T14:04:57.000Z",
-      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - ARM64 architecture;\n  - S390 archite",
-      "categories": [
-        "Vulnerability",
-        "Incident Response",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux",
-        "Oracle"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - ARM64 architecture;\n  - S390 archite",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Linux",
-          "Oracle"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "USN-8817-3: Linux kernel (AWS) vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8817-3",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-09-30T14:04:57.000Z",
-      "summary": "It was discovered that some Arm processors could complete a broadcast\ntranslation lookaside buffer (TLB) invalidation before memory writes made\nthrough the invalidated translation were globally observed. A local\nattacker",
-      "categories": [
-        "Vulnerability",
-        "Cloud",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux",
-        "AWS"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "It was discovered that some Arm processors could complete a broadcast\ntranslation lookaside buffer (TLB) invalidation before memory writes made\nthrough the invalidated translation were globally observed. A local\nattacker",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Linux",
-          "AWS"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "USN-8818-5: Linux kernel (NVIDIA Tegra) vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8818-5",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-09-30T14:04:56.000Z",
-      "summary": "It was discovered that some Arm processors could complete a broadcast\ntranslation lookaside buffer (TLB) invalidation before memory writes made\nthrough the invalidated translation were globally observed. A local\nattacker",
-      "categories": [
-        "Vulnerability",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "It was discovered that some Arm processors could complete a broadcast\ntranslation lookaside buffer (TLB) invalidation before memory writes made\nthrough the invalidated translation were globally observed. A local\nattacker",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Linux"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "AI's Third Wave: Coworkers Break the Security Model That Worked for Agents",
-      "link": "https://www.bleepingcomputer.com/news/security/ais-third-wave-coworkers-break-the-security-model-that-worked-for-agents/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-09-30T14:01:11.000Z",
-      "summary": "Persistent AI coworkers may operate continuously with standing access, creating identity risks that existing security models were not designed to handle. Token Security explains why these agents need their own identities",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Persistent AI coworkers may operate continuously with standing access, creating identity risks that existing security models were not designed to handle. Token Security explains why these agents need their own identities",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Mobile malware warning from Ukrainian researchers includes iPhone exploit kit",
-      "link": "https://therecord.media/ukraine-ssscip-mobile-malware-warning-ios-android",
-      "source": "The Record",
-      "publishedAt": "2026-09-30T14:00:00.000Z",
-      "summary": "'Hit and run' iPhone malware known as DarkSword is part of a wave of Russian attacks on iOS and Android devices, according to Ukraine's SSSCIP.",
-      "categories": [
-        "Malware",
-        "Vulnerability"
-      ],
-      "tags": [
-        "Android"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "'Hit and run' iPhone malware known as DarkSword is part of a wave of Russian attacks on iOS and Android devices, according to Ukraine's SSSCIP.",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Android"
-        ],
-        "action": "Monitor for indicators of compromise.",
         "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
@@ -2080,63 +2839,6 @@
       }
     },
     {
-      "title": "Microsoft to block Entra ID script injection attacks starting October",
-      "link": "https://www.bleepingcomputer.com/news/security/microsoft-to-block-entra-id-script-injection-attacks-starting-october/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-09-30T13:37:15.000Z",
-      "summary": "Microsoft has reminded customers that the Entra ID authentication system will get better protection against external script injection attacks starting next month. [...]",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has reminded customers that the Entra ID authentication system will get better protection against external script injection attacks starting next month. [...]",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "WatchGuard Patches Critical Fireware OS Code Injection Vulnerability",
-      "link": "https://www.securityweek.com/watchguard-patches-critical-fireware-os-code-injection-vulnerability/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-09-30T13:16:56.000Z",
-      "summary": "WatchGuard has rolled out patches for 15 code execution, DoS, authorization, and path traversal bugs in Fireware OS.\nThe post WatchGuard Patches Critical Fireware OS Code Injection Vulnerability appeared first on Securit",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "WatchGuard has released security updates addressing 15 vulnerabilities in its Fireware OS, including critical code injection and remote code execution flaws. The patch set also fixes denial-of-service, authorization, and path traversal bugs.",
-        "whyItMatters": "Unpatched firewall appliances are prime targets for attackers seeking to gain initial access and execute arbitrary code within enterprise networks.",
-        "affected": [
-          "WatchGuard Fireware OS"
-        ],
-        "action": "Apply the latest security patches to Fireware OS immediately.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Trump, Six AI Giants Sign 'Super Intelligence' Safety Accord",
       "link": "https://www.infosecurity-magazine.com/news/trump-ai-giants-super-intelligence/",
       "source": "Infosecurity Magazine",
@@ -2188,74 +2890,6 @@
           "Cisco Catalyst SD-WAN Manager"
         ],
         "action": "Check Cisco advisories and apply available patches or mitigations.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Government, Finance Orgs Targeted in Weeks-Long NetScaler Zero-Day Attacks",
-      "link": "https://www.securityweek.com/government-finance-orgs-targeted-in-weeks-long-netscaler-zero-day-attacks/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-09-30T12:48:20.000Z",
-      "summary": "Several security firms have confirmed seeing exploitation of the NetScaler vulnerabilities CVE-2026-88771 and CVE-2026-88772.\nThe post Government, Finance Orgs Targeted in Weeks-Long NetScaler Zero-Day Attacks appeared f",
-      "categories": [
-        "Zero Day",
-        "Vulnerability",
-        "Government"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-88771",
-        "CVE-2026-88772"
-      ],
-      "kev": true,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Government and financial organizations have been targeted in weeks-long zero-day attacks exploiting NetScaler vulnerabilities. Multiple security firms have confirmed active exploitation in the wild.",
-        "whyItMatters": "Active zero-day exploitation against critical sectors poses an immediate threat to organizational security and data integrity.",
-        "affected": [
-          "NetScaler"
-        ],
-        "action": "Apply available security patches or mitigations for NetScaler vulnerabilities immediately.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-88771",
-          "CVE-2026-88772"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Chrome, Firefox Updates Patch Over 100 Vulnerabilities",
-      "link": "https://www.securityweek.com/chrome-firefox-updates-patch-over-100-vulnerabilities/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-09-30T12:16:52.000Z",
-      "summary": "Some of the flaws could allow remote attackers to execute arbitrary code or escape the browser sandbox.\nThe post Chrome, Firefox Updates Patch Over 100 Vulnerabilities appeared first on SecurityWeek.",
-      "categories": [
-        "Vulnerability"
-      ],
-      "tags": [
-        "Chrome",
-        "Firefox"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Google and Mozilla have released browser updates to patch a combined total of over 100 vulnerabilities. Some of these flaws could potentially allow remote attackers to execute arbitrary code or escape the browser sandbox.",
-        "whyItMatters": "Unpatched browser vulnerabilities are frequently exploited by attackers to compromise user systems via malicious websites.",
-        "affected": [
-          "Google Chrome",
-          "Mozilla Firefox"
-        ],
-        "action": "Update your browser to the latest version immediately.",
         "risk": "Critical",
         "relatedCves": [],
         "source": "ai"
@@ -2324,34 +2958,6 @@
       }
     },
     {
-      "title": "Attackers Combine ChatGPT Feature Abuse With ClickFix to Deliver Trojan Malware",
-      "link": "https://www.infosecurity-magazine.com/news/chatgpt-feature-abuse-to-deliver/",
-      "source": "Infosecurity Magazine",
-      "publishedAt": "2026-09-30T11:30:00.000Z",
-      "summary": "Cybersecurity researchers at Huntress identify campaign to deliver potent trojan which targets users searching for ChatGPT via Google",
-      "categories": [
-        "Malware",
-        "Threat Intel",
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Cybersecurity researchers at Huntress have uncovered a campaign where attackers combine ChatGPT feature abuse with ClickFix tactics. This malicious activity is designed to deliver a potent trojan malware to unsuspecting users searching for ChatGPT on Google.",
-        "whyItMatters": "This campaign effectively exploits trusted AI tools and social engineering to compromise users searching for popular software.",
-        "affected": [],
-        "action": "Avoid downloading software or executing commands from suspicious Google search results.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Your car’s app could be telling Big Tech who you are and where you go",
       "link": "https://www.malwarebytes.com/blog/news/2026/09/your-cars-app-could-be-telling-big-tech-who-you-are-and-where-you-go",
       "source": "Malwarebytes Labs",
@@ -2372,32 +2978,6 @@
         "whyItMatters": "It exposes sensitive personal location and lifestyle data to third-party trackers without explicit user awareness.",
         "affected": [],
         "action": "Review privacy settings and permissions on your vehicle's companion mobile app.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Anthropic Flags AI Agent Liability Risks as OpenAI Faces Hacking Lawsuit",
-      "link": "https://www.securityweek.com/anthropic-flags-ai-agent-liability-risks-as-openai-faces-hacking-lawsuit/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-09-30T11:19:00.000Z",
-      "summary": "Attacks by autonomous AI agents are moving out of the lab and into the courtroom, raising unsettled questions about who is liable for what agents do.\nThe post Anthropic Flags AI Agent Liability Risks as OpenAI Faces Hack",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Anthropic has highlighted emerging liability risks associated with autonomous AI agents as these technologies transition into real-world legal disputes. Simultaneously, OpenAI is currently facing a hacking-related lawsuit, underscoring the growing legal and security challenges surrounding advanced artificial intelligence systems.",
-        "whyItMatters": "This trend highlights the urgent need for clear legal and security frameworks as autonomous AI agents become increasingly capable of causing real-world harm.",
-        "affected": [],
-        "action": "Monitor developments in AI liability and security regulations.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -2452,35 +3032,6 @@
           "Not specified"
         ],
         "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "More than half of UK businesses lack confidence in basic cyber skills",
-      "link": "https://www.theregister.com/security/2026/09/30/more-than-half-of-uk-businesses-lack-confidence-in-basic-cyber-skills/5299991",
-      "source": "The Register",
-      "publishedAt": "2026-09-30T10:04:53.000Z",
-      "summary": "Government survey puts the figure at 808k, says detecting and removing malware most common weakness",
-      "categories": [
-        "Malware",
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Government survey puts the figure at 808k, says detecting and removing malware most common weakness",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Monitor for indicators of compromise.",
         "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
@@ -2546,70 +3097,6 @@
       }
     },
     {
-      "title": "Apple Patches CoreGraphics Zero Day Exploited in Attacks",
-      "link": "https://www.infosecurity-magazine.com/news/apple-patches-coregraphics-zero/",
-      "source": "Infosecurity Magazine",
-      "publishedAt": "2026-09-30T08:45:00.000Z",
-      "summary": "Apple has patched CVE-2026-86950, a zero-day bug in the iOS CoreGraphics engine",
-      "categories": [
-        "Zero Day",
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Apple"
-      ],
-      "cves": [
-        "CVE-2026-86950"
-      ],
-      "kev": true,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Apple has patched CVE-2026-86950, a zero-day bug in the iOS CoreGraphics engine",
-        "whyItMatters": "Actively exploited or high-impact; treat as urgent.",
-        "affected": [
-          "Apple"
-        ],
-        "action": "Patch immediately.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-86950"
-        ],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "UK rail cops' £320K face-scanning spree nets zero matches",
-      "link": "https://www.theregister.com/security/2026/09/30/uk-rail-cops-320k-face-scanning-spree-nets-zero-matches/5299793",
-      "source": "The Register",
-      "publishedAt": "2026-09-30T08:30:00.000Z",
-      "summary": "British Transport Police’s six-month facial recognition pilot produced one alert, and it was a false positive",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "British Transport Police’s six-month facial recognition pilot produced one alert, and it was a false positive",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "This month in security with Tony Anscombe – September 2026 edition",
       "link": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-september-2026/",
       "source": "WeLiveSecurity",
@@ -2632,35 +3119,7 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Spectre bug is back, this time to haunt JIT engines",
-      "link": "https://www.theregister.com/security/2026/09/30/spectre-bug-is-back-this-time-to-haunt-jit-engines/5299937",
-      "source": "The Register",
-      "publishedAt": "2026-09-30T07:01:00.000Z",
-      "summary": "Researchers find a way to recover stale indirect branch prediction entries",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Researchers find a way to recover stale indirect branch prediction entries",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
         "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
@@ -2718,8 +3177,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -2894,33 +3353,6 @@
       }
     },
     {
-      "title": "Add one more AI worry to the nightmare scenario: self-replicating prompt injections",
-      "link": "https://www.theregister.com/security/2026/09/29/add-one-more-ai-worry-to-the-nightmare-scenario-self-replicating-prompt-injections/5299922",
-      "source": "The Register",
-      "publishedAt": "2026-09-29T21:34:39.000Z",
-      "summary": "It's a worm attack, AI-style",
-      "categories": [
-        "Malware",
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "Researchers have identified a new AI vulnerability involving self-replicating prompt injections that function similarly to traditional computer worms. This attack vector allows malicious prompts to spread autonomously across vulnerable AI systems.",
-        "whyItMatters": "This vulnerability introduces a mechanism for autonomous malware propagation within interconnected artificial intelligence environments.",
-        "affected": [],
-        "action": "Monitor AI systems for unauthorized prompt propagation and restrict inter-agent communication.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Apple Zero-Day Vulnerability Weaponized in Targeted Attacks",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/apple-zero-day-vulnerability-weaponized-targeted-attacks",
       "source": "Dark Reading",
@@ -3071,32 +3503,6 @@
       }
     },
     {
-      "title": "FBI to ShinyHunters: 'We know how to find you'",
-      "link": "https://www.theregister.com/security/2026/09/29/fbi-to-shinyhunters-we-know-how-to-find-you/5299901",
-      "source": "The Register",
-      "publishedAt": "2026-09-29T19:38:33.000Z",
-      "summary": "Federal cops have 'a very particular set of skills'",
-      "categories": [
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "The FBI issued a direct warning to the ShinyHunters cybercrime group, stating law enforcement knows how to track them down. This follows a history of high-profile data breaches and extortion linked to the threat actor.",
-        "whyItMatters": "It signals escalating federal law enforcement focus on prominent extortion syndicates.",
-        "affected": [],
-        "action": "Monitor for retaliatory cyberattacks or further law enforcement disclosures.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "US is looking to weave AI into critical infrastructure for cybersecurity, national cyber director says",
       "link": "https://cyberscoop.com/national-cyber-director-ai-critical-infrastructure-cybersecurity/",
       "source": "CyberScoop",
@@ -3120,64 +3526,6 @@
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
-      }
-    },
-    {
-      "title": "Custom malware used in Citrix 0-day attacks targeting govt, banks, professional services",
-      "link": "https://www.theregister.com/security/2026/09/29/custom-malware-used-in-citrix-0-day-attacks-targeting-govt-banks-professional-services/5299867",
-      "source": "The Register",
-      "publishedAt": "2026-09-29T17:49:45.000Z",
-      "summary": "Two questions remain: who is abusing the CVEs? And why did Citrix take so long to disclose?",
-      "categories": [
-        "Malware"
-      ],
-      "tags": [
-        "Citrix"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Custom malware has been deployed in zero-day attacks targeting government, financial, and professional services sectors through Citrix vulnerabilities. Key questions remain regarding the identity of the threat actors and the delayed disclosure by Citrix.",
-        "whyItMatters": "This campaign represents a severe supply-chain and infrastructure risk because it weaponizes zero-day exploits against high-value industry sectors.",
-        "affected": [
-          "Citrix products"
-        ],
-        "action": "Apply the latest vendor patches and monitor network traffic for indicators of compromise.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Cloudflare Announces Public Certificate Authority for the Post-Quantum Web",
-      "link": "https://www.darkreading.com/cloud-security/cloudflare-announces-public-certificate-authority-post-quantum-web",
-      "source": "Dark Reading",
-      "publishedAt": "2026-09-29T17:02:16.000Z",
-      "summary": "Automated certificates for everyone, built for today, and hardened for the era of quantum computing.",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Automated certificates for everyone, built for today, and hardened for the era of quantum computing.",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
       }
     },
     {
@@ -3236,33 +3584,6 @@
       }
     },
     {
-      "title": "RatHat's Evolving C2 Panel Points to Malware-as-a-Service Model",
-      "link": "https://www.infosecurity-magazine.com/news/rathat-c2-panel-malware-as-a/",
-      "source": "Infosecurity Magazine",
-      "publishedAt": "2026-09-29T14:30:00.000Z",
-      "summary": "RatHat's C2 panel now builds malware and ranks victims with AI across nearly 100 deployments",
-      "categories": [
-        "Malware",
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The RatHat command and control panel has evolved to include automated malware building and AI-driven victim ranking features. This platform has been detected across nearly 100 deployments, indicating a growing threat operation.",
-        "whyItMatters": "The adoption of AI and Malware-as-a-Service models by threat actors lowers the technical barrier to entry for conducting sophisticated cyberattacks.",
-        "affected": [],
-        "action": "Monitor network traffic for signatures associated with RatHat C2 infrastructure and block identified indicators of compromise.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Kiteworks lifts shutdown advisory after ‘credible threat intelligence’ from federal authorities",
       "link": "https://cyberscoop.com/kiteworks-lifts-shutdown-advisory-after-credible-threat-intelligence-from-federal-authorities/",
       "source": "CyberScoop",
@@ -3286,37 +3607,6 @@
         "affected": [],
         "action": "Update Kiteworks products to the latest patched version.",
         "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Amazon Bedrock AgentCore Flaws Could Expose AWS Credentials",
-      "link": "https://www.infosecurity-magazine.com/news/aws-agentcore-sdk-flaws-ai/",
-      "source": "Infosecurity Magazine",
-      "publishedAt": "2026-09-29T14:00:00.000Z",
-      "summary": "AWS AgentCore SDK flaws could let attackers run commands in AI sandboxes and reach AWS credentials",
-      "categories": [
-        "Cloud",
-        "AI Security"
-      ],
-      "tags": [
-        "AWS"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Flaws in the AWS AgentCore SDK could allow attackers to execute arbitrary commands within AI sandboxes. These vulnerabilities may potentially expose sensitive AWS credentials.",
-        "whyItMatters": "This flaw could allow unauthorized actors to compromise AI environments and gain access to high-privilege cloud credentials.",
-        "affected": [
-          "AWS AgentCore SDK"
-        ],
-        "action": "Update the AWS AgentCore SDK to the latest patched version.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -3772,62 +4062,6 @@
       }
     },
     {
-      "title": "Fake iPhone Duo preorder scam triggers DarkSword attack",
-      "link": "https://www.malwarebytes.com/blog/threat-intel/2026/09/fake-iphone-duo-preorder-scam-triggers-darksword-attack",
-      "source": "Malwarebytes Labs",
-      "publishedAt": "2026-09-29T09:56:49.000Z",
-      "summary": "A fake iPhone Duo preorder page promises a $500 voucher. Open it on a vulnerable iPhone, and it tries to break in before you fill out the form.",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A fake iPhone Duo preorder page promises a $500 voucher. Open it on a vulnerable iPhone, and it tries to break in before you fill out the form.",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Humans are reviewing Copilot users’ bizarre and abusive image-editing requests",
-      "link": "https://www.malwarebytes.com/blog/ai/2026/09/humans-are-reviewing-copilot-users-bizarre-and-abusive-image-editing-requests",
-      "source": "Malwarebytes Labs",
-      "publishedAt": "2026-09-29T09:27:30.000Z",
-      "summary": "Copilot users asked for upskirt images and sexualized edits of people in uploaded photos. Human contractors were asked to judge the results.",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Copilot users asked for upskirt images and sexualized edits of people in uploaded photos. Human contractors were asked to judge the results.",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Timeshare exit scams: From fake buyers to recovery fraud",
       "link": "https://www.welivesecurity.com/en/scams/timeshare-exit-scams-fake-buyers-recovery-scams/",
       "source": "WeLiveSecurity",
@@ -3905,37 +4139,6 @@
         "affected": [],
         "action": "Listen to the podcast for the latest daily threat intelligence updates.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Citrix patches actively exploited NetScaler zero-days after a weekend of unofficial warnings",
-      "link": "https://cyberscoop.com/citrix-zero-days-delayed-disclosure/",
-      "source": "CyberScoop",
-      "publishedAt": "2026-09-29T00:58:15.000Z",
-      "summary": "The vendor’s products are a common, recurring target for attackers, yet the official warning for some Citrix NetScaler customers was too late.\nThe post Citrix patches actively exploited NetScaler zero-days after a weeken",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Citrix"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Citrix has released patches to address actively exploited zero-day vulnerabilities in its NetScaler products. The vendor rushed out the fixes following a weekend of unofficial warnings regarding the security flaws.",
-        "whyItMatters": "Actively exploited zero-day vulnerabilities in perimeter network devices pose an immediate critical threat to enterprise network security.",
-        "affected": [
-          "Citrix NetScaler"
-        ],
-        "action": "Apply the latest vendor patches immediately.",
-        "risk": "Critical",
         "relatedCves": [],
         "source": "ai"
       }
@@ -4243,34 +4446,6 @@
       }
     },
     {
-      "title": "OpenAI pauses work on top AI models after agent slips past internet controls",
-      "link": "https://www.malwarebytes.com/blog/ai/2026/09/openai-pauses-work-on-top-ai-models-after-agent-slips-past-internet-controls",
-      "source": "Malwarebytes Labs",
-      "publishedAt": "2026-09-28T12:58:12.000Z",
-      "summary": "An OpenAI agent bypassed internet restrictions and kept running after an alert. It's another case of AI misalignment no one can afford to ignore.",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "An OpenAI agent bypassed internet restrictions and kept running after an alert. It's another case of AI misalignment no one can afford to ignore.",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Exploitation of vulnerabilities affecting Citrix NetScaler ADC and Citrix NetScaler Gateway",
       "link": "https://www.ncsc.gov.uk/news/exploitation-of-vulnerabilities-affecting-citrix-netscaler-adc-and-citrix-netscaler-gateway",
       "source": "NCSC UK",
@@ -4397,35 +4572,6 @@
           "CVE-2026-88771",
           "CVE-2026-88772"
         ],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "FBI agents’ blood tests and doctors’ notes surface after breach",
-      "link": "https://www.malwarebytes.com/blog/data-breaches/2026/09/fbi-agents-blood-tests-and-doctors-notes-surface-after-breach",
-      "source": "Malwarebytes Labs",
-      "publishedAt": "2026-09-28T09:28:31.000Z",
-      "summary": "A “shellfish and banana allergy” is among the details in medical records hackers showed reporters. They claim to hold records on thousands of FBI staff.",
-      "categories": [
-        "Incident Response",
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A “shellfish and banana allergy” is among the details in medical records hackers showed reporters. They claim to hold records on thousands of FBI staff.",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
         "source": "heuristic"
       }
     },
@@ -5055,35 +5201,6 @@
       }
     },
     {
-      "title": "The Not So Silent Miner: Threat Actor Compiles Cryptominer on the Endpoint",
-      "link": "https://www.huntress.com/blog/threat-actor-compiles-cryptominer",
-      "source": "Huntress",
-      "publishedAt": "2026-09-24T13:00:00.000Z",
-      "summary": "Threat actors exploited Samsung MagicINFO to install AnyDesk, disable Defender, and compile a Monero miner directly on a victim endpoint. Learn the detection signals.",
-      "categories": [
-        "Vulnerability",
-        "Threat Intel"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Threat actors exploited Samsung MagicINFO to install AnyDesk, disable Defender, and compile a Monero miner directly on a victim endpoint. Learn the detection signals.",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "When Business Email Compromise Starts Rewriting Reality",
       "link": "https://www.rapid7.com/blog/post/ve-business-email-compromise-rewriting-reality-zimbra-cve",
       "source": "Rapid7",
@@ -5680,34 +5797,6 @@
       }
     },
     {
-      "title": "GPT-6 Astra Breaks an Old Enigma Message",
-      "link": "https://www.schneier.com/blog/archives/2026/09/gpt-6-astra-breaks-an-old-enigma-message.html",
-      "source": "Schneier on Security",
-      "publishedAt": "2026-09-22T11:02:45.000Z",
-      "summary": "This is pretty amazing:\nHowever, the most astonishing thing about this break is that the GPT­6 Astra did it entirely on its own. Carter Leffer only directed GPT­6 Astra to see if it could break any of the unbroken Enigma",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "This is pretty amazing:\nHowever, the most astonishing thing about this break is that the GPT­6 Astra did it entirely on its own. Carter Leffer only directed GPT­6 Astra to see if it could break any of the unbroken Enigma",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "The Closed Quorum: Inside the first reported autonomous AI C2 implant",
       "link": "https://blog.talosintelligence.com/the-closed-quorum-inside-the-first-reported-autonomous-ai-c2-implant/",
       "source": "Talos Intelligence",
@@ -5734,147 +5823,6 @@
         ],
         "action": "Monitor for indicators of compromise.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Introducing CAIRN: Frontier tracking for AI-integrated malware",
-      "link": "https://blog.talosintelligence.com/introducing-cairn-frontier-tracking-for-ai-integrated-malware/",
-      "source": "Talos Intelligence",
-      "publishedAt": "2026-09-22T10:00:25.000Z",
-      "summary": "Talos is releasing CAIRN, a research toolkit for hunting, classifying, and tracking emerging AI-integrated malware.",
-      "categories": [
-        "Malware",
-        "AI Security",
-        "Research"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Talos is releasing CAIRN, a research toolkit for hunting, classifying, and tracking emerging AI-integrated malware.",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Monitor for indicators of compromise.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Looking for free Robux? Here’s what’s real, and what’s a scam",
-      "link": "https://www.welivesecurity.com/en/kids-online/looking-for-free-robux-heres-whats-real-whats-scam/",
-      "source": "WeLiveSecurity",
-      "publishedAt": "2026-09-22T09:00:00.000Z",
-      "summary": "Fake giveaways, free Robux generators and lookalike login pages all target the same thing – your Roblox account",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Cybercriminals are targeting Roblox users with fake giveaways, free Robux generators, and lookalike login pages. These deceptive tactics are designed to steal user credentials and compromise accounts.",
-        "whyItMatters": "This matters because Roblox's large young user base is particularly vulnerable to social engineering scams aimed at account theft.",
-        "affected": [],
-        "action": "Avoid clicking on links promising free Robux or using unofficial login pages.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "21st September – Threat Intelligence Report",
-      "link": "https://research.checkpoint.com/2026/21st-september-threat-intelligence-report/",
-      "source": "Check Point Research",
-      "publishedAt": "2026-09-21T23:13:07.000Z",
-      "summary": "For the latest discoveries in cyber research for the week of 21st Setpember, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Japan’s Digital Agency, which operates the Government Solution Servi",
-      "categories": [
-        "Research",
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "This threat intelligence report summarizes recent discoveries in cybersecurity research for the week of September 21st. It highlights top attacks and breaches, including an incident involving Japan's Digital Agency.",
-        "whyItMatters": "Staying informed about ongoing government breaches and threat intelligence helps organizations prepare for similar sophisticated attacks.",
-        "affected": [],
-        "action": "Download and review the full threat intelligence bulletin.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "One does not simply defend agentically",
-      "link": "https://www.ncsc.gov.uk/blogs/one-does-not-simply-defend-agentically",
-      "source": "NCSC UK",
-      "publishedAt": "2026-09-21T12:00:00.000Z",
-      "summary": "Defenders can’t use AI in the same way attackers can, but there’s much they can do to unlock the potential of agentic cyber defence.",
-      "categories": [
-        "AI Security",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Defenders can’t use AI in the same way attackers can, but there’s much they can do to unlock the potential of agentic cyber defence.",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Group Policy hijacked: PAYLOAD ransomware weaponizes Active Directory GPO",
-      "link": "https://securelist.com/tr/payload-ransomware-via-group-policy/121335/",
-      "source": "Kaspersky Securelist",
-      "publishedAt": "2026-09-21T10:00:40.000Z",
-      "summary": "Kaspersky GERT experts dive into the technical incident analysis of PAYLOAD ransomware: an encryptionless, binary-less operation that abused Active Directory mechanisms for managing Group Policy Objects.",
-      "categories": [
-        "Ransomware",
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "high",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Kaspersky GERT experts dive into the technical incident analysis of PAYLOAD ransomware: an encryptionless, binary-less operation that abused Active Directory mechanisms for managing Group Policy Objects.",
-        "whyItMatters": "Significant risk to affected systems; prioritize review.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Monitor for indicators of compromise.",
-        "risk": "High",
         "relatedCves": [],
         "source": "heuristic"
       }
