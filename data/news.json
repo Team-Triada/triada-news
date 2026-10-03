@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T00:28:19.999Z",
+  "updatedAt": "2026-10-03T06:29:03.769Z",
   "items": [
     {
       "title": "Friday Squid Blogging: EU is Trying to Fight Unregulated Squid Fishing",
@@ -1751,6 +1751,34 @@
         "affected": [],
         "action": "Listen to the podcast episode for the latest threat updates.",
         "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6534-2 webkit2gtk - regression update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00454.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-10-02T00:00:00.000Z",
+      "summary": "The webkit2gtk update released as DSA-6534-1 introduced two\nregressions that cause programs such as evolution or the Eclipse IDE\nto crash on startup in some cases.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6534-2",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Debian has issued a regression update, DSA-6534-2, for webkit2gtk to address issues introduced in a previous security release. This update fixes startup crashes affecting applications like evolution and the Eclipse IDE.",
+        "whyItMatters": "It matters because the previous security update inadvertently broke core desktop applications, making this fix necessary for system stability.",
+        "affected": [
+          "webkit2gtk"
+        ],
+        "action": "Update the webkit2gtk package immediately.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "ai"
       }
@@ -4258,36 +4286,6 @@
         "whyItMatters": "Unpatched vulnerabilities in widely used Adobe software can be exploited by attackers to compromise affected systems.",
         "affected": [],
         "action": "Check for and apply the latest Adobe security updates.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6533-1 firefox-esr - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00446.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-09-30T00:00:00.000Z",
-      "summary": "Multiple security issues have been found in the Mozilla Firefox web\nbrowser, which could potentially result in the execution of arbitrary\ncode, sandbox escape, information disclosure or privilege escalation.\n\nDebian foll",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Firefox"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Multiple security vulnerabilities have been discovered in the Mozilla Firefox ESR web browser. These flaws could potentially allow for arbitrary code execution, sandbox escapes, information disclosure, or privilege escalation.",
-        "whyItMatters": "Unpatched browser vulnerabilities can be exploited by attackers to compromise user systems and gain unauthorized access.",
-        "affected": [
-          "Mozilla Firefox ESR"
-        ],
-        "action": "Update the firefox-esr package to the latest security release.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
