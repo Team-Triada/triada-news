@@ -1,6 +1,42 @@
 {
-  "updatedAt": "2026-10-04T19:35:39.286Z",
+  "updatedAt": "2026-10-04T23:06:15.087Z",
   "items": [
+    {
+      "title": "Citrix patches NetScaler SAML zero-day exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-10-04T21:58:01.000Z",
+      "summary": "Citrix has released emergency updates for a new NetScaler denial-of-service vulnerability tracked as CVE-2026-88779 that has been exploited in zero-day attacks, with researchers investigating whether it can also be explo",
+      "categories": [
+        "Zero Day",
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Citrix"
+      ],
+      "cves": [
+        "CVE-2026-88779"
+      ],
+      "kev": true,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Citrix has released emergency updates to address a zero-day denial-of-service vulnerability affecting NetScaler products. Researchers are currently investigating the flaw, tracked as CVE-2026-88779, to determine if it can be exploited beyond current attacks.",
+        "whyItMatters": "This vulnerability is actively being exploited in the wild as a zero-day, posing an immediate threat to organizations using the affected software.",
+        "affected": [
+          "Citrix NetScaler"
+        ],
+        "action": "Apply the emergency updates provided by Citrix immediately.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-88779"
+        ],
+        "source": "ai"
+      }
+    },
     {
       "title": "Trump Names National Intelligence Director Jay Clayton to Lead a New Federal AI Task Force",
       "link": "https://www.securityweek.com/trump-names-national-intelligence-director-jay-clayton-to-lead-a-new-federal-ai-task-force/",
@@ -25,6 +61,42 @@
         "action": "Monitor updates regarding the federal AI task force's policies and leadership.",
         "risk": "News",
         "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/10/04/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-10-04T12:00:00.000Z",
+      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-88779 Citrix NetScaler Improper Restriction of Operations within the Bounds of",
+      "categories": [
+        "Vulnerability",
+        "Government",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Citrix"
+      ],
+      "cves": [
+        "CVE-2026-88779"
+      ],
+      "kev": true,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "CISA has added a new vulnerability affecting Citrix NetScaler to its Known Exploited Vulnerabilities Catalog. This addition is based on evidence that the flaw is actively being exploited in the wild.",
+        "whyItMatters": "Active exploitation of Citrix NetScaler devices poses a severe threat to enterprise network security and data confidentiality.",
+        "affected": [
+          "Citrix NetScaler"
+        ],
+        "action": "Review the KEV catalog and apply necessary mitigations for Citrix NetScaler.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-88779"
+        ],
         "source": "ai"
       }
     },
@@ -222,6 +294,63 @@
         "whyItMatters": "This campaign threatens national security and intellectual property by compromising key personnel shaping U.S. artificial intelligence policy.",
         "affected": [],
         "action": "Implement phishing-resistant multi-factor authentication and monitor for adversary-in-the-middle proxy techniques.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6542-1 ruby-rack-session - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00456.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-10-04T00:00:00.000Z",
+      "summary": "It was discovered that incorrect error handling in ruby-rack-session\nmay result in authentication bypass or privilege escalation in some\nsetups.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6542-1",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A security vulnerability has been discovered in ruby-rack-session due to incorrect error handling. This flaw could potentially allow attackers to achieve authentication bypass or privilege escalation in certain configurations.",
+        "whyItMatters": "It matters because flawed error handling in session management libraries can expose applications to unauthorized access and privilege escalation.",
+        "affected": [
+          "ruby-rack-session"
+        ],
+        "action": "Apply the latest security update for ruby-rack-session provided by your distributor.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6541-1 wireshark - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00455.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-10-04T00:00:00.000Z",
+      "summary": "Multiple vulnerabilities have been discocvered in Wireshark, a network\nprotocol analyzer which could result in denial of service or the\nexecution of arbitrary code.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6541-",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple vulnerabilities have been discovered in the Wireshark network protocol analyzer. These security flaws could potentially result in denial of service conditions or the execution of arbitrary code.",
+        "whyItMatters": "Exploitation of these vulnerabilities could allow attackers to crash the application or execute malicious code on affected systems.",
+        "affected": [
+          "Wireshark"
+        ],
+        "action": "Update Wireshark to the latest patched version.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -1094,32 +1223,6 @@
         "whyItMatters": "Misattributing AI failures to rogue behavior obscures the root cause and allows vendors to evade responsibility for security flaws.",
         "affected": [],
         "action": "Treat AI agents as untrusted and nondeterministic software.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "US sanctions Tren de Aragua gang members in ATM hacks crackdown",
-      "link": "https://www.bleepingcomputer.com/news/security/us-sanctions-tren-de-aragua-members-in-atm-jackpotting-crackdown/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-10-02T15:20:53.000Z",
-      "summary": "The U.S. Treasury Department has sanctioned eight members of the Venezuelan gang Tren de Aragua (TdA) for their role in the theft of millions of dollars in ATM jackpotting attacks across the United States. [...]",
-      "categories": [
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The U.S. Treasury Department has sanctioned eight members of the Venezuelan gang Tren de Aragua for orchestrating ATM jackpotting attacks. These cyber-enabled financial crimes resulted in the theft of millions of dollars across the United States.",
-        "whyItMatters": "It highlights the growing intersection of transnational organized crime and targeted cyberattacks on critical financial infrastructure.",
-        "affected": [],
-        "action": "Review physical and logical security measures for ATM infrastructure.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -3018,42 +3121,6 @@
       }
     },
     {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/10/01/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-10-01T12:00:00.000Z",
-      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-104286 Fortinet FortiMail Path Traversal Vulnerability\nThis type of vulnerabil",
-      "categories": [
-        "Vulnerability",
-        "Government",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Fortinet"
-      ],
-      "cves": [
-        "CVE-2026-104286"
-      ],
-      "kev": true,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CISA has added a new vulnerability affecting Fortinet FortiMail to its Known Exploited Vulnerabilities Catalog. The flaw is identified as a path traversal vulnerability actively being exploited in the wild.",
-        "whyItMatters": "Active exploitation in the wild indicates that threat actors are targeting this flaw, increasing the urgency for organizations to secure their systems.",
-        "affected": [
-          "Fortinet FortiMail"
-        ],
-        "action": "Apply the vendor-provided patch immediately.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-104286"
-        ],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Convincing Free Mobile phishing emails appear after data breach",
       "link": "https://www.malwarebytes.com/blog/threat-intel/2026/10/free-mobile-phishing-texts-appear-days-after-data-breach",
       "source": "Malwarebytes Labs",
@@ -3514,63 +3581,6 @@
       "readTimeMin": 1,
       "aiSummary": {
         "summary": "Multiple security issues were discovered in Thunderbird, which could\nresult in the execution of arbitrary code.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6536-1",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "DSA-6535-1 chromium - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00448.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-10-01T00:00:00.000Z",
-      "summary": "Security issues were discovered in Chromium which could result\nin the execution of arbitrary code, denial of service, or information\ndisclosure.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6535-1",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Security issues were discovered in Chromium which could result\nin the execution of arbitrary code, denial of service, or information\ndisclosure.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6535-1",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "DSA-6534-1 webkit2gtk - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00447.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-10-01T00:00:00.000Z",
-      "summary": "Several vulnerabilities have been discovered in the WebKitGTK web\nengine, that may lead to heap corruption, local privilege escalation,\nremote code execution, out-of-bounds memory access, cross-origin data\nleak and sandb",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several vulnerabilities have been discovered in the WebKitGTK web\nengine, that may lead to heap corruption, local privilege escalation,\nremote code execution, out-of-bounds memory access, cross-origin data\nleak and sandb",
         "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
         "affected": [
           "Not specified"
