@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T15:21:19.323Z",
+  "updatedAt": "2026-10-04T19:35:39.286Z",
   "items": [
     {
       "title": "Trump Names National Intelligence Director Jay Clayton to Lead a New Federal AI Task Force",
@@ -1520,6 +1520,42 @@
       }
     },
     {
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/10/02/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-10-02T12:00:00.000Z",
+      "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-102489 Zammad GmbH Zammad Session Fixation Vulnerability\nCVE-2026-102490 Zam",
+      "categories": [
+        "Vulnerability",
+        "Government",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-102489",
+        "CVE-2026-102490"
+      ],
+      "kev": true,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "CISA has added two actively exploited vulnerabilities to its Known Exploited Vulnerabilities Catalog. These include a session fixation vulnerability in Zammad GmbH Zammad and another partially specified vulnerability.",
+        "whyItMatters": "Inclusion in the KEV catalog indicates these flaws are actively targeted by threat actors in real-world attacks, elevating the urgency for remediation.",
+        "affected": [
+          "Zammad GmbH Zammad"
+        ],
+        "action": "Review the CISA KEV catalog and apply necessary patches for the listed vulnerabilities immediately.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-102489",
+          "CVE-2026-102490"
+        ],
+        "source": "ai"
+      }
+    },
+    {
       "title": "Crypto Scammers Hijack Microsoft’s Official X Account",
       "link": "https://www.securityweek.com/crypto-scammers-hijack-microsofts-official-x-account/",
       "source": "SecurityWeek",
@@ -2805,6 +2841,216 @@
         "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
+      }
+    },
+    {
+      "title": "Johnson Controls EasyIO Neo Series EC and CW Controllers",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-05",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-10-01T12:00:00.000Z",
+      "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker tointercept and read sensitive information, including credentials andsession data.\nThe following versions of Johnson Controls EasyIO",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A vulnerability in Johnson Controls EasyIO Neo Series EC and CW controllers could allow attackers to intercept and read sensitive information. This includes credentials and session data transmitted by the affected devices.",
+        "whyItMatters": "Exposing sensitive credentials and session data allows attackers to gain unauthorized access and potentially take control of building automation systems.",
+        "affected": [
+          "Johnson Controls EasyIO Neo Series EC Controllers",
+          "Johnson Controls EasyIO Neo Series CW Controllers"
+        ],
+        "action": "Check vendor advisories and apply available patches or mitigation steps.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Meari IoT Cloud Platform OpenAPI Service",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-06",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-10-01T12:00:00.000Z",
+      "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow attackers to manipulate device configurations, trigger unauthorized behaviors, and access sensitive information such as device credentials, o",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The Meari IoT Cloud Platform OpenAPI Service contains vulnerabilities that can be successfully exploited by attackers. These security flaws allow malicious actors to manipulate device configurations, trigger unauthorized behaviors, and access sensitive information like credentials.",
+        "whyItMatters": "This matters because compromised IoT cloud platforms can expose sensitive device data and allow unauthorized control over connected hardware.",
+        "affected": [],
+        "action": "Check vendor advisories for updates and apply necessary security patches.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Monta monta.app",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-02",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-10-01T12:00:00.000Z",
+      "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could enable attackers to gain unauthorized administrative control over vulnerable charging stations or disrupt charging services through denial-of-servi",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Vulnerabilities in Monta charging stations could allow attackers to gain unauthorized administrative control. Additionally, exploitation may lead to disruptions in charging services via denial-of-service conditions.",
+        "whyItMatters": "Compromise of electric vehicle charging infrastructure poses physical security, operational availability, and administrative access risks.",
+        "affected": [
+          "Monta charging stations"
+        ],
+        "action": "Check vendor advisories and apply available patches immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Armatura LLC Armatura One",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-01",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-10-01T12:00:00.000Z",
+      "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access to the database, execute arbitrary code on the host with the highest level of privilege, or gain cont",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Armatura LLC Armatura One contains vulnerabilities that can be successfully exploited by attackers. These flaws could allow unauthorized database access, arbitrary code execution on the host with highest privileges, or complete system control.",
+        "whyItMatters": "These critical vulnerabilities expose the entire host system and underlying database to full compromise by unauthorized attackers.",
+        "affected": [
+          "Armatura One"
+        ],
+        "action": "Apply the latest security updates or patches provided by the vendor.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "ABB Protection and Control IED Manager PCM600",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-03",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-10-01T12:00:00.000Z",
+      "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to escalate privileges or overwrite files.\nThe following versions of ABB Protection and Control IED Manager PCM600 are affected:\n",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple vulnerabilities in the ABB Protection and Control IED Manager PCM600 could allow an attacker to successfully exploit the system for privilege escalation or file overwriting. Specific affected product versions were not detailed in the provided advisory text.",
+        "whyItMatters": "Unaddressed privilege escalation and arbitrary file overwriting vulnerabilities in industrial control system management software can allow attackers to compromise critical operational technology environments.",
+        "affected": [
+          "ABB Protection and Control IED Manager PCM600"
+        ],
+        "action": "Check the vendor advisory for specific patched versions and apply the necessary updates.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Johnson Controls EasyIO Neo Series EC and CW Controllers",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-04",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-10-01T12:00:00.000Z",
+      "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to gain access to sensitive information that could be used to conduct further attacks against the system.\nThe following versions of ",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A vulnerability exists in Johnson Controls EasyIO Neo Series EC and CW Controllers that could allow attackers to access sensitive information. This unauthorized data exposure may enable malicious actors to facilitate further attacks against the affected system.",
+        "whyItMatters": "Exposing sensitive system information allows attackers to plan and execute subsequent, more severe compromises.",
+        "affected": [
+          "EasyIO Neo Series EC Controllers",
+          "EasyIO Neo Series CW Controllers"
+        ],
+        "action": "Review vendor advisories and apply available patches or mitigation steps.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/10/01/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-10-01T12:00:00.000Z",
+      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-104286 Fortinet FortiMail Path Traversal Vulnerability\nThis type of vulnerabil",
+      "categories": [
+        "Vulnerability",
+        "Government",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Fortinet"
+      ],
+      "cves": [
+        "CVE-2026-104286"
+      ],
+      "kev": true,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "CISA has added a new vulnerability affecting Fortinet FortiMail to its Known Exploited Vulnerabilities Catalog. The flaw is identified as a path traversal vulnerability actively being exploited in the wild.",
+        "whyItMatters": "Active exploitation in the wild indicates that threat actors are targeting this flaw, increasing the urgency for organizations to secure their systems.",
+        "affected": [
+          "Fortinet FortiMail"
+        ],
+        "action": "Apply the vendor-provided patch immediately.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-104286"
+        ],
+        "source": "ai"
       }
     },
     {
@@ -5521,256 +5767,6 @@
           "Burp Suite Turbo Intruder"
         ],
         "action": "Update Turbo Intruder to utilize HTTP/3 testing capabilities.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "How dynamic application security testing validates risk at runtime",
-      "link": "https://www.rapid7.com/blog/post/em-dynamic-application-security-testing-dast-validates-risk-at-runtime-idc-marketscape",
-      "source": "Rapid7",
-      "publishedAt": "2026-09-23T13:49:39.000Z",
-      "summary": "Security teams already have long queues of potential application vulnerabilities. The useful question is what happens next: can they see how a weakness behaves in a running application, reproduce the attack, and give dev",
-      "categories": [
-        "Vulnerability"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "This article discusses how dynamic application security testing helps security teams validate risks in running applications. It focuses on observing how weaknesses behave and enabling developers to reproduce attacks effectively.",
-        "whyItMatters": "It highlights the importance of runtime validation in prioritizing and addressing true application vulnerabilities.",
-        "affected": [],
-        "action": "Evaluate dynamic application security testing tools for runtime risk validation.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software SSL VPN Denial of Service Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftdvirtual-dos-MuenGnYR?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Adaptive%20Security%20Appliance%20and%20Secure%20Firewall%20Threat%20Defense%20Software%20SSL%20VPN%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
-      "source": "Cisco PSIRT",
-      "publishedAt": "2026-09-23T13:26:33.000Z",
-      "summary": "Update for September 16, 2026: The original 1.0 version of this advisory was specific to the Cisco Adaptive Security Virtual Appliance (ASAv) and Cisco Secure Firewall Threat Defense Virtual (FTDv) models. However, it wa",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Cisco"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Cisco has updated a security advisory regarding a Denial of Service vulnerability affecting the SSL VPN feature in Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense software. The scope of the advisory has been expanded beyond the initial virtual appliance models.",
-        "whyItMatters": "This vulnerability could allow attackers to cause a denial of service on critical network security infrastructure.",
-        "affected": [
-          "Cisco Secure Firewall Adaptive Security Appliance",
-          "Secure Firewall Threat Defense Software",
-          "Cisco Adaptive Security Virtual Appliance (ASAv)",
-          "Cisco Secure Firewall Threat Defense Virtual (FTDv)"
-        ],
-        "action": "Review the updated Cisco advisory and apply the recommended software updates.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-13762 and CVE-2026-13763 - Issue with HTTP/2 multi-frame request body inspection in AWS WAF",
-      "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-048-aws/",
-      "source": "AWS Security Bulletins",
-      "publishedAt": "2026-09-22T19:49:10.000Z",
-      "summary": "CVE-2026-13762 and CVE-2026-13763 - Issue with HTTP/2 multi-frame request body inspection in AWS WAF",
-      "categories": [
-        "Vulnerability",
-        "Cloud"
-      ],
-      "tags": [
-        "AWS"
-      ],
-      "cves": [
-        "CVE-2026-13762",
-        "CVE-2026-13763"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "AWS WAF has been found to have issues involving HTTP/2 multi-frame request body inspection, tracked as CVE-2026-13762 and CVE-2026-13763. These vulnerabilities involve flaws in how the web application firewall processes specific multi-frame HTTP/2 requests.",
-        "whyItMatters": "Flaws in AWS WAF can allow attackers to bypass security rules and potentially deliver malicious payloads to backend applications.",
-        "affected": [
-          "AWS WAF"
-        ],
-        "action": "Review AWS security advisories and apply any recommended configuration updates.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-13762",
-          "CVE-2026-13763"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-13769 – Insecure file permissions in AWS CLI",
-      "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-049-aws/",
-      "source": "AWS Security Bulletins",
-      "publishedAt": "2026-09-22T19:49:10.000Z",
-      "summary": "CVE-2026-13769 – Insecure file permissions in AWS CLI",
-      "categories": [
-        "Vulnerability",
-        "Cloud"
-      ],
-      "tags": [
-        "AWS"
-      ],
-      "cves": [
-        "CVE-2026-13769"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "A security vulnerability, tracked as CVE-2026-13769, has been identified involving insecure file permissions in the AWS CLI. This flaw could potentially allow unauthorized access to sensitive configuration or credential data stored locally.",
-        "whyItMatters": "Insecure file permissions on sensitive CLI tools can allow local attackers to compromise AWS credentials and gain unauthorized access to cloud resources.",
-        "affected": [
-          "AWS CLI"
-        ],
-        "action": "Update the AWS CLI to the latest patched version and review local file permissions.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-13769"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-15895: OS command injection in jsii-diff in AWS jsii",
-      "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-057-aws/",
-      "source": "AWS Security Bulletins",
-      "publishedAt": "2026-09-22T19:48:47.000Z",
-      "summary": "CVE-2026-15895: OS command injection in jsii-diff in AWS jsii",
-      "categories": [
-        "Vulnerability",
-        "Cloud"
-      ],
-      "tags": [
-        "AWS"
-      ],
-      "cves": [
-        "CVE-2026-15895"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "AWS jsii contains an OS command injection vulnerability identified as CVE-2026-15895 affecting the jsii-diff component. Attackers could potentially exploit this flaw to execute arbitrary OS commands.",
-        "whyItMatters": "This vulnerability could allow remote attackers to execute arbitrary system commands, leading to potential system compromise.",
-        "affected": [
-          "jsii-diff in AWS jsii"
-        ],
-        "action": "Update AWS jsii and the jsii-diff component to the latest patched version.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-15895"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "VU#738147: Vendor-signed UEFI Shell applications allow Secure Boot bypass",
-      "link": "https://kb.cert.org/vuls/id/738147",
-      "source": "CERT/CC",
-      "publishedAt": "2026-09-22T18:13:12.712Z",
-      "summary": "Overview\nVendor-signed UEFI Shell applications may allow an attacker to bypass Secure Boot protections by abusing commands such as mm (Memory Modify). On systems that trust the affected vendor’s certificate or include th",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Vendor-signed UEFI Shell applications contain a vulnerability that allows attackers to bypass Secure Boot protections. This bypass is achieved by abusing specific commands, such as mm (Memory Modify), on systems that trust the affected vendor's certificate.",
-        "whyItMatters": "It undermines the core trust model of Secure Boot by allowing malicious code execution during the boot process using legitimate, vendor-signed binaries.",
-        "affected": [],
-        "action": "Apply firmware updates and revoke affected vendor certificates.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "The Closed Quorum: Inside the first reported autonomous AI C2 implant",
-      "link": "https://blog.talosintelligence.com/the-closed-quorum-inside-the-first-reported-autonomous-ai-c2-implant/",
-      "source": "Talos Intelligence",
-      "publishedAt": "2026-09-22T10:00:58.000Z",
-      "summary": "CLOSEDQUORUM, a malware binary discovered through Cisco Talos’ CAIRN project, exhibits fully autonomous command and control (C2). It represents a shift in effort displacement for attackers, in which expanding portions of",
-      "categories": [
-        "Malware",
-        "AI Security"
-      ],
-      "tags": [
-        "Cisco"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Cisco Talos has discovered a malware binary named CLOSEDQUORUM through its CAIRN project. This software exhibits fully autonomous command and control capabilities, marking a significant shift in attacker methodology.",
-        "whyItMatters": "It represents the first reported instance of an autonomous AI C2 implant, indicating a major evolution in attacker capabilities.",
-        "affected": [],
-        "action": "Monitor threat intelligence feeds for indicators related to CLOSEDQUORUM.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Introducing CAIRN: Frontier tracking for AI-integrated malware",
-      "link": "https://blog.talosintelligence.com/introducing-cairn-frontier-tracking-for-ai-integrated-malware/",
-      "source": "Talos Intelligence",
-      "publishedAt": "2026-09-22T10:00:25.000Z",
-      "summary": "Talos is releasing CAIRN, a research toolkit for hunting, classifying, and tracking emerging AI-integrated malware.",
-      "categories": [
-        "Malware",
-        "AI Security",
-        "Research"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Cisco Talos has released CAIRN, a new research toolkit designed for hunting, classifying, and tracking emerging AI-integrated malware. The tool aims to help security professionals monitor and analyze the evolving landscape of artificial intelligence in malicious software.",
-        "whyItMatters": "It provides the cybersecurity community with specialized capabilities to track and defend against increasingly sophisticated AI-driven threats.",
-        "affected": [],
-        "action": "Evaluate the CAIRN toolkit for integration into your threat intelligence and malware analysis workflows.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
