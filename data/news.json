@@ -1,6 +1,32 @@
 {
-  "updatedAt": "2026-10-04T23:06:15.087Z",
+  "updatedAt": "2026-10-05T01:58:15.654Z",
   "items": [
+    {
+      "title": "TTY Logs and the Data it Captures, (Sun, Oct 4th)",
+      "link": "https://isc.sans.edu/diary/rss/33396",
+      "source": "SANS ISC",
+      "publishedAt": "2026-10-05T00:15:00.000Z",
+      "summary": "For an experiment, I created a script [1] that parses and send the TTY logs collected from actors or bots activity that run various commands after they successfully login the DShield sensor. Those TTY logs are sent daily",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A researcher created an experimental script to parse and daily transmit TTY logs capturing command activity from actors and bots on a DShield sensor. These logs provide insight into the specific commands executed by unauthorized users after successfully logging in.",
+        "whyItMatters": "It highlights how telemetry from honeypots can be automatically harvested to analyze post-compromise attacker behavior and botnet tactics.",
+        "affected": [],
+        "action": "Monitor sensor logs for unauthorized TTY activity.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Citrix patches NetScaler SAML zero-day exploited in attacks",
       "link": "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/",
@@ -294,63 +320,6 @@
         "whyItMatters": "This campaign threatens national security and intellectual property by compromising key personnel shaping U.S. artificial intelligence policy.",
         "affected": [],
         "action": "Implement phishing-resistant multi-factor authentication and monitor for adversary-in-the-middle proxy techniques.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6542-1 ruby-rack-session - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00456.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-10-04T00:00:00.000Z",
-      "summary": "It was discovered that incorrect error handling in ruby-rack-session\nmay result in authentication bypass or privilege escalation in some\nsetups.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6542-1",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A security vulnerability has been discovered in ruby-rack-session due to incorrect error handling. This flaw could potentially allow attackers to achieve authentication bypass or privilege escalation in certain configurations.",
-        "whyItMatters": "It matters because flawed error handling in session management libraries can expose applications to unauthorized access and privilege escalation.",
-        "affected": [
-          "ruby-rack-session"
-        ],
-        "action": "Apply the latest security update for ruby-rack-session provided by your distributor.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6541-1 wireshark - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00455.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-10-04T00:00:00.000Z",
-      "summary": "Multiple vulnerabilities have been discocvered in Wireshark, a network\nprotocol analyzer which could result in denial of service or the\nexecution of arbitrary code.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6541-",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Multiple vulnerabilities have been discovered in the Wireshark network protocol analyzer. These security flaws could potentially result in denial of service conditions or the execution of arbitrary code.",
-        "whyItMatters": "Exploitation of these vulnerabilities could allow attackers to crash the application or execute malicious code on affected systems.",
-        "affected": [
-          "Wireshark"
-        ],
-        "action": "Update Wireshark to the latest patched version.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -2183,120 +2152,6 @@
       }
     },
     {
-      "title": "DSA-6534-2 webkit2gtk - regression update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00454.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-10-02T00:00:00.000Z",
-      "summary": "The webkit2gtk update released as DSA-6534-1 introduced two\nregressions that cause programs such as evolution or the Eclipse IDE\nto crash on startup in some cases.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6534-2",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Debian has issued a regression update, DSA-6534-2, for webkit2gtk to address issues introduced in a previous security release. This update fixes startup crashes affecting applications like evolution and the Eclipse IDE.",
-        "whyItMatters": "It matters because the previous security update inadvertently broke core desktop applications, making this fix necessary for system stability.",
-        "affected": [
-          "webkit2gtk"
-        ],
-        "action": "Update the webkit2gtk package immediately.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6540-1 radsecproxy - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00453.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-10-02T00:00:00.000Z",
-      "summary": "It was discovered that incomplete validation of MS-PPPE packets in\nradsecproxy, a Radius protocol proxy, could result in denial of service\nor potentially the execution of arbitrary code.\n\n\nhttps://security-tracker.debian",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A security vulnerability has been discovered in radsecproxy, a Radius protocol proxy, due to incomplete validation of MS-PPPE packets. This flaw can lead to a denial of service or potentially the execution of arbitrary code.",
-        "whyItMatters": "It matters because attackers could exploit this vulnerability to crash the proxy service or execute arbitrary code on affected systems.",
-        "affected": [
-          "radsecproxy"
-        ],
-        "action": "Apply the security update provided by Debian (DSA-6540-1).",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6539-1 php-mongodb - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00452.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-10-02T00:00:00.000Z",
-      "summary": "Multiple security vulnerabilities have been discovered in the MongoDB\ndriver for PHP, which could result in information disclosure, PHP\nobjection injection or denial of service.\n\n\nhttps://security-tracker.debian.org/trac",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Multiple security vulnerabilities have been discovered in the MongoDB driver for PHP. These flaws could potentially lead to information disclosure, object injection, or denial of service conditions.",
-        "whyItMatters": "Unpatched vulnerabilities in database drivers can allow attackers to compromise application data, execute arbitrary code, or disrupt service availability.",
-        "affected": [
-          "php-mongodb"
-        ],
-        "action": "Update the php-mongodb driver to the latest secured version.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6538-1 redis - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00451.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-10-02T00:00:00.000Z",
-      "summary": "Multiple vulnerabilities were discovered in Redis, a persistent key-value\ndatabase, which could result in denial of service or the execution of\narbitrary code.\n\nThis update also includes fixes for several related issues ",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Multiple vulnerabilities were discovered in Redis, a persistent key-value\ndatabase, which could result in denial of service or the execution of\narbitrary code.\n\nThis update also includes fixes for several related issues",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Alleged KillSec Ransomware Mastermind a 16-Year-Old",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/killsec-ransomware-mastermind-16-year-old",
       "source": "Dark Reading",
@@ -3536,62 +3391,6 @@
       }
     },
     {
-      "title": "DSA-6537-1 libpng1.6 - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00450.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-10-01T00:00:00.000Z",
-      "summary": "A use-after-free was discovered in libpng, a library implementing an\ninterface for reading and writing PNG (Portable Network Graphics), which\ncould result in denial of service.\n\n\nhttps://security-tracker.debian.org/track",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A use-after-free was discovered in libpng, a library implementing an\ninterface for reading and writing PNG (Portable Network Graphics), which\ncould result in denial of service.\n\n\nhttps://security-tracker.debian.org/track",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "DSA-6536-1 thunderbird - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00449.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-10-01T00:00:00.000Z",
-      "summary": "Multiple security issues were discovered in Thunderbird, which could\nresult in the execution of arbitrary code.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6536-1",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Multiple security issues were discovered in Thunderbird, which could\nresult in the execution of arbitrary code.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6536-1",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "OpenAI reveals ‘novel’ encryption bypass used in distillation attack",
       "link": "https://cyberscoop.com/openai-moonshot-ai-model-distillation-attack/",
       "source": "CyberScoop",
@@ -4728,32 +4527,6 @@
       }
     },
     {
-      "title": "ISC Stormcast For Tuesday, September 29th, 2026 (Tue, Sep 29th)",
-      "link": "https://isc.sans.edu/diary/rss/33378",
-      "source": "SANS ISC",
-      "publishedAt": "2026-09-29T02:00:02.000Z",
-      "summary": "ISC Stormcast For Tuesday, September 29th, 2026 https://isc.sans.edu/podcastdetail/10114, (Tue, Sep 29th)",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "This episode of the ISC Stormcast provides daily cybersecurity threat briefings and analysis. The podcast covers recent developments and observations in the threat landscape for September 29th, 2026.",
-        "whyItMatters": "Staying informed on daily threat intelligence helps security professionals anticipate and mitigate emerging cyber risks.",
-        "affected": [],
-        "action": "Listen to the podcast for the latest daily threat intelligence updates.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix",
       "link": "https://www.huntress.com/blog/chatgpt-custom-gpts-clickfix-rat",
       "source": "Huntress",
@@ -5777,6 +5550,254 @@
           "Burp Suite Turbo Intruder"
         ],
         "action": "Update Turbo Intruder to utilize HTTP/3 testing capabilities.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "How dynamic application security testing validates risk at runtime",
+      "link": "https://www.rapid7.com/blog/post/em-dynamic-application-security-testing-dast-validates-risk-at-runtime-idc-marketscape",
+      "source": "Rapid7",
+      "publishedAt": "2026-09-23T13:49:39.000Z",
+      "summary": "Security teams already have long queues of potential application vulnerabilities. The useful question is what happens next: can they see how a weakness behaves in a running application, reproduce the attack, and give dev",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Security teams struggle with long queues of potential application vulnerabilities and need ways to see how weaknesses behave at runtime. Dynamic application security testing helps validate these risks by allowing teams to reproduce attacks and assist developers.",
+        "whyItMatters": "It explains the value of dynamic application security testing in helping teams validate and prioritize risks in running applications.",
+        "affected": [],
+        "action": "Implement dynamic application security testing to validate runtime risks.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software SSL VPN Denial of Service Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftdvirtual-dos-MuenGnYR?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Adaptive%20Security%20Appliance%20and%20Secure%20Firewall%20Threat%20Defense%20Software%20SSL%20VPN%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
+      "source": "Cisco PSIRT",
+      "publishedAt": "2026-09-23T13:26:33.000Z",
+      "summary": "Update for September 16, 2026: The original 1.0 version of this advisory was specific to the Cisco Adaptive Security Virtual Appliance (ASAv) and Cisco Secure Firewall Threat Defense Virtual (FTDv) models. However, it wa",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Cisco"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Cisco has updated a security advisory regarding a Denial of Service vulnerability in the SSL VPN of Secure Firewall Adaptive Security Appliance and Threat Defense software. The issue initially affected specific virtual appliance models before the scope was expanded.",
+        "whyItMatters": "Unauthenticated attackers could exploit this vulnerability to cause a denial of service by crashing the SSL VPN service.",
+        "affected": [
+          "Cisco Adaptive Security Virtual Appliance (ASAv)",
+          "Cisco Secure Firewall Threat Defense Virtual (FTDv)"
+        ],
+        "action": "Apply the latest updates provided by Cisco to mitigate the vulnerability.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-13762 and CVE-2026-13763 - Issue with HTTP/2 multi-frame request body inspection in AWS WAF",
+      "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-048-aws/",
+      "source": "AWS Security Bulletins",
+      "publishedAt": "2026-09-22T19:49:10.000Z",
+      "summary": "CVE-2026-13762 and CVE-2026-13763 - Issue with HTTP/2 multi-frame request body inspection in AWS WAF",
+      "categories": [
+        "Vulnerability",
+        "Cloud"
+      ],
+      "tags": [
+        "AWS"
+      ],
+      "cves": [
+        "CVE-2026-13762",
+        "CVE-2026-13763"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "AWS WAF has identified issues designated as CVE-2026-13762 and CVE-2026-13763 involving HTTP/2 multi-frame request body inspection. These vulnerabilities affect how web application firewall rules analyze specific multi-frame HTTP/2 traffic payloads.",
+        "whyItMatters": "Flaws in HTTP/2 request body inspection could allow malicious traffic to bypass security controls and reach protected backend applications.",
+        "affected": [
+          "AWS WAF"
+        ],
+        "action": "Review AWS security advisories and apply any recommended updates or rule adjustments.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-13762",
+          "CVE-2026-13763"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-13769 – Insecure file permissions in AWS CLI",
+      "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-049-aws/",
+      "source": "AWS Security Bulletins",
+      "publishedAt": "2026-09-22T19:49:10.000Z",
+      "summary": "CVE-2026-13769 – Insecure file permissions in AWS CLI",
+      "categories": [
+        "Vulnerability",
+        "Cloud"
+      ],
+      "tags": [
+        "AWS"
+      ],
+      "cves": [
+        "CVE-2026-13769"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "An insecure file permissions vulnerability has been identified in the AWS CLI, tracked as CVE-2026-13769. This flaw could potentially allow unauthorized users to access sensitive configuration or credential data stored by the tool.",
+        "whyItMatters": "Flaws in command-line interface tools can expose sensitive cloud credentials, leading to potential unauthorized access to enterprise cloud environments.",
+        "affected": [
+          "AWS CLI"
+        ],
+        "action": "Update the AWS CLI to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-13769"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-15895: OS command injection in jsii-diff in AWS jsii",
+      "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-057-aws/",
+      "source": "AWS Security Bulletins",
+      "publishedAt": "2026-09-22T19:48:47.000Z",
+      "summary": "CVE-2026-15895: OS command injection in jsii-diff in AWS jsii",
+      "categories": [
+        "Vulnerability",
+        "Cloud"
+      ],
+      "tags": [
+        "AWS"
+      ],
+      "cves": [
+        "CVE-2026-15895"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "A security vulnerability identified as CVE-2026-15895 involves an OS command injection flaw present in the jsii-diff component of AWS jsii. This vulnerability could allow attackers to execute arbitrary commands on the underlying operating system.",
+        "whyItMatters": "Unauthenticated OS command injection flaws can lead to total system compromise and unauthorized access to affected development environments.",
+        "affected": [
+          "AWS jsii jsii-diff"
+        ],
+        "action": "Update AWS jsii to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-15895"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "VU#738147: Vendor-signed UEFI Shell applications allow Secure Boot bypass",
+      "link": "https://kb.cert.org/vuls/id/738147",
+      "source": "CERT/CC",
+      "publishedAt": "2026-09-22T18:13:12.712Z",
+      "summary": "Overview\nVendor-signed UEFI Shell applications may allow an attacker to bypass Secure Boot protections by abusing commands such as mm (Memory Modify). On systems that trust the affected vendor’s certificate or include th",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Vendor-signed UEFI Shell applications contain a vulnerability that permits attackers to bypass Secure Boot protections. This bypass is achieved by exploiting specific commands like mm (Memory Modify) on systems trusting the affected vendor's certificate.",
+        "whyItMatters": "This vulnerability undermines the root of trust established by Secure Boot, potentially allowing unauthorized and malicious firmware or operating systems to execute during boot.",
+        "affected": [],
+        "action": "Revoke trust in affected vendor certificates and update UEFI firmware.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "The Closed Quorum: Inside the first reported autonomous AI C2 implant",
+      "link": "https://blog.talosintelligence.com/the-closed-quorum-inside-the-first-reported-autonomous-ai-c2-implant/",
+      "source": "Talos Intelligence",
+      "publishedAt": "2026-09-22T10:00:58.000Z",
+      "summary": "CLOSEDQUORUM, a malware binary discovered through Cisco Talos’ CAIRN project, exhibits fully autonomous command and control (C2). It represents a shift in effort displacement for attackers, in which expanding portions of",
+      "categories": [
+        "Malware",
+        "AI Security"
+      ],
+      "tags": [
+        "Cisco"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Cisco Talos' CAIRN project discovered CLOSEDQUORUM, a malware binary that features fully autonomous command and control capabilities. This novel implant marks a significant shift in how attackers utilize autonomous systems for malicious operations.",
+        "whyItMatters": "It represents the first reported instance of an autonomous AI C2 implant, signaling a new era of self-managing malware.",
+        "affected": [],
+        "action": "Monitor network traffic for anomalous autonomous command and control behavior associated with CAIRN project findings.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Introducing CAIRN: Frontier tracking for AI-integrated malware",
+      "link": "https://blog.talosintelligence.com/introducing-cairn-frontier-tracking-for-ai-integrated-malware/",
+      "source": "Talos Intelligence",
+      "publishedAt": "2026-09-22T10:00:25.000Z",
+      "summary": "Talos is releasing CAIRN, a research toolkit for hunting, classifying, and tracking emerging AI-integrated malware.",
+      "categories": [
+        "Malware",
+        "AI Security",
+        "Research"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Cisco Talos has released CAIRN, a new research toolkit designed for hunting, classifying, and tracking emerging AI-integrated malware. The tool aims to help security professionals monitor and analyze the evolving threat landscape surrounding artificial intelligence in cyberattacks.",
+        "whyItMatters": "It provides defenders with essential capabilities to track sophisticated malware that leverages artificial intelligence before widespread exploitation occurs.",
+        "affected": [],
+        "action": "Review the CAIRN toolkit documentation for threat hunting capabilities.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
