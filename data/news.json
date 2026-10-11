@@ -1,6 +1,33 @@
 {
-  "updatedAt": "2026-10-11T14:00:06.904Z",
+  "updatedAt": "2026-10-11T18:51:55.540Z",
   "items": [
+    {
+      "title": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
+      "link": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-10-11T14:23:46.000Z",
+      "summary": "Daiichi Kosho, a major Japanese entertainment system maker, disclosed that a malware infection at its contractor, Nippon Columbia, exposed more than 8.7 million customer and employee records. [...]",
+      "categories": [
+        "Malware",
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Daiichi Kosho disclosed that a malware infection at its contractor, Nippon Columbia, compromised over 8.7 million customer and employee records. The leaked data involves users of their karaoke systems and associated services.",
+        "whyItMatters": "This massive data breach exposes millions of individuals to potential identity theft and targeted phishing attacks.",
+        "affected": [],
+        "action": "Monitor personal accounts for suspicious activity and remain vigilant against potential phishing attempts.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "AI systems are fully capable of carrying out nightmare attacks against infrastructure and nobody's ready",
       "link": "https://www.theregister.com/security/2026/10/11/ai-systems-are-fully-capable-of-carrying-out-nightmare-attacks-against-infrastructure-and-nobodys-ready/5302450",
@@ -49,6 +76,35 @@
         "affected": [],
         "action": "Review upcoming patch schedules and verify vendor security postures.",
         "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6552-1 vips - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00466.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-10-11T00:00:00.000Z",
+      "summary": "Several vulnerabilities have been discovered in vips, a fast image\nprocessing library. These vulnerabilities could result in denial of service,\nmemory safety issues, or other security impact when processing specially\ncra",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Several vulnerabilities have been discovered in the vips fast image processing library. These security issues could potentially lead to denial of service or memory safety problems.",
+        "whyItMatters": "Attackers could exploit these flaws to cause crashes or impact system stability when processing untrusted images.",
+        "affected": [
+          "vips"
+        ],
+        "action": "Update the vips package to the latest patched version.",
+        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -316,6 +372,35 @@
         "affected": [],
         "action": "Monitor ongoing investigative updates regarding the ShinyHunters hacking group.",
         "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6551-1 tor - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00465.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-10-10T00:00:00.000Z",
+      "summary": "Multiple security vulnerabilities were discovered in Tor, a connection-\nbased low-latency anonymous communication system.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6551-1",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple security vulnerabilities have been discovered in Tor, a connection-based low-latency anonymous communication system. Debian has released a security update to address these issues in the affected packages.",
+        "whyItMatters": "Unpatched vulnerabilities in Tor could compromise the anonymity and security of communications for its users.",
+        "affected": [
+          "Tor"
+        ],
+        "action": "Update the Tor package to the latest security version.",
+        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -1020,32 +1105,6 @@
         "affected": [],
         "action": "Report any information regarding the whereabouts of the named suspect to the US State Department.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "How to keep AI agents within their permissions",
-      "link": "https://www.bleepingcomputer.com/news/security/how-to-keep-ai-agents-within-their-permissions/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-10-09T14:01:11.000Z",
-      "summary": "AI agents can use valid credentials to perform actions beyond their assigned permissions, creating risks that traditional access controls may not prevent. Token Security explains how organizations can enforce agent-speci",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "AI agents can use valid credentials to perform unauthorized actions that bypass traditional access controls, creating significant security risks. Token Security offers guidance on how organizations can properly enforce agent-specific permissions.",
-        "whyItMatters": "Unrestricted AI agents can exploit valid credentials to access sensitive data and systems beyond their intended scope.",
-        "affected": [],
-        "action": "Enforce strict permission boundaries for all AI agents.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -5270,64 +5329,6 @@
         ],
         "action": "Review the new Falcon Cloud Security features to determine their applicability to your environment.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6544-1 sabnzbdplus - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00458.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-10-05T00:00:00.000Z",
-      "summary": "Multiple security vulnerabilities were discocered in the web UI of the\nSABnzbd+ binary news reader/grabber, which could result in the execution\nof arbitrary code or authorisation bypass.\n\n\nhttps://security-tracker.debian",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Multiple security vulnerabilities were discovered in the web UI of the SABnzbd+ binary news reader and grabber. These flaws could potentially allow attackers to execute arbitrary code or bypass authorization mechanisms.",
-        "whyItMatters": "Unauthenticated attackers could exploit these vulnerabilities to compromise the affected system or gain unauthorized access to the application.",
-        "affected": [
-          "sabnzbd+"
-        ],
-        "action": "Apply the latest security updates provided by your distribution.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6543-1 libreoffice - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00457.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-10-05T00:00:00.000Z",
-      "summary": "Multiple security vulnerabilities were discovered in LibreOffice, which\ncould result in denial of service, information disclosure or the\nexecution of arbitrary code if malformed document files are opened.\n\n\nhttps://secur",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Multiple security vulnerabilities have been discovered in LibreOffice that could lead to denial of service, information disclosure, or arbitrary code execution. These issues are triggered when a user opens specially crafted, malformed document files.",
-        "whyItMatters": "Exploiting these vulnerabilities could allow attackers to compromise affected systems or expose sensitive data simply by tricking a user into opening a malicious file.",
-        "affected": [
-          "LibreOffice"
-        ],
-        "action": "Update LibreOffice to the latest patched version provided by your vendor.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
