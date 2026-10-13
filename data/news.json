@@ -1,6 +1,433 @@
 {
-  "updatedAt": "2026-10-13T02:01:59.455Z",
+  "updatedAt": "2026-10-13T09:24:43.354Z",
   "items": [
+    {
+      "title": "GitLab admins urged to patch critical RCE flaw (CVE-2026-97229)",
+      "link": "https://www.helpnetsecurity.com/2026/10/13/gitlab-ci-cd-regular-expression-compiler-vulnerability-cve-2026-97229/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-10-13T09:19:45.000Z",
+      "summary": "GitLab is urging users of self-managed instances to patch a critical vulnerability (CVE-2026-97229) in its CI/CD Regular Expression Compiler that could allow remote attackers to execute arbitrary code on GitLab servers. ",
+      "categories": [
+        "Vulnerability",
+        "Open Source"
+      ],
+      "tags": [
+        "GitLab"
+      ],
+      "cves": [
+        "CVE-2026-97229"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "GitLab is urging users of self-managed instances to patch a critical vulnerability (CVE-2026-97229) in its CI/CD Regular Expression Compiler that could allow remote attackers to execute arbitrary code on GitLab servers. ",
+        "whyItMatters": "Actively exploited or high-impact; treat as urgent.",
+        "affected": [
+          "GitLab"
+        ],
+        "risk": "Critical",
+        "action": "Patch immediately.",
+        "relatedCves": [
+          "CVE-2026-97229"
+        ],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "npm Trusted Publishing flaw exposed 1,500+ npm packages to takeover",
+      "link": "https://www.helpnetsecurity.com/2026/10/13/slugfest-npm-trusted-publishing-flaw/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-10-13T09:00:08.000Z",
+      "summary": "Bloom Security researchers found that npm’s Trusted Publishing feature let an attacker push new versions of someone else’s package without stealing a credential. The attacker only needed to register a GitHub repository n",
+      "categories": [
+        "Vulnerability",
+        "Incident Response",
+        "Open Source"
+      ],
+      "tags": [
+        "GitHub"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Researchers at Bloom Security discovered a flaw in npm's Trusted Publishing feature that allowed attackers to push malicious updates to other users' packages without needing credentials. By simply registering a specific GitHub repository, unauthorized actors could potentially execute package takeovers.",
+        "whyItMatters": "This vulnerability undermines the integrity of the npm ecosystem by bypassing traditional authentication mechanisms, exposing over 1,500 packages to supply chain attacks.",
+        "affected": [
+          "npm packages using Trusted Publishing"
+        ],
+        "action": "Review npm package publishing configurations and monitor for unauthorized repository bindings.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Fifth of CISOs Take Time Off to Avoid Patch Tuesday",
+      "link": "https://www.infosecurity-magazine.com/news/fifth-cisos-take-time-off-avoid/",
+      "source": "Infosecurity Magazine",
+      "publishedAt": "2026-10-13T09:00:00.000Z",
+      "summary": "Socura report claims CISOs are calling in sick or taking holiday to miss Patch Tuesday",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A recent Socura report reveals that a fifth of CISOs take time off, such as calling in sick or taking holiday, to avoid Patch Tuesday. This highlights the immense stress and fatigue security leaders face regarding the relentless cycle of vulnerability management.",
+        "whyItMatters": "It highlights severe burnout and avoidance behaviors among security leadership due to the overwhelming volume of updates.",
+        "affected": [],
+        "action": "Evaluate your organization's patch management workflow to reduce team burnout.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Attackers Heat French Supermarket Fridges Up to 50°C by Hijacking Danfoss Controllers",
+      "link": "https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-10-13T08:48:41.000Z",
+      "summary": "Attackers took remote control of fridges and freezers at hundreds of French supermarkets on the night of October 11 and warmed them, forcing stores to throw food away, several retail chains said.\n\nThe attackers reached t",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Attackers took remote control of fridges and freezers at hundreds of French supermarkets on the night of October 11 and warmed them, forcing stores to throw food away, several retail chains said.\n\nThe attackers reached t",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Two Critical MarkLogic Flaws Could Give Delegated Managers Persistent Admin Control",
+      "link": "https://thehackernews.com/2026/10/two-critical-marklogic-flaws-could-give.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-10-13T08:44:01.000Z",
+      "summary": "Two of 31 newly disclosed flaws in Progress Software's MarkLogic Server database could let an account given only some management privileges take administrator control of the server, the company says.\n\nProgress published ",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Progress Software has disclosed 31 vulnerabilities in its MarkLogic Server database, including two critical flaws. These specific flaws could allow accounts with limited management privileges to escalate their access and gain persistent administrator control.",
+        "whyItMatters": "This vulnerability allows lower-privileged users to achieve full administrative takeover of critical database servers, leading to potential complete system compromise.",
+        "affected": [
+          "MarkLogic Server"
+        ],
+        "action": "Apply the latest security patches provided by Progress Software immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "GitLab Patches CVSS 10.0 Flaw That Could Let Unauthenticated Users Run Server Code",
+      "link": "https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-10-13T08:43:37.000Z",
+      "summary": "GitLab has released patches for a maximum-severity security flaw impacting its Community Edition (CE) and Enterprise Edition (EE) software that could result in arbitrary code execution.\n\n\"GitLab has remediated an issue t",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory",
+        "Open Source"
+      ],
+      "tags": [
+        "GitLab"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "GitLab has released patches for a maximum-severity security flaw impacting its Community Edition (CE) and Enterprise Edition (EE) software that could result in arbitrary code execution.\n\n\"GitLab has remediated an issue t",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "GitLab"
+        ],
+        "risk": "News",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Refrigeration Controller Hack Spoils Food Across European Supermarkets",
+      "link": "https://www.securityweek.com/refrigeration-controller-hack-spoils-food-across-european-supermarkets/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-10-13T08:28:51.000Z",
+      "summary": "A cyberattack targeted refrigeration controllers, setting refrigerators and freezers across hundreds of supermarkets to defrost.\nThe post Refrigeration Controller Hack Spoils Food Across European Supermarkets appeared fi",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A cyberattack targeted refrigeration controllers across hundreds of European supermarkets, causing freezers and refrigerators to defrost. The incident resulted in widespread food spoilage in the affected stores.",
+        "whyItMatters": "This attack demonstrates how physical infrastructure and supply chain operations can be disrupted through remote cyber threats.",
+        "affected": [],
+        "action": "Secure refrigeration controllers with strong authentication and monitor for unauthorized access.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "GTA 6 leaker threatens to release full playable version of game ahead of official launch",
+      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/gta-6-leaker-threatens-release-full-game",
+      "source": "Graham Cluley",
+      "publishedAt": "2026-10-13T08:20:56.000Z",
+      "summary": "The hacker behind a high-profile string of leaks involving the upcoming release of the Grand Theft Auto (GTA) 6 videogame has threatened to release a complete, playable build.\r\n\r\n\r\nRead more in my article on the Hot for ",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The hacker responsible for previous high-profile leaks involving the unreleased Grand Theft Auto 6 video game has issued a new threat to release a complete, playable build. This development highlights ongoing intellectual property security challenges within the gaming industry.",
+        "whyItMatters": "This incident underscores the severe risk of insider threats and unauthorized access facing high-value intellectual property and pre-release software.",
+        "affected": [],
+        "action": "Monitor internal access controls and endpoint security.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Scammers know your name, and they’re counting on you to reply",
+      "link": "https://www.malwarebytes.com/blog/threat-intel/2026/10/your-whos-this-reply-is-exactly-what-text-scammers-want",
+      "source": "Malwarebytes Labs",
+      "publishedAt": "2026-10-13T07:30:51.000Z",
+      "summary": "Every reply to a scam text tells cybercriminals your number is active, which makes it worth more on the dark web and a better target for fraud.",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Replying to scam text messages confirms to cybercriminals that your phone number is active and monitored. This verification increases the value of your contact information on the dark web and makes you a primary target for future fraud.",
+        "whyItMatters": "Engaging with spam texts validates your phone number, leading to an increase in targeted phishing and financial scams.",
+        "affected": [],
+        "action": "Do not reply to unknown or suspicious text messages.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "VMware is pushing so many patches, it thinks users need new tools to manage the flood",
+      "link": "https://www.theregister.com/virtualization/2026/10/13/vmware-is-pushing-so-many-patches-it-thinks-users-need-new-tools-to-manage-the-flood-1/5302172",
+      "source": "The Register",
+      "publishedAt": "2026-10-13T07:01:00.000Z",
+      "summary": "It's 2026 and Virtzilla reckons it's OK to pay for MFA",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "VMware"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "VMware is releasing a high volume of security patches, prompting the need for new management tools to handle the updates. The article also touches on monetization practices regarding multi-factor authentication.",
+        "whyItMatters": "Managing frequent security patches is becoming increasingly complex and burdensome for organizations relying on VMware products.",
+        "affected": [
+          "VMware products"
+        ],
+        "action": "Review current VMware patch management processes.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Low-Cost Android Phones Ship With Preinstalled Malware That Turns Them Into Residential Proxies",
+      "link": "https://thehackernews.com/2026/10/low-cost-android-phones-ship-with.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-10-13T06:00:11.000Z",
+      "summary": "Low-cost Android smartphones have been shipped with malicious software baked into the device firmware, allowing bad actors to covertly install apps, conduct ad fraud, and turn devices into residential proxies.\n\nThe activ",
+      "categories": [
+        "Malware"
+      ],
+      "tags": [
+        "Android"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Low-cost Android smartphones are being shipped with malicious software preinstalled directly into the device firmware. This malware enables bad actors to covertly install unauthorized apps, conduct ad fraud, and convert the compromised devices into residential proxies.",
+        "whyItMatters": "Preinstalled firmware-level malware bypasses traditional security checks, turning unsuspecting users' devices into tools for cybercrime and residential proxy networks without their knowledge.",
+        "affected": [
+          "Low-cost Android smartphones"
+        ],
+        "action": "Avoid purchasing unverified low-cost Android devices and thoroughly vet hardware sources.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Be a good AI ancestor: Cybersecurity already gave us the playbook",
+      "link": "https://www.helpnetsecurity.com/2026/10/13/cybersecurity-ai-safety-red-lines/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-10-13T05:30:01.000Z",
+      "summary": "AI has brought us to a familiar inflection point in the story of privacy, cybersecurity, and online safety. We have an opportunity to apply decades of cybersecurity experience before the next generation of technology cre",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The article discusses how the cybersecurity industry provides a valuable playbook for privacy, security, and online safety as artificial intelligence rapidly evolves. It emphasizes the importance of applying historical cybersecurity experience to the next generation of technology before critical vulnerabilities arise.",
+        "whyItMatters": "Applying established cybersecurity lessons to artificial intelligence development can help prevent predictable security and privacy failures in emerging technologies.",
+        "affected": [],
+        "action": "Apply historical cybersecurity best practices to artificial intelligence development.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Frontier AI cleared every OT attack goal Booz Allen set in its lab",
+      "link": "https://www.helpnetsecurity.com/2026/10/13/frontier-ai-ot-security-threat/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-10-13T05:00:51.000Z",
+      "summary": "Booz Allen set frontier AI models against an isolated industrial-control testbed in its Chantilly, Virginia lab and watched them clear all eight attack objectives it had defined. The Booz Allen frontier AI OT test archit",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Booz Allen set frontier AI models against an isolated industrial-control testbed in its Chantilly, Virginia lab and watched them clear all eight attack objectives it had defined. The Booz Allen frontier AI OT test archit",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Most high-severity cloud security findings are downgraded once an AI agent checks the environment",
+      "link": "https://www.helpnetsecurity.com/2026/10/13/cloud-security-findings-severity-ai-agent/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-10-13T04:30:02.000Z",
+      "summary": "Cloud security platforms turn every failed rule into a finding, and those findings pile up in queues sorted by severity. Research from Sola Security tested what happens to that order when each finding gets checked agains",
+      "categories": [
+        "Cloud",
+        "AI Security",
+        "Research"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Research from Sola Security demonstrates that the volume of high-severity cloud security findings significantly decreases when verified by an AI agent. The study highlights how automated context-checking can reorder and reduce alert fatigue in security queues.",
+        "whyItMatters": "It shows that AI agents can effectively reduce false positives and noise in cloud security alert queues.",
+        "affected": [],
+        "action": "Monitor developments in AI-driven cloud security validation tools.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Cybersecurity jobs available right now: October 13, 2026",
+      "link": "https://www.helpnetsecurity.com/2026/10/13/cybersecurity-jobs-available-right-now-october-13-2026/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-10-13T04:00:40.000Z",
+      "summary": "CISO & Head of IT Trigo | Israel | On-site – View job details As a CISO & Head of IT, you will lead the IT and Information Security team, set strategy and priorities, manage budgets and report progress to management. You",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A job opening for a CISO and Head of IT is currently available at Trigo in Israel. The role requires leading the information security team, setting strategy, and managing budgets.",
+        "whyItMatters": "This highlights current employment opportunities and leadership demands within the cybersecurity job market.",
+        "affected": [],
+        "action": "Review the job listing if interested in the position.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "ISC Stormcast For Tuesday, October 13th, 2026 (Tue, Oct 13th)",
       "link": "https://isc.sans.edu/diary/rss/33418",
@@ -23,6 +450,37 @@
         "affected": [],
         "action": "Listen to the podcast episode for the latest threat updates.",
         "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8915-1: FFmpeg vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8915-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-10-12T23:14:33.000Z",
+      "summary": "Momoko Shiraishi discovered that FFmpeg did not correctly handle certain\nmemory operations. An attacker could possibly use this issue to execute\narbitrary code. This issue only affected Ubuntu 16.04 LTS, Ubuntu 18.04\nLTS",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "FFmpeg contained memory handling vulnerabilities discovered by Momoko Shiraishi that could allow an attacker to execute arbitrary code. The issue specifically affected systems running Ubuntu 16.04 LTS and Ubuntu 18.04 LTS.",
+        "whyItMatters": "Unpatched memory handling flaws in core multimedia libraries like FFmpeg can allow remote attackers to achieve arbitrary code execution.",
+        "affected": [
+          "Ubuntu 16.04 LTS",
+          "Ubuntu 18.04 LTS",
+          "FFmpeg"
+        ],
+        "action": "Update FFmpeg to the latest patched version provided by your distribution.",
+        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -1089,37 +1547,6 @@
       }
     },
     {
-      "title": "Low-cost Android phones are arriving with malware that owners can’t uninstall",
-      "link": "https://www.helpnetsecurity.com/2026/10/12/midnight-mimosa-malware-cheap-android-phones/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-10-12T10:53:51.000Z",
-      "summary": "People who buy low-cost Android phones from online marketplaces may be carrying malware that was placed on the device before it reached them, Bitdefender has found. The campaign, dubbed Midnight Mimosa, runs on budget An",
-      "categories": [
-        "Malware",
-        "Threat Intel"
-      ],
-      "tags": [
-        "Android"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "People who buy low-cost Android phones from online marketplaces may be carrying malware that was placed on the device before it reached them, Bitdefender has found. The campaign, dubbed Midnight Mimosa, runs on budget An",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Android"
-        ],
-        "action": "Monitor for indicators of compromise.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Critical SonicWall SMA 1000 Flaw Targeted in 135 Exploitation Attempts After Patch",
       "link": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html",
       "source": "The Hacker News",
@@ -1256,34 +1683,6 @@
       }
     },
     {
-      "title": "Hidden implant in Ledger hardware wallets linked to $93M theft",
-      "link": "https://www.helpnetsecurity.com/2026/10/12/ledger-wallets-compromised-via-hardware-implant/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-10-12T09:46:53.000Z",
-      "summary": "Three days after customers in Southeast Asia began reporting drained wallets, Ledger says the damage is limited. In its 72-hour update on X on October 11, the Paris-based hardware wallet maker said “all confirmed cases r",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Ledger hardware wallets in Southeast Asia suffered a hidden implant attack leading to $93 million in stolen funds. Ledger released a 72-hour update stating that all confirmed cases of the compromise are currently limited.",
-        "whyItMatters": "This incident undermines trust in physical hardware wallet security, resulting in massive financial losses for users.",
-        "affected": [
-          "Ledger hardware wallets"
-        ],
-        "action": "Check your hardware wallet for unauthorized implants and monitor official Ledger security updates.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Chromium: CVE-2025-12429 Inappropriate implementation in V8",
       "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-12429",
       "source": "Microsoft MSRC",
@@ -1415,36 +1814,28 @@
       }
     },
     {
-      "title": "Attackers Exploit CVSS 10.0 Bricksforge WordPress Flaw Enabling Unauthenticated RCE",
-      "link": "https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-12T09:02:14.000Z",
-      "summary": "A maximum-severity security flaw impacting the Bricksforge plugin for WordPress has come under active exploitation in the wild, according to Patchstack.\n\nThe critical vulnerability in question is CVE-2026-85097 (CVSS sco",
+      "title": "What to do when a data breach notice doesn't say much",
+      "link": "https://www.welivesecurity.com/en/how-to/what-to-do-when-a-data-breach-notice-tells-you-almost-nothing/",
+      "source": "WeLiveSecurity",
+      "publishedAt": "2026-10-12T09:00:00.000Z",
+      "summary": "Data breach notifications are telling victims less than ever. What the company leaves out can still shape what you do next.",
       "categories": [
-        "Vulnerability"
+        "Incident Response"
       ],
-      "tags": [
-        "WordPress"
-      ],
-      "cves": [
-        "CVE-2026-85097"
-      ],
+      "tags": [],
+      "cves": [],
       "kev": false,
       "poc": false,
-      "severity": "critical",
-      "breaking": true,
+      "severity": "news",
+      "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "Attackers are actively exploiting a maximum-severity security flaw in the Bricksforge plugin for WordPress. This critical vulnerability allows unauthenticated remote code execution on affected websites.",
-        "whyItMatters": "Unauthenticated remote code execution allows attackers to completely compromise vulnerable WordPress sites without needing prior access.",
-        "affected": [
-          "Bricksforge WordPress plugin"
-        ],
-        "action": "Update the Bricksforge plugin immediately.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-85097"
-        ],
+        "summary": "Data breach notifications are increasingly omitting crucial details about security incidents. Despite limited information, consumers can still take specific steps to protect themselves following a notice.",
+        "whyItMatters": "Vague data breach notices leave victims uninformed and less capable of taking timely protective measures against identity theft.",
+        "affected": [],
+        "action": "Assume your data was compromised and monitor your accounts closely.",
+        "risk": "News",
+        "relatedCves": [],
         "source": "ai"
       }
     },
@@ -1606,121 +1997,6 @@
       }
     },
     {
-      "title": "Let’s Encrypt Cuts Default Certificate Validity to 64 Days Ahead of 45-Day Switch",
-      "link": "https://www.securityweek.com/lets-encrypt-cuts-default-certificate-validity-to-64-days-ahead-of-45-day-switch/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-10-12T07:53:28.000Z",
-      "summary": "Beginning February 2027, all newly issued certificates will have a 64-day validity period by default.\nThe post Let’s Encrypt Cuts Default Certificate Validity to 64 Days Ahead of 45-Day Switch appeared first on SecurityW",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Let's Encrypt has announced that it will reduce the default validity period for newly issued certificates to 64 days starting in February 2027. This change is part of an ongoing transition toward a shorter 45-day certificate validity period.",
-        "whyItMatters": "Organizations must update their automated certificate lifecycle management processes to handle more frequent renewals and prevent unexpected service outages.",
-        "affected": [],
-        "action": "Implement automated certificate management to handle more frequent renewals.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Windows PCs missing key updates could lose security fixes in 2027",
-      "link": "https://www.helpnetsecurity.com/2026/10/12/microsoft-windows-update-certificate-rotation/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-10-12T07:39:50.000Z",
-      "summary": "Microsoft is advising users and businesses to update Windows devices before digital certificates used to verify Windows Update servers expire in May and June 2027. The certificates expire on May 17 or June 19, depending ",
-      "categories": [
-        "News"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft is warning users and businesses to update their Windows devices before the digital certificates used to verify Windows Update servers expire in May and June 2027. Devices that miss these essential updates will lose the ability to receive future security fixes.",
-        "whyItMatters": "Failing to apply these updates before the certificates expire will leave Windows systems permanently unable to receive critical security patches.",
-        "affected": [
-          "Windows"
-        ],
-        "action": "Update Windows devices promptly.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records",
-      "link": "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-12T07:26:12.000Z",
-      "summary": "Cybersecurity researchers have disclosed details of a two-pronged artificial intelligence (AI)-augmented initial access campaign targeting WordPress sites, e-commerce platforms, and critical infrastructure entities in Uk",
-      "categories": [
-        "Threat Intel",
-        "AI Security"
-      ],
-      "tags": [
-        "WordPress"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Cybersecurity researchers have uncovered a two-pronged AI-augmented initial access campaign by the threat actor CyberXero targeting WordPress sites, e-commerce platforms, and critical infrastructure in Ukraine. This campaign successfully stole over 628,000 Ukrainian records using advanced methods including Claude Code.",
-        "whyItMatters": "This incident demonstrates how threat actors are actively weaponizing advanced AI tools to scale up sophisticated cyberattacks against critical infrastructure and sensitive data.",
-        "affected": [
-          "WordPress sites",
-          "e-commerce platforms",
-          "Ukrainian critical infrastructure entities"
-        ],
-        "action": "Audit access logs and strengthen defenses against AI-augmented attacks on web platforms.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Let’s Encrypt TLS certificate lifetimes to drop from 90 to 64 days starting February 2027",
-      "link": "https://www.helpnetsecurity.com/2026/10/12/lets-encrypt-64-day-certificate-lifetime/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-10-12T07:23:11.000Z",
-      "summary": "Websites that rely on Let’s Encrypt will soon have to renew their TLS certificates more often. Starting February 10, 2027, the certificate authority will issue certificates valid for 64 days by default, down from 90 days",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Let's Encrypt has announced that starting February 10, 2027, the default validity period for its TLS certificates will decrease from 90 to 64 days. Website administrators will need to adapt their certificate management processes to handle more frequent renewals.",
-        "whyItMatters": "This change requires organizations to automate their certificate renewal processes sooner to prevent unexpected website outages caused by expired certificates.",
-        "affected": [],
-        "action": "Implement automated TLS certificate renewal workflows before February 2027.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "A week in security (October 5 – October 11)",
       "link": "https://www.malwarebytes.com/blog/news/2026/10/a-week-in-security-october-5-october-11",
       "source": "Malwarebytes Labs",
@@ -1744,66 +2020,6 @@
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
-      }
-    },
-    {
-      "title": "Geopolitics and the cyber resilience gap belong in your threat model",
-      "link": "https://www.helpnetsecurity.com/2026/10/12/akshay-joshi-wef-cyber-resilience-gap/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-10-12T06:00:12.000Z",
-      "summary": "In this Help Net Security interview, Akshay Joshi, Head of the Centre for Cybersecurity at the World Economic Forum, talks about how AI, geopolitics and industrialized fraud are changing cyber risk. He discusses findings",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "In this Help Net Security interview, Akshay Joshi, Head of the Centre for Cybersecurity at the World Economic Forum, talks about how AI, geopolitics and industrialized fraud are changing cyber risk. He discusses findings",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Strands Box: Open-source sandbox for AI agents",
-      "link": "https://www.helpnetsecurity.com/2026/10/12/aws-strands-box-open-source-ai-agent-sandbox/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-10-12T05:30:34.000Z",
-      "summary": "AWS released Strands Box, an open source sandbox for AI agents that pairs operating-system isolation with rules that can weigh what an agent has already done before letting it act again. Box is in developer preview and r",
-      "categories": [
-        "Cloud",
-        "AI Security",
-        "Open Source"
-      ],
-      "tags": [
-        "AWS"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "AWS released Strands Box, an open source sandbox for AI agents that pairs operating-system isolation with rules that can weigh what an agent has already done before letting it act again. Box is in developer preview and r",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "AWS"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
       }
     },
     {
@@ -2113,32 +2329,6 @@
         "affected": [],
         "action": "Monitor ongoing law enforcement updates regarding the ShinyHunters investigation.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
-      "link": "https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-10T11:00:00.000Z",
-      "summary": "In environments studied for the 2026 State of Agent Security Report, roughly 1,280 third-party products now embed AI. About 282 of them sit behind single sign-on. The other thousand are invisible to identity infrastructu",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A study for the 2026 State of Agent Security Report found that roughly 1,280 third-party products now embed AI within studied environments. The vast majority of these AI-embedded products operate completely outside the visibility of standard corporate identity infrastructure.",
-        "whyItMatters": "Invisible third-party AI agents create hidden security blind spots and expand enterprise attack surfaces without proper oversight.",
-        "affected": [],
-        "action": "Audit corporate networks to discover and catalog all third-party embedded AI agents.",
-        "risk": "Medium",
         "relatedCves": [],
         "source": "ai"
       }
@@ -2547,34 +2737,6 @@
       }
     },
     {
-      "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
-      "link": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-09T16:29:55.000Z",
-      "summary": "Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword.\n\n\"Compared with the variants we usually observe, P7 reduces its on-device footprint, a",
-      "categories": [
-        "Vulnerability"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Cybersecurity researchers have disclosed a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword. This new variant reduces its on-device footprint while adding capabilities for cryptocurrency wallet data theft and remote commands.",
-        "whyItMatters": "This exploit kit poses a severe threat to iOS users by enabling stealthy data theft and remote control capabilities.",
-        "affected": [
-          "iOS"
-        ],
-        "action": "Update iOS devices to the latest security versions.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Security Threats Don't Stop at the Office: Why Executives' Families Need Training, Too",
       "link": "https://www.darkreading.com/cyber-risk/security-threats-don-t-stop-at-the-office-why-executives-families-need-training-too",
       "source": "Dark Reading",
@@ -2928,34 +3090,6 @@
       }
     },
     {
-      "title": "UK and Allies Warn of Cyber Threat from China’s Integrity Technology Group",
-      "link": "https://www.infosecurity-magazine.com/news/uk-allies-threat-china-integrity/",
-      "source": "Infosecurity Magazine",
-      "publishedAt": "2026-10-09T10:00:00.000Z",
-      "summary": "The UK, US and allies have issued an alert detailing malicious activity linked to China’s Integrity Technology Group",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The UK, US and allies have issued an alert detailing malicious activity linked to China’s Integrity Technology Group",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "USN-8887-3: Linux kernel vulnerabilities",
       "link": "https://ubuntu.com/security/notices/USN-8887-3",
       "source": "Canonical Ubuntu Security",
@@ -3054,41 +3188,6 @@
       }
     },
     {
-      "title": "USN-8905-2: Linux kernel (GCP) vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8905-2",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-10-09T08:38:26.000Z",
-      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - ARM32 architecture;\n  - ARM64 archit",
-      "categories": [
-        "Vulnerability",
-        "Incident Response",
-        "Cloud",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux",
-        "GCP"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several security issues were discovered in the Linux kernel for Google Cloud Platform. These vulnerabilities could potentially allow an attacker to compromise the affected system.",
-        "whyItMatters": "Unpatched kernel vulnerabilities can allow malicious actors to fully compromise affected cloud systems.",
-        "affected": [
-          "Linux kernel (GCP)"
-        ],
-        "action": "Update the Linux kernel to the latest version.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "ISC Stormcast For Friday, October 9th, 2026 (Fri, Oct 9th)",
       "link": "https://isc.sans.edu/diary/rss/33412",
       "source": "SANS ISC",
@@ -3140,32 +3239,6 @@
         ],
         "action": "Review the new default NAT Gateway SKU settings for upcoming AKS deployments.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "US disrupts Chinese hacking tools as 7 govts warn of PRC spies stealing sensitive data worldwide",
-      "link": "https://www.theregister.com/security/2026/10/08/us-disrupts-chinese-hacking-tools-as-7-govts-warn-of-prc-spies-stealing-sensitive-data-worldwide/5302107",
-      "source": "The Register",
-      "publishedAt": "2026-10-08T21:59:00.000Z",
-      "summary": "Infecting devices from 2021 until the FBI stepped in",
-      "categories": [
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The FBI and seven international governments disrupted Chinese state-sponsored hacking tools used to steal sensitive data worldwide. These PRC spies had been infecting target devices since 2021 before the recent intervention.",
-        "whyItMatters": "This operation highlights the pervasive threat of state-sponsored espionage targeting government and critical infrastructure networks globally.",
-        "affected": [],
-        "action": "Review threat intelligence reports and monitor networks for indicators of PRC-linked state-sponsored activity.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -4480,36 +4553,6 @@
       }
     },
     {
-      "title": "Google issues Android security updates: who can get them and how",
-      "link": "https://www.malwarebytes.com/blog/bugs/2026/10/google-issues-android-security-updates-who-can-get-them-and-how",
-      "source": "Malwarebytes Labs",
-      "publishedAt": "2026-10-07T13:25:04.000Z",
-      "summary": "Google has new Android updates, but many users will not be able to get patched immediately.",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Android"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Google has new Android updates, but many users will not be able to get patched immediately.",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Android"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Phishing Campaign Abuses Microsoft Power BI to Deploy Rogue RMMs",
       "link": "https://www.huntress.com/blog/screenconnect-power-bi",
       "source": "Huntress",
@@ -5710,67 +5753,6 @@
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
-      }
-    },
-    {
-      "title": "One Port to Root: Weaponizing Check Point Management CVE-2026-93616",
-      "link": "https://bishopfox.com/blog/weaponizing-check-point-management-cve-2026-93616",
-      "source": "Bishop Fox",
-      "publishedAt": "2026-10-01T13:00:00.000Z",
-      "summary": "An unauthenticated attacker who can reach TCP 19009 on a Check Point management server can take it over completely. Bishop Fox reproduced the full root RCE chain on R81.10 and R82.10, breaks down all three vulnerabilitie",
-      "categories": [
-        "Vulnerability"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-93616"
-      ],
-      "kev": true,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Bishop Fox has reproduced a full root remote code execution chain affecting Check Point management servers. An unauthenticated attacker reaching TCP port 19009 can completely take over the server by exploiting three vulnerabilities.",
-        "whyItMatters": "This flaw allows unauthenticated attackers to achieve complete remote takeover of enterprise security management servers via a single exposed network port.",
-        "affected": [
-          "Check Point management server R81.10",
-          "Check Point management server R82.10"
-        ],
-        "action": "Restrict network access to TCP port 19009 and apply vendor patches immediately.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-93616"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "How AI Is Changing the Roles Required in the Security Operations Center",
-      "link": "https://www.rapid7.com/blog/post/ai-changing-security-operations-center-roles-soc",
-      "source": "Rapid7",
-      "publishedAt": "2026-10-01T13:00:00.000Z",
-      "summary": "As AI takes on more of the enrichment, correlation, and initial assessment inside the SOC, roles, skills, and KPIs still require deliberate redesign. Security leaders need to decide where automation is dependable, where ",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "As AI takes on more of the enrichment, correlation, and initial assessment inside the SOC, roles, skills, and KPIs still require deliberate redesign. Security leaders need to decide where automation is dependable, where",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
       }
     }
   ]
