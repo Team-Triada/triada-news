@@ -1,6 +1,466 @@
 {
-  "updatedAt": "2026-10-14T01:56:05.539Z",
+  "updatedAt": "2026-10-14T07:35:48.911Z",
   "items": [
+    {
+      "title": "Microsoft Patches Record 1,413 Vulnerabilities, Including Exploited Windows Zero-Day",
+      "link": "https://www.securityweek.com/microsoft-patches-record-1413-vulnerabilities-including-exploited-windows-zero-day/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-10-14T07:16:12.000Z",
+      "summary": "The most important is CVE-2026-96951, a security feature bypass flaw in Windows that has been exploited in the wild.\nThe post Microsoft Patches Record 1,413 Vulnerabilities, Including Exploited Windows Zero-Day appeared ",
+      "categories": [
+        "Zero Day",
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [
+        "CVE-2026-96951"
+      ],
+      "kev": true,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft has released patches for a record-breaking 1413 vulnerabilities, including a critical Windows zero-day flaw. Specifically, CVE-2026-96951 is a security feature bypass vulnerability that has already been actively exploited in the wild.",
+        "whyItMatters": "Active exploitation of an unpatched security feature bypass in Windows poses an immediate and severe risk to enterprise and consumer environments.",
+        "affected": [
+          "Windows"
+        ],
+        "action": "Apply the latest Microsoft security updates immediately.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-96951"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Orphaned VBA Projects Inside DWG Files, (Wed, Oct 14th)",
+      "link": "https://isc.sans.edu/diary/rss/33420",
+      "source": "SANS ISC",
+      "publishedAt": "2026-10-14T06:49:46.000Z",
+      "summary": "Years ago I wrote diary entries about VBA code stored inside AutoCAD drawing files (.dwg).",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "This article revisits the historical issue of Visual Basic for Applications (VBA) code being stored within AutoCAD drawing files. It highlights the security implications of orphaned macros remaining hidden inside these common design files.",
+        "whyItMatters": "Hidden legacy code inside standard file formats can introduce unexpected security risks or be leveraged for persistence by attackers.",
+        "affected": [
+          "AutoCAD"
+        ],
+        "action": "Audit legacy CAD files for hidden VBA projects.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "SAP Patches Critical NetWeaver, S/4HANA Vulnerabilities",
+      "link": "https://www.securityweek.com/sap-patches-critical-netweaver-s-4hana-vulnerabilities/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-10-14T06:12:10.000Z",
+      "summary": "The bugs could allow attackers to invoke internal operations and execute code, completely compromising the system.\nThe post SAP Patches Critical NetWeaver, S/4HANA Vulnerabilities appeared first on SecurityWeek.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "SAP"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "SAP has released security patches to address critical vulnerabilities affecting NetWeaver and S/4HANA systems. These flaws could allow unauthenticated attackers to invoke internal operations and achieve complete system compromise.",
+        "whyItMatters": "Successful exploitation of these vulnerabilities gives attackers full remote code execution and total control over core enterprise business systems.",
+        "affected": [
+          "SAP NetWeaver",
+          "SAP S/4HANA"
+        ],
+        "action": "Apply the latest SAP security patches immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Four-Byte Write and Timing Bug Let Researchers Run Code in Windows SmartScreen Enclave",
+      "link": "https://thehackernews.com/2026/10/four-byte-write-and-timing-bug-let.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-10-14T05:52:28.000Z",
+      "summary": "Security researchers ran their own code inside a protected part of Windows that is meant to stay sealed off even when the rest of the computer is taken over.\n\nThe protected area is a VBS enclave, an isolated slice of mem",
+      "categories": [
+        "News"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Security researchers successfully executed arbitrary code inside a protected VBS enclave in Windows SmartScreen. The feat was achieved by exploiting a four-byte write vulnerability combined with a timing bug.",
+        "whyItMatters": "This breakthrough compromises a critical security boundary that is designed to remain secure even when the broader operating system is fully compromised.",
+        "affected": [
+          "Windows SmartScreen"
+        ],
+        "action": "Apply the latest security updates from Microsoft as they become available.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Patching and preventing issues: What are the lessons you can learn?",
+      "link": "https://www.helpnetsecurity.com/2026/10/14/kunal-modasiya-qualys-vulnerability-remediation/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-10-14T05:30:59.000Z",
+      "summary": "In this Help Net Security interview, Kunal Modasiya, Senior VP & GM at Qualys, talks about why patching is still hard to get right. He explains how business pressure, revenue-critical systems, and patches that break thin",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "In a recent interview, Qualys Senior VP Kunal Modasiya discusses the persistent difficulties organizations face when trying to patch their systems effectively. He highlights factors such as business pressures, revenue-critical operations, and faulty patches that complicate the patching process.",
+        "whyItMatters": "Understanding the operational hurdles of vulnerability management helps organizations design better patching strategies to prevent exploitation.",
+        "affected": [],
+        "action": "Review current patch management workflows to identify and mitigate bottlenecks.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "注意喚起: SiteGuard Server EditionにおけるOSコマンドインジェクションの脆弱性（CVE-2026-106931）に関する注意喚起 (公開)",
+      "link": "https://www.jpcert.or.jp/at/2026/at260032.html",
+      "source": "JPCERT/CC",
+      "publishedAt": "2026-10-14T05:18:00.000Z",
+      "summary": "注意喚起: SiteGuard Server EditionにおけるOSコマンドインジェクションの脆弱性（CVE-2026-106931）に関する注意喚起  (公開)",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-106931"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "An advisory has been issued regarding an OS command injection vulnerability in SiteGuard Server Edition. The vulnerability is tracked as CVE-2026-106931.",
+        "whyItMatters": "This vulnerability could allow attackers to execute arbitrary OS commands on affected systems.",
+        "affected": [
+          "SiteGuard Server Edition"
+        ],
+        "action": "Review the advisory and apply available patches or updates immediately.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-106931"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Meshery: Open-source cloud-native manager for Kubernetes",
+      "link": "https://www.helpnetsecurity.com/2026/10/14/meshery-open-source-cloud-native-manager-kubernetes/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-10-14T05:00:01.000Z",
+      "summary": "Meshery is an open-source tool for designing, deploying and managing Kubernetes infrastructure, built by Layer5 and its community and hosted as a Cloud Native Computing Foundation project. Teams use it to lay out cluster",
+      "categories": [
+        "Open Source"
+      ],
+      "tags": [
+        "Kubernetes"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Meshery is an open-source cloud-native tool designed for managing Kubernetes infrastructure. It is built by Layer5 and hosted by the Cloud Native Computing Foundation.",
+        "whyItMatters": "It serves as a key utility for teams managing and deploying complex Kubernetes clusters.",
+        "affected": [],
+        "action": "Review the tool documentation for secure deployment practices.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Ransomware Gangs Embrace Physical Threats, Family Stalking?",
+      "link": "https://www.darkreading.com/cybersecurity-analytics/ransomware-gangs-physical-threats-family-stalking",
+      "source": "Dark Reading",
+      "publishedAt": "2026-10-14T05:00:00.000Z",
+      "summary": "Organizations are reporting that employees face threats to their families, stalking, physical violence, and abduction. But these alarming claims are hard to verify.",
+      "categories": [
+        "Ransomware"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "high",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Organizations report that ransomware gangs are increasingly resorting to physical threats, stalking, and violence against employees and their families. However, these alarming claims remain difficult to independently verify.",
+        "whyItMatters": "This represents a severe escalation in ransomware extortion tactics, shifting from digital assets to direct physical danger for individuals.",
+        "affected": [],
+        "action": "Review employee safety and physical security protocols.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Ransomware gets personal: 'We-know-where-you-are kind of stuff'",
+      "link": "https://www.theregister.com/cyber-crime/2026/10/14/ransomware-gets-personal-we-know-where-you-are-kind-of-stuff/5302939",
+      "source": "The Register",
+      "publishedAt": "2026-10-14T05:00:00.000Z",
+      "summary": "37% of ransomware attacks involve psychological or physical threats, global survey found",
+      "categories": [
+        "Ransomware"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "high",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "A global survey reveals that 37 percent of ransomware attacks now involve psychological or physical threats against victims. Cybercriminals are increasingly resorting to real-world intimidation tactics to force organizations and individuals into paying ransoms.",
+        "whyItMatters": "This trend marks a dangerous escalation in ransomware tactics, moving beyond digital extortion into physical safety threats.",
+        "affected": [],
+        "action": "Review physical and digital security protocols to prepare for potential escalation tactics.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Microsoft Patches Record 1,413 Flaws, Including Exploited Windows Shell Bug",
+      "link": "https://thehackernews.com/2026/10/microsoft-patches-record-1413-flaws.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-10-14T04:34:43.000Z",
+      "summary": "Microsoft on Tuesday shattered its own Patch Tuesday record by shipping patches for a whopping 1,413 vulnerabilities, including one that it said has come under active exploitation.\n\nThese include 1,102 flaws in Windows, ",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft has released a record-breaking Patch Tuesday update addressing 1,413 vulnerabilities across its ecosystem. The update includes a fix for a Windows Shell bug that is currently being actively exploited in the wild.",
+        "whyItMatters": "Active exploitation of zero-day vulnerabilities in core operating system components poses an immediate and severe risk to enterprise and consumer security.",
+        "affected": [
+          "Windows"
+        ],
+        "action": "Apply the latest Microsoft security patches immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Most companies count AI agents as insiders, and CISOs worry about their own liability",
+      "link": "https://www.helpnetsecurity.com/2026/10/14/ciso-ai-agent-insider-risk/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-10-14T04:30:05.000Z",
+      "summary": "Software that works on an employee’s behalf is now turning up in incident reports. At 95% of the companies in a Trellix survey of 600 CISOs, an AI agent or other autonomous system was linked to an insider incident in the",
+      "categories": [
+        "Incident Response",
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A recent survey by Trellix of 600 CISOs reveals that 95 percent of companies have linked AI agents or autonomous systems to insider security incidents. This trend has heightened concerns among CISOs regarding their personal liability for software acting on behalf of employees.",
+        "whyItMatters": "It highlights the growing security risks and liability concerns associated with integrating autonomous AI agents into corporate environments.",
+        "affected": [],
+        "action": "Review governance and security policies for autonomous AI agents.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Google quadruples Chrome bug bounty base pay, offers up to $20,000 for sandbox escapes",
+      "link": "https://www.helpnetsecurity.com/2026/10/14/google-chrome-vulnerability-rewards-program-updates/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-10-14T04:00:43.000Z",
+      "summary": "Google is updating its Chrome Vulnerability Rewards Program (Chrome VRP), increasing payments for memory corruption vulnerabilities and expanding rewards for other security flaws, fixes and research tools. “A primary goa",
+      "categories": [
+        "Vulnerability",
+        "Research",
+        "Bug Bounty"
+      ],
+      "tags": [
+        "Chrome"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Google has significantly increased the base pay for its Chrome Vulnerability Rewards Program, raising payouts for memory corruption vulnerabilities and sandbox escapes. The program now offers up to $20,000 for specific sandbox escape security flaws and expands rewards for research tools.",
+        "whyItMatters": "Higher bug bounty payouts incentivize security researchers to find and report critical vulnerabilities to Google rather than selling them to malicious actors.",
+        "affected": [],
+        "action": "Review the updated Google Chrome VRP guidelines if you are a security researcher.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8925-1: YAML-LibYAML vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8925-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-10-14T03:31:33.000Z",
+      "summary": "Dominique Dumont discovered that YAML-LibYAML did not correctly handle\ncertain reflection operations. If a user or system were tricked into\nopening a specially crafted file, an attacker could possibly use this issue\nto d",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Dominique Dumont discovered vulnerabilities in YAML-LibYAML related to the handling of specific reflection operations. An attacker could potentially exploit these flaws by tricking a user or system into opening a maliciously crafted file.",
+        "whyItMatters": "Unvalidated reflection operations in parsing libraries can allow attackers to execute malicious actions via specially crafted files.",
+        "affected": [
+          "YAML-LibYAML"
+        ],
+        "action": "Update YAML-LibYAML to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "注意喚起: 2026年10月マイクロソフトセキュリティ更新プログラムに関する注意喚起 (公開)",
+      "link": "https://www.jpcert.or.jp/at/2026/at260031.html",
+      "source": "JPCERT/CC",
+      "publishedAt": "2026-10-14T02:25:00.000Z",
+      "summary": "注意喚起: 2026年10月マイクロソフトセキュリティ更新プログラムに関する注意喚起  (公開)",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "An advisory has been issued regarding the Microsoft security updates scheduled for October 2026. Users and administrators are advised to review the upcoming patch details.",
+        "whyItMatters": "Timely application of security updates is critical to protect systems against potential vulnerabilities addressed in the patch cycle.",
+        "affected": [],
+        "action": "Review the upcoming Microsoft security updates when available.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "ISC Stormcast For Wednesday, October 14th, 2026 (Wed, Oct 14th)",
+      "link": "https://isc.sans.edu/diary/rss/33424",
+      "source": "SANS ISC",
+      "publishedAt": "2026-10-14T02:00:03.000Z",
+      "summary": "ISC Stormcast For Wednesday, October 14th, 2026 https://isc.sans.edu/podcastdetail/10136, (Wed, Oct 14th)",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "This is the daily ISC Stormcast podcast episode for October 14, 2026, hosted by the SANS Internet Storm Center. The episode provides brief updates on current cybersecurity news and threat intelligence.",
+        "whyItMatters": "Staying informed on daily threat intelligence briefings helps security professionals track emerging vulnerabilities and attack trends.",
+        "affected": [],
+        "action": "Listen to the podcast episode for current threat updates.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "OpenAI Employee Arrested for Allegedly Planting Hidden Recorder in Executive Conference Room",
+      "link": "https://thehackernews.com/2026/10/openai-employee-arrested-for-allegedly.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-10-14T01:59:25.000Z",
+      "summary": "A Saudi National and employee of OpenAI has been arrested for allegedly planting a hidden recording device in an executive conference room at the company's San Francisco offices to covertly record sensitive conversations",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "An OpenAI employee has been arrested for allegedly planting a hidden recording device in a company executive conference room in San Francisco. The device was intended to covertly capture sensitive conversations among company leadership.",
+        "whyItMatters": "This incident highlights the severe insider threat risks that high-profile artificial intelligence companies face regarding the protection of proprietary and sensitive executive discussions.",
+        "affected": [],
+        "action": "Review physical security protocols and insider threat monitoring procedures.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Microsoft Patches More Than 1,400 Security Flaws",
       "link": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
@@ -1513,38 +1973,6 @@
       }
     },
     {
-      "title": "USN-8917-1: Linux kernel vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8917-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-10-13T14:54:50.000Z",
-      "summary": "It was discovered that some AMD processors did not properly perform Reverse\nMap Table (RMP) checks when the IOMMU accessed certain host buffers. A\nlocal attacker with hypervisor access could possibly use this to trigger ",
-      "categories": [
-        "Vulnerability",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "It was discovered that some AMD processors did not properly perform Reverse\nMap Table (RMP) checks when the IOMMU accessed certain host buffers. A\nlocal attacker with hypervisor access could possibly use this to trigger",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Linux"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "When LLM Gateways Go Wrong: Findings from LiteLLM",
       "link": "https://research.checkpoint.com/2026/when-llm-gateways-go-wrong-findings-from-litellm/",
       "source": "Check Point Research",
@@ -1987,34 +2415,6 @@
       }
     },
     {
-      "title": "Xandr Fined a Record €8.6 Million for Relaying Grindr Data Revealing Sexual Orientation",
-      "link": "https://thehackernews.com/2026/10/xandr-fined-record-86-million-for.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-13T13:12:32.000Z",
-      "summary": "The Norwegian Data Protection Authority (DPA) has fined Xandr, an advertising unit owned by Microsoft, €8.6 million ($9.62 million) for illegally relaying ​Grindr users' sensitive data to advertisers.\n\nThe administrative",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The Norwegian Data Protection Authority (DPA) has fined Xandr, an advertising unit owned by Microsoft, €8.6 million ($9.62 million) for illegally relaying ​Grindr users' sensitive data to advertisers.\n\nThe administrative",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Lattice Sentry 5.0 brings quantum-resistant firmware security to AI data centers",
       "link": "https://www.helpnetsecurity.com/2026/10/13/lattice-sentry-5-0-solution-stack/",
       "source": "Help Net Security",
@@ -2060,34 +2460,6 @@
       "readTimeMin": 1,
       "aiSummary": {
         "summary": "Advertising company Xandr has been fined $9.6 million over data sharing that could reveal Grindr users’ sexual orientation.",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Ridge Security’s RidgeOne keeps autonomous penetration testing data inside customer environments",
-      "link": "https://www.helpnetsecurity.com/2026/10/13/ridge-security-ridgeone/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-10-13T12:49:07.000Z",
-      "summary": "Ridge Security has announced RidgeOne, a self-contained solution that brings autonomous AI-powered penetration testing and agentic red teaming to mid-sized organizations. Combining Ridge Security’s RidgeGen agentic secur",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Ridge Security has announced RidgeOne, a self-contained solution that brings autonomous AI-powered penetration testing and agentic red teaming to mid-sized organizations. Combining Ridge Security’s RidgeGen agentic secur",
         "whyItMatters": "Background context; no immediate action expected.",
         "affected": [
           "Not specified"
@@ -2287,35 +2659,6 @@
       }
     },
     {
-      "title": "[Webinar] How to Stop AI-Driven Privilege Escalation With Runtime Identity Controls",
-      "link": "https://thehackernews.com/2026/10/webinar-how-to-stop-ai-driven-privilege.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-13T11:57:06.000Z",
-      "summary": "The dangerous part of a stolen identity isn't always the initial login. It's what an attacker can do with that access next.\n\nWith AI accelerating reconnaissance, exploitation of vulnerabilities, and privilege escalation,",
-      "categories": [
-        "Vulnerability",
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The dangerous part of a stolen identity isn't always the initial login. It's what an attacker can do with that access next.\n\nWith AI accelerating reconnaissance, exploitation of vulnerabilities, and privilege escalation,",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "CVE-2026-97229: Critical Unauthenticated Remote Code Execution in GitLab",
       "link": "https://www.rapid7.com/blog/post/etr-cve-2026-97229-critical-unauthenticated-remote-code-execution-in-gitlab",
       "source": "Rapid7",
@@ -2347,36 +2690,6 @@
         "relatedCves": [
           "CVE-2026-97229"
         ],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Mozilla’s Firefox Enterprise lets companies block shadow AI in the browser",
-      "link": "https://www.helpnetsecurity.com/2026/10/13/mozilla-firefox-enterprise-platform/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-10-13T11:21:41.000Z",
-      "summary": "Mozilla’s Firefox Enterprise is a paid platform that lets organizations control how sensitive data is shared, check device security, and manage employee access to web applications. The platform pairs the browser with a m",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [
-        "Firefox"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Mozilla’s Firefox Enterprise is a paid platform that lets organizations control how sensitive data is shared, check device security, and manage employee access to web applications. The platform pairs the browser with a m",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Firefox"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
         "source": "heuristic"
       }
     },
@@ -2426,90 +2739,6 @@
       "readTimeMin": 1,
       "aiSummary": {
         "summary": "Local media reports three weakly protected accounts at small IT biz whose access to national register was abused",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "XWorm RAT Evolves Into Surveillance Platform",
-      "link": "https://www.securityweek.com/xworm-rat-evolves-into-surveillance-platform/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-10-13T11:13:10.000Z",
-      "summary": "Expanded plugin count allows the malware to monitor users’ location, stream live audio, and interact with authenticated browser sessions.\nThe post XWorm RAT Evolves Into Surveillance Platform appeared first on SecurityWe",
-      "categories": [
-        "Malware"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Expanded plugin count allows the malware to monitor users’ location, stream live audio, and interact with authenticated browser sessions.\nThe post XWorm RAT Evolves Into Surveillance Platform appeared first on SecurityWe",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Monitor for indicators of compromise.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "LG Smart TVs Vulnerable to Pre-Auth Root Takeover From Local Network",
-      "link": "https://thehackernews.com/2026/10/lg-smart-tvs-vulnerable-to-pre-auth.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-13T11:09:10.000Z",
-      "summary": "Three vulnerabilities in LG's webOS can be chained to give an attacker on the same local network root access to certain smart TVs without a PIN or any interaction from the owner.\n\nLG has issued a fix, according to an adv",
-      "categories": [
-        "Vulnerability"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Three vulnerabilities in LG's webOS can be chained to give an attacker on the same local network root access to certain smart TVs without a PIN or any interaction from the owner.\n\nLG has issued a fix, according to an adv",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "AI Turns Familiar Cyberattacks Into a Race Against Time",
-      "link": "https://www.securityweek.com/ai-turns-familiar-cyberattacks-into-a-race-against-time/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-10-13T11:00:00.000Z",
-      "summary": "IBM’s Steve Wallin talks to SecurityWeek on the effect of AI-driven attacks on enterprise defenses.\nThe post AI Turns Familiar Cyberattacks Into a Race Against Time appeared first on SecurityWeek.",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "IBM’s Steve Wallin talks to SecurityWeek on the effect of AI-driven attacks on enterprise defenses.\nThe post AI Turns Familiar Cyberattacks Into a Race Against Time appeared first on SecurityWeek.",
         "whyItMatters": "Background context; no immediate action expected.",
         "affected": [
           "Not specified"
@@ -2575,69 +2804,6 @@
         "action": "No action required; informational.",
         "risk": "News",
         "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Meta outlines Muse Wonder safeguards for AI agents acting on your behalf",
-      "link": "https://www.helpnetsecurity.com/2026/10/13/meta-muse-wonder-full-models/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-10-13T09:35:02.000Z",
-      "summary": "Meta’s Muse Wonder and Muse Wonder Full models are built for AI agents that handle tasks such as preparing insurance claims, reviewing leases and developing software. The models combine document analysis and tool use wit",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Meta’s Muse Wonder and Muse Wonder Full models are built for AI agents that handle tasks such as preparing insurance claims, reviewing leases and developing software. The models combine document analysis and tool use wit",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "GitLab admins urged to patch critical RCE flaw (CVE-2026-97229)",
-      "link": "https://www.helpnetsecurity.com/2026/10/13/gitlab-ci-cd-regular-expression-compiler-vulnerability-cve-2026-97229/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-10-13T09:19:45.000Z",
-      "summary": "GitLab is urging users of self-managed instances to patch a critical vulnerability (CVE-2026-97229) in its CI/CD Regular Expression Compiler that could allow remote attackers to execute arbitrary code on GitLab servers. ",
-      "categories": [
-        "Vulnerability",
-        "Open Source"
-      ],
-      "tags": [
-        "GitLab"
-      ],
-      "cves": [
-        "CVE-2026-97229"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "GitLab is urging users of self-managed instances to patch a critical vulnerability (CVE-2026-97229) in its CI/CD Regular Expression Compiler that could allow remote attackers to execute arbitrary code on GitLab servers.",
-        "whyItMatters": "Actively exploited or high-impact; treat as urgent.",
-        "affected": [
-          "GitLab"
-        ],
-        "action": "Patch immediately.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-97229"
-        ],
         "source": "heuristic"
       }
     },
@@ -2979,6 +3145,58 @@
       }
     },
     {
+      "title": "U.S. Government Disrupts FAMOUS CHOLLIMA Operation with CrowdStrike Assistance",
+      "link": "https://www.crowdstrike.com/en-us/blog/fbi-disrupts-famous-chollima-operation-with-crowdstrike-assistance/",
+      "source": "CrowdStrike",
+      "publishedAt": "2026-10-13T05:00:00.000Z",
+      "summary": "U.S. Government Disrupts FAMOUS CHOLLIMA Operation with CrowdStrike Assistance",
+      "categories": [
+        "Government"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "The U.S. government has successfully disrupted the FAMOUS CHOLLIMA cyber operation with assistance from cybersecurity firm CrowdStrike. This collaborative enforcement action targeted a notable threat actor to mitigate ongoing malicious cyber activities.",
+        "whyItMatters": "It demonstrates effective public-private collaboration in neutralizing sophisticated state-sponsored cyber operations and protecting national security interests.",
+        "affected": [],
+        "action": "Monitor official threat intelligence updates regarding FAMOUS CHOLLIMA activities.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "October 2026 Patch Tuesday: 1,413 CVEs Include Three Zero-Days and 75 Critical Vulnerabilities",
+      "link": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-october-2026/",
+      "source": "CrowdStrike",
+      "publishedAt": "2026-10-13T05:00:00.000Z",
+      "summary": "October 2026 Patch Tuesday: 1,413 CVEs Include Three Zero-Days and 75 Critical Vulnerabilities",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The October 2026 Patch Tuesday security update addresses a massive total of 1,413 vulnerabilities. This release includes three active zero-day exploits and 75 critical severity issues.",
+        "whyItMatters": "The inclusion of actively exploited zero-days and a high volume of critical vulnerabilities poses an immediate threat to organizations running affected software.",
+        "affected": [],
+        "action": "Apply the October 2026 security updates immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "ISC Stormcast For Tuesday, October 13th, 2026 (Tue, Oct 13th)",
       "link": "https://isc.sans.edu/diary/rss/33418",
       "source": "SANS ISC",
@@ -3295,35 +3513,6 @@
         "whyItMatters": "Understanding these strict compliance thresholds is essential for defense industrial base organizations to maintain eligibility for Department of Defense contracts.",
         "affected": [],
         "action": "Review the CMMC Level 2 compliance requirements and assess your organization's current score against the 88-point minimum.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Ukrainian drone strikes on Yandex datacenters knock cloud and payments offline",
-      "link": "https://www.theregister.com/security/2026/10/12/ukrainian-drone-strikes-on-yandex-datacenters-knock-cloud-and-payments-offline/5302577",
-      "source": "The Register",
-      "publishedAt": "2026-10-12T13:45:00.000Z",
-      "summary": "Techies at 'Russia's Google' work around the clock as users await access to funds and network connectivity falls to 30% of normal",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Ukrainian drone strikes targeting Yandex datacenters in Russia have knocked cloud services and payment systems offline. Users are currently experiencing severely degraded network connectivity at only 30 percent of normal levels while engineers work to restore services.",
-        "whyItMatters": "This incident demonstrates how physical kinetic attacks on critical cloud and financial infrastructure can cause massive digital outages and disrupt essential public services.",
-        "affected": [
-          "Yandex Cloud",
-          "Yandex Payment Systems"
-        ],
-        "action": "Monitor affected cloud services for restoration updates.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -3932,32 +4121,6 @@
           "Ghostscript"
         ],
         "action": "Update Ghostscript to the latest secure version provided by your vendor.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "ASOS Breach Reveals the Risks in Customer-Facing SaaS",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/asos-breach-risks-customer-facing-saas",
-      "source": "Dark Reading",
-      "publishedAt": "2026-10-09T20:58:32.000Z",
-      "summary": "The attack on the British retailer shows that compromising a single identity can lead to much deeper penetration of the corporate network.",
-      "categories": [
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A recent security breach at British retailer ASOS demonstrates how compromising a single user identity can enable attackers to penetrate deeper into the corporate network. The incident highlights significant vulnerabilities associated with customer-facing Software-as-a-Service applications.",
-        "whyItMatters": "It demonstrates how attackers can leverage compromised customer-facing SaaS identities to gain broader access to internal corporate networks.",
-        "affected": [],
-        "action": "Audit and strengthen identity and access management controls for all customer-facing SaaS applications.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -4861,34 +5024,6 @@
       }
     },
     {
-      "title": "Solving the Continuous Authorization Conundrum",
-      "link": "https://www.crowdstrike.com/en-us/blog/solving-the-continuous-authorization-conundrum/",
-      "source": "CrowdStrike",
-      "publishedAt": "2026-10-08T05:00:00.000Z",
-      "summary": "Solving the Continuous Authorization Conundrum",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "Solving the Continuous Authorization Conundrum",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "CrowdStrike and Anthropic Give Critical Infrastructure Defenders the AI Advantage",
       "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-anthropic-critical-infrastructure-defense-program/",
       "source": "CrowdStrike",
@@ -4915,11 +5050,11 @@
       }
     },
     {
-      "title": "ISC Stormcast For Thursday, October 8th, 2026 (Thu, Oct 8th)",
-      "link": "https://isc.sans.edu/diary/rss/33408",
-      "source": "SANS ISC",
-      "publishedAt": "2026-10-08T02:00:02.000Z",
-      "summary": "ISC Stormcast For Thursday, October 8th, 2026 https://isc.sans.edu/podcastdetail/10128, (Thu, Oct 8th)",
+      "title": "Solving the Continuous Authorization Conundrum",
+      "link": "https://www.crowdstrike.com/en-us/blog/solving-the-continuous-authorization-conundrum/",
+      "source": "CrowdStrike",
+      "publishedAt": "2026-10-08T05:00:00.000Z",
+      "summary": "Solving the Continuous Authorization Conundrum",
       "categories": [
         "News"
       ],
@@ -4929,15 +5064,17 @@
       "poc": false,
       "severity": "news",
       "breaking": false,
-      "readTimeMin": 1,
+      "readTimeMin": 2,
       "aiSummary": {
-        "summary": "This SANS Internet Storm Center podcast episode provides a daily cybersecurity threat briefing for October 8th, 2026. It covers current vulnerabilities, security incidents, and operational advisories.",
-        "whyItMatters": "Staying informed on daily threat intelligence briefings helps security professionals track emerging vulnerabilities and attack trends.",
-        "affected": [],
-        "action": "Listen to the podcast episode for the latest threat briefing details.",
+        "summary": "Solving the Continuous Authorization Conundrum",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "action": "No action required; informational.",
         "risk": "News",
         "relatedCves": [],
-        "source": "ai"
+        "source": "heuristic"
       }
     },
     {
@@ -5290,39 +5427,6 @@
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
-      }
-    },
-    {
-      "title": "Scans for Atlassian vulnerablity (CVE-2026-21589), (Wed, Oct 7th)",
-      "link": "https://isc.sans.edu/diary/rss/33406",
-      "source": "SANS ISC",
-      "publishedAt": "2026-10-07T14:59:33.000Z",
-      "summary": "On October 5th, Atlassian published patches&#;x26;#;xc2;&#;x26;#;xa0;for multiple products to fix an \"Arbitrary File Access\" vulnerability &#;x26;#;x5b;CVE-2026-21589&#;x26;#;x5d;. An attacker can read arbitrary files in",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-21589"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "On October 5th, Atlassian published patches&#;x26;#;xc2;&#;x26;#;xa0;for multiple products to fix an \"Arbitrary File Access\" vulnerability &#;x26;#;x5b;CVE-2026-21589&#;x26;#;x5d;. An attacker can read arbitrary files in",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [
-          "CVE-2026-21589"
-        ],
-        "source": "heuristic"
       }
     },
     {
@@ -5735,117 +5839,6 @@
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
-      }
-    },
-    {
-      "title": "SMB1001: How Huntress Maps to Each Tier",
-      "link": "https://www.huntress.com/blog/why-smb1001-works-for-small-business",
-      "source": "Huntress",
-      "publishedAt": "2026-10-06T14:00:00.000Z",
-      "summary": "SMB1001 gives small businesses a cybersecurity standard with a finish line. See how its five tiers work and where Huntress maps to each control.",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "SMB1001 gives small businesses a cybersecurity standard with a finish line. See how its five tiers work and where Huntress maps to each control.",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Why the AI Attack Surface Extends Your Stack",
-      "link": "https://bishopfox.com/blog/why-ai-attack-surface-extends-your-stack",
-      "source": "Bishop Fox",
-      "publishedAt": "2026-10-06T13:00:00.000Z",
-      "summary": "Integrating AI into enterprise applications creates risk across every layer of the stack, not just the model. This post maps the full AI attack surface, shows how a prompt injection can chain into credential theft and cr",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Integrating AI into enterprise applications creates risk across every layer of the stack, not just the model. This post maps the full AI attack surface, shows how a prompt injection can chain into credential theft and cr",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Untitled",
-      "link": "https://www.huntress.com/blog/mapping-akira-ransomware-attack",
-      "source": "Huntress",
-      "publishedAt": "2026-10-06T13:00:00.000Z",
-      "summary": "",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "The provided article contains no text or details regarding a cybersecurity event. Consequently, no specific vulnerabilities or incidents can be summarized.",
-        "whyItMatters": "Without any information provided, it is impossible to assess the potential security impact.",
-        "affected": [],
-        "action": "Verify the article content and provide valid text for analysis.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Incident affecting ASOS customers",
-      "link": "https://www.ncsc.gov.uk/news/incident-affecting-asos-customers",
-      "source": "NCSC UK",
-      "publishedAt": "2026-10-06T12:00:00.000Z",
-      "summary": "ASOS has said it is investigating a cyber incident and that some customer personal information may have been accessed.",
-      "categories": [
-        "Incident Response",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "ASOS has said it is investigating a cyber incident and that some customer personal information may have been accessed.",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
       }
     }
   ]
