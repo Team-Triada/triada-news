@@ -1,6 +1,70 @@
 {
-  "updatedAt": "2026-10-14T22:18:20.915Z",
+  "updatedAt": "2026-10-15T00:33:40.638Z",
   "items": [
+    {
+      "title": "Smashing Security podcast #488: How a ransomware negotiator ended up arrested at his own conference",
+      "link": "https://grahamcluley.com/smashing-security-podcast-488/",
+      "source": "Graham Cluley",
+      "publishedAt": "2026-10-14T23:06:42.000Z",
+      "summary": "A ransomware negotiator attended a cybersecurity conference, only to be arrested by the FBI in connection with its investigation into the ShinyHunters gang.\r\n\r\nMeanwhile, hackers get the keys to ASOS's app and the chance",
+      "categories": [
+        "Ransomware",
+        "Government"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "high",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A prominent ransomware negotiator attending a cybersecurity conference was arrested by the FBI regarding an investigation into the ShinyHunters gang. Additionally, hackers gained unauthorized access to the ASOS app's encryption keys.",
+        "whyItMatters": "This incident highlights the intersection of law enforcement action within the cybersecurity community and ongoing credential security risks for major e-commerce platforms.",
+        "affected": [
+          "ASOS app"
+        ],
+        "action": "Investigate credentials and monitor for unauthorized access related to the ASOS platform.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Palo Alto Networks warns of PAN-OS RCE flaw exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-10-14T22:56:47.000Z",
+      "summary": "Palo Alto Networks has released security updates for a high-severity PAN-OS RCE zero-day, tracked as CVE-2026-0322, that has been exploited in attacks targeting firewalls. [...]",
+      "categories": [
+        "Zero Day",
+        "Vulnerability"
+      ],
+      "tags": [
+        "Palo Alto"
+      ],
+      "cves": [
+        "CVE-2026-0322"
+      ],
+      "kev": true,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Palo Alto Networks has released security updates to address a high-severity remote code execution zero-day vulnerability in PAN-OS. This flaw, tracked as CVE-2026-0322, has actively been exploited in attacks targeting organization firewalls.",
+        "whyItMatters": "Active exploitation of an RCE zero-day in perimeter security devices poses an immediate risk of complete network compromise.",
+        "affected": [
+          "Palo Alto Networks PAN-OS"
+        ],
+        "action": "Apply the security updates immediately.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-0322"
+        ],
+        "source": "ai"
+      }
+    },
     {
       "title": "Unit 42 Uncovers PEERSTITCH, a Stealthy FortiGate Implant",
       "link": "https://unit42.paloaltonetworks.com/fortimanager-cve-2024-47575-peerstitch-malware/",
@@ -1482,8 +1546,8 @@
       }
     },
     {
-      "title": "CVE-2026-105723 Windows Distributed File System (DFS) Elevation of Privilege Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-105723",
+      "title": "CVE-2026-69366 Windows Kernel Elevation of Privilege Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69366",
       "source": "Microsoft MSRC",
       "publishedAt": "2026-10-14T14:00:00.000Z",
       "summary": "Updated an acknowledgement. This is an informational change only.",
@@ -1495,7 +1559,7 @@
         "Windows"
       ],
       "cves": [
-        "CVE-2026-105723"
+        "CVE-2026-69366"
       ],
       "kev": false,
       "poc": false,
@@ -1503,22 +1567,22 @@
       "breaking": false,
       "readTimeMin": 2,
       "aiSummary": {
-        "summary": "Updated an acknowledgement. This is an informational change only.",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "summary": "Microsoft has updated an acknowledgement for CVE-2026-69366, a Windows Kernel Elevation of Privilege vulnerability. This update represents an informational change only with no new technical details provided.",
+        "whyItMatters": "Keeping track of security advisory updates ensures organizations are aware of official documentation changes regarding kernel-level vulnerabilities.",
         "affected": [
-          "Windows"
+          "Windows Kernel"
         ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
+        "action": "Review the updated Microsoft security advisory for any administrative changes.",
+        "risk": "News",
         "relatedCves": [
-          "CVE-2026-105723"
+          "CVE-2026-69366"
         ],
-        "source": "heuristic"
+        "source": "ai"
       }
     },
     {
-      "title": "CVE-2026-70095 Windows iSCSI Remote Code Execution Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70095",
+      "title": "CVE-2026-69676 Windows Kerberos Remote Code Execution Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69676",
       "source": "Microsoft MSRC",
       "publishedAt": "2026-10-14T14:00:00.000Z",
       "summary": "Updated an acknowledgement. This is an informational change only.",
@@ -1527,10 +1591,11 @@
         "Vendor Advisory"
       ],
       "tags": [
-        "Windows"
+        "Windows",
+        "Kerberos"
       ],
       "cves": [
-        "CVE-2026-70095"
+        "CVE-2026-69676"
       ],
       "kev": false,
       "poc": false,
@@ -1538,22 +1603,22 @@
       "breaking": false,
       "readTimeMin": 2,
       "aiSummary": {
-        "summary": "Updated an acknowledgement. This is an informational change only.",
-        "whyItMatters": "Actively exploited or high-impact; treat as urgent.",
+        "summary": "Microsoft has updated an acknowledgement for CVE-2026-69676, a remote code execution vulnerability affecting Windows Kerberos. This update is informational only and does not introduce new technical advisories.",
+        "whyItMatters": "Keeping track of vulnerability metadata updates ensures organizations have the most accurate and up-to-date threat intelligence regarding core authentication protocols.",
         "affected": [
-          "Windows"
+          "Windows Kerberos"
         ],
-        "action": "Patch immediately.",
-        "risk": "Critical",
+        "action": "Review the updated advisory for any changes to the acknowledgement details.",
+        "risk": "News",
         "relatedCves": [
-          "CVE-2026-70095"
+          "CVE-2026-69676"
         ],
-        "source": "heuristic"
+        "source": "ai"
       }
     },
     {
-      "title": "CVE-2026-70245 Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70245",
+      "title": "CVE-2026-70584 Windows Core Messaging Elevation of Privilege Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70584",
       "source": "Microsoft MSRC",
       "publishedAt": "2026-10-14T14:00:00.000Z",
       "summary": "Updated an acknowledgement. This is an informational change only.",
@@ -1565,42 +1630,7 @@
         "Windows"
       ],
       "cves": [
-        "CVE-2026-70245"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Updated an acknowledgement. This is an informational change only.",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Windows"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [
-          "CVE-2026-70245"
-        ],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "CVE-2026-84019 Windows Advanced Rasterization Platform Elevation of Privilege Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-84019",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-10-14T14:00:00.000Z",
-      "summary": "Updated an acknowledgement. This is an informational change only.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [
-        "CVE-2026-84019"
+        "CVE-2026-70584"
       ],
       "kev": false,
       "poc": false,
@@ -1608,22 +1638,22 @@
       "breaking": false,
       "readTimeMin": 2,
       "aiSummary": {
-        "summary": "Updated an acknowledgement. This is an informational change only.",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "summary": "An acknowledgement has been updated for CVE-2026-70584, which is a Windows Core Messaging elevation of privilege vulnerability. This update represents an informational change only with no functional modifications.",
+        "whyItMatters": "Understanding updates to vulnerability acknowledgements helps security teams track advisory history and metadata accuracy.",
         "affected": [
-          "Windows"
+          "Windows Core Messaging"
         ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
+        "action": "Review the updated advisory for informational purposes.",
+        "risk": "News",
         "relatedCves": [
-          "CVE-2026-84019"
+          "CVE-2026-70584"
         ],
-        "source": "heuristic"
+        "source": "ai"
       }
     },
     {
-      "title": "CVE-2026-85868 Windows Common Log File System Driver Elevation of Privilege Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-85868",
+      "title": "CVE-2026-68825 Windows Bind Filter Driver Elevation of Privilege Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68825",
       "source": "Microsoft MSRC",
       "publishedAt": "2026-10-14T14:00:00.000Z",
       "summary": "Updated an acknowledgement. This is an informational change only.",
@@ -1635,77 +1665,7 @@
         "Windows"
       ],
       "cves": [
-        "CVE-2026-85868"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Updated an acknowledgement. This is an informational change only.",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Windows"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [
-          "CVE-2026-85868"
-        ],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "CVE-2026-85870 Windows Common Log File System Driver Elevation of Privilege Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-85870",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-10-14T14:00:00.000Z",
-      "summary": "Updated an acknowledgement. This is an informational change only.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [
-        "CVE-2026-85870"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Updated an acknowledgement. This is an informational change only.",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Windows"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [
-          "CVE-2026-85870"
-        ],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "CVE-2026-102188 Windows Storage Port Driver Elevation of Privilege Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-102188",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-10-14T14:00:00.000Z",
-      "summary": "Updated an acknowledgement. This is an informational change only.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [
-        "CVE-2026-102188"
+        "CVE-2026-68825"
       ],
       "kev": false,
       "poc": false,
@@ -1713,35 +1673,34 @@
       "breaking": false,
       "readTimeMin": 2,
       "aiSummary": {
-        "summary": "Updated an acknowledgement. This is an informational change only.",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "summary": "Microsoft has updated an acknowledgement for CVE-2026-68825, a Windows Bind Filter Driver Elevation of Privilege Vulnerability. This change is purely informational and does not contain new technical fixes or threat indicators.",
+        "whyItMatters": "It is important for tracking administrative updates and acknowledgements related to known Windows security flaws.",
         "affected": [
-          "Windows"
+          "Windows Bind Filter Driver"
         ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
+        "action": "Review the advisory for any updated documentation details.",
+        "risk": "News",
         "relatedCves": [
-          "CVE-2026-102188"
+          "CVE-2026-68825"
         ],
-        "source": "heuristic"
+        "source": "ai"
       }
     },
     {
-      "title": "CVE-2026-83943 Azure API Center Information Disclosure Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-83943",
+      "title": "CVE-2026-77499 Windows DHCP Server Denial of Service Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-77499",
       "source": "Microsoft MSRC",
       "publishedAt": "2026-10-14T14:00:00.000Z",
-      "summary": "CWE added. Informational change only.",
+      "summary": "Updated an acknowledgement. This is an informational change only.",
       "categories": [
         "Vulnerability",
-        "Cloud",
         "Vendor Advisory"
       ],
       "tags": [
-        "Azure"
+        "Windows"
       ],
       "cves": [
-        "CVE-2026-83943"
+        "CVE-2026-77499"
       ],
       "kev": false,
       "poc": false,
@@ -1749,17 +1708,122 @@
       "breaking": false,
       "readTimeMin": 2,
       "aiSummary": {
-        "summary": "CWE added. Informational change only.",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "summary": "Microsoft has updated an informational acknowledgment regarding a Windows DHCP Server vulnerability tracked as CVE-2026-77499. This update does not introduce new technical patches or alter the core risk status of the denial of service flaw.",
+        "whyItMatters": "Keeping track of documentation updates helps administrators maintain accurate vulnerability intelligence for critical network services.",
         "affected": [
-          "Azure"
+          "Windows DHCP Server"
         ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "action": "Review the updated advisory for any new documentation guidance.",
         "risk": "Medium",
         "relatedCves": [
-          "CVE-2026-83943"
+          "CVE-2026-77499"
         ],
-        "source": "heuristic"
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-72937 Windows Storage Port Driver Information Disclosure Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-72937",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-10-14T14:00:00.000Z",
+      "summary": "Updated an acknowledgement. This is an informational change only.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [
+        "CVE-2026-72937"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Microsoft has updated an acknowledgement regarding CVE-2026-72937, an information disclosure vulnerability in the Windows Storage Port Driver. This update represents an informational change only with no immediate functional modifications to the software.",
+        "whyItMatters": "It tracks a newly acknowledged vulnerability in a core Windows driver that could potentially allow unauthorized information disclosure.",
+        "affected": [
+          "Windows Storage Port Driver"
+        ],
+        "action": "Review the updated advisory for any new guidance regarding the Windows Storage Port Driver.",
+        "risk": "Medium",
+        "relatedCves": [
+          "CVE-2026-72937"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-62697 Windows Push Notifications Elevation of Privilege Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62697",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-10-14T14:00:00.000Z",
+      "summary": "Updated an acknowledgement. This is an informational change only.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [
+        "CVE-2026-62697"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Microsoft has released an informational update regarding CVE-2026-62697, a Windows Push Notifications elevation of privilege vulnerability. This update consists solely of a revised acknowledgement with no functional changes to the security advisory.",
+        "whyItMatters": "Keeping track of acknowledgement updates helps security teams maintain accurate documentation of vulnerability disclosures.",
+        "affected": [
+          "Windows"
+        ],
+        "action": "Review the updated Microsoft security advisory for informational purposes.",
+        "risk": "News",
+        "relatedCves": [
+          "CVE-2026-62697"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-69351 Windows Universal Plug and Play (UPnP) Device Host Information Disclosure Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69351",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-10-14T14:00:00.000Z",
+      "summary": "Updated an acknowledgement. This is an informational change only.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [
+        "CVE-2026-69351"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft has released an informational update regarding CVE-2026-69351, an information disclosure vulnerability in the Windows Universal Plug and Play Device Host. The update consists solely of an acknowledgement change with no functional remediation details provided.",
+        "whyItMatters": "Tracking updates to vulnerability advisories ensures organizations maintain accurate records of Microsoft's security communications.",
+        "affected": [
+          "Windows Universal Plug and Play (UPnP) Device Host"
+        ],
+        "action": "Review the advisory update for informational purposes.",
+        "risk": "News",
+        "relatedCves": [
+          "CVE-2026-69351"
+        ],
+        "source": "ai"
       }
     },
     {
@@ -2026,6 +2090,32 @@
         "affected": [],
         "action": "Review email security controls and monitor for phishing campaigns.",
         "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Behind Closed Doors: How Physical Penetration Testing Secures Sensitive Conversations",
+      "link": "https://bishopfox.com/blog/how-physical-penetration-testing-secures-sensitive-conversations",
+      "source": "Bishop Fox",
+      "publishedAt": "2026-10-14T13:00:00.000Z",
+      "summary": "Closing the door doesn’t make a room secure. Alethe Denis breaks down how physical penetration testing evaluates whether unauthorized people can reach sensitive spaces, interact with equipment, or leave something behind ",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Alethe Denis discusses how physical penetration testing evaluates the security of sensitive spaces against unauthorized access. The article highlights that simply closing a door is insufficient to prevent physical security breaches and equipment tampering.",
+        "whyItMatters": "Physical security vulnerabilities can allow unauthorized individuals to access sensitive areas, compromise equipment, or compromise organizational security.",
+        "affected": [],
+        "action": "Review physical security measures and consider conducting physical penetration testing.",
+        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
@@ -2334,36 +2424,6 @@
         "affected": [],
         "action": "Conduct a deepfake readiness drill with your security and help desk teams.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Hirudo Android malware replaces banking apps to evade security checks",
-      "link": "https://www.bleepingcomputer.com/news/security/hirudo-android-malware-replaces-banking-apps-to-evade-security-checks/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-10-14T11:41:20.000Z",
-      "summary": "A new Android malware called Hirudo steals bank account credentials by replacing legitimate banking apps with modified versions that disable security checks. [...]",
-      "categories": [
-        "Malware"
-      ],
-      "tags": [
-        "Android"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A new Android malware named Hirudo targets bank accounts by stealing credentials and substituting legitimate banking applications with modified versions. These altered apps are designed to disable essential security checks on infected devices.",
-        "whyItMatters": "This threat directly compromises financial data and bypasses standard device security mechanisms, putting users at high risk of unauthorized transactions.",
-        "affected": [
-          "Android banking apps"
-        ],
-        "action": "Avoid downloading unverified applications and scan your device for malicious software.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -2919,6 +2979,35 @@
       }
     },
     {
+      "title": "USN-8926-1: urllib3 vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8926-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-10-14T06:23:09.000Z",
+      "summary": "Yu-Fu Fu, Seth Larson and Yonatan Magier discovered that urllib3 did not\ncorrectly handle certain certificate validations. An attacker could\npossibly use this issue to observe or modify forwarded traffic. This\nissue only",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Yu-Fu Fu, Seth Larson and Yonatan Magier discovered that urllib3 did not correctly handle certain certificate validations. An attacker could possibly exploit this issue to observe or modify forwarded traffic.",
+        "whyItMatters": "Flaws in certificate validation within widely used libraries like urllib3 expose encrypted communications to potential interception and tampering by attackers.",
+        "affected": [
+          "urllib3"
+        ],
+        "action": "Update urllib3 to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "注意喚起: SiteGuard Server EditionにおけるOSコマンドインジェクションの脆弱性（CVE-2026-106931）に関する注意喚起 (公開)",
       "link": "https://www.jpcert.or.jp/at/2026/at260032.html",
       "source": "JPCERT/CC",
@@ -3107,8 +3196,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -3137,8 +3226,8 @@
         "affected": [
           "Firefox"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -3165,8 +3254,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -3194,8 +3283,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -3476,35 +3565,6 @@
         "risk": "Medium",
         "relatedCves": [],
         "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8908-2: BlueZ regression",
-      "link": "https://ubuntu.com/security/notices/USN-8908-2",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-10-13T19:28:30.000Z",
-      "summary": "USN-8908-1 fixed vulnerabilities in BlueZ. Unfortunately, that update introduced a\nregression in the A2DP profile: cached remote stream endpoints were no\nlonger loaded at startup, which could cause Bluetooth audio device",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "USN-8908-1 fixed vulnerabilities in BlueZ. Unfortunately, that update introduced a\nregression in the A2DP profile: cached remote stream endpoints were no\nlonger loaded at startup, which could cause Bluetooth audio device",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
       }
     },
     {
@@ -3947,6 +4007,38 @@
         "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
+      }
+    },
+    {
+      "title": "Submit and Execute: Weaponizing Reflected XSS in Siemens Teamcenter's Login Redirect (CVE-2026-58113)",
+      "link": "https://bishopfox.com/blog/xss-siemens-teamcenters-login-redirect-cve-2026-58113",
+      "source": "Bishop Fox",
+      "publishedAt": "2026-10-13T13:00:00.000Z",
+      "summary": "A crafted link, one page load, and no clicks required. Bishop Fox found a reflected XSS in Siemens Teamcenter’s login redirect that auto-submits its own form, turning attribute injection into zero-interaction code execut",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-58113"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Researchers at Bishop Fox discovered a zero-interaction reflected XSS vulnerability in Siemens Teamcenter's login redirect mechanism. The flaw uses attribute injection to automatically submit a crafted form, achieving code execution without requiring user clicks.",
+        "whyItMatters": "It allows attackers to achieve arbitrary code execution via a specially crafted link without any user interaction beyond loading the page.",
+        "affected": [
+          "Siemens Teamcenter"
+        ],
+        "action": "Apply the vendor-provided security updates or patches for Teamcenter.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-58113"
+        ],
+        "source": "ai"
       }
     },
     {
@@ -4774,8 +4866,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -4803,8 +4895,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -4831,8 +4923,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -4860,8 +4952,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -5748,87 +5840,6 @@
         "risk": "Medium",
         "relatedCves": [],
         "source": "ai"
-      }
-    },
-    {
-      "title": "Smashing Security podcast #487: Clippy’s crypto comeback",
-      "link": "https://grahamcluley.com/smashing-security-podcast-487/",
-      "source": "Graham Cluley",
-      "publishedAt": "2026-10-07T23:10:49.000Z",
-      "summary": "Microsoft's Twitter account, with its 13 million followers, was hijacked by a paperclip. There was no ransomware or data theft, just Clippy, a dodgy crypto coin, and a corporate apology that wasn't from Microsoft either.",
-      "categories": [
-        "Ransomware"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "high",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft's official Twitter account with 13 million followers was hijacked to promote a cryptocurrency scam featuring Clippy. The incident involved no data theft or ransomware, resulting in unauthorized posts and a fake corporate apology.",
-        "whyItMatters": "This high-profile social media hijacking demonstrates that even massive technology corporations are vulnerable to account takeovers used for crypto scams.",
-        "affected": [],
-        "action": "Verify official corporate announcements through secondary channels.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Evolution of Web3 in Cloud Supply Chain Attacks",
-      "link": "https://unit42.paloaltonetworks.com/web3-cloud-supply-chain-attacks/",
-      "source": "Unit 42",
-      "publishedAt": "2026-10-07T22:00:16.000Z",
-      "summary": "Unit 42 details how threat actors leverage Web3 infrastructure and open-source supply chain attacks to breach enterprise cloud environments\nThe post Evolution of Web3 in Cloud Supply Chain Attacks appeared first on Unit ",
-      "categories": [
-        "Incident Response",
-        "Open Source"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Unit 42 reports on how threat actors are combining Web3 infrastructure with open-source supply chain attacks to infiltrate enterprise cloud environments. This research highlights evolving tactics used by attackers to compromise modern cloud architectures.",
-        "whyItMatters": "It demonstrates how adversaries are expanding their attack surface by targeting decentralized Web3 components within traditional cloud supply chains.",
-        "affected": [],
-        "action": "Review open-source dependencies and Web3 infrastructure integrations for potential supply chain vulnerabilities.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Issue with FreeRTOS-Plus-TCP - MAC Address Validation Bypass and ICMP Echo Reply Integer Underflow",
-      "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-021-aws/",
-      "source": "AWS Security Bulletins",
-      "publishedAt": "2026-10-07T20:16:45.000Z",
-      "summary": "Issue with FreeRTOS-Plus-TCP - MAC Address Validation Bypass and ICMP Echo Reply Integer Underflow",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Issue with FreeRTOS-Plus-TCP - MAC Address Validation Bypass and ICMP Echo Reply Integer Underflow",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
       }
     }
   ]
