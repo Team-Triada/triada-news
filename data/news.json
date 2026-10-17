@@ -1,6 +1,65 @@
 {
-  "updatedAt": "2026-10-17T14:11:20.271Z",
+  "updatedAt": "2026-10-17T17:07:36.554Z",
   "items": [
+    {
+      "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-10-17T15:18:51.000Z",
+      "summary": "ConnectWise has shut down customer access to its Cloud Backup service (formerly SkyKick Cloud Backup) after hackers accessed application identities and compromised Microsoft 365 tenants. [...]",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Hackers have breached Microsoft 365 tenants by exploiting application identities through a supply-chain attack on the ConnectWise Cloud Backup service. In response to the security incident, ConnectWise has temporarily shut down customer access to the affected backup platform.",
+        "whyItMatters": "This incident exposes downstream Microsoft 365 tenants to unauthorized access and potential data compromise through a trusted third-party vendor.",
+        "affected": [
+          "ConnectWise Cloud Backup",
+          "SkyKick Cloud Backup",
+          "Microsoft 365 tenants"
+        ],
+        "action": "Review Microsoft 365 tenant permissions and disconnect compromised ConnectWise integrations immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Drupal patches critical RCE flaws, warns exploits may emerge soon",
+      "link": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-10-17T14:32:48.000Z",
+      "summary": "Drupal has patched two critical vulnerabilities that could allow attackers to execute code remotely on websites running any supported version of the content management system. [...]",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Drupal has released patches for two critical remote code execution vulnerabilities affecting all supported versions of the content management system. Administrators are strongly urged to update their sites immediately, as public exploits are expected to emerge soon.",
+        "whyItMatters": "Unpatched websites face a high risk of complete takeover by attackers exploiting these critical remote code execution flaws.",
+        "affected": [
+          "Drupal CMS all supported versions"
+        ],
+        "action": "Update Drupal to the latest patched version immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Cybercrims go beyond stealing data to attack physical building systems",
       "link": "https://www.theregister.com/security/2026/10/17/cybercrims-go-beyond-stealing-data-to-attack-physical-building-systems/5303677",
@@ -2152,36 +2211,6 @@
       }
     },
     {
-      "title": "BeyondTrust patches zero-day exploited in attacks since August",
-      "link": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-10-16T06:18:08.000Z",
-      "summary": "BeyondTrust warned customers on Thursday to patch a critical flaw in its Remote Support (RS) that has been exploited in zero-day attacks since late August. [...]",
-      "categories": [
-        "Zero Day",
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "BeyondTrust warned customers on Thursday to patch a critical flaw in its Remote Support (RS) that has been exploited in zero-day attacks since late August. [...]",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Why Active Directory weaknesses stay open for years in teams with one or two admins",
       "link": "https://www.helpnetsecurity.com/2026/10/16/david-fuhr-intcube-active-directory-security/",
       "source": "Help Net Security",
@@ -2608,39 +2637,6 @@
         "action": "Monitor court communications for alternative notice procedures.",
         "risk": "High",
         "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-10-15T20:25:04.000Z",
-      "summary": "Threat actors are exploiting a critical command execution flaw, now tracked as CVE-2026-110447, in the Collabora Online - Built-in CODE Server app (richdocumentscode) for Nextcloud. [...]",
-      "categories": [
-        "Malware",
-        "Vulnerability"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-110447"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Threat actors are actively exploiting a critical command execution vulnerability in the Collabora Online - Built-in CODE Server app for Nextcloud. This flaw, designated as CVE-2026-110447, allows attackers to successfully install backdoors on targeted Nextcloud servers.",
-        "whyItMatters": "Active exploitation of a remote code execution vulnerability poses an immediate and severe threat to the confidentiality and integrity of all compromised Nextcloud server environments.",
-        "affected": [
-          "Collabora Online - Built-in CODE Server app (richdocumentscode) for Nextcloud"
-        ],
-        "action": "Immediately update the Collabora Online - Built-in CODE Server app to the latest patched version.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-110447"
-        ],
         "source": "ai"
       }
     },
