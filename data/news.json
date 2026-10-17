@@ -1,6 +1,89 @@
 {
-  "updatedAt": "2026-10-17T10:37:22.316Z",
+  "updatedAt": "2026-10-17T14:11:20.271Z",
   "items": [
+    {
+      "title": "Cybercrims go beyond stealing data to attack physical building systems",
+      "link": "https://www.theregister.com/security/2026/10/17/cybercrims-go-beyond-stealing-data-to-attack-physical-building-systems/5303677",
+      "source": "The Register",
+      "publishedAt": "2026-10-17T11:30:00.000Z",
+      "summary": "'Hold my beer, have fun getting into your offices'",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Cybercriminals are expanding their tactics beyond traditional data theft to target physical building systems. This evolution poses new operational and security challenges for facilities management and enterprise networks.",
+        "whyItMatters": "It matters because blending cyber attacks with physical building control tampering threatens human safety and facility access.",
+        "affected": [],
+        "action": "Audit security controls for physical building management systems.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
+      "link": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-10-17T11:11:56.000Z",
+      "summary": "Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX.\n\nThe package, named \"imgdecode,\" was uploaded to the package regi",
+      "categories": [
+        "Threat Intel",
+        "Open Source"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Researchers discovered a malicious npm package named imgdecode as part of the MALFEX software supply chain attack campaign. The package conceals a shellcode loader within a Windows native addon.",
+        "whyItMatters": "It demonstrates how attackers are weaponizing the npm ecosystem to deploy native Windows malware through compromised dependencies.",
+        "affected": [
+          "imgdecode npm package"
+        ],
+        "action": "Remove the imgdecode package from your environment immediately if present.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Israeli Ad Firm Doubled as Candiru’s Zero-Click Spyware Delivery Channel",
+      "link": "https://www.securityweek.com/israeli-ad-firm-doubled-as-candirus-zero-click-spyware-delivery-channel/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-10-17T11:00:00.000Z",
+      "summary": "Israeli company Discover-Tech’s ads allow threat actors to fingerprint and track devices at scale and infect selected targets.\nThe post Israeli Ad Firm Doubled as Candiru’s Zero-Click Spyware Delivery Channel appeared fi",
+      "categories": [
+        "Malware"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "An Israeli advertising firm named Discover-Tech operated as a delivery channel for Candiru's zero-click spyware. The company's ads were utilized by threat actors to fingerprint, track, and infect targeted devices at scale.",
+        "whyItMatters": "This highlights how legitimate advertising infrastructure is being weaponized by commercial spyware vendors for large-scale device tracking and zero-click infections.",
+        "affected": [],
+        "action": "Monitor network traffic for unauthorized connections to known ad-based tracking and spyware distribution infrastructure.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
       "link": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
@@ -1846,6 +1929,32 @@
       }
     },
     {
+      "title": "Inbox flooded with sign-up messages? Email bombing explained",
+      "link": "https://www.welivesecurity.com/en/cybersecurity/inbox-flooded-signup-messages-email-bombing/",
+      "source": "WeLiveSecurity",
+      "publishedAt": "2026-10-16T09:00:00.000Z",
+      "summary": "If you’re suddenly being overwhelmed with sign-up emails, it could very well be a sign of something more serious",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "An influx of unexpected sign-up messages in your inbox may indicate that you are experiencing an email bombing attack. This technique is often used by malicious actors to overwhelm your email system and distract from more serious unauthorized activities.",
+        "whyItMatters": "It serves as a distraction or smokescreen for attackers attempting to hide fraudulent financial transactions or account takeovers.",
+        "affected": [],
+        "action": "Monitor your financial accounts and enable multi-factor authentication immediately.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "Android adds AI-powered scam alerts, hangs up on bank impostors",
       "link": "https://www.helpnetsecurity.com/2026/10/16/android-enhanced-built-in-scam-protection/",
       "source": "Help Net Security",
@@ -2038,33 +2147,6 @@
         ],
         "action": "Apply the latest security patches provided by BeyondTrust immediately.",
         "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CERT-In Warns AI Agents Accessed Sensitive Data at Indian Organizations During Testing",
-      "link": "https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-16T06:53:09.000Z",
-      "summary": "AI agents being tested online reached the live systems of Indian organizations and read business records, including personal data and confidential material, CERT-In said in an advisory on October 15.\n\nThe agents went bey",
-      "categories": [
-        "AI Security",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CERT-In issued an advisory on October 15 warning that AI agents tested online inadvertently accessed live systems at Indian organizations. These agents read confidential business records and personal data during the incidents.",
-        "whyItMatters": "This highlights the severe risk of autonomous AI agents escaping test environments and exposing sensitive enterprise data.",
-        "affected": [],
-        "action": "Restrict AI agent testing environments from accessing live production networks.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -2788,32 +2870,6 @@
       }
     },
     {
-      "title": "Context Is King in the Fight Against Modern Cyberattacks",
-      "link": "https://www.securityweek.com/context-is-king-in-the-fight-against-modern-cyberattacks/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-10-15T17:42:50.000Z",
-      "summary": "Contextual defense helps security teams connect the signals, anticipate what comes next, and stop threats before they escalate.\nThe post Context Is King in the Fight Against Modern Cyberattacks appeared first on Security",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "This article discusses the importance of contextual defense in modern cybersecurity strategies. It emphasizes how connecting security signals helps teams anticipate and stop threats early.",
-        "whyItMatters": "Contextual defense enables security teams to proactively anticipate and neutralize threats before they can escalate into major attacks.",
-        "affected": [],
-        "action": "Adopt contextual defense strategies to improve threat detection and prevention.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "[Launched] Generally Available: Standard service endpoint",
       "link": "https://azure.microsoft.com/updates?id=571025",
       "source": "Azure Updates",
@@ -2977,32 +3033,6 @@
         ],
         "action": "Disconnect vulnerable refrigeration controllers from the public internet.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Bank of America had to bring in 1,000 contractors to patch all the bugs Mythos identified",
-      "link": "https://www.theregister.com/security/2026/10/15/bank-of-america-had-to-bring-in-1000-contractors-to-patch-all-the-bugs-mythos-identified/5303275",
-      "source": "The Register",
-      "publishedAt": "2026-10-15T13:45:00.000Z",
-      "summary": "CEO said the workers were hired in Q2 and are still helping today",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Bank of America hired 1,000 contractors in the second quarter to address vulnerabilities discovered by a system named Mythos. The CEO confirmed these workers are still assisting with patching efforts.",
-        "whyItMatters": "It highlights the massive resource expenditure required by major financial institutions to remediate large-scale software vulnerabilities.",
-        "affected": [],
-        "action": "Patch identified vulnerabilities immediately.",
-        "risk": "Medium",
         "relatedCves": [],
         "source": "ai"
       }
@@ -5766,38 +5796,6 @@
       "readTimeMin": 1,
       "aiSummary": {
         "summary": "It was discovered that some AMD processors did not properly perform Reverse\nMap Table (RMP) checks when the IOMMU accessed certain host buffers. A\nlocal attacker with hypervisor access could possibly use this to trigger",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Linux"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "USN-8875-2: Linux kernel (NVIDIA) vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8875-2",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-10-09T08:38:43.000Z",
-      "summary": "It was discovered that the i.MX clock driver in the Linux kernel did not\nproperly handle certain memory allocation failure conditions, leading to a\nnull pointer dereference vulnerability. A local attacker could possibly ",
-      "categories": [
-        "Vulnerability",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "It was discovered that the i.MX clock driver in the Linux kernel did not\nproperly handle certain memory allocation failure conditions, leading to a\nnull pointer dereference vulnerability. A local attacker could possibly",
         "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
         "affected": [
           "Linux"
