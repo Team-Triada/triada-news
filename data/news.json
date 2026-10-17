@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-10-17T05:33:56.818Z",
+  "updatedAt": "2026-10-17T10:37:22.316Z",
   "items": [
+    {
+      "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
+      "link": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-10-17T06:16:46.000Z",
+      "summary": "Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud Backup (formerly SkyK",
+      "categories": [
+        "Threat Intel",
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Threat actors are actively abusing a compromised Microsoft 365 credential belonging to ConnectWise Cloud Backup to gain unauthorized access to 173 M365 tenants. Security researchers have raised the alarm regarding this ongoing unauthorized access campaign.",
+        "whyItMatters": "This incident exposes numerous organizations to potential data breaches and further compromise via trusted cloud service provider credentials.",
+        "affected": [
+          "ConnectWise Cloud Backup",
+          "Microsoft 365"
+        ],
+        "action": "Audit tenant access logs and rotate compromised ConnectWise credentials immediately.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Federal agencies recommend cyber controls, independent testing for frontier AI systems",
       "link": "https://cyberscoop.com/federal-ai-agent-sandbox-security-guidance/",
@@ -24,6 +54,35 @@
         "affected": [],
         "action": "Review the newly published federal cybersecurity guidance for frontier AI systems.",
         "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "ConnectWise (SkyKick) Vendor Credentials Abused in M365 Attacks",
+      "link": "https://www.huntress.com/blog/vendor-credential-enables-unauthorized-access",
+      "source": "Huntress",
+      "publishedAt": "2026-10-16T23:00:00.000Z",
+      "summary": "ConnectWise (SkyKick) vendor credentials are being abused to access Microsoft 365 tenants. Disable the apps now and check your logs here.",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Compromised vendor credentials for ConnectWise (SkyKick) are currently being exploited to gain unauthorized access to Microsoft 365 tenants. Administrators are urged to immediately disable the affected applications and review their audit logs for suspicious activity.",
+        "whyItMatters": "This supply chain exposure allows attackers to bypass standard perimeter defenses and compromise multiple downstream Microsoft 365 environments.",
+        "affected": [
+          "ConnectWise SkyKick",
+          "Microsoft 365"
+        ],
+        "action": "Disable the vulnerable apps and review your security logs immediately.",
+        "risk": "Critical",
         "relatedCves": [],
         "source": "ai"
       }
@@ -1174,6 +1233,32 @@
       }
     },
     {
+      "title": "Inside the Hunt: Sarah Reddish",
+      "link": "https://www.huntress.com/blog/employee-spotlight-sarah-reddish",
+      "source": "Huntress",
+      "publishedAt": "2026-10-16T13:00:00.000Z",
+      "summary": "Go inside the hunt with Sarah Reddish, a SOC analyst on Huntress’ global SOC working in Triage & Analysis. See how she makes a difference every day.",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "This article features an interview with Sarah Reddish, a SOC analyst at Huntress who works in Triage and Analysis. It highlights her daily experiences and contributions to the global security operations center.",
+        "whyItMatters": "This is a promotional and informational piece highlighting the daily operations of cybersecurity analysts rather than reporting a new vulnerability.",
+        "affected": [],
+        "action": "Read the interview to learn about SOC analyst workflows.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "Rapid7 Intelligence Wins the 2026 Péter Szőr Award for Outstanding Research",
       "link": "https://www.rapid7.com/blog/post/tr-rapid7-intelligence-wins-2026-peter-szor-award-outstanding-research",
       "source": "Rapid7",
@@ -2099,38 +2184,6 @@
         "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
-      }
-    },
-    {
-      "title": "PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions",
-      "link": "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-16T04:59:36.000Z",
-      "summary": "A suspected advanced threat actor has been observed exploiting a security flaw in Fortinet FortiOS to deliver a previously unreported memory-resident ARM64 malware known as PEERSTITCH.\n\nThe attack involves the exploitati",
-      "categories": [
-        "Malware",
-        "Vulnerability",
-        "Threat Intel"
-      ],
-      "tags": [
-        "Fortinet"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "An advanced threat actor has been observed exploiting a security flaw in Fortinet FortiOS to deliver a new memory-resident ARM64 malware named PEERSTITCH. The attack targets VPN sessions by leveraging the vulnerability to bypass standard integrity checks.",
-        "whyItMatters": "This campaign demonstrates sophisticated exploitation of enterprise edge devices to deploy stealthy, memory-resident malware capable of evading detection.",
-        "affected": [
-          "Fortinet FortiOS"
-        ],
-        "action": "Patch FortiOS and review VPN session logs for unauthorized access.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
       }
     },
     {
@@ -4113,58 +4166,6 @@
         "whyItMatters": "It highlights emerging threats to industrial control systems that could disrupt critical supply chains and manufacturing operations.",
         "affected": [],
         "action": "Review the manufacturing security trends to improve plant defenses.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "10 Endpoint Security Trends and Tips for 2027 | Huntress",
-      "link": "https://www.huntress.com/blog/endpoint-security-trends",
-      "source": "Huntress",
-      "publishedAt": "2026-10-14T16:00:00.000Z",
-      "summary": "Learn the latest endpoint security trends, from AI-powered defense to zero trust and human-led threat hunting that help under-resourced teams stop threats faster.",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "This article discusses endpoint security trends for 2027, focusing on AI-powered defense, zero trust, and human-led threat hunting. It aims to help under-resourced security teams detect and stop threats more efficiently.",
-        "whyItMatters": "Staying informed about evolving security trends helps organizations adopt better defense strategies against future threats.",
-        "affected": [],
-        "action": "Review the article to understand upcoming endpoint security trends.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Business Email Compromise (BEC) Attacks: How to Stop Them",
-      "link": "https://www.huntress.com/blog/what-is-business-email-compromise-bec",
-      "source": "Huntress",
-      "publishedAt": "2026-10-14T16:00:00.000Z",
-      "summary": "Learn how business email compromise (BEC) attacks work, the warning signs to watch for, and how Huntress stops BEC with 24/7 identity threat detection.",
-      "categories": [
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "This article discusses Business Email Compromise (BEC) attacks, explaining how they work and the warning signs to watch for. It also highlights how Huntress provides 24/7 identity threat detection to help stop these threats.",
-        "whyItMatters": "BEC attacks lead to significant financial loss and data breaches, making effective identity threat detection crucial for business security.",
-        "affected": [],
-        "action": "Implement identity threat detection to monitor and prevent BEC attacks.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
