@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T22:06:02.346Z",
+  "updatedAt": "2026-10-17T00:26:33.608Z",
   "items": [
     {
       "title": "Friday Squid Blogging: Squid Before the Chicxulub Meteor Impact",
@@ -2182,6 +2182,38 @@
         "affected": [],
         "action": "Review current strategies for managing artificial intelligence agents.",
         "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6569-1 apache2 - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00483.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "summary": "Multiple vulnerabilities have been discovered in the Apache HTTP server,\nwhich may result in denial of service, information disclosure,\nauthentication bypass or HTTP request smuggling.\n\n\nhttps://security-tracker.debian.o",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory",
+        "Open Source"
+      ],
+      "tags": [
+        "Apache"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple vulnerabilities have been discovered in the Apache HTTP server. These flaws may lead to denial of service, information disclosure, authentication bypass, or HTTP request smuggling.",
+        "whyItMatters": "Unpatched vulnerabilities in the Apache HTTP server can expose web infrastructure to severe attacks like service disruption and unauthorized access.",
+        "affected": [
+          "Apache HTTP Server"
+        ],
+        "action": "Apply the latest security updates provided by your distribution.",
+        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -4563,35 +4595,6 @@
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6561-1 sogo - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00474.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-10-14T00:00:00.000Z",
-      "summary": "Multiple security vulnerabilities were discovered in the SOGo groupware\nserver, which could result in cross-site scripting, shell injection,\npassword reset poisoning or SQL injection.\n\n\nhttps://security-tracker.debian.or",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Multiple security vulnerabilities were discovered in the SOGo groupware\nserver, which could result in cross-site scripting, shell injection,\npassword reset poisoning or SQL injection.\n\n\nhttps://security-tracker.debian.or",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
       }
     },
     {
