@@ -1,6 +1,68 @@
 {
-  "updatedAt": "2026-10-18T04:25:47.050Z",
+  "updatedAt": "2026-10-18T09:32:32.650Z",
   "items": [
+    {
+      "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
+      "link": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-10-18T08:23:02.000Z",
+      "summary": "ConnectWise on Saturday said it has disabled seven ConnectWise application identities as it continues its investigation into an incident in which unknown threat actors obtained unauthorized access to the application iden",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "ConnectWise has temporarily suspended its cloud backup services and disabled seven application identities following a security incident. Threat actors managed to gain unauthorized access to Microsoft 365 tenants using these compromised identities.",
+        "whyItMatters": "This incident poses a severe supply-chain risk because compromised cloud backup credentials could allow attackers to access sensitive data across multiple client environments.",
+        "affected": [
+          "ConnectWise cloud backup"
+        ],
+        "action": "Review Microsoft 365 tenant logs and disable compromised ConnectWise application identities immediately.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Week in review: Hidden implant in Ledger wallets linked to $93M theft, 1,500+ npm packages exposed",
+      "link": "https://www.helpnetsecurity.com/2026/10/18/week-in-review-hidden-implant-in-ledger-wallets-linked-to-93m-theft-1500-npm-packages-exposed/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-10-18T08:00:30.000Z",
+      "summary": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: Strands Box: Open-source sandbox for AI agents AWS released Strands Box, an open source sandbox for AI agents that pairs o",
+      "categories": [
+        "Incident Response",
+        "Cloud",
+        "AI Security",
+        "Open Source"
+      ],
+      "tags": [
+        "AWS"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Last week's cybersecurity news highlighted a hidden implant in Ledger wallets linked to a $93 million theft and the exposure of over 1,500 npm packages. Additionally, AWS released Strands Box, an open-source sandbox designed for AI agents.",
+        "whyItMatters": "This news highlights significant supply chain risks and hardware vulnerabilities that can lead to massive financial losses for cryptocurrency and software users.",
+        "affected": [
+          "Ledger wallets",
+          "npm packages"
+        ],
+        "action": "Audit software dependencies and secure cryptocurrency hardware devices against potential supply chain compromises.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
@@ -2181,36 +2243,6 @@
       }
     },
     {
-      "title": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
-      "link": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-16T06:55:55.000Z",
-      "summary": "The China-nexus cyber espionage group tracked as Armory Castle (previously UNC5221 or Warp Panda) exploited a newly disclosed security flaw in BeyondTrust Remote Support (formerly Bomgar) as a zero-day in late August 202",
-      "categories": [
-        "Zero Day",
-        "Vulnerability",
-        "Threat Intel"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The China-linked espionage group Armory Castle exploited a newly disclosed security flaw in BeyondTrust Remote Support as a zero-day in late August. This vulnerability allowed the threat actors to take over remote support servers.",
-        "whyItMatters": "It matters because a zero-day exploit by a sophisticated nation-state group against remote support infrastructure enables widespread unauthorized access and potential espionage against targeted organizations.",
-        "affected": [
-          "BeyondTrust Remote Support"
-        ],
-        "action": "Apply the latest security patches provided by BeyondTrust immediately.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Why Active Directory weaknesses stay open for years in teams with one or two admins",
       "link": "https://www.helpnetsecurity.com/2026/10/16/david-fuhr-intcube-active-directory-security/",
       "source": "Help Net Security",
@@ -2287,34 +2319,6 @@
       "readTimeMin": 1,
       "aiSummary": {
         "summary": "A seller on a restricted criminal forum is marketing an autonomous hacking tool that runs on stolen OpenAI, Anthropic and Google API keys, so the key’s owner pays for the scans. Bitsight’s threat intelligence team tracke",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "DDoS attacks can knock services offline before links reach capacity",
-      "link": "https://www.helpnetsecurity.com/2026/10/16/netscout-ddos-attack-growth-report/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-10-16T04:30:46.000Z",
-      "summary": "More than 9.1 million DDoS attacks were recorded globally between January and June 2026, an increase of nearly a quarter year over year, according to Netscout’s DDoS Threat Intelligence Report. Large attacks and distribu",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "More than 9.1 million DDoS attacks were recorded globally between January and June 2026, an increase of nearly a quarter year over year, according to Netscout’s DDoS Threat Intelligence Report. Large attacks and distribu",
         "whyItMatters": "Background context; no immediate action expected.",
         "affected": [
           "Not specified"
