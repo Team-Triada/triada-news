@@ -1,6 +1,34 @@
 {
-  "updatedAt": "2026-10-18T13:59:37.628Z",
+  "updatedAt": "2026-10-18T17:19:55.189Z",
   "items": [
+    {
+      "title": "Hackers exploit SiteGuard WAF flaw to run commands as admins",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-10-18T14:23:16.000Z",
+      "summary": "Attackers are targeting an OS command injection vulnerability in SiteGuard Server Edition that lets them execute commands as root or SYSTEM on affected servers. [...]",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Attackers are actively exploiting an OS command injection vulnerability in SiteGuard Server Edition. This flaw allows malicious actors to execute arbitrary commands with root or SYSTEM privileges on target servers.",
+        "whyItMatters": "This vulnerability grants attackers complete administrative control over vulnerable servers, leading to potential total system compromise.",
+        "affected": [
+          "SiteGuard Server Edition"
+        ],
+        "action": "Apply available security patches or mitigation measures immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Orphaned VBA Projects Inside DWG Files: YARA Rule, (Sun, Oct 18th)",
       "link": "https://isc.sans.edu/diary/rss/33434",
@@ -113,6 +141,63 @@
         ],
         "action": "Audit software dependencies and secure cryptocurrency hardware devices against potential supply chain compromises.",
         "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6570-1 haproxy - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00485.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-10-18T00:00:00.000Z",
+      "summary": "Two vulnerabilities were discovered in HAProxy, a fast and reliable load\nbalancing reverse proxy, which could result in denial of service.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6570-1",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Two vulnerabilities have been discovered in HAProxy, a fast and reliable load balancing reverse proxy. Exploiting these security flaws could result in a denial of service.",
+        "whyItMatters": "Unpatched denial of service vulnerabilities can lead to service outages and availability disruption for applications relying on HAProxy.",
+        "affected": [
+          "HAProxy"
+        ],
+        "action": "Update HAProxy to the latest security release provided by Debian.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6567-2 cifs-utils - regression update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00484.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-10-18T00:00:00.000Z",
+      "summary": "The update for cifs-utils announced in DSA 6567-1 introduced a\nregression when using the sec=krb5 and cruid mount options. Updated\npackages are now available to correct this issue.\n\n\nhttps://security-tracker.debian.org/t",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Debian has released a regression update for cifs-utils to fix an issue introduced in a previous security advisory. The bug affected users mounting shares with the sec=krb5 and cruid options.",
+        "whyItMatters": "It matters because the previous security patch broke legitimate CIFS/SMB mounting functionality utilizing Kerberos authentication.",
+        "affected": [
+          "cifs-utils"
+        ],
+        "action": "Update the cifs-utils package to the latest version.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "ai"
       }
@@ -2246,32 +2331,6 @@
       }
     },
     {
-      "title": "BAE Systems cyberattack disrupts US federal court operations",
-      "link": "https://www.bleepingcomputer.com/news/security/bae-systems-cyberattack-disrupts-us-federal-court-operations/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-10-16T07:37:35.000Z",
-      "summary": "The Administrative Office of the US Courts says a cyberattack on government contractor BAE Systems has taken down the notice system used by federal bankruptcy courts. [...]",
-      "categories": [
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A cyberattack targeting government contractor BAE Systems has disrupted the electronic notice system utilized by US federal bankruptcy courts. The Administrative Office of the US Courts confirmed that this security incident directly impacted court operations.",
-        "whyItMatters": "This incident highlights supply chain vulnerabilities by demonstrating how attacks on third-party contractors can disrupt critical federal government operations.",
-        "affected": [],
-        "action": "Investigate third-party vendor access controls and monitor federal court notification systems for ongoing disruptions.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "User refused to change her password because everyone already knew it",
       "link": "https://www.theregister.com/security/2026/10/16/user-refused-to-change-her-password-because-everyone-already-knew-it/5301864",
       "source": "The Register",
@@ -3671,62 +3730,6 @@
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6563-1 mutt - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00477.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "It was discovered that incorrect parsing of Content-Type headers in the\nMutt mail user agent could result in denial of service or potentially\nthe execution of arbitrary code.\n\n\nhttps://security-tracker.debian.org/tracker",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A security vulnerability was discovered in the Mutt mail user agent related to the incorrect parsing of Content-Type headers. This flaw could potentially allow attackers to trigger a denial of service or execute arbitrary code.",
-        "whyItMatters": "Unpatched mail user agents can be exploited via maliciously crafted emails to compromise user systems or disrupt service availability.",
-        "affected": [
-          "mutt"
-        ],
-        "action": "Update the mutt package to the latest security version provided by your distributor.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6562-1 chromium - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00476.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "Security issues were discovered in Chromium which could result\nin the execution of arbitrary code, denial of service, or information\ndisclosure.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6562-1",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Security issues were discovered in Chromium which could result\nin the execution of arbitrary code, denial of service, or information\ndisclosure.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6562-1",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
       }
     },
     {
