@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T17:19:55.189Z",
+  "updatedAt": "2026-10-18T20:37:14.504Z",
   "items": [
     {
       "title": "Hackers exploit SiteGuard WAF flaw to run commands as admins",
@@ -140,6 +140,35 @@
           "npm packages"
         ],
         "action": "Audit software dependencies and secure cryptocurrency hardware devices against potential supply chain compromises.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6571-1 xen - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00486.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-10-18T00:00:00.000Z",
+      "summary": "Multiple vulnerabilities have been discovered in the Xen hypervisor,\nwhich could result in privilege escalation, information disclosure or\ndenial of service.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6571-1",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple vulnerabilities have been discovered in the Xen hypervisor. These security flaws could potentially lead to privilege escalation, information disclosure, or denial of service.",
+        "whyItMatters": "Unpatched vulnerabilities in hypervisors can allow attackers to compromise host systems or guest virtual machines.",
+        "affected": [
+          "Xen hypervisor"
+        ],
+        "action": "Apply the security update provided by Debian DSA-6571-1.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -622,6 +651,32 @@
         "affected": [],
         "action": "Review and update security defenses for legacy operational technology systems.",
         "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Irish police force has its Twitter hacked in cryptocurrency scam",
+      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/irish-police-twitter-hacked-crypto-scam",
+      "source": "Graham Cluley",
+      "publishedAt": "2026-10-16T18:00:50.000Z",
+      "summary": "There must have been red faces in the social media department of Ireland's police headquarters after two of its accounts were hijacked this week.\r\n\r\nRead more in my article on the Hot for Security blog.",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Two official Twitter accounts belonging to Ireland's police force were hijacked this week by malicious actors. The compromised accounts were subsequently used to promote a cryptocurrency scam.",
+        "whyItMatters": "Account takeovers of high-profile law enforcement entities erode public trust and can be leveraged by scammers to deceive a wide audience.",
+        "affected": [],
+        "action": "Enable multi-factor authentication and review security settings for all official social media accounts.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "ai"
       }
@@ -3705,34 +3760,6 @@
       }
     },
     {
-      "title": "DSA-6564-1 jpeg-xl - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00478.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "It was discovered that missing input sanitising in the APNG parser in\nthe reference code implementation of the JPEG XL format could result\nin denial of service or information disclosure if malformed images are\nprocessed.",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A security vulnerability was discovered in the APNG parser within the JPEG XL reference implementation due to missing input sanitizing. Processing malformed images can lead to a denial of service or information disclosure.",
-        "whyItMatters": "This vulnerability could allow attackers to crash applications or leak sensitive information simply by tricking a user into processing a malformed image.",
-        "affected": [
-          "jpeg-xl reference code implementation"
-        ],
-        "action": "Update the jpeg-xl package to the latest patched version.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Smashing Security podcast #488: How a ransomware negotiator ended up arrested at his own conference",
       "link": "https://grahamcluley.com/smashing-security-podcast-488/",
       "source": "Graham Cluley",
@@ -5771,39 +5798,6 @@
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
-      }
-    },
-    {
-      "title": "USN-8911-1: Linux kernel (OEM) vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-8911-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-10-09T11:58:11.000Z",
-      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - Hardware crypto device drivers;\n  - ",
-      "categories": [
-        "Vulnerability",
-        "Incident Response",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - Hardware crypto device drivers;\n  -",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Linux"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
       }
     }
   ]
