@@ -1,6 +1,116 @@
 {
-  "updatedAt": "2026-10-20T22:17:13.884Z",
+  "updatedAt": "2026-10-21T00:40:00.220Z",
   "items": [
+    {
+      "title": "Weekly Report: Microsoft Edgeに複数の脆弱性",
+      "link": "https://www.jpcert.or.jp/wr/2026/wr261021.html#1",
+      "source": "JPCERT/CC",
+      "publishedAt": "2026-10-21T00:12:00.000Z",
+      "summary": "Microsoft Edgeに複数の脆弱性",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Multiple vulnerabilities have been reported in the Microsoft Edge browser. The specific nature and details of these security flaws were highlighted in a recent weekly report.",
+        "whyItMatters": "Unpatched browser vulnerabilities can be exploited by attackers to compromise user systems or execute arbitrary code.",
+        "affected": [
+          "Microsoft Edge"
+        ],
+        "action": "Update Microsoft Edge to the latest version immediately.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Weekly Report: 複数のJuniper Networks製品に脆弱性",
+      "link": "https://www.jpcert.or.jp/wr/2026/wr261021.html#2",
+      "source": "JPCERT/CC",
+      "publishedAt": "2026-10-21T00:12:00.000Z",
+      "summary": "複数のJuniper Networks製品に脆弱性",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Multiple Juniper Networks products have been found to contain security vulnerabilities. Details regarding the specific nature of the flaws and potential exploitation vectors were noted in a weekly security report.",
+        "whyItMatters": "Unpatched vulnerabilities in network infrastructure devices can allow attackers to compromise enterprise networks and intercept sensitive traffic.",
+        "affected": [
+          "Juniper Networks products"
+        ],
+        "action": "Check vendor advisories and apply available security patches.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Philippines-based American pleads guilty to running expansive fraud scheme targeting US servicemembers",
+      "link": "https://cyberscoop.com/identity-theft-fraud-military-servicemembers-veterans-guilty-robert-boling/",
+      "source": "CyberScoop",
+      "publishedAt": "2026-10-20T23:36:10.000Z",
+      "summary": "Robert Wayne Boling Jr. was the mastermind of an identity theft conspiracy that victimized thousands of military members and veterans. He faces up to 40 years in prison.\nThe post Philippines-based American pleads guilty ",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Robert Wayne Boling Jr., a Philippines-based American, has pleaded guilty to masterminding an expansive identity theft conspiracy targeting thousands of US military members and veterans. He now faces up to 40 years in prison for his role in the fraud scheme.",
+        "whyItMatters": "This case highlights the ongoing threat of targeted identity theft schemes against vulnerable military populations by overseas actors.",
+        "affected": [],
+        "action": "Review personal military and veteran accounts for suspicious activity.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Indian certification authority eMudhra’s private keys compromised – one of them was the number ‘4’",
+      "link": "https://www.theregister.com/security/2026/10/20/indian-certification-authority-emudhras-private-keys-compromised-one-of-them-was-the-number-4/5304312",
+      "source": "The Register",
+      "publishedAt": "2026-10-20T22:57:44.000Z",
+      "summary": "Massive clean-up job under way because this mess makes it possible to impersonate any website or service",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Private keys belonging to the Indian certification authority eMudhra have been compromised, including one trivially set to the number four. This massive security failure allows attackers to impersonate any website or service relying on their certificates.",
+        "whyItMatters": "It completely undermines trust in the affected digital certificates and enables widespread impersonation attacks.",
+        "affected": [
+          "eMudhra certificates"
+        ],
+        "action": "Revoke and replace all affected certificates immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Auto tech startup claims it traced hack attempt back to rival's IP address",
       "link": "https://www.theregister.com/cyber-crime/2026/10/20/auto-tech-startup-claims-it-traced-hack-attempt-back-to-rivals-ip-address/5304281",
@@ -358,6 +468,35 @@
       }
     },
     {
+      "title": "USN-8945-1: XZ Utils vulnerability",
+      "link": "https://ubuntu.com/security/notices/USN-8945-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-10-20T17:45:10.000Z",
+      "summary": "It was discovered that XZ Utils incorrectly handled certain memory\nallocation failures when reinitializing decoders for specific compressed\nfile formats. An attacker could possibly use this issue to trigger an\ninvalid me",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A vulnerability was discovered in XZ Utils where it incorrectly handles memory allocation failures during decoder reinitialization for compressed file formats. An attacker could potentially exploit this issue to trigger invalid memory operations.",
+        "whyItMatters": "This vulnerability could be leveraged by attackers to cause crashes or potentially execute arbitrary code depending on the application context.",
+        "affected": [
+          "XZ Utils"
+        ],
+        "action": "Update XZ Utils to the latest patched version provided by your distributor.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "Palo Alto's firewall OS has been under attack from multiple ransomware groups since June",
       "link": "https://www.theregister.com/cyber-crime/2026/10/20/palo-altos-firewall-os-has-been-under-attack-from-multiple-ransomware-groups-since-june/5304226",
       "source": "The Register",
@@ -622,6 +761,37 @@
       }
     },
     {
+      "title": "USN-8944-1: ca-certificates update",
+      "link": "https://ubuntu.com/security/notices/USN-8944-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-10-20T15:52:06.000Z",
+      "summary": "This update removes the \"emSign ECC Root CA - G3\" CA certificate due to\nintermediate CA certificates being compromised.\n\nIn addition, in Ubuntu 22.04 LTS, Ubuntu 24.04 LTS, and Ubuntu 26.04 LTS,\nthe ca-certificates packa",
+      "categories": [
+        "Incident Response",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Ubuntu has released an update for the ca-certificates package to remove the compromised 'emSign ECC Root CA - G3' certificate. This maintenance ensures trust stores remain secure by eliminating compromised intermediate CA certificates.",
+        "whyItMatters": "Compromised root or intermediate certificates can allow attackers to issue trusted fraudulent certificates for impersonation and man-in-the-middle attacks.",
+        "affected": [
+          "Ubuntu 22.04 LTS",
+          "Ubuntu 24.04 LTS",
+          "Ubuntu 26.04 LTS"
+        ],
+        "action": "Update the ca-certificates package on affected Ubuntu systems.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "US Agencies Detail Incident Response Practices for Rogue AI Agents",
       "link": "https://www.securityweek.com/us-agencies-detail-incident-response-practices-for-rogue-ai-agents/",
       "source": "SecurityWeek",
@@ -799,6 +969,37 @@
       }
     },
     {
+      "title": "USN-8942-1: .NET vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8942-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-10-20T15:15:07.000Z",
+      "summary": "Multiple security issues were discovered in .NET and this update includes\nnew upstream .NET versions to fix these issues.\n\n.NET 8 has been updated to 8.0.32 in Ubuntu 22.04 LTS and Ubuntu 24.04 LTS.\n.NET 10 has been upda",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple security issues have been discovered in .NET, prompting an update to include new upstream versions. Specifically, .NET 8 has been updated to version 8.0.32 for Ubuntu 22.04 LTS and Ubuntu 24.04 LTS.",
+        "whyItMatters": "Unpatched vulnerabilities in .NET can expose systems to potential security exploits.",
+        "affected": [
+          ".NET 8.0.32",
+          "Ubuntu 22.04 LTS",
+          "Ubuntu 24.04 LTS"
+        ],
+        "action": "Update .NET to the latest provided versions.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "AOMEI Backupper servers hijacked for minutes at a time to push backdoor",
       "link": "https://www.helpnetsecurity.com/2026/10/20/aomei-backupper-compromised-supply-chain/",
       "source": "Help Net Security",
@@ -855,6 +1056,35 @@
       }
     },
     {
+      "title": "USN-8943-1: Protocol Buffers vulnerability",
+      "link": "https://ubuntu.com/security/notices/USN-8943-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-10-20T14:49:32.000Z",
+      "summary": "It was discovered that Protocol Buffers did not properly handle negative\nvarint lengths or enforce recursion limits when parsing input in the PHP\nlibrary. An attacker could possibly use this issue to cause applications\nu",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A vulnerability was discovered in the Protocol Buffers PHP library involving improper handling of negative varint lengths and a lack of recursion limits during input parsing. An attacker could potentially exploit this flaw to disrupt vulnerable applications.",
+        "whyItMatters": "Unchecked recursion and invalid length handling can lead to severe denial-of-service conditions or application crashes.",
+        "affected": [
+          "Protocol Buffers PHP library"
+        ],
+        "action": "Update the Protocol Buffers PHP library to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "Head of AI Security Roles Surge in Large Organizations",
       "link": "https://www.infosecurity-magazine.com/news/head-ai-security-roles/",
       "source": "Infosecurity Magazine",
@@ -902,6 +1132,35 @@
         "whyItMatters": "This incident demonstrates how threat actors are actively weaponizing AI-driven penetration testing tools to scale and automate high-impact cyberattacks against major corporate targets.",
         "affected": [],
         "action": "Review web application logs for unauthorized automated scanning and exploitation attempts associated with the Cairn tool.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8708-2: sudo-rs vulnerability",
+      "link": "https://ubuntu.com/security/notices/USN-8708-2",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-10-20T14:23:39.000Z",
+      "summary": "USN-8708-1 fixed a vulnerability in sudo-rs. This update provides the\ncorresponding fix for Ubuntu 26.10.\n\nOriginal advisory details:\n\n It was discovered that sudo-rs incorrectly handled time-of-check vs time-\nof-use con",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Ubuntu has released a security update to address a time-of-check versus time-of-use vulnerability in sudo-rs for Ubuntu 26.10. This follows a previous advisory that provided fixes for other versions of the operating system.",
+        "whyItMatters": "Time-of-check to time-of-use flaws can potentially be exploited by local attackers to bypass security restrictions or gain unauthorized privileges.",
+        "affected": [
+          "sudo-rs"
+        ],
+        "action": "Update the sudo-rs package to the latest version provided by your Ubuntu repository.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -1258,6 +1517,35 @@
         "relatedCves": [
           "CVE-2026-62913"
         ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-8941-1: Squid vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8941-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-10-20T13:59:52.000Z",
+      "summary": "It was discovered that Squid incorrectly handled certain HTTP Transfer-\nEncoding headers. An attacker could possibly use this issue to perform HTTP\nrequest smuggling attacks, bypass security mechanisms, or poison web\ncac",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Squid has been found to incorrectly handle certain HTTP Transfer-Encoding headers, potentially allowing malicious actors to exploit the parsing mechanism. This flaw could enable attackers to conduct HTTP request smuggling, bypass established security controls, or poison web caches.",
+        "whyItMatters": "This vulnerability compromises the integrity of HTTP traffic handling, potentially exposing networks to cache poisoning and unauthorized access bypasses.",
+        "affected": [
+          "Squid"
+        ],
+        "action": "Update Squid to the latest patched version provided by your vendor.",
+        "risk": "High",
+        "relatedCves": [],
         "source": "ai"
       }
     },
@@ -2461,32 +2749,6 @@
       }
     },
     {
-      "title": "Why cyber resilience is now a boardroom priority for UK public services",
-      "link": "https://www.theregister.com/security/2026/10/20/partner-content-why-cyber-resilience-is-now-a-boardroom-priority-for-uk-public-services/5301601",
-      "source": "The Register",
-      "publishedAt": "2026-10-20T08:00:00.000Z",
-      "summary": "PARTNER CONTENT: What happens after the inflection point?",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "This article discusses the growing importance of cyber resilience as a priority for UK public services. It highlights the strategic shift needed at the boardroom level to address modern cybersecurity challenges.",
-        "whyItMatters": "It matters because organizational resilience against cyber threats increasingly requires high-level governance and strategic investment.",
-        "affected": [],
-        "action": "Evaluate boardroom cybersecurity strategies for public sector resilience.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "The journey of a paper unicorn: adventures inside a modern warehouse",
       "link": "https://securelist.com/paper-unicorn-warehouse-security/121537/",
       "source": "Kaspersky Securelist",
@@ -2539,6 +2801,35 @@
       }
     },
     {
+      "title": "USN-8940-1: Perl XS::Parse::Keyword module vulnerability",
+      "link": "https://ubuntu.com/security/notices/USN-8940-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-10-20T03:21:29.000Z",
+      "summary": "It was discovered that the Perl XS::Parse::Keyword module did not\ncorrectly handle certain inputs. If a user or automated system were\ntricked into receiving specially crafted input, an attacker could cause\na denial of se",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A vulnerability has been discovered in the Perl XS::Parse::Keyword module related to improper input handling. An attacker could exploit this flaw by tricking a user or system into processing specially crafted input.",
+        "whyItMatters": "This vulnerability matters because it can be exploited to cause a denial of service on affected systems.",
+        "affected": [
+          "Perl XS::Parse::Keyword module"
+        ],
+        "action": "Update the Perl XS::Parse::Keyword module to the latest patched version.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "ISC Stormcast For Tuesday, October 20th, 2026 (Tue, Oct 20th)",
       "link": "https://isc.sans.edu/diary/rss/33436",
       "source": "SANS ISC",
@@ -2560,6 +2851,35 @@
         "affected": [],
         "action": "Listen to the podcast for the latest daily security updates.",
         "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6572-1 ca-certificates - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00487.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "summary": "It was discovered that several eMudhra intermediate CA certificates have\nbeen compromised. Updated ca-certificate packages are provided to remove\nthe \"emSign ECC Root CA - G3\" and \"Comodo AAA Services root\"\ncertificates.",
+      "categories": [
+        "Incident Response",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Debian has issued a security update, DSA-6572-1, to address the compromise of several eMudhra intermediate CA certificates. The update removes the compromised 'emSign ECC Root CA - G3' and 'Comodo AAA Services root' certificates from the ca-certificates package.",
+        "whyItMatters": "Compromised root certificates undermine the cryptographic trust chain, potentially allowing threat actors to issue fraudulent SSL/TLS certificates and conduct man-in-the-middle attacks.",
+        "affected": [
+          "ca-certificates"
+        ],
+        "action": "Update the ca-certificates package to the latest version immediately.",
+        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -2762,6 +3082,35 @@
         "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
+      }
+    },
+    {
+      "title": "USN-8939-1: libXtst vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-8939-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-10-19T17:17:18.000Z",
+      "summary": "It was discovered that libXtst did not properly handle certain RECORD\nreplies from the X server. A malicious X server could possibly use this\nissue to cause libXtst clients to crash, resulting in a denial of service.\n(CV",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Vulnerabilities were discovered in libXtst regarding the improper handling of certain RECORD replies from the X server. A malicious X server could exploit this issue to cause client applications using libXtst to crash, leading to a denial of service.",
+        "whyItMatters": "This vulnerability could allow an untrusted X server to disrupt dependent client applications, causing potential service interruptions.",
+        "affected": [
+          "libXtst"
+        ],
+        "action": "Update libXtst to the latest patched version provided by your vendor.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
       }
     },
     {
@@ -3420,33 +3769,6 @@
       }
     },
     {
-      "title": "Federal agencies recommend cyber controls, independent testing for frontier AI systems",
-      "link": "https://cyberscoop.com/federal-ai-agent-sandbox-security-guidance/",
-      "source": "CyberScoop",
-      "publishedAt": "2026-10-17T00:34:02.000Z",
-      "summary": "While voluntary, the document marks the federal government’s most detailed cybersecurity guidance for securing sandbox environments during AI model tests.\nThe post Federal agencies recommend cyber controls, independent t",
-      "categories": [
-        "AI Security",
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Federal agencies have released voluntary cybersecurity guidance detailing recommended controls and independent testing for frontier AI sandbox environments. This document represents the U.S. government's most comprehensive framework for securing advanced artificial intelligence model testing.",
-        "whyItMatters": "It establishes baseline security standards to protect cutting-edge artificial intelligence development environments from potential cyber threats.",
-        "affected": [],
-        "action": "Review the newly released federal guidance on AI sandbox security.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "ConnectWise (SkyKick) Vendor Credentials Abused in M365 Attacks",
       "link": "https://www.huntress.com/blog/vendor-credential-enables-unauthorized-access",
       "source": "Huntress",
@@ -4048,35 +4370,6 @@
       }
     },
     {
-      "title": "DSA-6565-1 spip - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00479.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-10-16T00:00:00.000Z",
-      "summary": "A vulnerability was discovered in SPIP, a website engine for publishing,\nwhich could result in unauthenticated remote code execution.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6565-1",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A security vulnerability has been discovered in the SPIP website publishing engine. This flaw could potentially allow unauthenticated attackers to achieve remote code execution.",
-        "whyItMatters": "Unauthenticated remote code execution is a severe vulnerability that can allow complete system compromise by malicious actors.",
-        "affected": [
-          "SPIP"
-        ],
-        "action": "Apply the security update provided by Debian DSA-6565-1 immediately.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "AI-Powered Espionage Campaign Targets Government Linux Infrastructure",
       "link": "https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure/",
       "source": "Unit 42",
@@ -4404,62 +4697,6 @@
         "affected": [],
         "action": "Review the guest diary on the SANS ISC website for technical indicators and detection strategies.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Weekly Report: Drupalの複数のモジュールに脆弱性",
-      "link": "https://www.jpcert.or.jp/wr/2026/wr261015.html#1",
-      "source": "JPCERT/CC",
-      "publishedAt": "2026-10-15T00:29:00.000Z",
-      "summary": "Drupalの複数のモジュールに脆弱性",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "Multiple modules in the Drupal content management system have been reported to contain vulnerabilities. Administrators are advised to review the advisory and apply necessary updates.",
-        "whyItMatters": "Unpatched vulnerabilities in CMS modules can lead to unauthorized access, data leaks, or potential site compromise.",
-        "affected": [
-          "Drupal modules"
-        ],
-        "action": "Update affected Drupal modules to the latest secure versions.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Weekly Report: 複数のSplunk製品に脆弱性",
-      "link": "https://www.jpcert.or.jp/wr/2026/wr261015.html#2",
-      "source": "JPCERT/CC",
-      "publishedAt": "2026-10-15T00:29:00.000Z",
-      "summary": "複数のSplunk製品に脆弱性",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "Multiple vulnerabilities have been reported in various Splunk products. Users and administrators are advised to review the advisory for specific details and updates.",
-        "whyItMatters": "Unpatched vulnerabilities in enterprise data platforms like Splunk can expose organizations to unauthorized access and system compromise.",
-        "affected": [
-          "Splunk products"
-        ],
-        "action": "Update affected Splunk products to the latest secure versions.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -5502,235 +5739,6 @@
           "Not specified"
         ],
         "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Broken authorization",
-      "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-183",
-      "source": "Fortinet PSIRT",
-      "publishedAt": "2026-10-13T07:00:00.000Z",
-      "summary": "CVSSv3 Score:\n \n 3.4\n\n\n A missing authorization vulnerability [CWE-862] in FortiSIEM GUI may allow an authenticated attacker to execute unauthorized code or commands  via Specially crafted HTTP requests\n\n\n \n  Revised on ",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CVSSv3 Score:\n \n 3.4\n\n\n A missing authorization vulnerability [CWE-862] in FortiSIEM GUI may allow an authenticated attacker to execute unauthorized code or commands  via Specially crafted HTTP requests\n\n\n \n  Revised on",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Double free in signal handler",
-      "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-182",
-      "source": "Fortinet PSIRT",
-      "publishedAt": "2026-10-13T07:00:00.000Z",
-      "summary": "CVSSv3 Score:\n \n 2.1\n\n\n A Double Free vulnerability [CWE-415] in FortiOS, FortiProxy and FortiSwitch may allow a local authenticated attacker to crash the newcli daemon via crafted CLI commands.\n\n\n \n  Revised on 2026-10-",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CVSSv3 Score:\n \n 2.1\n\n\n A Double Free vulnerability [CWE-415] in FortiOS, FortiProxy and FortiSwitch may allow a local authenticated attacker to crash the newcli daemon via crafted CLI commands.\n\n\n \n  Revised on 2026-10-",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Fabric API Authentication bypass",
-      "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-179",
-      "source": "Fortinet PSIRT",
-      "publishedAt": "2026-10-13T07:00:00.000Z",
-      "summary": "CVSSv3 Score:\n \n 4.9\n\n\n A Use of Hard-coded Cryptographic Key [CWE-321] in FortiSandbox and FortiSandbox Cloud API may allow an unauthenticated attacker to access some endpoints via specially crafted HTTP requests\n\n\n \n  ",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CVSSv3 Score:\n \n 4.9\n\n\n A Use of Hard-coded Cryptographic Key [CWE-321] in FortiSandbox and FortiSandbox Cloud API may allow an unauthenticated attacker to access some endpoints via specially crafted HTTP requests",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "GUI Denial of Service",
-      "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-181",
-      "source": "Fortinet PSIRT",
-      "publishedAt": "2026-10-13T07:00:00.000Z",
-      "summary": "CVSSv3 Score:\n \n 6.7\n\n\n An Improper Locking vulnerability [CWE-667] in FortiOS may allow an unauthenticated attacker with network access to the device to cause a denial of service of the HTTPS management interface via cr",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CVSSv3 Score:\n \n 6.7\n\n\n An Improper Locking vulnerability [CWE-667] in FortiOS may allow an unauthenticated attacker with network access to the device to cause a denial of service of the HTTPS management interface via cr",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "HTML injection in WebUI",
-      "link": "https://fortiguard.fortinet.com/psirt/FG-IR-20-005",
-      "source": "Fortinet PSIRT",
-      "publishedAt": "2026-10-13T07:00:00.000Z",
-      "summary": "CVSSv3 Score:\n \n 4.9\n\n\n An improper neutralization of script-related HTML tags in a web page in FortiManager and FortiAnalyzer may allow an attacker to perform a cross site scripting (XSS) attack via the Identify Provide",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CVSSv3 Score:\n \n 4.9\n\n\n An improper neutralization of script-related HTML tags in a web page in FortiManager and FortiAnalyzer may allow an attacker to perform a cross site scripting (XSS) attack via the Identify Provide",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Improper access control and session management in the web management interface",
-      "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-185",
-      "source": "Fortinet PSIRT",
-      "publishedAt": "2026-10-13T07:00:00.000Z",
-      "summary": "CVSSv3 Score:\n \n 9.6\n\n\n An Authentication Bypass Using an Alternate Path or Channel vulnerability [CWE-288] in FortiSandbox GUI may allow a remote unauthenticated attacker to bypass authentication via crafted HTTP reques",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CVSSv3 Score:\n \n 9.6\n\n\n An Authentication Bypass Using an Alternate Path or Channel vulnerability [CWE-288] in FortiSandbox GUI may allow a remote unauthenticated attacker to bypass authentication via crafted HTTP reques",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Multiple Arbitrary File Read/Write via SQL Injection",
-      "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-178",
-      "source": "Fortinet PSIRT",
-      "publishedAt": "2026-10-13T07:00:00.000Z",
-      "summary": "CVSSv3 Score:\n \n 7.9\n\n\n An Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability [CWE-89] in FortiAnalyzer, FortiManager, FortiManager Cloud and FortiAnalyzer Cloud may allow ",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CVSSv3 Score:\n \n 7.9\n\n\n An Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability [CWE-89] in FortiAnalyzer, FortiManager, FortiManager Cloud and FortiAnalyzer Cloud may allow",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "U.S. Government Disrupts FAMOUS CHOLLIMA Operation with CrowdStrike Assistance",
-      "link": "https://www.crowdstrike.com/en-us/blog/fbi-disrupts-famous-chollima-operation-with-crowdstrike-assistance/",
-      "source": "CrowdStrike",
-      "publishedAt": "2026-10-13T05:00:00.000Z",
-      "summary": "U.S. Government Disrupts FAMOUS CHOLLIMA Operation with CrowdStrike Assistance",
-      "categories": [
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "U.S. Government Disrupts FAMOUS CHOLLIMA Operation with CrowdStrike Assistance",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
         "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
