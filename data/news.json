@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-10-22T22:19:20.025Z",
+  "updatedAt": "2026-10-23T01:27:38.423Z",
   "items": [
+    {
+      "title": "VU#763488: Memory corruption vulnerabilities in PHP",
+      "link": "https://kb.cert.org/vuls/id/763488",
+      "source": "CERT/CC",
+      "publishedAt": "2026-10-22T22:23:51.159Z",
+      "summary": "Overview\nTwo memory-related vulnerabilities have been identified in PHP versions prior to 8.2.35, 8.3.36, 8.4.27, and 8.5.12. An unauthenticated remote attacker with network access to PHP web services can exploit these v",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Two memory corruption vulnerabilities have been discovered in PHP versions prior to 8.2.35, 8.3.36, 8.4.27, and 8.5.12. An unauthenticated remote attacker with network access can potentially exploit these flaws to compromise affected web services.",
+        "whyItMatters": "Remote attackers can potentially exploit these memory corruption flaws to compromise vulnerable PHP web services without authentication.",
+        "affected": [
+          "PHP < 8.2.35",
+          "PHP < 8.3.36",
+          "PHP < 8.4.27",
+          "PHP < 8.5.12"
+        ],
+        "action": "Update PHP to a patched version immediately.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Railway warns devs to rotate secrets after potential breach",
       "link": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/",
@@ -1620,6 +1652,32 @@
       }
     },
     {
+      "title": "The True Blast Radius of an AI Attack",
+      "link": "https://bishopfox.com/blog/true-blast-radius-of-an-ai-attack",
+      "source": "Bishop Fox",
+      "publishedAt": "2026-10-22T13:00:00.000Z",
+      "summary": "Connecting AI to enterprise systems changes what organizations entrust software to do. An agent that can query internal databases or modify business records has operational authority, and the scope of that authority beco",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Connecting artificial intelligence to enterprise systems changes the level of trust organizations place in software. AI agents with operational authority to query internal databases or modify business records expand the potential blast radius of an attack.",
+        "whyItMatters": "It highlights how granting operational authority to AI agents significantly increases enterprise risk.",
+        "affected": [],
+        "action": "Evaluate the operational scope and permissions granted to enterprise AI agents.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "M365 Token Spray and Replay Campaign Compromises Business Email Accounts",
       "link": "https://www.huntress.com/blog/token-replay-spray",
       "source": "Huntress",
@@ -2774,6 +2832,35 @@
       }
     },
     {
+      "title": "DSA-6578-1 aide - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00494.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "summary": "Two vulnerabilities were discovered in aide, an advanced intrusion\ndetection system, which could allow a local user to bypass the detection\nof malicious files.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6578-1",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Two vulnerabilities have been discovered in the aide intrusion detection system. These flaws could potentially allow a local user to bypass the detection of malicious files.",
+        "whyItMatters": "Undetected malicious files could allow attackers to compromise system integrity without alerting administrators.",
+        "affected": [
+          "aide"
+        ],
+        "action": "Update aide to the latest patched version.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "DSA-6577-1 chromium - security update",
       "link": "https://lists.debian.org/debian-security-announce/2026/msg00493.html",
       "source": "Debian Security",
@@ -2885,8 +2972,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -4807,8 +4894,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "High",
         "action": "Monitor for indicators of compromise.",
+        "risk": "High",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -5242,35 +5329,6 @@
       }
     },
     {
-      "title": "DSA-6571-1 xen - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00486.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-10-18T00:00:00.000Z",
-      "summary": "Multiple vulnerabilities have been discovered in the Xen hypervisor,\nwhich could result in privilege escalation, information disclosure or\ndenial of service.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6571-1",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Multiple vulnerabilities have been discovered in the Xen hypervisor. These security flaws could potentially lead to privilege escalation, information disclosure, or denial of service.",
-        "whyItMatters": "Unpatched vulnerabilities in hypervisors can allow attackers to compromise host systems or guest virtual machines.",
-        "affected": [
-          "Xen hypervisor"
-        ],
-        "action": "Apply the security update provided by Debian DSA-6571-1.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "ConnectWise (SkyKick) Vendor Credentials Abused in M365 Attacks",
       "link": "https://www.huntress.com/blog/vendor-credential-enables-unauthorized-access",
       "source": "Huntress",
@@ -5347,8 +5405,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -5495,8 +5553,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "High",
         "action": "Monitor for indicators of compromise.",
+        "risk": "High",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -5744,58 +5802,6 @@
         "whyItMatters": "Proper TLS configuration is essential for protecting data in transit from interception and tampering.",
         "affected": [],
         "action": "Review the recommended TLS configuration profiles to secure your systems.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Post-quantum updates to our TLS guidance",
-      "link": "https://www.ncsc.gov.uk/blogs/post-quantum-updates-to-our-tls-guidance",
-      "source": "NCSC UK",
-      "publishedAt": "2026-10-15T12:00:00.000Z",
-      "summary": "The NCSC publishes its recommendations for configuring post-quantum cryptography in TLS. Now is time to migrate.",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The NCSC has published new recommendations for configuring post-quantum cryptography in TLS connections. Organizations are now advised to begin planning and migrating their systems to these post-quantum standards.",
-        "whyItMatters": "Implementing post-quantum cryptography is crucial to protect encrypted communications from future decryption capabilities of quantum computers.",
-        "affected": [],
-        "action": "Review the new NCSC guidance and begin planning your migration to post-quantum cryptography.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Panchan's Mining Island &#x5b;Guest Diary&#x5d;, (Wed, Oct 14th)",
-      "link": "https://isc.sans.edu/diary/rss/33426",
-      "source": "SANS ISC",
-      "publishedAt": "2026-10-15T01:10:57.000Z",
-      "summary": "[This is a Guest Diary by Zachary Norwood, an ISC intern as part of the SANS.edu BACS program]",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "This SANS Internet Storm Center guest diary discusses an analysis of a malware threat referred to as Panchan's Mining Island. The article provides community-contributed technical insights into ongoing malicious cryptocurrency mining operations.",
-        "whyItMatters": "It highlights active threat actor techniques involving unauthorized cryptocurrency mining that can degrade system performance and compromise network integrity.",
-        "affected": [],
-        "action": "Review the guest diary on the SANS ISC website for technical indicators and detection strategies.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
