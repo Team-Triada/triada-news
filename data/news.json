@@ -1,6 +1,123 @@
 {
-  "updatedAt": "2026-10-24T05:47:28.238Z",
+  "updatedAt": "2026-10-24T10:52:59.302Z",
   "items": [
+    {
+      "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
+      "link": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-10-24T09:04:24.000Z",
+      "summary": "Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater that it said could have allowed an outsider to ",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Dutch security firm Eye Security pushed over two million unauthorized updates to computers between November 2025 and March 2026. These updates were designed to remotely disable a background updater in Popcorn Time to prevent potential botnet exploitation.",
+        "whyItMatters": "This unprecedented action raises significant legal and ethical questions regarding unauthorized remote access and tampering with third-party devices, even when performed with defensive intentions.",
+        "affected": [
+          "Popcorn Time updater"
+        ],
+        "action": "Review network logs for unauthorized software updates.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
+      "link": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-10-24T08:45:56.000Z",
+      "summary": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python Brotli and brotlicffi packages, and Envoy proxies set up to decompress Brotli.\n\nTra",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A memory-corruption vulnerability in Google's Brotli decoder impacts multiple widely used software packages and environments that process Brotli-compressed data. The affected technologies include Bun, the Python Brotli and brotlicffi packages, and specific Envoy proxy configurations.",
+        "whyItMatters": "This vulnerability exposes numerous applications and runtimes to potential remote code execution and system crashes due to flawed decompression handling.",
+        "affected": [
+          "Bun",
+          "Python Brotli package",
+          "Python brotlicffi package",
+          "Envoy proxies"
+        ],
+        "action": "Update affected Brotli decoder packages and software dependencies to the latest patched versions.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
+      "link": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-10-24T06:25:57.000Z",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two vulnerabilities impacting Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator (VCO) to its Known Exploited Vulnerab",
+      "categories": [
+        "Vulnerability",
+        "Government"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "CISA has added two actively exploited vulnerabilities affecting Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator to its Known Exploited Vulnerabilities catalog. These critical flaws are currently being targeted in real-world attacks, posing immediate security risks to organizations utilizing the affected software.",
+        "whyItMatters": "Active exploitation of these critical flaws poses an immediate threat to organizational infrastructure and requires urgent remediation.",
+        "affected": [
+          "Collabora Online Built-in CODE Server",
+          "Arista VeloCloud Orchestrator"
+        ],
+        "action": "Apply the latest security updates provided by the vendors immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6583-1 libheif - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00499.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-10-24T00:00:00.000Z",
+      "summary": "Multiple security issues were discovered in libheif, a library for reading\nand writing HEIF and AVIF images. Processing specially crafted images\ncould result in denial of service through excessive resource consumption\nor",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple security issues have been discovered in libheif, a library used for reading and writing HEIF and AVIF images. Processing specially crafted images can lead to a denial of service via excessive resource consumption.",
+        "whyItMatters": "Vulnerabilities in widely used media libraries can be exploited by attackers to crash applications or exhaust system resources, leading to service outages.",
+        "affected": [
+          "libheif"
+        ],
+        "action": "Update libheif to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Friday Squid Blogging: Increasing Squid Populations",
       "link": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-increasing-squid-populations.html",
@@ -1299,33 +1416,6 @@
       }
     },
     {
-      "title": "Russian-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
-      "link": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-23T11:11:23.000Z",
-      "summary": "The Russian state-sponsored hacking group Sandworm teamed up with another threat actor to carry out a destructive wiping attack targeting a Ukrainian logistics company last year.\n\nAccording to ESET, the attack involved U",
-      "categories": [
-        "Malware",
-        "Threat Intel"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Russian-linked threat actors, including the Sandworm group, carried out a destructive wiping attack against a Ukrainian logistics company last year. The sophisticated cyberattack utilized a new mesh network backdoor to compromise the target's infrastructure.",
-        "whyItMatters": "This incident highlights the ongoing integration of novel malware tools in state-sponsored destructive attacks against critical Ukrainian infrastructure.",
-        "affected": [],
-        "action": "Monitor networks for indicators of compromise related to Russian-linked wiper malware and new mesh network backdoors.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Compromised TLS Certificates",
       "link": "https://www.schneier.com/blog/archives/2026/10/compromised-tls-certificates.html",
       "source": "Schneier on Security",
@@ -1521,38 +1611,6 @@
       }
     },
     {
-      "title": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
-      "link": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-23T09:36:00.000Z",
-      "summary": "Pillow, the most widely used image library for Python, can be made to run operating system commands on a server by specifying the name of a file it is told to open.\n\nThe flaw, CVE-2026-112900, is in the way Pillow handle",
-      "categories": [
-        "Vulnerability"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-112900"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Pillow, the most widely used image library for Python, can be made to run operating system commands on a server by specifying the name of a file it is told to open.\n\nThe flaw, CVE-2026-112900, is in the way Pillow handle",
-        "whyItMatters": "Actively exploited or high-impact; treat as urgent.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Patch immediately.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-112900"
-        ],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "UK threatens subsea cable saboteurs with 14 years behind bars",
       "link": "https://www.theregister.com/networks/2026/10/23/uk-threatens-subsea-cable-saboteurs-with-14-years-behind-bars/5304794",
       "source": "The Register",
@@ -1604,35 +1662,6 @@
         ],
         "action": "No action required; informational.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
-      "link": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-23T08:40:43.000Z",
-      "summary": "Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have demonstrated.\n\nTheir \"Node2Shell\" proof of concept ran code on the official N",
-      "categories": [
-        "Vulnerability",
-        "Research"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": true,
-      "severity": "high",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have demonstrated.\n\nTheir \"Node2Shell\" proof of concept ran code on the official N",
-        "whyItMatters": "Significant risk to affected systems; prioritize review.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review and assess impact on your environment.",
-        "risk": "High",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -4910,35 +4939,6 @@
           "Juniper Networks products"
         ],
         "action": "Check vendor advisories and apply available security patches.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6576-1 bind9 - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00491.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-10-21T00:00:00.000Z",
-      "summary": "Several vulnerabilities were discovered in BIND, a DNS server\nimplementation, which could result in denial of service or remote code\nexecution.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6576-1",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several vulnerabilities have been discovered in the BIND DNS server implementation. These security flaws could potentially lead to denial of service conditions or remote code execution.",
-        "whyItMatters": "Unpatched remote code execution and denial of service vulnerabilities in core DNS infrastructure can allow attackers to crash critical network services or take complete control of affected servers.",
-        "affected": [
-          "bind9"
-        ],
-        "action": "Apply the security update provided by your distributor immediately.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
