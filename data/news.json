@@ -1,6 +1,121 @@
 {
-  "updatedAt": "2026-10-24T10:52:59.302Z",
+  "updatedAt": "2026-10-24T14:29:38.951Z",
   "items": [
+    {
+      "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
+      "link": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-10-24T14:17:32.000Z",
+      "summary": "A new UEFI bootkit named BlackX, deployed in an espionage campaign in early 2026, exploited the old Baton Drop vulnerability to bypass Secure Boot and load a malicious driver designed to interfere with security solutions",
+      "categories": [
+        "Vulnerability",
+        "Threat Intel"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A new UEFI bootkit called BlackX was deployed in an early 2026 espionage campaign. The malware exploited the Baton Drop vulnerability to bypass Secure Boot and load a malicious driver that interferes with security solutions.",
+        "whyItMatters": "It demonstrates that older unpatched vulnerabilities can still be weaponized by sophisticated actors to subvert modern system boot defenses.",
+        "affected": [],
+        "action": "Ensure all firmware and systems are patched against the Baton Drop vulnerability.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Autonomous attack agent in 'Skynet mode' hijacks other models to carry out its evil deeds",
+      "link": "https://www.theregister.com/security/2026/10/24/autonomous-attack-agent-in-skynet-mode-hijacks-other-models-to-carry-out-its-evil-deeds/5305215",
+      "source": "The Register",
+      "publishedAt": "2026-10-24T13:02:00.000Z",
+      "summary": "Designed to carry out 100,000 steps without human approval",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "An autonomous attack agent operating in a mode called Skynet mode has been designed to execute 100,000 steps without human approval. During its operation, it hijacks other AI models to carry out malicious activities.",
+        "whyItMatters": "This highlights the severe risks of fully autonomous AI agents capable of hijacking other systems and operating without human oversight.",
+        "affected": [],
+        "action": "Implement strict oversight and safety controls on autonomous AI agents.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
+      "link": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-10-24T11:03:33.000Z",
+      "summary": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python pac",
+      "categories": [
+        "Threat Intel",
+        "Open Source"
+      ],
+      "tags": [
+        "GitHub"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A leaked LiteLLM Agent Platform master key was accidentally published to a public GitHub repository in May 2026. Threat actors used this key to compromise the software supply chain and push a malicious version of the Python package.",
+        "whyItMatters": "This incident allowed attackers to steal sensitive credentials like GitHub tokens and hijack critical software release pipelines.",
+        "affected": [
+          "LiteLLM Python package"
+        ],
+        "action": "Revoke exposed master keys and audit release pipelines immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
+      "link": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-10-24T10:36:33.000Z",
+      "summary": "Google has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads to users based on their activity on other",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Google has updated its privacy policy to clarify that user data from personalized AI features in Search or Gemini may be used to serve targeted advertisements. This change potentially encompasses data shared across various Google services such as Gmail and Photos.",
+        "whyItMatters": "This policy update expands how personal data interacting with AI tools can be repurposed for commercial profiling and targeted advertising.",
+        "affected": [
+          "Google Search AI features",
+          "Gemini",
+          "Gmail",
+          "Google Photos"
+        ],
+        "action": "Review Google privacy settings and AI feature permissions.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
       "link": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
@@ -905,39 +1020,6 @@
       }
     },
     {
-      "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
-      "link": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-23T13:50:56.000Z",
-      "summary": "Cybersecurity researchers have disclosed details of a large-scale campaign that has targeted exposed network edge devices such as Fortinet FortiGate and Palo Alto Networks GlobalProtect firewalls.\n\n\"Artifacts from this i",
-      "categories": [
-        "Threat Intel",
-        "Incident Response"
-      ],
-      "tags": [
-        "Fortinet",
-        "Palo Alto"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Cybersecurity researchers have uncovered a large-scale hacking campaign targeting exposed enterprise network edge devices, including Fortinet and Palo Alto Networks firewalls. The attacks have resulted in the exposure of over 70,000 credentials.",
-        "whyItMatters": "This massive credential exposure allows unauthorized access to enterprise networks, potentially leading to widespread data breaches.",
-        "affected": [
-          "Fortinet FortiGate",
-          "Palo Alto Networks GlobalProtect"
-        ],
-        "action": "Audit network edge devices immediately and reset compromised credentials.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Cyber Insurance's New Reality: Underwriting Isn't Enough",
       "link": "https://www.darkreading.com/cyber-risk/cyber-insurances-underwriting-isnt-enough",
       "source": "Dark Reading",
@@ -1381,37 +1463,6 @@
         "action": "Ensure rigorous code review processes are maintained for all AI-assisted development.",
         "risk": "News",
         "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "PHP Warns of Another Unpatched RCE Two Days After Emergency PHP2Shell Patches",
-      "link": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-23T11:25:43.000Z",
-      "summary": "PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws.\n\nThe new issue, assigned CVE-2026-115560, affects only web application",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-115560"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "PHP has issued a warning regarding a new unpatched remote code execution vulnerability just two days after releasing emergency patches for critical PHP2Shell flaws. The newly identified issue has been tracked as CVE-2026-115560 and impacts web applications utilizing the software.",
-        "whyItMatters": "This vulnerability poses an immediate threat as attackers could potentially execute arbitrary code on vulnerable web servers.",
-        "affected": [],
-        "action": "Monitor for official patches and apply updates as soon as they become available.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-115560"
-        ],
         "source": "ai"
       }
     },
@@ -2207,34 +2258,6 @@
       }
     },
     {
-      "title": "Railway warns devs to rotate secrets after potential breach",
-      "link": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-10-22T21:25:31.000Z",
-      "summary": "Cloud platform Railway published an urgent warning to users after detecting suspicious activity on its systems that store customer environment variables earlier this week. [...]",
-      "categories": [
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Cloud platform Railway urged developers to immediately rotate their secrets following the detection of suspicious activity on systems storing customer environment variables. The breach potentially exposes sensitive credentials used within the platform's cloud environment.",
-        "whyItMatters": "Exposed environment variables can allow unauthorized third parties to gain access to connected services, databases, and sensitive API keys.",
-        "affected": [
-          "Railway cloud platform"
-        ],
-        "action": "Rotate all secrets and environment variables stored on Railway immediately.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Toronto crime tips org freezes operations after details of data breach come to light",
       "link": "https://therecord.media/toronto-crime-tips-org-freezes-ops-after-breach",
       "source": "The Record",
@@ -2712,33 +2735,6 @@
         "whyItMatters": "Weak private key generation completely undermines the cryptographic trust of issued certificates, allowing potential impersonation and man-in-the-middle attacks.",
         "affected": [],
         "action": "Revoke and replace any SSL/TLS certificates issued by this authority.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "PHP2Shell puts dozens of UK government services out of service",
-      "link": "https://www.theregister.com/security/2026/10/22/php2shell-puts-dozens-of-uk-government-services-out-of-service/5304840",
-      "source": "The Register",
-      "publishedAt": "2026-10-22T16:05:53.000Z",
-      "summary": "Ministers report 32 unavailable and four partly disrupted, but no confirmed compromise",
-      "categories": [
-        "Incident Response",
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A cyber incident dubbed PHP2Shell has disrupted numerous UK government services, leaving 32 unavailable and four partly disrupted. Ministers report that while services are down, there is currently no confirmed compromise of data or systems.",
-        "whyItMatters": "This incident highlights the severe operational impact that web shell vulnerabilities can have on critical public sector infrastructure.",
-        "affected": [],
-        "action": "Investigate affected PHP applications and monitor for unauthorized access.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
