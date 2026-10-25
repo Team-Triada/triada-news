@@ -1,6 +1,68 @@
 {
-  "updatedAt": "2026-10-25T16:10:45.354Z",
+  "updatedAt": "2026-10-25T19:01:05.973Z",
   "items": [
+    {
+      "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+      "link": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-10-25T17:44:09.000Z",
+      "summary": "A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week.\n\nThe attack requires two things: Tails",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Unpatched security flaws in Tailscale SSH could allow a compromised device on the network to escalate privileges and gain root access to other reachable servers. The attack vector requires specific conditions within the network configuration.",
+        "whyItMatters": "It allows an attacker who has breached a single node to potentially compromise an entire organization's server infrastructure.",
+        "affected": [
+          "Tailscale SSH"
+        ],
+        "action": "Monitor for patches and restrict Tailscale SSH access until updates are available.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
+      "link": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-10-25T17:19:46.000Z",
+      "summary": "Threat actors have been observed using agentic artificial intelligence (AI) platforms for post-exploitation activity following the abuse of the PHP2Shell vulnerabilities tracked as CVE-2026-109618 and CVE-2026-109619.\n\n\"",
+      "categories": [
+        "Vulnerability",
+        "AI Security",
+        "Government"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-109618",
+        "CVE-2026-109619"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Threat actors are actively exploiting the PHP2Shell vulnerabilities, tracked as CVE-2026-109618 and CVE-2026-109619, to target a government entity. Observations indicate that attackers are utilizing agentic artificial intelligence platforms to facilitate post-exploitation activities amidst global scanning campaigns.",
+        "whyItMatters": "The integration of AI into exploitation workflows significantly accelerates attack speeds and sophistication, posing an elevated threat to critical infrastructure.",
+        "affected": [],
+        "action": "Patch the affected PHP2Shell vulnerabilities immediately and monitor networks for unauthorized scanning activity.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-109618",
+          "CVE-2026-109619"
+        ],
+        "source": "ai"
+      }
+    },
     {
       "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
       "link": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
@@ -25,6 +87,139 @@
         "action": "Inspect and secure local instruction files used by AI coding agents.",
         "risk": "High",
         "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-70197 .NET and Visual Studio Remote Code Execution Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70197",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-10-25T14:00:00.000Z",
+      "summary": "Updated product information in the Software Update table. This is an informational change only.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-70197"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft has updated product information for CVE-2026-70197, a remote code execution vulnerability affecting .NET and Visual Studio. This update is strictly informational and contains no functional changes to the software.",
+        "whyItMatters": "Staying informed about documentation and product scope updates helps administrators accurately track and prioritize their vulnerability management efforts.",
+        "affected": [
+          ".NET",
+          "Visual Studio"
+        ],
+        "action": "Review the updated product information in the official Software Update table.",
+        "risk": "News",
+        "relatedCves": [
+          "CVE-2026-70197"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-102870 ASP.NET Core Remote Code Execution Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-102870",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-10-25T14:00:00.000Z",
+      "summary": "Updated product information in the Software Update table. This is an informational change only.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-102870"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A security advisory has been issued regarding CVE-2026-102870, an ASP.NET Core Remote Code Execution Vulnerability. The recent update solely modifies the product information within the software update table as an informational change.",
+        "whyItMatters": "Unresolved remote code execution vulnerabilities in core framework components can potentially allow attackers to execute arbitrary code on affected servers if left unpatched.",
+        "affected": [
+          "ASP.NET Core"
+        ],
+        "action": "Review the updated software update table for affected product details.",
+        "risk": "Medium",
+        "relatedCves": [
+          "CVE-2026-102870"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-114148 ASP.NET Core Elevation of Privilege Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-114148",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-10-25T14:00:00.000Z",
+      "summary": "Incorrect default permissions in ASP.NET Core allows an authorized attacker to elevate privileges locally.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-114148"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A vulnerability tracked as CVE-2026-114148 has been identified in ASP.NET Core due to incorrect default permissions. This flaw allows an authorized attacker to achieve local elevation of privileges.",
+        "whyItMatters": "It enables local attackers to escalate their privilege levels and potentially gain unauthorized control over the affected system.",
+        "affected": [
+          "ASP.NET Core"
+        ],
+        "action": "Apply the latest security patches provided by Microsoft for ASP.NET Core.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-114148"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-111497 Google: CVE-2026-111497 Buffer overflow vulnerability in the Brotli decoder",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-111497",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-10-25T14:00:00.000Z",
+      "summary": "Out-of-bounds write in .NET allows an unauthorized attacker to elevate privileges over a network.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-111497"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A buffer overflow vulnerability exists in the Brotli decoder within .NET, identified as CVE-2026-111497. This out-of-bounds write flaw could allow an unauthorized attacker to elevate privileges over a network.",
+        "whyItMatters": "It matters because it allows unauthorized network attackers to gain elevated privileges, potentially compromising the entire affected system.",
+        "affected": [
+          ".NET"
+        ],
+        "action": "Apply the latest security patches provided by Microsoft for .NET.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-111497"
+        ],
         "source": "ai"
       }
     },
@@ -627,70 +822,6 @@
         ],
         "action": "Prepare for the upcoming security feature rollout by reviewing organizational communication policies.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
-      "link": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-23T18:50:13.000Z",
-      "summary": "Diplomatic organizations in Central Asia have been targeted by a sophisticated new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX.\n\nThe activity, which singled out diplomatic entities in Tajikistan, U",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Diplomatic organizations in Central Asia have been targeted by a sophisticated new UEFI bootkit called BlackX. The malware successfully bypasses Secure Boot on patched Windows systems that are missing critical revocations.",
-        "whyItMatters": "This bootkit compromises deep system-level security, allowing attackers to persist undetected even on patched operating systems.",
-        "affected": [
-          "Windows systems missing revocations"
-        ],
-        "action": "Apply all missing UEFI and boot manager revocations immediately.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
-      "link": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-23T17:54:08.000Z",
-      "summary": "Ruby has released versions 4.0.9, 3.4.12, and 3.3.13 to fix three bugs in Onigmo, the regular expression engine built into the language. The bugs lie behind four critical security flaws that GitLab patched over the past ",
-      "categories": [
-        "Vendor Advisory",
-        "Open Source"
-      ],
-      "tags": [
-        "GitLab"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Ruby has released updated versions 4.0.9, 3.4.12, and 3.3.13 to patch three vulnerabilities in its Onigmo regular expression engine. These underlying flaws were responsible for four critical remote code execution vulnerabilities previously patched by GitLab.",
-        "whyItMatters": "Unpatched regex engine vulnerabilities in the underlying language runtime can expose major applications like GitLab to critical remote code execution risks.",
-        "affected": [
-          "Ruby < 4.0.9",
-          "Ruby < 3.4.12",
-          "Ruby < 3.3.13",
-          "Onigmo regex engine"
-        ],
-        "action": "Upgrade Ruby to version 4.0.9, 3.4.12, or 3.3.13 immediately.",
-        "risk": "Critical",
         "relatedCves": [],
         "source": "ai"
       }
@@ -2978,147 +3109,6 @@
         "risk": "High",
         "relatedCves": [
           "CVE-2026-108456"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-97785 AAD App Proxy Elevation of Privilege Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97785",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-10-22T14:00:00.000Z",
-      "summary": "Improper authentication in AAD App Proxy allows an unauthorized attacker to elevate privileges over a network.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-97785"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A vulnerability tracked as CVE-2026-97785 has been identified in the AAD App Proxy involving improper authentication. This flaw allows an unauthorized attacker to successfully elevate privileges over a network.",
-        "whyItMatters": "This vulnerability matters because it permits unauthorized network attackers to gain elevated privileges within affected systems, potentially leading to full compromise.",
-        "affected": [
-          "AAD App Proxy"
-        ],
-        "action": "Apply the latest security updates provided by the vendor.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-97785"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-96185 Microsoft Exchange Online Remote Code Execution Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96185",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-10-22T14:00:00.000Z",
-      "summary": "Stack-based buffer overflow in Microsoft Exchange Online allows an authorized attacker to execute code over a network.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Exchange"
-      ],
-      "cves": [
-        "CVE-2026-96185"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A stack-based buffer overflow vulnerability, tracked as CVE-2026-96185, has been identified in Microsoft Exchange Online. This flaw allows an authorized attacker to execute arbitrary code over the network.",
-        "whyItMatters": "It matters because remote code execution in cloud-based messaging services could allow attackers to compromise enterprise communication infrastructure.",
-        "affected": [
-          "Microsoft Exchange Online"
-        ],
-        "action": "Apply the latest security patches provided by Microsoft.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-96185"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-83938 Azure Kubernetes Configuration Service Elevation of Privilege Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-83938",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-10-22T14:00:00.000Z",
-      "summary": "Missing authentication for critical function in Azure Kubernetes Configuration Service allows an unauthorized attacker to elevate privileges over a network.",
-      "categories": [
-        "Vulnerability",
-        "Cloud",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Azure",
-        "Kubernetes"
-      ],
-      "cves": [
-        "CVE-2026-83938"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A missing authentication vulnerability exists in the Azure Kubernetes Configuration Service. This flaw allows an unauthorized remote attacker to elevate their privileges over the network.",
-        "whyItMatters": "It allows unauthorized attackers to gain elevated privileges within affected Kubernetes environments, potentially leading to a full compromise of the cluster infrastructure.",
-        "affected": [
-          "Azure Kubernetes Configuration Service"
-        ],
-        "action": "Apply the latest security updates provided by Microsoft for the Azure Kubernetes Configuration Service.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-83938"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-110063 VM Inspector for Azure Virtual Machines Elevation of Privilege Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-110063",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-10-22T14:00:00.000Z",
-      "summary": "Improper link resolution before file access ('link following') in VM Inspector for Azure Virtual Machines allows an unauthorized attacker to elevate privileges over a network.",
-      "categories": [
-        "Vulnerability",
-        "Cloud",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Azure"
-      ],
-      "cves": [
-        "CVE-2026-110063"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A vulnerability tracked as CVE-2026-110063 affects VM Inspector for Azure Virtual Machines due to improper link resolution before file access. This flaw allows an unauthorized attacker to perform an elevation of privilege over a network.",
-        "whyItMatters": "It allows unauthorized network attackers to escalate their privileges, potentially compromising the security of affected Azure virtual machines.",
-        "affected": [
-          "VM Inspector for Azure Virtual Machines"
-        ],
-        "action": "Apply available security patches or updates for VM Inspector.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-110063"
         ],
         "source": "ai"
       }
