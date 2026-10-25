@@ -1,6 +1,41 @@
 {
-  "updatedAt": "2026-10-25T01:06:26.202Z",
+  "updatedAt": "2026-10-25T06:03:26.266Z",
   "items": [
+    {
+      "title": "CVE-2026-89090 - Denial of service in the event stream header decoder in AWS SDK for Go v2",
+      "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-110-aws/",
+      "source": "AWS Security Bulletins",
+      "publishedAt": "2026-10-25T03:13:38.000Z",
+      "summary": "Read this article",
+      "categories": [
+        "Vulnerability",
+        "Cloud"
+      ],
+      "tags": [
+        "AWS"
+      ],
+      "cves": [
+        "CVE-2026-89090"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A denial of service vulnerability has been identified in the event stream header decoder of the AWS SDK for Go v2. The issue allows attackers to trigger service disruptions through maliciously crafted event streams.",
+        "whyItMatters": "This vulnerability could allow malicious actors to cause application downtime and service disruptions for systems utilizing the affected AWS SDK.",
+        "affected": [
+          "AWS SDK for Go v2"
+        ],
+        "action": "Update the AWS SDK for Go v2 to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-89090"
+        ],
+        "source": "ai"
+      }
+    },
     {
       "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
       "link": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
@@ -5756,34 +5791,6 @@
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
-      }
-    },
-    {
-      "title": "Irish police force has its Twitter hacked in cryptocurrency scam",
-      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/irish-police-twitter-hacked-crypto-scam",
-      "source": "Graham Cluley",
-      "publishedAt": "2026-10-16T18:00:50.000Z",
-      "summary": "There must have been red faces in the social media department of Ireland's police headquarters after two of its accounts were hijacked this week.\r\n\r\nRead more in my article on the Hot for Security blog.",
-      "categories": [
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "There must have been red faces in the social media department of Ireland's police headquarters after two of its accounts were hijacked this week.\r\n\r\nRead more in my article on the Hot for Security blog.",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
       }
     }
   ]
