@@ -1,6 +1,34 @@
 {
-  "updatedAt": "2026-10-25T21:44:17.921Z",
+  "updatedAt": "2026-10-26T00:19:24.414Z",
   "items": [
+    {
+      "title": "OpenSSL 4.1.0: What’s new, what’s removed, and what’s still broken",
+      "link": "https://www.helpnetsecurity.com/2026/10/26/openssl-4-1-0-released/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-10-25T23:33:35.000Z",
+      "summary": "The OpenSSL project released version 4.1.0, adding support for DTLS 1.3 and listing four known bugs in the DTLS code that ships with it. DTLS is the variant of TLS built for datagram transports such as UDP, and version 1",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The OpenSSL project has released version 4.1.0, which introduces support for the DTLS 1.3 protocol. However, the release notes also disclose the presence of four known bugs within the newly included DTLS code.",
+        "whyItMatters": "Unresolved bugs in cryptographic implementations like DTLS can potentially introduce security vulnerabilities affecting applications relying on UDP transport security.",
+        "affected": [
+          "OpenSSL 4.1.0"
+        ],
+        "action": "Monitor for patches addressing the known DTLS bugs.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "YARA-X 1.22.0 Release, (Sun, Oct 25th)",
       "link": "https://isc.sans.edu/diary/rss/33454",
@@ -115,139 +143,6 @@
         "action": "Inspect and secure local instruction files used by AI coding agents.",
         "risk": "High",
         "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-70197 .NET and Visual Studio Remote Code Execution Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70197",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-10-25T14:00:00.000Z",
-      "summary": "Updated product information in the Software Update table. This is an informational change only.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-70197"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has updated product information for CVE-2026-70197, a remote code execution vulnerability affecting .NET and Visual Studio. This update is strictly informational and contains no functional changes to the software.",
-        "whyItMatters": "Staying informed about documentation and product scope updates helps administrators accurately track and prioritize their vulnerability management efforts.",
-        "affected": [
-          ".NET",
-          "Visual Studio"
-        ],
-        "action": "Review the updated product information in the official Software Update table.",
-        "risk": "News",
-        "relatedCves": [
-          "CVE-2026-70197"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-102870 ASP.NET Core Remote Code Execution Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-102870",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-10-25T14:00:00.000Z",
-      "summary": "Updated product information in the Software Update table. This is an informational change only.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-102870"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A security advisory has been issued regarding CVE-2026-102870, an ASP.NET Core Remote Code Execution Vulnerability. The recent update solely modifies the product information within the software update table as an informational change.",
-        "whyItMatters": "Unresolved remote code execution vulnerabilities in core framework components can potentially allow attackers to execute arbitrary code on affected servers if left unpatched.",
-        "affected": [
-          "ASP.NET Core"
-        ],
-        "action": "Review the updated software update table for affected product details.",
-        "risk": "Medium",
-        "relatedCves": [
-          "CVE-2026-102870"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-114148 ASP.NET Core Elevation of Privilege Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-114148",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-10-25T14:00:00.000Z",
-      "summary": "Incorrect default permissions in ASP.NET Core allows an authorized attacker to elevate privileges locally.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-114148"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A vulnerability tracked as CVE-2026-114148 has been identified in ASP.NET Core due to incorrect default permissions. This flaw allows an authorized attacker to achieve local elevation of privileges.",
-        "whyItMatters": "It enables local attackers to escalate their privilege levels and potentially gain unauthorized control over the affected system.",
-        "affected": [
-          "ASP.NET Core"
-        ],
-        "action": "Apply the latest security patches provided by Microsoft for ASP.NET Core.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-114148"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-111497 Google: CVE-2026-111497 Buffer overflow vulnerability in the Brotli decoder",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-111497",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-10-25T14:00:00.000Z",
-      "summary": "Out-of-bounds write in .NET allows an unauthorized attacker to elevate privileges over a network.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-111497"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A buffer overflow vulnerability exists in the Brotli decoder within .NET, identified as CVE-2026-111497. This out-of-bounds write flaw could allow an unauthorized attacker to elevate privileges over a network.",
-        "whyItMatters": "It matters because it allows unauthorized network attackers to gain elevated privileges, potentially compromising the entire affected system.",
-        "affected": [
-          ".NET"
-        ],
-        "action": "Apply the latest security patches provided by Microsoft for .NET.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-111497"
-        ],
         "source": "ai"
       }
     },
@@ -1227,76 +1122,6 @@
       }
     },
     {
-      "title": "CVE-2026-83862 Windows Network Load Balancing Remote Code Execution Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-83862",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-10-23T14:00:00.000Z",
-      "summary": "Corrected the CVSS Attack Vector metric from Network (AV:N) to Adjacent (AV:A) to reflect the requirement for Layer 2 network adjacency. The CVSS base score has decreased from 9.8 to 8.8. This is an informational change ",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [
-        "CVE-2026-83862"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft corrected the CVSS attack vector metric for CVE-2026-83862 from Network to Adjacent to reflect Layer 2 adjacency requirements. Consequently, the CVSS base score for this Windows Network Load Balancing vulnerability decreased from 9.8 to 8.8.",
-        "whyItMatters": "This score adjustment correctly clarifies that exploitation requires local network proximity, reducing the perceived urgency from remote attacks.",
-        "affected": [
-          "Windows Network Load Balancing"
-        ],
-        "action": "Review the updated CVSS metrics and adjust internal risk assessments accordingly.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-83862"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-102208 Windows Win32 Kernel Subsystem Elevation of Privilege Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-102208",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-10-23T14:00:00.000Z",
-      "summary": "Acknowledgement Updated",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [
-        "CVE-2026-102208"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "A security vulnerability identified as CVE-2026-102208 affects the Windows Win32 Kernel Subsystem. The flaw allows for an elevation of privilege within the operating system.",
-        "whyItMatters": "An attacker could exploit this vulnerability to gain elevated system privileges and compromise the entire Windows host.",
-        "affected": [
-          "Windows Win32 Kernel Subsystem"
-        ],
-        "action": "Apply the latest security updates provided by Microsoft.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-102208"
-        ],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Cyber Insurance's New Reality: Underwriting Isn't Enough",
       "link": "https://www.darkreading.com/cyber-risk/cyber-insurances-underwriting-isnt-enough",
       "source": "Dark Reading",
@@ -1507,6 +1332,32 @@
         "affected": [],
         "action": "Monitor UK legislative updates regarding subsea cable protection.",
         "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Hacker leaks 281 GB of data from Germany’s far-right AfD party",
+      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/hacker-leaks-281-gb-data-germany-afd",
+      "source": "Graham Cluley",
+      "publishedAt": "2026-10-23T12:29:16.000Z",
+      "summary": "The AfD has confirmed that hackers breached its hosting provider. A leak site now claims to offer 421,179 of the party’s internal emails, and shows AI-written summaries rather than the emails themselves.\r\n\r\nRead more in ",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Hackers breached the hosting provider of Germany's far-right AfD party, leaking 281 GB of internal data. The leak site currently displays AI-written summaries of over 400,000 internal emails rather than the raw messages themselves.",
+        "whyItMatters": "This massive data breach exposes sensitive internal communications of a major political party, raising significant privacy and security concerns.",
+        "affected": [],
+        "action": "Review hosting provider security controls and monitor for further data leaks.",
+        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -2162,32 +2013,6 @@
         "affected": [],
         "action": "Monitor threat intelligence feeds for updates on PHP2Shell weaponization.",
         "risk": "Medium",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "AI is taking cybersecurity jobs at junior and experienced levels alike",
-      "link": "https://www.helpnetsecurity.com/2026/10/23/barracuda-cybersecurity-career-development-report/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-10-23T04:30:39.000Z",
-      "summary": "Organizations are cutting cybersecurity roles as they adopt AI, even while reporting shortages of the expertise needed to manage threats, according to Barracuda’s Cybersecurity Skills Gap Report. 56% have experienced pro",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Organizations are cutting both junior and experienced cybersecurity roles as they adopt artificial intelligence. This is happening despite companies simultaneously reporting critical shortages in the expertise needed to manage evolving threats.",
-        "whyItMatters": "It highlights a paradoxical trend where organizations risk undermining their long-term security posture by prematurely replacing human expertise with unproven AI automation.",
-        "affected": [],
-        "action": "Evaluate the impact of AI adoption on workforce security readiness.",
-        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
@@ -3043,79 +2868,6 @@
       }
     },
     {
-      "title": "CVE-2026-105014 Azure Pipelines Remote Code Execution Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-105014",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-10-22T14:00:00.000Z",
-      "summary": "Improper neutralization of special elements used in a command ('command injection') in Azure Pipelines allows an unauthorized attacker to execute code over a network.",
-      "categories": [
-        "Vulnerability",
-        "Cloud",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Azure"
-      ],
-      "cves": [
-        "CVE-2026-105014"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A command injection vulnerability identified as CVE-2026-105014 affects Azure Pipelines. This flaw allows an unauthorized network attacker to execute arbitrary code due to improper neutralization of special command elements.",
-        "whyItMatters": "It allows unauthorized attackers to remotely execute code on vulnerable Azure Pipelines systems, posing a severe threat to infrastructure integrity.",
-        "affected": [
-          "Azure Pipelines"
-        ],
-        "action": "Apply the latest security patches for Azure Pipelines.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-105014"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-108456 Azure AI Foundry Elevation of Privilege Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-108456",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-10-22T14:00:00.000Z",
-      "summary": "Server-side request forgery (ssrf) in Azure AI Foundry allows an authorized attacker to elevate privileges over a network.",
-      "categories": [
-        "Vulnerability",
-        "Cloud",
-        "AI Security",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Azure"
-      ],
-      "cves": [
-        "CVE-2026-108456"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A server-side request forgery vulnerability has been identified in Azure AI Foundry. This flaw enables an authorized attacker to elevate their privileges over a network.",
-        "whyItMatters": "It allows malicious actors with existing authorization to gain unauthorized administrative privileges within cloud environments.",
-        "affected": [
-          "Azure AI Foundry"
-        ],
-        "action": "Apply the latest security patches provided by Microsoft.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-108456"
-        ],
-        "source": "ai"
-      }
-    },
-    {
       "title": "New Serious PHP Vulnerabilities Released and Patched",
       "link": "https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html",
       "source": "Schneier on Security",
@@ -3835,6 +3587,32 @@
           "CVE-2026-109619"
         ],
         "source": "heuristic"
+      }
+    },
+    {
+      "title": "Smashing Security podcast #489: How a brand new crypto wallet came with a spy inside",
+      "link": "https://grahamcluley.com/smashing-security-podcast-489/",
+      "source": "Graham Cluley",
+      "publishedAt": "2026-10-21T23:12:20.000Z",
+      "summary": "Imagine buying a brand new hardware wallet for your cryptocurrency with the shrink-wrap still on... what could possibly be hiding inside? We break out a Geiger counter and a cat to find out.\r\n\r\nMeanwhile, malicious ads a",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A recent podcast episode explores a security incident where a brand-new, shrink-wrapped cryptocurrency hardware wallet was found to contain malicious tampering. The discussion also touches upon other emerging security threats, such as malicious advertisements.",
+        "whyItMatters": "This highlights the severe supply chain risks associated with purchasing cryptocurrency hardware, where physical tampering can lead to the total loss of digital assets.",
+        "affected": [],
+        "action": "Purchase cryptocurrency hardware wallets exclusively from authorized, direct manufacturers rather than third-party resellers.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
       }
     },
     {
@@ -5303,6 +5081,32 @@
       }
     },
     {
+      "title": "Police arrest Qilin ransomware suspect on holiday, as links made to Synnovis hack that contributed to patient’s death",
+      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/qilin-ransomware-arrested-synnovis-patient-death",
+      "source": "Graham Cluley",
+      "publishedAt": "2026-10-20T09:41:49.000Z",
+      "summary": "A 28-year-old Russian man has been arrested by German police, suspected of being a key member of the Qilin ransomware gang. Detectives have linked the man to the attack against blood-testing firm Synnovis, that disrupted",
+      "categories": [
+        "Ransomware"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "high",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "German police arrested a 28-year-old Russian man suspected of being a key member of the Qilin ransomware gang. Investigators have linked the suspect to the Synnovis ransomware attack, which caused major disruptions to blood-testing services and contributed to a patient's death.",
+        "whyItMatters": "This arrest demonstrates international law enforcement's increasing success in disrupting high-profile ransomware operations linked to critical infrastructure attacks.",
+        "affected": [],
+        "action": "Monitor threat intelligence feeds for shifts in Qilin gang operations following the arrest.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "Is the ad a scam? How to tell before you click",
       "link": "https://www.welivesecurity.com/en/social-media/is-ad-scam-how-tell-before-click/",
       "source": "WeLiveSecurity",
@@ -5699,6 +5503,32 @@
       }
     },
     {
+      "title": "Irish police force has its Twitter hacked in cryptocurrency scam",
+      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/irish-police-twitter-hacked-crypto-scam",
+      "source": "Graham Cluley",
+      "publishedAt": "2026-10-16T18:00:50.000Z",
+      "summary": "There must have been red faces in the social media department of Ireland's police headquarters after two of its accounts were hijacked this week.\r\n\r\nRead more in my article on the Hot for Security blog.",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Two social media accounts belonging to Ireland's police force were hijacked this week in a cryptocurrency scam. The breach occurred at the police headquarters' social media department.",
+        "whyItMatters": "The compromise of official law enforcement social media accounts erodes public trust and can be leveraged by threat actors to spread financial scams to a wide audience.",
+        "affected": [],
+        "action": "Review and strengthen authentication measures for all official social media accounts.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026",
       "link": "https://unit42.paloaltonetworks.com/top-5-initial-access-vectors-september-2026/",
       "source": "Unit 42",
@@ -5784,6 +5614,123 @@
         "whyItMatters": "It introduces severe security risks by allowing malicious actors to embed undetectable vulnerabilities and malicious behaviors into widely used open-source AI systems.",
         "affected": [],
         "action": "Verify and audit the integrity of all third-party open-weight AI models before deployment.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Krybit ransomware: what you need to know",
+      "link": "https://www.fortra.com/blog/krybit-ransomware-what-you-need-know",
+      "source": "Graham Cluley",
+      "publishedAt": "2026-10-16T10:25:12.000Z",
+      "summary": "Krybit is a fast-growing ransomware gang that was hacked by a rival, hit back, and is still extorting victims. Find out how it works, who it has targeted, and what organisations can do to protect themselves.\r\n\r\nRead more",
+      "categories": [
+        "Ransomware",
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "high",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Krybit is an active ransomware gang that recently engaged in a conflict with a rival group after being hacked. Despite this breach, the group continues to target and extort organizations using fast-growing ransomware tactics.",
+        "whyItMatters": "The ongoing operations and retaliation by the Krybit ransomware gang pose a continuous threat of data theft and extortion for organizations.",
+        "affected": [],
+        "action": "Implement robust data backups and enhance network monitoring to detect potential ransomware intrusions.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Inbox flooded with sign-up messages? Email bombing explained",
+      "link": "https://www.welivesecurity.com/en/cybersecurity/inbox-flooded-signup-messages-email-bombing/",
+      "source": "WeLiveSecurity",
+      "publishedAt": "2026-10-16T09:00:00.000Z",
+      "summary": "If you’re suddenly being overwhelmed with sign-up emails, it could very well be a sign of something more serious",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "An influx of unexpected sign-up messages in your inbox may indicate an email bombing attack. This technique is often used by malicious actors to overwhelm victims and distract from sensitive notifications, such as unauthorized financial transactions.",
+        "whyItMatters": "It matters because attackers use email floods as a smokescreen to hide critical security alerts regarding compromised accounts.",
+        "affected": [],
+        "action": "Monitor your financial accounts and primary services closely for unauthorized activity if you experience an email flood.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "AI-Powered Espionage Campaign Targets Government Linux Infrastructure",
+      "link": "https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure/",
+      "source": "Unit 42",
+      "publishedAt": "2026-10-15T22:00:09.000Z",
+      "summary": "Our analysis an AI-powered espionage campaign targeting government Linux infrastructure with custom malware, web shells, and advanced credential theft.\nThe post AI-Powered Espionage Campaign Targets Government Linux Infr",
+      "categories": [
+        "Malware",
+        "Threat Intel",
+        "AI Security",
+        "Government"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "An AI-powered espionage campaign has been detected targeting government Linux infrastructure. The attacks utilize custom malware, web shells, and advanced credential theft techniques.",
+        "whyItMatters": "This campaign poses a severe national security threat by employing advanced AI capabilities to compromise critical government Linux systems.",
+        "affected": [],
+        "action": "Audit government Linux infrastructure for custom malware, unauthorized web shells, and compromised credentials.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Issue in the Linux kernel virtio-net/TAP networking path affecting KVM-based hypervisors",
+      "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-137-aws/",
+      "source": "AWS Security Bulletins",
+      "publishedAt": "2026-10-15T19:03:20.000Z",
+      "summary": "Bulletin ID: 2026-137-AWS\n Scope: AWS\n Content Type: Important (requires attention)\n Publication Date: 10/15/2026 10:30 AM PDT\n \nDescription:\n \nAWS is aware of an issue in the Linux kernel's virtio-net/TAP networking pat",
+      "categories": [
+        "Cloud",
+        "Open Source"
+      ],
+      "tags": [
+        "Linux",
+        "AWS"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "AWS has issued a bulletin regarding an issue in the Linux kernel virtio-net and TAP networking path. This vulnerability impacts KVM-based hypervisors used within the AWS infrastructure.",
+        "whyItMatters": "It could potentially impact the security and stability of virtualized networking operations on affected hypervisors.",
+        "affected": [
+          "Linux kernel virtio-net/TAP networking path",
+          "KVM-based hypervisors"
+        ],
+        "action": "Monitor for further AWS updates and apply recommended kernel patches.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
