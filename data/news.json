@@ -1,6 +1,504 @@
 {
-  "updatedAt": "2026-10-28T12:48:15.057Z",
+  "updatedAt": "2026-10-28T15:16:18.427Z",
   "items": [
+    {
+      "title": "Managed for Malice: How Attackers Turn MDM into Remote Access",
+      "link": "https://www.huntress.com/blog/attackers-turn-mdm-into-remote-access",
+      "source": "Huntress",
+      "publishedAt": "2026-10-28T16:00:00.000Z",
+      "summary": "Attackers abuse legitimate MDM platforms to deploy rogue RMM tools, turning device management into a pathway for remote access and persistence.",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Threat actors are abusing legitimate Mobile Device Management platforms to deploy rogue Remote Monitoring and Management tools. This tactic allows attackers to transform standard device management systems into hidden pathways for remote access and long-term persistence.",
+        "whyItMatters": "It matters because it allows malicious actors to bypass traditional security controls by weaponizing trusted administrative tools for unauthorized remote access.",
+        "affected": [],
+        "action": "Audit MDM configurations and monitor for unauthorized RMM tool deployments.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Microsoft urges Entra ID admins to migrate users to passkeys",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-entra-id-admins-to-migrate-users-to-passkeys/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-10-28T14:48:32.000Z",
+      "summary": "Microsoft again asked Entra ID administrators to migrate users to phishing-resistant methods to avoid sign-in disruptions before it retires SMS and voice authentication in February 2027. [...]",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft is urging Entra ID administrators to transition users to phishing-resistant authentication methods like passkeys. This migration is necessary to prevent sign-in disruptions ahead of the planned retirement of SMS and voice authentication in February 2027.",
+        "whyItMatters": "Organizations must upgrade their authentication infrastructure before the 2027 deadline to maintain user access and improve security against phishing attacks.",
+        "affected": [
+          "Microsoft Entra ID"
+        ],
+        "action": "Migrate Entra ID users to passkeys and other phishing-resistant authentication methods.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "ControlUp’s Pulse AI Resolve diagnoses and fixes IT issues within admin-defined controls",
+      "link": "https://www.helpnetsecurity.com/2026/10/28/controlup-pulse-ai-resolve/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-10-28T14:46:55.000Z",
+      "summary": "ControlUp has announced Pulse AI Resolve, the real-time investigative AI layer of the Pulse AI ecosystem. A major enhancement of ControlUp’s endpoint self-service capability, previously ControlUp Connect, Pulse Resolve b",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "ControlUp has announced Pulse AI Resolve, a real-time investigative AI layer designed to diagnose and fix IT issues within admin-defined controls. This tool represents a major enhancement of the company's previous endpoint self-service capability, ControlUp Connect.",
+        "whyItMatters": "It introduces advanced AI automation to IT troubleshooting, which changes how administrative controls and endpoint issues are managed.",
+        "affected": [],
+        "action": "Review the new AI tool capabilities to determine applicability to your IT environment.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Compromised camera management software gives attackers a way into corporate networks",
+      "link": "https://www.helpnetsecurity.com/2026/10/28/compromised-camera-management-software-initial-access/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-10-28T14:43:23.000Z",
+      "summary": "Attackers have been breaking into business networks through camera management software, according to new research from security firm Huntress, which traced several incidents in September and October back to a compromised",
+      "categories": [
+        "Incident Response",
+        "Research"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Security firm Huntress reports that attackers are breaching corporate networks by exploiting compromised camera management software. Several incidents occurring in September and October have been traced back to these vulnerabilities.",
+        "whyItMatters": "This vector provides unauthorized external actors with a stealthy entry point into sensitive corporate environments.",
+        "affected": [],
+        "action": "Audit and secure all camera management software and associated network access points.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Attacker Relentlessly Scans for Credentials by Impersonating AI Bots",
+      "link": "https://www.darkreading.com/cyber-risk/attacker-impersonates-ai-bots-scans-credentials",
+      "source": "Dark Reading",
+      "publishedAt": "2026-10-28T14:37:52.000Z",
+      "summary": "The threat actor lurked behind bots posing as agents from OpenAI, Anthropic, Meta, and others to find exposed data.",
+      "categories": [
+        "Threat Intel",
+        "Incident Response",
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Threat actors are continuously scanning for exposed credentials by disguising their malicious traffic as legitimate AI bots from major tech companies like OpenAI, Anthropic, and Meta. This deceptive technique allows the attackers to blend in with normal web scraping and automation traffic while hunting for sensitive data.",
+        "whyItMatters": "This tactic makes malicious credential scanning difficult to detect by traditional security controls because the traffic mimics trusted AI agents.",
+        "affected": [],
+        "action": "Monitor access logs for suspicious bot traffic and enforce strict credential controls.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Digitate adds AI agents for patch planning, service desks, and SAP operations",
+      "link": "https://www.helpnetsecurity.com/2026/10/28/digitate-ignio-hummingbird/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-10-28T14:36:59.000Z",
+      "summary": "Digitate has announced ignio Hummingbird, the latest release of its agentic AIOps platform. Hummingbird introduces AI agents that bring operational expertise to specific IT tasks, move from diagnosis through approved act",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [
+        "SAP"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Digitate has announced the release of ignio Hummingbird, its latest agentic AIOps platform. The update introduces specialized AI agents designed to handle IT tasks ranging from diagnosis to execution.",
+        "whyItMatters": "It introduces autonomous AI agents into critical IT operations like patch planning and service desks, expanding the attack surface and automation risks for enterprise environments.",
+        "affected": [],
+        "action": "Evaluate the security and access controls of any newly integrated AIOps platforms.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "345,000 email addresses stolen in cyberattack on Germany’s far-right party AfD",
+      "link": "https://www.helpnetsecurity.com/2026/10/28/afd-data-breach-email-leak/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-10-28T14:28:43.000Z",
+      "summary": "Over 345,000 unique email addresses were exposed in the September 2026 breach at German far-right political party Alternative für Deutschland (AfD). Breach notification service Have I Been Pwned (HIBP) added the data to ",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A cyberattack on Germany's far-right AfD political party in September 2026 resulted in the exposure of over 345,000 unique email addresses. Breach notification service Have I Been Pwned (HIBP) has since added the compromised data to its platform.",
+        "whyItMatters": "The exposure of hundreds of thousands of email addresses from a major political party increases the risk of targeted phishing attacks and social engineering campaigns against affected individuals.",
+        "affected": [],
+        "action": "Check breach notification services to see if your email was compromised and remain vigilant against targeted phishing attempts.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Swimlane connects custom detections to AI-led investigation and response",
+      "link": "https://www.helpnetsecurity.com/2026/10/28/swimlane-turbine-platform-capabilities/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-10-28T14:26:24.000Z",
+      "summary": "Swimlane has announced new capabilities in the Swimlane Turbine platform that allow security teams to run their own detection logic against large volumes of data and send resulting alerts directly into Swimlane AI SOC fo",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Swimlane has announced new capabilities in its Turbine platform that allow security teams to run custom detection logic against large volumes of data. These capabilities route resulting alerts directly into the Swimlane AI SOC for automated investigation and response.",
+        "whyItMatters": "This integration enhances security operations by streamlining the transition from threat detection to AI-driven incident response.",
+        "affected": [],
+        "action": "Review the new Swimlane Turbine capabilities for integration into your security operations.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "VikingCloud gives businesses a scorecard for AI governance readiness",
+      "link": "https://www.helpnetsecurity.com/2026/10/28/vikingcloud-ai-governance-services/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-10-28T14:06:13.000Z",
+      "summary": "VikingCloud has launched AI Governance Services, a new set of compliance and risk assessments that find the AI tools in use across a business, show where security controls fall short, and deliver a remediation plan to cl",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "VikingCloud has introduced AI Governance Services to help businesses assess their compliance and security readiness regarding artificial intelligence tools. The offering identifies active AI tools, highlights security gaps, and provides a remediation plan for organizations.",
+        "whyItMatters": "As businesses rapidly adopt artificial intelligence, automated governance services are essential to identify shadow IT and secure internal controls against emerging risks.",
+        "affected": [],
+        "action": "Evaluate your organization's AI usage and consider implementing governance assessments to secure endpoints.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "InfraTrust report warns of exploited flaws in critical network infrastructure",
+      "link": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-10-28T14:00:00.000Z",
+      "summary": "Attackers are actively exploiting vulnerabilities across critical network infrastructure, and PHP flaws known as \"PHP2Shell\" put the web management interfaces of firewalls, VPNs, application delivery controllers, and oth",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "InfraTrust reports that attackers are actively exploiting vulnerabilities across critical network infrastructure. Specifically, PHP flaws known as PHP2Shell are targeting the web management interfaces of firewalls, VPNs, and application delivery controllers.",
+        "whyItMatters": "Active exploitation of critical network infrastructure flaws poses an immediate threat to the confidentiality and integrity of enterprise networks.",
+        "affected": [
+          "Firewalls",
+          "VPNs",
+          "Application delivery controllers"
+        ],
+        "action": "Patch network infrastructure management interfaces immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Upwind Security Raises $400 Million at $3.8 Billion Valuation",
+      "link": "https://www.securityweek.com/upwind-security-raises-400-million-at-3-8-billion-valuation/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-10-28T13:56:50.000Z",
+      "summary": "The massive funding round comes just days after reports emerged that Upwind had attracted acquisition interest from several companies, including Datadog\nThe post Upwind Security Raises $400 Million at $3.8 Billion Valuat",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Upwind Security has raised $400 million in a new funding round, achieving a $3.8 billion valuation. This financial milestone follows recent reports of acquisition interest from multiple companies, including Datadog.",
+        "whyItMatters": "This significant capital injection highlights the growing market value and strategic importance of cloud security startups.",
+        "affected": [],
+        "action": "Monitor cloud security market trends.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Even after PHP2Shell, blast radius matters more than a CVSS score",
+      "link": "https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-10-28T13:50:59.000Z",
+      "summary": "PHP2Shell shows how quickly attackers can exploit critical vulnerabilities, often before organizations have time to patch. Token Security explains why limiting the access of service accounts, API keys, and AI agents is j",
+      "categories": [
+        "Vulnerability",
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The PHP2Shell incident demonstrates how rapidly threat actors can exploit critical vulnerabilities before patches are applied. Security experts emphasize that restricting the access privileges of service accounts and API keys is crucial to mitigating such threats.",
+        "whyItMatters": "It proves that limiting potential blast radiuses through strict access controls is more effective at containing breaches than relying solely on CVSS patch timelines.",
+        "affected": [],
+        "action": "Audit and restrict access permissions for all service accounts and API keys.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Chrome and Firefox Updates Patch Over 200 Vulnerabilities",
+      "link": "https://www.securityweek.com/chrome-and-firefox-updates-patch-over-200-vulnerabilities/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-10-28T13:39:35.000Z",
+      "summary": "The Chrome 156 update fixes 52 bugs, while Firefox 159 was rolled out with 167 security patches.\nThe post Chrome and Firefox Updates Patch Over 200 Vulnerabilities appeared first on SecurityWeek.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Chrome",
+        "Firefox"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Google and Mozilla have released major browser updates to address a combined total of over 200 security vulnerabilities. Specifically, Chrome received a patch for 52 bugs, while Firefox rolled out fixes for 167 security issues.",
+        "whyItMatters": "Installing these updates is crucial to prevent potential exploitation of the numerous patched vulnerabilities.",
+        "affected": [
+          "Google Chrome < 156",
+          "Mozilla Firefox < 159"
+        ],
+        "action": "Update Chrome and Firefox to the latest versions immediately.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Banks are blocking AI agents from customer accounts",
+      "link": "https://www.malwarebytes.com/blog/ai/2026/10/banks-are-blocking-ai-agents-from-customer-accounts",
+      "source": "Malwarebytes Labs",
+      "publishedAt": "2026-10-28T13:38:59.000Z",
+      "summary": "Banks say third-party AI agents put customer accounts at risk. Is security the only concern?",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Major banks are currently blocking third-party artificial intelligence agents from accessing customer accounts. Financial institutions argue that these automated agents pose significant security risks to user data and funds.",
+        "whyItMatters": "This trend impacts how consumers utilize automation and AI tools to manage their personal finances.",
+        "affected": [],
+        "action": "Monitor developments regarding AI agent integration with financial services.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Upwind secures $400 million to protect AI across endpoints, code, and cloud",
+      "link": "https://www.helpnetsecurity.com/2026/10/28/upwind-400-million-series-c-funding/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-10-28T13:31:26.000Z",
+      "summary": "Upwind Security has raised $400 million in Series C funding to expand its cloud and AI security platform, bringing the company’s total funding to more than $800 million. Bessemer Venture Partners led the round, with part",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Upwind Security has raised $400 million in Series C funding led by Bessemer Venture Partners. This brings the company's total funding to over $800 million to expand its cloud and AI security platform.",
+        "whyItMatters": "This significant funding injection highlights the rapidly growing investment in cloud and AI security infrastructure.",
+        "affected": [],
+        "action": "Monitor Upwind Security platform updates.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "How Rapid7 InsightGovCloud Supports BOD 22-01 Compliance",
+      "link": "https://www.rapid7.com/blog/post/pt-insightgovcloud-supports-bod-22-01-compliance",
+      "source": "Rapid7",
+      "publishedAt": "2026-10-28T13:16:39.000Z",
+      "summary": "An introduction to CISA’s BOD 22-01\nIssued nearly four years ago, the U.S. Cybersecurity and Infrastructure Security Agency (CISA) Binding Operational Directive 22-01 (BOD 22-01) has been adopted across both public and p",
+      "categories": [
+        "Government"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "This article introduces CISA's Binding Operational Directive 22-01 (BOD 22-01), which has been widely adopted across the public and private sectors over the past four years. It specifically discusses how Rapid7 InsightGovCloud supports compliance with these established federal cybersecurity mandates.",
+        "whyItMatters": "It helps organizations understand how specific security tooling can facilitate compliance with mandatory federal vulnerability management directives.",
+        "affected": [],
+        "action": "Review Rapid7 InsightGovCloud documentation to ensure compliance with BOD 22-01 requirements.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "TLS Flaws Found in GoAhead Web Server Used in Hundreds of Millions of Devices",
+      "link": "https://www.securityweek.com/tls-flaws-found-in-goahead-web-server-used-in-hundreds-of-millions-of-devices/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-10-28T13:10:34.000Z",
+      "summary": "FoxIO disclosed three GoAhead TLS bugs that can let revoked certificates through or expose some encrypted sessions to eavesdroppers.\nThe post TLS Flaws Found in GoAhead Web Server Used in Hundreds of Millions of Devices ",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "FoxIO has disclosed three TLS vulnerabilities in the GoAhead Web Server affecting hundreds of millions of devices. These flaws can allow revoked certificates to be accepted and expose encrypted sessions to potential eavesdroppers.",
+        "whyItMatters": "This vulnerability impacts a widely used embedded web server, potentially exposing vast numbers of connected devices to man-in-the-middle attacks and compromised encryption.",
+        "affected": [
+          "GoAhead Web Server"
+        ],
+        "action": "Apply the latest security patches provided by the vendor.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
+      "link": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-10-28T12:48:03.000Z",
+      "summary": "Threat actors are beginning to probe for a newly patched critical vulnerability in Oracle E-Business Suite (EBS), according to threat intelligence firm Defused Cyber.\n\nThe vulnerability in question is CVE-2026-101767 (CV",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Oracle"
+      ],
+      "cves": [
+        "CVE-2026-101767"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Threat actors are actively probing for a newly patched critical remote code execution vulnerability in the Oracle E-Business Suite just days after the security update was released. This activity highlights the rapid weaponization of recent patches by malicious actors targeting enterprise systems.",
+        "whyItMatters": "Active exploitation attempts against a critical RCE vulnerability put organizations using the software at immediate risk of compromise if patches are not promptly applied.",
+        "affected": [
+          "Oracle E-Business Suite"
+        ],
+        "action": "Apply the latest security patches from Oracle immediately.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-101767"
+        ],
+        "source": "ai"
+      }
+    },
     {
       "title": "Tailscale fixes SSH flaws allowing lateral movement within tailnets",
       "link": "https://www.helpnetsecurity.com/2026/10/28/tailscale-fixes-tailworm-ssh-flaws/",
@@ -56,33 +554,6 @@
         ],
         "action": "Apply the latest Oracle E-Business Suite security patches immediately.",
         "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Ukrainian ransomware hacker sentenced, $11 million reward offered for co-conspirator",
-      "link": "https://www.helpnetsecurity.com/2026/10/28/doj-ukrainian-ransomware-hacker-sentenced/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-10-28T12:17:33.000Z",
-      "summary": "A Ukrainian national who participated in ransomware attacks targeting hospitals, government entities, law firms, and other businesses was sentenced to five years and 10 months in prison. Artem Stryzhak, 36, pleaded guilt",
-      "categories": [
-        "Ransomware",
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "high",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A Ukrainian national involved in ransomware attacks against hospitals, government entities, and other businesses has been sentenced to nearly six years in prison. Additionally, authorities have offered an $11 million reward for information leading to the capture of a co-conspirator.",
-        "whyItMatters": "This case highlights international law enforcement efforts to prosecute high-profile ransomware actors who target critical infrastructure and businesses.",
-        "affected": [],
-        "action": "Maintain robust offline backups and stay informed about ongoing ransomware threats.",
-        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
@@ -172,6 +643,35 @@
       }
     },
     {
+      "title": "Critical 16-Year-Old UEFI Flaw Can Run Code Before Secure Boot on Network-Booting Servers",
+      "link": "https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-10-28T11:50:00.000Z",
+      "summary": "A critical 16-year-old flaw in EDK II, the open-source code that most hardware makers use to build UEFI firmware, can allow an attacker to run code on a machine before its operating system loads, but only while the machi",
+      "categories": [
+        "Vulnerability",
+        "Open Source"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A critical 16-year-old vulnerability in the open-source EDK II UEFI firmware code allows attackers to execute arbitrary code before the operating system boots up. This flaw specifically impacts servers configured for network booting while they are in that vulnerable state.",
+        "whyItMatters": "It undermines the foundational Secure Boot process, allowing attackers to compromise hardware before security defenses initialize.",
+        "affected": [
+          "EDK II UEFI firmware"
+        ],
+        "action": "Apply firmware updates from hardware manufacturers as soon as they become available.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "123 Reg discloses 'AI cyberattack' on customer data, suspects China nexus",
       "link": "https://www.theregister.com/cyber-crime/2026/10/28/123-reg-discloses-ai-cyberattack-on-customer-data-suspects-china-nexus/5305936",
       "source": "The Register",
@@ -201,13 +701,13 @@
       }
     },
     {
-      "title": "FBI seizes Virtualine, bulletproof hosting provider that promised to shield criminals from police",
-      "link": "https://www.helpnetsecurity.com/2026/10/28/fbi-seizure-virtualine-bulletproof-hosting-domain/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-10-28T11:41:01.000Z",
-      "summary": "The FBI has seized virtualine.net, the domain of a bulletproof hosting provider that laundered money for its criminal customers and kept a forum trading in child sexual abuse material online despite repeated warnings fro",
+      "title": "Wazuh and AI for Enhanced SOC Workflows",
+      "link": "https://thehackernews.com/2026/10/wazuh-and-ai-for-enhanced-soc-workflows.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-10-28T11:30:00.000Z",
+      "summary": "Artificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and education, organizations increasingly rely on AI to automate repetitive tasks, uncover ",
       "categories": [
-        "Government"
+        "AI Security"
       ],
       "tags": [],
       "cves": [],
@@ -217,10 +717,10 @@
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "The FBI seized the domain virtualine.net, shutting down a bulletproof hosting provider known for shielding criminal activities. The platform laundered money for malicious actors and hosted a forum trading in child sexual abuse material despite previous warnings.",
-        "whyItMatters": "This takedown disrupts a key infrastructure provider that enabled various cybercrimes and illicit online forums to operate with impunity.",
+        "summary": "Artificial intelligence is increasingly being adopted across various industries to automate repetitive tasks and improve operational efficiency. This article discusses the integration of AI with Wazuh to enhance security operations center workflows.",
+        "whyItMatters": "Integrating AI into security platforms like Wazuh can significantly streamline threat detection and incident response for cybersecurity teams.",
         "affected": [],
-        "action": "Review threat intelligence feeds for indicators related to the seized infrastructure.",
+        "action": "Read the full article to learn about AI integration with Wazuh.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -424,34 +924,6 @@
       }
     },
     {
-      "title": "Data breach at Sony-owned internet provider compromises 2.6 million customer records",
-      "link": "https://www.helpnetsecurity.com/2026/10/28/sony-network-communications-data-breach-so-net/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-10-28T10:18:09.000Z",
-      "summary": "Attackers who broke into the So-net member database made off with personal information belonging to more than 2.58 million current and former customers, along with the email passwords of 54,401 users, Sony Network Commun",
-      "categories": [
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A cyberattack on Sony-owned internet provider So-net compromised the personal information of over 2.58 million current and former customers. Additionally, the attackers stole email passwords belonging to 54,401 users.",
-        "whyItMatters": "This massive data breach exposes millions of individuals to potential phishing, identity theft, and unauthorized access to their accounts.",
-        "affected": [
-          "So-net member database"
-        ],
-        "action": "Change email passwords immediately and monitor accounts for suspicious activity.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Millions of security cameras at risk: DoS vulnerability in Intelbras devices",
       "link": "https://securelist.com/intelbras-camera-vulnerability/121131/",
       "source": "Kaspersky Securelist",
@@ -534,38 +1006,6 @@
       }
     },
     {
-      "title": "CISA updates ScubaGear and ScubaGoggles, and says Microsoft 365 checks get faster",
-      "link": "https://www.helpnetsecurity.com/2026/10/28/cisa-scubagear-scubagoggles-update/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-10-28T09:38:17.000Z",
-      "summary": "CISA released ScubaGear v2.0 and ScubaGoggles v1.1.0, new versions of the open-source tools it publishes to check Microsoft 365 and Google Workspace settings against its security baselines. The agency calls ScubaGear v2.",
-      "categories": [
-        "Government",
-        "Open Source"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CISA has released ScubaGear version 2.0 and ScubaGoggles version 1.1.0, which are updated open-source tools designed to evaluate Microsoft 365 and Google Workspace settings against established security baselines. These new versions bring performance improvements, notably making Microsoft 365 security checks faster.",
-        "whyItMatters": "These tools help organizations efficiently audit and secure their cloud productivity suites against federal baselines, reducing the risk of misconfiguration exploits.",
-        "affected": [
-          "ScubaGear v2.0",
-          "ScubaGoggles v1.1.0",
-          "Microsoft 365",
-          "Google Workspace"
-        ],
-        "action": "Update to the latest versions of ScubaGear and ScubaGoggles to audit your cloud settings.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Hackers Start Probing Fresh Oracle EBS Vulnerability",
       "link": "https://www.securityweek.com/hackers-start-probing-fresh-oracle-ebs-vulnerability/",
       "source": "SecurityWeek",
@@ -591,40 +1031,11 @@
         "affected": [
           "Oracle"
         ],
-        "risk": "Critical",
         "action": "Patch immediately.",
+        "risk": "Critical",
         "relatedCves": [
           "CVE-2026-101767"
         ],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "CISA Warns of Node2Shell Exploitation as Honeypots Log Attack Attempts",
-      "link": "https://www.securityweek.com/cisa-warns-of-node2shell-exploitation-as-honeypots-log-attack-attempts/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-10-28T08:37:24.000Z",
-      "summary": "CISA added the Brotli flaw to its KEV catalog, and two honeypot operators logged attempts, including one that used a broken exploit.\nThe post CISA Warns of Node2Shell Exploitation as Honeypots Log Attack Attempts appeare",
-      "categories": [
-        "Vulnerability",
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CISA added the Brotli flaw to its KEV catalog, and two honeypot operators logged attempts, including one that used a broken exploit.\nThe post CISA Warns of Node2Shell Exploitation as Honeypots Log Attack Attempts appeare",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "risk": "News",
-        "action": "No action required; informational.",
-        "relatedCves": [],
         "source": "heuristic"
       }
     },
@@ -659,8 +1070,8 @@
           "Android",
           "Chrome"
         ],
-        "risk": "High",
         "action": "Review and assess impact on your environment.",
+        "risk": "High",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -687,8 +1098,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -715,126 +1126,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Bellini Capital CISO on AI security governance and the limits of patching faster",
-      "link": "https://www.helpnetsecurity.com/2026/10/28/brian-blakley-bellini-capital-ai-security-governance/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-10-28T06:30:35.000Z",
-      "summary": "In this Help Net Security interview, Brian Blakley, CISO at Bellini Capital and ConnectSecure, explains why AI makes finding vulnerabilities faster while fixing them still takes time. He argues that “patch faster” is not",
-      "categories": [
-        "Vulnerability",
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "In this Help Net Security interview, Brian Blakley, CISO at Bellini Capital and ConnectSecure, explains why AI makes finding vulnerabilities faster while fixing them still takes time. He argues that “patch faster” is not",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "risk": "Medium",
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access on Other Servers",
-      "link": "https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-28T06:20:37.000Z",
-      "summary": "Tailscale has released version 1.104.4 to fix flaws in its built-in SSH server that could let an attacker reach services and files on other servers that only the root user should be able to touch.\n\nThe flaws are in how T",
-      "categories": [
-        "Incident Response",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Tailscale has released version 1.104.4 to fix flaws in its built-in SSH server that could let an attacker reach services and files on other servers that only the root user should be able to touch.\n\nThe flaws are in how T",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
         "risk": "News",
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
-      "link": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-28T06:04:58.000Z",
-      "summary": "The critical Oracle PeopleSoft bug that ShinyHunters has exploited since May is not one flaw but three chained together, the researchers who reported it said this week.\n\nOracle patched all three under a single identifier",
-      "categories": [
-        "Zero Day",
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Oracle"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The critical Oracle PeopleSoft bug that ShinyHunters has exploited since May is not one flaw but three chained together, the researchers who reported it said this week.\n\nOracle patched all three under a single identifier",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Oracle"
-        ],
-        "risk": "News",
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "AbuseBox: Open-source monitor for blacklists, DNS, SSL and email records",
-      "link": "https://www.helpnetsecurity.com/2026/10/28/abusebox-open-source-ip-blacklist-monitoring/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-10-28T06:00:45.000Z",
-      "summary": "AbuseBox is a free, open-source tool that checks IP addresses and domains against 60 DNS blacklists, pulls reputation scores from AbuseIPDB, inspects DNS, SSL and email-authentication records, and sends an alert when som",
-      "categories": [
-        "Open Source"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "AbuseBox is a free, open-source tool that checks IP addresses and domains against 60 DNS blacklists, pulls reputation scores from AbuseIPDB, inspects DNS, SSL and email-authentication records, and sends an alert when som",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "risk": "News",
-        "action": "No action required; informational.",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -861,66 +1154,10 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
-      "link": "https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-28T05:42:26.000Z",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added two vulnerabilities impacting Adobe Commerce and Magento, and Google's Brotli decoder library to its Known Exploited Vulnerabilities (KEV)",
-      "categories": [
-        "Vulnerability",
-        "Incident Response",
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added two vulnerabilities impacting Adobe Commerce and Magento, and Google's Brotli decoder library to its Known Exploited Vulnerabilities (KEV)",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "risk": "Medium",
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "NIST starts the countdown to retire quantum-vulnerable encryption",
-      "link": "https://www.helpnetsecurity.com/2026/10/28/nist-post-quantum-cryptography-migration-roadmap/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-10-28T05:30:29.000Z",
-      "summary": "The National Institute of Standards and Technology (NIST) has released a roadmap for moving to post-quantum cryptography (PQC), with earlier deadlines for certain sensitive federal systems. The report, Transition to Post",
-      "categories": [
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "NIST has released a roadmap for transitioning to post-quantum cryptography, establishing earlier deadlines for sensitive federal systems. This initiative aims to protect critical infrastructure against future threats from quantum computing.",
-        "whyItMatters": "Organizations must begin preparing now to replace quantum-vulnerable encryption algorithms before legacy systems are compromised by future quantum computers.",
-        "affected": [],
-        "action": "Review the NIST post-quantum cryptography roadmap and assess your organization's encryption inventory.",
         "risk": "News",
         "relatedCves": [],
-        "source": "ai"
+        "source": "heuristic"
       }
     },
     {
@@ -945,8 +1182,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1091,34 +1328,6 @@
       }
     },
     {
-      "title": "UNM Health ransomware attack disrupts patient care, surgeries",
-      "link": "https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-10-27T22:07:34.000Z",
-      "summary": "The University of New Mexico Health Sciences Center disclosed a cyberattack that caused system outages and disrupted patient care and academic activities. [...]",
-      "categories": [
-        "Ransomware"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "high",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The University of New Mexico Health Sciences Center disclosed a cyberattack that caused system outages and disrupted patient care and academic activities. [...]",
-        "whyItMatters": "Significant risk to affected systems; prioritize review.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Monitor for indicators of compromise.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Vulnerabilities in node.js Affecting Cisco Products: October 2026",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20node.js%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
       "source": "Cisco PSIRT",
@@ -1224,34 +1433,6 @@
       "readTimeMin": 1,
       "aiSummary": {
         "summary": "Cyber leaders can get ahead of AI liability with rigorous documentation, transparency, and smart contract negotiations with AI vendors.",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Hackers hijack Convertr analytics script to steal payment card data",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-10-27T20:57:25.000Z",
-      "summary": "A credit card skimming group reportedly compromised a shared analytics script used by e-commerce platform Convertr to steal shoppers' payment data during checkout. [...]",
-      "categories": [
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A credit card skimming group reportedly compromised a shared analytics script used by e-commerce platform Convertr to steal shoppers' payment data during checkout. [...]",
         "whyItMatters": "Background context; no immediate action expected.",
         "affected": [
           "Not specified"
@@ -1457,36 +1638,6 @@
       }
     },
     {
-      "title": "Microsoft releases Windows OOB updates to distrust eMudhra certificates",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-10-27T18:20:28.000Z",
-      "summary": "Microsoft has released out-of-band (OOB) Windows updates to remove trust in certificates tied to compromised eMudhra certificate authority keys, protecting systems that do not receive automatic certificate trust updates.",
-      "categories": [
-        "Incident Response"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has released out-of-band Windows updates to remove trust in certificates tied to compromised eMudhra certificate authority keys. This action protects systems that do not receive automatic certificate trust updates.",
-        "whyItMatters": "It prevents attackers from exploiting compromised certificate authority keys to issue fraudulent certificates and launch man-in-the-middle attacks.",
-        "affected": [
-          "Windows"
-        ],
-        "action": "Apply the out-of-band Windows updates immediately.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Beware the Slasher: AI Could Kill Off Cybersecurity Pros' Skills",
       "link": "https://www.darkreading.com/cybersecurity-operations/ai-kill-off-cybersecurity-pros-skills",
       "source": "Dark Reading",
@@ -1678,34 +1829,6 @@
         "affected": [],
         "action": "Verify election-related messages before clicking links or making payments.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Tailscale Rushes Patches After Uncoordinated Disclosure of ‘Tailworm’ Flaws",
-      "link": "https://www.securityweek.com/tailscale-rushes-patches-after-uncoordinated-disclosure-of-tailworm-flaws/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-10-27T15:26:12.000Z",
-      "summary": "Tailscale is preparing a patch for Tailscale SSH flaws whose details went public over the weekend, before any fixes had been released.\nThe post Tailscale Rushes Patches After Uncoordinated Disclosure of ‘Tailworm’ Flaws ",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Tailscale is rushing to patch Tailscale SSH flaws, known as Tailworm, after details were publicly disclosed before fixes were ready. The uncoordinated disclosure forced the company to expedite its patching process.",
-        "whyItMatters": "Publicly disclosed zero-day vulnerabilities in remote access tools like Tailscale leave systems exposed to exploitation before patches are available.",
-        "affected": [
-          "Tailscale SSH"
-        ],
-        "action": "Apply the security patches as soon as Tailscale releases them.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -2176,35 +2299,6 @@
       }
     },
     {
-      "title": "Vendor Key Leak Puts Data of 238,000 Denver Health Plan Members at Risk",
-      "link": "https://www.securityweek.com/vendor-key-leak-puts-data-of-238000-denver-health-plan-members-at-risk/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-10-27T13:30:28.000Z",
-      "summary": "A leaked SquareML access key could have been used to access a database containing personal and health information.\nThe post Vendor Key Leak Puts Data of 238,000 Denver Health Plan Members at Risk appeared first on Securi",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A leaked SquareML access key has exposed a database containing the personal and health information of 238,000 Denver Health Plan members. The security incident highlights the risks associated with third-party vendor credential management.",
-        "whyItMatters": "Exposed vendor credentials can allow unauthorized access to sensitive healthcare data, leading to severe privacy violations and potential identity theft for thousands of individuals.",
-        "affected": [
-          "SquareML",
-          "Denver Health Plan database"
-        ],
-        "action": "Revoke the compromised access key immediately and audit vendor access controls.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Tricks from the Past deployed via signed ChatGPT and Claude binaries",
       "link": "https://research.checkpoint.com/2026/tricks-from-the-past-deployed-via-signed-chatgpt-and-claude-binaries/",
       "source": "Check Point Research",
@@ -2292,8 +2386,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "Monitor for indicators of compromise.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -2937,32 +3031,6 @@
       }
     },
     {
-      "title": "Risks &amp; Rewards: How AI Is Redefining the CISO's Role",
-      "link": "https://www.darkreading.com/cybersecurity-careers/risks-rewards-ai-redefining-ciso-role",
-      "source": "Dark Reading",
-      "publishedAt": "2026-10-26T21:44:33.000Z",
-      "summary": "Nvidia security executive Mark Weatherford says CISOs must help business leaders weigh AI's pros and cons, and ensure those deploying it own the risks.",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Nvidia security executive Mark Weatherford emphasizes that CISOs must guide business leaders in balancing the benefits and risks of artificial intelligence. He also stresses the importance of ensuring that the teams deploying AI tools take full responsibility for associated security risks.",
-        "whyItMatters": "This highlights the evolving governance challenges as organizations increasingly adopt AI technologies without clear ownership of security risks.",
-        "affected": [],
-        "action": "Establish clear risk ownership for all AI deployments within your organization.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "VU#128947: COVESA vsomeip excessive memory allocation in reliable (TCP) endpoint buffer handling",
       "link": "https://kb.cert.org/vuls/id/128947",
       "source": "CERT/CC",
@@ -3368,32 +3436,6 @@
         "relatedCves": [
           "CVE-2026-109618"
         ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Patient records exposed in Quest breach: What you need to know",
-      "link": "https://www.malwarebytes.com/blog/data-breaches/2026/10/patient-records-exposed-in-quest-breach-what-you-need-to-know",
-      "source": "Malwarebytes Labs",
-      "publishedAt": "2026-10-26T11:34:00.000Z",
-      "summary": "Quest Diagnostics says a breach affected personal information and patient records. Here’s what patients need to know and what to do now.",
-      "categories": [
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Quest Diagnostics reported a data breach that exposed sensitive personal information and patient records. The incident has raised significant concerns regarding the security of medical data.",
-        "whyItMatters": "Exposed patient records can lead to severe privacy violations, medical identity theft, and targeted financial fraud for the affected individuals.",
-        "affected": [],
-        "action": "Monitor your medical and financial accounts closely for any suspicious activity.",
-        "risk": "High",
-        "relatedCves": [],
         "source": "ai"
       }
     },
@@ -5708,41 +5750,6 @@
       }
     },
     {
-      "title": "Rapid Response: php2shell, Leaked Critical PHP Vulnerabilities (CVE-2026-109618 & CVE-2026-109619)",
-      "link": "https://www.huntress.com/blog/php2shell-leaked-critical-php-vulnerabilities",
-      "source": "Huntress",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "summary": "Two critical PHP RCEs, CVE-2026-109618 and CVE-2026-109619, leaked before the patch. Learn what's known, who's exposed, and how to prepare now.",
-      "categories": [
-        "Vulnerability",
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-109618",
-        "CVE-2026-109619"
-      ],
-      "kev": true,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Two critical PHP RCEs, CVE-2026-109618 and CVE-2026-109619, leaked before the patch. Learn what's known, who's exposed, and how to prepare now.",
-        "whyItMatters": "Actively exploited or high-impact; treat as urgent.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Patch immediately.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-109618",
-          "CVE-2026-109619"
-        ],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Operation FlashHole: Lazarus breaks security, defies control",
       "link": "https://securelist.com/lazarus-operation-flashhole/121541/",
       "source": "Kaspersky Securelist",
@@ -5764,8 +5771,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "Monitor for indicators of compromise.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -5795,8 +5802,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Critical",
         "action": "Patch immediately.",
+        "risk": "Critical",
         "relatedCves": [
           "CVE-2026-0257"
         ],
@@ -5826,36 +5833,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "There's only so much code: the rise in vulnerability numbers",
-      "link": "https://blog.talosintelligence.com/theres-only-so-much-code-the-rise-in-vulnerability-numbers/",
-      "source": "Talos Intelligence",
-      "publishedAt": "2026-10-20T15:31:22.000Z",
-      "summary": "The September Microsoft Patch Tuesday release included 975 vulnerability advisories. This month, 1,415 vulnerabilities were just dropped. Compared to a pre-June average of 100 a month, that increase is staggering. Where ",
-      "categories": [
-        "Vulnerability"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The September Microsoft Patch Tuesday release included 975 vulnerability advisories. This month, 1,415 vulnerabilities were just dropped. Compared to a pre-June average of 100 a month, that increase is staggering. Where ",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
         "risk": "Medium",
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
         "relatedCves": [],
         "source": "heuristic"
       }
