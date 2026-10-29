@@ -1,6 +1,60 @@
 {
-  "updatedAt": "2026-10-28T23:12:50.586Z",
+  "updatedAt": "2026-10-29T02:23:58.093Z",
   "items": [
+    {
+      "title": "Officials seize domain of top bulletproof hosting provider Virtualine",
+      "link": "https://cyberscoop.com/virtualine-bulletproof-hosting-provider-seized/",
+      "source": "CyberScoop",
+      "publishedAt": "2026-10-29T00:38:19.000Z",
+      "summary": "The Russian-speaking cybercrime storefront was among the most active bulletproof hosting providers this year to date, receiving almost one-fifth of all illicit-attributed inflow tracked by researchers.\nThe post Officials",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Law enforcement agencies have seized the domain of Virtualine, a major Russian-speaking bulletproof hosting provider. The service was responsible for nearly one-fifth of all illicit-attributed financial inflows tracked by researchers this year.",
+        "whyItMatters": "This disruption significantly impacts the cybercrime ecosystem by taking down one of its most active infrastructure providers.",
+        "affected": [],
+        "action": "Monitor threat intelligence feeds for shifts in cybercrime infrastructure.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Smashing Security podcast #490: How Jared Kushner’s iPhone was allegedly hacked twice",
+      "link": "https://grahamcluley.com/smashing-security-podcast-490/",
+      "source": "Graham Cluley",
+      "publishedAt": "2026-10-29T00:16:56.000Z",
+      "summary": "Dutch spies, Russian hackers and Jared Kushner’s iPhone. It sounds like the ingredients for a thriller, but according to claims in a new book the US President's son-in-law may have been hacked twice. Is any of it true, a",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A new book claims that Jared Kushner's iPhone was targeted and hacked twice by foreign actors including Dutch spies and Russian hackers. The podcast episode discusses the veracity of these allegations and the broader implications of high-profile device compromises.",
+        "whyItMatters": "It highlights the ongoing vulnerability of high-ranking political figures to sophisticated state-sponsored mobile espionage.",
+        "affected": [
+          "Apple iPhone"
+        ],
+        "action": "Review mobile device security best practices.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "CVE-2026-19175 Use after free in Payments",
       "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-19175",
@@ -2155,8 +2209,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [
           "CVE-2026-78894"
         ],
@@ -2188,8 +2242,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [
           "CVE-2026-78893"
         ],
@@ -2221,8 +2275,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [
           "CVE-2026-78892"
         ],
@@ -2254,8 +2308,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [
           "CVE-2026-78891"
         ],
@@ -2424,6 +2478,65 @@
           "ISC BIND"
         ],
         "action": "Update ISC BIND to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6591-1 openjdk-25 - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00510.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-10-28T00:00:00.000Z",
+      "summary": "Several vulnerabilities have been discovered in the OpenJDK Java runtime,\nwhich may result in denial of service, sandbox breakout, incomplete\ncertificate checks or information disclosure.\n\n\nhttps://security-tracker.debia",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple vulnerabilities have been discovered in the OpenJDK-25 Java runtime environment. These security flaws can potentially lead to denial of service, sandbox breakouts, incomplete certificate validation, and information disclosure.",
+        "whyItMatters": "Unpatched Java runtimes expose systems to various attacks, including denial of service and security boundary bypasses.",
+        "affected": [
+          "openjdk-25"
+        ],
+        "action": "Update openjdk-25 to the latest security release.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6590-1 firefox-esr - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00509.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-10-28T00:00:00.000Z",
+      "summary": "Multiple security issues have been found in the Mozilla Firefox web\nbrowser, which could potentially result in the execution of arbitrary\ncode, sandbox escape, bypass of the same-origin policy, privilege\nescalation, info",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Firefox"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple security vulnerabilities have been discovered in the Mozilla Firefox web browser. These issues could potentially lead to arbitrary code execution, sandbox escapes, and privilege escalation.",
+        "whyItMatters": "Unpatched browser vulnerabilities can be exploited by attackers to compromise user systems and execute unauthorized code.",
+        "affected": [
+          "Mozilla Firefox ESR"
+        ],
+        "action": "Update Firefox ESR to the latest patched version immediately.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -2821,8 +2934,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "High",
         "action": "Monitor for indicators of compromise.",
+        "risk": "High",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -2904,8 +3017,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -2935,8 +3048,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -2968,32 +3081,6 @@
       }
     },
     {
-      "title": "National cyber director rolls out latest pilot in South Carolina, this time for rural hospitals",
-      "link": "https://cyberscoop.com/oncd-rural-hospital-cybersecurity-pilot-project-lifeline-250/",
-      "source": "CyberScoop",
-      "publishedAt": "2026-10-27T15:13:48.000Z",
-      "summary": "Like the water sector initiative, the six-month pilot program will connect rural hospitals with industry for free services.\nThe post National cyber director rolls out latest pilot in South Carolina, this time for rural h",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The National Cyber Director is launching a six-month pilot program in South Carolina to help rural hospitals improve their cybersecurity posture. This initiative connects participating healthcare facilities with industry experts to provide free security services.",
-        "whyItMatters": "Rural hospitals often lack the resources to defend against sophisticated cyberattacks that threaten patient care.",
-        "affected": [],
-        "action": "Monitor the pilot program for potential expansion opportunities to other regions.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "ISC2 Launches Cyber-AI Workforce Coalition to Address the Future of AI Security Jobs",
       "link": "https://www.infosecurity-magazine.com/news/isc2-launches-cyberai-workforce/",
       "source": "Infosecurity Magazine",
@@ -3015,8 +3102,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -4498,8 +4585,8 @@
         "affected": [
           "AWS"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [
           "CVE-2026-89049"
         ],
@@ -4567,67 +4654,6 @@
         "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
-      }
-    },
-    {
-      "title": "DSA-6584-1 varnish - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00502.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-10-25T00:00:00.000Z",
-      "summary": "Several vulnerabilities were discovered in Varnish Cache, an HTTP\naccelerator, which could result in cache poisoning, authentication bypass\nor denial of service.\n\nCVE-2026-34475\n\n    Tom Kinnaird discovered a deficiency ",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-34475"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several vulnerabilities were discovered in Varnish Cache, an HTTP\naccelerator, which could result in cache poisoning, authentication bypass\nor denial of service.\n\nCVE-2026-34475\n\n    Tom Kinnaird discovered a deficiency",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [
-          "CVE-2026-34475"
-        ],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "DSA-6583-1 libheif - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00499.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-10-24T00:00:00.000Z",
-      "summary": "Multiple security issues were discovered in libheif, a library for reading\nand writing HEIF and AVIF images. Processing specially crafted images\ncould result in denial of service through excessive resource consumption\nor",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Multiple security issues have been discovered in libheif, a library used for reading and writing HEIF and AVIF images. Processing specially crafted images can lead to a denial of service via excessive resource consumption.",
-        "whyItMatters": "Vulnerabilities in widely used media libraries can be exploited by attackers to crash applications or exhaust system resources, leading to service outages.",
-        "affected": [
-          "libheif"
-        ],
-        "action": "Update libheif to the latest patched version.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
       }
     },
     {
@@ -5361,13 +5387,13 @@
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "View CSAF\nSummary\nNozomi Networks has published information on vulnerabilities in Nozomi Guardian/CMC. This advisory lists the related Siemens Industrial products affected by these vulnerabilities. Siemens recommends to ",
+        "summary": "View CSAF\nSummary\nNozomi Networks has published information on vulnerabilities in Nozomi Guardian/CMC. This advisory lists the related Siemens Industrial products affected by these vulnerabilities. Siemens recommends to",
         "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -5803,35 +5829,6 @@
           "Not specified"
         ],
         "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Amazon-Themed ClickFix Campaign Serves Up Finger-Licking Malware",
-      "link": "https://www.huntress.com/blog/amazon-clickfix-finger",
-      "source": "Huntress",
-      "publishedAt": "2026-10-21T13:00:00.000Z",
-      "summary": "A Google search for Amazon business led to a ClickFix lure that dropped multiple malicious payloads onto the victim machine, including versions of Lumma Stealer and NetSupport Client RMM.",
-      "categories": [
-        "Malware",
-        "Threat Intel"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A Google search for Amazon business led to a ClickFix lure that dropped multiple malicious payloads onto the victim machine, including versions of Lumma Stealer and NetSupport Client RMM.",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Monitor for indicators of compromise.",
         "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
