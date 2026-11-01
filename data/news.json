@@ -1,6 +1,117 @@
 {
-  "updatedAt": "2026-11-01T09:11:46.716Z",
+  "updatedAt": "2026-11-01T15:59:53.851Z",
   "items": [
+    {
+      "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
+      "link": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-11-01T15:11:21.000Z",
+      "summary": "Hackers attempted to exploit a critical GitLab vulnerability in Alpine Linux's development infrastructure on October 20-21, prompting the open-source project to rebuild its GitLab server and reset all passwords over conc",
+      "categories": [
+        "Vulnerability",
+        "Open Source"
+      ],
+      "tags": [
+        "Linux",
+        "GitLab"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Alpine Linux experienced an attempted remote code execution attack targeting a critical GitLab vulnerability in its development infrastructure on October 20-21. In response, the project completely rebuilt its GitLab server and forced a reset of all user passwords.",
+        "whyItMatters": "A successful compromise of development infrastructure could have allowed attackers to inject malicious code into Alpine Linux packages used widely across the tech industry.",
+        "affected": [
+          "GitLab"
+        ],
+        "action": "Reset your GitLab passwords and review infrastructure security logs for unauthorized access.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "OpenAI says it's doubling Pro usage limits and bringing Work features to Chat",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-11-01T13:53:11.000Z",
+      "summary": "OpenAI has just confirmed that it's rolling out ChatGPT Work capabilities directly into regular Chat, while also combining usage allowances across ChatGPT and Codex. [...]",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "OpenAI is rolling out ChatGPT Work capabilities into regular Chat and combining usage allowances across ChatGPT and Codex. The update also includes doubling usage limits for Pro subscribers.",
+        "whyItMatters": "This update impacts how users and organizations utilize and share resources across OpenAI platforms, though it represents a feature rollout rather than a security vulnerability.",
+        "affected": [],
+        "action": "Review updated account limits and new feature availability in your ChatGPT interface.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Northstar Security Exits Stealth With $7M to Expose Toxic Risk Combinations",
+      "link": "https://www.securityweek.com/northstar-security-exits-stealth-with-7m-to-expose-toxic-risk-combinations/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-11-01T11:15:00.000Z",
+      "summary": "The startup maps how identities, assets and vulnerabilities connect, and uses AI agents to find and fix risky combinations of issues.\nThe post Northstar Security Exits Stealth With $7M to Expose Toxic Risk Combinations a",
+      "categories": [
+        "Vulnerability",
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Northstar Security has emerged from stealth mode with $7 million in funding to launch its cybersecurity platform. The startup utilizes AI agents to map connections between identities, assets, and vulnerabilities to identify and remediate complex risk combinations.",
+        "whyItMatters": "It introduces a new AI-driven approach to uncovering hidden security vulnerabilities stemming from interconnected IT assets and identities.",
+        "affected": [],
+        "action": "Monitor the company's platform offerings for potential enterprise security integration.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "OneNote File Extraction, (Sun, Nov 1st)",
+      "link": "https://isc.sans.edu/diary/rss/33478",
+      "source": "SANS ISC",
+      "publishedAt": "2026-11-01T09:12:23.000Z",
+      "summary": "Recently, I had to extract embedded files from a set of OneNote files (extension .one).",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A cybersecurity analyst discusses a recent task involving the extraction of embedded files from Microsoft OneNote (.one) files. The article simply describes a file processing procedure without detailing any vulnerabilities or exploits.",
+        "whyItMatters": "It does not matter for security as it describes a routine file handling task rather than a vulnerability or threat.",
+        "affected": [],
+        "action": "No action is required.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Week in review: Binance hit by $6.3 billion theft, impact of Brotli vulnerability",
       "link": "https://www.helpnetsecurity.com/2026/11/01/week-in-review-binance-hit-by-6-3-billion-theft-impact-of-brotli-vulnerability/",
@@ -24,6 +135,35 @@
         "affected": [],
         "action": "Review the weekly security roundup for detailed incident reports.",
         "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
+      "link": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-11-01T08:51:31.000Z",
+      "summary": "A critical flaw in Canonical's LXD and MicroCloud let an attacker log in as a trusted client without holding that client's private key. To do it, the attacker had to reach their HTTPS API over the network and have the tr",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A critical vulnerability in Canonical's LXD and MicroCloud allows unauthorized attackers to impersonate trusted clients and log in without possessing the required private key. Exploiting this flaw requires network access to the HTTPS API and specific conditions regarding trusted client certificates.",
+        "whyItMatters": "This vulnerability completely undermines certificate-based authentication, allowing attackers to bypass critical access controls and gain unauthorized administrative access.",
+        "affected": [
+          "Canonical LXD",
+          "Canonical MicroCloud"
+        ],
+        "action": "Update LXD and MicroCloud to the latest patched versions immediately.",
+        "risk": "Critical",
         "relatedCves": [],
         "source": "ai"
       }
@@ -1123,32 +1263,6 @@
       }
     },
     {
-      "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
-      "link": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-30T16:58:44.000Z",
-      "summary": "Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at high-value targets simultaneously.\n\nThe activi",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Chinese state-sponsored threat actors are using an artificial intelligence-powered penetration testing framework called ARTEX to target over 200 high-value organizations globally. The Go-based tool allows attackers to conduct simultaneous, sophisticated attacks against multiple entities.",
-        "whyItMatters": "The use of AI-powered offensive frameworks by state-sponsored actors represents a significant escalation in the speed, scale, and automation of cyber espionage campaigns.",
-        "affected": [],
-        "action": "Monitor organizational networks for anomalous activities associated with the ARTEX framework and review threat intelligence updates.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "GM cracks the petty cash box for multistate driver tracking settlement",
       "link": "https://www.theregister.com/security/2026/10/30/gm-cracks-the-petty-cash-box-for-multistate-driver-tracking-settlement/5306721",
       "source": "The Register",
@@ -1256,34 +1370,6 @@
         "affected": [],
         "action": "Monitor developments regarding federal election oversight and local compliance.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Trezor warns of suspected crypto-theft implant in hardware wallet",
-      "link": "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-10-30T15:58:20.000Z",
-      "summary": "Hardware wallet device maker Trezor has received credible reports about a suspected hardware crypto-theft implant in a Trezor Safe 5 sold by its reseller CryptoBilis in Southeast Asia. [...]",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Trezor received credible reports of a suspected hardware crypto-theft implant in a Trezor Safe 5 device sold by its reseller CryptoBilis in Southeast Asia. The company is currently investigating the incident to determine how the hardware was compromised.",
-        "whyItMatters": "Hardware wallets are considered the gold standard for cryptocurrency security, so physical tampering compromises the ultimate layer of user trust.",
-        "affected": [
-          "Trezor Safe 5"
-        ],
-        "action": "Purchase hardware wallets exclusively from official and trusted sources.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -1532,34 +1618,6 @@
         "whyItMatters": "These diverse incidents expose widespread vulnerabilities across cloud infrastructure, enterprise hardware, and emerging AI technologies that organizations rely on.",
         "affected": [],
         "action": "Review the latest threat intelligence updates to assess your organization's exposure to these reported incidents.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Malicious Claude Code extension on Cursor planted SSH backdoors",
-      "link": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-10-30T14:36:54.000Z",
-      "summary": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29, exposing up to 5,000 developers to malware designed to ins",
-      "categories": [
-        "Malware"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for 11 hours on October 29. The supply chain attack exposed up to 5,000 developers to malware designed to plant SSH backdoors.",
-        "whyItMatters": "It demonstrates how threat actors can leverage developer tool marketplaces to compromise developer environments and establish unauthorized remote access.",
-        "affected": [
-          "Claude Code VS Code extension (Cursor marketplace version)"
-        ],
-        "action": "Audit developer environments and extension registries for unauthorized access or backdoors.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -2140,34 +2198,6 @@
       "readTimeMin": 1,
       "aiSummary": {
         "summary": "We automate filter generation for security alerts using an algorithm, a large language model, and a group of LLM agents.",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "$2 Million+ Drained From Polymarket Traders in New Supply Chain Attack",
-      "link": "https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-10-30T09:41:36.000Z",
-      "summary": "Malicious code linked to a website monitoring tool was designed to hijack logged-in Polymarket sessions and siphon user funds.\nThe post $2 Million+ Drained From Polymarket Traders in New Supply Chain Attack appeared firs",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Malicious code linked to a website monitoring tool was designed to hijack logged-in Polymarket sessions and siphon user funds.\nThe post $2 Million+ Drained From Polymarket Traders in New Supply Chain Attack appeared firs",
         "whyItMatters": "Background context; no immediate action expected.",
         "affected": [
           "Not specified"
@@ -4487,32 +4517,6 @@
         "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
-      }
-    },
-    {
-      "title": "ISC Stormcast For Wednesday, October 28th, 2026 (Wed, Oct 28th)",
-      "link": "https://isc.sans.edu/diary/rss/33464",
-      "source": "SANS ISC",
-      "publishedAt": "2026-10-28T02:30:11.000Z",
-      "summary": "ISC Stormcast For Wednesday, October 28th, 2026 https://isc.sans.edu/podcastdetail/10154, (Wed, Oct 28th)",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "This is the daily ISC Stormcast podcast episode for Wednesday, October 28th, 2026. It provides a routine update on current cybersecurity news and advisories.",
-        "whyItMatters": "Staying informed on daily threat intelligence briefings helps security professionals track emerging vulnerabilities and incidents.",
-        "affected": [],
-        "action": "Listen to the podcast for the latest daily security updates.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
       }
     },
     {
