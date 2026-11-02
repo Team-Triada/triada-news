@@ -1,6 +1,212 @@
 {
-  "updatedAt": "2026-11-02T00:40:15.190Z",
+  "updatedAt": "2026-11-02T07:39:53.161Z",
   "items": [
+    {
+      "title": "DeepSeek open-sources Super-Agent, a coding agent that watches team chats for work",
+      "link": "https://www.helpnetsecurity.com/2026/11/02/deepseek-dsh-superagent/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-11-02T07:09:55.000Z",
+      "summary": "Deepseek released a research prototype of dsh-superagent, a coding agent that does work on a GitHub repository for you. Who can ask for work The agent gets to work in two situations: an allowed user asks for something, o",
+      "categories": [
+        "Research",
+        "Open Source"
+      ],
+      "tags": [
+        "GitHub"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "DeepSeek has open-sourced a research prototype called dsh-superagent, a coding agent designed to perform tasks on GitHub repositories. The agent is triggered either when requested by an authorized user or by monitoring team chat channels for work assignments.",
+        "whyItMatters": "Integrating autonomous coding agents that monitor communications and directly modify code repositories introduces significant security risks regarding unauthorized code changes and sensitive data exposure.",
+        "affected": [
+          "DeepSeek dsh-superagent research prototype"
+        ],
+        "action": "Review the access permissions and security controls of autonomous coding agents before deploying them in development environments.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "The first ten lines of a command policy for AI coding agents",
+      "link": "https://www.helpnetsecurity.com/2026/11/02/vinay-thakker-kloudstax-ai-agent-access-control/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-11-02T06:30:36.000Z",
+      "summary": "In this Help Net Security interview, Vinay Thakker, CTO of KloudStax, explains how to set identity, credentials, and network limits for AI agents. He argues that agents should run under their own identity, with the perso",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "In a recent interview, KloudStax CTO Vinay Thakker discusses the importance of establishing a command policy for AI coding agents. He emphasizes the need to define clear limits on identity, credentials, and network access for these tools.",
+        "whyItMatters": "Unrestricted AI coding agents pose significant security risks if they lack proper identity, credential, and network boundaries.",
+        "affected": [],
+        "action": "Implement strict identity and network limits for AI coding agents.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Byoky: Open-source wallet for AI API keys",
+      "link": "https://www.helpnetsecurity.com/2026/11/02/byoky-open-source-ai-api-key-wallet/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-11-02T06:00:33.000Z",
+      "summary": "Byoky is an open-source wallet for AI API keys, available as a Chrome and Firefox extension and as iOS and Android apps. Users store their keys for OpenAI, Anthropic, Google Gemini and other providers in it, encrypted on",
+      "categories": [
+        "AI Security",
+        "Open Source"
+      ],
+      "tags": [
+        "Android",
+        "Chrome",
+        "Firefox"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Byoky is a new open-source wallet designed to securely store AI API keys for services like OpenAI, Anthropic, and Google Gemini. The tool is available across multiple platforms including Chrome, Firefox, iOS, and Android.",
+        "whyItMatters": "It centralizes sensitive AI credentials into a single application, making its security architecture critical for preventing credential theft.",
+        "affected": [
+          "Byoky Chrome extension",
+          "Byoky Firefox extension",
+          "Byoky iOS app",
+          "Byoky Android app"
+        ],
+        "action": "Review the source code and security practices before storing production API keys.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value",
+      "link": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-11-02T05:51:07.000Z",
+      "summary": "Cybersecurity researchers have discovered a new Windows infostealer malware called VOLTA-AUTODOXER (aka VOLTA) that makes use of a large language model (LLM) to rank a victim's stolen data by their monetization value.\n\nL",
+      "categories": [
+        "Malware",
+        "AI Security"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Researchers have discovered a new Windows infostealer malware named VOLTA-AUTODOXER that targets victims. The malware uniquely utilizes large language models such as Claude, Gemini, and Kimi AI to analyze and rank stolen data based on its financial value.",
+        "whyItMatters": "This development represents an alarming evolution in cybercrime, where artificial intelligence is weaponized to automate and optimize the monetization of stolen data.",
+        "affected": [],
+        "action": "Deploy advanced endpoint detection solutions to monitor for unauthorized AI API usage and infostealer behavior.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Product showcase: Trust Onion uses rotating codewords to verify callers",
+      "link": "https://www.helpnetsecurity.com/2026/11/02/product-showcase-trust-onion/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-11-02T05:30:38.000Z",
+      "summary": "Trust Onion is a free app that gives trusted groups three rotating codewords to check who they are communicating with. It also includes signed selfies, message checks, and callback requests. It is available for macOS, iO",
+      "categories": [
+        "News"
+      ],
+      "tags": [
+        "macOS"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Trust Onion is a free application for macOS and iOS designed to help trusted groups verify caller identities. It utilizes three rotating codewords, signed selfies, message checks, and callback requests.",
+        "whyItMatters": "It offers a tool for users to mitigate the risk of voice impersonation and social engineering attacks.",
+        "affected": [
+          "Trust Onion for macOS",
+          "Trust Onion for iOS"
+        ],
+        "action": "Evaluate the app if you need additional identity verification tools for your group.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Ransomware gang talked AI agents into doing much of its dirty work",
+      "link": "https://www.helpnetsecurity.com/2026/11/02/aur0ra-ransomware-ai-agents/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-11-02T05:00:46.000Z",
+      "summary": "The group behind the Aur0ra ransomware has been using AI agents to move through victim networks, collect credentials and work its way up to domain administrator access, according to Sophos. AI-assisted intrusion workflow",
+      "categories": [
+        "Ransomware",
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "high",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Sophos reports that the Aur0ra ransomware gang has been utilizing AI agents to navigate victim networks and harvest credentials. These AI tools successfully assisted the threat actors in achieving domain administrator access.",
+        "whyItMatters": "This development marks a concerning escalation where attackers are weaponizing artificial intelligence to automate complex intrusion workflows and accelerate network compromise.",
+        "affected": [],
+        "action": "Monitor network environments closely for unauthorized automated access attempts and reinforce credential security.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "ISC Stormcast For Monday, November 2nd, 2026 (Mon, Nov 2nd)",
+      "link": "https://isc.sans.edu/diary/rss/33480",
+      "source": "SANS ISC",
+      "publishedAt": "2026-11-02T02:00:03.000Z",
+      "summary": "ISC Stormcast For Monday, November 2nd, 2026 https://isc.sans.edu/podcastdetail/10160, (Mon, Nov 2nd)",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "This SANS Internet Storm Center podcast episode provides a daily cybersecurity threat briefing for November 2nd, 2026. It covers current operational vulnerabilities, incident analysis, and defensive guidance for security professionals.",
+        "whyItMatters": "Staying informed on daily threat intelligence is crucial for proactively defending against emerging cyber attacks and vulnerabilities.",
+        "affected": [],
+        "action": "Listen to the podcast episode for the latest threat updates.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Federal court tosses Trump lawsuit challenging Alaska Senate certification",
       "link": "https://cyberscoop.com/judge-dismisses-alaska-senate-lawsuit-peltola-sullivan/",
@@ -986,32 +1192,6 @@
       }
     },
     {
-      "title": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%",
-      "link": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-31T04:56:12.000Z",
-      "summary": "Threat actors are launching about 8,226 network-layer distributed denial-of-service (DDoS) attacks per hour, Cloudflare revealed Thursday.\n\nThe web infrastructure and security company said it autonomously mitigated 18.2 ",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Cloudflare reported that it autonomously mitigated 18.2 million network-layer DDoS attacks during the third quarter, representing a 38% increase year-over-year. This equates to threat actors launching approximately 8,226 network-layer DDoS attacks every hour.",
-        "whyItMatters": "The significant surge in DDoS attacks highlights an escalating volume of automated threats targeting web infrastructure globally.",
-        "affected": [],
-        "action": "Ensure robust DDoS mitigation and cloud security infrastructure are in place.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "DSA-6599-1 nss - security update",
       "link": "https://lists.debian.org/debian-security-announce/2026/msg00518.html",
       "source": "Debian Security",
@@ -1911,33 +2091,6 @@
       }
     },
     {
-      "title": "Bedrock Data routes data exposure fixes to owners and verifies results",
-      "link": "https://www.helpnetsecurity.com/2026/10/30/bedrock-data-ai-assisted-remediation/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-10-30T12:39:09.000Z",
-      "summary": "Bedrock Data has announced AI-assisted remediation, which federates the work of fixing data exposure to the data owners across the enterprise. Bedrock Data discovers who owns each exposed dataset, opens a ticket for that",
-      "categories": [
-        "Incident Response",
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Bedrock Data has introduced AI-assisted remediation to federate data exposure fixes directly to enterprise data owners. The system automatically identifies dataset owners and opens relevant tickets to resolve security risks.",
-        "whyItMatters": "It streamlines enterprise data security by automating the assignment of data exposure fixes to the responsible parties.",
-        "affected": [],
-        "action": "Review Bedrock Data's new AI remediation features.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Binance hit by largest-ever crypto theft, with $6.3 billion stolen",
       "link": "https://www.malwarebytes.com/blog/news/2026/10/binance-hit-by-largest-ever-crypto-theft-with-6-3-billion-stolen",
       "source": "Malwarebytes Labs",
@@ -2147,36 +2300,6 @@
       }
     },
     {
-      "title": "Claude Code extension poisoned with persistent SSH backdoor",
-      "link": "https://www.helpnetsecurity.com/2026/10/30/claude-code-extension-ssh-backdoor/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-10-30T11:15:26.000Z",
-      "summary": "A tampered build of Anthropic’s Claude Code extension for VS Code-compatible editors planted an SSH backdoor on developers’ machines, researchers at macOS security firm Phorion have found. The company spotted the malicio",
-      "categories": [
-        "Malware"
-      ],
-      "tags": [
-        "macOS"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A tampered build of Anthropic’s Claude Code extension for VS Code-compatible editors planted an SSH backdoor on developers’ machines, researchers at macOS security firm Phorion have found. The company spotted the malicio",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "macOS"
-        ],
-        "action": "Monitor for indicators of compromise.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Drupal Commerce Core Vulnerability Exploited Against Online Stores",
       "link": "https://www.securityweek.com/drupal-commerce-core-vulnerability-exploited-against-online-stores/",
       "source": "SecurityWeek",
@@ -2261,62 +2384,6 @@
       }
     },
     {
-      "title": "Open-weight AI model GLM-5.3 cheated its way to correct answers",
-      "link": "https://www.helpnetsecurity.com/2026/10/30/irregular-glm-5-3-cyber-capabilities-evaluation/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-10-30T09:23:25.000Z",
-      "summary": "Irregular evaluated Zhipu AI’s open-weight model GLM-5.3 across 13 offensive cyber scenarios using CyScenarioBench, the company’s framework for measuring an LLM’s ability to plan and execute multistage attacks under real",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Irregular evaluated Zhipu AI’s open-weight model GLM-5.3 across 13 offensive cyber scenarios using CyScenarioBench, the company’s framework for measuring an LLM’s ability to plan and execute multistage attacks under real",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Binance hit by $6.3 billion theft in what could be the biggest crypto heist on record",
-      "link": "https://www.helpnetsecurity.com/2026/10/30/binance-crypto-hack/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-10-30T08:26:13.000Z",
-      "summary": "About $6.3 billion in cryptocurrency was stolen from Binance in what might be the biggest crypto hack in history. “Binance’s initial investigation suggests that the security incident may involve a compromised DevOps engi",
-      "categories": [
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Cryptocurrency exchange Binance reportedly suffered a massive theft of approximately $6.3 billion. Initial investigations suggest the security incident may have originated from a compromised DevOps engineer.",
-        "whyItMatters": "This represents potentially the largest cryptocurrency heist in history, posing severe financial and reputational risks to major digital asset platforms.",
-        "affected": [
-          "Binance"
-        ],
-        "action": "Review platform security controls and monitor official statements from Binance.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "As Russia's Cyberwar Evolves, Belarus Steps Forward",
       "link": "https://www.darkreading.com/physical-security/russia-cyber-war-belarus-steps-forward",
       "source": "Dark Reading",
@@ -2337,34 +2404,6 @@
         "whyItMatters": "It demonstrates the expanding scope and active collaboration of state-sponsored proxy groups in escalating regional cyber conflicts.",
         "affected": [],
         "action": "Monitor network perimeters for indicators of compromise associated with the FrostyNeighbor APT.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Fake IT help desk callers got by on little more than names and email addresses",
-      "link": "https://www.helpnetsecurity.com/2026/10/30/cisco-talos-it-help-desk-vishing/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-10-30T06:30:26.000Z",
-      "summary": "Attackers posing as IT help desk staff contacted employees by phone, email and Microsoft Teams in the third quarter of 2026 and talked them into opening remote access sessions, Cisco Talos Incident Response (Talos IR) fo",
-      "categories": [
-        "Incident Response"
-      ],
-      "tags": [
-        "Cisco"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Threat actors posing as IT help desk staff contacted employees via phone, email, and Microsoft Teams during the third quarter of 2026. By using basic details like names and email addresses, the attackers successfully manipulated targets into opening remote access sessions.",
-        "whyItMatters": "This tactic exploits human trust and basic reconnaissance to bypass traditional technical defenses and gain unauthorized network access.",
-        "affected": [],
-        "action": "Verify the identity of IT support personnel through out-of-band communication channels before granting remote access.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -4099,32 +4138,6 @@
         "whyItMatters": "This update is purely administrative and commercial, bearing no relevance to cybersecurity vulnerabilities or risks.",
         "affected": [],
         "action": "Review the Microsoft Marketplace documentation to understand the new private offer capabilities if relevant to your procurement processes.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Yet Another ClickFix Campaign, (Wed, Oct 28th)",
-      "link": "https://isc.sans.edu/diary/rss/33466",
-      "source": "SANS ISC",
-      "publishedAt": "2026-10-28T16:07:03.000Z",
-      "summary": "Introduction",
-      "categories": [
-        "Threat Intel"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "A new ClickFix campaign has been reported in recent cybersecurity news. Details regarding the specific mechanisms and targets of this campaign are currently limited.",
-        "whyItMatters": "ClickFix campaigns frequently employ social engineering tactics to trick users into executing malicious scripts, posing a risk to endpoint security.",
-        "affected": [],
-        "action": "Monitor internal systems for unusual user activity and educate staff on social engineering tactics.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
