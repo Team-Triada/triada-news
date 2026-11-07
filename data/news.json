@@ -1,6 +1,117 @@
 {
-  "updatedAt": "2026-11-07T08:43:49.131Z",
+  "updatedAt": "2026-11-07T15:39:53.474Z",
   "items": [
+    {
+      "title": "Hackers pull off $133 million French bank heist via service provider",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-11-07T15:25:35.000Z",
+      "summary": "French cooperative bank Crédit Mutuel Arkéa was targeted in a cyberattack that enabled fraudulent transactions of up to $133 million, forcing it to respond by suspending certain systems.v [...]",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "French cooperative bank Crédit Mutuel Arkéa suffered a cyberattack via a service provider that resulted in fraudulent transactions reaching up to $133 million. In response to the security breach, the bank was forced to suspend several of its affected systems.",
+        "whyItMatters": "This incident highlights how third-party service providers can introduce critical supply chain vulnerabilities that lead to massive financial losses for major financial institutions.",
+        "affected": [
+          "Crédit Mutuel Arkéa systems"
+        ],
+        "action": "Audit third-party service provider security controls and monitor for unauthorized transactions.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands",
+      "link": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-11-07T14:10:19.000Z",
+      "summary": "Scammers are impersonating major brands and celebrities to lure consumers into fake gift card giveaways that collect personal information and trigger unwanted subscriptions. CTM360 reveals how these campaigns use decepti",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "CTM360 has exposed widespread phishing campaigns where scammers impersonate major brands and celebrities to promote fake gift card giveaways. These fraudulent schemes are designed to harvest personal information from consumers and enroll them in unauthorized, unwanted subscriptions.",
+        "whyItMatters": "This scam exploits consumer trust in well-known brands to facilitate identity theft and financial fraud.",
+        "affected": [],
+        "action": "Avoid clicking on unsolicited gift card links and verify promotions directly through official brand channels.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "NHS breach helpline left staff carrying a 'significant emotional burden'",
+      "link": "https://www.theregister.com/security/2026/11/07/nhs-breach-helpline-left-staff-carrying-a-significant-emotional-burden/5308201",
+      "source": "The Register",
+      "publishedAt": "2026-11-07T10:30:00.000Z",
+      "summary": "Team given a day's notice faced distressed callers, safeguarding decisions during project that stretched from 2 weeks to 11",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "high",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Staff operating an NHS breach helpline reported experiencing significant emotional distress due to handling distressed callers and critical safeguarding decisions. The temporary project was extended from an initial two weeks to nearly eleven months with minimal notice.",
+        "whyItMatters": "This highlights the severe human and operational toll that systemic data breaches can inflict on support personnel.",
+        "affected": [],
+        "action": "Review staff support structures for incident response teams.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
+      "link": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-11-07T10:16:23.000Z",
+      "summary": "CVE-2026-19868 can let attackers holding credentials for a different login method get past SAML checks, including SAML-enforced MFA.\nThe post SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins appe",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-19868"
+      ],
+      "kev": true,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "SonicWall has patched an actively exploited vulnerability, tracked as CVE-2026-19868, in SonicOS. The flaw allows attackers with credentials for an alternative login method to bypass SAML checks and SAML-enforced multi-factor authentication.",
+        "whyItMatters": "This vulnerability allows attackers to completely bypass critical multi-factor authentication protections on VPN logins.",
+        "affected": [],
+        "action": "Apply the latest SonicWall security patches immediately.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-19868"
+        ],
+        "source": "ai"
+      }
+    },
     {
       "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
       "link": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
@@ -20,13 +131,13 @@
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them.\n\nWhen a user selects \"Yes, and don't ask again,\" Anthropic's ",
+        "summary": "Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them.\n\nWhen a user selects \"Yes, and don't ask again,\" Anthropic's",
         "whyItMatters": "Background context; no immediate action expected.",
         "affected": [
           "GitHub"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -55,6 +166,35 @@
         ],
         "action": "Apply the latest security updates provided by SonicWall immediately.",
         "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6613-1 zlib - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00532.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-11-07T00:00:00.000Z",
+      "summary": "Several vulnerabilities were discovered in the zlib compression library,\nwhich could result in denial of service or potentially the execution of\narbitrary code if specially crafted input is processed.\n\n\nhttps://security-",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Several vulnerabilities have been discovered in the zlib compression library. Processing specially crafted input through the library can lead to a denial of service or potential arbitrary code execution.",
+        "whyItMatters": "Because zlib is widely used across many software systems, these vulnerabilities could allow attackers to crash applications or execute arbitrary code on vulnerable systems.",
+        "affected": [
+          "zlib"
+        ],
+        "action": "Update the zlib compression library to the latest patched version.",
+        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -652,32 +792,6 @@
       }
     },
     {
-      "title": "IMSI vs IMEI: What Your Phone Broadcasts and Who Can Read It",
-      "link": "https://www.bleepingcomputer.com/news/security/imsi-vs-imei-what-your-phone-broadcasts-and-who-can-read-it/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-11-06T15:00:10.000Z",
-      "summary": "IMSI and IMEI are IDs your phone shares with networks. Learn how they differ, how attackers get them, and why rotating your IMSI blunts tracking. [...]",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "This educational article explains the differences between IMSI and IMEI mobile device identifiers and how they are broadcast to networks. It also discusses how attackers intercept these identifiers and the benefits of IMSI rotation in preventing tracking.",
-        "whyItMatters": "Understanding mobile identifier broadcasting helps users recognize privacy risks and the importance of anti-tracking measures.",
-        "affected": [],
-        "action": "Enable IMSI rotation features on supported devices if available.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
       "link": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
       "source": "The Hacker News",
@@ -820,35 +934,6 @@
           "CVE-2026-109618",
           "CVE-2026-109619"
         ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Chainalysis says breach exposed credentials for all customers",
-      "link": "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-11-06T14:17:07.000Z",
-      "summary": "Blockchain intelligence firm Chainalysis says a recent attack on its systems and internal tools has exposed credentials and live tokens for all customers. [...]",
-      "categories": [
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Blockchain intelligence firm Chainalysis suffered a security breach that exposed credentials and live tokens belonging to all of its customers. The attackers gained access to internal systems and tools, compromising sensitive authentication data.",
-        "whyItMatters": "This massive credential exposure puts all Chainalysis customers at immediate risk of unauthorized account access and potential secondary attacks.",
-        "affected": [
-          "Chainalysis platform",
-          "Chainalysis internal tools"
-        ],
-        "action": "Revoke and rotate all customer API keys, credentials, and live tokens immediately.",
-        "risk": "Critical",
-        "relatedCves": [],
         "source": "ai"
       }
     },
@@ -1120,36 +1205,6 @@
         "affected": [],
         "action": "Investigate the White House network to identify and remove the unauthorized residential proxy services.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "OpenSSH Rushes Patches for ‘SSHole’ Authentication Bypass",
-      "link": "https://www.securityweek.com/openssh-rushes-patches-for-sshole-authentication-bypass/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-11-06T12:07:42.000Z",
-      "summary": "On Linux distributions using musl libc without PAM, some accounts accept any password between 257 and 1024 characters.\nThe post OpenSSH Rushes Patches for ‘SSHole’ Authentication Bypass appeared first on SecurityWeek.",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "OpenSSH has rushed out patches to fix an authentication bypass vulnerability dubbed SSHole. The flaw affects Linux distributions using musl libc without PAM, allowing certain accounts to authenticate with any password between 257 and 1024 characters.",
-        "whyItMatters": "This vulnerability allows unauthorized attackers to bypass authentication and gain access to affected systems.",
-        "affected": [
-          "OpenSSH (on Linux distributions using musl libc without PAM)"
-        ],
-        "action": "Update OpenSSH to the latest patched version immediately.",
-        "risk": "Critical",
         "relatedCves": [],
         "source": "ai"
       }
@@ -2141,32 +2196,6 @@
         "affected": [],
         "action": "Watch the video to stay informed on overlooked security news.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "The White House is apparently a popular residential proxy exit spot",
-      "link": "https://www.theregister.com/security/2026/11/05/the-white-house-is-apparently-a-popular-residential-proxy-exit-spot/5307969",
-      "source": "The Register",
-      "publishedAt": "2026-11-05T20:50:57.000Z",
-      "summary": "How it got there is another matter entirely",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "Recent discussions highlight an unusual cybersecurity scenario involving the White House acting as a residential proxy exit node. The exact mechanism and origin of how this configuration occurred remain unclear.",
-        "whyItMatters": "The use of high-profile government networks as proxy exit nodes raises serious security and attribution concerns regarding potential unauthorized access or covert routing.",
-        "affected": [],
-        "action": "Investigate network logs and routing configurations.",
-        "risk": "Medium",
         "relatedCves": [],
         "source": "ai"
       }
@@ -5253,42 +5282,6 @@
       }
     },
     {
-      "title": "Linux kernel RCE CVE-2026-98432",
-      "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-188",
-      "source": "Fortinet PSIRT",
-      "publishedAt": "2026-11-02T08:00:00.000Z",
-      "summary": "CVSSv3 Score:\n \n 9.8\n\n\n CVE-2026-98432:ipv4: free inet_opt and ireq_opt after an RCU grace period tcp_v4_syn_recv_sock() transfers ownership of ireq->ireq_opt to the child socket (newinet->inet_opt) without copying it. A",
-      "categories": [
-        "Vulnerability",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [
-        "CVE-2026-98432"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CVSSv3 Score:\n \n 9.8\n\n\n CVE-2026-98432:ipv4: free inet_opt and ireq_opt after an RCU grace period tcp_v4_syn_recv_sock() transfers ownership of ireq->ireq_opt to the child socket (newinet->inet_opt) without copying it. A",
-        "whyItMatters": "Actively exploited or high-impact; treat as urgent.",
-        "affected": [
-          "Linux"
-        ],
-        "action": "Patch immediately.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-98432"
-        ],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "ISC Stormcast For Monday, November 2nd, 2026 (Mon, Nov 2nd)",
       "link": "https://isc.sans.edu/diary/rss/33480",
       "source": "SANS ISC",
@@ -5310,34 +5303,6 @@
         "affected": [],
         "action": "Listen to the podcast episode for the latest threat updates.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6605-1 chromium - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00524.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-11-02T00:00:00.000Z",
-      "summary": "Security issues were discovered in Chromium which could result\nin the execution of arbitrary code, denial of service, or information\ndisclosure.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6605-1",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Multiple security vulnerabilities have been discovered in the Chromium browser that could allow attackers to achieve arbitrary code execution. Additionally, these flaws may lead to denial of service conditions or unauthorized information disclosure.",
-        "whyItMatters": "Unpatched browser vulnerabilities are frequently exploited by attackers to compromise user systems via malicious web content.",
-        "affected": [
-          "Chromium"
-        ],
-        "action": "Update Chromium to the latest security release.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -5775,6 +5740,32 @@
         ],
         "action": "Monitor AI model outputs closely for unexpected inconsistencies.",
         "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "IR trends Q3 2026: Actors impersonate IT help desks in vishing attacks as ransomware activity increases",
+      "link": "https://blog.talosintelligence.com/ir-trends-q3-2026/",
+      "source": "Talos Intelligence",
+      "publishedAt": "2026-10-29T14:00:00.000Z",
+      "summary": "Phishing remained the leading initial access technique, while percentage of ransomware and pre-ransomware cases increased. Finance and public administration tied as the top-targeted industries.",
+      "categories": [
+        "Ransomware"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "high",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Threat actors are increasingly using vishing to impersonate IT help desks as part of a rise in ransomware activity during Q3 2026. Phishing remains the primary initial access technique, with the finance and public administration sectors tied as the most targeted industries.",
+        "whyItMatters": "This trend highlights the ongoing evolution of social engineering tactics used to breach organizations and deploy ransomware.",
+        "affected": [],
+        "action": "Train staff to verify IT help desk requests through out-of-band channels.",
+        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
