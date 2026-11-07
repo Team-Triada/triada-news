@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T15:39:53.474Z",
+  "updatedAt": "2026-11-07T20:13:35.328Z",
   "items": [
     {
       "title": "Hackers pull off $133 million French bank heist via service provider",
@@ -166,6 +166,35 @@
         ],
         "action": "Apply the latest security updates provided by SonicWall immediately.",
         "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6614-1 ruby3.3 - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00533.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-11-07T00:00:00.000Z",
+      "summary": "Several vulnerabilities have been discovered in the interpreter for the\nRuby language, which may result in IMAP command injection, denial of\nservice, information disclosure or the execution of arbitrary code.\n\n\nhttps://s",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple vulnerabilities have been discovered in the Ruby 3.3 interpreter that can lead to security issues. These flaws may allow attackers to execute arbitrary code, cause a denial of service, perform IMAP command injection, or cause information disclosure.",
+        "whyItMatters": "Unpatched interpreters can be exploited by attackers to compromise system integrity and confidentiality through arbitrary code execution or denial of service.",
+        "affected": [
+          "ruby3.3"
+        ],
+        "action": "Update ruby3.3 to the latest security release provided by your vendor.",
+        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -4922,34 +4951,6 @@
       }
     },
     {
-      "title": "DSA-6606-1 squid - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00525.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-11-03T00:00:00.000Z",
-      "summary": "Several security issues were found in Squid, a caching proxy for the web.\nThese issues could allow request smuggling, buffer overflows or FTP\ncommand injection under certain conditions.\n\n\nhttps://security-tracker.debian.",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several security issues were found in Squid, a caching proxy for the web.\nThese issues could allow request smuggling, buffer overflows or FTP\ncommand injection under certain conditions.\n\n\nhttps://security-tracker.debian.",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "October’s Critical CVEs, Two Weeks On",
       "link": "https://www.hacktron.ai/blog/october-cves",
       "source": "Hacktron AI",
@@ -5279,6 +5280,42 @@
         "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
+      }
+    },
+    {
+      "title": "Linux kernel RCE CVE-2026-98432",
+      "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-188",
+      "source": "Fortinet PSIRT",
+      "publishedAt": "2026-11-02T08:00:00.000Z",
+      "summary": "CVSSv3 Score:\n \n 9.8\n\n\n CVE-2026-98432:ipv4: free inet_opt and ireq_opt after an RCU grace period tcp_v4_syn_recv_sock() transfers ownership of ireq->ireq_opt to the child socket (newinet->inet_opt) without copying it. A",
+      "categories": [
+        "Vulnerability",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [
+        "CVE-2026-98432"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A remote code execution vulnerability, tracked as CVE-2026-98432, has been identified in the Linux kernel's IPv4 implementation. The issue arises from improper memory management during socket ownership transfer in tcp_v4_syn_recv_sock.",
+        "whyItMatters": "This critical flaw could allow attackers to achieve remote code execution, posing a severe threat to systems running vulnerable Linux kernel versions.",
+        "affected": [
+          "Linux kernel"
+        ],
+        "action": "Apply the latest security patches provided by your Linux distribution.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-98432"
+        ],
+        "source": "ai"
       }
     },
     {
@@ -5740,32 +5777,6 @@
         ],
         "action": "Monitor AI model outputs closely for unexpected inconsistencies.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "IR trends Q3 2026: Actors impersonate IT help desks in vishing attacks as ransomware activity increases",
-      "link": "https://blog.talosintelligence.com/ir-trends-q3-2026/",
-      "source": "Talos Intelligence",
-      "publishedAt": "2026-10-29T14:00:00.000Z",
-      "summary": "Phishing remained the leading initial access technique, while percentage of ransomware and pre-ransomware cases increased. Finance and public administration tied as the top-targeted industries.",
-      "categories": [
-        "Ransomware"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "high",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Threat actors are increasingly using vishing to impersonate IT help desks as part of a rise in ransomware activity during Q3 2026. Phishing remains the primary initial access technique, with the finance and public administration sectors tied as the most targeted industries.",
-        "whyItMatters": "This trend highlights the ongoing evolution of social engineering tactics used to breach organizations and deploy ransomware.",
-        "affected": [],
-        "action": "Train staff to verify IT help desk requests through out-of-band channels.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
