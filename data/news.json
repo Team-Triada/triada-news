@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T23:37:59.236Z",
+  "updatedAt": "2026-11-08T05:56:10.710Z",
   "items": [
     {
       "title": "Hackers pull off $133 million French bank heist via service provider",
@@ -166,6 +166,34 @@
         ],
         "action": "Apply the latest security updates provided by SonicWall immediately.",
         "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6615-1 libreoffice - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00534.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-11-07T00:00:00.000Z",
+      "summary": "A buffer overflow was discovered in the handling of dBASE database files\nin LibreOffice, which could potentially result in the execution of\narbitrary code.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6615-1",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A buffer overflow vulnerability has been discovered in LibreOffice related to the handling of dBASE database files. This flaw could potentially allow an attacker to execute arbitrary code on a vulnerable system.",
+        "whyItMatters": "Unchecked buffer handling in file parsers poses a severe remote code execution risk if users open untrusted database files.",
+        "affected": [
+          "LibreOffice"
+        ],
+        "action": "Update LibreOffice to the latest patched version provided by your vendor.",
+        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -4247,36 +4275,6 @@
       "readTimeMin": 1,
       "aiSummary": {
         "summary": "It was discovered that missing validation of event data in the agent of\nthe Puppet configuration management system could result in code\nexecution on the Puppet server.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-66",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "DSA-6607-1 apt - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00526.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-11-04T00:00:00.000Z",
-      "summary": "Max Justicz discovered a vulnerability in the APT package manager. APT\ncan merge two different package downloads after an HTTP redirect gives\nthem the same URI. Improper file handling when resuming an HTTP download\nallow",
-      "categories": [
-        "Vulnerability",
-        "Threat Intel",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Max Justicz discovered a vulnerability in the APT package manager. APT\ncan merge two different package downloads after an HTTP redirect gives\nthem the same URI. Improper file handling when resuming an HTTP download\nallow",
         "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
         "affected": [
           "Not specified"
