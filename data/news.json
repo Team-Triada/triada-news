@@ -1,6 +1,60 @@
 {
-  "updatedAt": "2026-11-08T22:51:47.084Z",
+  "updatedAt": "2026-11-09T02:39:27.809Z",
   "items": [
+    {
+      "title": "Huawei says it’s made a 100 percent Chinese PC",
+      "link": "https://www.theregister.com/systems/2026/11/09/huawei-says-its-made-a-100-percent-chinese-pc/5308335",
+      "source": "The Register",
+      "publishedAt": "2026-11-09T02:14:17.000Z",
+      "summary": "PLUS: Japan declares infosec emergency; Apple’s makes biggest school Mac sale, ever, anywhere, in the Philippines; And more!",
+      "categories": [
+        "News"
+      ],
+      "tags": [
+        "Apple"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Huawei has announced the development of a personal computer manufactured entirely with Chinese components. Meanwhile, Japan has declared an infosec emergency, and Apple secured a massive school Mac sale in the Philippines.",
+        "whyItMatters": "This highlights ongoing geopolitical shifts toward supply chain independence in hardware manufacturing.",
+        "affected": [],
+        "action": "Monitor developments regarding hardware supply chain independence and regional cybersecurity alerts.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "ISC Stormcast For Monday, November 9th, 2026 (Mon, Nov 9th)",
+      "link": "https://isc.sans.edu/diary/rss/33500",
+      "source": "SANS ISC",
+      "publishedAt": "2026-11-09T02:05:10.000Z",
+      "summary": "ISC Stormcast For Monday, November 9th, 2026 https://isc.sans.edu/podcastdetail/10170, (Mon, Nov 9th)",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "This daily ISC Stormcast podcast episode provides a summary of current cybersecurity news and threat intelligence. It covers notable updates and incidents reported to the Internet Storm Center on Monday, November 9th, 2026.",
+        "whyItMatters": "Staying informed on daily threat intelligence briefings helps security professionals track emerging trends and advisories.",
+        "affected": [],
+        "action": "Listen to the podcast for the latest threat briefing details.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Scans for Sshole Vulnerability (CVE-2026-123158), (Sun, Nov 8th)",
       "link": "https://isc.sans.edu/diary/rss/33498",
@@ -107,6 +161,38 @@
         "affected": [],
         "action": "Monitor upcoming Patch Tuesday announcements and review operational technology security measures.",
         "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6616-1 linux - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00536.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-11-08T00:00:00.000Z",
+      "summary": "Several vulnerabilities have been discovered in the Linux kernel that\nmay lead to a privilege escalation, denial of service or information\nleaks.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6616-1",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory",
+        "Open Source"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple vulnerabilities have been discovered in the Linux kernel that could potentially lead to privilege escalation, denial of service, or information leaks. Debian has issued a security update to address these issues in the affected kernel packages.",
+        "whyItMatters": "Unpatched Linux kernel vulnerabilities can allow local or remote attackers to compromise system stability, access sensitive data, or gain unauthorized elevated privileges.",
+        "affected": [
+          "Linux kernel"
+        ],
+        "action": "Update your Linux kernel packages to the latest version provided by Debian.",
+        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -2126,32 +2212,6 @@
         ],
         "action": "Configure Azure Front Door TLS key exchange policies to include post-quantum support.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Feds warn grocers: Don't chill on cyber defenses as freezer hacking spree heats up",
-      "link": "https://www.theregister.com/security/2026/11/05/feds-warn-grocers-dont-chill-on-cyber-defenses-as-freezer-hacking-spree-heats-up/5307978",
-      "source": "The Register",
-      "publishedAt": "2026-11-05T22:37:06.000Z",
-      "summary": "No documented attacks against American supermarkets…yet",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Federal authorities are warning American grocery stores to strengthen their cybersecurity defenses against a rising trend of freezer hacking incidents. Although there are no documented attacks against U.S. supermarkets at this time, the warning emphasizes the need for increased vigilance.",
-        "whyItMatters": "This warning highlights a growing physical-digital convergence threat where malicious actors could disrupt critical food supply chain refrigeration systems.",
-        "affected": [],
-        "action": "Audit and secure commercial refrigeration control systems immediately.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -4288,34 +4348,6 @@
       }
     },
     {
-      "title": "DSA-6609-1 trapperkeeper-authorization-clojure - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00528.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-11-04T00:00:00.000Z",
-      "summary": "It was discovered that incorrect validation of hostname ACLs in the\nauthorisation service of Trapperkeeper, a service framework used by\nPuppet servers, could allow a Puppet client to download the catalogue\nof a different",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "It was discovered that incorrect validation of hostname ACLs in the\nauthorisation service of Trapperkeeper, a service framework used by\nPuppet servers, could allow a Puppet client to download the catalogue\nof a different",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Defense and aerospace firm settles with government over allegedly failing to meet cybersecurity contract requirements",
       "link": "https://cyberscoop.com/ilc-dover-cybersecurity-settlement-false-claims-act/",
       "source": "CyberScoop",
@@ -5154,36 +5186,6 @@
           "INFINITT PACS System Manager 3.0.11.5"
         ],
         "action": "Update INFINITT PACS System Manager to the latest patched version.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Mutipath TCP: Use and Detection, (Mon, Nov 2nd)",
-      "link": "https://isc.sans.edu/diary/rss/33482",
-      "source": "SANS ISC",
-      "publishedAt": "2026-11-02T14:52:05.000Z",
-      "summary": "Last week, an often-ignored&#;x26;#;xc2;&#;x26;#;xa0;TCP option, introduced in 2020, made the news due to a new vulnerability in Linux&#;x26;#;39;s implementation (RFC&#;x26;#;xc2;&#;x26;#;xa0;8684, &#;x26;#;xc2;&#;x26;#",
-      "categories": [
-        "Vulnerability"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Multipath TCP, an often-ignored TCP option introduced in 2020, recently made the news due to a new vulnerability discovered in Linux's implementation. This issue highlights potential security risks associated with the protocol's handling of network connections.",
-        "whyItMatters": "It exposes a previously overlooked vulnerability in Linux's network stack that could be exploited by attackers.",
-        "affected": [
-          "Linux kernel MPTCP implementation"
-        ],
-        "action": "Apply the latest security patches for your Linux distribution.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
