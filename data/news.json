@@ -1,6 +1,335 @@
 {
-  "updatedAt": "2026-11-13T01:50:06.236Z",
+  "updatedAt": "2026-11-13T08:01:19.066Z",
   "items": [
+    {
+      "title": "PHP2Shell Exploited in Destructive Check Point Gateway Attacks",
+      "link": "https://www.securityweek.com/php2shell-exploited-in-destructive-check-point-gateway-attacks/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-11-13T07:39:04.000Z",
+      "summary": "PHP2Shell enabled initial compromise, while CVE-2026-123039 allowed attackers to elevate privileges to root.\nThe post PHP2Shell Exploited in Destructive Check Point Gateway Attacks appeared first on SecurityWeek.",
+      "categories": [
+        "Vulnerability",
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-123039"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Attackers exploited PHP2Shell for initial compromise in destructive attacks against Check Point Gateways. Additionally, the vulnerability CVE-2026-123039 was used to elevate privileges to root.",
+        "whyItMatters": "This active exploitation chain allows attackers to gain full administrative control over compromised Check Point Gateways, leading to potential destructive outcomes.",
+        "affected": [
+          "Check Point Gateways"
+        ],
+        "action": "Patch Check Point Gateways immediately to mitigate CVE-2026-123039 and investigate for signs of PHP2Shell compromise.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-123039"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "C++26 stumbles at finish line over Contracts dispute",
+      "link": "https://www.theregister.com/devops/2026/11/13/c26-stumbles-at-finish-line-over-contracts-dispute/5309526",
+      "source": "The Register",
+      "publishedAt": "2026-11-13T07:31:00.000Z",
+      "summary": "ISO working group faces a fight over runtime checks, complexity, and the language's release timetable",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The ISO working group for C++26 is experiencing internal disagreements regarding runtime checks and language complexity. This dispute threatens to delay the release timetable for the upcoming C++26 standard.",
+        "whyItMatters": "Delays or flaws in core language standards can impact the long-term safety, predictability, and adoption rates of software built on C++.",
+        "affected": [],
+        "action": "Monitor the ISO C++ working group announcements for official timeline updates.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Hackers Exploit New N-central Zero-Day Hours After PoC Publication",
+      "link": "https://www.securityweek.com/hackers-exploit-new-n-central-zero-day-hours-after-poc-publication/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-11-13T07:20:50.000Z",
+      "summary": "Dubbed 4EverAble2Shell, the flaw could allow remote, unauthenticated attackers to execute code with root privileges.\nThe post Hackers Exploit New N-central Zero-Day Hours After PoC Publication appeared first on SecurityW",
+      "categories": [
+        "Zero Day",
+        "Vulnerability",
+        "Research"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A zero-day vulnerability dubbed 4EverAble2Shell in N-central has been actively exploited by hackers just hours after a proof-of-concept was published. The flaw allows remote, unauthenticated attackers to achieve root-level code execution.",
+        "whyItMatters": "This vulnerability poses an extreme risk because unauthenticated attackers can gain full root control over vulnerable systems almost immediately after exploit publication.",
+        "affected": [
+          "N-central"
+        ],
+        "action": "Apply available security patches or mitigation measures immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Stolen webcam clips of 900+ victims feed North Korea’s $400 million fake Zoom scheme",
+      "link": "https://www.helpnetsecurity.com/2026/11/13/fbi-north-korean-fake-zoom-calls/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-11-13T06:30:30.000Z",
+      "summary": "North Korean state hackers have stolen more than $400 million in cryptocurrency over the past 18 months by pulling targets into fake Zoom and Teams calls filled with webcam footage of earlier victims. The FBI calls the s",
+      "categories": [
+        "Government"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "North Korean state-sponsored hackers have stolen over $400 million in cryptocurrency in the past 18 months. They deceived targets into joining fake Zoom and Teams video calls using stolen webcam footage of previous victims.",
+        "whyItMatters": "This sophisticated social engineering campaign enables state-sponsored threat actors to effectively launder money and fund illicit operations by exploiting video conferencing trust.",
+        "affected": [],
+        "action": "Verify the identity of meeting participants and avoid engaging in unverified video calls regarding cryptocurrency transactions.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "How attackers turned a Teams meeting booking into a device code phishing trap",
+      "link": "https://www.helpnetsecurity.com/2026/11/13/microsoft-teams-device-code-phishing/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-11-13T06:15:48.000Z",
+      "summary": "Attackers used a fake Microsoft Teams meeting scheduler to trick an employee at a construction company into approving a device code sign-in. They got a valid session token before Huntress’s security operations center ide",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Attackers deployed a fake Microsoft Teams meeting scheduler to trick a construction company employee into approving a device code sign-in. This malicious technique allowed threat actors to successfully obtain a valid session token before the SOC intervened.",
+        "whyItMatters": "This technique bypasses traditional credential harvesting by abusing legitimate device code authentication workflows to hijack active user sessions.",
+        "affected": [],
+        "action": "Educate employees on the risks of unauthorized device code authentication prompts.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Suspected North Korean IT workers reached onboarding at companies with open data",
+      "link": "https://www.helpnetsecurity.com/2026/11/13/north-korean-it-workers-onboarding/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-11-13T06:00:22.000Z",
+      "summary": "Material Security followed suspected North Korean fake IT workers through the hiring pipelines of organizations it monitors and counted 27 personas that reached onboarding over one year. At one company where a persona go",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Security researchers tracked 27 suspected North Korean fake IT worker personas that successfully reached the onboarding stage at monitored companies over a one-year period. These malicious actors attempt to infiltrate organizations by using falsified identities to gain employment and access internal networks.",
+        "whyItMatters": "Infiltrating companies through fraudulent IT hires allows threat actors to establish initial access for insider threats, corporate espionage, or ransomware deployment.",
+        "affected": [],
+        "action": "Implement rigorous identity verification and background checks during the IT hiring process.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Hackers Exploit N-central Flaws to Infect 21 Servers, Including 19 Running Hotfix 2",
+      "link": "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-11-13T05:43:28.000Z",
+      "summary": "N-able on Thursday said it's taking additional precautions in the wake of public disclosure of a new set of flaws tracked as 4EverAble2Shell and Agent2Shell.\n\n\"We are restricting certain N-central features and integratio",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "N-able is taking additional security precautions following the public disclosure of new flaws tracked as 4EverAble2Shell and Agent2Shell. Hackers have already exploited these vulnerabilities to infect 21 servers, the majority of which were running Hotfix 2.",
+        "whyItMatters": "Active exploitation of these server vulnerabilities poses an immediate risk of widespread system compromise for organizations using the affected software.",
+        "affected": [
+          "N-central"
+        ],
+        "action": "Review N-able's security advisories and restrict vulnerable N-central features immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Your pinned MCP server may not be as pinned as you think",
+      "link": "https://www.helpnetsecurity.com/2026/11/13/corelight-mcp-server-supply-chain/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-11-13T05:30:22.000Z",
+      "summary": "An MCP server configured to run one fixed release on an administrator’s workstation ran with 15 different sets of dependencies over five weeks, with its configuration untouched. James Lagermann, Director of Technical All",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "An MCP server configured with a fixed release on a workstation unexpectedly ran with 15 different sets of dependencies over a five-week period without any configuration changes. This discrepancy reveals that pinned server versions may still dynamically pull or utilize varying underlying dependency trees.",
+        "whyItMatters": "Unpredictable dependency changes undermine the security and reliability of pinned software configurations by introducing unvetted code into the environment.",
+        "affected": [
+          "MCP server"
+        ],
+        "action": "Audit your MCP server configurations and monitor dependency loading behavior to ensure version integrity.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Digital sovereignty leaves enterprises chasing their own audit trails",
+      "link": "https://www.helpnetsecurity.com/2026/11/13/ibm-digital-sovereignty-challenges-report/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-11-13T05:00:54.000Z",
+      "summary": "94% of surveyed enterprises experienced at least one digital sovereignty challenge in the past three years, according to IBM’s Digital Sovereignty Index. Of those affected, 91% were required to demonstrate that they reta",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "According to IBM's Digital Sovereignty Index, 94% of surveyed enterprises faced digital sovereignty challenges over the past three years. Additionally, 91% of those affected struggled to demonstrate that they retained control over their audit trails.",
+        "whyItMatters": "Without verifiable control over audit trails, enterprises risk severe compliance violations and data governance failures under modern digital sovereignty mandates.",
+        "affected": [],
+        "action": "Audit current data governance and digital sovereignty compliance frameworks.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Macfinger ClickFix campaign sends DownTheDRAIN infostealer for macOS, (Fri, Nov 13th)",
+      "link": "https://isc.sans.edu/diary/rss/33518",
+      "source": "SANS ISC",
+      "publishedAt": "2026-11-13T03:41:41.000Z",
+      "summary": "Introduction",
+      "categories": [
+        "Threat Intel"
+      ],
+      "tags": [
+        "macOS"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "A new malware campaign dubbed Macfinger ClickFix is targeting macOS users with the DownTheDRAIN infostealer. The attack relies on deceptive techniques to trick victims into executing malicious payloads.",
+        "whyItMatters": "This campaign represents a growing threat to macOS security by deploying sophisticated information-stealing malware to compromise user data.",
+        "affected": [],
+        "action": "Avoid executing unverified scripts or downloading suspicious files on macOS.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "FBI Says US Seized $1.2 Billion Worth of Cryptocurrency Stolen From Binance",
+      "link": "https://www.securityweek.com/fbi-says-us-seized-1-2-billion-worth-of-cryptocurrency-stolen-from-binance/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-11-13T02:28:21.000Z",
+      "summary": "Also Thursday, the FBI blamed North Korea for a separate social engineering scheme that officials say resulted in the theft of $400 million worth of cryptocurrency.\nThe post FBI Says US Seized $1.2 Billion Worth of Crypt",
+      "categories": [
+        "Government"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The FBI announced that the United States has seized $1.2 billion in cryptocurrency stolen from Binance. Additionally, officials blamed North Korea for a separate social engineering scheme that resulted in a $400 million cryptocurrency theft.",
+        "whyItMatters": "This highlights ongoing law enforcement efforts against massive cryptocurrency thefts and the growing threat of state-sponsored cybercrime.",
+        "affected": [],
+        "action": "Review cryptocurrency security measures and remain vigilant against social engineering.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "ISC Stormcast For Friday, November 13th, 2026 (Fri, Nov 13th)",
+      "link": "https://isc.sans.edu/diary/rss/33516",
+      "source": "SANS ISC",
+      "publishedAt": "2026-11-13T02:00:03.000Z",
+      "summary": "ISC Stormcast For Friday, November 13th, 2026 https://isc.sans.edu/podcastdetail/10178, (Fri, Nov 13th)",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "This is the Internet Storm Center Stormcast podcast episode for Friday, November 13th, 2026. It provides daily updates on current cybersecurity events and threat intelligence.",
+        "whyItMatters": "Staying informed on daily threat intelligence briefings helps security professionals track emerging cyber risks and advisories.",
+        "affected": [],
+        "action": "Listen to the podcast for the latest daily threat intelligence updates.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "US seizes North Korean hacking infrastructure, $1.2 billion in cryptocurrency stolen from Binance",
       "link": "https://cyberscoop.com/us-seizes-north-korea-hacking-infrastructure-binance/",
@@ -203,6 +532,32 @@
         ],
         "action": "Investigate ScreenConnect deployments for signs of SCKit compromise and ensure strict endpoint monitoring.",
         "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Getting Past the Post-Quantum Cryptography Discovery Phase",
+      "link": "https://www.darkreading.com/cybersecurity-operations/getting-past-post-quantum-cryptography-discovery",
+      "source": "Dark Reading",
+      "publishedAt": "2026-11-12T22:46:05.000Z",
+      "summary": "Most organizations haven't sorted out their cryptographic estate enough to even know where they'd start with post-quantum cryptography (PQC).",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Most organizations lack sufficient visibility into their cryptographic estate to begin implementing post-quantum cryptography. This highlights a foundational inventory and discovery challenge in enterprise security regarding future cryptographic standards.",
+        "whyItMatters": "Without knowing their current cryptographic assets, organizations cannot effectively prepare for future threats posed by quantum computing.",
+        "affected": [],
+        "action": "Audit and catalog your organization's cryptographic assets.",
+        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
@@ -621,8 +976,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -650,8 +1005,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -679,8 +1034,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -707,8 +1062,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -993,34 +1348,6 @@
         ],
         "action": "Update security policies and apply available patches for ImageMagick.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Self-hosted Claude Managed Agents keeps agent credentials in your environment",
-      "link": "https://www.helpnetsecurity.com/2026/11/12/anthropic-self-hosted-claude-managed-agents/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-11-12T18:07:00.000Z",
-      "summary": "Anthropic has released a self-hosted version of Claude Managed Agents. Companies can run the agent harness, sandboxes, credentials, and session history in their cloud or on-premise. The option opened as a private beta on",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Anthropic has released a self-hosted version of Claude Managed Agents in private beta. This option allows companies to run the agent harness, sandboxes, credentials, and session history entirely within their own cloud or on-premise environments.",
-        "whyItMatters": "Self-hosting agent infrastructure gives organizations greater control over sensitive credentials and session data, reducing third-party exposure risks.",
-        "affected": [
-          "Claude Managed Agents"
-        ],
-        "action": "Evaluate the self-hosted beta if your organization requires strict control over AI agent credentials and data.",
-        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
@@ -1592,34 +1919,6 @@
       }
     },
     {
-      "title": "Picus puts AI agents on the offensive with autonomous pentesting",
-      "link": "https://www.helpnetsecurity.com/2026/11/12/picus-autonomous-penetration-testing/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-11-12T15:05:02.000Z",
-      "summary": "Picus Security has announced Picus Autonomous Penetration Testing, an agentic pentesting capability that puts AI agents on the offensive: they think like attackers, chain real exploits toward an organization’s crown jewe",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Picus Security has announced Picus Autonomous Penetration Testing, an agentic pentesting capability that puts AI agents on the offensive: they think like attackers, chain real exploits toward an organization’s crown jewe",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Attackers Use Autonomous AI to Target Semiconductor, Defense and Civil Society Sectors",
       "link": "https://unit42.paloaltonetworks.com/cairn-framework-ai-autonomous-attacks/",
       "source": "Unit 42",
@@ -1642,37 +1941,6 @@
         "whyItMatters": "Background context; no immediate action expected.",
         "affected": [
           "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Attackers breached 10 organizations with an open-source AI pentest framework",
-      "link": "https://www.helpnetsecurity.com/2026/11/12/cairn-autonomous-ai-cyberattacks/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-11-12T15:00:29.000Z",
-      "summary": "Chinese-speaking attackers used Cairn, an open-source AI penetration testing framework, to run 25 operations against at least 19 organizations in August and September 2026. Palo Alto Networks’ Unit 42 found that the atta",
-      "categories": [
-        "AI Security",
-        "Open Source"
-      ],
-      "tags": [
-        "Palo Alto"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Chinese-speaking attackers used Cairn, an open-source AI penetration testing framework, to run 25 operations against at least 19 organizations in August and September 2026. Palo Alto Networks’ Unit 42 found that the atta",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Palo Alto"
         ],
         "action": "No action required; informational.",
         "risk": "News",
@@ -1874,10 +2142,38 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
+      }
+    },
+    {
+      "title": "Crafty Microsoft Teams Booking Flow Disguises Device Code Phishing",
+      "link": "https://www.huntress.com/blog/crafty-microsoft-teams-booking-flow-disguises-device-code-phishing",
+      "source": "Huntress",
+      "publishedAt": "2026-11-12T14:00:00.000Z",
+      "summary": "Threat actors used a convincing Microsoft Teams meeting-booking lure to conceal device code phishing and trick victims into authorizing attacker access.",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Threat actors are using a convincing Microsoft Teams meeting-booking lure to trick victims into authorizing attacker access. This technique disguises device code phishing within a seemingly legitimate booking flow.",
+        "whyItMatters": "It exploits trusted communication platforms and authentication mechanisms to bypass traditional security controls and compromise user accounts.",
+        "affected": [
+          "Microsoft Teams"
+        ],
+        "action": "Train users to recognize suspicious device code authentication prompts and Microsoft Teams lures.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
       }
     },
     {
@@ -1902,8 +2198,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1966,34 +2262,6 @@
           "GitHub"
         ],
         "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Operation Endgame malware takedown turns up over 6 million stolen logins",
-      "link": "https://www.helpnetsecurity.com/2026/11/12/europol-operation-endgame-malware-takedown/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-11-12T13:34:14.000Z",
-      "summary": "Police in nine countries, working with Europol, took down servers behind the Gootloader, CastleRAT and StealC malware operations this week and recovered more than 6 million credentials stolen from infected computers. Eur",
-      "categories": [
-        "Malware"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Police in nine countries, working with Europol, took down servers behind the Gootloader, CastleRAT and StealC malware operations this week and recovered more than 6 million credentials stolen from infected computers. Eur",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Monitor for indicators of compromise.",
         "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
@@ -2085,34 +2353,6 @@
         "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
-      }
-    },
-    {
-      "title": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs",
-      "link": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-11-12T12:09:14.000Z",
-      "summary": "Google Cloud VMs on AMD Turin chips need a guest OS patch and a stop-and-start to protect against three CPU side-channel flaws, Google said this week.\n\nThe company has already applied mitigations against attacks between ",
-      "categories": [
-        "Cloud"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Google Cloud has warned that three CPU side-channel flaws in AMD Turin chips could allow data leakage across processes within virtual machines. Mitigations require both a guest operating system patch and a virtual machine stop-and-start cycle.",
-        "whyItMatters": "These hardware vulnerabilities could allow malicious actors to bypass isolation boundaries and access sensitive data across different processes in virtual machines.",
-        "affected": [
-          "Google Cloud VMs using AMD Turin CPUs"
-        ],
-        "action": "Apply the required guest OS patches and restart your Google Cloud VMs.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
       }
     },
     {
@@ -2381,64 +2621,6 @@
       }
     },
     {
-      "title": "Notion Customer Data Compromised in Fireworks AI Hack",
-      "link": "https://www.securityweek.com/notion-customer-data-compromised-in-fireworks-ai-hack/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-11-12T11:08:52.000Z",
-      "summary": "The attackers accessed chat transcripts for fewer than 1% of Notion workspaces. Most transcripts were unattributable.\nThe post Notion Customer Data Compromised in Fireworks AI Hack appeared first on SecurityWeek.",
-      "categories": [
-        "Incident Response",
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Attackers compromised chat transcripts for a small fraction of Notion workspaces following a security incident at Fireworks AI. Most of the affected transcripts were unattributable to specific users.",
-        "whyItMatters": "This incident exposes sensitive user communications via a third-party AI provider, highlighting risks in supply chain and integrated services.",
-        "affected": [
-          "Notion workspaces",
-          "Fireworks AI"
-        ],
-        "action": "Review third-party AI integrations and monitor for unauthorized data access.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Microsoft Entra adds a seven-day safeguard against irreversible identity deletion",
-      "link": "https://www.helpnetsecurity.com/2026/11/12/microsoft-entra-hard-deletion-protection/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-11-12T11:04:24.000Z",
-      "summary": "Microsoft Entra’s Hard Deletion Protection, now in preview, gives administrators a seven-day window to recover selected identities before they can be permanently erased. The feature is designed to help organizations resp",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft Entra has introduced a preview feature called Hard Deletion Protection, which provides a seven-day window to recover deleted identities. This safeguard prevents administrators from accidentally and permanently erasing critical identity data.",
-        "whyItMatters": "It prevents accidental, permanent data loss of critical user identities within enterprise environments.",
-        "affected": [
-          "Microsoft Entra"
-        ],
-        "action": "Evaluate the new Hard Deletion Protection feature in preview.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Inside an AI Attack Against a US Retailer",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/inside-ai-attack-us-retailer",
       "source": "Dark Reading",
@@ -2519,36 +2701,6 @@
       }
     },
     {
-      "title": "Hackers Deploy Malware in Fresh ScreenConnect Campaign",
-      "link": "https://www.securityweek.com/hackers-deploy-malware-in-fresh-screenconnect-campaign/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-11-12T10:39:34.000Z",
-      "summary": "The attackers exploited a vulnerability in a legitimate extension to bypass ScreenConnect authentication.\nThe post Hackers Deploy Malware in Fresh ScreenConnect Campaign appeared first on SecurityWeek.",
-      "categories": [
-        "Malware",
-        "Vulnerability",
-        "Threat Intel"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Attackers are launching a new malware campaign targeting ScreenConnect instances. They exploit a vulnerability in a legitimate extension to successfully bypass authentication mechanisms.",
-        "whyItMatters": "This campaign allows unauthorized actors to gain entry and deploy malware by abusing trusted extensions.",
-        "affected": [
-          "ScreenConnect"
-        ],
-        "action": "Audit ScreenConnect extensions and apply the latest security updates.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Transcending the trust boundaries: how a cloud pentest works",
       "link": "https://securelist.com/how-a-cloud-pentest-works/121921/",
       "source": "Kaspersky Securelist",
@@ -2600,34 +2752,6 @@
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
-      }
-    },
-    {
-      "title": "Hackers Target N-central Zero-Days as N-able Rushes Patches",
-      "link": "https://www.securityweek.com/hackers-target-n-central-zero-days-as-n-able-rushes-patches/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-11-12T09:39:55.000Z",
-      "summary": "The malicious activity started shortly after a researcher dropped over 30 zero-days. N-able patched the unauthenticated ones.\nThe post Hackers Target N-central Zero-Days as N-able Rushes Patches  appeared first on Securi",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The malicious activity started shortly after a researcher dropped over 30 zero-days. N-able patched the unauthenticated ones.\nThe post Hackers Target N-central Zero-Days as N-able Rushes Patches  appeared first on Securi",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
       }
     },
     {
@@ -2733,34 +2857,6 @@
       "readTimeMin": 1,
       "aiSummary": {
         "summary": "CrowdStrike Named a Leader in the 2026 IDC MarketScape for Worldwide Augmented Identity Security Solutions",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Disgraced former CA eMudhra blames buggy script for hopelessly weak certificates",
-      "link": "https://www.theregister.com/security/2026/11/12/disgraced-former-ca-emudhra-blames-buggy-script-for-hopelessly-weak-certificates/5309244",
-      "source": "The Register",
-      "publishedAt": "2026-11-12T04:22:18.000Z",
-      "summary": "Couldn’t get the hardware it needed to generate certs, so tried to code a workaround",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Couldn’t get the hardware it needed to generate certs, so tried to code a workaround",
         "whyItMatters": "Background context; no immediate action expected.",
         "affected": [
           "Not specified"
@@ -3043,8 +3139,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -3071,32 +3167,6 @@
         "affected": [],
         "action": "Monitor cloud infrastructure logs for anomalous messages and unusual behavioral patterns.",
         "risk": "Medium",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "AI Raises the Stakes for Cyber Resilience",
-      "link": "https://www.darkreading.com/cyber-risk/ai-raises-stakes-cyber-resilience",
-      "source": "Dark Reading",
-      "publishedAt": "2026-11-11T21:20:41.000Z",
-      "summary": "An organization's ability to quickly recover from a business disruption will be a competitive advantage in an era of AI-driven threats and business enablement.",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "AI-driven threats are increasingly shaping the modern cyber landscape, making rapid recovery from business disruptions a vital enterprise capability. Organizations must adapt their resilience strategies to maintain a competitive edge in this evolving environment.",
-        "whyItMatters": "As artificial intelligence accelerates the speed and sophistication of cyberattacks, traditional disaster recovery approaches are no longer sufficient to protect business continuity.",
-        "affected": [],
-        "action": "Integrate AI-aware resilience planning into your organizational continuity strategy.",
-        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
@@ -4433,8 +4503,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -4733,8 +4803,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -5062,36 +5132,6 @@
       }
     },
     {
-      "title": "Attackers Searching for SAP Netweaver Webshells, (Mon, Nov 9th)",
-      "link": "https://isc.sans.edu/diary/rss/33502",
-      "source": "SANS ISC",
-      "publishedAt": "2026-11-09T18:18:15.000Z",
-      "summary": "Just saw a new (to me) URL in our honeypot data today:",
-      "categories": [
-        "News"
-      ],
-      "tags": [
-        "SAP"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Security honeypot data has revealed attackers searching for SAP Netweaver webshells. This activity indicates active reconnaissance or exploitation attempts targeting SAP systems.",
-        "whyItMatters": "Attackers are actively probing for vulnerable SAP installations to deploy webshells for unauthorized access.",
-        "affected": [
-          "SAP Netweaver"
-        ],
-        "action": "Monitor SAP Netweaver logs for suspicious URL requests and unauthorized webshell activity.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Cisco Meraki Security Hardening Release: October 2026",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-meraki-os-drbEX9GH?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Meraki%20Security%20Hardening%20Release:%20October%202026%26vs_k=1",
       "source": "Cisco PSIRT",
@@ -5172,8 +5212,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -5325,32 +5365,6 @@
           "CVE-2026-116779"
         ],
         "source": "heuristic"
-      }
-    },
-    {
-      "title": "ISC Stormcast For Monday, November 9th, 2026 (Mon, Nov 9th)",
-      "link": "https://isc.sans.edu/diary/rss/33500",
-      "source": "SANS ISC",
-      "publishedAt": "2026-11-09T02:05:10.000Z",
-      "summary": "ISC Stormcast For Monday, November 9th, 2026 https://isc.sans.edu/podcastdetail/10170, (Mon, Nov 9th)",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "This daily ISC Stormcast podcast episode provides a summary of current cybersecurity news and threat intelligence. It covers notable updates and incidents reported to the Internet Storm Center on Monday, November 9th, 2026.",
-        "whyItMatters": "Staying informed on daily threat intelligence briefings helps security professionals track emerging trends and advisories.",
-        "affected": [],
-        "action": "Listen to the podcast for the latest threat briefing details.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
       }
     },
     {
@@ -5750,8 +5764,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -5780,37 +5794,6 @@
         ],
         "action": "No action required; informational.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "ChatGPT Lockdown Mode Bypass: Phishing, Malware Delivery, and Silent Data Exfiltration",
-      "link": "https://research.checkpoint.com/2026/chatgpt-lockdown-mode-bypass-phishing-malware-delivery-and-silent-data-exfiltration/",
-      "source": "Check Point Research",
-      "publishedAt": "2026-11-05T14:00:11.000Z",
-      "summary": "Research by: Alexey Bukhteyev Key Takeaways Introduction Earlier this year, Check Point Research disclosed a security flaw in ChatGPT’s code-execution runtime that allowed sensitive conversation data to be silently exfil",
-      "categories": [
-        "Malware",
-        "Vulnerability",
-        "AI Security",
-        "Research"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Research by: Alexey Bukhteyev Key Takeaways Introduction Earlier this year, Check Point Research disclosed a security flaw in ChatGPT’s code-execution runtime that allowed sensitive conversation data to be silently exfil",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "risk": "News",
-        "action": "Monitor for indicators of compromise.",
         "relatedCves": [],
         "source": "heuristic"
       }
