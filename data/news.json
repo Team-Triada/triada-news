@@ -1,6 +1,34 @@
 {
-  "updatedAt": "2026-11-14T19:08:20.581Z",
+  "updatedAt": "2026-11-14T22:59:27.248Z",
   "items": [
+    {
+      "title": "DSA-6629-1 network-manager-iodine - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00549.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-11-15T00:00:00.000Z",
+      "summary": "Andreas Gabriel Berbescu discovered that network-manager-iodine, the\niodine VPN plugin for NetworkManager, did not properly validate the\nnameserver setting when establishing a connection, allowing a local\nunprivileged us",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A security vulnerability was discovered in network-manager-iodine, the iodine VPN plugin for NetworkManager, concerning improper validation of the nameserver setting during connection establishment. This flaw could potentially be exploited by a local unprivileged user.",
+        "whyItMatters": "It allows local unprivileged users to compromise system integrity or security through improper input validation during VPN connections.",
+        "affected": [
+          "network-manager-iodine"
+        ],
+        "action": "Update the network-manager-iodine package to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Cursor confirms security breach led to malicious Claude Code extension",
       "link": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
@@ -106,36 +134,6 @@
         "affected": [],
         "action": "Maintain foundational security skills alongside AI tool usage.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
-      "link": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-11-14T12:38:35.000Z",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to its Known Exploited Vulnerabilities",
-      "categories": [
-        "Vulnerability",
-        "Government",
-        "Open Source"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CISA has added a high-severity security flaw impacting UnrealIRCd to its Known Exploited Vulnerabilities catalog. The vulnerability allows attackers to achieve server-level command injection.",
-        "whyItMatters": "This flaw is actively being exploited in the wild, posing an immediate risk of remote code execution on affected servers.",
-        "affected": [
-          "UnrealIRCd"
-        ],
-        "action": "Apply the latest security updates provided by UnrealIRCd immediately.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -636,35 +634,6 @@
       }
     },
     {
-      "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
-      "link": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-11-13T16:53:08.000Z",
-      "summary": "A type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full protection from this flaw also requires ",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "PostgreSQL has released security updates addressing 52 vulnerabilities, including a 22-year-old type confusion flaw that enables authenticated remote code execution. Full mitigation requires applying the latest patches provided by the maintainers.",
-        "whyItMatters": "This vulnerability allows authenticated database users to achieve remote code execution on the underlying server, posing a severe threat to database integrity and confidentiality.",
-        "affected": [
-          "PostgreSQL"
-        ],
-        "action": "Update PostgreSQL to the latest patched version immediately.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "New York City votes to ban surveillance pricing",
       "link": "https://www.malwarebytes.com/blog/news/2026/11/new-york-city-council-votes-to-ban-surveillance-pricing",
       "source": "Malwarebytes Labs",
@@ -1082,34 +1051,6 @@
       }
     },
     {
-      "title": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs",
-      "link": "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-11-13T15:27:05.000Z",
-      "summary": "Two attacks made public this week allow a malicious host to read data inside AMD SEV-SNP-protected virtual machines (VMs), which are built to keep the server's operator out.\n\nOne of them, Mior, can also modify a VM's mem",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Researchers have disclosed two new attacks named Mior and Skyfall that enable malicious cloud hosts to access and read sensitive data within AMD SEV-SNP-protected virtual machines. Additionally, the Mior attack possesses the capability to modify the memory of targeted virtual machines.",
-        "whyItMatters": "This undermines the core security guarantees of AMD SEV-SNP, which is specifically designed to isolate VMs from untrusted cloud server operators.",
-        "affected": [
-          "AMD SEV-SNP virtual machines"
-        ],
-        "action": "Monitor AMD and cloud provider advisories for patches and mitigation guidance.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach",
       "link": "https://www.securityweek.com/in-other-news-new-cisa-director-nominee-connected-car-hacking-baker-tilly-data-breach/",
       "source": "SecurityWeek",
@@ -1192,32 +1133,6 @@
       }
     },
     {
-      "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
-      "link": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-11-13T14:28:58.000Z",
-      "summary": "The U.S. Federal Bureau of Investigation (FBI) has established that threat actors tied to the Democratic People's Republic of Korea (DPRK aka North Korea) have stolen more than $400 million worth of cryptocurrency as par",
-      "categories": [
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The FBI reports that North Korean state-sponsored hackers have stolen over $400 million in cryptocurrency using deepfake video calls during social engineering attacks. This sophisticated campaign highlights the growing threat of AI-generated impersonation in high-stakes financial fraud.",
-        "whyItMatters": "It demonstrates how advanced deepfake technology is being weaponized for high-value financial crimes against the cryptocurrency industry.",
-        "affected": [],
-        "action": "Verify the identities of individuals on video calls through secondary channels before discussing sensitive financial matters.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "GeoVision Camera Software Abused to Deploy XMRig Cryptominer",
       "link": "https://www.huntress.com/blog/geovision-camera-software-xmrig-cryptominer",
       "source": "Huntress",
@@ -1243,34 +1158,6 @@
         "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
-      }
-    },
-    {
-      "title": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases",
-      "link": "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-11-13T13:54:20.000Z",
-      "summary": "Three Trezor Safe 5 wallets bought from the reseller CryptoBilis contain an implant, an extra circuit board that can copy their recovery phrases, hardware wallet maker Trezor said yesterday.\n\nThe implant reads the phrase",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Trezor has confirmed that three Trezor Safe 5 hardware wallets purchased from the reseller CryptoBilis contained hidden physical implants. These extra circuit boards were designed to steal and copy users' recovery phrases.",
-        "whyItMatters": "Hardware wallet compromises completely undermine the physical security assumptions of cryptocurrency storage, allowing attackers to directly steal seed phrases.",
-        "affected": [
-          "Trezor Safe 5"
-        ],
-        "action": "Avoid purchasing hardware wallets from unauthorized resellers and inspect devices for tampering.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
       }
     },
     {
@@ -1525,68 +1412,6 @@
       }
     },
     {
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-11-13T12:00:00.000Z",
-      "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-114713 UnrealIRCd Improper Neutralization of Delimiters Vulnerability\nCVE-20",
-      "categories": [
-        "Vulnerability",
-        "Government",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-114713"
-      ],
-      "kev": true,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-114713 UnrealIRCd Improper Neutralization of Delimiters Vulnerability\nCVE-20",
-        "whyItMatters": "Actively exploited or high-impact; treat as urgent.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Patch immediately.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-114713"
-        ],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "When an AI Agent Goes Wrong, Can You Stop It?",
-      "link": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-11-13T11:52:31.000Z",
-      "summary": "Suppose an AI agent is asked to sort support tickets and look up account details. A ticket contains instructions that lead the agent to export records to an unfamiliar destination. The agent can make the request because ",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Suppose an AI agent is asked to sort support tickets and look up account details. A ticket contains instructions that lead the agent to export records to an unfamiliar destination. The agent can make the request because",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Apple details Secure Exclaves, isolated runtimes for camera and microphone data",
       "link": "https://www.helpnetsecurity.com/2026/11/13/apple-secure-exclaves-security-architecture/",
       "source": "Help Net Security",
@@ -1675,34 +1500,6 @@
       }
     },
     {
-      "title": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
-      "link": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-11-13T11:10:40.000Z",
-      "summary": "A newly identified spying group used hacked equipment inside Asian mobile operators to intercept the calls and texts of selected people, mostly in Taiwan.\n\nEnea, a telecom and cybersecurity software company based in Stoc",
-      "categories": [
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A newly identified spying group used hacked equipment inside Asian mobile operators to intercept the calls and texts of selected people, mostly in Taiwan.\n\nEnea, a telecom and cybersecurity software company based in Stoc",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "354 dark web vendors and buyers arrested in Operation TorNado",
       "link": "https://www.helpnetsecurity.com/2026/11/13/europol-dark-web-arrests-cybercrime/",
       "source": "Help Net Security",
@@ -1754,35 +1551,6 @@
         ],
         "action": "No action required; informational.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
-      "link": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-11-13T10:55:03.000Z",
-      "summary": "An international police operation took down servers behind Gootloader, CastleRAT and StealC this week. Criminals used the three malware tools to gain access to computers, steal passwords, and launch ransomware attacks.\n\n",
-      "categories": [
-        "Ransomware",
-        "Malware"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "high",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "An international police operation took down servers behind Gootloader, CastleRAT and StealC this week. Criminals used the three malware tools to gain access to computers, steal passwords, and launch ransomware attacks.",
-        "whyItMatters": "Significant risk to affected systems; prioritize review.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Monitor for indicators of compromise.",
-        "risk": "High",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -3467,159 +3235,6 @@
       }
     },
     {
-      "title": "Siemens Desigo, Gridscale",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-11-12T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nOn October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-20",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "View CSAF\nSummary\nOn October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-20",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Siemens RUGGEDCOM APE1808",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-05",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-11-12T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nPalo Alto Networks has published information on vulnerabilities in PAN-OS related to PHP2Shell vulnerabilities. This advisory lists the related Siemens Industrial products affected by these vulnerabilit",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Palo Alto"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "View CSAF\nSummary\nPalo Alto Networks has published information on vulnerabilities in PAN-OS related to PHP2Shell vulnerabilities. This advisory lists the related Siemens Industrial products affected by these vulnerabilit",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Palo Alto"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Siemens RUGGEDCOM APE1808",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-04",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-11-12T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nPalo Alto Networks has published information on a vulnerability in PAN-OS related to the Node2Shell vulnerability. This advisory lists the related Siemens Industrial products affected by this vulnerabil",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Palo Alto"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "View CSAF\nSummary\nPalo Alto Networks has published information on a vulnerability in PAN-OS related to the Node2Shell vulnerability. This advisory lists the related Siemens Industrial products affected by this vulnerabil",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Palo Alto"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Siemens Building Automation and Energy Products",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-11-12T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nOn October 21, 2026, the PHP project and security researchers disclosed two critical, unauthenticated remote code execution vulnerabilities in the core PHP language runtime known as \"php2shell\" (tracked",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "View CSAF\nSummary\nOn October 21, 2026, the PHP project and security researchers disclosed two critical, unauthenticated remote code execution vulnerabilities in the core PHP language runtime known as \"php2shell\" (tracked",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Siemens Industrial Edge Management",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-03",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-11-12T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nSiemens is currently assessing the impact of Node2Shell (CVE-2026-111497) on Industrial Edge. Please check your Industrial Edge Management (IEM) setup: - No Management Applications installed: No action ",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-111497"
-      ],
-      "kev": true,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "View CSAF\nSummary\nSiemens is currently assessing the impact of Node2Shell (CVE-2026-111497) on Industrial Edge. Please check your Industrial Edge Management (IEM) setup: - No Management Applications installed: No action",
-        "whyItMatters": "Actively exploited or high-impact; treat as urgent.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Patch immediately.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-111497"
-        ],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Exploit Attempts for GPUStack Authentication Bypass (CVE-2026-102895), (Thu, Nov 12th)",
       "link": "https://isc.sans.edu/diary/rss/33514",
       "source": "SANS ISC",
@@ -3974,34 +3589,6 @@
         "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
         "affected": [
           "Firefox"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "DSA-6621-1 thunderbird - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00541.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-11-12T00:00:00.000Z",
-      "summary": "Multiple security issues were discovered in Thunderbird, which could\nresult in the execution of arbitrary code or information disclosure.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6621-1",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Multiple security issues were discovered in Thunderbird, which could\nresult in the execution of arbitrary code or information disclosure.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6621-1",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
         ],
         "action": "Review advisory for affected versions and patch on your normal cycle.",
         "risk": "Medium",
@@ -4997,42 +4584,6 @@
       }
     },
     {
-      "title": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-11-10T12:00:00.000Z",
-      "summary": "CISA has added six new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-20320 Cisco BroadWorks Improper Restriction of XML External Entity Reference",
-      "categories": [
-        "Vulnerability",
-        "Government",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Cisco"
-      ],
-      "cves": [
-        "CVE-2026-20320"
-      ],
-      "kev": true,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CISA has added six new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-20320 Cisco BroadWorks Improper Restriction of XML External Entity Reference",
-        "whyItMatters": "Actively exploited or high-impact; treat as urgent.",
-        "affected": [
-          "Cisco"
-        ],
-        "action": "Patch immediately.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-20320"
-        ],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Exchange for breakfast: Turla’s Cereal tricks are not for kids",
       "link": "https://www.welivesecurity.com/en/eset-research/exchange-for-breakfast-turlas-cereal-tricks-are-not-for-kids/",
       "source": "WeLiveSecurity",
@@ -5647,42 +5198,6 @@
       }
     },
     {
-      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/11/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-11-09T12:00:00.000Z",
-      "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. \nCVE-2026-102895 GPUStack Improper Authentication Vulnerability \nCVE-2026-116779 Sig",
-      "categories": [
-        "Vulnerability",
-        "Government",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-102895",
-        "CVE-2026-116779"
-      ],
-      "kev": true,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. \nCVE-2026-102895 GPUStack Improper Authentication Vulnerability \nCVE-2026-116779 Sig",
-        "whyItMatters": "Actively exploited or high-impact; treat as urgent.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Patch immediately.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-102895",
-          "CVE-2026-116779"
-        ],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Friday Squid Blogging: New Jurassic Squid Predecessors",
       "link": "https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-new-jurassic-squid-predecessors.html",
       "source": "Schneier on Security",
@@ -5729,6 +5244,465 @@
         "whyItMatters": "Critical infrastructure attacks on industrial refrigeration systems pose significant risks to public safety, food supply chains, and operational continuity.",
         "affected": [],
         "action": "Review the Unit 42 report and implement recommended mitigations for industrial control systems.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Vulnerabilities in PHP Affecting Cisco Products: October 2026",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-php-october26-Jj384Daq?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20PHP%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
+      "source": "Cisco PSIRT",
+      "publishedAt": "2026-11-06T14:21:13.000Z",
+      "summary": "On October 21, the PHP Foundation announced the availability of a Critical PHP Security release addressing two critical vulnerabilities: \n\r\n\r\nCVE-2026-109618 - RCE via OOM corruption\n\r\nCVE-2026-109619 - RCE via stale glo",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Cisco"
+      ],
+      "cves": [
+        "CVE-2026-109618",
+        "CVE-2026-109619"
+      ],
+      "kev": true,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The PHP Foundation has released a critical security update addressing two remote code execution vulnerabilities, identified as CVE-2026-109618 and CVE-2026-109619. These vulnerabilities stem from out-of-memory corruption and stale glob handling within PHP.",
+        "whyItMatters": "These critical remote code execution flaws could allow attackers to compromise systems running affected versions of PHP.",
+        "affected": [],
+        "action": "Update PHP to the latest security release immediately.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-109618",
+          "CVE-2026-109619"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Metasploit Wrapup: Unauth RCE modules in Network Perimeter Devices and much more",
+      "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrapup-unauth-rce-modules-in-network-perimeter-devices-and-much-more",
+      "source": "Rapid7",
+      "publishedAt": "2026-11-06T13:52:11.000Z",
+      "summary": "Metasploit Wrapup: Unauth RCE modules in Network Perimeter Devices and much more",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": true,
+      "severity": "high",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The Metasploit project has released new modules targeting unauthorized remote code execution vulnerabilities in various network perimeter devices. These additions enhance penetration testing capabilities against commonly deployed edge infrastructure.",
+        "whyItMatters": "Attackers actively exploit perimeter device vulnerabilities to gain initial access to corporate networks, making these new modules critical for security teams to test their defenses.",
+        "affected": [],
+        "action": "Audit network perimeter devices and ensure all firmware is up to date.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Virtualization security: attack layers and misconfiguration impact",
+      "link": "https://securelist.com/virtualization-security-esxi-and-proxmox-ransomware-cases/121819/",
+      "source": "Kaspersky Securelist",
+      "publishedAt": "2026-11-06T10:00:12.000Z",
+      "summary": "A detailed breakdown of misconfigurations in virtual environment cybersecurity as shown by examples of ransomware cases on ESXi and Proxmox environments.",
+      "categories": [
+        "Ransomware"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "high",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Recent analyses highlight how misconfigurations in virtual environments can lead to successful ransomware attacks on platforms like ESXi and Proxmox. These security gaps expose virtualization layers to significant compromise, demonstrating the real-world impact of improper setup.",
+        "whyItMatters": "Virtualization misconfigurations can allow attackers to bypass standard security controls and compromise entire host environments and their virtual machines.",
+        "affected": [
+          "VMware ESXi",
+          "Proxmox"
+        ],
+        "action": "Audit virtualization platform configurations and apply hardening best practices immediately.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Partnering with OpenAI",
+      "link": "https://www.hacktron.ai/blog/openai-partnership",
+      "source": "Hacktron AI",
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "summary": "Hacktron and OpenAI are working together to test OpenAI’s systems, with expanded access to frontier models through Daybreak Red.",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Hacktron and OpenAI have formed a partnership to test advanced AI systems. The collaboration involves providing expanded access to frontier models through Daybreak Red.",
+        "whyItMatters": "This partnership facilitates rigorous security and performance testing of cutting-edge artificial intelligence models.",
+        "affected": [],
+        "action": "Monitor updates regarding the partnership and testing outcomes.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Barracuda Networks is your new best friend (Barracuda Email Security Gateway Pre-Auth Remote Root RCE CVE-2026-116606 / CVE-2026-111560)",
+      "link": "https://labs.watchtowr.com/barracuda-networks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/",
+      "source": "watchTowr Labs",
+      "publishedAt": "2026-11-05T21:19:58.000Z",
+      "summary": "Yes, that's right! Today we're at the aquarium.\nWelcome back to yet another watchTowr Labs blog post. You can begin preparing your comments now.\n\n            \n\n                \n                \n            \nWhat Is A Bar",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-116606",
+        "CVE-2026-111560"
+      ],
+      "kev": true,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "WatchTowr Labs published a blog post discussing vulnerabilities in Barracuda Networks products, specifically targeting the Barracuda Email Security Gateway. The post hints at pre-authentication remote root remote code execution flaws identified by CVE-2026-116606 and CVE-2026-111560.",
+        "whyItMatters": "Pre-authentication remote code execution with root privileges allows attackers to completely compromise vulnerable email security appliances without prior access.",
+        "affected": [
+          "Barracuda Email Security Gateway"
+        ],
+        "action": "Monitor Barracuda Networks for official security advisories and apply available patches immediately.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-116606",
+          "CVE-2026-111560"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Bring a tent, I've got the coffee: Lessons from it-sa",
+      "link": "https://blog.talosintelligence.com/bring-a-tent-ive-got-the-coffee-lessons-from-it-sa/",
+      "source": "Talos Intelligence",
+      "publishedAt": "2026-11-05T19:00:00.000Z",
+      "summary": "Thorsten may have had to camp out in Nuremberg to attend it-sa, but the real story is the initiative to add a formal IT Security apprenticeship program in Germany for the thousands of young hackers ready to join our side",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "An industry event in Nuremberg highlighted the introduction of a new formal IT Security apprenticeship program in Germany. This initiative aims to integrate thousands of young hackers into the professional cybersecurity workforce.",
+        "whyItMatters": "It establishes a structured pipeline for training and recruiting new talent to address the cybersecurity skills gap.",
+        "affected": [],
+        "action": "Monitor developments regarding the German IT security apprenticeship program.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Hacking on Autopilot: Inside ARTEX Cybercrime Campaigns",
+      "link": "https://research.checkpoint.com/2026/hacking-on-autopilot-inside-artex-cybercrime-campaigns/",
+      "source": "Check Point Research",
+      "publishedAt": "2026-11-05T17:22:06.000Z",
+      "summary": "Key Points Introduction ARTEX is a Chinese open-source, AI-powered penetration testing platform designed to help security teams assess systems they own or are authorized to test. It uses large language models (LLMs) to c",
+      "categories": [
+        "AI Security",
+        "Open Source"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "ARTEX is a Chinese open-source, AI-powered penetration testing platform that leverages large language models to assist security teams with authorized system assessments. This tool highlights the increasing convergence of advanced artificial intelligence and automated exploitation techniques in cybersecurity.",
+        "whyItMatters": "It matters because open-source AI penetration testing platforms lower the barrier to entry for conducting automated cyberattacks.",
+        "affected": [],
+        "action": "Monitor networks for unauthorized AI-driven penetration testing activities.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "ChatGPT Lockdown Mode Bypass: Phishing, Malware Delivery, and Silent Data Exfiltration",
+      "link": "https://research.checkpoint.com/2026/chatgpt-lockdown-mode-bypass-phishing-malware-delivery-and-silent-data-exfiltration/",
+      "source": "Check Point Research",
+      "publishedAt": "2026-11-05T14:00:11.000Z",
+      "summary": "Research by: Alexey Bukhteyev Key Takeaways Introduction Earlier this year, Check Point Research disclosed a security flaw in ChatGPT’s code-execution runtime that allowed sensitive conversation data to be silently exfil",
+      "categories": [
+        "Malware",
+        "Vulnerability",
+        "AI Security",
+        "Research"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Researchers discovered a security flaw in ChatGPT's code-execution runtime that bypassed lockdown mode. This vulnerability enabled phishing, malware delivery, and silent data exfiltration of sensitive conversations.",
+        "whyItMatters": "It exploits core execution trust boundaries, potentially exposing users to severe data theft and malicious payload delivery.",
+        "affected": [
+          "ChatGPT"
+        ],
+        "action": "Update ChatGPT to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "What Is an Agent Harness? How AI Security Tools Work",
+      "link": "https://bishopfox.com/blog/what-is-an-agent-harness-how-ai-security-tools-work",
+      "source": "Bishop Fox",
+      "publishedAt": "2026-11-05T14:00:00.000Z",
+      "summary": "Two AI security tools can use the same model and produce very different results. The difference is the harness. This post explains what an agent harness is, how its execution loop works, and why design choices around con",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "This article explains the concept of an agent harness and how its execution loop influences the performance of AI security tools. It details why design choices in the harness can lead to vastly different outcomes even when using the same underlying model.",
+        "whyItMatters": "Understanding agent harnesses is crucial for evaluating and improving the effectiveness and security of AI-driven tools.",
+        "affected": [],
+        "action": "Read the article to understand agent harness design principles.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Gartner Report: The Attack Path is Closing Faster than Most Teams Can Patch",
+      "link": "https://www.rapid7.com/blog/post/ai-gartner-report-attack-paths-closing-faster-than-patchable",
+      "source": "Rapid7",
+      "publishedAt": "2026-11-05T14:00:00.000Z",
+      "summary": "Security teams have never lacked vulnerability data. The harder problem is deciding which issues create a credible path to business impact, then acting before that path can be used. As frontier AI makes it faster and les",
+      "categories": [
+        "Vulnerability",
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A recent Gartner report highlights that the timeline for attack paths to be exploited is shrinking faster than security teams can apply patches. The rise of frontier AI is further accelerating the speed and sophistication of these attacks.",
+        "whyItMatters": "Organizations are struggling to prioritize and remediate vulnerabilities before threat actors can leverage them to cause business disruption.",
+        "affected": [],
+        "action": "Prioritize vulnerability remediation based on actual business attack paths rather than raw volume.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "The SOC Files 5: Ghost in the pipeline, or a fileless SharePoint breach by Storm-2603",
+      "link": "https://securelist.com/storm-2603-fileless-toolshell-attack/121467/",
+      "source": "Kaspersky Securelist",
+      "publishedAt": "2026-11-05T10:00:11.000Z",
+      "summary": "Kaspersky researchers analyze a complex fileless cyberattack by Storm-2603 involving ToolShell exploitation and subsequent runtime subversion, and discuss how to detect such intrusions.",
+      "categories": [
+        "Vulnerability",
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Kaspersky researchers have analyzed a complex fileless cyberattack orchestrated by Storm-2603 involving ToolShell exploitation and runtime subversion. The incident highlights advanced threat actor tactics targeting enterprise collaboration platforms without leaving traditional file-based artifacts.",
+        "whyItMatters": "Fileless attacks like this bypass traditional file-based security controls, making detection extremely difficult for standard monitoring tools.",
+        "affected": [],
+        "action": "Review Kaspersky's research for indicators of compromise and enhance memory-based monitoring.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "How Adversaries Are Turning the Vulnerability Ecosystem Against Defenders",
+      "link": "https://www.crowdstrike.com/en-us/blog/adversaries-turn-vulnerability-ecosystem-against-defenders/",
+      "source": "CrowdStrike",
+      "publishedAt": "2026-11-05T06:00:00.000Z",
+      "summary": "How Adversaries Are Turning the Vulnerability Ecosystem Against Defenders",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "This article discusses the ways in which adversaries are exploiting the vulnerability ecosystem to target defenders. It highlights changing tactics used by threat actors within modern cybersecurity landscapes.",
+        "whyItMatters": "Understanding how attackers weaponize vulnerability intelligence helps security teams improve their defensive posture and response strategies.",
+        "affected": [],
+        "action": "Review threat intelligence reports to adapt defensive strategies.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Want to Rent an Internet Address at the White House?",
+      "link": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
+      "source": "Krebs on Security",
+      "publishedAt": "2026-11-05T04:36:17.000Z",
+      "summary": "Several staffers at the White House are using computers or mobile devices equipped with residential proxy services that render their internet address available for others to rent, security experts warned today. One of th",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Security experts discovered that several White House staffers are using devices equipped with residential proxy services. These services inadvertently make their government internet addresses available for outside individuals to rent.",
+        "whyItMatters": "This practice creates a severe security risk by potentially allowing unauthorized third parties to route traffic through White House networks.",
+        "affected": [],
+        "action": "Disable residential proxy services on all government-issued devices immediately.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Smashing Security podcast #491: How AI agents are spooking the banks",
+      "link": "https://grahamcluley.com/smashing-security-podcast-491/",
+      "source": "Graham Cluley",
+      "publishedAt": "2026-11-05T00:15:11.000Z",
+      "summary": "Bank of America has a message for its customers: please, for the love of God, stop handing your banking passwords to your AI assistant. And if your robot does something daft with your money? That's your problem, not thei",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Bank of America is urging customers to stop sharing their banking passwords with AI assistants. The bank also stated that users are financially liable if their AI tools make poor decisions with their money.",
+        "whyItMatters": "As consumers increasingly rely on AI tools for financial management, sharing sensitive credentials poses severe unauthorized access and fraud risks.",
+        "affected": [],
+        "action": "Never share your banking passwords or sensitive financial credentials with AI assistants.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-122266 - Improper isolation of shared resources in aws-network-policy-agent in Amazon EKS",
+      "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-170-aws/",
+      "source": "AWS Security Bulletins",
+      "publishedAt": "2026-11-04T21:53:42.000Z",
+      "summary": "Read this article",
+      "categories": [
+        "Vulnerability",
+        "Cloud"
+      ],
+      "tags": [
+        "AWS"
+      ],
+      "cves": [
+        "CVE-2026-122266"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "A security vulnerability, designated as CVE-2026-122266, involves improper isolation of shared resources within the aws-network-policy-agent in Amazon EKS. The issue presents a potential risk to container networking security in affected Kubernetes environments.",
+        "whyItMatters": "It matters because improper resource isolation in network policy agents can lead to unauthorized access or security boundaries being bypassed between workloads in Amazon EKS.",
+        "affected": [
+          "aws-network-policy-agent"
+        ],
+        "action": "Update the aws-network-policy-agent to the latest patched version provided by Amazon EKS.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-122266"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Cisco Identity Services Engine Authorization Bypass Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-cert-mE9BD5GO?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Authorization%20Bypass%20Vulnerability%26vs_k=1",
+      "source": "Cisco PSIRT",
+      "publishedAt": "2026-11-04T19:56:22.000Z",
+      "summary": "A vulnerability in the authorization mechanism of Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) could allow an unauthenticated, remote attacker to obtain an endpoint identity cer",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Cisco"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "An authorization bypass vulnerability exists in Cisco Identity Services Engine and Cisco ISE Passive Identity Connector. This flaw allows unauthenticated, remote attackers to obtain sensitive endpoint identity certificates.",
+        "whyItMatters": "It enables unauthorized remote actors to acquire sensitive cryptographic material without authentication.",
+        "affected": [
+          "Cisco Identity Services Engine",
+          "Cisco ISE Passive Identity Connector"
+        ],
+        "action": "Apply the vendor security updates immediately.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
