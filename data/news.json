@@ -1,6 +1,63 @@
 {
-  "updatedAt": "2026-11-15T02:39:19.766Z",
+  "updatedAt": "2026-11-15T10:45:52.605Z",
   "items": [
+    {
+      "title": "Week in review: Secret stealer hits GitHub repos, Claude Code turned into remote-controlled implant",
+      "link": "https://www.helpnetsecurity.com/2026/11/15/week-in-review-secret-stealer-hits-github-repos-claude-code-turned-into-remote-controlled-implant/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-11-15T09:00:37.000Z",
+      "summary": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: What a security leader should tell the CEO about leaked credentials In this Help Net Security interview, Eric Fourrier, CE",
+      "categories": [
+        "Open Source"
+      ],
+      "tags": [
+        "GitHub"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Recent cybersecurity news covers a variety of topics including a secret stealer targeting GitHub repositories and the misuse of Claude Code as a remote-controlled implant. Security experts also discussed effective ways for security leaders to communicate about leaked credentials with CEOs.",
+        "whyItMatters": "Understanding these emerging attack techniques and credential risks helps organizations better protect their codebases and developer environments.",
+        "affected": [],
+        "action": "Review development environments and repository security controls.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
+      "link": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-11-15T08:22:04.000Z",
+      "summary": "The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks AI.\n\n\"An attacker o",
+      "categories": [
+        "Incident Response",
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Anthropic's official Claude Code extension on Cursor's marketplace was compromised due to a stolen access key. The key exposure stemmed from a previous security breach involving Fireworks AI.",
+        "whyItMatters": "Exposed API keys and compromised developer marketplaces can lead to the distribution of malicious trojanized extensions to unsuspecting users.",
+        "affected": [
+          "Claude Code extension on Cursor's extension marketplace"
+        ],
+        "action": "Audit third-party extension marketplaces and secure API access keys.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "DSA-6629-1 network-manager-iodine - security update",
       "link": "https://lists.debian.org/debian-security-announce/2026/msg00549.html",
@@ -1812,33 +1869,6 @@
       }
     },
     {
-      "title": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
-      "link": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-11-13T10:55:03.000Z",
-      "summary": "An international police operation took down servers behind Gootloader, CastleRAT and StealC this week. Criminals used the three malware tools to gain access to computers, steal passwords, and launch ransomware attacks.\n\n",
-      "categories": [
-        "Ransomware",
-        "Malware"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "high",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "An international law enforcement operation dismantled the command and servers for Gootloader, CastleRAT, and StealC malware this week. The action successfully seized 6.4 million stolen login credentials used for cybercrime and ransomware attacks.",
-        "whyItMatters": "This takedown significantly disrupts major malware distribution and credential theft operations that pose severe threats to global cybersecurity.",
-        "affected": [],
-        "action": "Monitor networks for any residual activity related to Gootloader, CastleRAT, or StealC.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Check Point warns of zero-day flaw exploited for root access",
       "link": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
       "source": "BleepingComputer",
@@ -2201,32 +2231,6 @@
         "whyItMatters": "This technique bypasses traditional credential harvesting by abusing legitimate device code authentication workflows to hijack active user sessions.",
         "affected": [],
         "action": "Educate employees on the risks of unauthorized device code authentication prompts.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Suspected North Korean IT workers reached onboarding at companies with open data",
-      "link": "https://www.helpnetsecurity.com/2026/11/13/north-korean-it-workers-onboarding/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-11-13T06:00:22.000Z",
-      "summary": "Material Security followed suspected North Korean fake IT workers through the hiring pipelines of organizations it monitors and counted 27 personas that reached onboarding over one year. At one company where a persona go",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Security researchers tracked 27 suspected North Korean fake IT worker personas that successfully reached the onboarding stage at monitored companies over a one-year period. These malicious actors attempt to infiltrate organizations by using falsified identities to gain employment and access internal networks.",
-        "whyItMatters": "Infiltrating companies through fraudulent IT hires allows threat actors to establish initial access for insider threats, corporate espionage, or ransomware deployment.",
-        "affected": [],
-        "action": "Implement rigorous identity verification and background checks during the IT hiring process.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
