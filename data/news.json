@@ -1,6 +1,544 @@
 {
-  "updatedAt": "2026-11-16T02:43:15.635Z",
+  "updatedAt": "2026-11-16T11:07:14.241Z",
   "items": [
+    {
+      "title": "Anthropic’s Claude Fable 5.2 blocks fewer security tasks, while Mythos gets better at finding bugs",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-claude-fable-52-blocks-fewer-security-tasks-while-mythos-gets-better-at-finding-bugs/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-11-16T11:00:00.000Z",
+      "summary": "Anthropic recently rolled out Claude Mythos 5.2 to selected partners and Fable 5.2 to regular users, with improvements to coding and reasoning. But we also noticed some interesting cybersecurity changes. [...]",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Anthropic has released Claude Mythos 5.2 to selected partners and Claude Fable 5.2 to regular users with enhanced coding and reasoning capabilities. The update also brings noticeable changes to how the models handle cybersecurity-related tasks.",
+        "whyItMatters": "Changes in AI model safety guardrails and vulnerability discovery capabilities directly impact how developers and threat actors utilize these tools for security operations.",
+        "affected": [],
+        "action": "Monitor the updated models for changes in security task handling and vulnerability detection capabilities.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Unpatched GeoVision camera software gave cryptojackers a side door into 13 organizations",
+      "link": "https://www.helpnetsecurity.com/2026/11/16/geovision-camera-software-vulnerabilities/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-11-16T10:07:57.000Z",
+      "summary": "Attackers used GeoVision camera management software to break into Windows machines at 13 organizations and turn them into cryptocurrency miners, Huntress warned in a threat advisory. GeoVision is a Taiwanese surveillance",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Attackers exploited unpatched vulnerabilities in GeoVision camera management software to compromise Windows machines across 13 organizations. The breached systems were subsequently repurposed to run unauthorized cryptocurrency mining operations.",
+        "whyItMatters": "Unpatched surveillance software is being actively exploited to gain unauthorized internal network access and deploy cryptojacking malware.",
+        "affected": [
+          "GeoVision camera management software"
+        ],
+        "action": "Patch or update GeoVision software immediately.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Information Commissioner’s Office Receives 300+ Reports of Medical Snooping",
+      "link": "https://www.infosecurity-magazine.com/news/ico-300-reports-of-medical-snooping/",
+      "source": "Infosecurity Magazine",
+      "publishedAt": "2026-11-16T10:00:00.000Z",
+      "summary": "UK privacy watchdog has received reports of hundreds of cases of unauthorized insider access to medical files this year",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The UK privacy watchdog, the Information Commissioner's Office, has received over 300 reports of unauthorized insider access to medical files this year. These incidents highlight ongoing concerns regarding medical snooping and the protection of sensitive patient data.",
+        "whyItMatters": "Insider threats and unauthorized access to medical records compromise patient privacy and violate data protection regulations.",
+        "affected": [],
+        "action": "Strengthen access controls and monitor internal handling of medical records.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
+      "link": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-11-16T09:32:57.000Z",
+      "summary": "A financially motivated threat activity cluster tracked as REF3364 has been attributed to a Linux-focused cryptocurrency mining operation that tampers with the readings used to detect high GPU workloads.\n\nCentral to the ",
+      "categories": [
+        "Malware"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A financially motivated threat cluster named REF3364 has been linked to a Linux cryptomining malware campaign. The operation uses a modified NVIDIA library to tamper with GPU workload readings and evade detection.",
+        "whyItMatters": "This technique allows malicious cryptomining activity to persist undetected on compromised Linux systems by spoofing resource utilization metrics.",
+        "affected": [],
+        "action": "Monitor Linux systems for unauthorized GPU workloads and integrity violations in NVIDIA libraries.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "New NoisyTCP vulnerability lets attackers crash Linux servers",
+      "link": "https://www.bleepingcomputer.com/news/linux/new-noisytcp-linux-kernel-flaw-lets-attackers-crash-servers/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-11-16T09:30:04.000Z",
+      "summary": "An 11-year-old Linux kernel vulnerability, dubbed NoisyTCP, affects almost all Linux distributions and lets attackers crash systems running Nginx, Apache, and SSH servers with default configurations. [...]",
+      "categories": [
+        "Vulnerability",
+        "Open Source"
+      ],
+      "tags": [
+        "Linux",
+        "Apache",
+        "Nginx"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "An 11-year-old vulnerability named NoisyTCP affects nearly all Linux distributions and allows attackers to crash servers using default configurations. The flaw impacts popular services including Nginx, Apache, and SSH servers.",
+        "whyItMatters": "This critical vulnerability exposes a vast majority of Linux servers to straightforward denial-of-service attacks without requiring advanced exploits.",
+        "affected": [
+          "Linux kernel",
+          "Nginx",
+          "Apache",
+          "SSH servers"
+        ],
+        "action": "Apply the latest security patches provided by your Linux distribution.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Rspamd 4.3.0 stops forwarded mail from softening DMARC rejects",
+      "link": "https://www.helpnetsecurity.com/2026/11/16/rspamd-4-3-0-released/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-11-16T09:27:24.000Z",
+      "summary": "Rspamd 4.3.0 fixes bugs that let an unauthenticated attacker crash the spam filter’s workers or slip forged authentication results through it. The worst crash took one HTTP request. A header line without a colon was enou",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Rspamd version 4.3.0 has been released to address critical bugs that allowed unauthenticated attackers to crash spam filter workers or bypass DMARC checks. The most severe vulnerability could be exploited with a single malformed HTTP request lacking a colon.",
+        "whyItMatters": "This vulnerability allows attackers to disrupt email filtering services or spoof authenticated messages, undermining domain security.",
+        "affected": [
+          "Rspamd 4.3.0"
+        ],
+        "action": "Upgrade to Rspamd 4.3.0 or later.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "AI Cuts Vulnerability Discovery from Nine Months to 90 Hours",
+      "link": "https://www.infosecurity-magazine.com/news/ai-cut-vulnerability-discover-nine/",
+      "source": "Infosecurity Magazine",
+      "publishedAt": "2026-11-16T09:00:00.000Z",
+      "summary": "Forescout report claims to have found 66 new flaws in just 90 hours using AI",
+      "categories": [
+        "Vulnerability",
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A recent Forescout report reveals that artificial intelligence was used to discover 66 new vulnerabilities in just 90 hours. This achievement drastically reduces the typical vulnerability discovery timeline from nine months down to less than four days.",
+        "whyItMatters": "This development demonstrates how threat actors and researchers can leverage AI to accelerate zero-day discovery at an unprecedented scale.",
+        "affected": [],
+        "action": "Accelerate patch management and vulnerability remediation processes.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Tor Updates DoS Defenses Again as Relay Attacks Continue",
+      "link": "https://www.securityweek.com/tor-updates-dos-defenses-again-as-relay-attacks-continue/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-11-16T08:55:32.000Z",
+      "summary": "Tor 0.4.9.17 patches several security issues, including one related to how built-in DoS protections deal with IPv6.\nThe post Tor Updates DoS Defenses Again as Relay Attacks Continue appeared first on SecurityWeek.",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Tor version 0.4.9.17 has been released to patch multiple security issues affecting the anonymity network. The updates specifically address vulnerabilities in built-in Denial of Service (DoS) protections related to IPv6 handling.",
+        "whyItMatters": "Addressing these DoS vulnerabilities is crucial to maintaining the resilience and availability of the Tor network against ongoing relay attacks.",
+        "affected": [
+          "Tor 0.4.9.17"
+        ],
+        "action": "Update to the latest version of Tor.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Microsoft pushes Windows emergency updates to fix activation failures",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-new-windows-emergency-updates-fix-activation-licensing-failures/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-11-16T08:26:52.000Z",
+      "summary": "Microsoft has released emergency out-of-band updates to fix Windows activation and licensing failures caused by this month's security updates. [...]",
+      "categories": [
+        "News"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft has released emergency out-of-band updates to resolve Windows activation and licensing failures. These failures were triggered by bugs in the recent monthly security updates.",
+        "whyItMatters": "This issue prevents affected Windows systems from verifying their licenses properly, potentially disrupting normal operations and user workflows.",
+        "affected": [
+          "Windows"
+        ],
+        "action": "Install the emergency out-of-band updates provided by Microsoft to restore proper activation.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Microsoft Rules Out Cyberattack in Outage, Warns of Phishing Campaign",
+      "link": "https://www.securityweek.com/microsoft-rules-out-cyberattack-in-outage-warns-of-phishing-campaign/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-11-16T08:15:12.000Z",
+      "summary": "Phishing emails posing as Microsoft 365 service notices referenced the real outage incident and threatened to delete held messages.\nThe post Microsoft Rules Out Cyberattack in Outage, Warns of Phishing Campaign appeared ",
+      "categories": [
+        "Threat Intel",
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft has confirmed that a recent service outage was not caused by a cyberattack. However, threat actors are actively exploiting the incident through phishing emails that pose as Microsoft 365 service notices and threaten to delete held messages.",
+        "whyItMatters": "Attackers are weaponizing news of the outage to deceive users into falling for credential harvesting or malware delivery campaigns.",
+        "affected": [
+          "Microsoft 365"
+        ],
+        "action": "Ignore unsolicited service notices and verify Microsoft 365 status through official channels.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "A week in security (November 9 – November 15)",
+      "link": "https://www.malwarebytes.com/blog/uncategorized/2026/11/a-week-in-security-november-9-november-15-2",
+      "source": "Malwarebytes Labs",
+      "publishedAt": "2026-11-16T08:01:00.000Z",
+      "summary": "A list of topics we covered in the week of November 9 to November 15 of 2026",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "This article provides a retrospective list of cybersecurity topics covered between November 9 and November 15, 2026. It serves as a weekly review of security news and developments.",
+        "whyItMatters": "Weekly roundups help security professionals stay informed about recent threat landscapes and industry developments.",
+        "affected": [],
+        "action": "Review the weekly security archives for relevant updates.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
+      "link": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-11-16T07:34:21.000Z",
+      "summary": "Attackers' AI agents have been hunting for weak spots in internet-exposed AI apps such as LiteLLM, One API, and Dify to steal the AI provider keys stored inside, according to the agents' own records.\n\nThe records, which ",
+      "categories": [
+        "Threat Intel",
+        "Incident Response",
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Cybercriminals are deploying autonomous AI agents to scan and exploit internet-exposed AI applications like LiteLLM, One API, and Dify. The primary objective of this campaign is to harvest sensitive AI provider API keys stored within these vulnerable platforms.",
+        "whyItMatters": "The theft of AI provider API keys can lead to unauthorized access, massive financial fraud via consumed compute resources, and further compromise of connected systems.",
+        "affected": [
+          "LiteLLM",
+          "One API",
+          "Dify"
+        ],
+        "action": "Secure and restrict external access to AI application instances and rotate compromised API keys immediately.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "A USB worm’s second life: Retadup spreading CoffeeLoader",
+      "link": "https://securelist.com/retadup-delivers-coffeeloader/121908/",
+      "source": "Kaspersky Securelist",
+      "publishedAt": "2026-11-16T07:00:37.000Z",
+      "summary": "A new version of CoffeeLoader is spreading through Retadup, an old USB worm whose infrastructure was seized by law enforcement back in 2019.",
+      "categories": [
+        "Malware"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A new variant of CoffeeLoader is being distributed through Retadup, a legacy USB worm. Law enforcement had previously seized the original Retadup infrastructure in 2019.",
+        "whyItMatters": "This development demonstrates how older malware infrastructure or concepts can be revived to deliver modern payloads like CoffeeLoader.",
+        "affected": [],
+        "action": "Monitor endpoints for unusual USB activity and ensure security definitions are up to date.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "You can now self-host Kitesurf, Cloudflare’s open-source browser for AI agents",
+      "link": "https://www.helpnetsecurity.com/2026/11/16/cloudflare-kitesurf-open-source/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-11-16T07:00:02.000Z",
+      "summary": "Kitesurf is Cloudflare’s browser for AI agents, built to load web pages and run their JavaScript on Cloudflare Workers without starting up a full desktop browser. Cloudflare has published its source code so developers ca",
+      "categories": [
+        "AI Security",
+        "Open Source"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Cloudflare has released the source code for Kitesurf, its open-source browser designed specifically for AI agents. The tool allows developers to load web pages and execute JavaScript on Cloudflare Workers without needing a full desktop browser.",
+        "whyItMatters": "This release provides developers with a lightweight, serverless browser infrastructure to efficiently integrate web navigation capabilities into AI agents.",
+        "affected": [],
+        "action": "Review the open-source repository if interested in self-hosting the browser for AI agents.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server",
+      "link": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-11-16T06:53:34.000Z",
+      "summary": "An investigation into suspicious activity within a Russian software developer's network has uncovered a months-long compromise of its development infrastructure and a software code-signing server.\n\nThe activity, document",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [
+        "VMware"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "An investigation revealed a months-long compromise of a Russian software developer's development infrastructure and code-signing server. The threat actors exploited the Log4Shell vulnerability to breach the VMware vCenter system.",
+        "whyItMatters": "This incident demonstrates how exploitation of known vulnerabilities like Log4Shell can lead to the severe compromise of critical code-signing infrastructure and supply chains.",
+        "affected": [
+          "VMware vCenter"
+        ],
+        "action": "Patch VMware vCenter and remediate Log4Shell vulnerabilities immediately.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Google Project Zero will disclose bugs after 90 days, fixed or not",
+      "link": "https://www.helpnetsecurity.com/2026/11/16/google-project-zero-disclosure-policy/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-11-16T06:30:02.000Z",
+      "summary": "Google’s Project Zero will disclose the vulnerabilities it finds 90 days after reporting them to a vendor, whether or not the vendor has shipped a fix. The deadline drops to 60 days on February 2, 2027, and to 30 days on",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Google Project Zero will publicly disclose discovered vulnerabilities 90 days after reporting them to vendors, regardless of whether a fix is available. This disclosure deadline will become stricter over time, dropping to 60 days in 2027.",
+        "whyItMatters": "It pressures software vendors to patch security flaws much faster by removing the safety net of indefinite secrecy.",
+        "affected": [],
+        "action": "Patch software promptly upon vendor release.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Ory Hydra: Open-source OAuth 2.0 server and OpenID Connect provider",
+      "link": "https://www.helpnetsecurity.com/2026/11/16/ory-hydra-oauth-server-open-source/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-11-16T06:00:29.000Z",
+      "summary": "Ory Hydra is an open-source OAuth 2.0 server and OpenID Connect provider. Ory built it to issue and validate tokens, register client applications, and manage the keys that sign those tokens. Hydra stores no usernames or ",
+      "categories": [
+        "Open Source"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Ory Hydra is an open-source OAuth 2.0 server and OpenID Connect provider designed for token issuance, validation, and key management. It provides these identity services while intentionally storing no usernames or passwords.",
+        "whyItMatters": "It forms a critical part of modern identity and access management infrastructure for applications requiring secure token handling.",
+        "affected": [
+          "Ory Hydra"
+        ],
+        "action": "Review the open-source project documentation for integration and deployment best practices.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Product showcase: ESET Mobile Security brings phishing protection and security checks to iOS",
+      "link": "https://www.helpnetsecurity.com/2026/11/16/product-showcase-eset-mobile-security-ios/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-11-16T05:30:19.000Z",
+      "summary": "ESET Mobile Security for iOS helps iPhone users identify suspicious links, review device security settings, and assess Wi-Fi connections. ESET Mobile Security is available for iPhones running iOS 18.0 or later. Free feat",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "ESET has launched a new Mobile Security app for iOS to help iPhone users identify suspicious links and review device security settings. The application also includes features to assess Wi-Fi connections and is available for devices running iOS 18.0 or later.",
+        "whyItMatters": "This product release provides iPhone users with new tools to enhance mobile security and defend against phishing threats.",
+        "affected": [
+          "ESET Mobile Security for iOS"
+        ],
+        "action": "Install the app if you need mobile phishing protection on iOS.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "AI uncovers flaws in discontinued devices with no vendor left to patch them",
+      "link": "https://www.helpnetsecurity.com/2026/11/16/forescout-ai-models-vulnerability-research/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-11-16T05:00:22.000Z",
+      "summary": "Forescout researchers built a tool to test if generally available AI models could find security flaws on a limited budget. They examined both open-source code and compiled software whose source code was unavailable, test",
+      "categories": [
+        "AI Security",
+        "Open Source"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Forescout researchers developed a tool using readily available AI models to identify security vulnerabilities in discontinued devices. Their testing covered both open-source code and compiled software where source code was unavailable.",
+        "whyItMatters": "It demonstrates that AI can successfully uncover unpatchable flaws in legacy hardware, exposing abandoned networks to heightened exploitation risks.",
+        "affected": [],
+        "action": "Isolate legacy and discontinued devices from critical networks until replacements are found.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "ISC Stormcast For Monday, November 16th, 2026 (Mon, Nov 16th)",
       "link": "https://isc.sans.edu/diary/rss/33520",
@@ -950,32 +1488,6 @@
       }
     },
     {
-      "title": "German military drone operations disrupted by cyberattack",
-      "link": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-11-13T17:31:56.000Z",
-      "summary": "German defense technology company Quantum Systems confirmed that it detected an incident in late October that was part of an active cyberattack by \"hostile actors.\" [...]",
-      "categories": [
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "German defense technology firm Quantum-Systems confirmed it suffered a cyberattack in late October orchestrated by hostile actors. The incident resulted in disruptions to military drone operations.",
-        "whyItMatters": "This attack highlights the vulnerability of critical defense infrastructure and military hardware supply chains to sophisticated cyberthreats.",
-        "affected": [],
-        "action": "Investigate supply chain security and harden defense systems against hostile intrusions.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "University of Texas at Arlington warns personal information stolen during cyberattack",
       "link": "https://therecord.media/university-of-texas-arlington-warns-data-breach",
       "source": "The Record",
@@ -1105,64 +1617,6 @@
         "whyItMatters": "This legislation significantly expands state-sponsored offensive cyber capabilities, raising profound legal, privacy, and international security concerns.",
         "affected": [],
         "action": "Monitor legislative developments and policy updates regarding state-sponsored cyber operations.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
-      "link": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-11-13T16:21:43.000Z",
-      "summary": "Vulnerable Check Point Security Gateway instances have been targeted in PHP2Shell attacks that deployed data-wiping malware on VMware ESXi hosts. [...]",
-      "categories": [
-        "Malware",
-        "Incident Response"
-      ],
-      "tags": [
-        "VMware"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Vulnerable Check Point Security Gateway instances have been targeted in recent cyberattacks utilizing PHP2Shell to deploy data-wiping malware. The attackers successfully compromised these gateways to ultimately target and affect VMware ESXi hosts with destructive payloads.",
-        "whyItMatters": "This campaign is critical because it bridges gateway vulnerabilities with destructive malware targeting underlying virtualization infrastructure.",
-        "affected": [
-          "Check Point Security Gateway",
-          "VMware ESXi"
-        ],
-        "action": "Update and patch vulnerable Check Point Security Gateway instances immediately.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "ChatGPT Wallet lets agents pay without seeing your card number",
-      "link": "https://www.helpnetsecurity.com/2026/11/13/openai-chatgpt-wallet/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-11-13T16:15:25.000Z",
-      "summary": "OpenAI began rolling out ChatGPT Wallet, which lets ChatGPT agents pay for purchases with a stand-in card number, so the user’s card details are not shared with the agent or the merchant. OpenAI built it with American Ex",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "OpenAI has begun rolling out ChatGPT Wallet, a feature that allows AI agents to make purchases using a stand-in card number. This system ensures that the user's actual credit card details are not shared with either the agent or the merchant.",
-        "whyItMatters": "It enhances user privacy and financial security by preventing AI agents and merchants from accessing sensitive credit card information during transactions.",
-        "affected": [],
-        "action": "Monitor for the official release of ChatGPT Wallet and review its security settings before use.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -1478,114 +1932,6 @@
       }
     },
     {
-      "title": "In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach",
-      "link": "https://www.securityweek.com/in-other-news-new-cisa-director-nominee-connected-car-hacking-baker-tilly-data-breach/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-11-13T15:20:00.000Z",
-      "summary": "Noteworthy stories that might have slipped under the radar: Siemens details security advisory policy, OpenAI Codex backdoor risk, Microsoft warns of model weight backdoors.\nThe post In Other News: New CISA Director Nomin",
-      "categories": [
-        "Malware",
-        "Incident Response",
-        "Government",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Recent cybersecurity news covers a variety of topics including a new CISA director nominee, connected car hacking, and a Baker Tilly data breach. Additional stories highlight Siemens' security advisory policy, OpenAI Codex backdoor risks, and Microsoft warnings regarding model weight backdoors.",
-        "whyItMatters": "Staying informed on a diverse range of security advisories and emerging threats helps organizations anticipate and mitigate novel attack vectors.",
-        "affected": [],
-        "action": "Review the individual advisories mentioned in the news roundup for potential relevance to your systems.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "How one AI agent exposed five critical enterprise security gaps",
-      "link": "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-11-13T15:01:11.000Z",
-      "summary": "An AI agent built to automate invoice processing could be manipulated into changing vendor bank details through a malicious email, without triggering traditional security alerts. Token Security examines five critical AI ",
-      "categories": [
-        "Incident Response",
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Token Security demonstrated that an AI agent designed for automated invoice processing can be manipulated via a malicious email to alter vendor bank details. This attack successfully bypassed traditional security alerts, highlighting vulnerabilities in enterprise AI implementations.",
-        "whyItMatters": "It demonstrates how attackers can exploit autonomous AI agents to perform unauthorized financial transactions without triggering standard security monitoring.",
-        "affected": [],
-        "action": "Implement strict validation and human-in-the-loop controls for AI agents handling financial data.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Fake GTA 6 download goes after Steam logins and crypto wallet data",
-      "link": "https://www.helpnetsecurity.com/2026/11/13/fake-gta-6-download-scam/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-11-13T15:00:59.000Z",
-      "summary": "Cynet researchers followed a “GTA 6 EXE file download” link from a Google Colab notebook to a ZIP archive and found a WARDEN Stealer loader inside. The malware takes saved passwords, browser cookies, Steam and Roblox cre",
-      "categories": [
-        "Malware"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Researchers discovered a fake GTA 6 download link leading to a WARDEN Stealer loader distributed through Google Colab. The malware is designed to harvest sensitive user data, including saved passwords, browser cookies, and cryptocurrency wallet information.",
-        "whyItMatters": "This threat exploits anticipation for popular media to steal valuable credentials and financial assets from unsuspecting users.",
-        "affected": [],
-        "action": "Avoid downloading unofficial software or game files from untrusted links and notebooks.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
-      "link": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-11-13T14:28:58.000Z",
-      "summary": "The U.S. Federal Bureau of Investigation (FBI) has established that threat actors tied to the Democratic People's Republic of Korea (DPRK aka North Korea) have stolen more than $400 million worth of cryptocurrency as par",
-      "categories": [
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The FBI has reported that North Korean threat actors have stolen over $400 million in cryptocurrency. The attackers utilized deepfake video calls as part of their campaign to perpetrate the thefts.",
-        "whyItMatters": "This highlights the growing sophistication of cybercriminals using AI-generated deepfakes to execute large-scale financial fraud.",
-        "affected": [],
-        "action": "Verify the identities of participants on video calls before conducting high-value financial transactions.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "GeoVision Camera Software Abused to Deploy XMRig Cryptominer",
       "link": "https://www.huntress.com/blog/geovision-camera-software-xmrig-cryptominer",
       "source": "Huntress",
@@ -1611,63 +1957,6 @@
         "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
-      }
-    },
-    {
-      "title": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases",
-      "link": "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-11-13T13:54:20.000Z",
-      "summary": "Three Trezor Safe 5 wallets bought from the reseller CryptoBilis contain an implant, an extra circuit board that can copy their recovery phrases, hardware wallet maker Trezor said yesterday.\n\nThe implant reads the phrase",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Trezor confirmed that three Trezor Safe 5 cryptocurrency wallets purchased from reseller CryptoBilis contained unauthorized hardware implants. These hidden circuit boards are capable of copying the users' recovery phrases.",
-        "whyItMatters": "Hardware wallet compromises completely undermine the physical security guarantees expected from cold storage devices, putting users' crypto assets at risk of total theft.",
-        "affected": [
-          "Trezor Safe 5"
-        ],
-        "action": "Inspect hardware wallets for tampering and only purchase devices directly from official manufacturers.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Microsoft Struggles to Restore Email and Other Services in a Global Outage",
-      "link": "https://www.securityweek.com/microsoft-struggles-to-restore-email-and-other-services-in-a-global-outage/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-11-13T13:47:42.000Z",
-      "summary": "Microsoft is trying different ways to identify the cause of the problem and get its servers back online, using “a measured approach to identify and repair affected infrastructure.”\nThe post Microsoft Struggles to Restore",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft is experiencing a global outage affecting email and other services while working to identify the cause. The company is taking a measured approach to repair the affected infrastructure and bring servers back online.",
-        "whyItMatters": "This widespread outage disrupts critical communication and productivity services for users and organizations globally.",
-        "affected": [
-          "Microsoft email services",
-          "Microsoft servers"
-        ],
-        "action": "Monitor Microsoft status pages for updates.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
       }
     },
     {
@@ -1843,62 +2132,6 @@
       }
     },
     {
-      "title": "When an AI Agent Goes Wrong, Can You Stop It?",
-      "link": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-11-13T11:52:31.000Z",
-      "summary": "Suppose an AI agent is asked to sort support tickets and look up account details. A ticket contains instructions that lead the agent to export records to an unfamiliar destination. The agent can make the request because ",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "An AI agent tasked with sorting support tickets falls victim to a prompt injection attack embedded within a ticket. As a result, the compromised agent improperly exports sensitive account records to an unauthorized destination.",
-        "whyItMatters": "This scenario highlights how prompt injection vulnerabilities in autonomous AI agents can lead to unauthorized data exfiltration and severe security breaches.",
-        "affected": [],
-        "action": "Implement strict input validation and least-privilege access controls for AI agents.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Apple details Secure Exclaves, isolated runtimes for camera and microphone data",
-      "link": "https://www.helpnetsecurity.com/2026/11/13/apple-secure-exclaves-security-architecture/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-11-13T11:27:56.000Z",
-      "summary": "Apple published details of Secure Exclaves, a security architecture designed to protect camera and microphone data during background processing. Apple says data processed and analyzed within Secure Exclaves cannot be acc",
-      "categories": [
-        "News"
-      ],
-      "tags": [
-        "Apple"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Apple published details of Secure Exclaves, a security architecture designed to protect camera and microphone data during background processing. Apple says data processed and analyzed within Secure Exclaves cannot be acc",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Apple"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Google pushes second Chrome update this week",
       "link": "https://www.malwarebytes.com/blog/bugs/2026/11/google-pushes-second-chrome-update-this-week",
       "source": "Malwarebytes Labs",
@@ -1946,34 +2179,6 @@
       "readTimeMin": 1,
       "aiSummary": {
         "summary": "New Proofpoint research reveals phishing detections surged 4.5x across Europe year over year, compared with 1.5x globally",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "354 dark web vendors and buyers arrested in Operation TorNado",
-      "link": "https://www.helpnetsecurity.com/2026/11/13/europol-dark-web-arrests-cybercrime/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-11-13T11:06:29.000Z",
-      "summary": "Europol and police in 14 countries arrested 354 dark web vendors and buyers in Operation TorNado, which ran from May 2025 to October 2026. Investigators went after people who had traded on five marketplaces that were alr",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Europol and police in 14 countries arrested 354 dark web vendors and buyers in Operation TorNado, which ran from May 2025 to October 2026. Investigators went after people who had traded on five marketplaces that were alr",
         "whyItMatters": "Background context; no immediate action expected.",
         "affected": [
           "Not specified"
@@ -2132,35 +2337,6 @@
       }
     },
     {
-      "title": "OpenAI’s Daybreak brings AI agents to security testing and vulnerability fixes",
-      "link": "https://www.helpnetsecurity.com/2026/11/13/openai-daybreak-vulnerability-remediation-red-team-defense-factory-agents/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-11-13T09:31:07.000Z",
-      "summary": "OpenAI is bringing AI agents into more of the software security process with Daybreak, pairing web application penetration testing with tools that investigate vulnerabilities and develop fixes. The two offerings, Red Tea",
-      "categories": [
-        "Vulnerability",
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "OpenAI is bringing AI agents into more of the software security process with Daybreak, pairing web application penetration testing with tools that investigate vulnerabilities and develop fixes. The two offerings, Red Tea",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "AI Set to Revolutionize Ransomware Following “Stagnant” Few Years",
       "link": "https://www.infosecurity-magazine.com/news/ai-revolutionize-ransomware/",
       "source": "Infosecurity Magazine",
@@ -2295,58 +2471,6 @@
         "affected": [],
         "action": "Monitor the ISO C++ working group announcements for official timeline updates.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Stolen webcam clips of 900+ victims feed North Korea’s $400 million fake Zoom scheme",
-      "link": "https://www.helpnetsecurity.com/2026/11/13/fbi-north-korean-fake-zoom-calls/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-11-13T06:30:30.000Z",
-      "summary": "North Korean state hackers have stolen more than $400 million in cryptocurrency over the past 18 months by pulling targets into fake Zoom and Teams calls filled with webcam footage of earlier victims. The FBI calls the s",
-      "categories": [
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "North Korean state-sponsored hackers have stolen over $400 million in cryptocurrency in the past 18 months. They deceived targets into joining fake Zoom and Teams video calls using stolen webcam footage of previous victims.",
-        "whyItMatters": "This sophisticated social engineering campaign enables state-sponsored threat actors to effectively launder money and fund illicit operations by exploiting video conferencing trust.",
-        "affected": [],
-        "action": "Verify the identity of meeting participants and avoid engaging in unverified video calls regarding cryptocurrency transactions.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "How attackers turned a Teams meeting booking into a device code phishing trap",
-      "link": "https://www.helpnetsecurity.com/2026/11/13/microsoft-teams-device-code-phishing/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-11-13T06:15:48.000Z",
-      "summary": "Attackers used a fake Microsoft Teams meeting scheduler to trick an employee at a construction company into approving a device code sign-in. They got a valid session token before Huntress’s security operations center ide",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Attackers deployed a fake Microsoft Teams meeting scheduler to trick a construction company employee into approving a device code sign-in. This malicious technique allowed threat actors to successfully obtain a valid session token before the SOC intervened.",
-        "whyItMatters": "This technique bypasses traditional credential harvesting by abusing legitimate device code authentication workflows to hijack active user sessions.",
-        "affected": [],
-        "action": "Educate employees on the risks of unauthorized device code authentication prompts.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -3442,34 +3566,6 @@
       }
     },
     {
-      "title": "Lego Takes BrickLink Marketplace Offline After Detecting Unusual Activity",
-      "link": "https://www.infosecurity-magazine.com/news/lego-takes-bricklink-marketplace/",
-      "source": "Infosecurity Magazine",
-      "publishedAt": "2026-11-12T14:00:00.000Z",
-      "summary": "Lego has taken its BrickLink Marketplace offline after detecting unusual activity as the company investigates the incident",
-      "categories": [
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Lego has taken its BrickLink Marketplace offline after detecting unusual activity as the company investigates the incident",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Inside Cirro: Enumeration as a Restricted Guest",
       "link": "https://bishopfox.com/blog/inside-cirro-enumeration-as-a-restricted-guest",
       "source": "Bishop Fox",
@@ -3814,33 +3910,6 @@
         "whyItMatters": "It misleads users into false security panics and potential scams through legitimate browser features.",
         "affected": [],
         "action": "Disable unwanted browser push notifications.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Security Teams Must Shift from Patching to Mitigation in the AI Era",
-      "link": "https://www.infosecurity-magazine.com/news/shift-patching-mitigation-ai-era/",
-      "source": "Infosecurity Magazine",
-      "publishedAt": "2026-11-12T10:45:00.000Z",
-      "summary": "Symantec’s Dick O’Brien says the rapid closure of the patch window means organizations must move beyond patching and adopt an assume exploit mindset",
-      "categories": [
-        "Vulnerability",
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Symantec expert Dick O'Brien argues that rapid closure of the patch window requires organizations to shift from traditional patching to proactive mitigation. Security teams must adopt an assume-exploit mindset to effectively handle threats in the AI era.",
-        "whyItMatters": "It highlights the necessity for organizations to evolve their security strategies beyond reactive patching as attackers accelerate exploitation timelines.",
-        "affected": [],
-        "action": "Adopt an assume-exploit mindset and prioritize proactive risk mitigation.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -4250,34 +4319,6 @@
         "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
-      }
-    },
-    {
-      "title": "Remus malware claims Gmail access even after you change your password",
-      "link": "https://www.malwarebytes.com/blog/news/2026/11/remus-malware-claims-gmail-access-even-after-you-change-your-password",
-      "source": "Malwarebytes Labs",
-      "publishedAt": "2026-11-11T13:42:10.000Z",
-      "summary": "Developers of the infostealer Remus claim their malware can retain access to a victim’s Gmail even after a password reset.",
-      "categories": [
-        "Malware"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Developers of the Remus infostealer malware claim that their tool can maintain unauthorized access to a victim's Gmail account even after the password has been reset. This capability highlights persistent threats posed by advanced information-stealing software.",
-        "whyItMatters": "It threatens user security by bypassing traditional password-reset recovery methods, leaving accounts compromised.",
-        "affected": [
-          "Gmail"
-        ],
-        "action": "Revoke all active sessions and implement multi-factor authentication.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
       }
     },
     {
@@ -5703,32 +5744,6 @@
         "affected": [],
         "action": "Enjoy the Friday squid blogging article.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Turning Up the Heat: Inside the Attacks on Europe’s Refrigeration System",
-      "link": "https://unit42.paloaltonetworks.com/europes-refrigeration-systems-attacks/",
-      "source": "Unit 42",
-      "publishedAt": "2026-11-06T21:15:09.000Z",
-      "summary": "Unit 42 examines recent cyberattacks targeting European refrigeration systems and outlines defense and mitigation strategies.\nThe post Turning Up the Heat: Inside the Attacks on Europe’s Refrigeration System appeared fir",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Unit 42 has released a report examining recent cyberattacks targeting refrigeration systems across Europe. The advisory provides detailed insights into these incidents along with recommended defense and mitigation strategies.",
-        "whyItMatters": "Critical infrastructure attacks on industrial refrigeration systems pose significant risks to public safety, food supply chains, and operational continuity.",
-        "affected": [],
-        "action": "Review the Unit 42 report and implement recommended mitigations for industrial control systems.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
