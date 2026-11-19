@@ -1,6 +1,1477 @@
 {
-  "updatedAt": "2026-11-19T13:01:12.715Z",
+  "updatedAt": "2026-11-19T21:30:20.298Z",
   "items": [
+    {
+      "title": "Lawmakers launch new AI safety caucus amid rising security concerns",
+      "link": "https://therecord.media/lawmakers-launch-new-ai-safety-caucus",
+      "source": "The Record",
+      "publishedAt": "2026-11-19T21:19:00.000Z",
+      "summary": "Seven of 26 founding members of the caucus are Republicans, a notable number given the White House’s steadfast opposition to regulating AI.",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Lawmakers have launched a new artificial intelligence safety caucus in response to growing security concerns. The bipartisan group includes seven Republicans among its twenty-six founding members.",
+        "whyItMatters": "This caucus signals a potential shift toward congressional regulation of artificial intelligence despite current White House opposition.",
+        "affected": [],
+        "action": "Monitor developments from the new AI safety caucus.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "ASUS warns of critical hard-coded key flaw in Control Center Express",
+      "link": "https://www.bleepingcomputer.com/news/security/asus-warns-of-critical-hard-coded-key-flaw-in-control-center-express/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-11-19T21:15:59.000Z",
+      "summary": "ASUS released Control Center Express v1.7.29 to fix three critical vulnerabilities that could let remote attackers gain administrative control of the management console and the devices it manages. [...]",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "ASUS has released Control Center Express v1.7.29 to patch three critical vulnerabilities, including a hard-coded key flaw. These security gaps could allow remote attackers to gain administrative control over both the management console and managed devices.",
+        "whyItMatters": "This vulnerability allows remote attackers to easily hijack administrative control of enterprise management consoles and all connected devices.",
+        "affected": [
+          "Control Center Express < 1.7.29"
+        ],
+        "action": "Update ASUS Control Center Express to version 1.7.29 immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Chase, Visa, Mastercard confirm third-party cyberattacks that may have exposed customers' info",
+      "link": "https://www.theregister.com/security/2026/11/19/chase-visa-mastercard-confirm-third-party-cyberattacks-that-may-have-exposed-customers-info/5311175",
+      "source": "The Register",
+      "publishedAt": "2026-11-19T21:12:33.000Z",
+      "summary": "First service outages, then data breaches…what's next?!",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Chase, Visa, and Mastercard have confirmed third-party cyberattacks that may have exposed sensitive customer information. The incidents highlight ongoing security vulnerabilities within the financial sector's supply chain.",
+        "whyItMatters": "It matters because a breach involving major financial institutions can compromise the personal and financial data of millions of customers.",
+        "affected": [],
+        "action": "Monitor your financial accounts for suspicious activity and watch for official communications from your bank.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CVE-2026-123890: Critical Authentication Bypass in VMware vCenter",
+      "link": "https://www.rapid7.com/blog/post/etr-cve-2026-123890-critical-authentication-bypass-vmware-vcenter",
+      "source": "Rapid7",
+      "publishedAt": "2026-11-19T21:06:24.000Z",
+      "summary": "Overview\nOn November 19, 2026, Broadcom published VMware Security Advisory VMSA-2026-0009, addressing five vulnerabilities in VMware products. The most severe of these, CVE-2026-123890, is an authentication bypass using ",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "VMware"
+      ],
+      "cves": [
+        "CVE-2026-123890"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Broadcom published an advisory addressing five vulnerabilities in VMware products, including a critical authentication bypass. The most severe flaw is tracked as CVE-2026-123890 in VMware vCenter.",
+        "whyItMatters": "This critical authentication bypass could allow unauthorized attackers to gain access to vulnerable VMware vCenter servers.",
+        "affected": [
+          "VMware vCenter"
+        ],
+        "action": "Apply the security updates provided in VMSA-2026-0009 immediately.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-123890"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-9176-1: Ruby vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-9176-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-11-19T20:07:34.000Z",
+      "summary": "Stephan Lipp discovered that Ruby incorrectly handled converting the case\nof certain strings. An attacker could possibly use this issue to cause a\ndenial of service or execute arbitrary code. (GHSA-34m4-m9fh-gqp5)\n\nOwais",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Stephan Lipp discovered that Ruby incorrectly handles the case conversion of certain strings, leading to potential security flaws. An attacker could exploit this vulnerability to trigger a denial of service or execute arbitrary code.",
+        "whyItMatters": "This vulnerability could allow malicious actors to crash applications or run arbitrary code on systems using vulnerable versions of Ruby.",
+        "affected": [],
+        "action": "Update Ruby to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Navigating Vulnerability Hysteria in the AI Era",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/navigating-vulnerability-hysteria-ai-era",
+      "source": "Dark Reading",
+      "publishedAt": "2026-11-19T19:46:44.000Z",
+      "summary": "This installment of the Reporters' Notebook video series examines the fallout from recent high-severity flaw disclosures, exploring how fears of AI-assisted exploits trigger widespread panic, operational disruptions, and",
+      "categories": [
+        "Vulnerability",
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "high",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "This video installment examines the fallout and panic caused by recent high-severity flaw disclosures in the cybersecurity community. It explores how fears of AI-assisted exploits trigger widespread operational disruptions across organizations.",
+        "whyItMatters": "It highlights how the intersection of AI and vulnerability disclosures can amplify industry panic and cause unnecessary operational disruptions.",
+        "affected": [],
+        "action": "Evaluate vulnerability alerts objectively without succumbing to AI-related panic.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT",
+      "link": "https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-11-19T19:21:06.000Z",
+      "summary": "Google says a China-linked espionage group exploited a critical VMware vCenter authentication bypass before Broadcom released a patch.\nThe post Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT appea",
+      "categories": [
+        "Zero Day",
+        "Vulnerability",
+        "Threat Intel",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "VMware"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A China-linked espionage group exploited a critical VMware vCenter authentication bypass as a zero-day vulnerability. Broadcom has since released a security patch to address the flaw.",
+        "whyItMatters": "Nation-state actors actively exploited this zero-day flaw for espionage before defenders had access to a patch.",
+        "affected": [
+          "VMware vCenter"
+        ],
+        "action": "Apply the latest security patches for VMware vCenter immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "The internet needs a nap (and you do, too)",
+      "link": "https://blog.talosintelligence.com/the-internet-needs-a-nap-and-you-do-too/",
+      "source": "Talos Intelligence",
+      "publishedAt": "2026-11-19T19:00:00.000Z",
+      "summary": "Bill takes a break from the non-stop breaking news to promote prioritizing environmental awareness and team stability over reactive patching.",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "This opinion piece discusses the importance of taking breaks in the cybersecurity industry. It advocates for prioritizing team well-being and environmental awareness over reactive patching.",
+        "whyItMatters": "Burnout and fatigue among security professionals can lead to oversight and increased vulnerability to cyber threats.",
+        "affected": [],
+        "action": "Prioritize team stability and sustainable work practices.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Nvidia adds possible hack to list of very bad things under investigation",
+      "link": "https://www.theregister.com/security/2026/11/19/nvidia-adds-possible-hack-to-list-of-very-bad-things-under-investigation/5311153",
+      "source": "The Register",
+      "publishedAt": "2026-11-19T18:52:53.000Z",
+      "summary": "Ransomware group sets a deadline for the chipmaker to pay up - or see its data leaked",
+      "categories": [
+        "Ransomware"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "high",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Nvidia is currently investigating a potential security breach after a ransomware group threatened to leak stolen company data unless a ransom is paid by a specific deadline. The incident highlights ongoing cyber threats targeting major technology corporations by extortion-focused threat actors.",
+        "whyItMatters": "It matters because a successful data breach at a major hardware manufacturer like Nvidia could expose sensitive proprietary code, design schematics, and intellectual property.",
+        "affected": [],
+        "action": "Monitor official statements from Nvidia and secure internal corporate infrastructure.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
+      "link": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-11-19T18:47:58.000Z",
+      "summary": "The easiest way to fool someone is to give them something they already expect. A job offer. A message about a service outage. A familiar app. Nothing looks strange at first. And that's the problem. This week's stories sh",
+      "categories": [
+        "Malware"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "This week's cybersecurity news roundup covers multiple threats, including GPT-6.2 jailbreak flaws, BubbleLoader PNG malware, and massive $500M ransom demands. The stories highlight sophisticated attack vectors that disguise malicious activity as familiar communications or applications.",
+        "whyItMatters": "It highlights emerging threats across AI models, malware delivery mechanisms, and ransomware operations that organizations must monitor to prevent breaches.",
+        "affected": [],
+        "action": "Review the full news roundup to stay informed on emerging cybersecurity threats.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "NGINX2Root: F5 patches five critical NGINX vulnerabilities",
+      "link": "https://www.helpnetsecurity.com/2026/11/19/nginx2root-nginx-vulnerabilities/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-11-19T18:25:50.000Z",
+      "summary": "F5 has patched five critical vulnerabilities in NGINX, the world’s most widely used open-source web server, that can allow remote code execution under certain conditions. Dubbed “NGINX2Root” by Xint researchers, two of t",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory",
+        "Open Source"
+      ],
+      "tags": [
+        "Nginx"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "F5 has patched five critical vulnerabilities collectively dubbed NGINX2Root in the widely used NGINX web server. These flaws could potentially allow remote code execution under specific conditions.",
+        "whyItMatters": "Because NGINX powers a massive portion of the global web infrastructure, unpatched critical vulnerabilities present a severe risk of system compromise.",
+        "affected": [
+          "NGINX"
+        ],
+        "action": "Update NGINX to the latest patched versions immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Transport for London breach exposes 265,000 Oyster card users' data",
+      "link": "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-11-19T18:20:01.000Z",
+      "summary": "Transport for London (TfL) has announced that around 265,000 Oyster photocard customers may have had their account details exposed in a data breach. [...]",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Transport for London (TfL) has announced a data breach that potentially exposed the account details of approximately 265,000 Oyster photocard customers. The incident highlights ongoing security vulnerabilities within public transportation ticketing and customer management systems.",
+        "whyItMatters": "This breach puts a large number of commuters at risk of identity theft and targeted phishing attacks using their compromised personal information.",
+        "affected": [
+          "Transport for London Oyster photocard accounts"
+        ],
+        "action": "Monitor your TfL account for suspicious activity and reset your password immediately.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Deepfake Elon Musk nearly costs viewers $4.7 million in crypto",
+      "link": "https://www.malwarebytes.com/blog/ai/2026/11/deepfake-elon-musk-nearly-costs-viewers-4-7-million-in-crypto",
+      "source": "Malwarebytes Labs",
+      "publishedAt": "2026-11-19T17:26:39.000Z",
+      "summary": "Coinbase says it blocked $4.7 million in attempted payments to an Elon Musk deepfake scam.",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Coinbase successfully blocked an estimated $4.7 million in attempted fraudulent payments directed toward an Elon Musk deepfake cryptocurrency scam. The incident highlights the growing financial threat posed by AI-generated deepfake media in cybercrime.",
+        "whyItMatters": "This incident demonstrates how sophisticated deepfake technology is being weaponized at scale to deceive users and execute multi-million dollar cryptocurrency scams.",
+        "affected": [],
+        "action": "Verify the authenticity of any financial promotions featuring public figures before transferring funds.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "[In preview] Public Preview: Database Agent for Azure Database for PostgreSQL",
+      "link": "https://azure.microsoft.com/updates?id=579579",
+      "source": "Azure Updates",
+      "publishedAt": "2026-11-19T17:25:28.000Z",
+      "summary": "Database Agent helps you detect, understand, and respond to database health and performance issues more quickly in Azure Database for PostgreSQL. It proactively monitors database health to identify issues, brings togethe",
+      "categories": [
+        "Cloud"
+      ],
+      "tags": [
+        "Azure"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft has announced the public preview of Database Agent for Azure Database for PostgreSQL. The tool is designed to proactively monitor database health and help users detect, understand, and respond to performance issues more quickly.",
+        "whyItMatters": "This new monitoring tool helps administrators maintain database reliability and performance within Azure PostgreSQL environments.",
+        "affected": [
+          "Azure Database for PostgreSQL"
+        ],
+        "action": "Evaluate the new Database Agent preview for your Azure PostgreSQL environments.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DOJ, DHS partner on new unit tackling scams and cybercrime",
+      "link": "https://therecord.media/doj-dhs-partner-on-new-unit-tackling-scams-cybercrime",
+      "source": "The Record",
+      "publishedAt": "2026-11-19T17:25:00.000Z",
+      "summary": "The departments are partnering on the Threat Disruption Center to better triage victim complaints, map cybercriminal networks and provide a direct channel to private sector organizations that work with victims.",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The DOJ and DHS are partnering to create the Threat Disruption Center to combat cybercrime and scams. This unit will triage victim complaints, map cybercriminal networks, and connect with private sector organizations.",
+        "whyItMatters": "This interagency partnership improves government coordination and private sector collaboration to disrupt cybercriminal operations.",
+        "affected": [],
+        "action": "Monitor the initiative for updates on public-private collaboration channels.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Dems call CISA nominee ‘disqualified’ after nomination hearing",
+      "link": "https://cyberscoop.com/michael-losapio-cisa-confirmation-hearing/",
+      "source": "CyberScoop",
+      "publishedAt": "2026-11-19T17:11:34.000Z",
+      "summary": "Michael LoSapio, the Palantir executive and Trump administration nominee for CISA, sparred with Democrats on the committee over who won the 2020 election, Jan. 6 and more.\nThe post Dems call CISA nominee ‘disqualified’ a",
+      "categories": [
+        "Government"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Michael LoSapio, a Palantir executive and CISA nominee under the Trump administration, faced sharp criticism from Democrats during his nomination hearing. Lawmakers called him disqualified after he sparred with them over the 2020 election results and the January 6 events.",
+        "whyItMatters": "This political controversy could delay or derail the leadership appointment of a critical cybersecurity agency.",
+        "affected": [],
+        "action": "Monitor the CISA nomination process for updates.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Cold Relic: What you need to know",
+      "link": "https://www.fortra.com/blog/cold-relic-what-you-need-know",
+      "source": "Graham Cluley",
+      "publishedAt": "2026-11-19T17:10:29.000Z",
+      "summary": "A Russian spy group is breaking into organisations by pretending to be people they already trust. Meet Cold Relic, the hackers formerly known as COLDRIVER.\r\n\r\nRead more in my article on the Fortra blog.",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A Russian-linked threat group previously known as COLDRIVER, now tracked as Cold Relic, is conducting sophisticated espionage campaigns. The actors gain unauthorized access to target organizations by impersonating trusted individuals.",
+        "whyItMatters": "This sophisticated social engineering tactic poses a significant espionage risk to targeted organizations as it bypasses standard technical trust boundaries.",
+        "affected": [],
+        "action": "Verify the identity of individuals requesting access through out-of-band communication channels.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CISA nominee LoSapio vows to bolster cyber defenses while denying Jan. 6 Capitol attack",
+      "link": "https://therecord.media/cisa-losapio-nomination-trump",
+      "source": "The Record",
+      "publishedAt": "2026-11-19T17:00:00.000Z",
+      "summary": "President Donald Trump’s pick to lead the Cybersecurity and Infrastructure Security Agency pledged to lawmakers to uncover any “gaps” within the organization while also denying the Capitol came under attack on January 6,",
+      "categories": [
+        "Government"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "President Donald Trump's nominee to lead CISA promised lawmakers to address agency vulnerabilities during a confirmation hearing. However, the nominee also drew controversy by denying that the January 6 Capitol attack occurred.",
+        "whyItMatters": "The leadership of the nation's top cybersecurity agency is critical for national security and public trust.",
+        "affected": [],
+        "action": "Monitor the CISA confirmation process.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
+      "link": "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-11-19T16:59:56.000Z",
+      "summary": "PHP's default file-based session storage can be made to return objects an attacker chose, by cutting off a session write at the right moment. When combined with a second weakness, such as a suitable gadget chain in the a",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A newly explained technique called phpAfterShell demonstrates how manipulating file-based PHP session storage during a write operation can allow attackers to inject arbitrary objects. When combined with a secondary weakness like a gadget chain, this flaw can potentially lead to remote code execution.",
+        "whyItMatters": "This vulnerability threatens applications relying on default PHP session handling by creating a pathway for object injection and potential code execution.",
+        "affected": [
+          "PHP default file-based session storage"
+        ],
+        "action": "Update PHP session handling configurations and audit applications for vulnerable gadget chains.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "PHP security updates fix 18 flaws, including critical RCE bugs",
+      "link": "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-11-19T16:28:23.000Z",
+      "summary": "The PHP development team released security updates addressing 18 vulnerabilities, including critical flaws that could allow unauthenticated attackers to remotely execute code on vulnerable servers. [...]",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The PHP development team has released security updates to address 18 vulnerabilities in the software. These include critical flaws that could allow unauthenticated attackers to achieve remote code execution on vulnerable servers.",
+        "whyItMatters": "Unpatched remote code execution vulnerabilities in PHP can allow attackers to completely compromise vulnerable servers and execute arbitrary commands.",
+        "affected": [],
+        "action": "Update PHP to the latest patched version immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Russian national accused of stalking San Francisco techie in plot against US defense-tech giant",
+      "link": "https://www.theregister.com/security/2026/11/19/russian-national-accused-of-stalking-san-francisco-techie-in-plot-against-us-defense-tech-giant/5311126",
+      "source": "The Register",
+      "publishedAt": "2026-11-19T16:20:00.000Z",
+      "summary": "DoJ claims suspect part of 4-month operation to steal secrets, surveil employees",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "DoJ claims suspect part of 4-month operation to steal secrets, surveil employees",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "UK court confirms British government served Apple with secret encryption notice",
+      "link": "https://therecord.media/apple-uk-encryption-notice",
+      "source": "The Record",
+      "publishedAt": "2026-11-19T16:15:00.000Z",
+      "summary": "The British government served Apple with a secret legal notice targeting the company’s cryptographic protections for iCloud accounts, a tribunal has confirmed, ending almost two years of official refusal to acknowledge w",
+      "categories": [
+        "Government"
+      ],
+      "tags": [
+        "Apple"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The British government served Apple with a secret legal notice targeting the company’s cryptographic protections for iCloud accounts, a tribunal has confirmed, ending almost two years of official refusal to acknowledge w",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Apple"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "What Is Preemptive MDR? A Guide For Security Leaders",
+      "link": "https://www.rapid7.com/blog/post/dr-what-is-preemptive-mdr-security-leaders-guide",
+      "source": "Rapid7",
+      "publishedAt": "2026-11-19T15:58:53.000Z",
+      "summary": "When an MDR provider contains a compromised endpoint, your team needs to know whether the weakness that enabled the attack exists elsewhere and who is responsible for addressing it. Without that follow-through, the immed",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "When an MDR provider contains a compromised endpoint, your team needs to know whether the weakness that enabled the attack exists elsewhere and who is responsible for addressing it. Without that follow-through, the immed",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "PHP Patches Seven Critical RCE Vulnerabilities",
+      "link": "https://www.securityweek.com/php-patches-seven-critical-rce-vulnerabilities/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-11-19T15:54:20.000Z",
+      "summary": "Successful exploitation could allow attackers to crash the worker process and execute code with the PHP worker’s privileges.\nThe post PHP Patches Seven Critical RCE Vulnerabilities appeared first on SecurityWeek.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Successful exploitation could allow attackers to crash the worker process and execute code with the PHP worker’s privileges.\nThe post PHP Patches Seven Critical RCE Vulnerabilities appeared first on SecurityWeek.",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "USN-9175-1: Linux kernel (Oracle) vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-9175-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-11-19T15:43:10.000Z",
+      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - Multiple devices driver;\n  - eXpress",
+      "categories": [
+        "Vulnerability",
+        "Incident Response",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux",
+        "Oracle"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - Multiple devices driver;\n  - eXpress",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Linux",
+          "Oracle"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "CyberPower PowerPanel Exploited to Run Malicious Code on Domain Controller",
+      "link": "https://www.infosecurity-magazine.com/news/ups-software-abused-domain/",
+      "source": "Infosecurity Magazine",
+      "publishedAt": "2026-11-19T15:30:00.000Z",
+      "summary": "Symantec found an attacker using CyberPower’s UPS software to run scripts on a domain controller",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Symantec found an attacker using CyberPower’s UPS software to run scripts on a domain controller",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "PHP Releases Patches to Fix 18 Vulnerabilities",
+      "link": "https://www.infosecurity-magazine.com/news/php-releases-patches-fix-18/",
+      "source": "Infosecurity Magazine",
+      "publishedAt": "2026-11-19T15:28:00.000Z",
+      "summary": "PHP has released security updates addressing 18 vulnerabilities, including critical remote code execution flaws affecting session handling",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "PHP has released security updates addressing 18 vulnerabilities, including critical remote code execution flaws affecting session handling",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "PHP 8.6 is out, and here’s what changes for your code",
+      "link": "https://www.helpnetsecurity.com/2026/11/19/php-8-6-released/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-11-19T15:22:36.000Z",
+      "summary": "PHP 8.6 has been released. The new version adds partial function application, a Time\\Duration class, a polling API for event loops and a clamp() function. PHP 8.6 also changes defaults that existing apps could trip over.",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "PHP 8.6 has been released. The new version adds partial function application, a Time\\Duration class, a polling API for event loops and a clamp() function. PHP 8.6 also changes defaults that existing apps could trip over.",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
+      "link": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-11-19T15:18:07.000Z",
+      "summary": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560.\n\nThe release of th",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-115560"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560.\n\nThe release of th",
+        "whyItMatters": "Actively exploited or high-impact; treat as urgent.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Critical",
+        "action": "Patch immediately.",
+        "relatedCves": [
+          "CVE-2026-115560"
+        ],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "European Commission confirms cyberattack, says hackers used AI tool",
+      "link": "https://therecord.media/european-commission-confirms-cyberattack-using-ai",
+      "source": "The Record",
+      "publishedAt": "2026-11-19T15:15:00.000Z",
+      "summary": "POLITICO had reported CERT-EU had identified the attackers’ use of ARTEX, an open-source AI hacking platform that the FBI last week warned was being used both by criminals and state-sponsored groups.",
+      "categories": [
+        "AI Security",
+        "Government",
+        "Open Source"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "POLITICO had reported CERT-EU had identified the attackers’ use of ARTEX, an open-source AI hacking platform that the FBI last week warned was being used both by criminals and state-sponsored groups.",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "USN-9173-1: Linux kernel vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-9173-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-11-19T15:13:04.000Z",
+      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - Multiple devices driver;\n  - eXpress",
+      "categories": [
+        "Vulnerability",
+        "Incident Response",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - Multiple devices driver;\n  - eXpress",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Linux"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "USN-9174-1: Linux kernel (GCP FIPS) vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-9174-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-11-19T15:12:43.000Z",
+      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - Multiple devices driver;\n  - eXpress",
+      "categories": [
+        "Vulnerability",
+        "Incident Response",
+        "Cloud",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux",
+        "GCP"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - Multiple devices driver;\n  - eXpress",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Linux",
+          "GCP"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "USN-9168-2: Linux kernel (FIPS) vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-9168-2",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-11-19T15:12:17.000Z",
+      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - Stream parser;\n  - ARM64 architectur",
+      "categories": [
+        "Vulnerability",
+        "Incident Response",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - Stream parser;\n  - ARM64 architectur",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Linux"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "USN-9171-2: Linux kernel (Oracle) vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-9171-2",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-11-19T15:12:06.000Z",
+      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - IPv4 networking;\n  - Ethernet bridge",
+      "categories": [
+        "Vulnerability",
+        "Incident Response",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux",
+        "Oracle"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - IPv4 networking;\n  - Ethernet bridge",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Linux",
+          "Oracle"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "USN-9170-2: Linux kernel (AWS FIPS) vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-9170-2",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-11-19T15:12:06.000Z",
+      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - IPv4 networking;\n  - Ethernet bridge",
+      "categories": [
+        "Vulnerability",
+        "Incident Response",
+        "Cloud",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux",
+        "AWS"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - IPv4 networking;\n  - Ethernet bridge",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Linux",
+          "AWS"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication",
+      "link": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-11-19T15:11:06.000Z",
+      "summary": "A critical flaw in VMware vCenter lets an attacker with network access bypass authentication and gain unauthorized access to the system, Broadcom, which owns VMware, said in an advisory published today.\n\nFixed versions a",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "VMware"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A critical flaw in VMware vCenter lets an attacker with network access bypass authentication and gain unauthorized access to the system, Broadcom, which owns VMware, said in an advisory published today.\n\nFixed versions a",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "VMware"
+        ],
+        "risk": "News",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Spying on Governments with Zero Lines of Malware: A Custom SoftEther Bridge in Webworm’s Toolkit",
+      "link": "https://www.rapid7.com/blog/post/tr-spying-on-governments-no-malware-custom-webworms-toolkit-softether-bridge",
+      "source": "Rapid7",
+      "publishedAt": "2026-11-19T15:05:34.000Z",
+      "summary": "Introduction\nFor a threat actor, the perfect malware is one they don’t have to write, and already does all they need. One example of this is shown by the China-aligned APT known as Webworm, which has been known to deploy",
+      "categories": [
+        "Malware",
+        "Threat Intel"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Introduction\nFor a threat actor, the perfect malware is one they don’t have to write, and already does all they need. One example of this is shown by the China-aligned APT known as Webworm, which has been known to deploy",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "News",
+        "action": "Monitor for indicators of compromise.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Five warning signs of ransomware breach before encryption or data theft",
+      "link": "https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-11-19T15:00:10.000Z",
+      "summary": "Ransomware attacks often involve credential theft, lateral movement, and attempts to disable security controls long before encryption begins. Acronis examines five warning signs that can help defenders detect intrusions ",
+      "categories": [
+        "Ransomware",
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "high",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Ransomware attacks often involve credential theft, lateral movement, and attempts to disable security controls long before encryption begins. Acronis examines five warning signs that can help defenders detect intrusions ",
+        "whyItMatters": "Significant risk to affected systems; prioritize review.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "High",
+        "action": "Monitor for indicators of compromise.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Critical NGINX ‘NGINX2Root’ bugs let attackers hijack servers",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-11-19T14:57:24.000Z",
+      "summary": "Two critical NGINX vulnerabilities dubbed \"nginx2root\" allow unauthenticated attackers to execute code remotely on vulnerable web servers, with researchers demonstrating how the flaws can be chained with a Linux kernel b",
+      "categories": [
+        "Vulnerability",
+        "Open Source"
+      ],
+      "tags": [
+        "Linux",
+        "Nginx"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Two critical NGINX vulnerabilities dubbed \"nginx2root\" allow unauthenticated attackers to execute code remotely on vulnerable web servers, with researchers demonstrating how the flaws can be chained with a Linux kernel b",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Linux",
+          "Nginx"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "European Commission Confirms AI-Driven Cyber-Attack Took Systems Offline",
+      "link": "https://www.infosecurity-magazine.com/news/commission-ai-attack-systems/",
+      "source": "Infosecurity Magazine",
+      "publishedAt": "2026-11-19T14:45:00.000Z",
+      "summary": "The European Commission said the attack targeted “individual systems”, with reports that attackers leveraged ARTEX in the campaign",
+      "categories": [
+        "Threat Intel",
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The European Commission said the attack targeted “individual systems”, with reports that attackers leveraged ARTEX in the campaign",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Russian spies turn one cloud breach into a stepping stone for the next",
+      "link": "https://www.helpnetsecurity.com/2026/11/19/russian-spies-impersonation-cloud-breach/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-11-19T14:42:20.000Z",
+      "summary": "A Russian cyberespionage group is posing as employees of organizations it has already breached to phish new targets, Google Threat Intelligence Group (GTIG) found. Google tracks the group as COLD RELIC (also known as Sta",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A Russian cyberespionage group is posing as employees of organizations it has already breached to phish new targets, Google Threat Intelligence Group (GTIG) found. Google tracks the group as COLD RELIC (also known as Sta",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites",
+      "link": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-11-19T14:33:06.000Z",
+      "summary": "Under specific conditions, a critical vulnerability in Drupal core can allow an attacker without login credentials to use the built-in installer to attempt to reinstall a site.\n\nThat can lead to a site takeover or remote",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Under specific conditions, a critical vulnerability in Drupal core can allow an attacker without login credentials to use the built-in installer to attempt to reinstall a site.\n\nThat can lead to a site takeover or remote",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Nvidia Responds to Gentlemen Ransomware Claim",
+      "link": "https://www.securityweek.com/nvidia-responds-to-gentlemen-ransomware-claim/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-11-19T14:17:32.000Z",
+      "summary": "Nvidia says it has found no indication that its systems were compromised after the Gentlemen ransomware group listed the company as a victim.\nThe post Nvidia Responds to Gentlemen Ransomware Claim appeared first on Secur",
+      "categories": [
+        "Ransomware",
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "high",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Nvidia says it has found no indication that its systems were compromised after the Gentlemen ransomware group listed the company as a victim.\nThe post Nvidia Responds to Gentlemen Ransomware Claim appeared first on Secur",
+        "whyItMatters": "Significant risk to affected systems; prioritize review.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "High",
+        "action": "Monitor for indicators of compromise.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Why Holiday Security Can't Wait for Black Friday",
+      "link": "https://www.darkreading.com/cybersecurity-operations/why-holiday-security-cant-wait-black-friday",
+      "source": "Dark Reading",
+      "publishedAt": "2026-11-19T14:00:00.000Z",
+      "summary": "Bot-driven fraud and holiday social engineering attacks stretch across many weeks, straining security teams and small businesses alike.",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Bot-driven fraud and holiday social engineering attacks stretch across many weeks, straining security teams and small businesses alike.",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Detecting Timeroasting the Hard Way",
+      "link": "https://www.huntress.com/blog/detecting-timeroasting",
+      "source": "Huntress",
+      "publishedAt": "2026-11-19T14:00:00.000Z",
+      "summary": "Timeroasting leaves no authentication log, but it is not invisible. I reverse MS-SNTP's two authenticator forms to build detection that packet size cannot fool.",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Timeroasting leaves no authentication log, but it is not invisible. I reverse MS-SNTP's two authenticator forms to build detection that packet size cannot fool.",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "USN-9172-1: Linux kernel vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-9172-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-11-19T13:43:11.000Z",
+      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - IPv4 networking;\n  - Ethernet bridge",
+      "categories": [
+        "Vulnerability",
+        "Incident Response",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - IPv4 networking;\n  - Ethernet bridge",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Linux"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "30 Years of Gatekeeper Asymmetry Doom: The Paradox that Makes Powerful LLMs More Vulnerable",
+      "link": "https://research.checkpoint.com/2026/30-years-of-gatekeeper-asymmetry-doom-the-paradox-that-makes-powerful-llms-more-vulnerable/",
+      "source": "Check Point Research",
+      "publishedAt": "2026-11-19T13:19:10.000Z",
+      "summary": "Abstract We give an exposition for a principle of gatekeeper asymmetry doom in information security, which states that “If the system vetting adversarial input has strictly less power than the system processing that inpu",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Abstract We give an exposition for a principle of gatekeeper asymmetry doom in information security, which states that “If the system vetting adversarial input has strictly less power than the system processing that inpu",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Hackers Exploit Cisco Expressway Vulnerability Soon After PoC Release",
+      "link": "https://www.securityweek.com/hackers-exploit-cisco-expressway-vulnerability-soon-after-poc-release/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-11-19T13:12:20.000Z",
+      "summary": "Attackers hacked clustered Cisco Expressway devices at a Russian organization and prepared tooling for lateral movement.\nThe post Hackers Exploit Cisco Expressway Vulnerability Soon After PoC Release appeared first on Se",
+      "categories": [
+        "Vulnerability",
+        "Incident Response",
+        "Research"
+      ],
+      "tags": [
+        "Cisco"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Attackers hacked clustered Cisco Expressway devices at a Russian organization and prepared tooling for lateral movement.\nThe post Hackers Exploit Cisco Expressway Vulnerability Soon After PoC Release appeared first on Se",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Cisco"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Drupal patches critical RCE flaw, warns exploits may surface quickly",
+      "link": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-11-19T13:08:08.000Z",
+      "summary": "The Drupal Security Team has patched a critical remote code execution vulnerability that can let attackers take over vulnerable sites. [...]",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The Drupal Security Team has patched a critical remote code execution vulnerability that can let attackers take over vulnerable sites. [...]",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Exploited Puppet flaw puts the server that configures your endpoint fleet at risk (CVE-2026-115731)",
+      "link": "https://www.helpnetsecurity.com/2026/11/19/puppet-enterprise-vulnerability-cve-2026-115731-exploited/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-11-19T13:07:41.000Z",
+      "summary": "Attackers are exploiting CVE-2026-115731, a critical remote code execution vulnerability in Perforce Puppet Enterprise, an enterprise solution used by IT teams to centralize and automatize endpoint management. Details ab",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-115731"
+      ],
+      "kev": true,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Attackers are exploiting CVE-2026-115731, a critical remote code execution vulnerability in Perforce Puppet Enterprise, an enterprise solution used by IT teams to centralize and automatize endpoint management. Details ab",
+        "whyItMatters": "Actively exploited or high-impact; treat as urgent.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Critical",
+        "action": "Patch immediately.",
+        "relatedCves": [
+          "CVE-2026-115731"
+        ],
+        "source": "heuristic"
+      }
+    },
     {
       "title": "Credential stealer slipped into Microsoft’s official Python agent framework",
       "link": "https://www.helpnetsecurity.com/2026/11/19/microsoft-agent-framework-package-pypi-compromised/",
@@ -143,6 +1614,93 @@
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
+      }
+    },
+    {
+      "title": "Elecbrakes EB2, VM1, ELBC2000",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-11-19T12:00:00.000Z",
+      "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to gain control of the brakes of a trailer, modify the firmware, disable the brake lights, modify the brake conditions or disable",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to gain control of the brakes of a trailer, modify the firmware, disable the brake lights, modify the brake conditions or disable",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "libumqtt",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-11-19T12:00:00.000Z",
+      "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow a remote attacker to cause a denial of service, memory corruption, or information disclosure.\nThe following versions of libumqtt are affected:\nl",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow a remote attacker to cause a denial of service, memory corruption, or information disclosure.\nThe following versions of libumqtt are affected:\nl",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Autonomy Logic OpenPLC Runtime",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-11-19T12:00:00.000Z",
+      "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow several unauthenticated admin accounts to be created.\nThe following versions of Autonomy Logic OpenPLC Runtime are affected:\nOpenPLC Runtime <=4",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow several unauthenticated admin accounts to be created.\nThe following versions of Autonomy Logic OpenPLC Runtime are affected:\nOpenPLC Runtime <=4",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
       }
     },
     {
@@ -412,38 +1970,6 @@
       }
     },
     {
-      "title": "Bitwarden expands passkey support with new Windows and macOS integrations",
-      "link": "https://www.helpnetsecurity.com/2026/11/19/bitwarden-windows-macos-passkeys-integration/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-11-19T10:39:33.000Z",
-      "summary": "Bitwarden announced expanded passkey integrations across Windows and macOS, making it easier to access Bitwarden and use passkeys through native operating system authentication. Users can log in to Bitwarden and unlock t",
-      "categories": [
-        "News"
-      ],
-      "tags": [
-        "Windows",
-        "macOS"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Bitwarden has announced expanded passkey integrations for Windows and macOS operating systems. These new integrations simplify how users access their Bitwarden vaults and utilize passkeys via native authentication methods.",
-        "whyItMatters": "This update improves user convenience and security by integrating passwordless passkey technology directly into native desktop environments.",
-        "affected": [
-          "Bitwarden Windows",
-          "Bitwarden macOS"
-        ],
-        "action": "Update your Bitwarden desktop applications to access the new passkey integrations.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Microsoft confirms app installation, launch issues after hotpatch",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-app-installation-launch-issues-after-hotpatch/",
       "source": "BleepingComputer",
@@ -502,62 +2028,6 @@
       }
     },
     {
-      "title": "F5 Patches Critical NGINX2Root Flaws as PoC Exploits Go Public",
-      "link": "https://www.securityweek.com/f5-patches-critical-nginx2root-flaws-as-poc-exploits-go-public/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-11-19T10:26:51.000Z",
-      "summary": "The five NGINX2Root vulnerabilities could allow remote, unauthenticated attackers to execute arbitrary code.\nThe post F5 Patches Critical NGINX2Root Flaws as PoC Exploits Go Public appeared first on SecurityWeek.",
-      "categories": [
-        "Vulnerability",
-        "Research",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "F5 has released patches for five critical NGINX2Root vulnerabilities that enable remote, unauthenticated attackers to execute arbitrary code. Public proof-of-concept exploits have already been released for these flaws.",
-        "whyItMatters": "Unauthenticated remote code execution flaws combined with public exploit code pose an immediate risk of system compromise if left unpatched.",
-        "affected": [],
-        "action": "Apply the latest patches from F5 immediately.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Palo Alto Networks to acquire Applied Compute for $4.5 billion",
-      "link": "https://www.helpnetsecurity.com/2026/11/19/palo-alto-networks-acquires-applied-compute/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-11-19T10:23:41.000Z",
-      "summary": "Palo Alto Networks will acquire Applied Compute, a platform for post-training and inference of open-weight AI models. The all-stock transaction is valued at $4.5 billion, subject to adjustments. The acquisition will brin",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [
-        "Palo Alto"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Palo Alto Networks has agreed to acquire Applied Compute, an AI model platform, in an all-stock transaction valued at $4.5 billion. The deal focuses on integrating post-training and inference capabilities for open-weight AI models.",
-        "whyItMatters": "This multi-billion dollar acquisition highlights the ongoing consolidation and heavy investment in AI infrastructure by major cybersecurity firms.",
-        "affected": [],
-        "action": "Monitor updates regarding the acquisition and its integration into Palo Alto Networks' product ecosystem.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Sticky note on monitor provided keys to the company’s kingdom",
       "link": "https://www.theregister.com/security/2026/11/19/sticky-note-on-monitor-provided-keys-to-the-companys-kingdom/5310908",
       "source": "The Register",
@@ -584,230 +2054,6 @@
       }
     },
     {
-      "title": "GTA 6 scams are after your Google password, money, and crypto wallet",
-      "link": "https://www.helpnetsecurity.com/2026/11/19/gta-6-scams-threats/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-11-19T10:09:31.000Z",
-      "summary": "Scammers are using the GTA 6 launch to steal Google passwords, sell game keys that may never arrive, and get players to connect crypto wallets. Stefan Dasic, a senior malware research engineer at Malwarebytes, tracked th",
-      "categories": [
-        "Malware",
-        "Research"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Scammers are using the GTA 6 launch to steal Google passwords, sell game keys that may never arrive, and get players to connect crypto wallets. Stefan Dasic, a senior malware research engineer at Malwarebytes, tracked th",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "risk": "News",
-        "action": "Monitor for indicators of compromise.",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Ukraine arrests key members of ransomware gang that extorted $40.5 million posing as IT support",
-      "link": "https://www.helpnetsecurity.com/2026/11/19/ukraine-ransomware-gang-arrests-fake-it-support-calls/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-11-19T10:07:30.000Z",
-      "summary": "Four key members of a ransomware group that took more than $40.5 million from at least 28 companies have been detained in Ukraine. The group’s members posed as IT support staff on phone calls to break into corporate netw",
-      "categories": [
-        "Ransomware"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "high",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Four key members of a ransomware group that took more than $40.5 million from at least 28 companies have been detained in Ukraine. The group’s members posed as IT support staff on phone calls to break into corporate netw",
-        "whyItMatters": "Significant risk to affected systems; prioritize review.",
-        "affected": [
-          "Not specified"
-        ],
-        "risk": "High",
-        "action": "Monitor for indicators of compromise.",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "USN-9160-1: Linux kernel (Azure) vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-9160-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-11-19T09:58:38.000Z",
-      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - USB Gadget drivers;\n  - Memory manag",
-      "categories": [
-        "Vulnerability",
-        "Incident Response",
-        "Cloud",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux",
-        "Azure"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - USB Gadget drivers;\n  - Memory manag",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Linux",
-          "Azure"
-        ],
-        "risk": "Medium",
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "USN-9164-1: Linux kernel (FIPS) vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-9164-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-11-19T09:58:05.000Z",
-      "summary": "Demi Marie Obenour and Simon Gaiser discovered that several Xen para-\nvirtualization device frontends did not properly restrict the access rights\nof device backends. An attacker could possibly use a malicious Xen backend",
-      "categories": [
-        "Vulnerability",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Demi Marie Obenour and Simon Gaiser discovered that several Xen para-\nvirtualization device frontends did not properly restrict the access rights\nof device backends. An attacker could possibly use a malicious Xen backend",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Linux"
-        ],
-        "risk": "Medium",
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "USN-9163-1: Linux kernel vulnerability",
-      "link": "https://ubuntu.com/security/notices/USN-9163-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-11-19T09:57:59.000Z",
-      "summary": "A security issue was discovered in the Linux kernel.\nAn attacker could possibly use this to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - File systems infrastructure;",
-      "categories": [
-        "Vulnerability",
-        "Incident Response",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A security issue was discovered in the Linux kernel.\nAn attacker could possibly use this to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - File systems infrastructure;",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Linux"
-        ],
-        "risk": "Medium",
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "USN-9162-1: Linux kernel vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-9162-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-11-19T09:57:50.000Z",
-      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - S/390 drivers;\n  - File systems infr",
-      "categories": [
-        "Vulnerability",
-        "Incident Response",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - S/390 drivers;\n  - File systems infr",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Linux"
-        ],
-        "risk": "Medium",
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "USN-9161-1: Linux kernel vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-9161-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-11-19T09:57:49.000Z",
-      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - S/390 drivers;\n  - File systems infr",
-      "categories": [
-        "Vulnerability",
-        "Incident Response",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - S/390 drivers;\n  - File systems infr",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Linux"
-        ],
-        "risk": "Medium",
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Scattered Spider’s phishing and SIM-swap tactics led to six-year sentence",
       "link": "https://www.malwarebytes.com/blog/news/2026/11/scattered-spiders-phishing-and-sim-swap-tactics-led-to-six-year-sentence",
       "source": "Malwarebytes Labs",
@@ -829,8 +2075,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -852,42 +2098,13 @@
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "N-able on Wednesday disclosed that unknown threat actors gained unauthorized access to one of the servers in the Mail Assure and Spam Experts Hosted Cloud, causing it to disable management interfaces and APIs.\n\n\"We have ",
+        "summary": "N-able on Wednesday disclosed that unknown threat actors gained unauthorized access to one of the servers in the Mail Assure and Spam Experts Hosted Cloud, causing it to disable management interfaces and APIs.\n\n\"We have",
         "whyItMatters": "Background context; no immediate action expected.",
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "NVIDIA investigating Gentlemen ransomware breach claims",
-      "link": "https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-11-19T09:23:21.000Z",
-      "summary": "NVIDIA is investigating claims of a security breach after the Gentlemen ransomware group has added the company to its dark web data leak site. [...]",
-      "categories": [
-        "Ransomware",
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "high",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "NVIDIA is investigating claims of a security breach after the Gentlemen ransomware group has added the company to its dark web data leak site. [...]",
-        "whyItMatters": "Significant risk to affected systems; prioritize review.",
-        "affected": [
-          "Not specified"
-        ],
-        "risk": "High",
-        "action": "Monitor for indicators of compromise.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -914,38 +2131,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Java4Shell Exploitation Attempts Begin as Vendors Rush Out Advisories",
-      "link": "https://www.securityweek.com/java4shell-exploitation-attempts-begin-as-vendors-rush-out-advisories/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-11-19T09:10:58.000Z",
-      "summary": "GreyNoise, WatchTowr and Cloudflare report probing and exploit attempts, while Cisco, Elastic, Red Hat and Siemens detail impact.\nThe post Java4Shell Exploitation Attempts Begin as Vendors Rush Out Advisories appeared fi",
-      "categories": [
-        "Vulnerability"
-      ],
-      "tags": [
-        "Cisco"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "GreyNoise, WatchTowr and Cloudflare report probing and exploit attempts, while Cisco, Elastic, Red Hat and Siemens detail impact.\nThe post Java4Shell Exploitation Attempts Begin as Vendors Rush Out Advisories appeared fi",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Cisco"
-        ],
         "risk": "News",
-        "action": "No action required; informational.",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -972,72 +2159,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "High",
         "action": "Review and assess impact on your environment.",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Researcher Demonstrates Database RCE Exploits Affecting PostgreSQL, MySQL and Oracle",
-      "link": "https://thehackernews.com/2026/11/researcher-demonstrates-database-rce.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-11-19T08:14:00.000Z",
-      "summary": "Low-privilege database accounts that cannot read a single application table can still be used to run code on the database server itself, a researcher has shown, by reaching memory-corruption bugs in the engine code behin",
-      "categories": [
-        "News"
-      ],
-      "tags": [
-        "Oracle"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Low-privilege database accounts that cannot read a single application table can still be used to run code on the database server itself, a researcher has shown, by reaching memory-corruption bugs in the engine code behin",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Oracle"
-        ],
-        "risk": "News",
-        "action": "No action required; informational.",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
-      "link": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-11-19T08:00:00.000Z",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added four vulnerabilities impacting Synology DiskStation Manager (DSM), BerriAI LiteLLM, Apache Axis, and Vanderbilt University Research Elec",
-      "categories": [
-        "Ransomware",
-        "Vulnerability",
-        "Research",
-        "Government",
-        "Open Source"
-      ],
-      "tags": [
-        "Apache"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "high",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added four vulnerabilities impacting Synology DiskStation Manager (DSM), BerriAI LiteLLM, Apache Axis, and Vanderbilt University Research Elec",
-        "whyItMatters": "Significant risk to affected systems; prioritize review.",
-        "affected": [
-          "Apache"
-        ],
         "risk": "High",
-        "action": "Monitor for indicators of compromise.",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1064,132 +2187,41 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
     },
     {
-      "title": "PHP Readies Critical Security Updates to Patch Another RCE Flaw",
-      "link": "https://www.securityweek.com/php-readies-critical-security-updates-to-patch-another-rce-flaw/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-11-19T07:45:17.000Z",
-      "summary": "Affecting the session upload progress, CVE-2026-115560 was publicly disclosed two days after PHP2Shell patches landed.\nThe post PHP Readies Critical Security Updates to Patch Another RCE Flaw appeared first on SecurityWe",
+      "title": "Java4Shell (CVE-2026-114938): CrowdStrike Detects Exposure and Post-Exploitation Activity",
+      "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-helps-protect-against-java4shell-cve-2026-114938/",
+      "source": "CrowdStrike",
+      "publishedAt": "2026-11-19T06:00:00.000Z",
+      "summary": "Java4Shell (CVE-2026-114938): CrowdStrike Detects Exposure and Post-Exploitation Activity",
       "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
+        "Vulnerability"
       ],
       "tags": [],
       "cves": [
-        "CVE-2026-115560"
+        "CVE-2026-114938"
       ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Affecting the session upload progress, CVE-2026-115560 was publicly disclosed two days after PHP2Shell patches landed.\nThe post PHP Readies Critical Security Updates to Patch Another RCE Flaw appeared first on SecurityWe",
-        "whyItMatters": "Actively exploited or high-impact; treat as urgent.",
-        "affected": [
-          "Not specified"
-        ],
-        "risk": "Critical",
-        "action": "Patch immediately.",
-        "relatedCves": [
-          "CVE-2026-115560"
-        ],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "USN-9159-1: nginx vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-9159-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-11-19T05:21:17.000Z",
-      "summary": "Stephen Fewer and Tomer Schwartz discovered that nginx did not correctly\nhandle certain memory operations. A remote attacker could possibly use\nthis issue to cause a denial of service or execute arbitrary code. This\nissu",
-      "categories": [
-        "Vulnerability",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Nginx"
-      ],
-      "cves": [],
       "kev": false,
       "poc": false,
       "severity": "medium",
       "breaking": false,
-      "readTimeMin": 1,
+      "readTimeMin": 2,
       "aiSummary": {
-        "summary": "Stephen Fewer and Tomer Schwartz discovered that nginx did not correctly\nhandle certain memory operations. A remote attacker could possibly use\nthis issue to cause a denial of service or execute arbitrary code. This\nissu",
+        "summary": "Java4Shell (CVE-2026-114938): CrowdStrike Detects Exposure and Post-Exploitation Activity",
         "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Nginx"
-        ],
-        "risk": "Medium",
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Fixes Coming November 19",
-      "link": "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-11-19T04:33:46.000Z",
-      "summary": "The maintainers of the PHP programming language on Wednesday issued an advisory announcing an upcoming security release that addresses critical flaws.\n\nThe release is scheduled for November 19, 2026, between 2 and 2:30 p",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The maintainers of the PHP programming language on Wednesday issued an advisory announcing an upcoming security release that addresses critical flaws.\n\nThe release is scheduled for November 19, 2026, between 2 and 2:30 p",
-        "whyItMatters": "Background context; no immediate action expected.",
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
+        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Palo Alto Networks to Buy AI Startup Applied Compute for $4.5 Billion",
-      "link": "https://www.securityweek.com/palo-alto-networks-to-buy-ai-startup-applied-compute-for-4-5-billion/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-11-19T03:25:23.000Z",
-      "summary": "The all-stock deal will give the cybersecurity company a platform for fine-tuning and running open-weight AI models in public and sovereign clouds.\nThe post Palo Alto Networks to Buy AI Startup Applied Compute for $4.5 B",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [
-        "Palo Alto"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The all-stock deal will give the cybersecurity company a platform for fine-tuning and running open-weight AI models in public and sovereign clouds.\nThe post Palo Alto Networks to Buy AI Startup Applied Compute for $4.5 B",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Palo Alto"
+        "relatedCves": [
+          "CVE-2026-114938"
         ],
-        "risk": "News",
-        "action": "No action required; informational.",
-        "relatedCves": [],
         "source": "heuristic"
       }
     },
@@ -1307,29 +2339,62 @@
       }
     },
     {
-      "title": "Russian charged with spying on Palantir employees for Moscow",
-      "link": "https://therecord.media/russian-charged-with-spying-on-palantir-for-moscow",
-      "source": "The Record",
+      "title": "DSA-6642-1 nginx - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00564.html",
+      "source": "Debian Security",
       "publishedAt": "2026-11-19T00:00:00.000Z",
-      "summary": "Igor Andreevich D’iu, A Russian national recruited through Telegram, has been charged in the United States with acting as a Moscow agent in a surveillance campaign targeting employees of a defense technology company, und",
+      "summary": "Multiple vulnerabilities were discovered in Nginx, a high-performance\nweb and reverse proxy server, which could result in remote code\nexecution, denial of service, information disclosure or bypassing\nverification of clie",
       "categories": [
-        "Threat Intel"
+        "Vulnerability",
+        "Vendor Advisory",
+        "Open Source"
+      ],
+      "tags": [
+        "Nginx"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple vulnerabilities were discovered in Nginx, a high-performance\nweb and reverse proxy server, which could result in remote code\nexecution, denial of service, information disclosure or bypassing\nverification of clie",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Nginx"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "DSA-6641-1 php8.4 - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00563.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "summary": "Multiple security issues were found in PHP, a widely-used open source\ngeneral purpose scripting language which could result in the execution\nof arbitrary code, denial of service, information disclosure, privilege\nescalat",
+      "categories": [
+        "Vendor Advisory",
+        "Open Source"
       ],
       "tags": [],
       "cves": [],
       "kev": false,
       "poc": false,
-      "severity": "news",
+      "severity": "medium",
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "Igor Andreevich D’iu, A Russian national recruited through Telegram, has been charged in the United States with acting as a Moscow agent in a surveillance campaign targeting employees of a defense technology company, und",
-        "whyItMatters": "Background context; no immediate action expected.",
+        "summary": "Multiple security issues were found in PHP, a widely-used open source\ngeneral purpose scripting language which could result in the execution\nof arbitrary code, denial of service, information disclosure, privilege\nescalat",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
-        "action": "No action required; informational.",
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1357,8 +2422,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1386,8 +2451,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1409,50 +2474,23 @@
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "The update for needrestart announced as DSA 6637-1 introduced a\nregression due to an incorrect backport when using notify-send to notify\na user session via dbus. Updated packages are now available to correct\nthis issue.\n",
+        "summary": "The update for needrestart announced as DSA 6637-1 introduced a\nregression due to an incorrect backport when using notify-send to notify\na user session via dbus. Updated packages are now available to correct\nthis issue.",
         "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
     },
     {
-      "title": "Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms",
-      "link": "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-11-18T23:08:33.000Z",
-      "summary": "Ukrainian authorities, working with the FBI, have arrested four suspected members of an international ransomware organization linked to more than $40.5 million in ransom payments from at least 28 companies worldwide. [..",
-      "categories": [
-        "Ransomware",
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "high",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Ukrainian authorities and the FBI have arrested four suspected members of an international ransomware organization. The group is linked to more than $40.5 million in ransom payments extracted from at least 28 companies worldwide.",
-        "whyItMatters": "This law enforcement action disrupts a major cybercriminal operation responsible for significant financial losses across global enterprises.",
-        "affected": [],
-        "action": "Review organizational ransomware defenses and incident response plans.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Get ready for another critical PHP security release to drop",
-      "link": "https://www.theregister.com/patches/2026/11/18/get-ready-for-another-critical-php-security-release-to-drop/5310911",
+      "title": "Another critical PHP security release has dropped",
+      "link": "https://www.theregister.com/patches/2026/11/18/another-critical-php-security-release-has-dropped/5310911",
       "source": "The Register",
       "publishedAt": "2026-11-18T22:38:12.000Z",
-      "summary": "At least one dangerous RCE bug will get a fix on Thursday",
+      "summary": "At least one dangerous RCE bug gota fix on Thursday",
       "categories": [
         "News"
       ],
@@ -1462,73 +2500,17 @@
       "poc": false,
       "severity": "news",
       "breaking": false,
-      "readTimeMin": 1,
+      "readTimeMin": 2,
       "aiSummary": {
-        "summary": "PHP is scheduled to release a critical security update on Thursday to address at least one dangerous remote code execution vulnerability. Developers and administrators should prepare to patch their systems once the update becomes available.",
-        "whyItMatters": "Remote code execution flaws allow attackers to take complete control of affected servers and applications.",
-        "affected": [],
-        "action": "Prepare to update PHP to the latest version upon release.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-9158-1: OpenJDK 27 vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-9158-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-11-18T22:13:47.000Z",
-      "summary": "Albert Yang and Quang Luong discovered that the Compiler component of\nOpenJDK 27 did not correctly handle certain inputs. A remote attacker could\npossibly use this issue to cause a denial of service or execute arbitrary\n",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Albert Yang and Quang Luong discovered vulnerabilities in the Compiler component of OpenJDK 27 related to improper input handling. A remote attacker could potentially exploit these flaws to trigger a denial of service or execute arbitrary code.",
-        "whyItMatters": "Unvalidated input handling in core Java components can allow remote attackers to compromise system availability and execute unauthorized code.",
+        "summary": "At least one dangerous RCE bug gota fix on Thursday",
+        "whyItMatters": "Background context; no immediate action expected.",
         "affected": [
-          "OpenJDK 27"
+          "Not specified"
         ],
-        "action": "Update OpenJDK 27 to the latest patched version.",
-        "risk": "High",
+        "risk": "News",
+        "action": "No action required; informational.",
         "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-9157-1: OpenJDK 25 vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-9157-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-11-18T22:13:33.000Z",
-      "summary": "Albert Yang and Quang Luong discovered that the Compiler component of\nOpenJDK 25 did not correctly handle certain inputs. A remote attacker could\npossibly use this issue to cause a denial of service or execute arbitrary\n",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Albert Yang and Quang Luong discovered vulnerabilities in the Compiler component of OpenJDK 25. A remote attacker could potentially exploit these flaws to cause a denial of service or execute arbitrary code.",
-        "whyItMatters": "Unpatched vulnerabilities in OpenJDK 25 can allow remote attackers to compromise system availability and execute unauthorized code.",
-        "affected": [
-          "OpenJDK 25"
-        ],
-        "action": "Update OpenJDK 25 to the latest patched version.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
+        "source": "heuristic"
       }
     },
     {
@@ -1705,32 +2687,6 @@
       }
     },
     {
-      "title": "Coinbase blocks $4.7 million in transfers to Elon Musk deepfake scam",
-      "link": "https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-11-18T20:49:32.000Z",
-      "summary": "Coinbase says it blocked $4.7 million in cryptocurrency transfers to scammers promoting a fake giveaway using an AI-generated deepfake of Elon Musk during a Tesla livestream that attracted more than 500,000 viewers. [...",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Coinbase successfully blocked 4.7 million dollars in cryptocurrency transfers destined for scammers. The fraudsters utilized an AI-generated deepfake of Elon Musk during a Tesla livestream to promote a fake giveaway to over 500,000 viewers.",
-        "whyItMatters": "This incident highlights the escalating threat of AI-driven deepfake scams targeting high-profile cryptocurrency events to deceive large audiences.",
-        "affected": [],
-        "action": "Remain vigilant against deepfake-based cryptocurrency giveaway scams.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Strike Graph Launches Integration AI to Automate Continuous Compliance Evidence Using Any Existing Tool",
       "link": "https://www.darkreading.com/cyber-risk/strike-graph-launches-integration-ai-to-automate-continuous-compliance-evidence-using-any-existing-tool",
       "source": "Dark Reading",
@@ -1751,33 +2707,6 @@
         "whyItMatters": "This tool streamlines the labor-intensive process of continuous compliance evidence collection for organizations.",
         "affected": [],
         "action": "Evaluate the Strike Graph AI integration to streamline your compliance evidence collection.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Judge signs off on sale of Spirit Airlines’ data to Google",
-      "link": "https://therecord.media/judge-signs-off-google-purchase-spirit-airlines-data",
-      "source": "The Record",
-      "publishedAt": "2026-11-18T20:39:00.000Z",
-      "summary": "Google can take possession of defunct Spirit Airlines' data for $10 million, a federal bankruptcy judge has ruled. The tech giant agreed to protections as it plans to use the data in AI projects.",
-      "categories": [
-        "AI Security",
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A federal bankruptcy judge has approved the sale of defunct Spirit Airlines' data to Google for $10 million. Google plans to incorporate this data into its artificial intelligence projects under agreed-upon protections.",
-        "whyItMatters": "The transfer of large volumes of consumer and operational data to a major tech platform raises potential privacy and data governance concerns.",
-        "affected": [],
-        "action": "Monitor privacy policy updates regarding the handling of acquired airline data.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -1812,32 +2741,6 @@
       }
     },
     {
-      "title": "Trump administration officials size-up a bad stretch for tech",
-      "link": "https://therecord.media/tech-disruptions-house-homeland-committee-testimony",
-      "source": "The Record",
-      "publishedAt": "2026-11-18T20:00:00.000Z",
-      "summary": "Homeland Security Secretary Markwayne Mullin said the administration will reach out to industry to get companies to share more information about big patches before they take effect.",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Homeland Security Secretary Markwayne Mullin stated the administration will reach out to tech companies to encourage more information sharing regarding major patches prior to their release. This effort aims to improve government visibility into upcoming software updates and security changes.",
-        "whyItMatters": "Closer coordination between tech companies and the government on patch releases could impact deployment timelines and vulnerability disclosure processes.",
-        "affected": [],
-        "action": "Monitor upcoming policy discussions regarding patch information sharing.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Java4Shell, NGINX2Shell and more: Why we are not at \"Yellow\", (Wed, Nov 18th)",
       "link": "https://isc.sans.edu/diary/rss/33532",
       "source": "SANS ISC",
@@ -1864,35 +2767,6 @@
       }
     },
     {
-      "title": "Data breach impacts 40 Irish credit unions in reported IT provider hack",
-      "link": "https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-11-18T19:39:33.000Z",
-      "summary": "A reported cyberattack on Wellington IT has exposed sensitive information belonging to members of 50 credit unions, the majority of which are located in Ireland. [...]",
-      "categories": [
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A cyberattack on IT provider Wellington IT has resulted in a data breach exposing sensitive information of members across approximately 40 to 50 credit unions, primarily in Ireland. The incident highlights supply chain vulnerabilities within the financial sector as investigations into the scope of the compromise continue.",
-        "whyItMatters": "This incident exposes sensitive financial and personal data of credit union members through a single compromised third-party IT provider, highlighting the cascading risks of supply chain attacks.",
-        "affected": [
-          "Wellington IT systems",
-          "Irish credit unions using Wellington IT"
-        ],
-        "action": "Verify if your credit union is affected and monitor your financial accounts for suspicious activity.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Senate Republicans advance FCC nominee, slate of cyber bills",
       "link": "https://cyberscoop.com/danielle-thumann-severs-fcc-nomination-tech-bills/",
       "source": "CyberScoop",
@@ -1913,32 +2787,6 @@
         "whyItMatters": "This political stalemate impacts the advancement of critical national cybersecurity legislation and regulatory oversight.",
         "affected": [],
         "action": "Monitor the status of pending cybersecurity legislation and FCC confirmations.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Lawmakers call on White House to develop defensive AI cyber systems",
-      "link": "https://therecord.media/ai-cyber-white-house",
-      "source": "The Record",
-      "publishedAt": "2026-11-18T19:00:00.000Z",
-      "summary": "A bipartisan Senate duo urged the White House to launch a national effort to more robustly confront AI-enabled cyber threats in light of recent security incidents involving artificial intelligence.",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A bipartisan Senate duo has urged the White House to launch a national effort to develop defensive AI cyber systems. The call comes in light of recent security incidents involving artificial intelligence.",
-        "whyItMatters": "It highlights the growing urgency for government-backed defensive AI strategies to counter evolving, AI-enabled cyber threats.",
-        "affected": [],
-        "action": "Monitor upcoming White House policy developments regarding AI cybersecurity initiatives.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -1976,41 +2824,6 @@
       }
     },
     {
-      "title": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
-      "link": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-11-18T18:31:17.000Z",
-      "summary": "A flaw in NGINX's HTTP/2 support can allow an attacker to run code on servers with HTTP/2 enabled, without needing to log in.\n\nThe decade-old flaw, CVE-2026-123007, dubbed \"nginx2root,\" has been present in NGINX's open-s",
-      "categories": [
-        "Vulnerability",
-        "Open Source"
-      ],
-      "tags": [
-        "Nginx"
-      ],
-      "cves": [
-        "CVE-2026-123007"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A decade-old vulnerability in NGINX's HTTP/2 implementation allows unauthenticated remote attackers to execute arbitrary code on affected servers. Tracked as CVE-2026-123007 and dubbed 'nginx2root', the flaw impacts systems running with HTTP/2 enabled.",
-        "whyItMatters": "It grants unauthenticated attackers remote code execution capabilities on vulnerable web servers via a long-standing core protocol flaw.",
-        "affected": [
-          "NGINX"
-        ],
-        "action": "Update NGINX to the latest patched version.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-123007"
-        ],
-        "source": "ai"
-      }
-    },
-    {
       "title": "[In preview] Public Preview: AI bot ruleset for Azure Front Door Premium WAF",
       "link": "https://azure.microsoft.com/updates?id=581604",
       "source": "Azure Updates",
@@ -2037,34 +2850,6 @@
         ],
         "action": "Evaluate the new AI bot ruleset in your Azure Front Door environment.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "F5 Warns 6 Critical BIG-IP Flaws Can Crash Traffic in Specific Setups, May Allow RCE",
-      "link": "https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-11-18T18:15:39.000Z",
-      "summary": "Six critical vulnerabilities in F5 BIG-IP allow an attacker to crash the Traffic Management Microkernel (TMM) without logging in, disrupting traffic until the TMM restarts.\n\nEach flaw needs a specific setup on a virtual ",
-      "categories": [
-        "Vulnerability"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "F5 has warned of six critical vulnerabilities in BIG-IP systems that allow unauthenticated attackers to crash the Traffic Management Microkernel and disrupt traffic. Exploiting these flaws requires specific configurations on virtual setups and may potentially lead to remote code execution.",
-        "whyItMatters": "These critical flaws can be exploited without authentication to cause severe denial-of-service conditions by crashing traffic management services.",
-        "affected": [
-          "F5 BIG-IP (virtual editions with specific setups)"
-        ],
-        "action": "Review the advisory and apply the necessary patches or configuration mitigations provided by F5.",
-        "risk": "Critical",
         "relatedCves": [],
         "source": "ai"
       }
@@ -2162,95 +2947,6 @@
       }
     },
     {
-      "title": "California tells Waymo to take the next exit after freeway mishaps",
-      "link": "https://www.theregister.com/security/2026/11/18/california-tells-waymo-to-take-the-next-exit-after-freeway-mishaps/5310841",
-      "source": "The Register",
-      "publishedAt": "2026-11-18T17:45:00.000Z",
-      "summary": "Robotaxi operator suspends driverless rides on high-speed roads nationwide after construction zone incursions and a run-in with patrol vehicles",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Robotaxi operator suspends driverless rides on high-speed roads nationwide after construction zone incursions and a run-in with patrol vehicles",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Microsoft's official Python agent framework hijacked to distribute malware",
-      "link": "https://www.theregister.com/security/2026/11/18/microsofts-official-python-agent-framework-hijacked-to-distribute-malware/5310858",
-      "source": "The Register",
-      "publishedAt": "2026-11-18T17:23:37.000Z",
-      "summary": "In today's how-could-things-get-worse-for-Microsoft news, it seems someone's GitHub org admin creds have been compromised",
-      "categories": [
-        "Malware",
-        "Incident Response",
-        "Open Source"
-      ],
-      "tags": [
-        "GitHub"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "In today's how-could-things-get-worse-for-Microsoft news, it seems someone's GitHub org admin creds have been compromised",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "GitHub"
-        ],
-        "action": "Monitor for indicators of compromise.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Microsoft’s Agent Framework PyPI package compromised to steal credentials",
-      "link": "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-11-18T16:58:42.000Z",
-      "summary": "Hackers compromised Microsoft's official Agent Framework Python package on PyPI, publishing two malicious versions designed to steal cloud credentials and other sensitive information from developers' systems. [...]",
-      "categories": [
-        "Incident Response",
-        "Open Source"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Hackers compromised Microsoft's official Agent Framework Python package on PyPI, publishing two malicious versions designed to steal cloud credentials and other sensitive information from developers' systems. [...]",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Five Critical Vulnerabilities Found in World's Most Widely Used Open-Source Web Server",
       "link": "https://www.infosecurity-magazine.com/news/five-critical-vulnerabilities/",
       "source": "Infosecurity Magazine",
@@ -2306,62 +3002,6 @@
         ],
         "action": "Review advisory for affected versions and patch on your normal cycle.",
         "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "NSA continues response to interruptions in classified internal network",
-      "link": "https://therecord.media/nsa-continues-response-to-nsa-net-problems",
-      "source": "The Record",
-      "publishedAt": "2026-11-18T16:19:00.000Z",
-      "summary": "Day 2 of the NSA Net's disruptions included staggered arrivals and logins at Fort Meade, while a source said classified national security work continued unimpeded.",
-      "categories": [
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Day 2 of the NSA Net's disruptions included staggered arrivals and logins at Fort Meade, while a source said classified national security work continued unimpeded.",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Cyber insurers now want proof you can actually recover",
-      "link": "https://www.theregister.com/security/2026/11/18/partner-content-cyber-insurers-now-want-proof-you-can-actually-recover/5309325",
-      "source": "The Register",
-      "publishedAt": "2026-11-18T16:00:00.000Z",
-      "summary": "PARTNER CONTENT: As carriers tighten underwriting, a backup job marked green is no longer enough. Here’s the evidence underwriters expect",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "PARTNER CONTENT: As carriers tighten underwriting, a backup job marked green is no longer enough. Here’s the evidence underwriters expect",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -2426,34 +3066,6 @@
         ],
         "action": "Review advisory for affected versions and patch on your normal cycle.",
         "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "From Deepfakes to Helpdesk Impersonation: Why Stronger Verification Matters",
-      "link": "https://www.bleepingcomputer.com/news/security/from-deepfakes-to-helpdesk-impersonation-why-stronger-verification-matters/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-11-18T15:00:10.000Z",
-      "summary": "Attackers are using deepfakes, helpdesk impersonation, and fake IT support requests to deceive employees and gain unauthorized access to corporate systems. Specops Software examines real-world attacks and explains how st",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Attackers are using deepfakes, helpdesk impersonation, and fake IT support requests to deceive employees and gain unauthorized access to corporate systems. Specops Software examines real-world attacks and explains how st",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -2571,35 +3183,6 @@
       }
     },
     {
-      "title": "Suspected Chinese APT Rebuilds EggStreme Malware After Exposure",
-      "link": "https://www.infosecurity-magazine.com/news/eggstreme-malware-rebuilt-after/",
-      "source": "Infosecurity Magazine",
-      "publishedAt": "2026-11-18T14:00:00.000Z",
-      "summary": "Suspected Chinese APT rebuilt EggStreme malware and infrastructure after Bitdefender exposure",
-      "categories": [
-        "Malware",
-        "Threat Intel"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "Suspected Chinese APT rebuilt EggStreme malware and infrastructure after Bitdefender exposure",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Monitor for indicators of compromise.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "CVE-2026-123007: Critical NGINX HTTP/2 Integer Underflow Leads to RCE (FIXED)",
       "link": "https://www.rapid7.com/blog/post/ve-cve-2026-123007-critical-nginx-http-2-integer-underflow-leads-to-rce-fixed",
       "source": "Rapid7",
@@ -2663,35 +3246,6 @@
       }
     },
     {
-      "title": "Java4Shell Vulnerability Allows Remote Attacks on Major Java Apps",
-      "link": "https://www.infosecurity-magazine.com/news/java4shell-vulnerability-remote/",
-      "source": "Infosecurity Magazine",
-      "publishedAt": "2026-11-18T12:35:00.000Z",
-      "summary": "A critical OpenJDK vulnerability could expose major Java applications to remote code execution, prompting CISA to urge organizations implement mitigations",
-      "categories": [
-        "Vulnerability",
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A critical OpenJDK vulnerability known as Java4Shell allows remote code execution attacks on major Java applications. CISA has responded by urging organizations to quickly implement necessary mitigations.",
-        "whyItMatters": "This flaw poses a severe remote code execution risk to widely used Java applications, threatening enterprise security.",
-        "affected": [
-          "OpenJDK"
-        ],
-        "action": "Implement recommended mitigations immediately.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "France Is Blaming Iran for the Fridge Cyberattack",
       "link": "https://www.schneier.com/blog/archives/2026/11/france-is-blaming-iran-for-the-fridge-cyberattack.html",
       "source": "Schneier on Security",
@@ -2749,32 +3303,6 @@
           "CVE-2024-10441"
         ],
         "source": "heuristic"
-      }
-    },
-    {
-      "title": "Russian Espionage Actor Star Blizzard Focuses on Cloud Identities for Mass Data Theft",
-      "link": "https://www.infosecurity-magazine.com/news/russian-star-blizzard-cloud-data/",
-      "source": "Infosecurity Magazine",
-      "publishedAt": "2026-11-18T11:45:00.000Z",
-      "summary": "New Google analysis of Star Blizzard, aka Cold Relic, highlighted the group’s growing focus on compromising cloud environments to steal data and facilitate further attacks",
-      "categories": [
-        "Threat Intel"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Google analysis reveals that the Russian espionage group Star Blizzard is increasingly focusing on compromising cloud environments to conduct mass data theft. The threat actor, also known as Cold Relic, uses these cloud compromises to facilitate further cyber attacks.",
-        "whyItMatters": "This shift towards cloud identity compromise poses a significant risk to organizations relying on cloud infrastructure for sensitive data storage.",
-        "affected": [],
-        "action": "Strengthen identity and access management controls for all cloud environments.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
       }
     },
     {
@@ -2907,8 +3435,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -2970,8 +3498,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -3005,34 +3533,6 @@
       }
     },
     {
-      "title": "CrowdStrike Is Building the Engine of the Agentic SOC with Falcon Next-Gen SIEM",
-      "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-gartner-mq-siem/",
-      "source": "CrowdStrike",
-      "publishedAt": "2026-11-18T06:00:00.000Z",
-      "summary": "CrowdStrike Is Building the Engine of the Agentic SOC with Falcon Next-Gen SIEM",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CrowdStrike Is Building the Engine of the Agentic SOC with Falcon Next-Gen SIEM",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "CrowdStrike Brings the Human Advantage to AI Detection and Response",
       "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-brings-human-advantage-aidr/",
       "source": "CrowdStrike",
@@ -3050,6 +3550,34 @@
       "readTimeMin": 1,
       "aiSummary": {
         "summary": "CrowdStrike Brings the Human Advantage to AI Detection and Response",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "action": "No action required; informational.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "CrowdStrike Is Building the Engine of the Agentic SOC with Falcon Next-Gen SIEM",
+      "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-gartner-mq-siem/",
+      "source": "CrowdStrike",
+      "publishedAt": "2026-11-18T06:00:00.000Z",
+      "summary": "CrowdStrike Is Building the Engine of the Agentic SOC with Falcon Next-Gen SIEM",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "CrowdStrike Is Building the Engine of the Agentic SOC with Falcon Next-Gen SIEM",
         "whyItMatters": "Background context; no immediate action expected.",
         "affected": [
           "Not specified"
@@ -3352,35 +3880,6 @@
       }
     },
     {
-      "title": "DSA-6635-1 libreoffice - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00556.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-11-18T00:00:00.000Z",
-      "summary": "Multiple security vulnerabilities were discovered in LibreOffice, which\ncould result in denial of service, information disclosure or the\nexecution of arbitrary code if malformed document files or hsqldb\ndatabases are ope",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Multiple security vulnerabilities were discovered in LibreOffice, which\ncould result in denial of service, information disclosure or the\nexecution of arbitrary code if malformed document files or hsqldb\ndatabases are ope",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Java4Shell: OpenJDK Base64 RCE",
       "link": "https://www.hacktron.ai/blog/java4shell",
       "source": "Hacktron AI",
@@ -3402,8 +3901,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -3436,63 +3935,6 @@
         ],
         "action": "Evaluate the new virtual machine series for your cloud deployment needs.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "[Launched] Generally Available: Intel and AMD v6 with temp disk for Azure Database for PostgreSQL",
-      "link": "https://azure.microsoft.com/updates?id=579590",
-      "source": "Azure Updates",
-      "publishedAt": "2026-11-17T23:52:49.000Z",
-      "summary": "Azure Database for PostgreSQL Flexible Server is announcing the general availability of Intel and AMD v6 compute tiers with local temporary disk. The new v6 generation expands the Flexible Server compute portfolio with h",
-      "categories": [
-        "Cloud"
-      ],
-      "tags": [
-        "Azure"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has announced the general availability of Intel and AMD v6 compute tiers with local temporary disks for Azure Database for PostgreSQL Flexible Server. This new generation expands the existing compute portfolio for the database service.",
-        "whyItMatters": "Upgraded compute tiers can impact cloud database performance, cost, and infrastructure reliability for enterprise deployments.",
-        "affected": [
-          "Azure Database for PostgreSQL Flexible Server"
-        ],
-        "action": "Review the new v6 compute options for potential infrastructure upgrades.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Optimizely Malware Attacks Highlight Third-Party Vendor Risks",
-      "link": "https://www.darkreading.com/cyber-risk/optimizely-malware-attacks-third-party-vendor-risks",
-      "source": "Dark Reading",
-      "publishedAt": "2026-11-17T22:34:22.000Z",
-      "summary": "At least 178 organizations, including several major brands, unwittingly exposed website visitors to hydra-like malware via a third-party platform.",
-      "categories": [
-        "Malware",
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "At least 178 organizations unwittingly exposed their website visitors to hydra-like malware through a compromised third-party platform. This incident highlights the significant security risks associated with third-party vendor integrations.",
-        "whyItMatters": "It demonstrates how third-party supply chain vulnerabilities can be exploited to compromise numerous major brands and their users simultaneously.",
-        "affected": [],
-        "action": "Audit third-party vendor integrations and monitor web traffic for unauthorized scripts.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -3583,32 +4025,6 @@
       }
     },
     {
-      "title": "'TheMailer' Phishing Kit Puts AI in the Driver's Seat",
-      "link": "https://www.darkreading.com/perimeter/themailer-phishing-kit-ai-drivers-seat",
-      "source": "Dark Reading",
-      "publishedAt": "2026-11-17T20:58:13.000Z",
-      "summary": "The commercial kit uses attacker-supplied AI models to personalize lures, evade spam filters, and scale campaigns to tens of thousands of targets.",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A new commercial phishing kit called TheMailer integrates attacker-supplied artificial intelligence models to generate personalized email lures. This technology enables threat actors to bypass traditional spam filters and efficiently scale their phishing operations.",
-        "whyItMatters": "It lowers the technical barrier for cybercriminals to execute highly targeted and evasive mass phishing campaigns.",
-        "affected": [],
-        "action": "Update email security gateways to detect AI-generated phishing patterns.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "How CISA is prioritizing companies for talks about security improvements",
       "link": "https://cyberscoop.com/cisa-100-critical-infrastructure-companies-fed-talks/",
       "source": "CyberScoop",
@@ -3656,33 +4072,6 @@
         "affected": [],
         "action": "Implement strict segmentation for all vendor scripts and third-party dependencies.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Cyberattack or no, parade of tech outages highlight need for resilient systems, CISA acting director says",
-      "link": "https://cyberscoop.com/cisa-nick-andersen-cyber-resilience-outages/",
-      "source": "CyberScoop",
-      "publishedAt": "2026-11-17T19:58:05.000Z",
-      "summary": "Nick Andersen said the AI-fueled “vulnpocalypse” might have overshadowed the need to focus on withstanding all sorts of tech issues.\nThe post Cyberattack or no, parade of tech outages highlight need for resilient systems",
-      "categories": [
-        "AI Security",
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CISA acting director Nick Andersen emphasized that recent technological outages highlight the critical need for resilient systems, regardless of whether they are caused by cyberattacks. He noted that the focus on AI-driven vulnerabilities might be overshadowing broader technological resilience.",
-        "whyItMatters": "It underscores the importance of preparing for all types of tech failures, not just malicious cyberattacks.",
-        "affected": [],
-        "action": "Prioritize overall system resilience against all potential tech failures.",
-        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
@@ -4105,34 +4494,6 @@
       }
     },
     {
-      "title": "“Amazon” job offer promises $5,000 a month, but it’s got all the signs of a scam",
-      "link": "https://www.malwarebytes.com/blog/threat-intel/2026/11/amazon-job-offer-promises-5000-a-month-but-its-got-all-the-signs-of-a-scam",
-      "source": "Malwarebytes Labs",
-      "publishedAt": "2026-11-17T13:37:48.000Z",
-      "summary": "Lookalike Amazon sites advertise high-paying remote jobs, but has all the signs of a reshipping scam.",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Lookalike Amazon sites advertise high-paying remote jobs, but has all the signs of a reshipping scam.",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Formal Verification of the Signal Protocol Using AI",
       "link": "https://www.schneier.com/blog/archives/2026/11/formal-verification-of-the-signal-protocol-using-ai.html",
       "source": "Schneier on Security",
@@ -4159,11 +4520,11 @@
       }
     },
     {
-      "title": "Siemens ROS#",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06",
+      "title": "Siemens Simcenter Femap",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10",
       "source": "CISA Advisories",
       "publishedAt": "2026-11-17T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nROS# before version 2.3.1 contains a code injection vulnerability that could allow an attacker that is able to pass a crafted message definition file to the user to inject arbitrary code into the genera",
+      "summary": "View CSAF\nSummary\nSimcenter Femap is affected by an out of bounds read vulnerability that could be triggered when the application reads files in X_T format. This could allow an attacker to crash the application or execut",
       "categories": [
         "Vulnerability",
         "Vendor Advisory"
@@ -4176,15 +4537,15 @@
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "Siemens ROS# prior to version 2.3.1 contains a code injection vulnerability. An attacker capable of passing a crafted message definition file to a user can inject arbitrary code into the generation process.",
-        "whyItMatters": "This vulnerability allows attackers to execute arbitrary code via malicious message definition files, potentially compromising affected systems.",
+        "summary": "View CSAF\nSummary\nSimcenter Femap is affected by an out of bounds read vulnerability that could be triggered when the application reads files in X_T format. This could allow an attacker to crash the application or execut",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
         "affected": [
-          "Siemens ROS# < 2.3.1"
+          "Not specified"
         ],
-        "action": "Upgrade Siemens ROS# to version 2.3.1 or later.",
-        "risk": "High",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
-        "source": "ai"
+        "source": "heuristic"
       }
     },
     {
@@ -4264,100 +4625,6 @@
       "readTimeMin": 1,
       "aiSummary": {
         "summary": "View CSAF\nSummary\n.NET Client Library for SIMATIC S7 Webserver API contains multiple vulnerabilities that could allow an attacker to obtain sensitive information or write arbitrary files outside the intended download dir",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Critical Java Vulnerability Requires Immediate Patching",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-11-17T12:00:00.000Z",
-      "summary": "Purpose\nCISA strongly urges organizations to immediately patch the recently disclosed Oracle Java vulnerability CVE-2026-114938. This critical memory-corruption vulnerability, known as “Java4Shell,” affects the Base64 de",
-      "categories": [
-        "Vulnerability",
-        "Government",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Oracle"
-      ],
-      "cves": [
-        "CVE-2026-114938"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Purpose\nCISA strongly urges organizations to immediately patch the recently disclosed Oracle Java vulnerability CVE-2026-114938. This critical memory-corruption vulnerability, known as “Java4Shell,” affects the Base64 de",
-        "whyItMatters": "Actively exploited or high-impact; treat as urgent.",
-        "affected": [
-          "Oracle"
-        ],
-        "action": "Patch immediately.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-114938"
-        ],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Siemens Industrial Software Products",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-11-17T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nOn October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-20",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "View CSAF\nSummary\nOn October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-20",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Siemens Simcenter Femap",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-11-17T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nSimcenter Femap is affected by an out of bounds read vulnerability that could be triggered when the application reads files in X_T format. This could allow an attacker to crash the application or execut",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "View CSAF\nSummary\nSimcenter Femap is affected by an out of bounds read vulnerability that could be triggered when the application reads files in X_T format. This could allow an attacker to crash the application or execut",
         "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
         "affected": [
           "Not specified"
@@ -4508,35 +4775,6 @@
       }
     },
     {
-      "title": "DSA-6634-1 roundcube - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00555.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-11-17T00:00:00.000Z",
-      "summary": "Multiple vulnerabilities were discovered in roundcube, a skinnable AJAX\nbased webmail solution for IMAP servers, which could result in IMAP\ncommand injection, cross-site scripting, SSRF bypass, email header\ninjection, in",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Multiple vulnerabilities were discovered in roundcube, a skinnable AJAX\nbased webmail solution for IMAP servers, which could result in IMAP\ncommand injection, cross-site scripting, SSRF bypass, email header\ninjection, in",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "QUIC and Covert: Novel HTTP/3-Powered RATs Target Southeast Asian Governments",
       "link": "https://unit42.paloaltonetworks.com/custom-rats-target-southeast-asia-governments/",
       "source": "Unit 42",
@@ -4659,35 +4897,6 @@
         "relatedCves": [
           "CVE-2026-84869"
         ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "From view-only access to container root: five vulnerabilities in ONLYOFFICE Docs (FIXED)",
-      "link": "https://www.rapid7.com/blog/post/ve-from-view-only-access-to-container-root-five-vulnerabilities-in-onlyoffice-docs-fixed",
-      "source": "Rapid7",
-      "publishedAt": "2026-11-16T16:24:38.000Z",
-      "summary": "Overview\nAs part of our research into Zimbra Collaboration Suite, Rapid7 reported five findings in ONLYOFFICE Docs. An attacker with view-only access to a document can chain vulnerabilities in ONLYOFFICE Docs to execute ",
-      "categories": [
-        "Vulnerability",
-        "Research"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Rapid7 discovered five vulnerabilities in ONLYOFFICE Docs while researching the Zimbra Collaboration Suite. These flaws allow an attacker with view-only document access to chain the vulnerabilities together and potentially achieve container root access.",
-        "whyItMatters": "This vulnerability chain allows unauthorized users with minimal access rights to escalate privileges all the way to container root.",
-        "affected": [
-          "ONLYOFFICE Docs"
-        ],
-        "action": "Update ONLYOFFICE Docs to the latest fixed version.",
-        "risk": "Critical",
-        "relatedCves": [],
         "source": "ai"
       }
     },
@@ -5080,32 +5289,6 @@
         "affected": [],
         "action": "Monitor networks for anomalous automated reconnaissance and exploitation patterns.",
         "risk": "Medium",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "MDR Pricing: Comparing Asset-Based and Ingestion-Based Costs",
-      "link": "https://www.rapid7.com/blog/post/dr-mdr-pricing-comparing-asset-ingestion-based-ingestion-costs",
-      "source": "Rapid7",
-      "publishedAt": "2026-11-13T16:37:29.000Z",
-      "summary": "When comparing MDR pricing, it helps to understand what the same annual budget would buy from each provider. Two proposals with similar prices may give analysts access to different evidence, retain it for different perio",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "This article discusses the differences between asset-based and ingestion-based pricing models for Managed Detection and Response (MDR) services. It highlights how similar annual budgets can yield different levels of analyst access and data retention periods.",
-        "whyItMatters": "Choosing the right pricing model impacts an organization's visibility, data retention capabilities, and overall cybersecurity budget effectiveness.",
-        "affected": [],
-        "action": "Evaluate your organization's MDR pricing model to ensure optimal visibility and data retention.",
-        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
@@ -5569,34 +5752,6 @@
       }
     },
     {
-      "title": "Crafty Microsoft Teams Booking Flow Disguises Device Code Phishing",
-      "link": "https://www.huntress.com/blog/crafty-microsoft-teams-booking-flow-disguises-device-code-phishing",
-      "source": "Huntress",
-      "publishedAt": "2026-11-12T14:00:00.000Z",
-      "summary": "Threat actors used a convincing Microsoft Teams meeting-booking lure to conceal device code phishing and trick victims into authorizing attacker access.",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Threat actors are using a convincing Microsoft Teams meeting-booking lure to trick victims into authorizing attacker access. This technique disguises device code phishing within a seemingly legitimate booking flow.",
-        "whyItMatters": "It exploits trusted communication platforms and authentication mechanisms to bypass traditional security controls and compromise user accounts.",
-        "affected": [
-          "Microsoft Teams"
-        ],
-        "action": "Train users to recognize suspicious device code authentication prompts and Microsoft Teams lures.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "PHP2Shell Exploitation on Check Point Gateway",
       "link": "https://research.checkpoint.com/2026/php2shell-exploitation-on-check-point-gateway/",
       "source": "Check Point Research",
@@ -5674,138 +5829,6 @@
         "affected": [],
         "action": "Read the article series to understand cloud penetration testing concepts.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CrowdStrike Named a Leader in the 2026 IDC MarketScape for Worldwide Augmented Identity Security Solutions",
-      "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-idc-marketscape-worldwide-augmented-identity-security-solutions/",
-      "source": "CrowdStrike",
-      "publishedAt": "2026-11-12T06:00:00.000Z",
-      "summary": "CrowdStrike Named a Leader in the 2026 IDC MarketScape for Worldwide Augmented Identity Security Solutions",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "CrowdStrike Named a Leader in the 2026 IDC MarketScape for Worldwide Augmented Identity Security Solutions",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Smashing Security podcast #492: How hackers turned Russian cars into pumpkins",
-      "link": "https://grahamcluley.com/smashing-security-podcast-492/",
-      "source": "Graham Cluley",
-      "publishedAt": "2026-11-12T00:32:55.000Z",
-      "summary": "You're driving your new Chinese SUV when the dashboard goes dark. Ten minutes later, your phone rings. A stranger says they've got the digital key to your car, and would you like it back? Of course you would. That'll be ",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Hackers demonstrated a cyberattack against modern Chinese SUVs sold in Russia, causing dashboard failures and remote lockouts. The attackers then extorted the vehicle owners to regain access to their digital car keys.",
-        "whyItMatters": "This incident highlights the growing physical safety and extortion risks associated with connected vehicle vulnerabilities.",
-        "affected": [],
-        "action": "Monitor connected vehicle vendors for security updates and patches.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "ARTEX and AI-Powered Red Teaming Tools: What Defenders Need to Know",
-      "link": "https://unit42.paloaltonetworks.com/artex-and-ai-powered-red-teaming-tools/",
-      "source": "Unit 42",
-      "publishedAt": "2026-11-11T23:00:53.000Z",
-      "summary": "Learn what Unit 42 discovered about attacker use of AI-powered red team tools, and how to mitigate these attacks.\nThe post ARTEX and AI-Powered Red Teaming Tools: What Defenders Need to Know appeared first on Unit 42.",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Palo Alto Networks Unit 42 has published research regarding the attacker use of AI-powered red team tools like ARTEX. The article discusses what defenders need to know about these emerging capabilities and how to mitigate associated attacks.",
-        "whyItMatters": "As attackers increasingly leverage AI-powered red teaming tools, security teams must understand these tactics to effectively defend their environments.",
-        "affected": [],
-        "action": "Review the Unit 42 report to understand AI-powered red teaming techniques and mitigation strategies.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Who Runs the Ransomware Group Qilin?",
-      "link": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
-      "source": "Krebs on Security",
-      "publishedAt": "2026-11-11T18:06:01.000Z",
-      "summary": "The cybercrime group Qilin has emerged as the world's most active ransomware affiliate program, claiming at least 365 victim organizations in the past three months alone. But even top Russian hackers make operational sec",
-      "categories": [
-        "Ransomware"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "high",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The cybercrime syndicate Qilin has rapidly become the world's most active ransomware affiliate program, targeting at least 365 organizations in just three months. Despite their high volume of attacks, these threat actors can still make operational security mistakes.",
-        "whyItMatters": "This group poses a severe and escalating threat to global organizations through aggressive ransomware deployment.",
-        "affected": [],
-        "action": "Implement robust endpoint protection and maintain offline backups to mitigate ransomware risks.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "The XG Files: Falcon C2 Flying Under The (Browser) Radar",
-      "link": "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/",
-      "source": "Unit 42",
-      "publishedAt": "2026-11-11T15:00:23.000Z",
-      "summary": "We uncover Falcon C2, a browser-based threat framework targeting governments via malicious scripts, extensions, and the Antino implant.\nThe post The XG Files: Falcon C2 Flying Under The (Browser) Radar appeared first on ",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Security researchers have uncovered Falcon C2, a browser-based threat framework used to target government entities. The framework utilizes malicious scripts, browser extensions, and the Antino implant to conduct operations.",
-        "whyItMatters": "This threat poses a significant risk to government networks by leveraging browsers and extensions to bypass traditional security controls.",
-        "affected": [],
-        "action": "Monitor browser extension usage and inspect endpoints for unauthorized scripts or the Antino implant.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
