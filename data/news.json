@@ -1,6 +1,63 @@
 {
-  "updatedAt": "2026-11-22T11:14:04.962Z",
+  "updatedAt": "2026-11-22T18:30:14.243Z",
   "items": [
+    {
+      "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
+      "link": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-11-22T15:43:04.000Z",
+      "summary": "E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. [...]",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "E-commerce platform Cleverbridge has suffered a data breach in which hackers compromised its systems and stole sensitive payment card information. The stolen data includes critical financial details such as credit card numbers and CVV security codes belonging to customers.",
+        "whyItMatters": "This breach exposes victims to a high risk of financial fraud and unauthorized credit card charges.",
+        "affected": [],
+        "action": "Monitor your financial statements for unauthorized transactions and contact your bank if needed.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
+      "link": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-11-22T15:15:25.000Z",
+      "summary": "Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices. [...]",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [
+        "Android"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Signal is introducing new privacy features to prevent screenshots on iOS 27 and block AI assistants from capturing conversations on supported Android devices. These updates aim to enhance user confidentiality by stopping automated tools and unauthorized users from recording chats.",
+        "whyItMatters": "This feature prevents third-party AI assistants and screen-capture tools from inadvertently or maliciously harvesting private messaging data.",
+        "affected": [
+          "Signal iOS 27",
+          "Signal Android (supported devices)"
+        ],
+        "action": "Update your Signal application to the latest version to enable these privacy protections.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Week in review: Java4Shell proves tricky to exploit, malware planted via Optimizely hits 178 orgs",
       "link": "https://www.helpnetsecurity.com/2026/11/22/week-in-review-java4shell-proves-tricky-to-exploit-malware-planted-via-optimizely-hits-178-orgs/",
@@ -110,6 +167,39 @@
         "action": "Monitor official FBI updates for guidance and remediation measures.",
         "risk": "High",
         "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6647-1 webkit2gtk - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00569.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-11-22T00:00:00.000Z",
+      "summary": "The following vulnerabilities have been discovered in the WebKitGTK\nweb engine:\n\nCVE-2026-86973\n\n    Narendra Singh and an anonymous researcher discovered that\n    processing maliciously crafted web content may lead to a",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-86973"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Vulnerabilities have been discovered in the WebKitGTK web engine that could allow malicious web content to trigger security issues. Users of the affected Debian systems are advised to update their packages.",
+        "whyItMatters": "Exploitation of these vulnerabilities through maliciously crafted web content could compromise user security.",
+        "affected": [
+          "webkit2gtk"
+        ],
+        "action": "Update the webkit2gtk package to the latest security version.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-86973"
+        ],
         "source": "ai"
       }
     },
@@ -1302,32 +1392,6 @@
       }
     },
     {
-      "title": "Vendor data breach exposes Chase, Visa, Mastercard customer info",
-      "link": "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-11-20T15:58:06.000Z",
-      "summary": "J.P. Morgan Chase warned it suffered a data breach after a cyberattack at a third-party service provider exposed customers' personal information and marketing data. [...]",
-      "categories": [
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "J.P. Morgan Chase suffered a data breach caused by a cyberattack on a third-party service provider. The incident exposed customers' personal information and marketing data.",
-        "whyItMatters": "It highlights the ongoing security risks associated with third-party vendor relationships in the financial sector.",
-        "affected": [],
-        "action": "Monitor accounts for suspicious activity and review credit reports.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "USN-9183-1: Linux kernel (FIPS) vulnerabilities",
       "link": "https://ubuntu.com/security/notices/USN-9183-1",
       "source": "Canonical Ubuntu Security",
@@ -1523,34 +1587,6 @@
         ],
         "action": "Review advisory for affected versions and patch on your normal cycle.",
         "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Still tracking company passwords in spreadsheets? You’re flying blind.",
-      "link": "https://www.bleepingcomputer.com/news/security/still-tracking-company-passwords-in-spreadsheets-youre-flying-blind/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-11-20T15:00:10.000Z",
-      "summary": "Tracking company passwords in spreadsheets can leave IT administrators unaware of weak, reused, or compromised credentials stored and shared outside approved systems. NordPass explains how centralized password management",
-      "categories": [
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Tracking company passwords in spreadsheets can leave IT administrators unaware of weak, reused, or compromised credentials stored and shared outside approved systems. NordPass explains how centralized password management",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -3730,35 +3766,6 @@
     {
       "title": "DSA-6640-1 openjdk-25 - security update",
       "link": "https://lists.debian.org/debian-security-announce/2026/msg00562.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-11-19T00:00:00.000Z",
-      "summary": "Several vulnerabilities have been discovered in the OpenJDK Java\nruntime, which may result in the execution of arbitrary code,\ndenial of service or information disclosure.\n\n\nhttps://security-tracker.debian.org/tracker/DS",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several vulnerabilities have been discovered in the OpenJDK Java\nruntime, which may result in the execution of arbitrary code,\ndenial of service or information disclosure.\n\n\nhttps://security-tracker.debian.org/tracker/DS",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "DSA-6639-1 openjdk-21 - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00561.html",
       "source": "Debian Security",
       "publishedAt": "2026-11-19T00:00:00.000Z",
       "summary": "Several vulnerabilities have been discovered in the OpenJDK Java\nruntime, which may result in the execution of arbitrary code,\ndenial of service or information disclosure.\n\n\nhttps://security-tracker.debian.org/tracker/DS",
