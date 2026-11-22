@@ -1,6 +1,92 @@
 {
-  "updatedAt": "2026-11-22T03:06:16.083Z",
+  "updatedAt": "2026-11-22T11:14:04.962Z",
   "items": [
+    {
+      "title": "Week in review: Java4Shell proves tricky to exploit, malware planted via Optimizely hits 178 orgs",
+      "link": "https://www.helpnetsecurity.com/2026/11/22/week-in-review-java4shell-proves-tricky-to-exploit-malware-planted-via-optimizely-hits-178-orgs/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-11-22T09:00:25.000Z",
+      "summary": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: Malware spread through Optimizely hits 178 organizations, including BBC, CNN and Zoom An attacker exploited a vulnerabilit",
+      "categories": [
+        "Malware",
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Malware distributed through Optimizely successfully infected 178 organizations, including major entities like the BBC, CNN, and Zoom. Additionally, researchers analyzed a new threat dubbed Java4Shell, noting that it proves tricky to exploit.",
+        "whyItMatters": "Supply chain attacks via third-party services like Optimizely can rapidly compromise a vast number of high-profile organizations simultaneously.",
+        "affected": [
+          "Optimizely"
+        ],
+        "action": "Audit third-party integrations and monitor for unauthorized supply chain modifications.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+      "link": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-11-22T05:06:55.000Z",
+      "summary": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week.\n\nSome of the stolen requests w",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "OpenRouter dropped three AI inference providers after researchers discovered that attackers secretly stole user prompt data from them for months. The affected companies were completely unaware of the data theft until the security researchers notified them.",
+        "whyItMatters": "This incident highlights severe security vulnerabilities in third-party AI hosting infrastructure that can expose sensitive user data without detection.",
+        "affected": [],
+        "action": "Review data sharing policies with third-party AI inference providers.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+      "link": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-11-22T05:03:41.000Z",
+      "summary": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it.\n\nGhostscript is the interpreter that many Linux servers use to convert up",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A now-patched vulnerability in Ghostscript allows attackers to use crafted files to escape the security sandbox. This flaw enables remote code execution on Linux servers that process the malicious files.",
+        "whyItMatters": "It allows unauthenticated remote code execution on servers handling file conversions, potentially compromising the entire host system.",
+        "affected": [
+          "Ghostscript"
+        ],
+        "action": "Update Ghostscript to the latest patched version immediately.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says",
       "link": "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/",
@@ -1064,37 +1150,6 @@
       }
     },
     {
-      "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
-      "link": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-11-20T16:58:16.000Z",
-      "summary": "Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim management and control at scale.\n\nDutch mobil",
-      "categories": [
-        "Malware",
-        "AI Security"
-      ],
-      "tags": [
-        "Android"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Researchers have discovered Bazuka, a previously unknown Android malware framework that leverages large language models for scalable victim management and control. The malware utilizes fake screen overlays to stealthily capture credentials and take over compromised devices.",
-        "whyItMatters": "The integration of large language models into malware frameworks represents an evolving threat that could enable automated, large-scale cyberattacks against mobile users.",
-        "affected": [
-          "Android devices"
-        ],
-        "action": "Remain vigilant for suspicious screen overlays and avoid downloading unverified Android applications.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Dutch data watchdog highlights safety issues with AI glasses",
       "link": "https://www.theregister.com/security/2026/11/20/dutch-data-watchdog-highlights-safety-issues-with-ai-glasses/5311345",
       "source": "The Register",
@@ -1703,41 +1758,6 @@
         "risk": "Critical",
         "relatedCves": [
           "CVE-2026-123890"
-        ],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts",
-      "link": "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-11-20T12:20:00.000Z",
-      "summary": "A flaw in KVM, the hypervisor built into the Linux kernel, let researchers read about 127 GB of a cloud server's memory from inside a virtual machine of their own on DigitalOcean.\n\nOn a shared server, that memory can inc",
-      "categories": [
-        "Vulnerability",
-        "Open Source"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [
-        "CVE-2026-99312"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A flaw in KVM, the hypervisor built into the Linux kernel, let researchers read about 127 GB of a cloud server's memory from inside a virtual machine of their own on DigitalOcean.\n\nOn a shared server, that memory can inc",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Linux"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [
-          "CVE-2026-99312"
         ],
         "source": "heuristic"
       }
@@ -2568,36 +2588,6 @@
         ],
         "action": "Update ruby3.3 packages to the latest security version.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Android developer verification will reach every install source, with a side door for power users",
-      "link": "https://www.helpnetsecurity.com/2026/11/20/android-developer-verification-power-users/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-11-19T23:03:24.000Z",
-      "summary": "Google will extend Android developer verification to every country starting in January 2027, a check that already applies at participating app stores in four countries. Developers who have not verified their identity wit",
-      "categories": [
-        "News"
-      ],
-      "tags": [
-        "Android"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Google is expanding its Android developer verification requirement globally to all installation sources by January 2027. This security check aims to curb malicious applications by ensuring developers verify their real-world identities.",
-        "whyItMatters": "It significantly improves Android ecosystem security by increasing accountability for app creators regardless of where their apps are downloaded.",
-        "affected": [
-          "Android platform"
-        ],
-        "action": "Prepare developer accounts for upcoming identity verification requirements.",
-        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
