@@ -1,6 +1,93 @@
 {
-  "updatedAt": "2026-11-22T18:30:14.243Z",
+  "updatedAt": "2026-11-23T00:16:34.208Z",
   "items": [
+    {
+      "title": "Debian 13.8 bundles kernel and Chromium security fixes with a 122-package bugfix list",
+      "link": "https://www.helpnetsecurity.com/2026/11/23/debian-13-8-released/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-11-22T23:05:09.000Z",
+      "summary": "The Debian project released Debian 13.8, the eighth update to its stable “trixie” series. It mainly carries security fixes, plus corrections for a few serious bugs, and it bundles advisories Debian had already published ",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The Debian project has released Debian 13.8, representing the eighth update to its stable trixie series. This release primarily incorporates security fixes for the kernel and Chromium, along with corrections for various serious bugs.",
+        "whyItMatters": "Keeping the operating system updated with these security patches is essential to protect systems against known kernel and browser vulnerabilities.",
+        "affected": [
+          "Debian 13.8",
+          "Chromium"
+        ],
+        "action": "Update your Debian 13 system to version 13.8 to apply the latest security fixes.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-11-22T18:45:37.000Z",
+      "summary": "GL.iNet has confirmed that hackers exploited a vulnerability in its cloud remote management services to install custom malware on customers' routers and KVM devices, with some affected users reporting backdoors and rever",
+      "categories": [
+        "Malware",
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Hackers are actively exploiting a vulnerability in GL.iNet cloud remote management services to compromise customer routers and KVM devices. The attacks involve the installation of custom malware, including backdoors, on the affected hardware.",
+        "whyItMatters": "This vulnerability allows threat actors to compromise network gateway devices and establish persistent remote access within victim environments.",
+        "affected": [
+          "GL.iNet routers and KVM devices"
+        ],
+        "action": "Disable cloud remote management services and apply vendor patches immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "A brief history of syslog timestamps, (Sun, Nov 22nd)",
+      "link": "https://isc.sans.edu/diary/rss/33530",
+      "source": "SANS ISC",
+      "publishedAt": "2026-11-22T18:40:18.000Z",
+      "summary": "BLUF: Debian and Ubuntu dropped a config directive in the rsyslogd package in early 2023.",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "In early 2023, Debian and Ubuntu removed a specific configuration directive from their rsyslogd package. This change affected how syslog timestamps are handled in these Linux distributions.",
+        "whyItMatters": "Log management and timestamp parsing configurations may break or behave unexpectedly on updated Debian and Ubuntu systems.",
+        "affected": [
+          "rsyslogd on Debian",
+          "rsyslogd on Ubuntu"
+        ],
+        "action": "Review rsyslog configurations for compatibility issues on updated Debian and Ubuntu systems.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
       "link": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
@@ -165,6 +252,155 @@
         "whyItMatters": "A breach of this critical national database could expose sensitive law enforcement records and compromise public safety operations.",
         "affected": [],
         "action": "Monitor official FBI updates for guidance and remediation measures.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6652-1 linux - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00574.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-11-22T00:00:00.000Z",
+      "summary": "Several vulnerabilities have been discovered in the Linux kernel that\nmay lead to a privilege escalation, denial of service or information\nleaks.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6652-1",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory",
+        "Open Source"
+      ],
+      "tags": [
+        "Linux"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple vulnerabilities have been discovered in the Linux kernel that could potentially lead to privilege escalation, denial of service, or information leaks. Debian has issued a security update to address these issues in the affected kernel packages.",
+        "whyItMatters": "Unpatched Linux kernel vulnerabilities can allow local attackers to escalate privileges or disrupt system availability.",
+        "affected": [
+          "Linux kernel"
+        ],
+        "action": "Update the Linux kernel packages to the latest security version.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6651-1 libeot - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00573.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-11-22T00:00:00.000Z",
+      "summary": "Multiple security vulnerabilities were discovered in Libeot, a library\nfor parsing Embedded OpenType files and converting them to other formats,\nwhich could result in denial of service or potentially the execution of\narb",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple security vulnerabilities have been discovered in the libeot library used for parsing Embedded OpenType files. These flaws could potentially lead to a denial of service or arbitrary code execution.",
+        "whyItMatters": "Unpatched vulnerabilities in core parsing libraries can allow attackers to compromise systems through maliciously crafted file formats.",
+        "affected": [
+          "libeot"
+        ],
+        "action": "Update the libeot package to the latest security release.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6650-1 krb5 - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00572.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-11-22T00:00:00.000Z",
+      "summary": "Multiple security vulnerabilities were discovered in the MIT reference\nimplementation of Kerberos, which could result in authorisation bypass,\ndenial of service or information disclosure.\n\n\nhttps://security-tracker.debia",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Kerberos"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple security vulnerabilities have been discovered in the MIT reference implementation of Kerberos. These flaws could potentially result in authorization bypass, denial of service, or information disclosure.",
+        "whyItMatters": "Unpatched Kerberos vulnerabilities can allow attackers to bypass authorization controls, crash services, or expose sensitive information.",
+        "affected": [
+          "MIT krb5"
+        ],
+        "action": "Apply the latest security updates provided by your distribution.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6649-1 anope - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00571.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-11-22T00:00:00.000Z",
+      "summary": "Several vulnerabilities were discovered in anope, a set of IRC services\ndesigned for flexibility and ease of use, which could result in nickname\nimpersonation/takeover, account takeovers, information leaks, email\nconfirm",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Several vulnerabilities were discovered in the anope IRC services package. These security flaws could potentially lead to nickname impersonation, account takeovers, and information leaks.",
+        "whyItMatters": "Unpatched vulnerabilities in IRC authentication and service management software can allow attackers to compromise user accounts and impersonate legitimate users.",
+        "affected": [
+          "anope"
+        ],
+        "action": "Apply the latest security updates provided by your distribution.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6648-1 python-django - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00570.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-11-22T00:00:00.000Z",
+      "summary": "Multiple security issues were found in Django, a Python web development\nframework, which could result in denial of service, spoofing, permission\nbypass, cross-site scripting or information disclosure.\n\n\nhttps://security-",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple security vulnerabilities have been discovered in the Python Django web development framework. These flaws could potentially lead to denial of service, spoofing, permission bypass, cross-site scripting, or information disclosure.",
+        "whyItMatters": "Unpatched Django installations leave web applications vulnerable to a wide range of attacks, compromising data integrity and user security.",
+        "affected": [
+          "python-django"
+        ],
+        "action": "Update python-django to the latest security release.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -1127,37 +1363,6 @@
       }
     },
     {
-      "title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-11-20T17:30:00.000Z",
-      "summary": "Threat actors used the open-source AI penetration-testing framework Cairn to find a previously unknown vulnerability in a medical imaging application. [...]",
-      "categories": [
-        "Zero Day",
-        "Vulnerability",
-        "AI Security",
-        "Open Source"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Threat actors utilized the open-source AI penetration-testing framework Cairn to discover a previously unknown vulnerability in a medical imaging application. This zero-day exploit allowed the attackers to successfully compromise and take over a target server.",
-        "whyItMatters": "This incident demonstrates the evolving threat of autonomous AI tools being weaponized by cybercriminals to discover and exploit zero-day vulnerabilities at machine speed.",
-        "affected": [
-          "medical imaging application"
-        ],
-        "action": "Audit medical imaging servers for unauthorized access and monitor for indicators of AI-driven reconnaissance.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Amazon says Chinese hackers used Cairn AI tool to discover apparent zero-day during attack on university",
       "link": "https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day",
       "source": "The Record",
@@ -1676,6 +1881,32 @@
         "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
+      }
+    },
+    {
+      "title": "Microsoft Debuts Offensive, Defensive Security Tools for the AI Era",
+      "link": "https://www.darkreading.com/endpoint-security/microsoft-offense-defense-ai-security-tools",
+      "source": "Dark Reading",
+      "publishedAt": "2026-11-20T13:51:30.000Z",
+      "summary": "Microsoft announces new AI agent security tools and transparency standards to protect enterprise systems at its Ignite technical conference.",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft has announced new AI agent security tools and transparency standards at its Ignite technical conference. These solutions are designed to provide both offensive and defensive security capabilities for enterprise systems in the AI era.",
+        "whyItMatters": "It introduces new enterprise-grade capabilities for securing artificial intelligence deployments against emerging threats.",
+        "affected": [],
+        "action": "Review Microsoft's new AI security tools and transparency standards for enterprise adoption.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
       }
     },
     {
@@ -2339,34 +2570,6 @@
       }
     },
     {
-      "title": "Most CIOs and CISOs expect to contain attacks, though few can reach their gear right away",
-      "link": "https://www.helpnetsecurity.com/2026/11/20/network-outage-recovery-resilience/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-11-20T05:00:27.000Z",
-      "summary": "Most organizations can’t quickly get secure management access to their own critical network infrastructure once the primary network goes down. Opengear surveyed 514 CIOs and CISOs and only a small share said they could g",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Most organizations can’t quickly get secure management access to their own critical network infrastructure once the primary network goes down. Opengear surveyed 514 CIOs and CISOs and only a small share said they could g",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "注意喚起: PHPにおける複数の脆弱性（CVE-2026-109618、CVE-2026-109619）に関する注意喚起 (更新)",
       "link": "https://www.jpcert.or.jp/at/2026/at260033.html",
       "source": "JPCERT/CC",
@@ -2594,35 +2797,6 @@
           "libgd2"
         ],
         "action": "Update libgd2 to the latest patched version provided by your vendor.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6644-1 ruby3.3 - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00566.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-11-20T00:00:00.000Z",
-      "summary": "Several vulnerabilities have been discovered in the interpreter for\nthe Ruby language, which may result in the execution of arbitrary code.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6644-1",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several vulnerabilities have been discovered in the Ruby 3.3 language interpreter. These flaws may potentially allow the execution of arbitrary code.",
-        "whyItMatters": "Exploitation of these vulnerabilities could allow attackers to execute arbitrary code on systems running vulnerable versions of Ruby.",
-        "affected": [
-          "ruby3.3"
-        ],
-        "action": "Update ruby3.3 packages to the latest security version.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -3223,34 +3397,6 @@
       }
     },
     {
-      "title": "Why Holiday Security Can't Wait for Black Friday",
-      "link": "https://www.darkreading.com/cybersecurity-operations/why-holiday-security-cant-wait-black-friday",
-      "source": "Dark Reading",
-      "publishedAt": "2026-11-19T14:00:00.000Z",
-      "summary": "Bot-driven fraud and holiday social engineering attacks stretch across many weeks, straining security teams and small businesses alike.",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Bot-driven fraud and holiday social engineering attacks stretch across many weeks, straining security teams and small businesses alike.",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Detecting Timeroasting the Hard Way",
       "link": "https://www.huntress.com/blog/detecting-timeroasting",
       "source": "Huntress",
@@ -3672,124 +3818,6 @@
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6643-1 pam-mysql - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00565.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-11-19T00:00:00.000Z",
-      "summary": "Andrey Vasilevsky discovered that pam-mysql, a PAM module interfacing\nwith MySQL databases, did not properly handle PAM_DISALLOW_NULL_AUTHTOK.\nUsers with a NULL password were authenticated by the pam_mysql module,\ncontra",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Andrey Vasilevsky discovered that pam-mysql, a PAM module interfacing\nwith MySQL databases, did not properly handle PAM_DISALLOW_NULL_AUTHTOK.\nUsers with a NULL password were authenticated by the pam_mysql module,\ncontra",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "DSA-6642-1 nginx - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00564.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-11-19T00:00:00.000Z",
-      "summary": "Multiple vulnerabilities were discovered in Nginx, a high-performance\nweb and reverse proxy server, which could result in remote code\nexecution, denial of service, information disclosure or bypassing\nverification of clie",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory",
-        "Open Source"
-      ],
-      "tags": [
-        "Nginx"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Multiple vulnerabilities were discovered in Nginx, a high-performance\nweb and reverse proxy server, which could result in remote code\nexecution, denial of service, information disclosure or bypassing\nverification of clie",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Nginx"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "DSA-6641-1 php8.4 - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00563.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-11-19T00:00:00.000Z",
-      "summary": "Multiple security issues were found in PHP, a widely-used open source\ngeneral purpose scripting language which could result in the execution\nof arbitrary code, denial of service, information disclosure, privilege\nescalat",
-      "categories": [
-        "Vendor Advisory",
-        "Open Source"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Multiple security issues were found in PHP, a widely-used open source\ngeneral purpose scripting language which could result in the execution\nof arbitrary code, denial of service, information disclosure, privilege\nescalat",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "DSA-6640-1 openjdk-25 - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00562.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-11-19T00:00:00.000Z",
-      "summary": "Several vulnerabilities have been discovered in the OpenJDK Java\nruntime, which may result in the execution of arbitrary code,\ndenial of service or information disclosure.\n\n\nhttps://security-tracker.debian.org/tracker/DS",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several vulnerabilities have been discovered in the OpenJDK Java\nruntime, which may result in the execution of arbitrary code,\ndenial of service or information disclosure.\n\n\nhttps://security-tracker.debian.org/tracker/DS",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
       }
     },
     {
@@ -5348,41 +5376,6 @@
         "action": "No action required; informational.",
         "risk": "News",
         "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Scans for LiteLLM/Starlette (CVE-2026-42271, CVE-2026-48710), (Mon, Nov 16th)",
-      "link": "https://isc.sans.edu/diary/rss/33522",
-      "source": "SANS ISC",
-      "publishedAt": "2026-11-16T13:11:04.000Z",
-      "summary": "This weekend, we started seeing requests for /mcp-rest/test/tools/list hitting our honeypots. These requests appear to attempt to exploit CVE-2026-42271 and CVE-2026-48710. Horizon3.ai published a short write-up about ho",
-      "categories": [
-        "Vulnerability",
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-42271",
-        "CVE-2026-48710"
-      ],
-      "kev": true,
-      "poc": false,
-      "severity": "critical",
-      "breaking": true,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "This weekend, we started seeing requests for /mcp-rest/test/tools/list hitting our honeypots. These requests appear to attempt to exploit CVE-2026-42271 and CVE-2026-48710. Horizon3.ai published a short write-up about ho",
-        "whyItMatters": "Actively exploited or high-impact; treat as urgent.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Patch immediately.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-42271",
-          "CVE-2026-48710"
-        ],
         "source": "heuristic"
       }
     },
