@@ -1,6 +1,86 @@
 {
-  "updatedAt": "2026-11-23T20:10:42.672Z",
+  "updatedAt": "2026-11-24T04:49:52.366Z",
   "items": [
+    {
+      "title": "Scanning from Subnet 109.160.32.0/24, (Mon, Nov 23rd)",
+      "link": "https://isc.sans.edu/diary/rss/33550",
+      "source": "SANS ISC",
+      "publishedAt": "2026-11-24T02:32:00.000Z",
+      "summary": "This subnet is assigned to a web hosting and virtual private server (VPS) provider BANATSYNC SRL with AS198364, located in Timisoara, Romania. This graph shows the DShield sensor activity over the past 90 days for this s",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "DShield sensors have detected scanning activity originating from the subnet 109.160.32.0/24 in Romania. This network space is allocated to the web hosting and VPS provider BANATSYNC SRL (AS198364).",
+        "whyItMatters": "Monitoring source subnets helps organizations identify potential reconnaissance or automated scanning campaigns targeting their infrastructure.",
+        "affected": [],
+        "action": "Review firewall logs and block the scanning subnet if unauthorized.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "ISC Stormcast For Tuesday, November 24th, 2026 (Tue, Nov 24th)",
+      "link": "https://isc.sans.edu/diary/rss/33552",
+      "source": "SANS ISC",
+      "publishedAt": "2026-11-24T02:00:04.000Z",
+      "summary": "ISC Stormcast For Tuesday, November 24th, 2026 https://isc.sans.edu/podcastdetail/10192, (Tue, Nov 24th)",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "This is the Internet Storm Center daily stormcast podcast for November 24th, 2026. The episode provides brief updates on current cybersecurity news and threats.",
+        "whyItMatters": "Staying informed about daily threat intelligence helps security professionals anticipate and mitigate emerging risks.",
+        "affected": [],
+        "action": "Listen to the podcast for the latest daily security updates.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Cisco and OpenAI pitch eBPF kernel plugins as the way to tame the patchpocalypse",
+      "link": "https://www.theregister.com/security/2026/11/24/cisco-and-openai-pitch-ebpf-kernel-plugins-as-the-way-to-tame-the-patchpocalypse/5311795",
+      "source": "The Register",
+      "publishedAt": "2026-11-24T01:46:56.000Z",
+      "summary": "‘Shirudo’ project promises to whip up compensating controls in a hurry",
+      "categories": [
+        "News"
+      ],
+      "tags": [
+        "Cisco"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Cisco and OpenAI are proposing the use of eBPF kernel plugins as a solution to the ongoing patching crisis in cybersecurity. The project, named Shirudo, aims to quickly generate compensating controls to protect systems before patches can be applied.",
+        "whyItMatters": "This approach could drastically reduce the window of exposure for unpatched vulnerabilities by automatically deploying temporary kernel-level defenses.",
+        "affected": [],
+        "action": "Monitor developments on the Shirudo project for potential integration into your security strategy.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "Hackers breach Austrian Foreign Ministry website, access diplomats' contact details",
       "link": "https://therecord.media/austrian-foreign-ministry-says-website-hacked",
@@ -28,6 +108,477 @@
       }
     },
     {
+      "title": "Cybersecurity jobs available right now: November 24, 2026",
+      "link": "https://www.helpnetsecurity.com/2026/11/24/cybersecurity-jobs-available-right-now-november-24-2026/",
+      "source": "Help Net Security",
+      "publishedAt": "2026-11-23T23:30:54.000Z",
+      "summary": "Applied Cyber, Detections Doppel | USA | Remote – View job details As an Applied Cyber, Detections, you will support customer detection operations, implement and optimize detection logic, and automate alert triage across",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "This article is a weekly job listing for cybersecurity positions, specifically highlighting a remote role for an Applied Cyber and Detections professional in the USA. The featured position involves supporting customer detection operations, optimizing detection logic, and automating alert triage.",
+        "whyItMatters": "It reflects ongoing hiring trends and talent demand within the cybersecurity job market.",
+        "affected": [],
+        "action": "Review the job listing if you are seeking employment in cybersecurity.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-9189-1: Qt5Compat vulnerability",
+      "link": "https://ubuntu.com/security/notices/USN-9189-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-11-23T23:21:59.000Z",
+      "summary": "It was discovered that Qt5Compat did not correctly handle certain text\ncodec names, which could lead to an out-of-bounds read. An attacker could\npossibly use this issue to cause a denial of service.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A vulnerability was discovered in Qt5Compat where incorrect handling of certain text codec names can lead to an out-of-bounds read. An attacker could exploit this flaw to trigger a denial of service.",
+        "whyItMatters": "This vulnerability threatens application stability by allowing remote attackers to cause denial-of-service conditions in affected software.",
+        "affected": [
+          "Qt5Compat"
+        ],
+        "action": "Update Qt5Compat to the latest patched version.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Industrial Serial Gateways Broadcast That They're Insecure",
+      "link": "https://www.darkreading.com/ics-ot-security/industrial-serial-gateways-broadcast-insecure",
+      "source": "Dark Reading",
+      "publishedAt": "2026-11-23T22:02:46.000Z",
+      "summary": "Critical OT access devices will often tell you, and anyone else, whether they're protected by authentication — and many aren't.",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Industrial serial gateways used for operational technology often broadcast whether they are protected by authentication to anyone on the network. Many of these critical access devices are configured without any authentication enabled, exposing them to unauthorized access.",
+        "whyItMatters": "This information disclosure allows attackers to easily identify and target unprotected industrial control systems.",
+        "affected": [],
+        "action": "Audit industrial serial gateways and enable authentication immediately.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Inception - possibly a ShinyHunters reboot - claims seven victims in a week",
+      "link": "https://www.theregister.com/security/2026/11/23/inception-possibly-a-shinyhunters-reboot-claims-seven-victims-in-a-week/5311768",
+      "source": "The Register",
+      "publishedAt": "2026-11-23T21:52:23.000Z",
+      "summary": "Whatever they call themselves these days: be on the lookout for voice phishing attempts",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A threat actor group known as Inception, potentially a reboot of ShinyHunters, has claimed seven victims within a week. Security teams should remain vigilant against voice phishing attempts associated with this campaign.",
+        "whyItMatters": "A newly active or rebranded cybercriminal group targeting organizations increases the immediate risk of data breaches and social engineering attacks.",
+        "affected": [],
+        "action": "Remain vigilant against voice phishing attempts.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Virginia, Oregon hit SpaceX with fresh lawsuits over Grok-created CSAM",
+      "link": "https://cyberscoop.com/virginia-oregon-sue-spacex-grok-deepfakes/",
+      "source": "CyberScoop",
+      "publishedAt": "2026-11-23T21:32:33.000Z",
+      "summary": "The lawsuit alleges that weak safeguards around nudification were a primary selling point for Musk’s business strategy to differentiate Grok and other competing AI models.\nThe post Virginia, Oregon hit SpaceX with fresh ",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Virginia and Oregon have filed lawsuits against SpaceX regarding allegations that weak safeguards in the Grok AI model allowed the creation of non-consensual sexual abuse material. The legal action claims that lax restrictions on image generation were used as a strategic differentiator against competing AI platforms.",
+        "whyItMatters": "This legal challenge highlights growing regulatory and state-level scrutiny over the safety controls and ethical responsibilities of generative AI developers.",
+        "affected": [],
+        "action": "Monitor legal developments regarding AI safety regulations.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "CrowdStrike Makes AI Security Push With Blockbuster Zscaler Deal",
+      "link": "https://www.darkreading.com/endpoint-security/crowdstrike-ai-security-push-zscaler-deal",
+      "source": "Dark Reading",
+      "publishedAt": "2026-11-23T21:21:42.000Z",
+      "summary": "CrowdStrike's $44 billion acquisition of Zscaler would unite endpoint protection and zero-trust network security to obtain greater control over AI agents.",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "CrowdStrike is reportedly pursuing a $44 billion acquisition of Zscaler to combine endpoint protection and zero-trust network security. The deal aims to give the combined company greater control over emerging AI agents.",
+        "whyItMatters": "This massive consolidation unites critical endpoint and network security layers, significantly shifting the competitive landscape for AI-driven cybersecurity.",
+        "affected": [],
+        "action": "Monitor merger developments for strategic impacts on your security stack.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "[In preview] Public Preview: Enterprise Knowledge Graph in Foundry IQ",
+      "link": "https://azure.microsoft.com/updates?id=581333",
+      "source": "Azure Updates",
+      "publishedAt": "2026-11-23T21:16:32.000Z",
+      "summary": "Foundry IQ adds Enterprise Knowledge Graph as a knowledge source for questions that depend on relationships across your content.During indexing, it extracts entities and relationships from unstructured content, guided by",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft is launching a public preview of the Enterprise Knowledge Graph feature in Foundry IQ. This capability indexes unstructured content to automatically extract entities and relationships for complex querying.",
+        "whyItMatters": "It introduces a new data processing and relationship-mapping feature for enterprise environments that requires visibility.",
+        "affected": [
+          "Foundry IQ Enterprise Knowledge Graph"
+        ],
+        "action": "Review the preview documentation to assess potential use cases and data governance implications.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "[In preview] Public Preview: Updated Guardrails experience in Microsoft Foundry",
+      "link": "https://azure.microsoft.com/updates?id=581338",
+      "source": "Azure Updates",
+      "publishedAt": "2026-11-23T21:15:04.000Z",
+      "summary": "In Microsoft Foundry, Guardrails helps developers configure runtime safety controls for agents, including classifiers, deterministic rules, and LLM-based judges.When an administrator policy requires controls for a projec",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft Foundry has launched a public preview of its updated Guardrails experience for developers. The feature allows administrators and developers to configure runtime safety controls such as classifiers, deterministic rules, and LLM-based judges for AI agents.",
+        "whyItMatters": "It enhances the governance and security of AI applications by enforcing mandatory runtime safety controls.",
+        "affected": [
+          "Microsoft Foundry"
+        ],
+        "action": "Review the updated Guardrails features in Microsoft Foundry to configure safety controls for your AI projects.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "[In preview] Public Preview: IQ Retriever Zero in Foundry IQ",
+      "link": "https://azure.microsoft.com/updates?id=581343",
+      "source": "Azure Updates",
+      "publishedAt": "2026-11-23T21:13:44.000Z",
+      "summary": "Foundry IQ can use an iterative retrieval model to break complex questions into focused searches. The model reviews search results and searches again when needed, within a configured budget, then passes the retrieved evi",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A public preview of IQ Retriever Zero has been introduced in Foundry IQ. This feature uses an iterative retrieval model to break down complex queries and refine searches within a budget.",
+        "whyItMatters": "It introduces new search and retrieval capabilities for users of the Foundry IQ platform.",
+        "affected": [
+          "Foundry IQ"
+        ],
+        "action": "Review the public preview documentation to understand the new retrieval capabilities.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "[Launched] Public Preview: Style and instruction control for HD V3 voices in Azure Speech in Foundry Tools",
+      "link": "https://azure.microsoft.com/updates?id=581353",
+      "source": "Azure Updates",
+      "publishedAt": "2026-11-23T21:12:25.000Z",
+      "summary": "Azure Speech in Foundry Tools provides HD V3 voices with style and instruction control in public preview.Use supported controls to shape voice delivery for voice agents, narration, and other speech experiences.Learn more",
+      "categories": [
+        "Cloud"
+      ],
+      "tags": [
+        "Azure"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft has launched a public preview of style and instruction control for HD V3 voices within Azure Speech in Foundry Tools. This feature allows developers to utilize supported controls to shape voice delivery for voice agents and narration experiences.",
+        "whyItMatters": "This release expands customization capabilities for developers building voice-enabled applications on the Azure platform.",
+        "affected": [
+          "Azure Speech HD V3 voices"
+        ],
+        "action": "Review the Azure Speech documentation to explore the new voice control features.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "[In preview] Public Preview: Human annotation for agent evaluations in Microsoft Foundry",
+      "link": "https://azure.microsoft.com/updates?id=581358",
+      "source": "Azure Updates",
+      "publishedAt": "2026-11-23T21:11:23.000Z",
+      "summary": "Human annotation for agent evaluations is in public preview in Microsoft Foundry, as announced in the Microsoft IQ launch blog.Reviewers can add ratings, tags, comments, and expected outputs to agent traces. Use annotate",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft has announced the public preview of human annotation for agent evaluations within Microsoft Foundry. This feature enables reviewers to add ratings, tags, comments, and expected outputs to agent traces.",
+        "whyItMatters": "It introduces new evaluation capabilities for AI agents, though it does not represent a security vulnerability or incident.",
+        "affected": [
+          "Microsoft Foundry"
+        ],
+        "action": "Review the Microsoft IQ launch blog for details on utilizing the new annotation features.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "[Launched] Generally Available: Agent insights in Microsoft Foundry",
+      "link": "https://azure.microsoft.com/updates?id=581363",
+      "source": "Azure Updates",
+      "publishedAt": "2026-11-23T21:10:07.000Z",
+      "summary": "In Microsoft Foundry, insights analyze agent traces to surface recurring patterns and group related issues.Review an insight and its supporting traces to investigate common failures and decide what to improve first.Use a",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft has generally released agent insights in Microsoft Foundry, a feature designed to analyze agent traces, surface recurring patterns, and group related issues. This tool helps developers review insights and supporting traces to investigate common failures and prioritize improvements.",
+        "whyItMatters": "This feature improves the observability and debugging capabilities for AI agents built within Microsoft Foundry.",
+        "affected": [
+          "Microsoft Foundry"
+        ],
+        "action": "Review the new agent insights feature in Microsoft Foundry to help investigate and improve agent performance.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "[Launched] Generally Available: Files knowledge source for Foundry IQ",
+      "link": "https://azure.microsoft.com/updates?id=581368",
+      "source": "Azure Updates",
+      "publishedAt": "2026-11-23T21:08:46.000Z",
+      "summary": "Upload files directly to a managed knowledge source in Foundry IQ. Foundry IQ processes and indexes the files for retrieval through a knowledge base, so you don't need to provision a storage account or scheduled indexer.",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A new feature called Files knowledge source has been generally launched for Foundry IQ, allowing direct file uploads. The system automatically processes and indexes these files for retrieval without requiring external storage provisioning.",
+        "whyItMatters": "This is a product feature release note rather than a cybersecurity vulnerability or threat.",
+        "affected": [],
+        "action": "Review the new Foundry IQ documentation if you use the platform.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "South Korea’s power giant KEPCO confirms data breach impacting 1.5 million",
+      "link": "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-11-23T20:54:51.000Z",
+      "summary": "A threat actor breached the internal network of Korea Electric Power Corporation (KEPCO) and accessed two systems containing customer, employee, and contractor data. [...]",
+      "categories": [
+        "Threat Intel",
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Korea Electric Power Corporation (KEPCO) confirmed a data breach after a threat actor gained access to its internal network. The unauthorized access compromised two internal systems containing sensitive data belonging to customers, employees, and contractors.",
+        "whyItMatters": "This massive breach exposes personal data for 1.5 million individuals, creating significant risks of identity theft and targeted phishing attacks against customers and staff.",
+        "affected": [
+          "KEPCO internal systems"
+        ],
+        "action": "Monitor accounts for suspicious activity and watch for potential phishing attempts related to the KEPCO breach.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "[In preview] Public Preview: Call model router without a deployment in Microsoft Foundry",
+      "link": "https://azure.microsoft.com/updates?id=581378",
+      "source": "Azure Updates",
+      "publishedAt": "2026-11-23T20:32:57.000Z",
+      "summary": "Microsoft Foundry now lets you use model router without deploying it first. In a region that supports model router, set model to auto in a Responses or Chat Completions request to your Foundry resource.By default, Auto u",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft Foundry has introduced a public preview feature that allows users to utilize the model router without prior deployment. Users simply need to set the model parameter to auto in their requests within supported regions.",
+        "whyItMatters": "This feature streamlines the development workflow by removing the need for explicit model deployment steps.",
+        "affected": [
+          "Microsoft Foundry"
+        ],
+        "action": "Explore the public preview to test the model router feature.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Vulnerability in PHP Affecting Cisco Products: November 2026",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-phpaftershell-nov-2026-kT9pL4Xe?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerability%20in%20PHP%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
+      "source": "Cisco PSIRT",
+      "publishedAt": "2026-11-23T20:20:00.000Z",
+      "summary": "On November 19, 2026, the PHP Foundation announced the availability of security fixes that address a critical vulnerability that could lead to remote code execution. This vulnerability is identified by CVE-2026-126714.\n\r",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Cisco"
+      ],
+      "cves": [
+        "CVE-2026-126714"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The PHP Foundation released security fixes on November 19, 2026, to address a critical remote code execution vulnerability identified as CVE-2026-126714. This vulnerability affects PHP implementations used within certain Cisco products.",
+        "whyItMatters": "It allows attackers to achieve remote code execution, posing a severe threat to vulnerable systems.",
+        "affected": [],
+        "action": "Apply the latest security updates provided by the vendor.",
+        "risk": "Critical",
+        "relatedCves": [
+          "CVE-2026-126714"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "US Cyber Director Pick Signals Shift Toward Expertise",
+      "link": "https://www.darkreading.com/cybersecurity-operations/us-cyber-director-pick-signals-shift-toward-expertise",
+      "source": "Dark Reading",
+      "publishedAt": "2026-11-23T20:13:48.000Z",
+      "summary": "Trump named Kirsten Davies as Acting National Cyber Director, bringing greater industry experience to the role amid recent outages and rising geopolitical tensions.",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "President Trump has appointed Kirsten Davies as the Acting National Cyber Director. This selection brings increased industry expertise to the position as the nation faces rising geopolitical tensions and recent technology outages.",
+        "whyItMatters": "Leadership changes at the Office of the National Cyber Director influence national cybersecurity policy, strategy, and critical infrastructure defense.",
+        "affected": [],
+        "action": "Monitor upcoming announcements from the Office of the National Cyber Director for policy shifts.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "OpenRouter drops AI providers over leaked prompts and secrets",
       "link": "https://www.bleepingcomputer.com/news/security/openrouter-drops-ai-providers-over-leaked-prompts-and-secrets/",
       "source": "BleepingComputer",
@@ -50,8 +601,37 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "USN-9188-1: OAuthLib vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-9188-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-11-23T19:44:23.000Z",
+      "summary": "It was discovered that OAuthLib incorrectly handled JSONP callback\nparameters in the token revocation endpoint. A remote attacker could\npossibly use this issue to execute arbitrary code in a client\napplication. (CVE-2026",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "It was discovered that OAuthLib incorrectly handled JSONP callback\nparameters in the token revocation endpoint. A remote attacker could\npossibly use this issue to execute arbitrary code in a client\napplication. (CVE-2026",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -114,36 +694,6 @@
         "risk": "Critical",
         "relatedCves": [],
         "source": "ai"
-      }
-    },
-    {
-      "title": "[Launched] Generally Available: Wildcard domain support in Azure Firewall network rules",
-      "link": "https://azure.microsoft.com/updates?id=582030",
-      "source": "Azure Updates",
-      "publishedAt": "2026-11-23T18:51:31.000Z",
-      "summary": "Wildcard domain support in Azure Firewall network rules is now\r\ngenerally available. This capability enables customers to use wildcard\r\npatterns, such as *.contoso.com, when\r\ndefining FQDN-based network rules. Wildcard s",
-      "categories": [
-        "Cloud"
-      ],
-      "tags": [
-        "Azure"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Wildcard domain support in Azure Firewall network rules is now\r\ngenerally available. This capability enables customers to use wildcard\r\npatterns, such as *.contoso.com, when\r\ndefining FQDN-based network rules. Wildcard s",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Azure"
-        ],
-        "risk": "News",
-        "action": "No action required; informational.",
-        "relatedCves": [],
-        "source": "heuristic"
       }
     },
     {
@@ -260,160 +810,6 @@
       }
     },
     {
-      "title": "[In preview] Public Preview: Azure Policy support for Azure HorizonDB",
-      "link": "https://azure.microsoft.com/updates?id=580115",
-      "source": "Azure Updates",
-      "publishedAt": "2026-11-23T18:21:46.000Z",
-      "summary": "Azure Policy support for Azure HorizonDB is now available in preview, helping you apply governance and observability standards consistently across your HorizonDB deployments.With the new built-in policy, you can automati",
-      "categories": [
-        "Cloud"
-      ],
-      "tags": [
-        "Azure"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has announced the public preview of Azure Policy support for Azure HorizonDB. This new feature enables users to apply governance and observability standards consistently across their HorizonDB deployments.",
-        "whyItMatters": "It matters because it helps administrators maintain compliance and operational visibility over cloud database resources during the preview phase.",
-        "affected": [
-          "Azure HorizonDB"
-        ],
-        "action": "Review the new built-in policy to govern your HorizonDB deployments.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Retirement: Azure AI Content Safety selected features will be retired on April 30, 2027",
-      "link": "https://azure.microsoft.com/updates?id=577474",
-      "source": "Azure Updates",
-      "publishedAt": "2026-11-23T18:11:31.000Z",
-      "summary": "The following Azure AI Content Safety preview capabilities will retire on April 30, 2027:Analyze MultimodalCustom categories (rapid), including text and imageConnected containers for Text, Image, and Prompt ShieldsDiscon",
-      "categories": [
-        "Cloud",
-        "AI Security"
-      ],
-      "tags": [
-        "Azure"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft is retiring specific preview capabilities of Azure AI Content Safety on April 30, 2027. The affected features include Analyze Multimodal, Custom categories (rapid) for text and images, and Connected/Disconnected containers for Text, Image, and Prompt Shields.",
-        "whyItMatters": "Organizations relying on these specific Azure AI Content Safety preview features must migrate their workflows before support ends to avoid service disruption.",
-        "affected": [
-          "Azure AI Content Safety - Analyze Multimodal",
-          "Azure AI Content Safety - Custom categories (rapid)",
-          "Azure AI Content Safety - Connected containers for Text, Image, and Prompt Shields",
-          "Azure AI Content Safety - Disconnected containers for Text, Image, and Prompt Shields"
-        ],
-        "action": "Migrate away from the retiring Azure AI Content Safety features before April 30, 2027.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "[In preview] Public Preview: Azure Database for PostgreSQL enhanced Burstable tier (Basv2)",
-      "link": "https://azure.microsoft.com/updates?id=574535",
-      "source": "Azure Updates",
-      "publishedAt": "2026-11-23T18:09:39.000Z",
-      "summary": "Enhanced Burstable tier (Basv2) builds on the existing burstable model with improved performance predictability and more efficient burst utilization, delivering a better cost-performance balance. Now you can run steady w",
-      "categories": [
-        "Cloud"
-      ],
-      "tags": [
-        "Azure"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has announced the public preview of the enhanced Burstable tier (Basv2) for Azure Database for PostgreSQL. This new tier aims to provide improved performance predictability, efficient burst utilization, and a better cost-performance balance for database workloads.",
-        "whyItMatters": "It introduces changes to cloud database performance tiers that organizations utilizing Azure PostgreSQL must evaluate for workload optimization and cost management.",
-        "affected": [
-          "Azure Database for PostgreSQL Burstable tier (Basv2)"
-        ],
-        "action": "Review the preview documentation to evaluate the new tier for your Azure PostgreSQL workloads.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "[Launched] Generally Available: WAF Insights for Azure Application Gateway",
-      "link": "https://azure.microsoft.com/updates?id=579280",
-      "source": "Azure Updates",
-      "publishedAt": "2026-11-23T18:02:38.000Z",
-      "summary": "WAF Insights for Azure Application Gateway Web Application Firewall (WAF) is now generally available. WAF Insights is a built-in experience in the WAF policy that brings WAF logs and metrics together in interactive dashb",
-      "categories": [
-        "Cloud"
-      ],
-      "tags": [
-        "Azure"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has announced the general availability of WAF Insights for Azure Application Gateway. This built-in feature integrates WAF logs and metrics into interactive dashboards to improve visibility.",
-        "whyItMatters": "It improves the ability to monitor and analyze web application firewall telemetry in Azure environments.",
-        "affected": [
-          "Azure Application Gateway"
-        ],
-        "action": "Review the Azure Application Gateway documentation to start using WAF Insights.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "[Launched] Generally Available: WAF Insights for Azure Front Door",
-      "link": "https://azure.microsoft.com/updates?id=579285",
-      "source": "Azure Updates",
-      "publishedAt": "2026-11-23T18:01:19.000Z",
-      "summary": "WAF Insights is now generally available for Azure Front Door Web Application Firewall (WAF). WAF Insights is a built-in experience in the WAF policy that brings WAF logs and metrics together in interactive dashboards, so",
-      "categories": [
-        "Cloud"
-      ],
-      "tags": [
-        "Azure"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has announced the general availability of WAF Insights for Azure Front Door Web Application Firewall. This new built-in experience combines WAF logs and metrics into interactive dashboards.",
-        "whyItMatters": "It improves visibility and monitoring capabilities for security administrators managing Azure Front Door WAF policies.",
-        "affected": [
-          "Azure Front Door Web Application Firewall"
-        ],
-        "action": "Review the new WAF Insights dashboards to monitor your Azure Front Door policies.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Critical Cisco remote code execution bug under attack",
       "link": "https://www.theregister.com/security/2026/11/23/critical-cisco-remote-code-execution-bug-under-attack/5311722",
       "source": "The Register",
@@ -467,8 +863,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "High",
         "action": "Monitor for indicators of compromise.",
+        "risk": "High",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -605,8 +1001,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -633,8 +1029,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -663,8 +1059,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -691,8 +1087,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -719,9 +1115,277 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "CVE-2026-69291 Windows Volume Manager Extension Driver Remote Code Execution Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69291",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-11-23T16:00:00.000Z",
+      "summary": "Updated an acknowledgement. This is an informational change only.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [
+        "CVE-2026-69291"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Updated an acknowledgement. This is an informational change only.",
+        "whyItMatters": "Actively exploited or high-impact; treat as urgent.",
+        "affected": [
+          "Windows"
+        ],
+        "risk": "Critical",
+        "action": "Patch immediately.",
+        "relatedCves": [
+          "CVE-2026-69291"
+        ],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "CVE-2026-78462 Visual Studio Code Security Feature Bypass Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-78462",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-11-23T16:00:00.000Z",
+      "summary": "Updated an acknowledgement. This is an informational change only.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-78462"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Updated an acknowledgement. This is an informational change only.",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [
+          "CVE-2026-78462"
+        ],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "CVE-2026-72965 Windows WebClient Service Elevation of Privilege Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-72965",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-11-23T16:00:00.000Z",
+      "summary": "Updated an acknowledgement. This is an informational change only.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Windows"
+      ],
+      "cves": [
+        "CVE-2026-72965"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Updated an acknowledgement. This is an informational change only.",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Windows"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [
+          "CVE-2026-72965"
+        ],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "CVE-2026-87697 .NET Remote Code Execution Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-87697",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-11-23T16:00:00.000Z",
+      "summary": "Updated an acknowledgement. This is an informational change only.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-87697"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Updated an acknowledgement. This is an informational change only.",
+        "whyItMatters": "Actively exploited or high-impact; treat as urgent.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Critical",
+        "action": "Patch immediately.",
+        "relatedCves": [
+          "CVE-2026-87697"
+        ],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "CVE-2026-70175 ASP.NET Core Elevation of Privilege Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70175",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-11-23T16:00:00.000Z",
+      "summary": "Updated an acknowledgement. This is an informational change only.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-70175"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Updated an acknowledgement. This is an informational change only.",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [
+          "CVE-2026-70175"
+        ],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "CVE-2026-70197 .NET and Visual Studio Remote Code Execution Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70197",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-11-23T16:00:00.000Z",
+      "summary": "Updated an acknowledgement. This is an informational change only.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-70197"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Updated an acknowledgement. This is an informational change only.",
+        "whyItMatters": "Actively exploited or high-impact; treat as urgent.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Critical",
+        "action": "Patch immediately.",
+        "relatedCves": [
+          "CVE-2026-70197"
+        ],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "CVE-2026-96225 .NET Elevation of Privilege Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96225",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-11-23T16:00:00.000Z",
+      "summary": "Updated an acknowledgement. This is an informational change only.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-96225"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Updated an acknowledgement. This is an informational change only.",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [
+          "CVE-2026-96225"
+        ],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "CVE-2026-96233 ASP.NET Core Denial of Service Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96233",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-11-23T16:00:00.000Z",
+      "summary": "Updated an acknowledgement. This is an informational change only.",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-96233"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Updated an acknowledgement. This is an informational change only.",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [
+          "CVE-2026-96233"
+        ],
         "source": "heuristic"
       }
     },
@@ -750,8 +1414,8 @@
         "affected": [
           "Cisco"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -781,8 +1445,8 @@
         "affected": [
           "Azure"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -810,8 +1474,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -838,8 +1502,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -863,13 +1527,13 @@
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "For the latest discoveries in cyber research for the week of 23rd November, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES The FBI has reportedly experienced a second cyber incident in recent ",
+        "summary": "For the latest discoveries in cyber research for the week of 23rd November, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES The FBI has reportedly experienced a second cyber incident in recent",
         "whyItMatters": "Background context; no immediate action expected.",
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -896,8 +1560,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -926,8 +1590,8 @@
         "affected": [
           "VMware"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -955,8 +1619,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -984,8 +1648,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "Monitor for indicators of compromise.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1012,8 +1676,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1042,8 +1706,8 @@
         "affected": [
           "Android"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1070,8 +1734,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1099,8 +1763,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1128,8 +1792,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1151,13 +1815,13 @@
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "If a session overwrite operation is interrupted, an attacker who controls the fresh data could trigger data deserialization and RCE.\nThe post phpAfterShell Vulnerability Revives PHP2Shell’s Attack Path appeared first on ",
+        "summary": "If a session overwrite operation is interrupted, an attacker who controls the fresh data could trigger data deserialization and RCE.\nThe post phpAfterShell Vulnerability Revives PHP2Shell’s Attack Path appeared first on",
         "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1185,8 +1849,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1215,8 +1879,8 @@
         "affected": [
           "Windows"
         ],
-        "risk": "High",
         "action": "Review and assess impact on your environment.",
+        "risk": "High",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1245,8 +1909,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "Monitor for indicators of compromise.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1275,8 +1939,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Critical",
         "action": "Patch immediately.",
+        "risk": "Critical",
         "relatedCves": [
           "CVE-2026-134814"
         ],
@@ -1305,8 +1969,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1334,8 +1998,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1362,8 +2026,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1393,8 +2057,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Critical",
         "action": "Patch immediately.",
+        "risk": "Critical",
         "relatedCves": [
           "CVE-2026-84869"
         ],
@@ -1427,8 +2091,8 @@
         "affected": [
           "Azure"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1456,8 +2120,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1489,8 +2153,8 @@
         "affected": [
           "Cisco"
         ],
-        "risk": "Critical",
         "action": "Patch immediately.",
+        "risk": "Critical",
         "relatedCves": [
           "CVE-2026-76466"
         ],
@@ -1519,8 +2183,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1547,8 +2211,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1576,9 +2240,45 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-11-23T12:00:00.000Z",
+      "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-133968 Project MONAI MONAI Label Path Traversal Vulnerability\n CVE-2026-1346",
+      "categories": [
+        "Vulnerability",
+        "Government",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-133968",
+        "CVE-2026-1346"
+      ],
+      "kev": true,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-133968 Project MONAI MONAI Label Path Traversal Vulnerability\n CVE-2026-1346",
+        "whyItMatters": "Actively exploited or high-impact; treat as urgent.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Critical",
+        "action": "Patch immediately.",
+        "relatedCves": [
+          "CVE-2026-133968",
+          "CVE-2026-1346"
+        ],
         "source": "heuristic"
       }
     },
@@ -1604,8 +2304,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1632,8 +2332,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1660,8 +2360,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "Monitor for indicators of compromise.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1692,8 +2392,8 @@
           "Cisco",
           "SAP"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1720,8 +2420,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1751,8 +2451,8 @@
         "affected": [
           "WordPress"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1777,13 +2477,13 @@
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "Summary This technical report has been generated with the help of GLM-5.3-Flash. WPIDE’s 3.6.0 release attempted to remediate CVE-2026-57766 (unauthenticated CSRF, ≤ 3.5.6) by introducing a nonce check, but the check is ",
+        "summary": "Summary This technical report has been generated with the help of GLM-5.3-Flash. WPIDE’s 3.6.0 release attempted to remediate CVE-2026-57766 (unauthenticated CSRF, ≤ 3.5.6) by introducing a nonce check, but the check is",
         "whyItMatters": "Actively exploited or high-impact; treat as urgent.",
         "affected": [
           "Not specified"
         ],
-        "risk": "Critical",
         "action": "Patch immediately.",
+        "risk": "Critical",
         "relatedCves": [
           "CVE-2026-124251",
           "CVE-2026-57766"
@@ -1817,8 +2517,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1845,8 +2545,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1873,8 +2573,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1901,8 +2601,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "Monitor for indicators of compromise.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1933,8 +2633,8 @@
         "affected": [
           "Cisco"
         ],
-        "risk": "Critical",
         "action": "Patch immediately.",
+        "risk": "Critical",
         "relatedCves": [
           "CVE-2026-76466"
         ],
@@ -1963,8 +2663,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1991,38 +2691,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Microsoft confirms Windows printing issues affecting Forcepoint users",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-printing-issues-after-kb5132043-windows-hotpatch/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-11-23T09:11:15.000Z",
-      "summary": "Microsoft confirmed printing issues on systems running Forcepoint DLP software after installing the KB5132043 November 2026 Windows 11 hotpatch. [...]",
-      "categories": [
-        "News"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft confirmed printing issues on systems running Forcepoint DLP software after installing the KB5132043 November 2026 Windows 11 hotpatch. [...]",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Windows"
-        ],
-        "risk": "News",
-        "action": "No action required; informational.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -2050,8 +2720,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Monitor for indicators of compromise.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -2078,38 +2748,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "When Microsoft, Apple, and the FAA can't keep it up, it's a system of a down",
-      "link": "https://www.theregister.com/columnists/2026/11/23/when-microsoft-apple-and-the-faa-cant-keep-it-up-its-a-system-of-a-down/5311363",
-      "source": "The Register",
-      "publishedAt": "2026-11-23T08:42:00.000Z",
-      "summary": "Outage after outage after outage is a syndrome that needs radical treatment",
-      "categories": [
-        "News"
-      ],
-      "tags": [
-        "Apple"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Outage after outage after outage is a syndrome that needs radical treatment",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Apple"
-        ],
         "risk": "News",
-        "action": "No action required; informational.",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -2131,41 +2771,13 @@
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "The Indian Computer Emergency Response Team (CERT-In) has warned that threat actors are carrying out artificial intelligence (AI)-assisted cyber attacks targeting information and communication technology (ICT) assets in ",
+        "summary": "The Indian Computer Emergency Response Team (CERT-In) has warned that threat actors are carrying out artificial intelligence (AI)-assisted cyber attacks targeting information and communication technology (ICT) assets in",
         "whyItMatters": "Background context; no immediate action expected.",
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Infected TV boxes in BADBOX 3.0 rent out their owners’ home internet",
-      "link": "https://www.helpnetsecurity.com/2026/11/23/badbox-3-0-ad-fraud-operation/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-11-23T08:06:18.000Z",
-      "summary": "HUMAN’s Satori Threat Intelligence and Research Team has disrupted BADBOX 3.0, an operation run mainly from infected low-cost TV boxes that generated roughly 40 billion ad bid requests a day at its peak. That was more th",
-      "categories": [
-        "Research"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "HUMAN’s Satori Threat Intelligence and Research Team has disrupted BADBOX 3.0, an operation run mainly from infected low-cost TV boxes that generated roughly 40 billion ad bid requests a day at its peak. That was more th",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
         "risk": "News",
-        "action": "No action required; informational.",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -2192,8 +2804,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -2224,40 +2836,10 @@
           "Windows",
           "Oracle"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
-      }
-    },
-    {
-      "title": "Google claims last week’s critical VMware bug was under attack in September",
-      "link": "https://www.theregister.com/virtualization/2026/11/23/google-claims-last-weeks-critical-vmware-bug-was-under-attack-in-september/5311547",
-      "source": "The Register",
-      "publishedAt": "2026-11-23T04:39:19.000Z",
-      "summary": "China-linked ARMORY CASTLE knew about it weeks before it unleashed five custom malware tools targeting vCenter",
-      "categories": [
-        "Malware"
-      ],
-      "tags": [
-        "VMware"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Google has revealed that a critical VMware bug was actively exploited by a China-linked threat group known as ARMORY CASTLE as early as September. The attackers utilized five custom malware tools specifically targeting vCenter prior to public disclosure.",
-        "whyItMatters": "Active exploitation in the wild before patches or awareness indicates a highly targeted zero-day threat by advanced persistent threat actors.",
-        "affected": [
-          "VMware vCenter"
-        ],
-        "action": "Apply the latest vendor patches for VMware vCenter immediately.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
       }
     },
     {
@@ -2287,6 +2869,34 @@
       }
     },
     {
+      "title": "DSA-6654-1 mediawiki - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00576.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-11-23T00:00:00.000Z",
+      "summary": "Multiple security issues were discovered in MediaWiki, a website engine\nfor collaborative work, which could result in authorisation bypass,\ninformation disclosure, open redirects, denial of service or cross-site\nscriptin",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple security issues were discovered in MediaWiki, a website engine\nfor collaborative work, which could result in authorisation bypass,\ninformation disclosure, open redirects, denial of service or cross-site\nscriptin",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
       "title": "DSA-6653-1 chromium - security update",
       "link": "https://lists.debian.org/debian-security-announce/2026/msg00575.html",
       "source": "Debian Security",
@@ -2308,8 +2918,36 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "The Checkbox Pentest",
+      "link": "https://www.hacktron.ai/blog/the-checkbox-pentest",
+      "source": "Hacktron AI",
+      "publishedAt": "2026-11-23T00:00:00.000Z",
+      "summary": "A customer had the same application pentested twice: by Hacktron, and by the firm bundled with their ISO 27001 compliance package. The free test never logged in.",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A customer had the same application pentested twice: by Hacktron, and by the firm bundled with their ISO 27001 compliance package. The free test never logged in.",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -2552,62 +3190,6 @@
       }
     },
     {
-      "title": "[Launched] Generally Available: Governance policy guidance in Foundry Canvas and VS Code",
-      "link": "https://azure.microsoft.com/updates?id=581463",
-      "source": "Azure Updates",
-      "publishedAt": "2026-11-21T00:45:13.000Z",
-      "summary": "Microsoft Foundry governance guidance is now available in Foundry Canvas and the Foundry Toolkit for Visual Studio Code. As developers build agents, both experiences surface relevant policies for agent types, models, too",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft Foundry governance guidance is now available in Foundry Canvas and the Foundry Toolkit for Visual Studio Code. As developers build agents, both experiences surface relevant policies for agent types, models, too",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "risk": "News",
-        "action": "No action required; informational.",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "[In preview] Public Preview: Microsoft Copilot harness support in Foundry Toolkit for VS Code",
-      "link": "https://azure.microsoft.com/updates?id=581468",
-      "source": "Azure Updates",
-      "publishedAt": "2026-11-21T00:43:13.000Z",
-      "summary": "Agent Builder in Microsoft Foundry Toolkit for Visual Studio Code supports prompt agents that use the Microsoft Copilot harness in public preview. Developers can configure tools and skills, edit local YAML definitions, d",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Agent Builder in Microsoft Foundry Toolkit for Visual Studio Code supports prompt agents that use the Microsoft Copilot harness in public preview. Developers can configure tools and skills, edit local YAML definitions, d",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "risk": "News",
-        "action": "No action required; informational.",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
       "link": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
       "source": "Krebs on Security",
@@ -2737,8 +3319,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -2799,59 +3381,6 @@
         ],
         "action": "Review third-party vendor security controls and monitor accounts for suspicious activity.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "In Security, Words Matter as Much as Tools, Maybe More",
-      "link": "https://www.darkreading.com/cybersecurity-operations/security-words-matter",
-      "source": "Dark Reading",
-      "publishedAt": "2026-11-20T18:35:40.000Z",
-      "summary": "From talking cloud security to using AI, cyber leaders are finding that clear, disciplined communication is now a front-line defense capability across the enterprise.",
-      "categories": [
-        "Cloud",
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Recent discussions among cybersecurity leaders highlight the growing importance of clear and disciplined communication across the enterprise. Effective messaging is increasingly viewed as a crucial front-line defense capability that complements traditional technical tools and AI adoption.",
-        "whyItMatters": "Clear communication helps organizations align security strategies and improve overall defense posture across all business units.",
-        "affected": [],
-        "action": "Prioritize clear communication in your security strategies.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "What We Missed: Nvidia CEO Scandal Rocks AI Industry",
-      "link": "https://www.darkreading.com/cyber-risk/what-we-missed-nvidia-ceo-scandal-rocks-ai-industry",
-      "source": "Dark Reading",
-      "publishedAt": "2026-11-20T17:04:04.000Z",
-      "summary": "In this video, Dark Reading editors discuss some of the news they didn't get a chance to cover, from Jensen Huang's resignation from Nvidia to Microsoft's recent cloud outage.",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Dark Reading editors discuss overlooked news stories in a recent video, including a hypothetical resignation of Nvidia CEO Jensen Huang and a Microsoft cloud outage. The segment covers major industry events that did not receive immediate deep-dive coverage during the regular news cycle.",
-        "whyItMatters": "It highlights major industry disruptions and leadership changes that impact the perception of stability in the AI and cloud sectors.",
-        "affected": [],
-        "action": "Watch the Dark Reading video for full details on the discussed events.",
-        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
@@ -3023,72 +3552,6 @@
       }
     },
     {
-      "title": "USN-9167-2: Linux kernel vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-9167-2",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-11-20T15:33:37.000Z",
-      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - Stream parser;\n  - ARM64 architectur",
-      "categories": [
-        "Vulnerability",
-        "Incident Response",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Security issues have been discovered in the Linux kernel that could allow an attacker to compromise the system. This update corrects flaws specifically located in the stream parser and ARM64 architecture subsystems.",
-        "whyItMatters": "Unpatched kernel vulnerabilities can allow malicious actors to fully compromise affected systems.",
-        "affected": [
-          "Linux kernel"
-        ],
-        "action": "Update the Linux kernel to the latest version provided by your vendor.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-9169-2: Linux kernel vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-9169-2",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-11-20T15:33:29.000Z",
-      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - Stream parser;\n  - x86 architecture;",
-      "categories": [
-        "Vulnerability",
-        "Incident Response",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - Stream parser;\n  - x86 architecture;",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Linux"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Handling the NIST 800-171 Rev 3 Transition",
       "link": "https://www.huntress.com/blog/handling-the-nist-800-171-rev-3-transition",
       "source": "Huntress",
@@ -3114,32 +3577,6 @@
         "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
-      }
-    },
-    {
-      "title": "Microsoft Debuts Offensive, Defensive Security Tools for the AI Era",
-      "link": "https://www.darkreading.com/endpoint-security/microsoft-offense-defense-ai-security-tools",
-      "source": "Dark Reading",
-      "publishedAt": "2026-11-20T13:51:30.000Z",
-      "summary": "Microsoft announces new AI agent security tools and transparency standards to protect enterprise systems at its Ignite technical conference.",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has announced new AI agent security tools and transparency standards at its Ignite technical conference. These solutions are designed to provide both offensive and defensive security capabilities for enterprise systems in the AI era.",
-        "whyItMatters": "It introduces new enterprise-grade capabilities for securing artificial intelligence deployments against emerging threats.",
-        "affected": [],
-        "action": "Review Microsoft's new AI security tools and transparency standards for enterprise adoption.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
       }
     },
     {
@@ -3322,72 +3759,6 @@
       }
     },
     {
-      "title": "Chromium: CVE-2024-7533 Use after free in Sharing",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-7532",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-11-20T09:06:50.000Z",
-      "summary": "Information published.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2024-7533"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "A use-after-free vulnerability identified as CVE-2024-7533 has been disclosed in the Sharing component of Chromium. Information regarding this security flaw has been publicly published.",
-        "whyItMatters": "This vulnerability could potentially allow attackers to execute arbitrary code or cause crashes via compromised memory management in the Sharing feature.",
-        "affected": [
-          "Chromium"
-        ],
-        "action": "Update Chromium to the latest patched version.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2024-7533"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Chromium: CVE-2023-1531 Use after free in ANGLE",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-1531",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-11-20T09:05:37.000Z",
-      "summary": "Information published.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2023-1531"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "A use-after-free vulnerability has been identified in the ANGLE component of Google's Chromium browser. This security flaw is tracked under the identifier CVE-2023-1531.",
-        "whyItMatters": "Exploitation of use-after-free vulnerabilities in core browser components can potentially lead to arbitrary code execution or system compromise.",
-        "affected": [
-          "Chromium"
-        ],
-        "action": "Update Chromium to the latest patched version.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2023-1531"
-        ],
-        "source": "ai"
-      }
-    },
-    {
       "title": "NGINX vulnerabilities",
       "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-279",
       "source": "Fortinet PSIRT",
@@ -3516,34 +3887,6 @@
       }
     },
     {
-      "title": "DSA-6646-1 gpgme1.0 - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00568.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-11-20T00:00:00.000Z",
-      "summary": "Johan Carlsson discovered that GPGME, a library designed to make access\nto GnuPG easier for applications, does not properly handle OpenPGP keys\ncontaining a crafted very long user id, which could result in\ninformation di",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A security vulnerability was discovered in GPGME, a library used to facilitate access to GnuPG for various applications. The flaw involves improper handling of OpenPGP keys with crafted, excessively long user IDs, which could potentially lead to information disclosure.",
-        "whyItMatters": "This vulnerability could allow attackers to compromise sensitive data through specially crafted OpenPGP keys.",
-        "affected": [
-          "gpgme1.0"
-        ],
-        "action": "Update the GPGME library to the latest security release.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "CVE-2026-123890: Critical Authentication Bypass in VMware vCenter",
       "link": "https://www.rapid7.com/blog/post/etr-cve-2026-123890-critical-authentication-bypass-vmware-vcenter",
       "source": "Rapid7",
@@ -3631,32 +3974,6 @@
       }
     },
     {
-      "title": "Dems call CISA nominee ‘disqualified’ after nomination hearing",
-      "link": "https://cyberscoop.com/michael-losapio-cisa-confirmation-hearing/",
-      "source": "CyberScoop",
-      "publishedAt": "2026-11-19T17:11:34.000Z",
-      "summary": "Michael LoSapio, the Palantir executive and Trump administration nominee for CISA, sparred with Democrats on the committee over who won the 2020 election, Jan. 6 and more.\nThe post Dems call CISA nominee ‘disqualified’ a",
-      "categories": [
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Michael LoSapio, a Palantir executive and CISA nominee under the Trump administration, faced sharp criticism from Democrats during his nomination hearing. Lawmakers called him disqualified after he sparred with them over the 2020 election results and the January 6 events.",
-        "whyItMatters": "This political controversy could delay or derail the leadership appointment of a critical cybersecurity agency.",
-        "affected": [],
-        "action": "Monitor the CISA nomination process for updates.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Cold Relic: What you need to know",
       "link": "https://www.fortra.com/blog/cold-relic-what-you-need-know",
       "source": "Graham Cluley",
@@ -3680,211 +3997,6 @@
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-105584 Windows Inventory Backup Information Disclosure Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-105584",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-11-19T16:00:00.000Z",
-      "summary": "Updated an acknowledgement. This is an informational change only.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [
-        "CVE-2026-105584"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "A cybersecurity advisory has been published regarding CVE-2026-105584, which involves a Windows Inventory Backup Information Disclosure Vulnerability. The update consists solely of an informational change to acknowledge the vulnerability.",
-        "whyItMatters": "It tracks a potential information disclosure risk within Windows Inventory Backup functionality.",
-        "affected": [
-          "Windows"
-        ],
-        "action": "Review the updated advisory for informational changes.",
-        "risk": "Medium",
-        "relatedCves": [
-          "CVE-2026-105584"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-95874 Xbox Gaming Services Elevation of Privilege Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-95874",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-11-19T16:00:00.000Z",
-      "summary": "Updated an acknowledgement. This is an informational change only.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-95874"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "Microsoft published an informational update regarding CVE-2026-95874, an elevation of privilege vulnerability affecting Xbox Gaming Services. No technical details or functional changes were included in this advisory revision.",
-        "whyItMatters": "It is important to track security advisories for privileged Windows components to ensure systems are aware of potential local privilege escalation risks.",
-        "affected": [
-          "Xbox Gaming Services"
-        ],
-        "action": "Review the vendor advisory for any future updates.",
-        "risk": "News",
-        "relatedCves": [
-          "CVE-2026-95874"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-95989 vhdmp.sys Elevation of Privilege Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-95989",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-11-19T16:00:00.000Z",
-      "summary": "Updated an acknowledgement. This is an informational change only.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-95989"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "An informational update has been published regarding CVE-2026-95989, an elevation of privilege vulnerability affecting vhdmp.sys. This change only updates an acknowledgment and contains no functional security fixes.",
-        "whyItMatters": "It is important for tracking metadata updates on known vulnerabilities affecting core Windows drivers.",
-        "affected": [
-          "vhdmp.sys"
-        ],
-        "action": "Review the advisory for tracking purposes only.",
-        "risk": "News",
-        "relatedCves": [
-          "CVE-2026-95989"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-96082 Windows Kerberos Denial of Service Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96082",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-11-19T16:00:00.000Z",
-      "summary": "Updated an acknowledgement. This is an informational change only.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows",
-        "Kerberos"
-      ],
-      "cves": [
-        "CVE-2026-96082"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "Microsoft acknowledged an informational update regarding CVE-2026-96082, a Windows Kerberos denial of service vulnerability. No technical exploit details were provided in this specific advisory update.",
-        "whyItMatters": "Understanding updates to known vulnerabilities helps organizations track Microsoft security advisories and assess their exposure.",
-        "affected": [
-          "Windows Kerberos"
-        ],
-        "action": "Review the official Microsoft advisory for any deployment updates.",
-        "risk": "News",
-        "relatedCves": [
-          "CVE-2026-96082"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-113817 Windows Devices Human Interface Elevation of Privilege Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-113817",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-11-19T16:00:00.000Z",
-      "summary": "Updated an acknowledgement. This is an informational change only.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Windows"
-      ],
-      "cves": [
-        "CVE-2026-113817"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "Microsoft has updated an acknowledgement for CVE-2026-113817, which is a Human Interface Elevation of Privilege vulnerability affecting Windows devices. This update represents an informational change only with no new technical exploit details provided.",
-        "whyItMatters": "It tracks a privilege escalation vector in Windows devices, though the recent update is merely administrative.",
-        "affected": [
-          "Windows Devices"
-        ],
-        "action": "Review the advisory for any updated guidance.",
-        "risk": "News",
-        "relatedCves": [
-          "CVE-2026-113817"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "CVE-2026-121669 PowerShell Information Disclosure Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-121669",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-11-19T16:00:00.000Z",
-      "summary": "Updated an acknowledgement. This is an informational change only.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-121669"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "Updated an acknowledgement. This is an informational change only.",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [
-          "CVE-2026-121669"
-        ],
-        "source": "heuristic"
       }
     },
     {
@@ -4848,32 +4960,6 @@
       }
     },
     {
-      "title": "ISC Stormcast For Wednesday, November 18th, 2026 (Wed, Nov 18th)",
-      "link": "https://isc.sans.edu/diary/rss/33528",
-      "source": "SANS ISC",
-      "publishedAt": "2026-11-18T02:00:03.000Z",
-      "summary": "ISC Stormcast For Wednesday, November 18th, 2026 https://isc.sans.edu/podcastdetail/10184, (Wed, Nov 18th)",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "This is the daily ISC Stormcast podcast episode for Wednesday, November 18th, 2026, providing routine cybersecurity news and updates. The episode is hosted on the SANS Internet Storm Center website.",
-        "whyItMatters": "It provides timely daily threat intelligence and security analysis for practitioners.",
-        "affected": [],
-        "action": "Listen to the podcast for daily threat updates.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "CVE-2026-114938: Critical vulnerability in OpenJDK JAVA",
       "link": "https://blog.talosintelligence.com/java4shell/",
       "source": "Talos Intelligence",
@@ -4987,6 +5073,37 @@
         ],
         "action": "No action required; informational.",
         "risk": "News",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Vulnerabilities in Node.js and Brotli Affecting Cisco Products: October 2026",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20Node.js%20and%20Brotli%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
+      "source": "Cisco PSIRT",
+      "publishedAt": "2026-11-17T23:53:12.000Z",
+      "summary": "On October 21, 2026, Node.js announced the availability of fixes for multiple vulnerabilities across the following supported release lines: 22.x, 24.x, and 26.x. \n\r\nThese vulnerabilities impact critical operations such a",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Cisco"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "On October 21, 2026, Node.js announced the availability of fixes for multiple vulnerabilities across the following supported release lines: 22.x, 24.x, and 26.x. \n\r\nThese vulnerabilities impact critical operations such a",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Cisco"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -5222,11 +5339,11 @@
       }
     },
     {
-      "title": "Siemens Simcenter Femap",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10",
+      "title": "Siemens ROS#",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06",
       "source": "CISA Advisories",
       "publishedAt": "2026-11-17T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nSimcenter Femap is affected by an out of bounds read vulnerability that could be triggered when the application reads files in X_T format. This could allow an attacker to crash the application or execut",
+      "summary": "View CSAF\nSummary\nROS# before version 2.3.1 contains a code injection vulnerability that could allow an attacker that is able to pass a crafted message definition file to the user to inject arbitrary code into the genera",
       "categories": [
         "Vulnerability",
         "Vendor Advisory"
@@ -5239,13 +5356,13 @@
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "View CSAF\nSummary\nSimcenter Femap is affected by an out of bounds read vulnerability that could be triggered when the application reads files in X_T format. This could allow an attacker to crash the application or execut",
+        "summary": "View CSAF\nSummary\nROS# before version 2.3.1 contains a code injection vulnerability that could allow an attacker that is able to pass a crafted message definition file to the user to inject arbitrary code into the genera",
         "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
         "affected": [
           "Not specified"
         ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
         "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -5280,35 +5397,6 @@
       }
     },
     {
-      "title": "Siemens Mendix Studio Pro",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-05",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-11-17T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nMendix Studio Pro contains multiple vulnerabilities in the MCP Server, that could allow an attacker with network access to interact with the server remotely or trick a user's browser into sending unauth",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "View CSAF\nSummary\nMendix Studio Pro contains multiple vulnerabilities in the MCP Server, that could allow an attacker with network access to interact with the server remotely or trick a user's browser into sending unauth",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Why threat hunting should matter to every board",
       "link": "https://www.ncsc.gov.uk/blogs/why-threat-hunting-should-matter-to-every-board",
       "source": "NCSC UK",
@@ -5330,32 +5418,6 @@
         "affected": [],
         "action": "Implement proactive threat hunting strategies to complement existing monitoring defenses.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "A phishing page interested in MX records, (Tue, Nov 17th)",
-      "link": "https://isc.sans.edu/diary/rss/33526",
-      "source": "SANS ISC",
-      "publishedAt": "2026-11-17T10:56:38.000Z",
-      "summary": "I&#;x26;#;xe2;&#;x26;#;x80;&#;x26;#;x99;ve mentioned before in some of my diaries that it can be instructive to look at what appear to be &#;x26;#;xe2;&#;x26;#;x80;&#;x26;#;x9c;generic&#;x26;#;xe2;&#;x26;#;x80;&#;x26;#;x",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A cybersecurity researcher discusses observations regarding a generic phishing page and its interest in MX records. The analysis highlights how examining seemingly ordinary phishing infrastructure can provide instructive insights into attacker behavior.",
-        "whyItMatters": "Understanding phishing tactics involving domain MX records helps security teams better detect and defend against targeted credential harvesting campaigns.",
-        "affected": [],
-        "action": "Review email routing and monitor for suspicious phishing campaigns targeting your domain.",
-        "risk": "Medium",
         "relatedCves": [],
         "source": "ai"
       }
@@ -5780,90 +5842,6 @@
         "affected": [],
         "action": "Monitor networks for anomalous automated reconnaissance and exploitation patterns.",
         "risk": "Medium",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Cisco BroadWorks Out-of-Band Blind XML External Entity Injection Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-bworks-xxe-uwUd7CEt?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20BroadWorks%20Out-of-Band%20Blind%20XML%20External%20Entity%20Injection%20Vulnerability%26vs_k=1",
-      "source": "Cisco PSIRT",
-      "publishedAt": "2026-11-13T17:38:56.000Z",
-      "summary": "A vulnerability in the Open Client Interface (OCI) XML Parser of Cisco BroadWorks could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system. \n\r\nThis vulnerability e",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Cisco"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A vulnerability in the Open Client Interface XML Parser of Cisco BroadWorks allows unauthenticated remote attackers to read sensitive configuration information. The flaw involves an out-of-band blind XML external entity injection weakness.",
-        "whyItMatters": "This vulnerability could expose sensitive configuration data to unauthorized remote attackers.",
-        "affected": [
-          "Cisco BroadWorks"
-        ],
-        "action": "Apply the vendor security updates immediately.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "GTA VI isn’t out yet – and the scams are already in full swing",
-      "link": "https://www.welivesecurity.com/en/cybersecurity/gta-vi-isnt-out-yet-scams-full-swing/",
-      "source": "WeLiveSecurity",
-      "publishedAt": "2026-11-13T10:00:00.000Z",
-      "summary": "Cybercriminals attempt to cash in on the hype around the game, luring fans with malware-laced downloads and ‘early access’ that doesn’t exist",
-      "categories": [
-        "Malware"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Cybercriminals are exploiting the high anticipation for the unreleased game GTA VI by launching deceptive phishing campaigns. These scams lure eager fans with fake malware-laced downloads and nonexistent early access offers.",
-        "whyItMatters": "Attackers are successfully weaponizing popular cultural hype to trick users into downloading malicious software and compromising their personal security.",
-        "affected": [],
-        "action": "Avoid downloading unofficial game files or early access offers related to unreleased titles.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Ransomware at the hypervisor layer: how attackers use ESXi and vCenter features for malicious purposes",
-      "link": "https://securelist.com/esxi-ransomware/121959/",
-      "source": "Kaspersky Securelist",
-      "publishedAt": "2026-11-13T09:00:43.000Z",
-      "summary": "Kaspersky experts analyze a recent ransomware incident and discuss why the hypervisor layer remains difficult to monitor, what common access paths adversaries use to reach it, and how to protect your ESXi systems.",
-      "categories": [
-        "Ransomware",
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "high",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Kaspersky experts analyze a recent ransomware incident targeting the hypervisor layer using ESXi and vCenter features. The report discusses monitoring challenges, common access paths, and strategies to protect ESXi systems.",
-        "whyItMatters": "Attacks targeting the hypervisor layer can compromise entire virtualized infrastructures simultaneously, bypassing traditional endpoint security.",
-        "affected": [],
-        "action": "Review and harden access controls for ESXi and vCenter environments.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
