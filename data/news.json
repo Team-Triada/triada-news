@@ -1,6 +1,1040 @@
 {
-  "updatedAt": "2026-11-24T15:54:02.896Z",
+  "updatedAt": "2026-11-25T00:40:48.212Z",
   "items": [
+    {
+      "title": "DSA-6656-1 runc - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00578.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "summary": "Several vulnerabilities were discovered in runc, the Open Container\nInitiative runtime. Depending on the configuration, exploitation could\nexpose host resources, cause a denial of service, or permit container\nescape.\n\n\nh",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Several vulnerabilities have been discovered in runc, the Open Container Initiative runtime. Depending on the system configuration, exploitation of these flaws could lead to host resource exposure, denial of service, or container escape.",
+        "whyItMatters": "Unpatched container escape and resource exposure vulnerabilities in runc put underlying host systems and isolated environments at severe risk of compromise.",
+        "affected": [
+          "runc"
+        ],
+        "action": "Update the runc package to the latest security release.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "NGINX HTTP/2 Use-After-Free: CVE-2026-123633",
+      "link": "https://unit42.paloaltonetworks.com/cve-2026-123633-nginx-http2-vulnerability/",
+      "source": "Unit 42",
+      "publishedAt": "2026-11-24T23:00:14.000Z",
+      "summary": "Technical analysis of CVE-2026-123633, an NGINX HTTP/2 use-after-free flaw, with details on affected versions, sanitizer tests, and patch guidance.\nThe post NGINX HTTP/2 Use-After-Free: CVE-2026-123633 appeared first on ",
+      "categories": [
+        "Vulnerability",
+        "Open Source"
+      ],
+      "tags": [
+        "Nginx"
+      ],
+      "cves": [
+        "CVE-2026-123633"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A technical analysis has been released detailing CVE-2026-123633, a use-after-free vulnerability affecting the HTTP/2 implementation in NGINX. The advisory includes information on affected versions, sanitizer test results, and patch guidance.",
+        "whyItMatters": "This use-after-free vulnerability could potentially lead to denial of service or remote code execution if exploited.",
+        "affected": [
+          "NGINX"
+        ],
+        "action": "Review the patch guidance and update NGINX to the latest secure version.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-123633"
+        ],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "An Unclassified CIA System Was Breached in a Cyberattack, AP Source Says",
+      "link": "https://www.securityweek.com/an-unclassified-cia-system-was-breached-in-a-cyberattack-ap-source-says/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-11-24T22:41:58.000Z",
+      "summary": "It was not clear what specific information was compromised or who was responsible.\nThe post An Unclassified CIA System Was Breached in a Cyberattack, AP Source Says appeared first on SecurityWeek.",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "An unclassified CIA system has been breached in a cyberattack according to an AP source. It remains unclear at this time what specific information was compromised or who was responsible for the incident.",
+        "whyItMatters": "A breach of a CIA system raises serious concerns about government network security, even if the system was unclassified.",
+        "affected": [],
+        "action": "Monitor official reports for updates as more details emerge.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Satellites Have a Ground-Level Cybersecurity Problem",
+      "link": "https://www.darkreading.com/cyber-risk/satellites-ground-level-cybersecurity-problem",
+      "source": "Dark Reading",
+      "publishedAt": "2026-11-24T22:05:34.000Z",
+      "summary": "Weaknesses in the ground-based infrastructure supporting satellite services are becoming more consequential as a new space race gathers pace.",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Weaknesses in the ground-based infrastructure supporting satellite services are becoming increasingly critical as the new space race accelerates. These vulnerabilities pose significant risks to the overall security and reliability of modern satellite operations.",
+        "whyItMatters": "Securing ground infrastructure is vital because vulnerabilities on Earth can compromise entire space-based satellite networks.",
+        "affected": [],
+        "action": "Audit and strengthen ground-based satellite infrastructure security.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Unclassified intel system hit by hackers, affecting CIA, ODNI",
+      "link": "https://cyberscoop.com/cia-odni-osint-data-breach/",
+      "source": "CyberScoop",
+      "publishedAt": "2026-11-24T22:01:23.000Z",
+      "summary": "CyberScoop confirmed the incident, with a source saying “no other systems are currently at risk.”\nThe post Unclassified intel system hit by hackers, affecting CIA, ODNI appeared first on CyberScoop.",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "An unclassified intelligence system used by agencies including the CIA and ODNI has been breached by hackers. Sources close to the matter have confirmed the incident while stating that no other systems are currently at risk.",
+        "whyItMatters": "This breach compromises sensitive unclassified government communications and infrastructure used by top intelligence agencies.",
+        "affected": [
+          "Unclassified intelligence system"
+        ],
+        "action": "Investigate the breach and secure affected unclassified intelligence networks.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Webworm APT Slithers Into Networks With Customized SoftEther VPN",
+      "link": "https://www.darkreading.com/perimeter/webworm-slithers-customized-softether-vpn",
+      "source": "Dark Reading",
+      "publishedAt": "2026-11-24T21:48:06.000Z",
+      "summary": "The China-aligned espionage group rebuilt the open source VPN software from source, stripping out the artifacts that would normally expose it to defenders.",
+      "categories": [
+        "Threat Intel",
+        "Open Source"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The China-aligned Webworm APT espionage group has been utilizing a customized version of SoftEther VPN to infiltrate target networks. By rebuilding the open-source software from source, the attackers successfully stripped out artifacts typically used by defenders for detection.",
+        "whyItMatters": "This technique allows sophisticated threat actors to blend malicious remote access traffic with legitimate software, making network intrusions much harder to detect.",
+        "affected": [],
+        "action": "Monitor network traffic for anomalous SoftEther VPN usage and review endpoints for unauthorized VPN binaries.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Rackspace shuts down Spot cloud platform after security breach",
+      "link": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-11-24T21:37:30.000Z",
+      "summary": "Rackspace is shutting down its Rackspace Spot cloud platform after a security breach allowed hackers to access customer Kubernetes clusters and secrets, giving customers until December 8 to migrate their services and dow",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [
+        "Kubernetes"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Rackspace is permanently shutting down its Spot cloud platform following a security breach that compromised customer Kubernetes clusters and secrets. Customers have been given until December 8 to migrate their services away from the platform.",
+        "whyItMatters": "This incident highlights the severe operational and security risks when cloud infrastructure is compromised, forcing a provider to completely retire an entire product line.",
+        "affected": [
+          "Rackspace Spot cloud platform"
+        ],
+        "action": "Migrate your services away from the Rackspace Spot platform before the December 8 deadline.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "'God Mode' Flaws Could Wreak Border-Control Havoc",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/god-mode-flaws-wreak-border-control-havoc",
+      "source": "Dark Reading",
+      "publishedAt": "2026-11-24T21:36:11.000Z",
+      "summary": "Attackers could have disrupted traveler entry into Nigeria, Ethiopia, Zambia, Sri Lanka, Fiji, and Ghana via several vulnerabilities in their online visa and immigration systems.",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Critical vulnerabilities in online visa and immigration systems could have allowed attackers to disrupt traveler entry into multiple countries including Nigeria, Ethiopia, Zambia, Sri Lanka, Fiji, and Ghana. These 'God Mode' flaws posed significant risks to national border-control operations and traveler processing.",
+        "whyItMatters": "Unsecured border-control systems could be exploited to cause severe disruptions to international travel and national security.",
+        "affected": [
+          "Online visa and immigration systems"
+        ],
+        "action": "Patch and secure the vulnerable visa and immigration platforms immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Colorado says cyberattack took down myColorado app, warns 150,000 had data stolen",
+      "link": "https://therecord.media/mycolorado-app-down-data-breach",
+      "source": "The Record",
+      "publishedAt": "2026-11-24T20:52:00.000Z",
+      "summary": "Cybercriminals likely stole data from 150,000 users of myColorado, which residents typically use for digital identification, document storage and accessing state government services.",
+      "categories": [
+        "Government"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A cyberattack on Colorado's myColorado digital ID application has taken the platform offline. State officials warn that cybercriminals likely stole personal data belonging to 150,000 users.",
+        "whyItMatters": "This incident exposes sensitive personal data and state government credentials for a large number of residents.",
+        "affected": [
+          "myColorado app"
+        ],
+        "action": "Monitor state communications and watch for potential identity theft.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "New Inception extortion gang launches large-scale vishing campaign",
+      "link": "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-11-24T20:21:20.000Z",
+      "summary": "A newly formed data extortion group named 'Inception' has been linked to a large-scale campaign that targets single sign-on (SSO) credentials of multiple global brands and firms. [...]",
+      "categories": [
+        "Threat Intel"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A newly formed data extortion group known as Inception has launched a large-scale vishing campaign targeting single sign-on credentials. The attacks are directed at multiple global brands and firms to compromise their security systems.",
+        "whyItMatters": "This campaign poses a severe threat to corporate security by bypassing traditional defenses through social engineering of authentication credentials.",
+        "affected": [],
+        "action": "Train employees to recognize vishing attacks and monitor SSO access logs for anomalies.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "'We are not ShinyHunters,' says criminal hacking crew that looks and acts just like ShinyHunters",
+      "link": "https://www.theregister.com/security/2026/11/24/we-are-not-shinyhunters-says-criminal-hacking-crew-that-looks-and-acts-just-like-shinyhunters/5311978",
+      "source": "The Register",
+      "publishedAt": "2026-11-24T20:15:36.000Z",
+      "summary": "Nothing to see here…",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "An unidentified criminal hacking group is currently operating in a manner closely resembling the notorious ShinyHunters crew while explicitly denying any affiliation. The article contains minimal text and provides no specific technical details regarding breaches or vulnerabilities.",
+        "whyItMatters": "It highlights the confusion and attribution challenges in the cybercrime underground when imitators or splinter groups adopt the personas of established threat actors.",
+        "affected": [],
+        "action": "Monitor threat intelligence feeds for updates on the group's activities.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "California privacy agency director Kemp to leave after two-year tenure",
+      "link": "https://therecord.media/california-privacy-agency-kemp",
+      "source": "The Record",
+      "publishedAt": "2026-11-24T19:30:00.000Z",
+      "summary": "The director of the trailblazing California Privacy Protection Agency announced his departure following implementation of a first-in-the-nation platform allowing consumers to easily opt out of data sharing.",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The director of the California Privacy Protection Agency is stepping down after a two-year tenure. This departure follows the recent implementation of a state platform enabling consumers to opt out of data sharing.",
+        "whyItMatters": "Leadership changes at a prominent privacy agency could impact the enforcement and future direction of pioneering state-level data privacy regulations.",
+        "affected": [],
+        "action": "Monitor future updates from the California Privacy Protection Agency regarding leadership and regulatory enforcement.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Turnitin discloses cyberattack affecting customer-facing systems",
+      "link": "https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-11-24T18:59:52.000Z",
+      "summary": "Turnitin disclosed via a statement from its CEO, Chris Caren, that it recently detected unauthorized activity involving certain customer-facing systems. [...]",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Turnitin disclosed a recent cyberattack involving unauthorized activity on certain customer-facing systems. The company stated it is investigating the incident to determine the scope and impact on its services.",
+        "whyItMatters": "This incident exposes potential risks to educational institutions and users relying on Turnitin for academic integrity and document evaluation.",
+        "affected": [],
+        "action": "Monitor Turnitin for official security updates and reset account credentials if prompted.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Radware discloses breach exposing customer cloud access keys",
+      "link": "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-11-24T17:49:05.000Z",
+      "summary": "Cybersecurity company Radware says attackers gained access to some of its customers' account details and cloud access keys through an unsecured internal Cloud WAF (Web Application Firewall) management API that was left e",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Radware disclosed a data breach after attackers gained access to customer account details and cloud access keys. The compromise stemmed from an unsecured internal Cloud WAF management API that was left exposed.",
+        "whyItMatters": "Exposed cloud access keys can allow unauthorized third parties to compromise sensitive customer cloud environments and data.",
+        "affected": [
+          "Radware Cloud WAF management API"
+        ],
+        "action": "Audit and rotate any exposed cloud access keys immediately.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Lawmakers warn ID verification companies to bolster security after September hack",
+      "link": "https://therecord.media/idscan-data-breach-warning-congressional-letter",
+      "source": "The Record",
+      "publishedAt": "2026-11-24T17:49:00.000Z",
+      "summary": "A bicameral, bipartisan letter from lawmakers said identity verification companies still have significant security work to do in the wake of a data breach at IDscan in September.",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "high",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A bicameral, bipartisan letter from lawmakers said identity verification companies still have significant security work to do in the wake of a data breach at IDscan in September.",
+        "whyItMatters": "Significant risk to affected systems; prioritize review.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "High",
+        "action": "Review and assess impact on your environment.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Patel mum on FBI crime info database hack, citing ongoing investigation",
+      "link": "https://cyberscoop.com/kash-patel-fbi-ncic-database-hack/",
+      "source": "CyberScoop",
+      "publishedAt": "2026-11-24T17:48:34.000Z",
+      "summary": "The breach of the National Crime Information Center was the second in recent months for the bureau.\nThe post Patel mum on FBI crime info database hack, citing ongoing investigation appeared first on CyberScoop.",
+      "categories": [
+        "Incident Response",
+        "Government"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The breach of the National Crime Information Center was the second in recent months for the bureau.\nThe post Patel mum on FBI crime info database hack, citing ongoing investigation appeared first on CyberScoop.",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "[Launched] Generally Available: Azure Site Recovery support for zonal disaster recovery for Ultra disks",
+      "link": "https://azure.microsoft.com/updates?id=582171",
+      "source": "Azure Updates",
+      "publishedAt": "2026-11-24T17:48:22.000Z",
+      "summary": "Azure Site Recovery now supports Zone-to-Zone Disaster\r\nRecovery (Zonal DR) for Azure Ultra disks. Customers can protect\r\nperformance-intensive virtual machines across Availability Zones against zonal\r\ndisruptions by rep",
+      "categories": [
+        "Cloud"
+      ],
+      "tags": [
+        "Azure"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft has announced general availability for Azure Site Recovery support of Zone-to-Zone Disaster Recovery for Azure Ultra disks. This feature enables users to safeguard high-performance virtual machines across different Availability Zones against potential zonal disruptions.",
+        "whyItMatters": "It enhances business continuity and disaster recovery capabilities for critical, performance-intensive workloads running on Azure infrastructure.",
+        "affected": [
+          "Azure Site Recovery",
+          "Azure Ultra disks"
+        ],
+        "action": "Review the Azure Site Recovery documentation to implement zonal disaster recovery for your Ultra disks.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "UK cyber agency, threat companies tracking rise in AI-assisted hacks",
+      "link": "https://cyberscoop.com/uk-ncsc-ai-assisted-cyberattacks/",
+      "source": "CyberScoop",
+      "publishedAt": "2026-11-24T17:27:09.000Z",
+      "summary": "The National Cyber Security Centre said it is observing a “marked” increase in such attacks across sectors, as threat actors increasingly delegate to machines.\nThe post UK cyber agency, threat companies tracking rise in ",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The National Cyber Security Centre said it is observing a “marked” increase in such attacks across sectors, as threat actors increasingly delegate to machines.\nThe post UK cyber agency, threat companies tracking rise in ",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "A bot tested an AWS key within 8 seconds of exposure",
+      "link": "https://www.malwarebytes.com/blog/ai/2026/11/a-bot-tested-an-aws-key-within-8-seconds-of-exposure",
+      "source": "Malwarebytes Labs",
+      "publishedAt": "2026-11-24T17:08:51.000Z",
+      "summary": "If you accidentally publish a cloud access key, a bot could find it before you have time to take it down.",
+      "categories": [
+        "Cloud"
+      ],
+      "tags": [
+        "AWS"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Recent research demonstrates that automated bots can discover and test accidentally exposed AWS access keys within eight seconds. This rapid exploitation window leaves developers virtually no time to manually revoke compromised credentials.",
+        "whyItMatters": "It proves that manual reaction time is insufficient to prevent cloud compromise after a secret leakage.",
+        "affected": [
+          "AWS"
+        ],
+        "action": "Implement automated secret scanning to prevent API keys from being committed to public repositories.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "An AI coding agent, a browser, and a Mac tool found a financial firm's access key in under 6 minutes",
+      "link": "https://www.theregister.com/security/2026/11/24/an-ai-coding-agent-a-browser-and-a-mac-tool-found-a-financial-firms-access-key-in-under-6-minutes/5311922",
+      "source": "The Register",
+      "publishedAt": "2026-11-24T17:00:00.000Z",
+      "summary": "No sophisticated malware or attack framework required",
+      "categories": [
+        "Malware",
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "An AI coding agent, a web browser, and a Mac tool successfully discovered a financial firm's access key in under six minutes. The attack required no sophisticated malware or advanced frameworks to execute.",
+        "whyItMatters": "It demonstrates how easily accessible modern AI and automation tools can be leveraged to quickly find sensitive credentials.",
+        "affected": [],
+        "action": "Secure and rotate exposed access keys immediately.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
+      "link": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-11-24T16:54:07.000Z",
+      "summary": "A previously undocumented Iran-aligned cyber espionage group called Volant Manticore has targeted telecommunications companies, airlines, and critical infrastructure in Cyprus.\n\nCentral to the group's operations is a bac",
+      "categories": [
+        "Malware",
+        "Threat Intel"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A previously undocumented Iran-aligned cyber espionage group called Volant Manticore has targeted telecommunications companies, airlines, and critical infrastructure in Cyprus.\n\nCentral to the group's operations is a bac",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "News",
+        "action": "Monitor for indicators of compromise.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "[In preview] Public Preview: Optimize agents from insights in Foundry Agent Service",
+      "link": "https://azure.microsoft.com/updates?id=581483",
+      "source": "Azure Updates",
+      "publishedAt": "2026-11-24T16:52:07.000Z",
+      "summary": "Optimization from insights is in public preview in Foundry Agent Service. In the Foundry portal, start from an eligible insight in a prompt-agent trace to generate and evaluate candidate changes to the agent's instructio",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Optimization from insights is in public preview in Foundry Agent Service. In the Foundry portal, start from an eligible insight in a prompt-agent trace to generate and evaluate candidate changes to the agent's instructio",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "[In preview] Public Preview: Govern MCP tools with your own gateway in Microsoft Foundry Agent Service",
+      "link": "https://azure.microsoft.com/updates?id=581498",
+      "source": "Azure Updates",
+      "publishedAt": "2026-11-24T16:50:47.000Z",
+      "summary": "In public preview, Microsoft Foundry Agent Service lets you route MCP tool traffic through existing AI Gateway or Azure API Management endpoints that your organization manages. Configure the MCP route in the gateway firs",
+      "categories": [
+        "Cloud",
+        "AI Security"
+      ],
+      "tags": [
+        "Azure"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "In public preview, Microsoft Foundry Agent Service lets you route MCP tool traffic through existing AI Gateway or Azure API Management endpoints that your organization manages. Configure the MCP route in the gateway firs",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Azure"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "[Launched] Generally Available: Use Azure Storage permissions in Azure AI Search and Foundry IQ",
+      "link": "https://azure.microsoft.com/updates?id=581303",
+      "source": "Azure Updates",
+      "publishedAt": "2026-11-24T16:49:39.000Z",
+      "summary": "Azure AI Search and Foundry IQ in Microsoft Foundry can use supported Azure Storage permissions to control access to search results.Once configured, search applications and AI agents return content based on each user's a",
+      "categories": [
+        "Cloud",
+        "AI Security"
+      ],
+      "tags": [
+        "Azure"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Azure AI Search and Foundry IQ in Microsoft Foundry can use supported Azure Storage permissions to control access to search results.Once configured, search applications and AI agents return content based on each user's a",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Azure"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "[In preview] Public Preview: Native A2A passthrough for hosted agents in Foundry Agent Service",
+      "link": "https://azure.microsoft.com/updates?id=581313",
+      "source": "Azure Updates",
+      "publishedAt": "2026-11-24T16:48:25.000Z",
+      "summary": "Bring your existing Agent2Agent (A2A) agents to Agent Service without a protocol conversion layer.Previously, Agent Service converted incoming A2A requests to the Responses protocol. With A2A passthrough, Agent Service f",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Bring your existing Agent2Agent (A2A) agents to Agent Service without a protocol conversion layer.Previously, Agent Service converted incoming A2A requests to the Responses protocol. With A2A passthrough, Agent Service f",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "[In preview] Public Preview: Azure Developer CLI extension for Azure Document Intelligence and Content Understanding in Foundry Tools",
+      "link": "https://azure.microsoft.com/updates?id=581318",
+      "source": "Azure Updates",
+      "publishedAt": "2026-11-24T16:45:59.000Z",
+      "summary": "Within Microsoft Foundry, use azd ai cu commands to analyze documents with Azure Document Intelligence and Content Understanding in Foundry Tools. The extension for Azure Developer CLI (azd) can save analysis results as ",
+      "categories": [
+        "Cloud",
+        "AI Security"
+      ],
+      "tags": [
+        "Azure"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Within Microsoft Foundry, use azd ai cu commands to analyze documents with Azure Document Intelligence and Content Understanding in Foundry Tools. The extension for Azure Developer CLI (azd) can save analysis results as ",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Azure"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "[In preview] Public Preview: Cost controls for model and agent spending in Microsoft Foundry",
+      "link": "https://azure.microsoft.com/updates?id=581323",
+      "source": "Azure Updates",
+      "publishedAt": "2026-11-24T16:43:40.000Z",
+      "summary": "Within Microsoft Foundry, cost controls set a spending or token budget for a Foundry resource or project. When usage reaches a threshold that you set, a cost control sends an alert through Azure Event Grid or blocks new ",
+      "categories": [
+        "Cloud"
+      ],
+      "tags": [
+        "Azure"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Within Microsoft Foundry, cost controls set a spending or token budget for a Foundry resource or project. When usage reaches a threshold that you set, a cost control sends an alert through Azure Event Grid or blocks new ",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Azure"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "[In preview] Public Preview: Central governance of hosted-agent outbound domains in Foundry Agent Service",
+      "link": "https://azure.microsoft.com/updates?id=581328",
+      "source": "Azure Updates",
+      "publishedAt": "2026-11-24T16:42:20.000Z",
+      "summary": "Administrators can use Azure Policy to govern outbound destinations for hosted agents in Foundry Agent Service. Agent authors configure and attach a compliant egress policy before creating an agent version. The egress po",
+      "categories": [
+        "Cloud"
+      ],
+      "tags": [
+        "Azure"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Administrators can use Azure Policy to govern outbound destinations for hosted agents in Foundry Agent Service. Agent authors configure and attach a compliant egress policy before creating an agent version. The egress po",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Azure"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "VMware Updates Patch Critical ESX, vCenter Vulnerabilities",
+      "link": "https://www.securityweek.com/vmware-updates-patch-critical-esx-vcenter-vulnerabilities/",
+      "source": "SecurityWeek",
+      "publishedAt": "2026-11-24T16:32:56.000Z",
+      "summary": "The critical bugs include an authentication bypass in vCenter and flaws that could allow code execution on ESX hosts.\nThe post VMware Updates Patch Critical ESX, vCenter Vulnerabilities appeared first on SecurityWeek.",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [
+        "VMware"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The critical bugs include an authentication bypass in vCenter and flaws that could allow code execution on ESX hosts.\nThe post VMware Updates Patch Critical ESX, vCenter Vulnerabilities appeared first on SecurityWeek.",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "VMware"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "ShinyHunters claims to return after FBI arrests, uses old PGP keys as proof",
+      "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-11-24T16:30:19.000Z",
+      "summary": "The ShinyHunters extortion gang claims to have returned in posts on a new data leak site after a series of arrests over the past two months targeting alleged members. [...]",
+      "categories": [
+        "Incident Response",
+        "Government"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The ShinyHunters extortion gang claims to have returned in posts on a new data leak site after a series of arrests over the past two months targeting alleged members. [...]",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "New Inception Extortion Brand Tied to SSO Vishing Campaign",
+      "link": "https://www.infosecurity-magazine.com/news/inception-extortion-sso-vishing/",
+      "source": "Infosecurity Magazine",
+      "publishedAt": "2026-11-24T16:30:00.000Z",
+      "summary": "Okta and ReversingLabs linked Inception to an SSO vishing campaign targeting employee credentials",
+      "categories": [
+        "Threat Intel"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Okta and ReversingLabs linked Inception to an SSO vishing campaign targeting employee credentials",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "European Commission confirms data theft in EU Academy breach",
+      "link": "https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-theft-in-eu-academy-breach/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-11-24T16:22:44.000Z",
+      "summary": "The European Commission, the European Union's main executive body, has confirmed that attackers breached its EU Academy online learning hub and stole the personal data of an undisclosed number of users. [...]",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "The European Commission, the European Union's main executive body, has confirmed that attackers breached its EU Academy online learning hub and stole the personal data of an undisclosed number of users. [...]",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Hackers compromise Check Point Servers in 22 organizations",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-11-24T16:15:23.000Z",
+      "summary": "Threat actors have exploited multiple vulnerabilities to compromise two dozen Check Point Security management servers in an ongoing campaign targeting 22 organizations. [...]",
+      "categories": [
+        "Vulnerability",
+        "Threat Intel",
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Threat actors have exploited multiple vulnerabilities to compromise two dozen Check Point Security management servers in an ongoing campaign targeting 22 organizations. [...]",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Carnegie Endowment for International Peace says third-party breach leaked donation info",
+      "link": "https://therecord.media/carnegie-endowment-data-breach",
+      "source": "The Record",
+      "publishedAt": "2026-11-24T16:00:00.000Z",
+      "summary": "Some donors to the Carnegie Endowment for International Peace had their information leaked due to a cyberattack on a third-party vendor named Soapbox Engage.",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Some donors to the Carnegie Endowment for International Peace had their information leaked due to a cyberattack on a third-party vendor named Soapbox Engage.",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "CVE-2026-112732 Microsoft Office Visio Remote Code Execution Vulnerability",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112732",
+      "source": "Microsoft MSRC",
+      "publishedAt": "2026-11-24T16:00:00.000Z",
+      "summary": "Information published. This CVE was addressed by updates that were released in November 2026, but the CVE was inadvertently omitted from the November 2026 Security Updates. This is an informational change only. Customers",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2026-112732"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "critical",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Information published. This CVE was addressed by updates that were released in November 2026, but the CVE was inadvertently omitted from the November 2026 Security Updates. This is an informational change only. Customers",
+        "whyItMatters": "Actively exploited or high-impact; treat as urgent.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Critical",
+        "action": "Patch immediately.",
+        "relatedCves": [
+          "CVE-2026-112732"
+        ],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "How to compare MDR providers when every proposal looks promising",
+      "link": "https://www.rapid7.com/blog/post/dr-comparing-mdr-providers-scorecard",
+      "source": "Rapid7",
+      "publishedAt": "2026-11-24T15:51:25.000Z",
+      "summary": "Choosing a managed detection and response (MDR) provider means committing budget, connecting systems, and trusting another team to act when your organization is under pressure. Yet a proposal promising 24x7 coverage, exp",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Choosing a managed detection and response (MDR) provider means committing budget, connecting systems, and trusting another team to act when your organization is under pressure. Yet a proposal promising 24x7 coverage, exp",
+        "whyItMatters": "Background context; no immediate action expected.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "News",
+        "action": "No action required; informational.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
     {
       "title": "Police disrupt 57 illegal streaming services with 7.3 million visits",
       "link": "https://www.bleepingcomputer.com/news/security/police-disrupt-57-illegal-streaming-services-with-73-million-visits/",
@@ -22,33 +1056,6 @@
         "whyItMatters": "This international law enforcement operation demonstrates significant cross-border cooperation to dismantle large-scale digital piracy networks.",
         "affected": [],
         "action": "Avoid using illegal streaming services.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "From Vulnerability Noise to Resilience: Rethinking Security in the AI Era",
-      "link": "https://www.bleepingcomputer.com/news/security/from-vulnerability-noise-to-resilience-rethinking-security-in-the-ai-era/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-11-24T15:01:11.000Z",
-      "summary": "AI-driven development is adding complexity to software supply chains, leaving security teams overwhelmed by vulnerabilities that may pose little actual risk. RapidFort explains how runtime visibility, container hardening",
-      "categories": [
-        "Vulnerability",
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "AI-driven software development is increasing supply chain complexity and overwhelming security teams with vulnerability alerts. Addressing this noise requires shifting focus toward runtime visibility and container hardening to manage actual risk.",
-        "whyItMatters": "Security teams are drowning in false positives and low-risk vulnerabilities, distracting them from genuine threats in the AI era.",
-        "affected": [],
-        "action": "Implement runtime visibility and container hardening to filter vulnerability noise.",
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
@@ -104,8 +1111,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Monitor for indicators of compromise.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -161,8 +1168,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -283,60 +1290,6 @@
       }
     },
     {
-      "title": "McDonald's Japan data breach exposes customer location information",
-      "link": "https://www.bleepingcomputer.com/news/security/mcdonalds-japan-data-breach-exposes-customer-location-information/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-11-24T14:09:37.000Z",
-      "summary": "McDonald's Japan, the fast-food giant's Japanese subsidiary, has disclosed a data breach after attackers accessed a database containing sensitive information for users of the company's official smartphone app. [...]",
-      "categories": [
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "McDonald's Japan suffered a data breach after attackers gained unauthorized access to a database containing sensitive information. The compromised data specifically includes customer location details collected through the company's official smartphone app.",
-        "whyItMatters": "This incident exposes sensitive user location data, raising privacy concerns and increasing the risk of targeted attacks against affected customers.",
-        "affected": [
-          "McDonald's Japan official smartphone app"
-        ],
-        "action": "Review app permissions and monitor accounts for suspicious activity.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "UK cyber agency seeing ‘marked rise’ in AI-driven attacks",
-      "link": "https://therecord.media/cyberattacks-uk-artificial-intelligence",
-      "source": "The Record",
-      "publishedAt": "2026-11-24T13:45:00.000Z",
-      "summary": "Britain’s National Cyber Security Centre said it has observed “a marked rise” since September in cyberattacks assisted by artificial intelligence and warned the technology was increasing attackers’ speed, scale and persi",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Britain's National Cyber Security Centre reported a notable increase in AI-assisted cyberattacks since September. The agency warned that artificial intelligence is enhancing the speed, scale, and persistence of malicious actors.",
-        "whyItMatters": "The adoption of artificial intelligence by threat actors lowers the barrier to entry and accelerates the frequency and sophistication of cyber threats.",
-        "affected": [],
-        "action": "Enhance security monitoring and adopt AI-driven defense mechanisms.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Address AI Agent Risks or Face Action, FCA Warns Financial Firms",
       "link": "https://www.infosecurity-magazine.com/news/ai-agent-risks-face-action-fca/",
       "source": "Infosecurity Magazine",
@@ -379,49 +1332,15 @@
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "The Lapsus$ member who leaked footage of Grand Theft Auto VI (GTA 6) was sentenced to seven years in prison on Monday and released from custody on licence the same day, City of London Police announced. Arion Kurtaj, 21, ",
+        "summary": "The Lapsus$ member who leaked footage of Grand Theft Auto VI (GTA 6) was sentenced to seven years in prison on Monday and released from custody on licence the same day, City of London Police announced. Arion Kurtaj, 21,",
         "whyItMatters": "Background context; no immediate action expected.",
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
-      }
-    },
-    {
-      "title": "New Shirudo tool uses AI to shield unpatched Linux systems from exploits",
-      "link": "https://www.bleepingcomputer.com/news/security/new-shirudo-tool-uses-ai-to-shield-unpatched-linux-systems-from-exploits/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-11-24T13:34:23.000Z",
-      "summary": "OpenAI and Cisco launched an open-source Linux security tool named Shirudo that deploys temporary runtime protections to block vulnerability exploitation while administrators prepare and roll out patches, without restart",
-      "categories": [
-        "Vulnerability",
-        "AI Security",
-        "Vendor Advisory",
-        "Open Source"
-      ],
-      "tags": [
-        "Linux",
-        "Cisco"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "OpenAI and Cisco have jointly released an open-source Linux security tool called Shirudo that leverages AI to provide temporary runtime protections. The tool blocks vulnerability exploitation on unpatched systems without requiring a system restart while administrators prepare patches.",
-        "whyItMatters": "It significantly reduces the window of exposure for unpatched Linux systems by providing immediate runtime defense without operational downtime.",
-        "affected": [
-          "Linux systems"
-        ],
-        "action": "Evaluate the Shirudo tool for deployment on critical Linux systems awaiting patches.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
       }
     },
     {
@@ -547,32 +1466,6 @@
       }
     },
     {
-      "title": "McDonald’s Japan discloses breach exposing customer purchase and location data",
-      "link": "https://therecord.media/japan-mcdonalds-cyberattack-breach",
-      "source": "The Record",
-      "publishedAt": "2026-11-24T13:00:00.000Z",
-      "summary": "McDonald’s Japan disclosed a cybersecurity breach that exposed customers’ purchase histories and mobile device location data.",
-      "categories": [
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "McDonald's Japan has disclosed a cybersecurity breach that compromised sensitive customer information. The exposed data includes historical purchase records and mobile device location details.",
-        "whyItMatters": "This incident compromises sensitive consumer location and purchasing data, raising severe privacy concerns for affected individuals.",
-        "affected": [],
-        "action": "Review privacy settings and monitor for targeted phishing attempts.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Chinese Open-Weight AI Models Top Closed Ones at Vulnerability Discovery in New Test",
       "link": "https://www.infosecurity-magazine.com/news/chinese-ai-models-top/",
       "source": "Infosecurity Magazine",
@@ -595,8 +1488,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -618,13 +1511,13 @@
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "The ShinyHunters leak site went dark in September, but a crew that supplied it with victims seems to have found a new home under the “Inception” name, Okta’s threat intelligence team has discovered. Okta tracks the crew ",
+        "summary": "The ShinyHunters leak site went dark in September, but a crew that supplied it with victims seems to have found a new home under the “Inception” name, Okta’s threat intelligence team has discovered. Okta tracks the crew",
         "whyItMatters": "Background context; no immediate action expected.",
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -945,31 +1838,36 @@
       }
     },
     {
-      "title": "Schneider Electric EcoStruxure Power Build Rapsody software",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02",
+      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog",
       "source": "CISA Advisories",
       "publishedAt": "2026-11-24T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nSchneider Electric is aware of a vulnerability in its EcoStruxure™ Power Build Rapsody product. The EcoStruxure™ Power Build Rapsody is used to enter or import the single line diagram, to get the extens",
+      "summary": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-131914 Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability \nCV",
       "categories": [
         "Vulnerability",
+        "Government",
         "Vendor Advisory"
       ],
       "tags": [],
-      "cves": [],
-      "kev": false,
+      "cves": [
+        "CVE-2026-131914"
+      ],
+      "kev": true,
       "poc": false,
-      "severity": "medium",
-      "breaking": false,
+      "severity": "critical",
+      "breaking": true,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "View CSAF\nSummary\nSchneider Electric is aware of a vulnerability in its EcoStruxure™ Power Build Rapsody product. The EcoStruxure™ Power Build Rapsody is used to enter or import the single line diagram, to get the extens",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "summary": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-131914 Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability \nCV",
+        "whyItMatters": "Actively exploited or high-impact; treat as urgent.",
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "relatedCves": [],
+        "risk": "Critical",
+        "action": "Patch immediately.",
+        "relatedCves": [
+          "CVE-2026-131914"
+        ],
         "source": "heuristic"
       }
     },
@@ -996,8 +1894,37 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "Schneider Electric EcoStruxure Power Build Rapsody software",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-11-24T12:00:00.000Z",
+      "summary": "View CSAF\nSummary\nSchneider Electric is aware of a vulnerability in its EcoStruxure™ Power Build Rapsody product. The EcoStruxure™ Power Build Rapsody is used to enter or import the single line diagram, to get the extens",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "View CSAF\nSummary\nSchneider Electric is aware of a vulnerability in its EcoStruxure™ Power Build Rapsody product. The EcoStruxure™ Power Build Rapsody is used to enter or import the single line diagram, to get the extens",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Not specified"
+        ],
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1025,8 +1952,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1249,32 +2176,6 @@
         ],
         "action": "Check with the manufacturer for available firmware updates or security patches for Elecbrakes controllers.",
         "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Peninsula Energy Halts Trading After Cyber Incident Hits US Uranium Mine",
-      "link": "https://www.securityweek.com/peninsula-energy-halts-trading-after-cyber-incident-hits-us-uranium-mine/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-11-24T10:35:04.000Z",
-      "summary": "The company told the ASX that a cybersecurity incident at its Wyoming uranium project would temporarily affect operations.\nThe post Peninsula Energy Halts Trading After Cyber Incident Hits US Uranium Mine appeared first ",
-      "categories": [
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Peninsula Energy has halted trading on the ASX following a cybersecurity incident at its Wyoming uranium project. The security event has caused temporary disruptions to the company's mining operations.",
-        "whyItMatters": "This incident highlights the growing cybersecurity risks facing critical infrastructure and industrial operations in the energy sector.",
-        "affected": [],
-        "action": "Monitor operational status and review physical-cyber security controls for industrial infrastructure.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -1665,34 +2566,29 @@
       }
     },
     {
-      "title": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching",
-      "link": "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-11-24T06:02:57.000Z",
-      "summary": "OpenAI and Cisco have teamed up to launch Shirudo (meaning \"shield\" in Japanese), an open-source Linux runtime that allows artificial intelligence (AI) agents to defend systems without downtime.\n\n\"It lets agents write dy",
+      "title": "Reprioritizing Automated Leads with CrowdStrike Signal",
+      "link": "https://www.crowdstrike.com/en-us/blog/reprioritizing-automated-leads-crowdstrike-signal/",
+      "source": "CrowdStrike",
+      "publishedAt": "2026-11-24T08:00:00.000Z",
+      "summary": "Reprioritizing Automated Leads with CrowdStrike Signal",
       "categories": [
-        "AI Security",
-        "Open Source"
+        "News"
       ],
-      "tags": [
-        "Linux",
-        "Cisco"
-      ],
+      "tags": [],
       "cves": [],
       "kev": false,
       "poc": false,
       "severity": "news",
       "breaking": false,
-      "readTimeMin": 1,
+      "readTimeMin": 2,
       "aiSummary": {
-        "summary": "OpenAI and Cisco have teamed up to launch Shirudo (meaning \"shield\" in Japanese), an open-source Linux runtime that allows artificial intelligence (AI) agents to defend systems without downtime.\n\n\"It lets agents write dy",
+        "summary": "Reprioritizing Automated Leads with CrowdStrike Signal",
         "whyItMatters": "Background context; no immediate action expected.",
         "affected": [
-          "Linux",
-          "Cisco"
+          "Not specified"
         ],
-        "action": "No action required; informational.",
         "risk": "News",
+        "action": "No action required; informational.",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1806,58 +2702,64 @@
       }
     },
     {
-      "title": "LaLiga hacked: Spain’s top football league confirms theft of fans’ personal data",
-      "link": "https://therecord.media/laliga-hacked-spain-top-professional-league-confirms-cyber-incident",
-      "source": "The Record",
+      "title": "DSA-6657-1 libzstd - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00579.html",
+      "source": "Debian Security",
       "publishedAt": "2026-11-24T00:00:00.000Z",
-      "summary": "Spain’s professional soccer league LaLiga said Monday hackers stole personal information belonging to fans in a cyberattack affecting its digital services and those of several Spanish clubs.",
+      "summary": "It was discovered that incorrect buffer management in the implementation\nof the Zstandard compression algorithm could result in information\ndisclosure.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6657-1",
       "categories": [
-        "Incident Response"
+        "Vendor Advisory"
       ],
       "tags": [],
       "cves": [],
       "kev": false,
       "poc": false,
-      "severity": "news",
+      "severity": "medium",
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "Spain’s professional soccer league LaLiga said Monday hackers stole personal information belonging to fans in a cyberattack affecting its digital services and those of several Spanish clubs.",
-        "whyItMatters": "Background context; no immediate action expected.",
+        "summary": "It was discovered that incorrect buffer management in the implementation\nof the Zstandard compression algorithm could result in information\ndisclosure.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6657-1",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
         "affected": [
           "Not specified"
         ],
-        "action": "No action required; informational.",
-        "risk": "News",
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
         "relatedCves": [],
         "source": "heuristic"
       }
     },
     {
-      "title": "‘Grand Theft Auto VI’ hacker sentenced to seven years, released the same day",
-      "link": "https://therecord.media/gta-vi-hacker-arion-kurtaj-released-on-license",
-      "source": "The Record",
+      "title": "DSA-6655-1 flatpak - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00577.html",
+      "source": "Debian Security",
       "publishedAt": "2026-11-24T00:00:00.000Z",
-      "summary": "A British cybercriminal who hacked Rockstar Games and leaked footage of Grand Theft Auto VI was sentenced Monday to seven years in prison, and then released on license because of time served.",
+      "summary": "The following security vulnerabilities were discovered in Flatpak, an\napplication deployment framework for desktop apps:\n\nCVE-2026-133842\n\n    A compromised or malicious app/runtime/extension with extra-data\n    can crea",
       "categories": [
-        "Incident Response"
+        "Vulnerability",
+        "Incident Response",
+        "Vendor Advisory"
       ],
       "tags": [],
-      "cves": [],
+      "cves": [
+        "CVE-2026-133842"
+      ],
       "kev": false,
       "poc": false,
-      "severity": "news",
+      "severity": "medium",
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "A British cybercriminal who hacked Rockstar Games and leaked footage of Grand Theft Auto VI was sentenced Monday to seven years in prison, and then released on license because of time served.",
-        "whyItMatters": "Background context; no immediate action expected.",
+        "summary": "The following security vulnerabilities were discovered in Flatpak, an\napplication deployment framework for desktop apps:\n\nCVE-2026-133842\n\n    A compromised or malicious app/runtime/extension with extra-data\n    can crea",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
         "affected": [
           "Not specified"
         ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [
+          "CVE-2026-133842"
+        ],
         "source": "heuristic"
       }
     },
@@ -1966,259 +2868,6 @@
       }
     },
     {
-      "title": "[In preview] Public Preview: Enterprise Knowledge Graph in Foundry IQ",
-      "link": "https://azure.microsoft.com/updates?id=581333",
-      "source": "Azure Updates",
-      "publishedAt": "2026-11-23T21:16:32.000Z",
-      "summary": "Foundry IQ adds Enterprise Knowledge Graph as a knowledge source for questions that depend on relationships across your content.During indexing, it extracts entities and relationships from unstructured content, guided by",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft is launching a public preview of the Enterprise Knowledge Graph feature in Foundry IQ. This capability indexes unstructured content to automatically extract entities and relationships for complex querying.",
-        "whyItMatters": "It introduces a new data processing and relationship-mapping feature for enterprise environments that requires visibility.",
-        "affected": [
-          "Foundry IQ Enterprise Knowledge Graph"
-        ],
-        "action": "Review the preview documentation to assess potential use cases and data governance implications.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "[In preview] Public Preview: Updated Guardrails experience in Microsoft Foundry",
-      "link": "https://azure.microsoft.com/updates?id=581338",
-      "source": "Azure Updates",
-      "publishedAt": "2026-11-23T21:15:04.000Z",
-      "summary": "In Microsoft Foundry, Guardrails helps developers configure runtime safety controls for agents, including classifiers, deterministic rules, and LLM-based judges.When an administrator policy requires controls for a projec",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft Foundry has launched a public preview of its updated Guardrails experience for developers. The feature allows administrators and developers to configure runtime safety controls such as classifiers, deterministic rules, and LLM-based judges for AI agents.",
-        "whyItMatters": "It enhances the governance and security of AI applications by enforcing mandatory runtime safety controls.",
-        "affected": [
-          "Microsoft Foundry"
-        ],
-        "action": "Review the updated Guardrails features in Microsoft Foundry to configure safety controls for your AI projects.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "[In preview] Public Preview: IQ Retriever Zero in Foundry IQ",
-      "link": "https://azure.microsoft.com/updates?id=581343",
-      "source": "Azure Updates",
-      "publishedAt": "2026-11-23T21:13:44.000Z",
-      "summary": "Foundry IQ can use an iterative retrieval model to break complex questions into focused searches. The model reviews search results and searches again when needed, within a configured budget, then passes the retrieved evi",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A public preview of IQ Retriever Zero has been introduced in Foundry IQ. This feature uses an iterative retrieval model to break down complex queries and refine searches within a budget.",
-        "whyItMatters": "It introduces new search and retrieval capabilities for users of the Foundry IQ platform.",
-        "affected": [
-          "Foundry IQ"
-        ],
-        "action": "Review the public preview documentation to understand the new retrieval capabilities.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "[Launched] Public Preview: Style and instruction control for HD V3 voices in Azure Speech in Foundry Tools",
-      "link": "https://azure.microsoft.com/updates?id=581353",
-      "source": "Azure Updates",
-      "publishedAt": "2026-11-23T21:12:25.000Z",
-      "summary": "Azure Speech in Foundry Tools provides HD V3 voices with style and instruction control in public preview.Use supported controls to shape voice delivery for voice agents, narration, and other speech experiences.Learn more",
-      "categories": [
-        "Cloud"
-      ],
-      "tags": [
-        "Azure"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has launched a public preview of style and instruction control for HD V3 voices within Azure Speech in Foundry Tools. This feature allows developers to utilize supported controls to shape voice delivery for voice agents and narration experiences.",
-        "whyItMatters": "This release expands customization capabilities for developers building voice-enabled applications on the Azure platform.",
-        "affected": [
-          "Azure Speech HD V3 voices"
-        ],
-        "action": "Review the Azure Speech documentation to explore the new voice control features.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "[In preview] Public Preview: Human annotation for agent evaluations in Microsoft Foundry",
-      "link": "https://azure.microsoft.com/updates?id=581358",
-      "source": "Azure Updates",
-      "publishedAt": "2026-11-23T21:11:23.000Z",
-      "summary": "Human annotation for agent evaluations is in public preview in Microsoft Foundry, as announced in the Microsoft IQ launch blog.Reviewers can add ratings, tags, comments, and expected outputs to agent traces. Use annotate",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has announced the public preview of human annotation for agent evaluations within Microsoft Foundry. This feature enables reviewers to add ratings, tags, comments, and expected outputs to agent traces.",
-        "whyItMatters": "It introduces new evaluation capabilities for AI agents, though it does not represent a security vulnerability or incident.",
-        "affected": [
-          "Microsoft Foundry"
-        ],
-        "action": "Review the Microsoft IQ launch blog for details on utilizing the new annotation features.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "[Launched] Generally Available: Agent insights in Microsoft Foundry",
-      "link": "https://azure.microsoft.com/updates?id=581363",
-      "source": "Azure Updates",
-      "publishedAt": "2026-11-23T21:10:07.000Z",
-      "summary": "In Microsoft Foundry, insights analyze agent traces to surface recurring patterns and group related issues.Review an insight and its supporting traces to investigate common failures and decide what to improve first.Use a",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft has generally released agent insights in Microsoft Foundry, a feature designed to analyze agent traces, surface recurring patterns, and group related issues. This tool helps developers review insights and supporting traces to investigate common failures and prioritize improvements.",
-        "whyItMatters": "This feature improves the observability and debugging capabilities for AI agents built within Microsoft Foundry.",
-        "affected": [
-          "Microsoft Foundry"
-        ],
-        "action": "Review the new agent insights feature in Microsoft Foundry to help investigate and improve agent performance.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "[Launched] Generally Available: Files knowledge source for Foundry IQ",
-      "link": "https://azure.microsoft.com/updates?id=581368",
-      "source": "Azure Updates",
-      "publishedAt": "2026-11-23T21:08:46.000Z",
-      "summary": "Upload files directly to a managed knowledge source in Foundry IQ. Foundry IQ processes and indexes the files for retrieval through a knowledge base, so you don't need to provision a storage account or scheduled indexer.",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A new feature called Files knowledge source has been generally launched for Foundry IQ, allowing direct file uploads. The system automatically processes and indexes these files for retrieval without requiring external storage provisioning.",
-        "whyItMatters": "This is a product feature release note rather than a cybersecurity vulnerability or threat.",
-        "affected": [],
-        "action": "Review the new Foundry IQ documentation if you use the platform.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "South Korea’s power giant KEPCO confirms data breach impacting 1.5 million",
-      "link": "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-11-23T20:54:51.000Z",
-      "summary": "A threat actor breached the internal network of Korea Electric Power Corporation (KEPCO) and accessed two systems containing customer, employee, and contractor data. [...]",
-      "categories": [
-        "Threat Intel",
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Korea Electric Power Corporation (KEPCO) confirmed a data breach after a threat actor gained access to its internal network. The unauthorized access compromised two internal systems containing sensitive data belonging to customers, employees, and contractors.",
-        "whyItMatters": "This massive breach exposes personal data for 1.5 million individuals, creating significant risks of identity theft and targeted phishing attacks against customers and staff.",
-        "affected": [
-          "KEPCO internal systems"
-        ],
-        "action": "Monitor accounts for suspicious activity and watch for potential phishing attempts related to the KEPCO breach.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "[In preview] Public Preview: Call model router without a deployment in Microsoft Foundry",
-      "link": "https://azure.microsoft.com/updates?id=581378",
-      "source": "Azure Updates",
-      "publishedAt": "2026-11-23T20:32:57.000Z",
-      "summary": "Microsoft Foundry now lets you use model router without deploying it first. In a region that supports model router, set model to auto in a Responses or Chat Completions request to your Foundry resource.By default, Auto u",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft Foundry has introduced a public preview feature that allows users to utilize the model router without prior deployment. Users simply need to set the model parameter to auto in their requests within supported regions.",
-        "whyItMatters": "This feature streamlines the development workflow by removing the need for explicit model deployment steps.",
-        "affected": [
-          "Microsoft Foundry"
-        ],
-        "action": "Explore the public preview to test the model router feature.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Vulnerability in PHP Affecting Cisco Products: November 2026",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-phpaftershell-nov-2026-kT9pL4Xe?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerability%20in%20PHP%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
       "source": "Cisco PSIRT",
@@ -2278,66 +2927,6 @@
       }
     },
     {
-      "title": "OpenRouter drops AI providers over leaked prompts and secrets",
-      "link": "https://www.bleepingcomputer.com/news/security/openrouter-drops-ai-providers-over-leaked-prompts-and-secrets/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-11-23T20:00:20.000Z",
-      "summary": "OpenRouter removed three AI providers from its platform after discovering that they had violated their stated data-handling policies and exposed sensitive data. [...]",
-      "categories": [
-        "Incident Response",
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "OpenRouter removed three AI providers from its platform after discovering that they had violated their stated data-handling policies and exposed sensitive data. [...]",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Microsoft Azure flaw exploited to steal customers' API credentials",
-      "link": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-11-23T19:42:20.000Z",
-      "summary": "Microsoft is warning customers that a security vulnerability in Azure API Management (APIM) Classic tiers was exploited to steal stored API credentials, with Norwegian authorities linking the flaw to cyberattacks against",
-      "categories": [
-        "Vulnerability",
-        "Cloud"
-      ],
-      "tags": [
-        "Azure"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft warns that a security vulnerability in Azure API Management Classic tiers was actively exploited to steal stored API credentials. Norwegian authorities have linked this flaw to recent cyberattacks targeting regional organizations.",
-        "whyItMatters": "This vulnerability exposes sensitive API credentials to attackers, potentially leading to unauthorized access and further breaches of enterprise systems.",
-        "affected": [
-          "Azure API Management Classic tiers"
-        ],
-        "action": "Migrate from Azure API Management Classic tiers to supported versions and rotate exposed credentials immediately.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Bluetooth brakes are broken as researchers find anyone can control them",
       "link": "https://www.theregister.com/security/2026/11/23/bluetooth-brakes-are-broken-as-researchers-find-anyone-can-control-them/5311748",
       "source": "The Register",
@@ -2362,32 +2951,6 @@
         ],
         "action": "Apply available security fixes from the manufacturer and replace unpatched controllers.",
         "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Spanish LaLiga confirms hackers stole soccer fans’ personal data",
-      "link": "https://www.bleepingcomputer.com/news/security/spanish-laliga-confirms-hackers-stole-soccer-fans-personal-data/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-11-23T18:38:40.000Z",
-      "summary": "LaLiga, Spain's top men's football league, disclosed a data breach that exposed personal information belonging to users of its services and those of some affiliated clubs. [...]",
-      "categories": [
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Spain's top men's football league, LaLiga, has disclosed a data breach that exposed the personal information of its users and fans of affiliated clubs. The incident highlights the ongoing cybersecurity risks facing sports organizations and their massive fan databases.",
-        "whyItMatters": "This breach puts thousands of soccer fans at an increased risk of targeted phishing attacks and identity theft using their compromised personal data.",
-        "affected": [],
-        "action": "Monitor your personal accounts for suspicious activity and be wary of targeted phishing attempts.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -2419,38 +2982,6 @@
       }
     },
     {
-      "title": "Critical Cisco remote code execution bug under attack",
-      "link": "https://www.theregister.com/security/2026/11/23/critical-cisco-remote-code-execution-bug-under-attack/5311722",
-      "source": "The Register",
-      "publishedAt": "2026-11-23T17:56:56.000Z",
-      "summary": "CISA, F6 sound the alarm after PoC exploit made public",
-      "categories": [
-        "Vulnerability",
-        "Research",
-        "Government"
-      ],
-      "tags": [
-        "Cisco"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "CISA and F6 have issued warnings regarding a critical Cisco remote code execution vulnerability that is currently under active attack. This alert follows the public release of a proof-of-concept exploit for the flaw.",
-        "whyItMatters": "Active exploitation of a critical remote code execution vulnerability poses an immediate and severe threat to compromised networks and systems.",
-        "affected": [
-          "Cisco products"
-        ],
-        "action": "Apply available security patches and updates immediately.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Behind the Alias: How One Researcher Unmasked a Decade of Ransomware Actors",
       "link": "https://www.darkreading.com/cybersecurity-operations/alias-researcher-unmasked-ransomware-actors",
       "source": "Dark Reading",
@@ -2476,32 +3007,6 @@
         "risk": "High",
         "relatedCves": [],
         "source": "heuristic"
-      }
-    },
-    {
-      "title": "Bulgaria evicts cyber snoops who lurked inside government networks for 5 years",
-      "link": "https://www.theregister.com/security/2026/11/23/bulgaria-evicts-cyber-snoops-who-lurked-inside-government-networks-for-5-years/5311629",
-      "source": "The Register",
-      "publishedAt": "2026-11-23T17:01:00.000Z",
-      "summary": "Minister says intruders downloaded more than 130 GB of data as political churn left security neglected",
-      "categories": [
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "State-sponsored cyber intruders successfully maintained unauthorized access to Bulgarian government networks for five years, exfiltrating over 130 GB of sensitive data. This prolonged breach was attributed to severe political instability that caused government cybersecurity to be neglected.",
-        "whyItMatters": "It demonstrates how political instability and governance gaps can leave critical national infrastructure vulnerable to long-term espionage campaigns by advanced threat actors.",
-        "affected": [],
-        "action": "Audit government network access logs and reinforce continuous security monitoring.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
       }
     },
     {
@@ -2854,39 +3359,6 @@
       }
     },
     {
-      "title": "CVE-2026-96233 ASP.NET Core Denial of Service Vulnerability",
-      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96233",
-      "source": "Microsoft MSRC",
-      "publishedAt": "2026-11-23T16:00:00.000Z",
-      "summary": "Updated an acknowledgement. This is an informational change only.",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-96233"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "Updated an acknowledgement. This is an informational change only.",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [
-          "CVE-2026-96233"
-        ],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Cisco Expressway Series Remote Code Execution Vulnerability",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vcs-static-cred-hr7EWZ8t?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Expressway%20Series%20Remote%20Code%20Execution%20Vulnerability%26vs_k=1",
       "source": "Cisco PSIRT",
@@ -2913,37 +3385,6 @@
         ],
         "action": "Review advisory for affected versions and patch on your normal cycle.",
         "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Azure Flaw Exploited to Target Secrets at Norwegian Energy Firms",
-      "link": "https://www.securityweek.com/azure-flaw-exploited-to-target-secrets-at-norwegian-energy-firms/",
-      "source": "SecurityWeek",
-      "publishedAt": "2026-11-23T15:47:40.000Z",
-      "summary": "Microsoft closed an Azure API Management flaw exploited to target secrets at Norwegian energy companies, with other sectors also affected.\nThe post Azure Flaw Exploited to Target Secrets at Norwegian Energy Firms appeare",
-      "categories": [
-        "Vulnerability",
-        "Cloud"
-      ],
-      "tags": [
-        "Azure"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft closed an Azure API Management flaw exploited to target secrets at Norwegian energy companies, with other sectors also affected.\nThe post Azure Flaw Exploited to Target Secrets at Norwegian Energy Firms appeare",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Azure"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -3035,36 +3476,6 @@
       }
     },
     {
-      "title": "Signal Moves to Block iOS and Android AI Agents From Reading Chats",
-      "link": "https://www.infosecurity-magazine.com/news/signal-blocks-ai-agents-reading/",
-      "source": "Infosecurity Magazine",
-      "publishedAt": "2026-11-23T15:00:00.000Z",
-      "summary": "Signal moved to shield chats from built-in AI agents and pressed platform makers for an opt-out",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [
-        "Android"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Signal moved to shield chats from built-in AI agents and pressed platform makers for an opt-out",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Android"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Huntress EU Data Hosting: What Phase 1 Means",
       "link": "https://www.huntress.com/blog/eu-data-hosting",
       "source": "Huntress",
@@ -3114,8 +3525,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -3239,71 +3650,6 @@
         "action": "Monitor for indicators of compromise.",
         "risk": "News",
         "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "I’ve never hunted for a software vulnerability before. AI helped me find one in six hours.",
-      "link": "https://cyberscoop.com/finding-software-vulnerability-with-ai-wordpress-patchstack/",
-      "source": "CyberScoop",
-      "publishedAt": "2026-11-23T11:00:00.000Z",
-      "summary": "With help from two free AI models, I found and reported a real flaw in a WordPress plugin used by more than 40,000 sites. The unnerving part wasn’t just that it worked — it was how little experience I needed to get there",
-      "categories": [
-        "Vulnerability",
-        "AI Security"
-      ],
-      "tags": [
-        "WordPress"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "With help from two free AI models, I found and reported a real flaw in a WordPress plugin used by more than 40,000 sites. The unnerving part wasn’t just that it worked — it was how little experience I needed to get there",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "WordPress"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "WPIDE ≤ 3.6.4 — CSRF Nonce Bypass Leading to Unauthenticated RCE (CVE-2026-124251)",
-      "link": "https://cyberscoop.com/wpide-csrf-vulnerability-cve-2026-124251/",
-      "source": "CyberScoop",
-      "publishedAt": "2026-11-23T11:00:00.000Z",
-      "summary": "Summary This technical report has been generated with the help of GLM-5.3-Flash. WPIDE’s 3.6.0 release attempted to remediate CVE-2026-57766 (unauthenticated CSRF, ≤ 3.5.6) by introducing a nonce check, but the check is ",
-      "categories": [
-        "Vulnerability"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-124251",
-        "CVE-2026-57766"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Summary This technical report has been generated with the help of GLM-5.3-Flash. WPIDE’s 3.6.0 release attempted to remediate CVE-2026-57766 (unauthenticated CSRF, ≤ 3.5.6) by introducing a nonce check, but the check is",
-        "whyItMatters": "Actively exploited or high-impact; treat as urgent.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Patch immediately.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-124251",
-          "CVE-2026-57766"
-        ],
         "source": "heuristic"
       }
     },
@@ -3655,122 +4001,6 @@
       }
     },
     {
-      "title": "DSA-6649-1 anope - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00571.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-11-22T00:00:00.000Z",
-      "summary": "Several vulnerabilities were discovered in anope, a set of IRC services\ndesigned for flexibility and ease of use, which could result in nickname\nimpersonation/takeover, account takeovers, information leaks, email\nconfirm",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several vulnerabilities were discovered in the anope IRC services package. These security flaws could potentially lead to nickname impersonation, account takeovers, and information leaks.",
-        "whyItMatters": "Unpatched vulnerabilities in IRC authentication and service management software can allow attackers to compromise user accounts and impersonate legitimate users.",
-        "affected": [
-          "anope"
-        ],
-        "action": "Apply the latest security updates provided by your distribution.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6648-1 python-django - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00570.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-11-22T00:00:00.000Z",
-      "summary": "Multiple security issues were found in Django, a Python web development\nframework, which could result in denial of service, spoofing, permission\nbypass, cross-site scripting or information disclosure.\n\n\nhttps://security-",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Multiple security vulnerabilities have been discovered in the Python Django web development framework. These flaws could potentially lead to denial of service, spoofing, permission bypass, cross-site scripting, or information disclosure.",
-        "whyItMatters": "Unpatched Django installations leave web applications vulnerable to a wide range of attacks, compromising data integrity and user security.",
-        "affected": [
-          "python-django"
-        ],
-        "action": "Update python-django to the latest security release.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6647-1 webkit2gtk - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00569.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-11-22T00:00:00.000Z",
-      "summary": "The following vulnerabilities have been discovered in the WebKitGTK\nweb engine:\n\nCVE-2026-86973\n\n    Narendra Singh and an anonymous researcher discovered that\n    processing maliciously crafted web content may lead to a",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-86973"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Vulnerabilities have been discovered in the WebKitGTK web engine that could allow malicious web content to trigger security issues. Users of the affected Debian systems are advised to update their packages.",
-        "whyItMatters": "Exploitation of these vulnerabilities through maliciously crafted web content could compromise user security.",
-        "affected": [
-          "webkit2gtk"
-        ],
-        "action": "Update the webkit2gtk package to the latest security version.",
-        "risk": "High",
-        "relatedCves": [
-          "CVE-2026-86973"
-        ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "How Security Vendors Are Tackling Access-Control Challenges for AI Agents",
-      "link": "https://www.darkreading.com/identity-access-management-security/ai-agents-bring-enterprises-new-access-control-challenges",
-      "source": "Dark Reading",
-      "publishedAt": "2026-11-21T01:31:23.000Z",
-      "summary": "Identity, runtime and development controls are converging as enterprises are tasked with keeping agents within their assigned tasks. But vendors' approaches vary, so CISOs face a choice.",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Security vendors are developing new identity, runtime, and development controls to help enterprises manage access-control challenges for AI agents. Because vendor approaches vary significantly, Chief Information Security Officers face difficult choices in selecting the right strategy.",
-        "whyItMatters": "It highlights the evolving security landscape and vendor strategies for managing autonomous AI agent risks in enterprise environments.",
-        "affected": [],
-        "action": "Evaluate enterprise AI security vendor solutions and access-control strategies.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
       "link": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
       "source": "Krebs on Security",
@@ -3844,94 +4074,6 @@
         "affected": [],
         "action": "Implement strict verification controls for voice communications and monitor cloud environments for unauthorized data access.",
         "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "China's 'Armory Castle' Lays Siege to VMware vCenter Zero-Day",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/china-armory-castle-vmware-vcenter-zero-day",
-      "source": "Dark Reading",
-      "publishedAt": "2026-11-20T21:03:27.000Z",
-      "summary": "During the last wave of major VMware vCenter security updates, a China-nexus threat group likely already had its next zero-day up its sleeve.",
-      "categories": [
-        "Zero Day"
-      ],
-      "tags": [
-        "VMware"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A China-nexus threat group reportedly possessed a zero-day exploit targeting VMware vCenter during recent security updates. The campaign, dubbed Armory Castle, highlights the ongoing threat of advanced persistent threat actors targeting enterprise virtualization software.",
-        "whyItMatters": "Unpatched zero-day vulnerabilities in VMware vCenter allow threat actors to compromise critical enterprise infrastructure and gain persistent access to corporate networks.",
-        "affected": [
-          "VMware vCenter"
-        ],
-        "action": "Apply the latest security updates and monitor VMware vCenter logs for anomalous activity.",
-        "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Nok et norsk energiselskap har blitt utsatt for et datainnbrudd på to dager",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/second-norwegian-energy-company-breached-norwegian",
-      "source": "Dark Reading",
-      "publishedAt": "2026-11-20T20:43:45.000Z",
-      "summary": "Det er ikke påvist noen konkret sammenheng mellom de to hendelsene, selv om de helt klart har mange likhetstrekk.",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Det er ikke påvist noen konkret sammenheng mellom de to hendelsene, selv om de helt klart har mange likhetstrekk.",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Signal blocks Apple, Google AI screenshotting in response to ‘existential threat’ to privacy app",
-      "link": "https://cyberscoop.com/signal-blocks-apple-google-ai-screenshots/",
-      "source": "CyberScoop",
-      "publishedAt": "2026-11-20T19:54:25.000Z",
-      "summary": "The encrypted messaging app will now block those screenshots by default, following  similar steps it took with Microsoft last year.\nThe post Signal blocks Apple, Google AI screenshotting in response to ‘existential threa",
-      "categories": [
-        "AI Security"
-      ],
-      "tags": [
-        "Apple"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Signal has updated its encrypted messaging application to block AI screenshotting features by default on Apple and Google platforms. This change follows similar privacy-focused blocks implemented against Microsoft's screenshot features last year.",
-        "whyItMatters": "This proactive measure prevents artificial intelligence tools from automatically capturing and potentially leaking sensitive private conversations.",
-        "affected": [
-          "Signal app"
-        ],
-        "action": "Ensure your Signal application is updated to the latest version.",
-        "risk": "News",
         "relatedCves": [],
         "source": "ai"
       }
@@ -4052,34 +4194,6 @@
         ],
         "action": "No action required; informational.",
         "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Hackers leak data linked to Visa, Mastercard, and JPMorgan customers",
-      "link": "https://www.malwarebytes.com/blog/data-breaches/2026/11/hackers-leak-data-linked-to-visa-mastercard-and-jpmorgan-customers",
-      "source": "Malwarebytes Labs",
-      "publishedAt": "2026-11-20T12:51:36.000Z",
-      "summary": "A ransomware group has published data it claims was stolen from third-party providers linked to Visa, Mastercard, and JPMorgan Chase.",
-      "categories": [
-        "Ransomware"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "high",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A ransomware group has published data it claims was stolen from third-party providers linked to Visa, Mastercard, and JPMorgan Chase.",
-        "whyItMatters": "Significant risk to affected systems; prioritize review.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Monitor for indicators of compromise.",
-        "risk": "High",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -4526,35 +4640,6 @@
       "readTimeMin": 1,
       "aiSummary": {
         "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow several unauthenticated admin accounts to be created.\nThe following versions of Autonomy Logic OpenPLC Runtime are affected:\nOpenPLC Runtime <=4",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "libumqtt",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-11-19T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow a remote attacker to cause a denial of service, memory corruption, or information disclosure.\nThe following versions of libumqtt are affected:\nl",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow a remote attacker to cause a denial of service, memory corruption, or information disclosure.\nThe following versions of libumqtt are affected:\nl",
         "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
         "affected": [
           "Not specified"
@@ -5495,38 +5580,6 @@
       }
     },
     {
-      "title": "CVE-2026-114938: Reported Critical Pre-authentication Remote Code Execution in Java 17",
-      "link": "https://www.rapid7.com/blog/post/etr-cve-2026-114938-reported-critical-pre-authentication-remote-code-execution-java-17",
-      "source": "Rapid7",
-      "publishedAt": "2026-11-17T18:26:55.000Z",
-      "summary": "Overview\nOn November 17, 2026, public reports described CVE-2026-114938 as a memory corruption vulnerability in Java 17 and above that could allow a remote attacker to execute code without authentication. The reported se",
-      "categories": [
-        "Vulnerability"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-114938"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "critical",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Overview\nOn November 17, 2026, public reports described CVE-2026-114938 as a memory corruption vulnerability in Java 17 and above that could allow a remote attacker to execute code without authentication. The reported se",
-        "whyItMatters": "Actively exploited or high-impact; treat as urgent.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Patch immediately.",
-        "risk": "Critical",
-        "relatedCves": [
-          "CVE-2026-114938"
-        ],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Patch Me If You Can: Tracing CVEs to Deployed Code",
       "link": "https://bishopfox.com/blog/tracing-cves-to-deployed-code",
       "source": "Bishop Fox",
@@ -5782,62 +5835,6 @@
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
-      }
-    },
-    {
-      "title": "16th November – Threat Intelligence Report",
-      "link": "https://research.checkpoint.com/2026/16th-november-threat-intelligence-report/",
-      "source": "Check Point Research",
-      "publishedAt": "2026-11-16T14:44:36.000Z",
-      "summary": "For the latest discoveries in cyber research for the week of 16th November, please download our Threat Intelligence Bulletin.  TOP ATTACKS AND BREACHES TSMC, a major Taiwanese semiconductor manufacturer, has confirmed a ",
-      "categories": [
-        "Research"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "For the latest discoveries in cyber research for the week of 16th November, please download our Threat Intelligence Bulletin.  TOP ATTACKS AND BREACHES TSMC, a major Taiwanese semiconductor manufacturer, has confirmed a",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Usable Security at Luxury Hotels",
-      "link": "https://www.schneier.com/blog/archives/2026/11/usable-security-at-luxury-hotels.html",
-      "source": "Schneier on Security",
-      "publishedAt": "2026-11-16T12:04:42.000Z",
-      "summary": "Interesting case study from luxury hotels. Attackers used a fake booking request to gain access to a reservations inbox, where they copied genuine refund requests and got fraudulent ones approved.\nThis is a good illustra",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Interesting case study from luxury hotels. Attackers used a fake booking request to gain access to a reservations inbox, where they copied genuine refund requests and got fraudulent ones approved.\nThis is a good illustra",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
       }
     }
   ]
