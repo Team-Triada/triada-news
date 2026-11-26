@@ -1,6 +1,386 @@
 {
-  "updatedAt": "2026-11-25T19:56:43.616Z",
+  "updatedAt": "2026-11-26T02:50:15.320Z",
   "items": [
+    {
+      "title": "Weekly Report: 複数のPalo Alto Networks製品に脆弱性",
+      "link": "https://www.jpcert.or.jp/wr/2026/wr261126.html#1",
+      "source": "JPCERT/CC",
+      "publishedAt": "2026-11-26T00:24:00.000Z",
+      "summary": "複数のPalo Alto Networks製品に脆弱性",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Palo Alto"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Multiple vulnerabilities have been reported in various Palo Alto Networks products. Details regarding the specific nature of the flaws were not provided in the brief notification.",
+        "whyItMatters": "Unpatched vulnerabilities in network security devices can allow attackers to compromise enterprise perimeters.",
+        "affected": [
+          "Palo Alto Networks products"
+        ],
+        "action": "Check vendor advisories for updates and patches.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Weekly Report: Synology DiskStation Managerに複数の脆弱性",
+      "link": "https://www.jpcert.or.jp/wr/2026/wr261126.html#2",
+      "source": "JPCERT/CC",
+      "publishedAt": "2026-11-26T00:24:00.000Z",
+      "summary": "Synology DiskStation Managerに複数の脆弱性",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 2,
+      "aiSummary": {
+        "summary": "Multiple vulnerabilities have been discovered in Synology DiskStation Manager. Users and administrators should review the security advisory for details.",
+        "whyItMatters": "Unpatched vulnerabilities in network-attached storage devices can lead to unauthorized access and potential data compromise.",
+        "affected": [
+          "Synology DiskStation Manager"
+        ],
+        "action": "Check the vendor advisory and apply available security updates immediately.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Smashing Security podcast #494: The Russian accused of spying on Palantir from Starbucks",
+      "link": "https://grahamcluley.com/smashing-security-podcast-494/",
+      "source": "Graham Cluley",
+      "publishedAt": "2026-11-26T00:10:12.000Z",
+      "summary": "A would-be spy is recruited on Telegram for $15,000 and sent halfway around the world to snoop on Palantir. His cover story when he's caught? He wanted to ask a woman out on a date.\r\n\r\nMeanwhile, Carl Miller investigates",
+      "categories": [
+        "News"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A would-be spy was recruited via Telegram for $15,000 and traveled internationally to conduct espionage against Palantir. When caught, the suspect claimed his presence was merely an attempt to ask a woman out on a date.",
+        "whyItMatters": "It highlights how threat actors increasingly recruit operational assets through messaging platforms like Telegram for physical and digital espionage.",
+        "affected": [],
+        "action": "Review physical and digital security protocols around corporate facilities.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "[In preview] Public Preview: ECMP Nexthop",
+      "link": "https://azure.microsoft.com/updates?id=582326",
+      "source": "Azure Updates",
+      "publishedAt": "2026-11-25T23:14:20.000Z",
+      "summary": "Equal-Cost Multi-Path (ECMP)\r\nrouting for Azure Virtual Network is now available in public preview, enabling\r\ncustomers to distribute traffic across multiple network appliances using a\r\nsingle user-defined route (UDR). \r",
+      "categories": [
+        "Cloud"
+      ],
+      "tags": [
+        "Azure"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft has announced the public preview of Equal-Cost Multi-Path (ECMP) routing for Azure Virtual Network. This feature allows users to distribute network traffic across multiple appliances using a single user-defined route.",
+        "whyItMatters": "This feature improves load balancing and redundancy for network appliances in Azure environments, but as a preview feature, it may not be suitable for production stability.",
+        "affected": [
+          "Azure Virtual Network"
+        ],
+        "action": "Evaluate the new ECMP routing feature in a test environment.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-9203-1: libpcap vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-9203-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-11-25T22:41:37.000Z",
+      "summary": "Jin Wei, Kunwei Qian, and Ping Chen discovered that libpcap did not\nproperly validate the format of MAC addresses passed to the\npcap_ether_aton() function, leading to an out-of-bounds read and write. An\nattacker could po",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Vulnerabilities were discovered in libpcap where the pcap_ether_aton() function failed to properly validate the format of MAC addresses. This flaw leads to an out-of-bounds read and write condition.",
+        "whyItMatters": "An attacker could exploit these memory corruption flaws to cause application crashes or potentially execute arbitrary code.",
+        "affected": [
+          "libpcap"
+        ],
+        "action": "Update libpcap to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-11-25T22:05:09.000Z",
+      "summary": "Threat actors are chaining exploits for the PHP2Shell and Fragnesia vulnerabilities to target Palo Alto Networks devices with management interfaces exposed to the internet. [...]",
+      "categories": [
+        "Vulnerability",
+        "Incident Response"
+      ],
+      "tags": [
+        "Palo Alto"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Threat actors are actively exploiting the Fragnesia and PHP2Shell vulnerabilities to target Palo Alto Networks devices with internet-exposed management interfaces. Palo Alto Networks has issued warnings regarding these attacks.",
+        "whyItMatters": "Exposed management interfaces allow attackers to chain these critical flaws and potentially compromise enterprise network infrastructure.",
+        "affected": [
+          "Palo Alto Networks PAN-OS"
+        ],
+        "action": "Restrict access to management interfaces and apply available patches immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Retirement: Support for Java 8, 11 and 17 in Azure Functions ends on September 1, 2027",
+      "link": "https://azure.microsoft.com/updates?id=568586",
+      "source": "Azure Updates",
+      "publishedAt": "2026-11-25T21:53:30.000Z",
+      "summary": "Support for Java 8, 11 and 17 on Azure Functions is ending on September\r\n1, 2027. Your apps that are hosted on Azure Functions will continue to run, but\r\nsecurity updates will no longer be available, and we’ll no longer ",
+      "categories": [
+        "Cloud"
+      ],
+      "tags": [
+        "Azure"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft has announced that support and security updates for Java 8, 11, and 17 on Azure Functions will officially end on September 1, 2027. Affected applications will continue to run after this date, but they will no longer receive critical security patches.",
+        "whyItMatters": "Running applications on unmaintained Java runtimes leaves them exposed to unpatched vulnerabilities and potential security compromises.",
+        "affected": [
+          "Azure Functions Java 8",
+          "Azure Functions Java 11",
+          "Azure Functions Java 17"
+        ],
+        "action": "Plan to migrate your Azure Functions applications to a supported Java version before September 1, 2027.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "1Password customer data stolen after employee GitHub account breach",
+      "link": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-11-25T21:33:33.000Z",
+      "summary": "1Password has disclosed a data breach after a an employee's corporate GitHub account was hacked and used to deploy malicious code to the company's backend services to steal customer data. [...]",
+      "categories": [
+        "Incident Response",
+        "Open Source"
+      ],
+      "tags": [
+        "GitHub"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "1Password suffered a data breach after an employee's corporate GitHub account was compromised by attackers. The hackers used the unauthorized access to deploy malicious code to backend services in an attempt to steal customer data.",
+        "whyItMatters": "This incident demonstrates that even highly secure password management companies can be compromised through third-party developer platform credential theft.",
+        "affected": [
+          "1Password backend services"
+        ],
+        "action": "Review internal access controls and monitor GitHub account security.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Microsoft: China’s Salt Typhoon hackers are using Artex",
+      "link": "https://therecord.media/microsoft-china-salt-typhoon-using-artex-ai-tool",
+      "source": "The Record",
+      "publishedAt": "2026-11-25T21:18:00.000Z",
+      "summary": "An AI tool implicated in several high-profile breaches is rapidly being integrated into the hacking suites of groups from China and North Korea, Microsoft said.",
+      "categories": [
+        "AI Security"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Microsoft reports that Chinese and North Korean state-sponsored hacking groups, including Salt Typhoon, are rapidly integrating an AI tool called Artex into their attack suites. This tool has previously been implicated in several high-profile cyber breaches.",
+        "whyItMatters": "The adoption of advanced AI tools by persistent threat groups accelerates the scale and sophistication of state-sponsored cyber attacks.",
+        "affected": [],
+        "action": "Monitor threat intelligence feeds for indicators of compromise related to Artex and state-sponsored activity.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-9198-1: HTTP::Tiny vulnerability",
+      "link": "https://ubuntu.com/security/notices/USN-9198-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-11-25T21:14:58.000Z",
+      "summary": "It was discovered that HTTP::Tiny incorrectly forwarded credential headers\nsupplied by the caller, such as Authorization, Cookie and\nProxy-Authorization, when following cross-origin redirects, including\nredirects from HT",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A vulnerability was discovered in HTTP::Tiny where it incorrectly forwarded sensitive credential headers, such as Authorization, Cookie, and Proxy-Authorization, when following cross-origin redirects. This behavior could potentially expose sensitive authentication data to unauthorized third-party domains.",
+        "whyItMatters": "It matters because leaking credential headers during redirects can lead to unauthorized access and credential theft across different domains.",
+        "affected": [
+          "HTTP::Tiny"
+        ],
+        "action": "Update HTTP::Tiny to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "Cisco Informational for Emergency Distrust of eMudhra Root and Intermediate Certificate Authorities",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-emudhra-info-ScS22A1r?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Informational%20for%20Emergency%20Distrust%20of%20eMudhra%20Root%20and%20Intermediate%20Certificate%20Authorities%26vs_k=1",
+      "source": "Cisco PSIRT",
+      "publishedAt": "2026-11-25T21:11:32.000Z",
+      "summary": "Between October 17 and October 20, 2026, a critical security compromise involving Certificate Authorities that are managed by eMudhra was uncovered.\n\r\nA security researcher demonstrated that the private keys for eight eM",
+      "categories": [
+        "Incident Response",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Cisco"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Between October 17 and October 20, 2026, a critical security compromise involving Certificate Authorities managed by eMudhra was uncovered. A security researcher demonstrated that the private keys for eight eMudhra certificates were compromised.",
+        "whyItMatters": "Compromised certificate authority private keys could allow attackers to issue fraudulent certificates and launch sophisticated man-in-the-middle attacks.",
+        "affected": [],
+        "action": "Distrust the affected eMudhra root and intermediate certificate authorities immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "FIFA says hackers accessed ‘limited set of personal and business information’",
+      "link": "https://therecord.media/fifa-data-breach-limited",
+      "source": "The Record",
+      "publishedAt": "2026-11-25T20:40:00.000Z",
+      "summary": "The Switzerland-based international governing body for soccer says it's working with relevant authorities and law enforcement to investigate a recent breach.",
+      "categories": [
+        "Incident Response"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "FIFA announced that hackers gained unauthorized access to a limited set of personal and business information. The international soccer governing body is currently investigating the breach in coordination with law enforcement.",
+        "whyItMatters": "This incident highlights the ongoing vulnerability of high-profile sports organizations to unauthorized data access and cyber attacks.",
+        "affected": [],
+        "action": "Monitor official updates and secure personal data if notified by FIFA.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-9202-1: Kerberos vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-9202-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-11-25T20:37:30.000Z",
+      "summary": "It was discovered that the Kerberos KDC incorrectly handled certain ASN.1\nencodings in requests. A remote attacker could possibly use this issue to\ncause the KDC to crash, resulting in a denial of service.\n(CVE-2026-1073",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Kerberos"
+      ],
+      "cves": [
+        "CVE-2026-1073"
+      ],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A vulnerability has been discovered in the Kerberos KDC regarding its handling of specific ASN.1 encodings in requests. Remote attackers can exploit this flaw to trigger crashes and cause a denial of service.",
+        "whyItMatters": "This vulnerability threatens service availability by allowing remote attackers to crash the Kerberos Key Distribution Center.",
+        "affected": [],
+        "action": "Apply the latest security updates provided by your vendor.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2026-1073"
+        ],
+        "source": "ai"
+      }
+    },
     {
       "title": "The security of US water systems is even leakier than we thought",
       "link": "https://www.theregister.com/security/2026/11/25/the-security-of-us-water-systems-is-even-leakier-than-we-thought/5312243",
@@ -54,6 +434,35 @@
       }
     },
     {
+      "title": "USN-9201-1: NetworkManager vulnerability",
+      "link": "https://ubuntu.com/security/notices/USN-9201-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-11-25T19:31:11.000Z",
+      "summary": "Juthawong Naisanguansee discovered that NetworkManager on Ubuntu\nincorrectly granted the whoopsie user unrestricted D-Bus access to\nroot-only methods. A local attacker who can execute code as the whoopsie\nuser could poss",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A vulnerability was discovered in NetworkManager on Ubuntu where the whoopsie user was incorrectly granted unrestricted D-Bus access to root-only methods. A local attacker capable of executing code as the whoopsie user could potentially exploit this flaw.",
+        "whyItMatters": "It could allow a local attacker with limited privileges to escalate their access via root-only D-Bus methods.",
+        "affected": [
+          "Ubuntu NetworkManager"
+        ],
+        "action": "Update NetworkManager to the latest patched version provided by Ubuntu.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
       "title": "Oh, is it Thanksgiving? I hadn’t noticed!",
       "link": "https://blog.talosintelligence.com/oh-is-it-thanksgiving-i-hadnt-noticed/",
       "source": "Talos Intelligence",
@@ -75,6 +484,35 @@
         "affected": [],
         "action": "Enjoy the holiday.",
         "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-9200-1: elfutils vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-9200-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-11-25T18:52:08.000Z",
+      "summary": "It was discovered that elfutils incorrectly handled memory when processing\ncertain malformed DWARF data. If a user or automated system were tricked\ninto running readelf on a specially crafted file, an attacker could\nposs",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A memory handling vulnerability was discovered in elfutils when processing malformed DWARF data. An attacker could exploit this by tricking a user or system into running readelf on a specially crafted file.",
+        "whyItMatters": "This flaw could allow attackers to compromise systems processing untrusted binaries or debugging files.",
+        "affected": [
+          "elfutils"
+        ],
+        "action": "Update elfutils to the latest patched version.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "ai"
       }
@@ -125,15 +563,44 @@
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "A vulnerability in the Unified Extensible Firmware Interface (UEFI) Shell implementation of Cisco UCS Servers and UCS-based appliances could allow an authenticated attacker with valid credentials for a user account with ",
+        "summary": "A vulnerability in the Unified Extensible Firmware Interface (UEFI) Shell implementation of Cisco UCS Servers and UCS-based appliances could allow an authenticated attacker with valid credentials for a user account with",
         "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
         "affected": [
           "Cisco"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
+      }
+    },
+    {
+      "title": "USN-9199-1: authd vulnerability",
+      "link": "https://ubuntu.com/security/notices/USN-9199-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-11-25T17:32:51.000Z",
+      "summary": "Adrian Dombeck discovered that authd incorrectly assigned user and group\nidentifiers during first-time SSH logins. A remote authenticated user could\npossibly use this issue to access or modify files belonging to another\n",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Adrian Dombeck discovered a vulnerability in authd where user and group identifiers were incorrectly assigned during first-time SSH logins. A remote authenticated user could exploit this flaw to access or modify files belonging to other users.",
+        "whyItMatters": "This flaw could allow unauthorized data access and modification across user accounts during SSH logins.",
+        "affected": [
+          "authd"
+        ],
+        "action": "Update authd to the latest patched version.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
       }
     },
     {
@@ -237,8 +704,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -294,6 +761,35 @@
         "affected": [],
         "action": "Stay vigilant against emerging fraud schemes and report suspicious activities.",
         "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-9197-1: Speex vulnerability",
+      "link": "https://ubuntu.com/security/notices/USN-9197-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-11-25T15:48:32.000Z",
+      "summary": "It was discovered that Speex incorrectly handled oversize input when\nappending data to a bit buffer not owned by the library. An attacker\ncould possibly use this issue to cause Speex to crash, resulting in a\ndenial of se",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A vulnerability was discovered in Speex involving incorrect handling of oversize input when appending data to a bit buffer not owned by the library. An attacker could exploit this issue to cause a crash, resulting in a denial of service.",
+        "whyItMatters": "This vulnerability allows attackers to cause application crashes, leading to potential denial of service for systems relying on the Speex library.",
+        "affected": [
+          "Speex"
+        ],
+        "action": "Update Speex to the latest patched version provided by your vendor.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "ai"
       }
@@ -588,8 +1084,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -616,10 +1112,36 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
+      }
+    },
+    {
+      "title": "icsScanner: Safe Active Vulnerability Scanning for ICS and OT Networks",
+      "link": "https://bishopfox.com/blog/icsscanner-safe-vulnerability-scanning-ics-ot",
+      "source": "Bishop Fox",
+      "publishedAt": "2026-11-25T14:00:00.000Z",
+      "summary": "Most scanners avoid ICS and OT networks because one bad probe can crash a PLC. Bishop Fox built icsScanner to fingerprint before every probe, cap confidence at what the evidence supports, and isolate physical-actuation f",
+      "categories": [
+        "Vulnerability"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Bishop Fox has developed icsScanner, a new tool designed to safely perform active vulnerability scanning on industrial control systems (ICS) and operational technology (OT) networks. The scanner uses pre-probe fingerprinting, evidence-based confidence capping, and isolation of physical-actuation functions to prevent programmable logic controller (PLC) crashes.",
+        "whyItMatters": "It provides a safer method for security professionals to actively assess fragile industrial environments without risking operational downtime or equipment failure.",
+        "affected": [],
+        "action": "Review the icsScanner tool for potential use in safely assessing your ICS and OT networks.",
+        "risk": "News",
+        "relatedCves": [],
+        "source": "ai"
       }
     },
     {
@@ -639,15 +1161,44 @@
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "Rapid7’s annual Security Predictions webinar returns on December 10, bringing our experts together to explore what the year ahead could hold for cybersecurity. Before sharing our predictions for 2027, we’re grading last ",
+        "summary": "Rapid7’s annual Security Predictions webinar returns on December 10, bringing our experts together to explore what the year ahead could hold for cybersecurity. Before sharing our predictions for 2027, we’re grading last",
         "whyItMatters": "Background context; no immediate action expected.",
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
+      }
+    },
+    {
+      "title": "USN-9196-1: Expat vulnerabilities",
+      "link": "https://ubuntu.com/security/notices/USN-9196-1",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-11-25T13:48:17.000Z",
+      "summary": "It was discovered that Expat did not properly validate UTF-16 surrogate\npairs. An attacker could possibly use this issue to pass malformed\ncharacters to applications using Expat, resulting in unexpected behavior.\n(CVE-20",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Expat was discovered to have vulnerabilities related to the improper validation of UTF-16 surrogate pairs. This issue allows an attacker to pass malformed characters to applications using Expat, leading to unexpected behavior.",
+        "whyItMatters": "It matters because applications relying on the Expat library for XML parsing could be manipulated via malformed input.",
+        "affected": [
+          "Expat"
+        ],
+        "action": "Update Expat to the latest patched version.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
       }
     },
     {
@@ -672,8 +1223,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -703,8 +1254,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Critical",
         "action": "Patch immediately.",
+        "risk": "Critical",
         "relatedCves": [
           "CVE-2026-132165"
         ],
@@ -728,13 +1279,13 @@
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "Matthew Martin is Chief Information Security and Privacy Officer at Western Carolina University.\nThe post Ground Truth: CISO Matt Martin on Building a Real Security Program Without an Enterprise Budget appeared first on ",
+        "summary": "Matthew Martin is Chief Information Security and Privacy Officer at Western Carolina University.\nThe post Ground Truth: CISO Matt Martin on Building a Real Security Program Without an Enterprise Budget appeared first on",
         "whyItMatters": "Background context; no immediate action expected.",
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -761,8 +1312,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "High",
         "action": "Monitor for indicators of compromise.",
+        "risk": "High",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -789,8 +1340,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -821,8 +1372,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Critical",
         "action": "Patch immediately.",
+        "risk": "Critical",
         "relatedCves": [
           "CVE-2026-120705",
           "CVE-2026-129243"
@@ -852,8 +1403,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -880,8 +1431,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -913,8 +1464,8 @@
         "affected": [
           "VMware"
         ],
-        "risk": "Critical",
         "action": "Patch immediately.",
+        "risk": "Critical",
         "relatedCves": [
           "CVE-2026-123903"
         ],
@@ -943,10 +1494,46 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
+      }
+    },
+    {
+      "title": "CISA Adds 10 Known Exploited Vulnerabilities to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-11-25T12:00:00.000Z",
+      "summary": "CISA has added 10 new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2023-25914 Danfoss AK-SM 800A Series Path Traversal Vulnerability\nCVE-2023-25915 D",
+      "categories": [
+        "Vulnerability",
+        "Government",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [
+        "CVE-2023-25914",
+        "CVE-2023-25915"
+      ],
+      "kev": true,
+      "poc": false,
+      "severity": "critical",
+      "breaking": true,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "CISA has added 10 new security flaws to its Known Exploited Vulnerabilities Catalog based on evidence of active attacks. The newly listed issues include a path traversal vulnerability in Danfoss AK-SM 800A Series products.",
+        "whyItMatters": "Inclusion in the KEV catalog indicates these vulnerabilities are actively weaponized in the wild, posing an immediate threat to organizations using the affected software.",
+        "affected": [
+          "Danfoss AK-SM 800A Series"
+        ],
+        "action": "Review the KEV catalog and apply necessary patches or mitigations immediately.",
+        "risk": "High",
+        "relatedCves": [
+          "CVE-2023-25914",
+          "CVE-2023-25915"
+        ],
+        "source": "ai"
       }
     },
     {
@@ -971,8 +1558,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1000,8 +1587,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1029,8 +1616,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Critical",
         "action": "Patch immediately.",
+        "risk": "Critical",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1062,8 +1649,8 @@
           "AWS",
           "Docker"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1090,8 +1677,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1118,8 +1705,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1146,8 +1733,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1176,8 +1763,8 @@
         "affected": [
           "Windows"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1204,8 +1791,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "High",
         "action": "Monitor for indicators of compromise.",
+        "risk": "High",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1232,8 +1819,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1260,36 +1847,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Treasury's FinCEN takes systems offline after cybersecurity incident",
-      "link": "https://therecord.media/treasury-fincen-takes-systems-offline-after-cyber-incident",
-      "source": "The Record",
-      "publishedAt": "2026-11-25T10:15:00.000Z",
-      "summary": "The Treasury Department has taken some systems offline after a cybersecurity incident that “resulted in unauthorized access to a limited subset of its systems.”",
-      "categories": [
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The Treasury Department has taken some systems offline after a cybersecurity incident that “resulted in unauthorized access to a limited subset of its systems.”",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Not specified"
-        ],
         "risk": "News",
-        "action": "No action required; informational.",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1316,8 +1875,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Critical",
         "action": "Patch immediately.",
+        "risk": "Critical",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1344,8 +1903,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1460,32 +2019,6 @@
         "relatedCves": [
           "CVE-2026-131914"
         ],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Microsoft confirms authentication issues after November updates",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-11-25T09:02:57.000Z",
-      "summary": "Microsoft has confirmed that customers may experience authentication issues after installing November security updates that address a high-severity remote code execution vulnerability. [...]",
-      "categories": [
-        "Vulnerability"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Microsoft confirmed that customers are experiencing authentication problems following the installation of the November security updates. These updates were originally released to address a high-severity remote code execution vulnerability.",
-        "whyItMatters": "Authentication failures can disrupt critical business operations and lock users out of their systems.",
-        "affected": [],
-        "action": "Check Microsoft support channels for workaround guidance.",
-        "risk": "High",
-        "relatedCves": [],
         "source": "ai"
       }
     },
@@ -1626,36 +2159,10 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
-      }
-    },
-    {
-      "title": "Hackers reportedly breached CIA intelligence analysis system",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-11-25T07:45:03.000Z",
-      "summary": "Unknown attackers have reportedly breached an open-source intelligence analysis system at the US Central Intelligence Agency (CIA) [...]",
-      "categories": [
-        "Open Source"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Unknown hackers have reportedly breached an open-source intelligence analysis system used by the US Central Intelligence Agency. The incident highlights potential security vulnerabilities within high-profile government intelligence infrastructure.",
-        "whyItMatters": "A breach of a CIA intelligence analysis system compromises sensitive government operations and national security data.",
-        "affected": [],
-        "action": "Monitor official government advisories for further details and remediation guidance.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
       }
     },
     {
@@ -1866,6 +2373,64 @@
       }
     },
     {
+      "title": "DSA-6663-1 thunderbird - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00585.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "summary": "Multiple security issues were discovered in Thunderbird, which could\nresult in the execution of arbitrary code, spoofing of sender addresses\nin PGP-signed mails, bypass of email signature checks or information\ndisclosure",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple security issues were discovered in Thunderbird, which could\nresult in the execution of arbitrary code, spoofing of sender addresses\nin PGP-signed mails, bypass of email signature checks or information\ndisclosure",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Not specified"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
+      "title": "DSA-6662-1 firefox-esr - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00584.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "summary": "Multiple security issues have been found in the Mozilla Firefox web\nbrowser, which could potentially result in the execution of arbitrary\ncode, sandbox escape, privilege escalation, spoofing or information\ndisclosure.\n\n\n",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Firefox"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple security issues have been found in the Mozilla Firefox web\nbrowser, which could potentially result in the execution of arbitrary\ncode, sandbox escape, privilege escalation, spoofing or information\ndisclosure.\n\n\n",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Firefox"
+        ],
+        "risk": "Medium",
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
       "title": "DSA-6661-1 shadow - security update",
       "link": "https://lists.debian.org/debian-security-announce/2026/msg00583.html",
       "source": "Debian Security",
@@ -1887,8 +2452,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1916,8 +2481,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1945,8 +2510,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1974,8 +2539,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -2149,34 +2714,6 @@
         ],
         "action": "Patch and secure the vulnerable visa and immigration platforms immediately.",
         "risk": "Critical",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Colorado says cyberattack took down myColorado app, warns 150,000 had data stolen",
-      "link": "https://therecord.media/mycolorado-app-down-data-breach",
-      "source": "The Record",
-      "publishedAt": "2026-11-24T20:52:00.000Z",
-      "summary": "Cybercriminals likely stole data from 150,000 users of myColorado, which residents typically use for digital identification, document storage and accessing state government services.",
-      "categories": [
-        "Government"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "A cyberattack on Colorado's myColorado digital ID application has taken the platform offline. State officials warn that cybercriminals likely stole personal data belonging to 150,000 users.",
-        "whyItMatters": "This incident exposes sensitive personal data and state government credentials for a large number of residents.",
-        "affected": [
-          "myColorado app"
-        ],
-        "action": "Monitor state communications and watch for potential identity theft.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -2502,66 +3039,6 @@
       }
     },
     {
-      "title": "[In preview] Public Preview: Cost controls for model and agent spending in Microsoft Foundry",
-      "link": "https://azure.microsoft.com/updates?id=581323",
-      "source": "Azure Updates",
-      "publishedAt": "2026-11-24T16:43:40.000Z",
-      "summary": "Within Microsoft Foundry, cost controls set a spending or token budget for a Foundry resource or project. When usage reaches a threshold that you set, a cost control sends an alert through Azure Event Grid or blocks new ",
-      "categories": [
-        "Cloud"
-      ],
-      "tags": [
-        "Azure"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Within Microsoft Foundry, cost controls set a spending or token budget for a Foundry resource or project. When usage reaches a threshold that you set, a cost control sends an alert through Azure Event Grid or blocks new",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Azure"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "[In preview] Public Preview: Central governance of hosted-agent outbound domains in Foundry Agent Service",
-      "link": "https://azure.microsoft.com/updates?id=581328",
-      "source": "Azure Updates",
-      "publishedAt": "2026-11-24T16:42:20.000Z",
-      "summary": "Administrators can use Azure Policy to govern outbound destinations for hosted agents in Foundry Agent Service. Agent authors configure and attach a compliant egress policy before creating an agent version. The egress po",
-      "categories": [
-        "Cloud"
-      ],
-      "tags": [
-        "Azure"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Administrators can use Azure Policy to govern outbound destinations for hosted agents in Foundry Agent Service. Agent authors configure and attach a compliant egress policy before creating an agent version. The egress po",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "Azure"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "New Inception Extortion Brand Tied to SSO Vishing Campaign",
       "link": "https://www.infosecurity-magazine.com/news/inception-extortion-sso-vishing/",
       "source": "Infosecurity Magazine",
@@ -2672,8 +3149,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -2904,6 +3381,35 @@
       }
     },
     {
+      "title": "AutomationDirect C-More EA9 Programming Software",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01",
+      "source": "CISA Advisories",
+      "publishedAt": "2026-11-24T12:00:00.000Z",
+      "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow attackers to corrupt application memory and cause instability or a crash, potentially leading to arbitrary code execution, if a user is convince",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow attackers to corrupt application memory and cause instability or a crash, potentially leading to arbitrary code execution, if a user is convince",
+        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
+        "affected": [
+          "Not specified"
+        ],
+        "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "heuristic"
+      }
+    },
+    {
       "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog",
       "source": "CISA Advisories",
@@ -2938,35 +3444,6 @@
       }
     },
     {
-      "title": "Danfoss AK-SM 8xxA Series",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-11-24T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to execute arbitrary code with webserver privileges.\nThe following versions of Danfoss AK-SM 8xxA Series are affected:\nAK-SM8xxA <=5",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to execute arbitrary code with webserver privileges.\nThe following versions of Danfoss AK-SM 8xxA Series are affected:\nAK-SM8xxA <=5",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Schneider Electric EcoStruxure Power Build Rapsody software",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02",
       "source": "CISA Advisories",
@@ -2996,11 +3473,11 @@
       }
     },
     {
-      "title": "AutomationDirect C-More EA9 Programming Software",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01",
+      "title": "Danfoss AK-SM 8xxA Series",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03",
       "source": "CISA Advisories",
       "publishedAt": "2026-11-24T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow attackers to corrupt application memory and cause instability or a crash, potentially leading to arbitrary code execution, if a user is convince",
+      "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to execute arbitrary code with webserver privileges.\nThe following versions of Danfoss AK-SM 8xxA Series are affected:\nAK-SM8xxA <=5",
       "categories": [
         "Vulnerability",
         "Vendor Advisory"
@@ -3013,7 +3490,7 @@
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow attackers to corrupt application memory and cause instability or a crash, potentially leading to arbitrary code execution, if a user is convince",
+        "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to execute arbitrary code with webserver privileges.\nThe following versions of Danfoss AK-SM 8xxA Series are affected:\nAK-SM8xxA <=5",
         "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
         "affected": [
           "Not specified"
@@ -3130,278 +3607,6 @@
       }
     },
     {
-      "title": "USN-9192-1: Linux kernel (NVIDIA) vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-9192-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-11-24T08:42:57.000Z",
-      "summary": "It was discovered that some AMD processors did not properly perform Reverse\nMap Table (RMP) checks when the IOMMU accessed certain host buffers. A\nlocal attacker with hypervisor access could possibly use this to trigger ",
-      "categories": [
-        "Vulnerability",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "It was discovered that some AMD processors did not properly perform Reverse\nMap Table (RMP) checks when the IOMMU accessed certain host buffers. A\nlocal attacker with hypervisor access could possibly use this to trigger",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Linux"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "USN-9191-1: Linux kernel (Azure) vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-9191-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-11-24T08:42:14.000Z",
-      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - Multiple devices driver;\n  - eXpress",
-      "categories": [
-        "Vulnerability",
-        "Incident Response",
-        "Cloud",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux",
-        "Azure"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - Multiple devices driver;\n  - eXpress",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Linux",
-          "Azure"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "USN-9190-1: Linux kernel vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-9190-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-11-24T08:41:13.000Z",
-      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - S390 architecture;\n  - x86 architect",
-      "categories": [
-        "Vulnerability",
-        "Incident Response",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - S390 architecture;\n  - x86 architect",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Linux"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "USN-9173-3: Linux kernel (NVIDIA) vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-9173-3",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-11-24T08:41:02.000Z",
-      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - Multiple devices driver;\n  - eXpress",
-      "categories": [
-        "Vulnerability",
-        "Incident Response",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - Multiple devices driver;\n  - eXpress",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Linux"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "USN-9174-2: Linux kernel (Low Latency NVIDIA) vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-9174-2",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-11-24T08:40:59.000Z",
-      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - Multiple devices driver;\n  - eXpress",
-      "categories": [
-        "Vulnerability",
-        "Incident Response",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - Multiple devices driver;\n  - eXpress",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Linux"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "USN-9167-3: Linux kernel vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-9167-3",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-11-24T08:40:58.000Z",
-      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - Stream parser;\n  - ARM64 architectur",
-      "categories": [
-        "Vulnerability",
-        "Incident Response",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - Stream parser;\n  - ARM64 architectur",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Linux"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "USN-9168-4: Linux kernel (Azure) vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-9168-4",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-11-24T08:40:54.000Z",
-      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - Stream parser;\n  - ARM64 architectur",
-      "categories": [
-        "Vulnerability",
-        "Incident Response",
-        "Cloud",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux",
-        "Azure"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - Stream parser;\n  - ARM64 architectur",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Linux",
-          "Azure"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "USN-9170-4: Linux kernel (Azure) vulnerabilities",
-      "link": "https://ubuntu.com/security/notices/USN-9170-4",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-11-24T08:40:41.000Z",
-      "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - IPv4 networking;\n  - Ethernet bridge",
-      "categories": [
-        "Vulnerability",
-        "Incident Response",
-        "Cloud",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Linux",
-        "Azure"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several security issues were discovered in the Linux kernel.\nAn attacker could possibly use these to compromise the system.\nThis update corrects flaws in the following subsystems:\n  - IPv4 networking;\n  - Ethernet bridge",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Linux",
-          "Azure"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "Reprioritizing Automated Leads with CrowdStrike Signal",
       "link": "https://www.crowdstrike.com/en-us/blog/reprioritizing-automated-leads-crowdstrike-signal/",
       "source": "CrowdStrike",
@@ -3506,40 +3711,6 @@
         "action": "Review advisory for affected versions and patch on your normal cycle.",
         "risk": "Medium",
         "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "DSA-6655-1 flatpak - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00577.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-11-24T00:00:00.000Z",
-      "summary": "The following security vulnerabilities were discovered in Flatpak, an\napplication deployment framework for desktop apps:\n\nCVE-2026-133842\n\n    A compromised or malicious app/runtime/extension with extra-data\n    can crea",
-      "categories": [
-        "Vulnerability",
-        "Incident Response",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [
-        "CVE-2026-133842"
-      ],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The following security vulnerabilities were discovered in Flatpak, an\napplication deployment framework for desktop apps:\n\nCVE-2026-133842\n\n    A compromised or malicious app/runtime/extension with extra-data\n    can crea",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [
-          "CVE-2026-133842"
-        ],
         "source": "heuristic"
       }
     },
@@ -4273,34 +4444,6 @@
       }
     },
     {
-      "title": "DSA-6654-1 mediawiki - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00576.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-11-23T00:00:00.000Z",
-      "summary": "Multiple security issues were discovered in MediaWiki, a website engine\nfor collaborative work, which could result in authorisation bypass,\ninformation disclosure, open redirects, denial of service or cross-site\nscriptin",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Multiple security issues were discovered in MediaWiki, a website engine\nfor collaborative work, which could result in authorisation bypass,\ninformation disclosure, open redirects, denial of service or cross-site\nscriptin",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
       "title": "The Checkbox Pentest",
       "link": "https://www.hacktron.ai/blog/the-checkbox-pentest",
       "source": "Hacktron AI",
@@ -4911,35 +5054,6 @@
       "readTimeMin": 1,
       "aiSummary": {
         "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to gain control of the brakes of a trailer, modify the firmware, disable the brake lights, modify the brake conditions or disable",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Autonomy Logic OpenPLC Runtime",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01",
-      "source": "CISA Advisories",
-      "publishedAt": "2026-11-19T12:00:00.000Z",
-      "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow several unauthenticated admin accounts to be created.\nThe following versions of Autonomy Logic OpenPLC Runtime are affected:\nOpenPLC Runtime <=4",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow several unauthenticated admin accounts to be created.\nThe following versions of Autonomy Logic OpenPLC Runtime are affected:\nOpenPLC Runtime <=4",
         "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
         "affected": [
           "Not specified"
@@ -5591,62 +5705,6 @@
       }
     },
     {
-      "title": "Weekly Report: N-able N-centralに複数の脆弱性",
-      "link": "https://www.jpcert.or.jp/wr/2026/wr261118.html#1",
-      "source": "JPCERT/CC",
-      "publishedAt": "2026-11-18T00:15:00.000Z",
-      "summary": "N-able N-centralに複数の脆弱性",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "Multiple vulnerabilities have been reported in N-able N-central. Details regarding the specific nature and exploitation of these flaws remain limited in the advisory.",
-        "whyItMatters": "Unpatched vulnerabilities in remote monitoring and management software can allow attackers to compromise managed networks and systems.",
-        "affected": [
-          "N-able N-central"
-        ],
-        "action": "Check for vendor security advisories and apply available patches or updates immediately.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Weekly Report: ImageMagickを利用したアプリケーションに任意のファイルの読み書きなどにつながる脆弱性",
-      "link": "https://www.jpcert.or.jp/wr/2026/wr261118.html#2",
-      "source": "JPCERT/CC",
-      "publishedAt": "2026-11-18T00:15:00.000Z",
-      "summary": "ImageMagickを利用したアプリケーションに任意のファイルの読み書きなどにつながる脆弱性",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 2,
-      "aiSummary": {
-        "summary": "A vulnerability in applications utilizing ImageMagick has been identified, potentially allowing attackers to read and write arbitrary files. This security flaw poses a significant threat to systems relying on the affected software for image processing.",
-        "whyItMatters": "It matters because successful exploitation could allow unauthorized access to sensitive files on the underlying system.",
-        "affected": [
-          "ImageMagick"
-        ],
-        "action": "Update ImageMagick to the latest patched version immediately.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "Java4Shell: OpenJDK Base64 RCE",
       "link": "https://www.hacktron.ai/blog/java4shell",
       "source": "Hacktron AI",
@@ -5731,94 +5789,6 @@
         "risk": "High",
         "relatedCves": [],
         "source": "heuristic"
-      }
-    },
-    {
-      "title": "Borrowed Code, Real Consequences: What OPTIMJACK Teaches Us",
-      "link": "https://unit42.paloaltonetworks.com/optimjack-supply-chain-attack/",
-      "source": "Unit 42",
-      "publishedAt": "2026-11-17T20:43:14.000Z",
-      "summary": "The OPTIMJACK supply chain attack demonstrates how a compromised vendor script can expose websites, highlighting the need for strict segmentation.\nThe post Borrowed Code, Real Consequences: What OPTIMJACK Teaches Us appe",
-      "categories": [
-        "Incident Response"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "The OPTIMJACK supply chain attack highlights the security risks posed to websites by compromised vendor scripts. This incident emphasizes the critical need for strict network and environment segmentation.",
-        "whyItMatters": "It demonstrates how third-party dependencies can become a direct vector for compromising website security.",
-        "affected": [],
-        "action": "Implement strict segmentation for all vendor scripts and third-party dependencies.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "Maintainers don’t need more AI bug reports. They need fixes.",
-      "link": "https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/",
-      "source": "GitHub Blog Security",
-      "publishedAt": "2026-11-17T18:29:29.000Z",
-      "summary": "In the Codename MDASH pilot, GitHub and Microsoft turned thousands of raw AI findings into 99 checked, private reports with suggested fixes for six widely used open source projects. Maintainers have already fixed more th",
-      "categories": [
-        "AI Security",
-        "Open Source"
-      ],
-      "tags": [
-        "GitHub"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "In the Codename MDASH pilot, GitHub and Microsoft turned thousands of raw AI findings into 99 checked, private reports with suggested fixes for six widely used open source projects. Maintainers have already fixed more th",
-        "whyItMatters": "Background context; no immediate action expected.",
-        "affected": [
-          "GitHub"
-        ],
-        "action": "No action required; informational.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "Patch Me If You Can: Tracing CVEs to Deployed Code",
-      "link": "https://bishopfox.com/blog/tracing-cves-to-deployed-code",
-      "source": "Bishop Fox",
-      "publishedAt": "2026-11-17T14:00:00.000Z",
-      "summary": "Version strings and package records don’t always reveal whether a CVE fix applies. Bishop Fox tested Node.js builds with identical Brotli versions, a PHP backport, and a separate libwebp copy to show why checking the cod",
-      "categories": [
-        "News"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Bishop Fox demonstrated that standard version strings and package records often fail to accurately reflect whether a CVE fix is actually applied in deployed code. The research highlighted specific scenarios involving Node.js builds, a PHP backport, and a separate libwebp copy to prove the limitations of traditional vulnerability tracing.",
-        "whyItMatters": "It matters because relying solely on version numbers for vulnerability management can lead to false assurances regarding software security.",
-        "affected": [
-          "Node.js",
-          "PHP",
-          "libwebp",
-          "Brotli"
-        ],
-        "action": "Verify actual code implementation rather than relying solely on version strings.",
-        "risk": "News",
-        "relatedCves": [],
-        "source": "ai"
       }
     }
   ]
