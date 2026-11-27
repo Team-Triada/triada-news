@@ -1,6 +1,66 @@
 {
-  "updatedAt": "2026-11-26T22:19:28.161Z",
+  "updatedAt": "2026-11-27T04:17:53.480Z",
   "items": [
+    {
+      "title": "Free e-government platform that serves two billion people in ten countries has critical SQL injection bug",
+      "link": "https://www.theregister.com/security/2026/11/27/free-e-government-platform-that-serves-two-billion-people-in-ten-countries-has-critical-sql-injection-bug/5312449",
+      "source": "The Register",
+      "publishedAt": "2026-11-27T01:19:31.000Z",
+      "summary": "India’s Digital Infrastructure for Governance Impact and Transformation tool can leak data",
+      "categories": [
+        "Government"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "news",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A critical SQL injection vulnerability has been discovered in India's Digital Infrastructure for Governance Impact and Transformation, a free e-government platform. This flaw could potentially allow attackers to leak sensitive data from the system.",
+        "whyItMatters": "This vulnerability threatens the security and data privacy of an e-government platform serving two billion people across ten countries.",
+        "affected": [
+          "Digital Infrastructure for Governance Impact and Transformation"
+        ],
+        "action": "Patch the SQL injection vulnerability immediately.",
+        "risk": "Critical",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "USN-9016-2: Apache HTTP Server regression",
+      "link": "https://ubuntu.com/security/notices/USN-9016-2",
+      "source": "Canonical Ubuntu Security",
+      "publishedAt": "2026-11-26T22:34:55.000Z",
+      "summary": "USN-9016-1 fixed vulnerabilities in Apache2. Unfortunately the upstream\nfix introduced a regression that prevented cookies being set during a\nredirect under certain circumstances. This update fixes the problem.\n\nOriginal",
+      "categories": [
+        "Vulnerability",
+        "Open Source",
+        "Vendor Advisory"
+      ],
+      "tags": [
+        "Apache"
+      ],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Canonical has released a security update to address a regression introduced in a previous Apache HTTP Server fix. This bug prevented cookies from being properly set during redirects under specific conditions.",
+        "whyItMatters": "Unresolved regressions in web servers can disrupt session management and authentication flows during HTTP redirects.",
+        "affected": [
+          "Apache HTTP Server"
+        ],
+        "action": "Apply the latest Apache updates to resolve the cookie redirection regression.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
     {
       "title": "OpenAI warns GPT-6.2 Astra will hit usage limits 40% faster because it fixed a bug",
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
@@ -593,8 +653,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -623,8 +683,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Critical",
         "action": "Patch immediately.",
+        "risk": "Critical",
         "relatedCves": [
           "CVE-2026-103406"
         ],
@@ -650,13 +710,13 @@
       "breaking": false,
       "readTimeMin": 1,
       "aiSummary": {
-        "summary": "A new Android phone can come out of the box with malware already in its firmware, and the number of such devices detected each month has grown more than 2.5 times over the past year, according to Kaspersky. Keenadu, one ",
+        "summary": "A new Android phone can come out of the box with malware already in its firmware, and the number of such devices detected each month has grown more than 2.5 times over the past year, according to Kaspersky. Keenadu, one",
         "whyItMatters": "Background context; no immediate action expected.",
         "affected": [
           "Android"
         ],
-        "risk": "News",
         "action": "Monitor for indicators of compromise.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -683,8 +743,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -711,8 +771,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "News",
         "action": "No action required; informational.",
+        "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1097,8 +1157,8 @@
         "affected": [
           "Not specified"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
@@ -1187,38 +1247,6 @@
           "1Password"
         ],
         "action": "Review access controls and monitor GitHub integration logs for unauthorized activity.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "USN-9207-1: Apache Commons BCEL vulnerability",
-      "link": "https://ubuntu.com/security/notices/USN-9207-1",
-      "source": "Canonical Ubuntu Security",
-      "publishedAt": "2026-11-26T08:23:06.000Z",
-      "summary": "It was discovered that Apache Commons BCEL incorrectly cached classes under\ntheir self-declared names without validating them against the requested\nname. An attacker could possibly use this issue to cause BCEL to return ",
-      "categories": [
-        "Vulnerability",
-        "Open Source",
-        "Vendor Advisory"
-      ],
-      "tags": [
-        "Apache"
-      ],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Apache Commons BCEL incorrectly cached classes under their self-declared names without validating them against the requested name. This flaw could potentially allow an attacker to manipulate class loading behavior.",
-        "whyItMatters": "It compromises the integrity of class resolution in Java applications relying on the library.",
-        "affected": [
-          "Apache Commons BCEL"
-        ],
-        "action": "Update Apache Commons BCEL to the latest patched version.",
         "risk": "High",
         "relatedCves": [],
         "source": "ai"
@@ -1770,32 +1798,6 @@
         "affected": [],
         "action": "Monitor official updates and secure personal data if notified by FIFA.",
         "risk": "Medium",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
-      "title": "The security of US water systems is even leakier than we thought",
-      "link": "https://www.theregister.com/security/2026/11/25/the-security-of-us-water-systems-is-even-leakier-than-we-thought/5312243",
-      "source": "The Register",
-      "publishedAt": "2026-11-25T19:40:17.000Z",
-      "summary": "And intruders don't always need to exploit bugs to break in",
-      "categories": [
-        "Vulnerability"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "news",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Recent findings reveal that US water systems have significant security vulnerabilities. Furthermore, intruders do not always need to exploit software bugs to gain unauthorized access.",
-        "whyItMatters": "Critical infrastructure like water systems remains highly vulnerable to unauthorized access, posing severe risks to public safety.",
-        "affected": [],
-        "action": "Audit and strengthen access controls for critical water infrastructure systems.",
-        "risk": "High",
         "relatedCves": [],
         "source": "ai"
       }
@@ -3077,8 +3079,8 @@
         "affected": [
           "Cisco"
         ],
-        "risk": "Medium",
         "action": "Review advisory for affected versions and patch on your normal cycle.",
+        "risk": "Medium",
         "relatedCves": [],
         "source": "heuristic"
       }
