@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T22:41:53.332Z",
+  "updatedAt": "2026-11-28T04:44:19.687Z",
   "items": [
     {
       "title": "Friday Squid Blogging: Giant Squid in Newfoundland",
@@ -1165,6 +1165,121 @@
         "risk": "News",
         "relatedCves": [],
         "source": "heuristic"
+      }
+    },
+    {
+      "title": "DSA-6667-1 chromium - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00589.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-11-27T00:00:00.000Z",
+      "summary": "Security issues were discovered in Chromium which could result\nin the execution of arbitrary code, denial of service, or information\ndisclosure.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6667-1",
+      "categories": [
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple security issues have been discovered in the Chromium browser that could potentially lead to arbitrary code execution, denial of service, or information disclosure. Debian has released a security update to address these vulnerabilities.",
+        "whyItMatters": "Exploitation of these flaws could allow attackers to execute arbitrary code or disrupt system availability on affected machines.",
+        "affected": [
+          "Chromium"
+        ],
+        "action": "Update Chromium to the latest patched version provided by your distributor.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6666-1 postfixadmin - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00588.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-11-27T00:00:00.000Z",
+      "summary": "A cross-site scripting vulnerability was discovered in Postfixadmin,\na web interface to manage virtual users and domains for a Postfix\nmail transport agent.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6666-1",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "A cross-site scripting vulnerability has been discovered in Postfixadmin, a web-based management interface for Postfix mail transport agents. Debian has released a security update to address this vulnerability.",
+        "whyItMatters": "This vulnerability could allow attackers to execute malicious scripts in the context of a user's session, potentially leading to unauthorized actions or data theft.",
+        "affected": [
+          "postfixadmin"
+        ],
+        "action": "Update postfixadmin to the latest secured version.",
+        "risk": "Medium",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6665-1 ironic - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00587.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-11-27T00:00:00.000Z",
+      "summary": "Multiple security vulnerabilities were discovered in Ironic, the\nOpenStack component to manage and provision baremetal servers, which\ncould result in information disclosure or denial of service.\n\n\nhttps://security-tracke",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple security vulnerabilities have been discovered in OpenStack Ironic, a component used for managing and provisioning baremetal servers. These flaws could potentially lead to information disclosure or a denial of service.",
+        "whyItMatters": "Unpatched vulnerabilities in core infrastructure management tools like OpenStack Ironic can expose cloud environments to data breaches and service disruptions.",
+        "affected": [
+          "OpenStack Ironic"
+        ],
+        "action": "Apply the latest security updates provided by your distributor.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
+      }
+    },
+    {
+      "title": "DSA-6664-1 dnsdist - security update",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00586.html",
+      "source": "Debian Security",
+      "publishedAt": "2026-11-27T00:00:00.000Z",
+      "summary": "Multiple security vulnerabilities were discovered in the dnsdist DNS\nloadbalancer, which could result in denial of service, spoofing, cache\npollution or authentication bypass.\n\n\nhttps://security-tracker.debian.org/tracke",
+      "categories": [
+        "Vulnerability",
+        "Vendor Advisory"
+      ],
+      "tags": [],
+      "cves": [],
+      "kev": false,
+      "poc": false,
+      "severity": "medium",
+      "breaking": false,
+      "readTimeMin": 1,
+      "aiSummary": {
+        "summary": "Multiple security vulnerabilities have been discovered in the dnsdist DNS load balancer. These flaws can potentially lead to denial of service, spoofing, cache pollution, or authentication bypass.",
+        "whyItMatters": "Unpatched DNS load balancers are critical points of failure that can compromise network traffic integrity and availability.",
+        "affected": [
+          "dnsdist"
+        ],
+        "action": "Apply the latest security updates provided by your distribution.",
+        "risk": "High",
+        "relatedCves": [],
+        "source": "ai"
       }
     },
     {
@@ -3020,93 +3135,6 @@
       }
     },
     {
-      "title": "DSA-6659-1 exim4 - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00581.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-11-25T00:00:00.000Z",
-      "summary": "An out-of-bounds write vulnerability when decoding headers was\ndiscovered in the Exim mail transport agent, which could result in the\nexecution of arbitrary code.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6659-1",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "An out-of-bounds write vulnerability when decoding headers was\ndiscovered in the Exim mail transport agent, which could result in the\nexecution of arbitrary code.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6659-1",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "DSA-6658-1 request-tracker5 - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00580.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-11-25T00:00:00.000Z",
-      "summary": "Several vulnerabilities have been discovered in Request Tracker, an\nextensible trouble-ticket tracking system, which could result in\nprivilege escalation, authorization bypass, information disclosure,\ncross-site scriptin",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several vulnerabilities have been discovered in Request Tracker, an\nextensible trouble-ticket tracking system, which could result in\nprivilege escalation, authorization bypass, information disclosure,\ncross-site scriptin",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
-      }
-    },
-    {
-      "title": "DSA-6656-1 runc - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00578.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-11-25T00:00:00.000Z",
-      "summary": "Several vulnerabilities were discovered in runc, the Open Container\nInitiative runtime. Depending on the configuration, exploitation could\nexpose host resources, cause a denial of service, or permit container\nescape.\n\n\nh",
-      "categories": [
-        "Vulnerability",
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "Several vulnerabilities have been discovered in runc, the Open Container Initiative runtime. Depending on the system configuration, exploitation of these flaws could lead to host resource exposure, denial of service, or container escape.",
-        "whyItMatters": "Unpatched container escape and resource exposure vulnerabilities in runc put underlying host systems and isolated environments at severe risk of compromise.",
-        "affected": [
-          "runc"
-        ],
-        "action": "Update the runc package to the latest security release.",
-        "risk": "High",
-        "relatedCves": [],
-        "source": "ai"
-      }
-    },
-    {
       "title": "NGINX HTTP/2 Use-After-Free: CVE-2026-123633",
       "link": "https://unit42.paloaltonetworks.com/cve-2026-123633-nginx-http2-vulnerability/",
       "source": "Unit 42",
@@ -4003,34 +4031,6 @@
         "risk": "News",
         "relatedCves": [],
         "source": "ai"
-      }
-    },
-    {
-      "title": "DSA-6657-1 libzstd - security update",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00579.html",
-      "source": "Debian Security",
-      "publishedAt": "2026-11-24T00:00:00.000Z",
-      "summary": "It was discovered that incorrect buffer management in the implementation\nof the Zstandard compression algorithm could result in information\ndisclosure.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6657-1",
-      "categories": [
-        "Vendor Advisory"
-      ],
-      "tags": [],
-      "cves": [],
-      "kev": false,
-      "poc": false,
-      "severity": "medium",
-      "breaking": false,
-      "readTimeMin": 1,
-      "aiSummary": {
-        "summary": "It was discovered that incorrect buffer management in the implementation\nof the Zstandard compression algorithm could result in information\ndisclosure.\n\n\nhttps://security-tracker.debian.org/tracker/DSA-6657-1",
-        "whyItMatters": "Worth tracking; patch during normal maintenance windows.",
-        "affected": [
-          "Not specified"
-        ],
-        "action": "Review advisory for affected versions and patch on your normal cycle.",
-        "risk": "Medium",
-        "relatedCves": [],
-        "source": "heuristic"
       }
     },
     {
